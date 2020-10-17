@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Cesare De Lollis ad Alessandro D’Ancona, 21 novembre 1895</title>
+                <editor role="transcription"><persName>Debora Matteo</persName></editor>
+                <editor role="encoding"><persName>Laura Pireddu</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2020-05-12"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl><bibl>Debora Matteo, <title>Itinerario di un carteggio</title>, tesi di laurea, Sapienza Università di Roma, a.a. 2017-2018</bibl></listBibl>
+                <msDesc>
+                    <msIdentifier><repository>Biblioteca della Scuola Normale Superiore di Pisa, Fondo D’Ancona.</repository></msIdentifier>
+                    <msContents><summary corresp="#letter">Lettera di Cesare De Lollis ad Alessandro D’Ancona del 21 novembre 1895.</summary></msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#CDL">Cesare De Lollis</persName>
+                    <placeName ref="#sconosciuto">?</placeName>
+                    <date when="1895-11-21"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#ADA">Alessandro D’Ancona</persName>
+                    <placeName ref="#sconosciuto">?</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                    <p>[...]</p>
+                    <p>Grazie della Sua buona disposizione a voler dedicare qualche colonna della sua <title ref="#rassegna">Rassegna</title> al mio <title ref="#sordello">Sordello</title>. 
+                        Col <persName ref="#PEG">Guarnerio</persName> io sono in ottimi 
+                        rapporti: ma egli ha ora molto da fare, e, per quel che più monta, occorrerà forse tra breve discutere di Lettere. Della cosa Le tocco in confidenza, per dimostrarle la convenienza che altri, 
+                        piuttosto che lui, si occupi del mio <title ref="#sordello">Sordello</title>. Poiché le occupazioni che La sopraffanno in questo momento non mi consentono l’onore, al quale molto avrei tenuto, d’esser giudicato da Lei, 
+                        voglia Ella, senz’altro, scegliere il recensente: potrebb’essere il <persName ref="#LB1">Biadene</persName>, che non credo abbia lasciato <placeName ref="#pisa">Pisa</placeName> per <placeName ref="#milano">Milano</placeName>, oppure il <persName ref="#EGP">Parodi</persName>, 
+                        uno qualunque insomma dei tanti che soglion scrivere sulla <title ref="#rassegna">Rassegna</title>. D’una critica acerba non sarei punto scontento: perché di <title ref="#sordello">Sordello</title> avrò certo a toccar di nuovo trattando d’altri 
+                        trovatori italiani, e sarà quindi fortuna per me se mi verranno segnalati gli errori nei quali sarò incorso sul suo conto.</p>
+                    <p>[...]</p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

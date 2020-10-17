@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Pio Rajna a Ernesto Monaci, 31 dicembre 1875</title>
+                <editor role="transcription"><persName>Alessia Di Virgilio</persName></editor>
+                <editor role="encoding"><persName>Margherita Filippozzi</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2020-03-22"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl><bibl>Alessia Di Virgilio, <title>Carteggio Monaci - Rajna (1873-1877)</title>, tesi di laurea, Sapienza Università di Roma, a.a. 2018-2019</bibl></listBibl>
+                <msDesc>
+                    <msIdentifier><repository>Archivio Monaci, Società Filologica Romana, presso il Dipartimento di Studi Europei, Americani e Interculturali, Sapienza, Università di Roma.</repository> <idno>Busta n. 22, fascicolo 1095, lettera XX.</idno></msIdentifier>
+                    <msContents><summary corresp="#letter">Lettera di Pio Rajna a Ernesto Monaci del 31 dicembre 1875, con le congratulazioni per il conferimento a Monaci della cattedra di Storia comparata delle lingue neolatine all’Università Sapienza.</summary></msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#PR">Pio Rajna</persName>
+                    <placeName ref="#milano">Milano</placeName>
+                    <date when="1875-12-31"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#roma">Roma</placeName>
+                    <date when="1876-01-03"/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                    <opener><dateline><placeName ref="#milano">Milano</placeName>, <date when="1875-12-31">31 Dicembre 1875</date></dateline>                        
+                        <salute>Mio caro <persName ref="#EM">Monaci</persName>,</salute></opener>
+                    <p>non l’avrai a male se della tua nomina non mi rallegro tanto con te, quanto col romanismo ufficiale del <placeName ref="#italia">Regno D’Italia</placeName>, che fa un acquisto così prezioso.
+                        Ti si sarebbe proposto per P.°, ma solo per renderti giustizia, e colla sicurezza che non ti saresti neppure sognato d’accettare. 
+                        - Ho qui sul tavolo il <title ref="#canzoniere"><hi rend="underline">Canzoniere</hi></title>. Di questo poi mi rallegro proprio colla tua persona.
+                        Non dico altro, perché fino ad ora ho solo potuto dare un’occhiata al volume.</p>
+                    <p>Mi tiene occupato l’<title ref="#ariosto"><persName type="author" ref="#ariosto">Ariosto</persName></title>, di cui ho cominciato a mandare una parte alla tipografia.
+                        Credo d’averti detto che lo stampa il <persName ref="#GCS">Sansoni</persName>.</p>
+                    <closer><salute>Addio, caro collega.</salute>
+                        <salute>Mille auguri per il nuovo anno dal</salute>
+                        <salute>Tuo <expan><abbr>aff</abbr><ex>ezionatissi</ex><abbr>mo</abbr></expan></salute> <signed><persName ref="#PR"><expan><abbr>P</abbr><am>.</am><ex>io</ex></expan> <expan><abbr>R</abbr><am>.</am><ex>ajna</ex></expan></persName></signed></closer>                   
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

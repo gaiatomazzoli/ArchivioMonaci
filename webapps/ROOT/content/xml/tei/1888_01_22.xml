@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Cesare De Lollis a Ernesto Monaci, 22 gennaio 1888</title>
+                <editor role="transcription"><persName>Susanna Casacchia</persName>, <persName>Debora Matteo</persName></editor>
+                <editor role="encoding"><persName>Susanna Casacchia</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2020-04-26"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl><bibl>Debora Matteo, <title>Itinerario di un carteggio</title>, tesi di laurea, Sapienza Università di Roma, a.a. 2017-2018</bibl></listBibl>
+                <msDesc>
+                    <msIdentifier><repository>Archivio Monaci, Società Filologica Romana, presso il Dipartimento di Studi Europei, Americani e Interculturali, Sapienza, Università di Roma.</repository> <idno>Busta n. 8, fascicolo 394.</idno></msIdentifier>
+                    <msContents><summary corresp="#letter">Lettera di Cesare De Lollis a Ernesto Monaci del 22 gennaio 1888.</summary></msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#CDL">Cesare De Lollis</persName>
+                    <placeName ref="#paris">Parigi</placeName>
+                    <date when="1888-01-22"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#roma">Roma</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                    <div type="textpart" subtype="envelope">
+                        <opener> 
+                         <address>
+                            <addrLine>Piazza Capranica, 95 II</addrLine> 
+                            </address>
+                            <salute>Egregio <expan><abbr>Sig</abbr><am>.</am><ex>or</ex></expan> Professore,</salute>
+                    </opener>
+                        <p>Come Ella saprà, ho già da parecchj giorni rinviato al <expan><abbr>D</abbr><am>.</am><ex>otto</ex><abbr>r</abbr></expan> Levi, dietro sua richesta, il manoscritto affidatomi
+                            per la collazione. E proprio adesso che non l’ho meco, mi capita l’occasione di un tale, uscito dalla Scuola delle <gap reason="illegible" extent="unknown" unit="chars"/>, 
+                            che sarebbe disposto ad assumere il lavoro. Io, naturalmente, gli ho lasciato intravedere questo lavoro solo come un possibilità lontana: ma ritengo che non sarebbe male decidersi, 
+                            poiché una volta ammesso pure che si <gap reason="illegible" extent="unknown" unit="chars"/> la collazione, e, fatti ora bene i miei calcoli, è assolutamente impossibile che mi 
+                            comprometta a farlo io. Ma domando perdono a Lei che, <gap reason="illegible" extent="unknown" unit="chars"/>, immaginerà quanto io abbia pericolato prima di prendere per mio conto 
+                            a significare a Lei questa mia risoluzione negativa, e immaginarsi anche quale siano le ragioni. Di <persName type="author" ref="#CRC">Caffaro</persName> c’è ancor molto da collazionare: e la collazione
+                            riesce tanto più lunga, in quanto che s’ha da farla su due manoscritti esistenti in due sedi diverse: e il <orgName ref="#ME">Ministero degli Affari Esteri</orgName> è 
+                            ai Campi Elisei. Quantunque io vi lavori giorno per giorno non sarà possibile, perché il <expan><abbr>Prof</abbr><am>.</am><ex>essor</ex></expan> <persName ref="#LTB">Belgrano</persName> 
+                            la vuole eseguita <pb/> colla massima precisione, terminare la collazione avanti la fine di marzo. Io preferisco impiegare su essa tutto 1 certo tempo, 
+                            senza occuparmi di mie cose, poiché è mia cura <gap reason="illegible" extent="unknown" unit="chars"/> di non poter pensare a ciò che <gap reason="illegible" extent="unknown" unit="chars"/>
+                            <unclear>francamente</unclear>. La collazione di <persName type="author" ref="#CRC">Caffaro</persName> prende <gap reason="illegible" extent="unknown" unit="chars"/> alacremente: mi maraviglio 
+                            però come non si <gap reason="illegible" extent="unknown" unit="chars"/> varianti di alcun interesse. Mi si dice alla <orgName ref="#BnF">Nazionale</orgName> che la copia del ms. 
+                            così costruito fu eseguita dal <persName ref="#GHP">Pertz</persName> in persona: e ciò spiega la grande curatezza: quanto al ms. degli <orgName ref="#ME">Esteri</orgName>, 
+                            esso è è copia diretta di quello, eseguita da un copista ignorante e le varianti che se ne cavano non sono che sbagli grossolani di trascrizione.</p>
+                        <p> Ma, tornando al lavoro del Levi, Le domando: 1°. se si intenda applicare la collazione a qualcuno che non sia io; 2°. che presso gli <gap reason="illegible" extent="unknown" unit="chars"/>
+                            io <gap reason="illegible" extent="unknown" unit="chars"/>; 3°. se mi si può subito rinviare il ms. per far incominciare la collazione. Le sarò grato di una risposta a tali quesiti.</p>
+                        <p> Quanto a me, non ho molto di nuovo da dire. Il <persName ref="#PM">Meyer</persName> mi <unclear>colma</unclear> di attenzioni, e non men di lui il <persName ref="#GP">Paris</persName>. 
+                            Quest’ultimo però mi si mostra di questi giorni un po’ urtato: egli sa che ho il lavoro della collazione, sa che mi occupo dell’<rs type="topic" key="Umlaut">Umlaut</rs>, sa che ho da 
+                            preparare l’edizione del poemetto delle <hi rend="underline">femmine</hi>, mi ha incaricato <pb/> inoltre di una recensione per la <title ref="#ROM">Romania</title> - e 
+                            tuttavia non sa perdonarmi che non mi decida a prendere uno di quei tali dieci argomenti proposti al suo corso. Cercherò di fargli capire che non ho cento braccia.</p> 
+                        <p>Qui, è impossibile studiare molto, anche per la sistemazione delle Biblioteche. La <orgName ref="#BnF">Nazionale</orgName> è aperta solo sei ore e non meno di un’ora si 
+                            attende per avere un libro. Un giornale giorni fa tra i <unclear>modi</unclear> che proponeva per prendere un po’ di soldi senza far nulla, proponeva quello di andare a domandare un libro alla <orgName ref="#BnF">Nazionale</orgName>.</p>
+                        <closer>
+                            <salute>Mi dia qualche volta sue notizie e mi creda il suo affmo buon discepolo</salute>
+                            <signed><persName ref="#CDL">De Lollis</persName></signed>
+                            <dateline>
+                            <placeName ref="#paris">Parigi</placeName>
+                            <date when="1888-01-22">22 Gennaio</date>
+                        </dateline>
+                        </closer>
+                </div>
+            </div>
+            </div>
+        </body>
+    </text>
+</TEI>

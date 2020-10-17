@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Pio Rajna a Ernesto Monaci, 7 giugno 1873</title>
+                <editor role="transcription"><persName>Alessia Di Virgilio</persName></editor>
+                <editor role="encoding"><persName>Eleonora Bruno</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2020-03-28"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl><bibl>Alessia Di Virgilio, <title>Carteggio Monaci - Rajna (1873-1877)</title>, tesi di laurea, Sapienza Università di Roma, a.a. 2018-2019</bibl></listBibl>
+                <msDesc>
+                    <msIdentifier><repository>Archivio Monaci, Società Filologica Romana, presso il Dipartimento di Studi Europei, Americani e Interculturali, Sapienza, Università di Roma.</repository> <idno>Busta n. 22, fascicolo 1095, lettera 3</idno></msIdentifier>
+                    <msContents><summary corresp="#letter">Lettera di Pio Rajna a Ernesto Monaci del 7 giugno 1873.</summary></msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#PR">Pio Rajna</persName>
+                    <placeName ref="#milano">Milano</placeName>
+                    <date when="1873-06-07"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#roma">Roma</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                    <opener>
+                        <dateline>
+                            <placeName ref="#milano">Milano</placeName>,
+                            <date when="1873-06-07">7 giugno 1873</date> 
+                        </dateline>
+                        <salute>Mio Riverito Signore,</salute>
+                    </opener>
+                    <p>Avrei quasi in pronto per la pubblicazione dei <title ref="#frammenti">frammenti</title> di romanzi in prosa, che ho tratto da un <title type="manuscript" key="Codice Ambrosiano">codice ambrosiano</title>, e parecchie pagine di mio, che mi è parso necessario mandar loro innanzi. Non si tratta di documenti molto importanti; tuttavia la <rs type="topic" key="Dialetti">forma dialettale</rs> in cui questi due brani ci si presentano li rende abbastanza singolari perché siano degni di essere conosciuti. Gradirei di sapere se Ella li accoglierebbe volentieri nella <title ref="#RFR">Rivista</title>, e quando, nel caso ch’io li mandassi, potrebbero venire in luce. Siccome s’avvicina un tempo nel quale mi riesce assai malagevole l’attendere a stampa, amerei levarmi presto dattorno questo lavoraccio.</p>
+                    <p>Il professor <persName ref="#EMS">Stengel</persName> mi disse che ai collaboratori si suol dare un certo numero di estratti; vorrebbe Ella dirmi quanti precisamente?</p> <pb/>
+                    <p>All’<title ref="#attila"><hi rend="underline">Attila</hi></title> non ho ancora potuto metter mano, avendo parecchi lavori da sbrigare e poco tempo a mia disposizione. Ma dubito che possa essere lavoro opportuno per la <title ref="#RFR">Rivista</title>; forse riuscirà troppo lungo, e allora sarà meglio cercare un’altra via di pubblicazione.</p>
+                    <closer>
+                        <salute>Con sincera stima mi creda.
+                        Suo devotissimo</salute>
+                        <signed><persName ref="#PR">Pio Rajna</persName></signed>
+                    </closer>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

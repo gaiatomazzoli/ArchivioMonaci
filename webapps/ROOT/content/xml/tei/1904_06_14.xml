@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Cesare De Lollis a Francesco Novati, 14 giugno 1904</title>
+                <editor role="transcription"><persName>Debora Matteo</persName></editor>
+                <editor role="encoding"><persName>Stefano Boschi</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2020-05-08"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl><bibl>Debora Matteo, <title>Itinerario di un carteggio</title>, tesi di laurea, Sapienza Università di Roma, a.a. 2017-2018</bibl></listBibl>
+                <msDesc>
+                    <msIdentifier><repository>Carte Novati, Biblioteca Braidense di Milano.</repository> <idno>629/12.</idno></msIdentifier>
+                    <msContents><summary corresp="#letter">Piange la sua permanenza a Genova e dà sfogo ai suoi rancori verso Ernesto Monaci.</summary></msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#CDL">Cesare De Lollis</persName>
+                    <placeName ref="#genova">Genova</placeName>
+                    <date when="1904-06-14"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#FN">Francesco Novati</persName>
+                    <placeName ref="#sconosciuto">?</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                    <p>[...]</p>
+                    <p>Qui, mio caro, l’anima intristisce come una pianta in malaria. Ed ogni anno che vi passo, mi par d’aver gettato via un altro brandello di me medesimo. [...] 
+                        Ah, quel benedetto <persName ref="#EM">Monaci</persName>! Egli sconfina, sempre più arditamente; e fa e dice quel che vuole, fa il sereno e la pioggia; e tutti, pur sapendo che povera creatura egli sia, lo lascian dire e fare. Pezzo grosso all’<orgName ref="#Sapienza">Università</orgName>, all’<orgName ref="#AccLin">Accademia</orgName>, all’<orgName ref="#ISI">Istituto Storico</orgName>, alla <orgName ref="#Crusca">Crusca</orgName>, ecc. ecc. ... Insomma quell’ometto è un meraviglioso galleggiante. Per me, non ti dico altro se non che la sua fortuna nei nostri studj ha sempre intiepidito il mio entusiasmo per questi. Quanto alla sua rinnovata operosità, credo che proprio noi, indirettamente, abbiamo compiuto il miracolo. Però la casa <orgName ref="#Loescher">Loescher</orgName> avrebbe dovuto levar la voce contro di lui, in quanto si atteggi (e questo credon tutti) continuatore dei vecchi Studj; avrebbe dovuto nell’interesse della sua dignità e della mia. Dico anche della mia, perché ho l’aria d’esser stato messo alla porta per un’orecchia da esso <persName ref="#EM">Monaci</persName>, il quale ha poi ripreso per suo conto, mutando titolo per suo piacere, la direzione della rivista. Ma io sono in disgrazia della casa <orgName ref="#Loescher">Loescher</orgName> che, viceversa, ha, d’un tratto concepito una venerazione sconfinata per l’altro ex direttore.</p>
+                    <p>[...]</p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

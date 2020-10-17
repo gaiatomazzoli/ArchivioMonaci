@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ernesto Monaci a Graziadio Isaia Ascoli, 7 maggio 1902</title>
+                <editor role="transcription"><persName>Chiara Maria Calcagni</persName></editor>
+                <editor role="encoding"><persName>Giulia Lucchesi</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2020-04-02"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl><bibl>Chiara Maria Calcagni, <title>Lettere scelte dal carteggio Ascoli-Monaci (1880/1906): trascrizione e commento</title>, tesi di laurea, Sapienza Università di Roma, a.a. 2018-2019</bibl></listBibl>
+                <msDesc>
+                    <msIdentifier><repository>Archivio di Ascoli ai Lincei, presso la Biblioteca dell’Accademia dei Lincei e Corsiniana a Roma.</repository> <idno>Busta n. 129, scatola 50, lettera 66</idno></msIdentifier>
+                    <msContents><summary corresp="#letter #telegram">Lettera e telegramma di Ernesto Monaci a Graziadio Isaia Ascoli del 7 maggio 1902.</summary></msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#roma">Roma</placeName>
+                    <date when="1902-05-07"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#GIA">Graziadio Isaia Ascoli</persName>
+                    <placeName ref="#sconosciuto">?</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                    <head><note>Lettera</note></head>
+                    <opener>
+                        <dateline><placeName ref="#roma">Roma</placeName> <date when="1902-05-07">7 maggio 1902</date></dateline>
+                        <salute>Mio Signore!</salute></opener>
+                    <p>Non potrò mai dirle quello che ho provato un’ora fa nel ricevere il plico che mi recava il Suo mirabile <title>studio
+                        sulla ‘sibilante tra voc. nel toscano</title>’, accompagnato da parole cotanto buone per me.
+                    L’incoraggiamento ch’Ella ha voluto darmi, mi sosterrà per tutta la vita. Ieri, appena ricevuta la 
+                    sua lettera, incaricai il <persName ref="#EM2">Mancini</persName> di ultimare le pratiche per il 
+                    trasporto delle <hi rend="underline">buste</hi> al <placeName ref="#corsini">palazzo Corsini</placeName>. Spero 
+                    di poterle annunziare fra qualche giorno che il lavoro del trasporto è cominciato. Intanto voglia 
+                    perdonarmi la riluttanza a tornare da quell’asino del Capo di Gabinetto del 
+                    <persName ref="#GB1">Baccelli</persName>. Il buon <persName ref="#EM2">Mancini</persName> salta il fosso per me. 
+                    Di la dal fosso starò sempre ai Suoi cenni. Il suo incorreggibile quanto devoto</p>
+                    <closer><signed><persName ref="#EM">Ernesto Monaci</persName></signed></closer>
+                </div>
+                <div type="encloser" subtype="letter">
+                    <head><note>Telegramma</note></head>
+                    <opener><dateline><date when="1902-05-07">07/V/02</date></dateline>
+                        <address><addrLine>Senatore <persName ref="#GIA">Ascoli</persName> <placeName ref="#milano">Milano</placeName></addrLine></address>
+                        <dateline><placeName ref="#roma">Roma</placeName> ore 17.25</dateline></opener>
+                        <p>= Ringrazio il maestro che di tanto volle onorare l’ultimo dei suoi discepoli. 
+                        Dall’affettuoso incoraggiamento traggo lena per non disperare. Sia il maestro sempre con noi.</p>
+                    <closer><signed>= <persName ref="#EM">Ernesto Monaci</persName></signed></closer>
+            </div>
+            </div>
+        </body>
+    </text>
+</TEI>
+

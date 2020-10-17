@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Cesare De Lollis a Ernesto Giacomo Parodi, 2 novembre 1891</title>
+                <editor role="transcription"><persName>Debora Matteo</persName></editor>
+                <editor role="encoding"><persName>Virginia Machera</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2020-04-28"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl><bibl>Debora Matteo, <title>Itinerario di un carteggio</title>, tesi di laurea, Sapienza Università di Roma, a.a. 2017-2018</bibl></listBibl>
+                <msDesc>
+                    <msIdentifier><repository>Fondo Parodi, Biblioteca Umanistica di Lettere, Firenze.</repository> <idno>Cont. 5/32</idno></msIdentifier>
+                    <msContents><summary corresp="#letter">In relazione al concorso da ordinario a Genova, De Lollis giustifica la sua posizione al Parodi.</summary></msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#CDL">Cesare De Lollis</persName>
+                    <placeName ref="#roma">Roma</placeName>
+                    <date when="1891-11-02"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#EGP">Ernesto Giacomo Parodi</persName>
+                    <placeName ref="#sconosciuto">?</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                    <p>[...]</p>
+                    <p>Dopo parecchi anni mi si ripresenta finalmente l’occasione di scrivere a Lei, che ebbi anche il piacere di conoscere personalmente, quantunque di sfuggita, in <placeName ref="#roma">Roma</placeName>. Di Lei ho domandato recentemente nuove all’<persName ref="#GIA">Ascoli</persName> ed al <persName ref="#PR">Rajna</persName> in <placeName ref="#roma">Roma</placeName>: ma né l’uno né l’altro seppero darmene.
+                        Il prof. <persName>Eusebio</persName> mi ha detto di averle scritto e di avere ricevuto una Sua risposta relativa a un ripristinamento possibile della cattedra neolatine presso questa facoltà. Le confesso che non appena, dopo l’esito del concorso di <placeName ref="#padova">Padova</placeName>, intravvidi la possibilità di essere nominato straordinario, corsi subito col pensiero a <placeName ref="#genova">Genova</placeName>, sicuro com’ero che Ella non volesse più in alcun modo saperne.
+                        Di nuove vie, ch’Ella si apparecchiava a tentare, avevo sin da parecchio tempo fa sentito parlare da più persone tutte autorevoli: recentemente poi e non a me, ma a persona che è un alterego, il Ministro stesso accennava come Ella fosse desiderato ed aspettato a <placeName ref="#firenze">Firenze</placeName>.</p>
+                    <p>D’altra parte, all’ottimo prof. <persName ref="#PR">Rajna</persName> che [...] giustamente si preoccupa della Sua posizione, io confidai senza mistero le mie speranze, e nulla egli mi rispose che potesse farmi accorgere di trovarmi sulla sua via. Tutto questo Le dico perché sommamente mi piacerebbe ch’Ella avesse potuto o potesse pensare ch’io avessi voluto o volessi cacciarmi innanzi contro l’interesse di Lei, pel quale io non posso avere che stima ed affetto. [...] Il mio augurio è ch’Ella abbia sin da principio supposto che le cose siano andate come realmente sono andate: vale a dire ch’io abbia espresso il desiderio di essere ospitato dalla Facoltà genovese sicuro ch’Ella a <placeName ref="#genova">Genova</placeName> non pensava più, e che io abbia dato la notizia della Sua andata a <placeName ref="#firenze">Firenze</placeName> in perfetta buona fede e sulla fede di persone per Lei e per me autorevoli.</p>
+                    <p>[...]</p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

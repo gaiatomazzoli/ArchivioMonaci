@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Pio Rajna a Ernesto Monaci, 17 marzo 1876</title>
+                <editor role="transcription"><persName>Alessia Di Virgilio</persName></editor>
+                <editor role="encoding"><persName>Giulia Lucchesi</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2020-03-21"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl><bibl>Alessia Di Virgilio, <title>Carteggio Monaci - Rajna (1873-1877)</title>, tesi di laurea, Sapienza Università di Roma, a.a. 2018-2019</bibl></listBibl>
+                <msDesc>
+                    <msIdentifier><repository>Archivio Monaci, Società Filologica Romana, presso il Dipartimento di Studi Europei, Americani e Interculturali, Sapienza, Università di Roma.</repository> <idno>Busta n. 22, fascicolo 1095, lettera 21</idno></msIdentifier>
+                    <msContents><summary corresp="#letter">Lettera di Pio Rajna a Ernesto Monaci del 17 marzo 1876.</summary></msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#PR">Pio Rajna</persName>
+                    <placeName ref="#milano">Milano</placeName>
+                    <date when="1876-03-17"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#sconosciuto">?</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                    <opener>
+                        <dateline><placeName ref="#milano">Milano</placeName>, <date when="1876-03-17">17 Marzo 1876</date></dateline>
+                        <salute>Carissimo <persName ref="#EM">Monaci</persName></salute>
+                    </opener>
+                    <p>O che dici mai? Tu non saresti del Consiglio? Non vedi che senza di te sarebbe impossibile far nulla? 
+                        In tal caso, essendo mutate sostanzialmente le condizioni, ritiro ancor io la mia parola. 
+                        L’impresa a me sembra possibile solo a patto che ci sia una persona, la quale si prenda l’assunto di dirigerla 
+                        e d’invigilarla continuamente. Provati a interrogare un per uno i futuri (?) consiglieri, 
+                        e vedi un po’ se ce n’è nessuno disposto ad assumersi questo carico. E se anche ci fosse, 
+                        chi riunirebbe al pari di te tutte le attitudini necessarie? <hi rend="underline">Consiglio</hi>, è una bella parola; 
+                        ma vorrei sapere che cosa possa conchiudere un corpo collettivo, quando tutti i membri sono dispersi 
+                        su tutta la superficie dell’<placeName ref="#italia">Italia</placeName>, più un tratto di territorio straniero. 
+                        In <placeName ref="#francia">Francia</placeName> è ben altra <pb/> cosa; la <placeName ref="#francia">Francia</placeName> 
+                        è <placeName ref="#paris">Parigi</placeName>, e tutti quanti i consiglieri della ‘’Societè del Amiens Nantes’’  
+                        si possono raccogliere quando loro piace, a discutere e deliberare. Qui da noi la parte del consiglio deve di necessità
+                        essere secondaria; direi anzi che si potrebbe farne a meno, e avrei visto molto volentieri che tu avessi preso a fare in nome tuo, 
+                        solo ricorrendo alla cooperazione altrui, a seconda che il bisogno si fosse venuto manifestando.
+                        Dunque cancellami dalla lista, o recedi dal tuo proposito, e disponiti ad essere l’anima del Consiglio, 
+                        il quale, se la pensa come noi, non darò certo mai luogo a conflitti d’autorità e di giurisdizione. 
+                        All’<persName ref="#GIA">Ascoli</persName> non riparlo neppure. Credo che neppur lui vorrà prender parte a un’intrapresa 
+                        che si manifesta fin d’ora come un’utopia. 
+                        Egli, meglio d’ogni altro, sa per esperienza dall’Archivio, che per riuscire è necessaria un’unica attività direttrice. <pb/> 
+                        Avrei cento cose da aggiungere in proposito; ma son troppo pigro per metterle in iscritto.
+                        Questo ti sia prova se io potrei essere un buon consigliere, là dove bisognerebbe sempre ricorrere 
+                        alla forma per agitare le questioni.
+                    </p>
+                    <closer><salute>Addio. Vogli sempre bene al tuo <expan><abbr>aff</abbr><ex>ezionatissi</ex><abbr>mo</abbr></expan></salute>
+                        <signed><persName ref="#PR"><expan><abbr>P</abbr><am>.</am><ex>io</ex></expan> Rajna</persName></signed></closer>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

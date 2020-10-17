@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ernesto Monaci a Graziadio Isaia Ascoli, 26 marzo 1884</title>
+                <editor role="transcription"><persName>Chiara Maria Calcagni</persName></editor>
+                <editor role="encoding"><persName>Susanna Casacchia</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Archivio Ascoli. Biblioteca dell’Accademia Nazionale dei Lincei e Corsiniana di Roma</publisher>
+                <date when="2020-03-31"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl><bibl>Chiara Maria Calcagni, <title>Lettere scelte dal carteggio Ascoli-Monaci (1880/1906): trascrizione e commento</title>, tesi di laurea, Sapienza Università di Roma, a.a. 2018-2019</bibl></listBibl>
+                <msDesc>
+                    <msIdentifier><repository>Archivio Ascoli, Biblioteca dell’Accademia Nazionale dei Lincei e Corsiniana di Roma.</repository> <idno>Pacco n°5, lettera 166</idno></msIdentifier>
+                    <msContents><summary corresp="#letter">Lettera di Ernesto Monaci a Graziadio Isaia Ascoli del 26 marzo 1884.</summary></msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#roma">Roma</placeName>
+                    <date when="1884-03-26"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#GIA">Graziadio Isaia Ascoli</persName>
+                    <placeName ref="#milano">Milano</placeName>
+                    <date when="1886-04-04"/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                    <opener>
+                        <dateline><placeName ref="#roma">Roma</placeName> <date when="1884-03-26"> 26.III.84</date></dateline>
+                        <salute>Mio riverito Amico e Signore</salute></opener>
+                    <p>Esempi antichi portoghesi di <hi rend="underline">eito</hi> o <hi rend="underline">a eito</hi> non ne trovo nei unici spogli dai canzonieri. 
+                        Qui Le noto – ma Ella l’avrà già visto – l’<hi rend="underline">echo</hi> <expan><abbr>ant</abbr><am>.</am><ex>ico</ex> 
+                        </expan> <expan><abbr>spagn</abbr><am>.</am><ex>olo</ex></expan>, che è in <persName type="author" ref="#berceo">Berçeo</persName> (Milagnos, 
+                        <expan><abbr>Sacrif</abbr><am>.</am><ex>icio</ex></expan> de la Missa, st. 71: <hi rend="underline">echo de piedra</hi> pur nel glosario del Laucher = <hi rend="underline">ictus lapidis</hi>) 
+                        e nel <title ref="#alexandre">Libre de Alexandre</title> (17.879: <hi rend="underline">echo de dados</hi> = colpo di dadi), onde sarà forse anche l’<hi rend="underline">ecbar</hi> 
+                        (<title ref="#poemacid">Poema del Cid</title>, 14: <hi rend="underline">echados somos de terra</hi>).</p>
+                    <p> Ripasserò meglio i testi antichi portoghesi che ho, e se vi troverò esempi, Ella li avrà subito.</p>
+                    <p> E il <persName ref="#QS">Sella</persName>!? Nessuna morte, dopo quella di <persName ref="#VE">Vittorio Emanuele</persName>, è stata tanto sentita in <placeName ref="#roma">Roma</placeName>, 
+                        come la morte del <persName ref="#QS">Sella</persName>. 
+                        Che sciagura! – E fra pochi giorni si dovrà nominare il successore all’<orgName ref="#AccLin">Accademia</orgName>. Non verrà Ella a votare? Quanto gioverebbe la Sua presenza in un momento tanto grave e difficile.</p>
+                    <p> Io penso di votare per il <persName ref="#LC1">Cremona</persName>, già designato dal <persName ref="#QS">Sella</persName> medesimo.</p>
+                    <closer>
+                        <salute>Mi conservi la Sua benevolenza o mi creda sempre il suo</salute>
+                        <salute>aff.mo</salute> 
+                        <signed><persName ref="#EM"><expan><abbr>E</abbr><am>.</am><ex>rnesto</ex></expan> Monaci</persName></signed>
+                    </closer>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

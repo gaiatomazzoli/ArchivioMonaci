@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Graziadio Isaia Ascoli a Ernesto Monaci, 4 aprile 1886</title>
+                <editor role="transcription"><persName>Chiara Maria Calcagni</persName></editor>
+                <editor role="encoding"><persName>Susanna Casacchia</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2020-03-31"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl><bibl>Chiara Maria Calcagni, <title>Lettere scelte dal carteggio Ascoli-Monaci (1880/1906): trascrizione e commento</title>, tesi di laurea, Sapienza Università di Roma, a.a. 2018-2019</bibl></listBibl>
+                <msDesc>
+                    <msIdentifier><repository>Archivio Monaci, Società Filologica Romana, presso il Dipartimento di Studi Europei, Americani e Interculturali, Sapienza, Università di Roma.</repository> <idno>Busta n. 1, fascicolo 49, lettera 50</idno></msIdentifier>
+                    <msContents><summary corresp="#letter">Lettera di Graziadio Isaia Ascoli a Ernesto Monaci del 4 aprile 1886.</summary></msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#GIA">Graziadio Isaia Ascoli</persName>
+                    <placeName ref="#milano">Milano</placeName>
+                    <date when="1886-04-04"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#roma">Roma</placeName>
+                    <date when="1886-04-07"/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                    <opener>
+                        <salute>Caro e onorato amico,</salute></opener>
+                    <p>Il <persName ref="#MC">Ministro</persName> scrive al <persName ref="#VI">Preside</persName> con parole per me benevole, ma in modo assai impacciato. Non si rifiuta l’idea 
+                        che l’<orgName ref="#AccLin">Accademia</orgName> provveda, da anno in anno, al mio insegnamento, senza che occorra nomina o conferma governativa, ma dice che di questa idea non sarebbe 
+                        il caso di parlare, <hi rend="underline">se io aderissi a tosto riprendere l’insegnamento e a desistere dalle dimissioni</hi>, nella quale ipotesi egli 
+                        non darebbe più corso al decreto dell’ 11 <expan><abbr>p</abbr><am>.</am><ex>rossimo</ex></expan> <expan><abbr>p</abbr><am>.</am><ex>assato</ex></expan> </p>
+                    <p> Non si vede così, s’egli intende che io concorra con una mia domanda perché il decreto rimanga sospeso o abolito. A questo io assolutamente non mi presterei. 
+                        Ma se non ho alcun obbligo di codesta specie e se il tempo di servizio, che io ora aggiunga, può avere effetto utile in ordine alla pensione, io sono disposto a continuar 
+                        nell’antico ufficio insino a che sieno indiscutibilmente <hi rend="underline">colmi</hi> i 25 anni di scuola. Spero e credo che l’<persName ref="#MA">Amari</persName>  
+                        e altri amici non mi disapproverebbero, se io così facessi, e son sicuro che mi approverebbe il <persName ref="#CN">Nigra</persName>. 
+                        Né l’affezione di Lei saprebbe risolutamente condannarmi!</p>
+                    <p>Ma quando si compiono i miei 25 anni di servizio? Ecco il quesito. La mia nomina è del 3 giugno 1861, con la decorrenza dello stipendio dallo stesso giorno. Io 
+                        otteneva dal <persName ref="#TM">Mamiani</persName> un dieci mesi di tempo per provvedere al mio trasferimento; e il 21 di marzo dello stesso anno, senza che lo stipendio 
+                        fosse ancora attivato, un nuovo decreto reale ne sospendeva la decorrenza insino al giorno in cui entrassi in ufficio. Questo giorno quale è poi stato? Io non ne ho precisa notizia o memoria, 
+                        perché allora nessuno pensava a melanconie di questa specie. Nel luglio di quell’anno io era qui e assisteva agli esami, ma non ne ho prova. Il 15 settembre, sempre del 61, 
+                        io era nominato, in qualità di professore, a far parte della commissione per il concorso di letteratura orientale nell’università di <placeName ref="#napoli">Napoli</placeName>, 
+                        della quale commissione sono anzi stato relatore. Finalmente, una dichiarazione ufficiale del Preside dell’<orgName ref="#AccLin">Accademia</orgName>, 
+                        data il 12 novembre 1861, dice che io <hi rend="underline">già aveva assunto la mia funzione</hi>. 
+                        C’è ancora un fatto recente da considerare nel compito. Il <persName ref="#MC"><choice><sic>Coppini</sic><corr>Coppino</corr></choice></persName> mi portò, nella precedente sua amministrazione, 
+                        all’aspettativa senza  il soldo, la quale ha durato un quattro mesi. 
+                        Tutto dunque sommato,  <hi rend="underline">qual è il sicuro termine che si pone al compimento dei miei 25 anni di servizio?</hi> </p>
+                     <p> Se appurato questo termine, con la maggior sollecitudine che far si possa; Ella me lo vorrà telegrafare, io le avrò, amico onoratissimo, un nuovo e grandissimo obbligo 
+                         e Le ne sarà molto grato anche il Presidente della scuola che se le occorresse, per agevolar l’opera o diminuire il Suo fastidio, una parola del senatore <persName ref="#MA">Amari</persName>
+                        o al Ministro o ad altri che sia, io confido nella molta bontà che anche egli mi ha sempre mostrato.</p>
+                    <closer>
+                        <salute>Mi scusi, se può, e mi comandi, e sempre mi voglia, qual sono con tutta l’anima.</salute>
+                        <salute>Aff.mo Suo</salute>
+                        <signed><persName ref="#GIA">Ascoli</persName></signed>
+                        <dateline><placeName ref="#milano">Mil.,</placeName><date when="1886-04-04">4.4.86</date></dateline>
+                    </closer>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

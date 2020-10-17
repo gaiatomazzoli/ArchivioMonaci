@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Cesare De Lollis a Ernesto Giacomo Parodi, 24 giugno 1920</title>
+                <editor role="transcription"><persName>Debora Matteo</persName></editor>
+                <editor role="encoding"><persName>Stefano Boschi</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2020-05-08"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl><bibl>Debora Matteo, <title>Itinerario di un carteggio</title>, tesi di laurea, Sapienza Università di Roma, a.a. 2017-2018</bibl></listBibl>
+                <msDesc>
+                    <msIdentifier><repository>Fondo Parodi, Biblioteca Umanistica di Lettere, Firenze.</repository> <idno>5/29.</idno></msIdentifier>
+                    <msContents><summary corresp="#postcard">Cartolina postale. Sul metodo e sulla passione negli studi.</summary></msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#CDL">Cesare De Lollis</persName>
+                    <placeName ref="#sconosciuto">?</placeName>
+                    <date when="1920-06-24"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#EGP">Ernesto Giacomo Parodi</persName>
+                    <placeName ref="#sconosciuto">?</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                    <p>[...]</p>
+                    <p>II metodo, tu dici. Ma <persName ref="#CDL">io</persName> credo ci sia un vecchio equivoco; il buon metodo prescrive di scendere fino alle minime minuzie pur di accertare la verità. Dunque la caccia alle minuzie: buon metodo. E poi: chiunque s’appassioni pel proprio soggetto, trova da sé tutte le vie per sviscerarlo, e il buon metodo quindi si rinnova tutte le volte che ci sia il binomio: soggetto amante, oggetto amato (vedi che ricado nel <expan><abbr>m</abbr><am>.</am><ex>edio</ex><abbr>evo</abbr></expan> scolastico!). E infine e sopra tutto: gli studenti d’oggi non son quelli della nostra generazione; e di studi che non rispondono né ad un bisogno profondo dello spirito, né alle pratiche esigenze non ne vogliono sapere. Bisogna quindi adattarsi. L’intransigenza sta bene nel campo morale, non in quello pedagogico.</p>
+                    <p>[...]</p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

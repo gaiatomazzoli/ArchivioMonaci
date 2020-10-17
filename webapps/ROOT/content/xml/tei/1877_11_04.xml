@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ernesto Monaci a Pio Rajna, 4 novembre 1877</title>
+                <editor role="transcription"><persName>Alessia Di Virgilio</persName></editor>
+                <editor role="encoding"><persName>Giulia Lucchesi</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2020-03-28"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl><bibl>Alessia Di Virgilio, <title>Carteggio Monaci - Rajna (1873-1877)</title>, tesi di laurea, Sapienza Università di Roma, a.a. 2018-2019</bibl></listBibl>
+                <msDesc>
+                    <msIdentifier><repository>Archivio Pio Rajna. Biblioteca Marucelliana di Firenze.</repository> <idno>Lettera XXXVIII</idno></msIdentifier>
+                    <msContents><summary corresp="#postcard">Cartolina di Ernesto Monaci a Pio Rajna del 4 novembre 1877.</summary></msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#roma">Roma</placeName>
+                    <date when="1877-11-04"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#PR">Pio Rajna</persName>
+                    <placeName ref="#sconosciuto">?</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                    <opener><salute><expan><abbr>C</abbr><am>.</am><ex>arissimo</ex></expan> <expan><abbr>A</abbr><am>.</am><ex>mico</ex></expan></salute></opener>
+                    <p>Grazie delle tue parole per la mia nomina. Che pel tuo articolo abbisognino de fogli, 
+                        è questa una notizia che mi rallegra sempre più, e sii pur certo che per te non 
+                        mancherà mai spazio nel <title ref="#GFR"><hi rend="underline">Giornale</hi></title>. 
+                        Quanto alla <title ref="#canto">preghiera <expan><abbr>prov</abbr><am>.</am><ex>enzale</ex></expan></title>, 
+                        se vorrai farne oggetto di una varietà, io ti spedirò domani l’esemplare dei 
+                        <title ref="#Denkmӓler">Denckmӓler</title> che è nella 
+                        <orgName><expan><abbr>Bibl</abbr><am>.</am><ex>ioteca</ex></expan> 
+                        V. E</orgName>. Quando te ne sarai servito, 
+                        me lo rimanderai. Pei futuri fascicolo poi annunzieremo l’<title ref="#attila"><hi rend="underline">Attila</hi></title>, 
+                        non è vero?</p>
+                    <closer><salute>Addio. Voglimi bene e credimi sempre   
+                        Il tuo</salute> <signed><persName ref="#EM"><expan><abbr>E</abbr><am>.</am><ex>rnesto</ex></expan> Monaci</persName></signed></closer>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>
+

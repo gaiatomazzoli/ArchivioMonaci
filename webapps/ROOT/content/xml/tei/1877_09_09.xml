@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ernesto Monaci a Pio Rajna, 9 settembre 1877</title>
+                <editor role="transcription"><persName>Alessia Di Virgilio</persName></editor>
+                <editor role="encoding"><persName>Susanna Casacchia</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2020-03-19"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl><bibl>Alessia Di Virgilio, <title>Carteggio Monaci - Rajna (1873-1877)</title>, tesi di laurea, Sapienza Università di Roma, a.a. 2018-2019</bibl></listBibl>
+                <msDesc>
+                    <msIdentifier><repository>Archivio Pio Rajna, Biblioteca Marucelliana di Firenze.</repository> <idno>Lettera 33</idno></msIdentifier>
+                    <msContents><summary corresp="#letter">Lettera di Ernesto Monaci a Pio Rajna del 9 settembre 1877.</summary></msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#anzio">Anzio</placeName>
+                    <date when="1877-09-09"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#PR">Pio Rajna</persName>
+                    <placeName ref="#firenze">Firenze</placeName>
+                    <date when="1877-09-16"/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                    <opener>
+                        <dateline><placeName ref="#anzio">Anzio</placeName> <date when="1877-09-09">9 Settembre 77</date></dateline>
+                        <salute>Mio caro <persName ref="#PR">Rajna</persName></salute></opener>
+                    <p>La tua <title type="letter" ref="./1877_09_06.html">lettera</title> è venuta questa mattina a raggiungermi qui in <placeName ref="#anzio">Anzio</placeName>, ove sto da due mesi e resterò fino a tutto 
+                     il <hi rend="underline">16</hi> <expan><abbr>corre</abbr><ex>nte</ex></expan>. Grazie delle buone notizie che mi dai di te e della memoria che conservi del tuo amico. Io sto, 
+                        di salute, non male, e col cuore assai contento, perché mio figlio dopo questi ultimi bagni ha fatto un notevole progresso verso la guarigione, e tutti 
+                        m’induce a sperare che il miglioramento di questa volta non sarà momentaneo ed apparente come lo fu in passato.</p>
+                    <p>Circa la domanda che tu mi fai, ti risponderò che da mia parte non puoi <pb/> temere “duplicati’’, perché non sono tanto matto da mettermi a correre con te.
+                        Ho sempre desiderato, non tanto di fare quanto che fosse fatto un libro sui <rs type="topic" key="Trovatori italiani">Trovatori</rs> nostri; e quando ci vedemmo in  <placeName ref="#roma">Roma</placeName>, il 20 sett. 1875, 
+                        credo di avere anche a te manifestato questo mio desiderio parlando delle “<title ref="#communicazioni">Communicazioni</title>’’.</p>
+                     <p>Vedendo che nessuno ci si metteva e temendo che, secondo il solito, anche qui i tedeschi volessero farci un regalo, mi volsi ad istigare i miei scolari- non foss’ altro raccogliessero
+                         materiali. Credo che il <persName ref="#EM1">Molteni</persName> abbia lavorato queste vacanze, ma degli altri non so. Se dunque tu ti trovi in <pb/> questo campo, tu va innanzi e ciò 
+                         che il <persName ref="#EM1">Molteni</persName> avrebbe fatto con me, spero non ti dispiacerà se lo faccia con te lavorando intorno a qualcuno dei nostri <rs type="topic" key="Trovatori italiani">Trovatori</rs>.</p> 
+                    <p>Col nuovo anno, in un modo o in un altro, la <title ref="#RFR"><hi rend="underline">Rivista</hi></title> tornerà a riapparire e questa volta vorrei sperare con migliori auspici. Vorrei che diventasse organo delle scuole 
+                        italiane, come la <title ref="#ZrP"><hi rend="underline">Zeitschrift</hi></title> lo è per la <placeName ref="#germania">Germania</placeName> e la <title ref="#ROM"><hi rend="underline">Romania</hi></title>
+                        per la <placeName ref="#francia">Francia</placeName>. Se a te e agli altri miei colleghi piace ciò, ora io domando a tutti con quali lavori vogliano contribuire. Inoltre 
+                        dammi consigli e suggerimenti quanto più potrai, e questa sarà la migliore prova che l’impresa è bene accolta.<pb/></p>
+                    <p>Se invece credi che sia il caso di temporeggiare ancora, desidero anche su ciò la tua opinione. Benché ormai abbia tutto preparato per la ripresa della pubblicazione, volentieri 
+                        desidero di nuovo appena mi persuaderò che ciò non sia opportuno.</p>
+                    <closer><salute>Voglimi bene e credimi sempre il tuo</salute> 
+                        <signed><persName ref="#EM"><expan><abbr>E</abbr><am>.</am><ex>rnesto</ex></expan> Monaci</persName></signed></closer>
+                    <postscript><p>P.S Ho un dubbio fra gli altri che qui ti manifesto. Lo <persName ref="#EMS">Stengel</persName> si è ritirato, forse altrettanto farà il <persName ref="#LM">Manzoni</persName>. 
+                        Debbo continuare con un 3° <expan><abbr>vol</abbr><am>.</am><ex>ume</ex></expan> della <title ref="#RFR"><hi rend="underline">Rivista</hi></title>, o cominciare una nuova anche 
+                        con qualche modificazione nel titolo? Ciò mi permetterebbe anche di modificare la struttura interna. Rispondimi, avverti che il 17 <expan><abbr>corr</abbr><am>.</am><ex>nte</ex></expan> 
+                        starò a <placeName ref="#roma">Roma</placeName>.
+                    </p></postscript>
+                  </div>
+            </div>
+        </body>
+    </text>
+</TEI>

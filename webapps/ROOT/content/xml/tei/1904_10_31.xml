@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Graziadio Isaia Ascoli a Ernesto Monaci, 31 ottobre 1904</title>
+                <editor role="transcription"><persName>Chiara Maria Calcagni</persName></editor>
+                <editor role="encoding"><persName>Mariangela Distilo</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2020-02-26"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl><bibl>Chiara Maria Calcagni, <title>Lettere scelte dal carteggio Ascoli-Monaci (1880/1906): trascrizione e commento</title>, tesi di laurea, Sapienza Università di Roma, a.a. 2018-2019</bibl></listBibl>
+                <msDesc>
+                    <msIdentifier><repository>Archivio Monaci, Società Filologica Romana, presso il Dipartimento di Studi Europei, Americani e Interculturali, Sapienza, Università di Roma.</repository> <idno>Busta n. 1, fascicolo 49, lettera del 31/10/1904</idno></msIdentifier>
+                    <msContents><summary corresp="#letter">Lettera di G.I. Ascoli a E. Monaci del 31 ottobre 1904</summary></msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#GIA">Graziadio Isaia Ascoli</persName>
+                    <placeName ref="#milano">Milano</placeName>
+                    <date when="1904-10-31"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#sconosciuto">?</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                    <opener><dateline><placeName ref="#milano">Milano</placeName> <date when="1904-10-31">31 ottobre 1904</date></dateline></opener>
+                    <p>Caro e onorato amico; non m’era lecito ostinarmi sul testo della mia risposta al ministro, che è rimasta a mani Sue, poiché era un testo che rincresceva a due amici così insigni; e ne ho rifatto la chiusa, mandando jermattina direttamente la mia lettera alla Minerva. Ripetuto suppergiù quanto Ella conosce in sino al punto in cui dicevo ch’Ella probabilmente aspetta a favorirmi delle Sue informazioni ecc., ho chiuso con le seguenti parole:</p>
+                    <p>‘Ormai però codeste informazioni
+                        <lb/>devono pur giungermi quanto prima
+                        <lb/>e specialmente versare intorno alla
+                        <lb/>distribuzione dell’opera e ad altre
+                        <lb/>vitali considerazioni e proposte, da
+                        <lb/>sottomettere poi alla decisione di <persName>E. V.</persName>’</p>
+                    <p>così ho evitato il pericolo di risoluzioni subitanee. Ma del rimanente, come potrei io accettare l’uffizio che mi si vorrebbe ora commesso? Ho io mai accennato ad assumerlo? E son forse passati impunemente per me i <hi rend="underline">quindici anni</hi> dacché sono a questo sbaraglio, secondo che si vede dalla mia <hi rend="underline">Lettera al </hi><persName ref="#LB"><hi rend="underline">Bodio</hi></persName>, più volte stampata, e ultimamente, con qualche aggiunta nella terza puntata ai supplementi all’<title ref="#AGI">Archivio</title>? È una Lettera che dice non poco anche per altre ragioni!</p>                    
+                    <p>Tutt’intiera la parte dell’opera a cui si riferisce la prima sezione dei <title ref="#ricordi"><hi rend="underline">Ricordi</hi></title>, è di assoluta spettanza del <persName ref="#LB">Bodio</persName>. E in quei <title ref="#ricordi"><hi rend="underline">Ricordi</hi></title> si contengono delle dubitazioni assai gravi e ormai antiche, le quali spero sempre si risolvano in entità da non ispaurirci, ma che non ci fu mai dato di appurare, né a me in verun modo lo sarebbe. Posso tutt’al più giovare agli amici con qualche considerazione d’ordine comparativo che mi sono andato via via annotando. </p>
+                    <p>Ora, durante questa lunga serie d’anni, il <persName ref="#LB">Bodio</persName> non ha mai smesso la sua attitudine simpatica; ma in realtà ogni sua comunicazione, sia scritta e sia parlata, ogni sua partecipazione effettiva s’è dovuta ridurre a così scarsa cosa, da non parer credibile. In parte so e in parte presumo, che non sia stato effetto della sua volontà e anzi che a lui ne debba esser forse dispiaciuto più che non a me; e io, per non complicare le cose, non ne volli mai far motto neanche a Lei, pur nei più confidenziali colloqui. Ma bisogna finalmente parlar chiaro; e ho d’altronde ragion di supporre, che certe difficoltà, in cui il valentuomo si dibatteva, sieno venute cessando. S’aggiunge che il <orgName ref="#MinAgr">Ministro d’Agricultura ecc.</orgName> non è più quello dei tristi tempi. È forse tale c’ammette la speranza d’una partecipazione alla spesa richiesta dell’opera che ha la sua ragione statistica allato alla ragione storico-filologica. È dunque tutta del <persName ref="#LB">Bodio</persName> la parte statistica dell’impresa; ne deve aver lui tutta intiera la direzione, tutto intiero il merito, deve addirittura portare il suo nome.</p>
+                    <p>Quanto alla parte storico-filologica, nel 1890 s’era pensato, col <persName ref="#PB1">Boselli</persName> e il <persName ref="#AM2">Messedaglia</persName>, a farne del povero <persName ref="#GF">Flechia</persName> il presidente onorario; oggi il presidente onorario ne deve assolutamente il conte <persName ref="#CN">Nigra</persName>. Il presidente effettivo ne deve naturalmente essere il vicepresidente dell’<orgName ref="#AccLin">Academia</orgName>, che è anch’egli un reputato romanista, e vicepresidente <persName ref="#EM">Ernesto Monaci</persName>. E io che nel 1890 già aveva più di sessant’anni e non risiedo in <placeName ref="#roma">Roma</placeName> e anzi non ci capito mai se non «a ogni morte di vescovo» e sono in affanno continuo perché non mi sia tolto di finire qualche lavoro (ormai inoltrato e anche non estraneo alla toponomastica italiana, non intendo certo ricusarmi alle prestazioni occasionali cui piacesse ai colleghi di chiamarmi ma non devo assumere impegni che ormai equivarrebbero a una specie di suicidio.</p>
+                    <p>Quando vede il <persName ref="#CN">Conte</persName>, La prego di salutarmelo molto e di ringraziarlo delle sue buone lettere; e insieme La prego di volermi sempre, scusando l’orribile fretta con cui sono costretto a scriverLe,</p>
+                    <closer><salute>il <expan><abbr>div</abbr><am>.</am><ex>otissi</ex><abbr>mo</abbr></expan> <expan><abbr>aff</abbr><am>.</am><ex>ezionatissi</ex><abbr>mo</abbr></expan> Suo</salute>
+                        <signed><persName ref="#GIA">G. I. Ascoli</persName></signed></closer>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

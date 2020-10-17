@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ernesto Monaci a Graziadio Isaia Ascoli, 2 aprile 1903</title>
+                <editor role="transcription"><persName>Chiara Maria Calcagni</persName></editor>
+                <editor role="encoding"><persName>Eleonora Bruno</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2020-04-06"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl><bibl>Chiara Maria Calcagni, <title>Lettere scelte dal carteggio Ascoli-Monaci (1880/1906): trascrizione e commento</title>, tesi di laurea, Sapienza Università di Roma, a.a. 2018-2019</bibl></listBibl>
+                <msDesc>
+                    <msIdentifier><repository>Archivio di Ascoli ai Lincei, presso la Biblioteca dell’Accademia dei Lincei e Corsiniana.</repository> <idno>Lettera 14/13</idno></msIdentifier>
+                    <msContents><summary corresp="#letter">Lettera di Ernesto Monaci a Graziadio Isaia Ascoli del 2 aprile 1903</summary></msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#roma">Roma</placeName>
+                    <date when="1903-04-02"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#GIA">Graziadio Isaia Ascoli</persName>
+                    <placeName ref="#milano">Milano</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                    <opener>
+                        <dateline>
+                            <placeName ref="#roma">Roma</placeName>
+                            <date when="1903-04-02">2 apr. 1903</date>
+                        </dateline>
+                    </opener>
+                    <p>Mio Signore, nella speranza che mi lasciava la sua <title type="letter">lettera</title>, di rivederla in questi giorni in <placeName ref="#roma">Roma</placeName>, non ho risposto subito. Ma ora, ricevuto il suo <title type="letter" ref="./1903_04_01.html">biglietto</title>  di ieri, sento il bisogno di scriverle almeno un rigo circa il desiderio espressoLe della <hi rend="underline">Poscritta</hi>. Né da me, né da alcuno dei miei amici si pensò mai di chiederle un rigo che in qualche modo attenuasse l’impressione prodotta dalla Sua <hi rend="underline">lettera aperta</hi>. Quel che già Le scrissi su di essa, sta sempre nell’animo mio, e non vorrei che mai si mutasse. Ma intanto mi si diceva: "in <placeName ref="#austria">Austria</placeName> si mena vanto di quella lettera, contro l’<placeName ref="#italia">Italia</placeName>; vorrà dunque l’<persName ref="#GIA">Ascoli</persName> dare ai nostri nemici un arma contro di noi?" furono queste parole che mi fecero pensare come non tutti avevan capito abbastanza il tenore di quella lettera, e come perciò sarebbe stata forse non inopportuna una poscritta che, pur ribadendo il già detto, togliesse agli avversari ogni pretesto di menare vanto delle Sue parole. Ma Ella crede ciò non necessario e <quote>fiat voluntas tua</quote>.</p>
+                    <closer>
+                        <signed>il Suo <persName ref="#EM">E. Monaci</persName></signed>
+                    </closer>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

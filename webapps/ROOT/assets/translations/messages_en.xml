@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Example format for catalogue files. -->
+<catalogue xml:lang="en">
+  <message key="menu-texts">Documents</message>
+  <message key="menu-catalogue">Catalogue</message>
+  <message key="menu-indices">Indexes</message>
+  <message key="menu-index-lemma">Lemmata</message>
+  <message key="menu-index-person_name">Personal names</message>
+  <message key="menu-index-symbol">Symbols</message>
+  <message key="menu-index-word">Words</message>
+  <message key="menu-index-place">Places</message>
+  <message key="menu-index-person">Persons</message>
+  <message key="menu-index-institution">Institutions</message>
+  <message key="menu-index-work_author">Authors</message>
+  <message key="menu-index-work">Works</message>
+  <message key="menu-index-source">Sources</message>
+  <message key="menu-index-topic">Topics</message>
+  <message key="menu-search">Search</message>
+  <message key="menu-admin">Admin</message>
+  <message key="menu-language">Language</message>
+</catalogue>

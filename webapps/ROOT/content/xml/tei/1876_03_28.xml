@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Pio Rajna a Ernesto Monaci, 28 marzo 1876</title>
+                <editor role="transcription"><persName>Alessia Di Virgilio</persName></editor>
+                <editor role="encoding"><persName>Virginia Machera</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2020-03-26"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl><bibl>Alessia Di Virgilio, <title>Carteggio Monaci - Rajna (1873-1877)</title>, tesi di laurea, Sapienza Università di Roma, a.a. 2018-2019</bibl></listBibl>
+                <msDesc>
+                    <msIdentifier><repository>Archivio Monaci, Società Filologica Romana, presso il Dipartimento di Studi Europei, Americani e Interculturali, Sapienza, Università di Roma.</repository> <idno>Busta n. 22, fascicolo 1095, lettera XXIII</idno></msIdentifier>
+                    <msContents><summary corresp="#postcard">Rajna a Monaci, XXIII</summary></msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#PR">Pio Rajna</persName>
+                    <placeName ref="#milano">Milano</placeName>
+                    <date when="1876-03-28"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#sconosciuto">?</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                    <opener><salute>C.A.</salute></opener>
+                    <p> T’ho fatto ridere, non è vero, con quelle mie frasi altisonanti? Diavolo! Non avrei scritto altrimenti se si fosse trattato di mettermi alla testa d’un Ministero, o di farmi pronunziare voti di castità per tutta quanta la vita. Non credere peraltro che io potessi essere di malumore: questo poi no. Solo ci fu in me una forte razione di Madamina Pigrizia, la quale, vedendo che le cose si mettevano diversamente dalla prima opinione, si mise a gridare: Ohe! Che cosa fai? Ricordati che con i miei sacrosanti diritti io non transigo, né lascio che si transiga… E in verità capirai se io dovevo esser sorpreso. Credevo fermamente che tu fossi alla testa, ed un bel giorno m’esci a dire che non entrerai, anzi che uscirai dal consiglio. Ritenevo che un primo piano, su cui discutere fosse pronto, e invece tu ecciti me a dare la spinta da Milano.  Se non ragionevoli, i miei allarmi erano, mi pare, giustificabili, o almeno sensabili. Ad ogni modo ritira le mie frasi, a condizione che le cose ritornino nello stato di prima, ossia che abbia ad aspettare de la parola d’ordine. Intanto proseguirò coi miei dubbi. Il titolo di “Biblioteca di <hi rend="underline">Classici</hi>” non ti pare al quanto pericoloso? Non vincola troppo la libertà? Non ci si sente qualche cosa che non è forse nelle tue intenzioni? Allora bisognerebbe limitarsi a preparare un <persName type="author" ref="#petrarca">Petrarca</persName>, un <persName type="author" ref="#dante">Dante</persName>, un <persName type="author" ref="#boccaccio">Boccaccio</persName>, che fatto come dovrebbe essere, costerebbero fatiche enormi, e non si potrebbe rendere davvero allo Z, per <hi rend="underline">10 lire</hi> al foglio</p>
+                    <closer><salute>Addio. Ti stringo allegramente la mano - il tuo <expan><abbr>aff</abbr><am>.</am><ex>ezionatissi</ex><abbr>mo</abbr></expan></salute>
+                        <signed><persName ref="#PR">P.R</persName></signed></closer>
+                    
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

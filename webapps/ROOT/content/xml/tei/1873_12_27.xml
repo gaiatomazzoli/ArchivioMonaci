@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ernesto Monaci a Pio Rajna, 27 dicembre 1873</title>
+                <editor role="transcription"><persName>Alessia Di Virgilio</persName></editor>
+                <editor role="encoding"><persName>Mariangela Distilo</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2020-02-26"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl><bibl>Alessia Di Virgilio, <title>Carteggio Monaci - Rajna (1873-1877)</title>, tesi di laurea, Sapienza Università di Roma, a.a. 2018-2019</bibl></listBibl>
+                <msDesc>
+                    <msIdentifier><repository>Archivio Monaci, Società Filologica Romana, presso il Dipartimento di Studi Europei, Americani e Interculturali, Sapienza, Università di Roma.</repository> <idno>Busta n. 22, fascicolo 1095, lettera XIII</idno></msIdentifier>
+                    <msContents><summary corresp="#letter">Lettera di Monaci a Rajna, 27 dicembre 1873</summary></msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#roma">Roma</placeName>
+                    <date when="1873-12-27"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#PR">Pio Rajna</persName>
+                    <placeName ref="#sconosciuto">?</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                    <opener><dateline><placeName ref="#roma">Roma</placeName> <date when="1873-12-27">27 Dicembre 1873</date></dateline>
+                        <salute>Egregio amico</salute></opener>
+                    <p>Perdonami se ho indugiato tanto a ringraziarti del tuo ritratto che ebbi e che terrò carissimo; ma di questo puoi esser certo che l’indugio fu figlio di una negligenza.</p>
+                    <p>Mi domandi quando si stamperà il 1° fascicolo del 1874? - Da alcuni giorni si è messo mano alla stampa di due fascicoli: il 4° del vol.1 e il 1° del vol. 2. Però come la stampa dipende da <persName ref="#PG">Galeati</persName> che scambia la settimana coi mesi, così non ti posso dire, con certezza quando ci sbrigheremo.</p>
+                    <p>Per il tuo articolo dunque potremo fare così: tu l’allestirai appena ne avrai il tempo, ma seguiterai a tenerlo presso di te solo avvisandomi che è pronto. Quando sarà il momento di stamparlo ti scriverò, e allora tu me lo manderai. In questo modo potrai senza paura dare sfogo ai tuoi pentimenti finché ne avrai. Solo ti raccomando di non tardare la spedizione quando avrai l’avviso che si è pronti per la stampa.</p>
+                    <p>Se vedrai il prof. <persName ref="#GIA">Ascoli</persName>, ti prego di un favore: domandagli da mia parte se un mese fa gli giunse una lettera contenente un saggio di quel codice in dialetto umbro, di cui gli avevo parlato in <placeName ref="#roma">Roma</placeName>. Ho timore non sia occorso un qualche sviamento postale, e che il professore stia tuttora aspettando il saggio che gli promisi. In questo caso bramerei saperlo per allestirgli un’altra copia.</p>
+                    <p>Col sette di gennaio si riapre la <orgName ref="#BibVat">Vaticana</orgName>, e non temere che penserò alla tua <title ref="#intelligenza"><hi rend="underline">Intelligenza</hi></title>. Intanto, addio.<lb/>Vorrei scriverti assai; ma è tardi e non voglio perdere questa corsa ancora. Vogliami bene e abbiti cento e cento auguri sinceri del nuovo anno. Addio</p>
+                    <closer><salute>Tuo <expan><abbr>aff</abbr><ex>ezionatissi</ex><abbr>mo</abbr></expan></salute> <signed><persName ref="#EM">Ernesto Monaci</persName></signed></closer>
+                    <postscript><p>P.S. Nel caso che ti restasse <hi rend="underline">di più</hi> qualche copia degli estratti (<title ref="#frammenti">due Framm. Di Rom. cav</title>), me ne vorresti mandarne una?<lb/>Confesso che è vergognosa la mia dimanda, ma senti che mi avviene: con due o tre amici ho un cambio d’opuscoli, e fra questi gli estratti della <title ref="#RFR">Rivista</title>. <persName ref="#PG">Galeati</persName> questa volta, invece di mandarmene due copie, me ne mandò solo una. Ma ne privai subito, credendo riceverne altre: invece <persName ref="#PG">Galeati</persName> mi scrisse che erano finite. Ora io mi trovo la collezione della stampa della <title ref="#RFR"><hi rend="underline">Rivista</hi></title> mancanti dell’articolo tuo. Ecco perché t’ho fatto questa indiscreta domanda.</p></postscript>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

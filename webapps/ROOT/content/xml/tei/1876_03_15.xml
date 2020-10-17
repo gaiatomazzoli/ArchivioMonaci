@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ernesto Monaci a Pio Rajna, 15 marzo 1876</title>
+                <editor role="transcription"><persName>Alessia Di Virgilio</persName></editor>
+                <editor role="encoding"><persName>Giulia Lucchesi</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2020-03-13"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl><bibl>Alessia Di Virgilio, <title>Carteggio Monaci - Rajna (1873-1877)</title>, tesi di laurea, Sapienza Università di Roma, a.a. 2018-2019</bibl></listBibl>
+                <msDesc>
+                    <msIdentifier><repository>Archivio Monaci, Società Filologica Romana, presso il Dipartimento di Studi Europei, Americani e Interculturali, Sapienza, Università di Roma.</repository> <idno>Busta n. 22, fascicolo 1095, lettera 21</idno></msIdentifier>
+                    <msContents><summary corresp="#letter">Lettera di Pio Rajna a Ernesto Monaci del 15 marzo 1876.</summary></msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#roma">Roma</placeName>
+                    <date when="1876-03-15"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#PR">Pio Rajna</persName>
+                    <placeName ref="#sconosciuto">?</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                    <opener>
+                        <dateline><placeName ref="#roma">Roma</placeName> <date when="1876-03-15">15 Marzo 1876</date></dateline>
+                        <salute>Carissimo Rajna</salute>
+                    </opener>
+                    <p>Non t’ho risposto subito perché mi premeva di sapere prima qualche cosa di più intorno al <persName ref="#NZ">Zanichelli</persName>. 
+                        Ecco ora ciò che m’ha scritto il <persName ref="#LM">Manzoni</persName>, al quale manifesterai come dubbj <hi rend="underline">miei</hi> i dubbj 
+                        che mi avevi manifestato tu: «ho appurato quanto mi scrivi sul <persName ref="#NZ">Zanichelli</persName>. 
+                        Sul galantomismo non possono farglisi osservazioni. Soltanto ho saputo che quando ha dei conti aperti è un poco lento a chiuderli.
+                        Nulla più ho potuto conoscere» - ora, bada bene: chi si fa promotore dell’impresa non è il <persName ref="#NZ">Zanichelli</persName>
+                        propriamente, ma il <persName ref="#LM">Manzoni</persName>. 
+                        Il <persName ref="#NZ"><expan><abbr>Z</abbr><am>.</am><ex>anichelli</ex></expan></persName> ha avuto l’idea vaga di continuare la pubblicazione 
+                        dei due volumi dell’<title ref="#ariosto"><persName type="author" ref="#ariosto">Ariosto</persName></title> colla pubblicazione di altri volumi simili di Classici. 
+                        Ho chiesto perciò consiglio al <persName ref="#LM"><expan><abbr>M</abbr><am>.</am><ex>anzoni</ex></expan></persName>, ed egli ha ideata 
+                        una nuova <title>Biblioteca italiana</title> promettendo al <persName ref="#NZ"><expan><abbr>Z</abbr><am>.</am><ex>anichelli</ex></expan></persName>
+                        di farmelo editore se vorrai accettare al suo piano. Questo piano in sostanza è quello che conosci: <persName ref="#LM">Manzoni</persName>
+                        cede ad un Consiglio direttivo di direzione la compilazione della <title>Biblioteca</title>; egli intanto vi resta come promotore ed 
+                        amministratore, e perciò eserciterà di dritto una sorveglianza continua sull’operato dell’editore, che non potrà mai fare di suo 
+                        capriccio nulla e <lb/> nemmeno potrà volgere a suo esclusivo vantaggio tutto ciò che si ritrarrà dalle pubblicazioni: una parte di tale 
+                        provento il <persName ref="#LM"><expan><abbr>M</abbr><am>.</am><ex>anzoni</ex></expan></persName> lo destinerebbe ad aumentare gli 
+                        onorarj dei collaboratori. – credo dunque che non vi sia molto da temere sulle promesse 
+                        del <persName ref="#NZ"><expan><abbr>Z</abbr><am>.</am><ex>anichelli</ex></expan></persName>; poiché essendovi di mezzo 
+                        il <persName ref="#LM"><expan><abbr>M</abbr><am>.</am><ex>anzoni</ex></expan></persName>, che è un giovane ricco ed onorato, 
+                        egli non prometterà che nessuno resti vittima di un inganno.
+                        Si sarebbe potuto fare di meno del <persName ref="#NZ"><expan><abbr>Z</abbr><am>.</am><ex>anichelli</ex></expan></persName>
+                        promuovendo la formazione di una società a somiglianza di quella francese, ed io ci avevo pensato ed avrei trovato anche 
+                        persone pronte a secondare e ad appoggiare solidamente l’impresa come il <persName ref="#GF1">Ferrajoli</persName>. 
+                        Ma si correva un brutto rischio. Formata la società, era la maggioranza di essa che avrebbe eletto il consiglio direttivo, e Dio sa 
+                        che ne sarebbe venuto fuori! L’elemento che avrebbe prevalso, sarebbe stato naturalmente quello che prevale nella Commissione dei Testi 
+                        di Lingua. – Penso dunque che sia pur meglio andare innanzi col 
+                        <persName ref="#NZ"><expan><abbr>Z</abbr><am>.</am><ex>anichelli</ex></expan></persName> del resto, costituito il 
+                        Consiglio direttivo, e fatto bene il piano di tutto, si potrà meglio trattare delle varie edizioni e farle modificare al bisogno. 
+                        Ciò che sarà giusto e possibile il <persName ref="#NZ"><expan><abbr>Z</abbr><am>.</am><ex>anichelli</ex></expan></persName> 
+                        non potrà negarlo senza pericolo di mandare tutto a monte. 
+                        Intanto io ho preparato il terreno col mostrare l’insufficienza dell’onorario proposto e coll’assicurare al 
+                        <persName ref="#NZ"><expan><abbr>Z</abbr><am>.</am><ex>anichelli</ex></expan></persName> la cooperazione del <persName ref="#MN">Niemeyer</persName> 
+                        per dare alla pubbli <lb/> cazione un buono sviluppo facendola largamente circolare all’estero 
+                        All’<persName ref="#GIA">Ascoli</persName> puoi assicurare che nessun elemento <hi rend="underline">vecchio</hi> penetrerà nel consiglio. 
+                        Accettando egli ed il <persName ref="#GF">Flechia</persName>, il consiglio sarebbe composto così: <persName ref="#GIA">Ascoli</persName>, 
+                        <persName ref="#AB">Bartoli</persName>, <persName ref="#GC">Carducci</persName>, <persName>D’Ascoli</persName>, <persName ref="#GF">Flechia</persName>, 
+                        <persName ref="#AM">Mussafia</persName>, <persName ref="#PR">Rajna</persName>. 
+                        Quanto a me, basta di aver servito d’ intermediario per fondare una impresa che credo veramente necessaria. 
+                        Se il mio servigio sarà utile ulteriormente, resterò sempre a disposizione dei miei amici.
+                        Quanto poi ai ragguagli più precisi che desidera l’<persName ref="#GIA">Ascoli</persName>, ti prego di fargli conoscere come 
+                        nulla finora è stato fissato, non volendosi in nulla preoccupare il campo ricevuto al dominio del Consiglio. 
+                        È questo che deciderà quali limiti deve avere la <title>Nuova Biblioteca</title>, quale il merito di riordinare le edizioni, 
+                        quali i testi da preferirsi nella pubblicazione, quale l’autore con cui cominciare, quale infine i collaboratori cui affidare i singoli lavori.
+                        -  eccellente è la sua idea di mettere a contributo le nostre scuole. Avremo istrumenti di sicuri, e la gioventù che sorge ora avrà 
+                        un bello stimolo per farsi onore. – Ciò che ora mi sembra principalmente necessario è che vi mettiate fra voialtri d’accordo sopra i punti 
+                        fondamentali e che troviate un volume con cui cominciare, un volume, come bene pensi tu, di facile smercio, e, aggiungerò, 
+                        se è possibile di non lunga preparazione. Vedi un po’ dunque tu ora di spingere innanzi e trovare la via di cominciare. 
+                        Io intanto mi occupo dell’esterno e sto cercando un tipo di edizione che possa stare accanto alle edizioni dei francesi ed inglesi.
+                        Ora addio nella speranza di sapere presto qualche cosa.
+                    </p>
+                    <closer>Abbiti un abbraccio dal tuo
+                        <signed><persName ref="#EM"><expan><abbr>E</abbr><am>.</am><ex>rnesto</ex></expan> Monaci</persName></signed></closer>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>
+

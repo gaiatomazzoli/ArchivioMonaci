@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ernesto Monaci a Pio Rajna, 6 dicembre 1877</title>
+                <editor role="transcription"><persName>Alessia Di Virgilio</persName></editor>
+                <editor role="encoding"><persName>Laura Pireddu</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2020-03-30"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl><bibl>Alessia Di Virgilio, <title>Carteggio Monaci - Rajna (1873-1877)</title>, tesi di laurea, Sapienza Università di Roma, a.a. 2018-2019</bibl></listBibl>
+                <msDesc>
+                    <msIdentifier><repository>Archivio Pio Rajna, presso la Biblioteca Marucelliana di Firenze.</repository> <idno>Lettera XL</idno></msIdentifier>
+                    <msContents><summary corresp="#postcard">Cartolina di Ernesto Monaci a Pio Rajna del 6 dicembre 1877</summary></msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#roma">Roma</placeName>
+                    <date when="1877-12-06"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#PR">Pio Rajna</persName>
+                    <placeName ref="#sconosciuto">?</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                    <p><expan><abbr>C</abbr><am>.</am><ex>arissimo</ex></expan><expan><abbr>A</abbr><am>.</am><ex>mico</ex></expan> Pel 2° <expan><abbr>fasc</abbr><am>.</am><ex>icolo</ex></expan> ho già ricevuto un articolo del <persName ref="#NC">Caix</persName> ed un altro del <persName>Meyncke</persName> 
+                        (2 bagni di <placeName ref="#pozzuoli">Pozzuoli</placeName>). Credo che ci sarà ancora spazio sufficiente per te: tanto più che io sto facendo di tutto per fare entrare 
+                        l’<expan><abbr>art</abbr><am>.</am><ex>icolo</ex></expan> del <persName ref="#NC">Caix</persName> nel <expan><abbr>fasc</abbr><am>.</am><ex>icolo</ex></expan> 1°, e non ne dispero, 
+                        se il calcolo della composizione già fatto non m’inganna. Ad ogni modo, se ti piace potremmo annunziare il tuo <expan><abbr>art</abbr><am>.</am><ex>icolo</ex></expan> sulla copertina 
+                        del <expan><abbr>fasc</abbr><am>.</am><ex>icolo</ex></expan> 1°, e così sarebbe rimosso il pericolo di qualche tiro poco pulito. Ora a te il decidere. Questa mattina t’ho spedito 1/3 
+                        del tuo <expan><abbr>art</abbr><am>.</am><ex>icolo</ex></expan> e fra giorni avrai il resto. Una scorsa – come vedrai - già ce l’ho data col ms. alla mano. Appena l’avrai corretto, 
+                        spediscilo pure direttamente al <persName ref="#FV1">Vigo</persName>, e si guadagnerà tempo. Io, sulle correzioni tue, curerò la 2a.</p>
+                    <p>Domani spero di vedere il <persName ref="#EM1">Molteni</persName> e gli comunicherò la tua cartolina.</p>
+                    <p>Fra giorni poi ti scriverò per pregarti di un favore della <orgName ref="#BibTriv">Trivulziana</orgName>.</p>
+                    <closer><salute>Addio. voglimi sempre bene.</salute>
+                        <signed>Il tuo <persName ref="#EM">E. Monaci</persName></signed></closer>
+                    <postscript><p>Per le “<title>Grammatiche provenzali</title>” chi farà la recensione?</p></postscript>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

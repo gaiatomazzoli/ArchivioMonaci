@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Cesare De Lollis a Ernesto Monaci, 14 novembre 1894</title>
+                <editor role="transcription"><persName>Debora Matteo</persName></editor>
+                <editor role="encoding"><persName>Virginia Machera</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2020-05-02"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl><bibl>Debora Matteo, <title>Itinerario di un carteggio</title>, tesi di laurea, Sapienza Università di Roma, a.a. 2017-2018</bibl></listBibl>
+                <msDesc>
+                    <msIdentifier><repository>Fondo Monaci, Società Filologica Romana, presso il Dipartimento di Studi Europei, Americani e Interculturali, Sapienza, Università di Roma.</repository> <idno>Busta n. 8, fascicolo 394.</idno></msIdentifier>
+                    <msContents><summary corresp="#letter">De Lollis chiede al maestro di intervenire per rimediare alle posizioni dell’ateneo genovese in merito alla contesa con il prof. Asturaro.</summary></msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#CDL">Cesare De Lollis</persName>
+                    <placeName ref="#genova">Genova</placeName>
+                    <date when="1894-11-14"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#sconosciuto">?</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                    <p>[...]</p>
+                    <p>Giunto qui jeri ho trovato una novità che modifica, in peggio, la mia situazione. Colla nomina del <persName ref="#AGB">Barrili</persName> ad ordinario <gap reason="illegible" extent="unknown" unit="chars"/> vacante un solo posto, che dovremo contenderci io e il <expan><abbr>prof</abbr><am>.</am><ex>essore</ex></expan> <persName ref="#AA1">Asturaro</persName>. La facoltà, che non può e non vuole entrare in questioni di merito, proporrà in aprile il più anziano, vale a dire l’<persName ref="#AA1">Asturaro</persName>. Così, io rimarrò definitivamente a piedi. [...] Ho voluto metterla al corrente degli eventi, <gap reason="illegible" extent="unknown" unit="chars"/> fiducioso che, capitandogliene l’occasione, Ella vorrà adoperarsi perché la mia situazione non diventi infinitamente peggiore.</p>
+                    <p>[...]</p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Cesare De Lollis a Ernesto Monaci, 3 aprile 1895</title>
+                <editor role="transcription"><persName>Debora Matteo</persName></editor>
+                <editor role="encoding"><persName>Virginia Machera</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2020-05-02"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl><bibl>Debora Matteo, <title>Itinerario di un carteggio</title>, tesi di laurea, Sapienza Università di Roma, a.a. 2017-2018</bibl></listBibl>
+                <msDesc>
+                    <msIdentifier><repository>Fondo Monaci, Società Filologica Romana, presso il Dipartimento di Studi Europei, Americani e Interculturali, Sapienza, Università di Roma.</repository> <idno>Busta n. 8, fascicolo 394.</idno></msIdentifier>
+                    <msContents><summary corresp="#letter">De Lollis elogia la Crestomazia del Monaci, lo aggiorna sul suo incontro con Mussafia e sulla contesa del posto da ordinario all'università di Genova.</summary></msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#CDL">Cesare De Lollis</persName>
+                    <placeName ref="#genova">Genova</placeName>
+                    <date when="1895-04-03"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#sconosciuto">?</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                    <p>[...]</p>
+                    <p>La sua <title ref="#crestomazia">Crestomazia</title> francese mi ha servito benissimo pel corso, e forse forse mi basterà da sola; perché, dato il numero esiguo degli studenti (otto o nove in tutto) mi conviene dare all’insegnamento un carattere puramente pratico: sicché ogni parola di quegli antichi monumenti mi si presta a più applicazioni di regole fonetiche e morfologiche. [...] 
+                        Ho fatta jeri la conoscenza del <persName ref="#AM">Mussafia</persName>: e mi ha fatto molta impressione un così bel busto d’uomo coronato da una lucida cesaria bruna su due povere gambe che si rifiutano ormai a qualsiasi movimento ... non credevo ch’egli fosse così mal ridotto. Però è oltre modo sano di spirito ed ha una chiarezza di eloquio che fa ricordare dei suoi lavori. Si spingerà in giù sino a <placeName ref="#firenze">Firenze</placeName>, di dove ritornerà in <placeName ref="#austria">Austria</placeName>.
+                        L’unico posto di ordinario che ancora v’è qui è preso di mira da straordinarj ed ordinarj di altre Facoltà: sicché devo considerare come provvidenziale la deliberazione del Ministero in mio favore, che anche quindi per tale considerazione non si può chiamar contraddittoria al voto del Consiglio Superiore.
+                        Ad onor del vero anzi, io ricordo che anche i Membri del Consiglio che osteggiarono la mia pratica s’accordarono in questo, che dei posti di straordinario disponibili in questa facoltà uno dovesse essere per me: ma nessuno ne sarebbe rimasto, se il <persName ref="#GB">Ministro</persName>, considerate le ragioni per le quali il professor <persName ref="#CDL">De Lollis</persName> rimase in <placeName ref="#roma">Roma</placeName>, non avesse dato corso agli atti. [...] 
+                        Il mio piccolo <title ref="#colombo">Colombo</title> è alla terza edizione; e il grande, vale a dire l’edizione degli Scritti, benché scritto da un umile filologo, gode di parecchia autorità all’estero dove non si sa e non interessa sapere che l’autore non è un geografo di professione... Il <persName ref="#SR">Ruge</persName>, che è il primo storico vivente della geografia, proprio in questi giorni ha definito il mio libro stampato dal <persName ref="#ET">Treves</persName> come uno dei migliori scritti su <persName ref="#CC3">Colombo</persName>. [...] 
+                        So che mi si è chiamato autore di libri a base di sola pazienza: e non posso non rallegrarmi che la pensino diversamente le persone che hanno avuto la pazienza di leggermi...</p>
+                    <p>[...]</p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

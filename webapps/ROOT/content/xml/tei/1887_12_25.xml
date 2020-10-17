@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Cesare De Lollis a Ernesto Monaci, 25 dicembre 1887</title>
+                <editor role="transcription"><persName>Susanna Casacchia</persName>, <persName>Debora Matteo</persName></editor>
+                <editor role="encoding"><persName>Susanna Casacchia</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2020-04-23"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl><bibl>Debora Matteo, <title>Itinerario di un carteggio</title>, tesi di laurea, Sapienza Università di Roma, a.a. 2017-2018</bibl></listBibl>
+                <msDesc>
+                    <msIdentifier><repository>Archivio Monaci, Società Filologica Romana, presso il Dipartimento di Studi Europei, Americani e Interculturali, Sapienza, Università di Roma.</repository> <idno>Busta n. 8, fascicolo 394.</idno></msIdentifier>
+                    <msContents><summary corresp="#letter">Lettera di Cesare De Lollis a Ernesto Monaci del 25 dicembre 1887.</summary></msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#CDL">Cesare De Lollis</persName>
+                    <placeName ref="#paris">Parigi</placeName>
+                    <date when="1887-12-25"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#roma">Roma</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:lang="it" type="transcription">
+                <div type="textpart" subtype="letter">
+                    <div type="textpart" subtype="envelope"> 
+                    <opener>
+                           <address>
+                            <addrLine>Piazza Capranica, 95 II</addrLine>
+                            </address>
+                        <salute>Egregio <expan><abbr>Sig</abbr><am>.</am><ex>or</ex></expan> Professore,</salute>
+                    </opener>
+                        <p>Ieri ho spedito, in piego raccomandato, le pagine 41-96 del <persName ref="#GHP">Pertz</persName> collazionate sui due mss. Così, il <persName ref="#LTB">Belgrano</persName> 
+                       ha già sin d’ora in pronto tutto il materiale per il primo volume. Io non mi darò riposo e tirerò innanzi a collazionare.</p>
+                    <p>Quanto alle mie cose, Le ripeto ciò che le ho già detto; io lavoro molto. Passo le prime ore della sera alla <orgName ref="#BibSorb">Biblioteca della Sorbona</orgName>, 
+                        assai ben provvista di riviste: e mi trovi già di aver studiato o almeno letto quanto si è scritto sull’<rs type="topic" key="Umlaut">Umlaut</rs>in generale nelle 
+                        <rs type="topic" key="Lingue romanze">lingue romanze</rs>. Il mio lavoro non rivelerà un <hi rend="underline">fatto nuovo</hi>: ma metterà forse in evidenza i molteplici effetti che il 
+                        <gap reason="illegible" extent="unknown" unit="chars"/> dell’<rs type="topic" key="Umlaut"><hi rend="underline">Umlaut</hi></rs> (che io forse non chiamerei così) produce in un 
+                        <rs type="topic" key="Dialetto">dialetto</rs>. Pensavo seguire parallelemente il <rs type="topic" key="Dialetto chietino">chietino</rs> e il <rs type="topic" key="Dialetto teramano">teramano</rs>.</p>
+                        <p><pb/> io mi accorgo che il primo si presenta, per rispetto all’<rs type="topic" key="Umlaut">Umlaut</rs>, nelle stesse edizioni del teramano, o per meglio dire, nello sviluppo 
+                            di molti fenomeni d’<rs type="topic" key="Umlaut">Umlaut</rs>, si trova allo stesso stadio del <rs type="topic" key="Dialetto teramano">teramano</rs>: mentre 
+                        il <rs type="topic" key="Dialetto">dialetto</rs> del mio paese, che dista 3 o 4 miglia da <placeName ref="#chieti">Chieti</placeName>, rappresenta uno stadio anteriore e vale quindi a render 
+                            chiare le forme del <rs type="topic" key="Dialetto teramano">teramano</rs> che separano il <gap reason="illegible" extent="unknown" unit="chars"/> dall’evoluzione in quel dato <unclear>senso</unclear>
+                            e per rispetto a quelle date cause. D’altra parte il <rs type="topic" key="Dialetto">dialetto</rs> del mio paese si presenta privo da ogni contaminazione di elementi <unclear>settentrionali</unclear>.</p>
+                    <p>Desidero e spero finir presto questo lavoro, volendo almeno raccogliere il materiale per qualche lavoro di francese antico.</p>
+                    <p>Quanto a quello che mi aspettavo di poter fare a <placeName ref="#paris">Parigi</placeName>, ho provato un po’ di disillusione. Il corso del <persName ref="#PM">Meyer</persName>
+                        è molto ordinato; ma è troppo superficiale, perché dedicato ai principianti, ai quali poi egli deve dare idea sommaria di tutto; a cominciare dalle 
+                        origini delle <rs type="topic" key="Lingue romanze">lingue romanze</rs>, per finire alla decadenza delle singole <rs type="topic" key="Letterature medievali">letterature medievali</rs>. 
+                        <pb/> Domani glielo rinvierò! Quanto alla collazione che egli mi chiese , io non saprei come regolarmi perché mi parrebbe di doverla fare con tutte le regole, per i <unclear>nomi</unclear>
+                        proprj e per resto. Ma di <persName type="author" ref="#CRC">Caffaro</persName> ce n’è molto ancora. Ciònondimeno, io non aveva affatto dimenticato il suo lavoro, e son sicuro
+                        che prima ch’io lasci <placeName ref="#paris">Parigi</placeName> o in un modo o in un altro, troverò il verso di sbrigarlo.</p>
+                    <p>Il <persName ref="#GP">Paris</persName> e il <persName ref="#PM">Meyer</persName> mi hanno <hi rend="underline">costretto</hi>, letteralmente, a fare una recensione del nuovo libro 
+                        del <gap reason="illegible" extent="unknown" unit="chars"/>: la cronologia del <persName ref="#petrarca">Petrarca</persName>. Io aveva molte ragioni per non occuparmene: non ultima quella 
+                        di non essermi mai occupato di queste cose. Ma il <persName ref="#GP">Paris</persName> e il <persName ref="#PM">Meyer</persName> non hanno voluto esonerazioni, e io mi sono preso 
+                        questo incarico, benché non aveva assai letto il libro. Lo ha visto Lei? cosa ne pensa? </p> 
+                    <p>La saluta il <persName ref="#GP">Paris</persName>, che ho visto l’altro ier sera in una <hi rend="underline">soirèe</hi> che dette in sua casa.</p>
+                        
+                     <pb/> <p>Il corso degli Alti Studj che il <persName ref="#GP">Paris</persName> fa in casa sua ogni domenica ed al quale invita ed ammette solo i <hi rend="underline">maturi</hi> 
+                         è anch’esso… poco <hi rend="underline">alto</hi>. I pochi giovani che gli stanno dattorno si trovano ad un livello di coltura assai basso: e quindi egli si limita a spiegar 
+                         delle <rs type="topic" key="Lirica francese">liriche francesi</rs> così all’ingrosso... I temi che egli ha fatto preparare sono dei bei temi: io gliene citerò qualcheduno. 1° Studiando 
+                        la lingua delle <hi rend="underline"><title ref="#pastourelles">Pastorelle</title></hi> pubblicate dal <persName ref="#KB">Bartsch</persName>, determinare l’origine di questo 
+                         genere letterario; 2° il <hi rend="underline">jocs partitz</hi>è d’origine <rs type="topic" key="Provenzale">provenzale</rs> o francese?; 3° indagare le cause dell’improvviso decadimento della 
+                         <rs type="topic" key="Lirica francese">lirica francese</rs> alla fine del sec. XIII. Or bene: il <persName ref="#GP">Paris</persName>, nel sottoporre questi temi alla nostra scelta, ha dichiarato 
+                         che voleva vederli <hi rend="underline">svolti</hi> e <hi rend="underline">presentati</hi> di lí a tre settimane!! Non è già che il <persName ref="#GP">Paris</persName> non
+                         veda la vastità dei temi e non sappia calcolare quanto di ricerche e di studio vi si debba spendere: ma gli è che egli è abituato a vedere i giovani lavorare acciarpatamente.</p>
+                     <p>Mi creda, è spaventevole la miseria intellettuale <pb/> di questi giovani francesi. Le cause mi appaiono evidenti: ma son troppe e troppo lunghe perché io stia qui ora ad 
+                         esporgliele. Col <persName ref="#PM">Meyer</persName>, che è uno dei più simpatici uomini che io abbia conosciuto, mi trovo spesso. Egli mi dice che sarebbe assai importante il 
+                         ricostruire il <title ref="#alfonsoX">ciclo trobadorico d’Alf. X</title>: ed io mi sento riacceso nel venir proferito di ripubblicarne, con uno studio, le liriche sue e di 
+                         qualche altro tra i principali <rs type="topic" key="Trovatori">trovatori</rs>. Tanto più che un allievo del <persName ref="#GP">Paris</persName>, professore in un liceo di 
+                         <gap reason="illegible" extent="unknown" unit="chars"/>, lavora sui canzonieri portoghesi, studiando l’influenza <hi rend="underline">francese</hi>
+                         sulla <rs type="topic" key="Lirica ultrapirenaica">lirica ultrapirenaica</rs>: io, come Ella ricorderà,avevo già affrontato un lavoro simile, limitandomi all’influenza <rs type="topic" key="Provenzale">provenzale</rs>. 
+                         Mi sembrerebbe esser prevenuto.</p>
+                        <p>Quando avrò finita la collazione di tutto <title ref="#annali"><persName type="author" ref="#CRC">Caffaro</persName></title>, penso di lasciare la <placeName ref="#francia">Francia</placeName>. 
+                            Se avrò la possibilità di restare all’estero ancora un tre mesi mi recherò in <placeName ref="#germania">Germania</placeName>,per seguire il secondo semestre di qualche corso: 
+                            se non avrò disponibile che qualche mese farò un tour per la <placeName ref="#spagna">Spagna</placeName>. Mi ha scritto il <expan><abbr>Dott</abbr><am>.</am><ex>or</ex></expan> Levi, ridomandandomi per un po’ di tempo il suo manoscritto.</p>
+                        <p><pb/>Io poi Le iscrivo; più cordiali auguri per il nuovo anno: Glielo auguro tutto stesse felicitazioni per lei e per la sua famiglia.</p>
+                    <closer>  
+                        <salute>Mi creda suo <expan><abbr>dev</abbr><ex>otissi</ex><abbr>mo</abbr></expan> 
+                            e affmo discepolo</salute>
+                        <signed><persName ref="#CDL">Cesare De Lollis</persName></signed>
+                    <dateline>
+                            <placeName ref="#paris">Parigi</placeName>
+                            <date when="1887-12-25">25 <expan><am>X</am><ex>dicem</ex><abbr>bre</abbr></expan></date>
+                         </dateline>
+                    </closer>
+                </div>
+            </div>
+                </div>
+        </body>
+    </text>
+</TEI>

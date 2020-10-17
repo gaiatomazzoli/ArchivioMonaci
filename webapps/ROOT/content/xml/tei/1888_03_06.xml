@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Cesare De Lollis a Ernesto Monaci, 6 marzo 1888</title>
+                <editor role="transcription"><persName>Susanna Casacchia</persName>, <persName>Debora Matteo</persName></editor>
+                <editor role="encoding"><persName>Susanna Casacchia</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2020-04-26"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl><bibl>Debora Matteo, <title>Itinerario di un carteggio</title>, tesi di laurea, Sapienza Università di Roma, a.a. 2017-2018</bibl></listBibl>
+                <msDesc>
+                    <msIdentifier><repository>Archivio Monaci, Società Filologica Romana, presso il Dipartimento di Studi Europei, Americani e Interculturali, Sapienza, Università di Roma.</repository> <idno>Busta n. 8, fascicolo 394.</idno></msIdentifier>
+                    <msContents><summary corresp="#letter">Lettera di Cesare De Lollis a Ernesto Monaci del 6 marzo 1888.</summary></msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#CDL">Cesare De Lollis</persName>
+                    <placeName ref="#paris">Parigi</placeName>
+                    <date when="1888-03-06"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#roma">Roma</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                    <div type="textpart" subtype="envelope">
+                        <opener>
+                        <address>
+                            <addrLine>Piazza Capranica, 95 II</addrLine> 
+                        </address>
+                        <salute><expan><abbr>Eg</abbr><am>.</am><ex>regio</ex></expan> <expan><abbr>Sig</abbr><am>.</am><ex>or</ex></expan> Professore,</salute>   
+                    </opener>
+                    <p>Ho da dirle tante cose che son sicuro questa mia lettera finirà per avere la fisionomia d’una cronica medicinale. E quel che è peggio, temo anche che delle molte cose che sono andato mettendo da parte per questo momento, qualcuna mi sfuggirà! Ab Iove principium. Questa mattina ho fatto venire alla <orgName ref="#BnF">Nazionale</orgName> il 
+                        <expan><abbr>sig</abbr><am>.</am><ex>or</ex></expan> <unclear>Fernigue</unclear>, per proporgli la riproduzione su zincografia dei disegni a penna del 
+                        <expan><abbr>cod</abbr><am>.</am><ex>ice</ex></expan> Caffariano.
+                        Si è rinvenuto  che il migliore e più economico mezzo è quello di fare il <gap reason="illegible" extent="unknown" unit="chars"/> di lapis, da ripassare poi colla penna, 
+                        tenendo ancor presente il manoscritto: il <gap reason="illegible" extent="unknown" unit="chars"/>, così risolto, andrebbe poi trapiantato sulla lamina di zinco.</p>
+                     <p>Gli ho inviati i disegni, per sapere il totale delle spese; ma il <expan><abbr>sig</abbr><ex>or</ex></expan> <unclear>Fernigue</unclear> mi ha promesso una risposta per 
+                        iscritto che avrei dovuto ricevere stasera, e che avrei colla presente inviato a Lei. Glieli farò <unclear>presente</unclear> non appena me li manderà!: intanto, da quel che ho 
+                        potuto capire dai discorsi fatti <pb/> si andrà vicino ai 300 franchi! Crede Ella e con Lei credano gli altri Membri dell’<orgName ref="#ISI">Istituto</orgName> che valga la pena di 
+                        affrontare una tale spesa? Sentiranno la risposta del sig. <unclear>Fornigue</unclear>, la quale, ripeto, sarà  sottoposta all’esame dell’<orgName ref="#ISI">Istituto</orgName>: 
+                        ma intanto, per non perder tempo, mi pare che Ella potrebbe consultare chi di dovere per fissare il <hi rend="underline">massimo</hi> a cui si potrebbe arrivare.</p>
+                     <p>Oggi il <unclear>Picard</unclear> ha spedito il <gap reason="illegible" extent="unknown" unit="chars"/>. Gli ho ordinato di spedirlo a mezzi di pacco postale; mezzi 
+                         <gap reason="illegible" extent="unknown" unit="chars"/> che il ritardo che presenta un tal mezzo è compensato dalla <hi rend="underline">sicurezza</hi> dell’arrivo.</p>
+                     <p> Il lavoro del Levi è pressoché finito. Non mi affretto a spedirlo, perché soglio ripassare io stesso le pagine illeggibili, e voglio dare la descrizione chiestami del ms. 
+                        Prima di qualche giorno non avrò il tempo necessario.</p>
+                     <p>Mi permetto di parlarle un filo di me e delle mie cose. Del mio lavoro sull’<hi rend="underline">Umlaut</hi> ho fatto una buona metà, e non mi sarei arrestato se non mi fossi 
+                       trovato di fronte ad alcune difficoltà che non mi permetteranno forse di dar l’ultima mano al lavoro se non dopo essere andato per qualche giorno in <placeName ref="#abruzzo">Abruzzo</placeName>.  
+                       Quanto a lavori letterarj, non ho trovato nulla nella <orgName ref="#BnF">Nazionale</orgName> che mi <hi rend="underline">ispirasse </hi>. Non mi vergogno di confessarle; 
+                       poiché non ho avuto molto tempo di frugare. Sono stato e sto addosso alla collazione caffariana, che per riguardo a Lei che mi aveva proposto, per riguardo a <persName ref="#CC2">S.E. Correnti</persName> 
+                       che mi aveva accettato e finalmente anche un poco per riguardo a me che mi ero impegnato, voglio condurre a termine e nel miglior modo possibile. Per la fine del mese, 
+                       secondo poi avevo calcolato, spero poterle rinviare il tutto, compresa la descrizione del ms. Il problema che mi resta a risolvere è cosa farò, finito tal lavoro. Qui non ho 
+                       avviato alcun lavoro che mi obblighi a rientrare in <placeName ref="#paris">Parigi</placeName>. Tutto quello che ho fatto alla <orgName ref="#BnF">Nazionale</orgName> è stato di
+                         passare qualche ora sul <title type="manuscript" key="Manoscritto provenzale 12424">ms. provenzale 12424</title> la cui storia Ella aveva già accennato in una nota al <title ref="#canzoniere"><expan><abbr>Canz</abbr><am>.</am><ex>oniere</ex></expan>
+                       Portoghese</title>, che ora è stata <unclear>sviluppata </unclear> dal <gap reason="illegible" extent="unknown" unit="chars"/> alla sua <hi rend="underline">Bibliothéque</hi> 
+                       <hi rend="underline">de</hi> <hi rend="underline"><expan><abbr>F</abbr><am>.</am><ex>ulvio</ex></expan></hi>  <hi rend="underline">Orsini</hi>. Le postille del <gap reason="illegible" extent="unknown" unit="chars"/>
+                      sono importanti fino ad un certo punto: perché molte di esse <unclear>integrano</unclear> richiami a <hi rend="underline">più</hi> <hi rend="underline">d’un</hi> ms. di <gap reason="illegible" extent="unknown" unit="chars"/>
+                      Se dunque non trovo qui da por mano ad una serie di ricerche, che poi potessi coordinare per un buon lavoro, mi conviene emigrare, prima che giungano le tasse sugli stranieri. E 
+                      in verità, qui, mi è impossibile studiare fuori delle poche ore che è aperta la <orgName ref="#BnF">Nazionale</orgName> <gap reason="illegible" extent="unknown" unit="chars"/> e quindi le migliori ore della sera e della 
+                      domenica debbo passarle in un semi-far nulla. Seguendo il Suo consiglio andrei in <placeName ref="#spagna">Ispagna</placeName>, quasi sicuro di trovar qualcosa di buono per la 
+                         <rs type="topic" key="Letteratura portoghese">letteratura portoghese</rs> od anche <rs type="topic" key="Letteratura provenzale">provenzale</rs>. Ma c’è una questione molto grave, ed è che un viaggio di esplorazione in <placeName ref="#spagna">Ispagna</placeName> 
+                         mi costerebbe immensamente. [...] Non mi resterebbe quindi che andare a passare un 3 mesi in <placeName ref="#germania">Germania</placeName>, dove avrei a mia disposizione i libri di 
+                         quella Imperiale Biblioteca, e potrei quindi lavorare a casa, dove si lavora meglio che altrove. [...] Ma prima di decidermi, desidero avere il consenso della Sua affettuosa autorità, nella quale io ho cieca fiducia. [...]</p>
+                    <closer>  
+                        <salute>Tanti saluti al <expan><abbr>sig</abbr><am>.</am><ex>nor</ex></expan> <expan><abbr>Avv</abbr><ex>occato</ex></expan> Giorgi, al quale mi sono troppo poco ricordato, Lei
+                         voglia credermi il sempre suo <expan><abbr>dev</abbr><ex>otissi</ex><abbr>mo</abbr></expan> affmo discepolo</salute>
+                        <signed><persName ref="#CDL">De Lollis</persName></signed>
+                        <dateline>
+                            <placeName ref="#paris">Parigi</placeName>
+                            <date when="1888-03-06">6 Marzo</date>
+                        </dateline>
+                    </closer>
+                </div>
+            </div>
+            </div>
+        </body>
+    </text>
+</TEI>

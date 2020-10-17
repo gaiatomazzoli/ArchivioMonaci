@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ernesto Monaci a Graziadio Isaia Ascoli, 23 febbraio 1906</title>
+                <editor role="transcription"><persName>Chiara Maria Calcagni</persName></editor>
+                <editor role="encoding"><persName>Stefano Boschi</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2020-04-08"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl><bibl>Chiara Maria Calcagni, <title>Lettere scelte dal carteggio Ascoli-Monaci (1880/1906): trascrizione e commento</title>, tesi di laurea, Sapienza Università di Roma, a.a. 2018-2019</bibl></listBibl>
+                <msDesc>
+                    <msIdentifier><repository>Archivio Ascoli, presso la Biblioteca dell’Accademia dei Lincei e Corsiniana, Roma.</repository> <idno>Pacco 1, busta 5.</idno></msIdentifier>
+                    <msContents><summary corresp="#letter">Informativa sui contatti col ministro Boselli per la commisssione sulla Toponomastica.</summary></msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#roma">Roma</placeName>
+                    <date when="1906-02-23"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#GIA">Graziadio Isaia Ascoli</persName>
+                    <placeName ref="#sconosciuto">?</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                    <opener><dateline><placeName ref="#roma">Roma</placeName> – <date when="1906-02-23">23 febbr. 1906</date></dateline></opener>
+                    <p>Mio Signore, domenica, quando andai all’<orgName ref="#AccLin">accademia</orgName> con la speranza di vedervi il <persName ref="#FDO">D’Ovidio</persName>, non lo trovai; ma trovai il <persName ref="#PB">Blaserna</persName>, egli mi disse che il <persName ref="#EDM">De Marinis</persName>, prima di lasciare il Ministero, gli aveva scritto assicurandolo che lasciava al suo successore, il <persName ref="#PB1">Boselli</persName>, una calda raccomandazione per il comando del <persName ref="#SP">Pieri</persName>, non avendo egli avuto tempo di fare quanto aveva promesso. Intanto sopravvenne da <placeName ref="#napoli">Napoli</placeName> il <persName ref="#FDO">D’O.</persName> ed ebbi da lui la promessa che il giorno dopo sarebbe andato dal <persName ref="#PB1"><expan><abbr>B</abbr><am>.</am><ex>oselli</ex></expan></persName> e che poi m’avrebbe informato dei risultati del colloquio. Ma il <persName ref="#FDO">D’O.</persName> partì, e fino ad oggi ho aspettato inutilmente la sua lettera. Bensì quello che non ho potuto sapere dal <persName ref="#FDO">D’O.</persName>, l’ho saputo questa mattina dal Conte <persName ref="#CM">Nigra</persName>. Egli mi ha detto che, pregatone dal <persName ref="#FDO">D’O.</persName>, scrisse qualche giorno addietro al <persName ref="#PB1"><expan><abbr>B</abbr><am>.</am><ex>oselli</ex></expan></persName> intorno alla faccenda della <rs type="topic" key="Toponomastica">Toponomastica</rs>; gli ricordò i precedenti; gli disse che <persName ref="#GIA">Ella</persName> era sempre a capo dell’impresa; gli nominò gli altri componenti la Commissione accademica, e lo eccitò a secondare la proposta già presentata per il trasferimento del <persName ref="#SP">Pieri</persName> presso l’<orgName ref="#AccLin">Accademia</orgName>. Il <persName ref="#PB1">Boselli</persName> si mostrò assolutamente ignaro della cosa; onde si è argomentato che qualcuno abbia fatto sparire la lettera del <persName ref="#EDM">De Marinis</persName>. Prometteva però di occuparsene subito, e difatti poche ore dopo gli scriveva altra lettera assicurandolo di tutto il suo impegno per appagare il desiderio espressogli. Attendiamo dunque qualche altro giorno. Ora che della cosa si occupa il <expan><abbr>M</abbr><am>.</am><ex>inistro</ex></expan>, non dubito che si farà e presto.</p>
+                    <p>Il Conte <persName ref="#CN">Nigra</persName> incaricandomi di riferirLe quanto Le ho scritto, mi ha detto anche di salutarla tanto da Sua parte.</p>
+                    <p>Mi abbia sempre</p>
+                    <closer><salute>il suo aff.mo</salute>
+                        <signed><persName ref="#EM">Ern. Monaci</persName></signed></closer>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

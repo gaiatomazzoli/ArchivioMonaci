@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Graziadio Isaia Ascoli ad Ernesto Monaci, 8 ottobre 1902</title>
+                <editor role="transcription"><persName>Chiara Maria Calcagni</persName></editor>
+                <editor role="encoding"><persName>Virginia Machera</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2020-04-09"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl><bibl>Chiara Maria Calcagni, <title>Lettere scelte dal carteggio Ascoli-Monaci (1880/1906): trascrizione e commento</title>, tesi di laurea, Sapienza Università di Roma, a.a. 2018-2019</bibl></listBibl>
+                <msDesc>
+                    <msIdentifier><repository>Archivio Monaci, Società Filologica Romana, Presso il dipartimento di Studi Europei, Americani e Interculturali, Sapienza, Università di Roma.</repository> <idno>Fascicolo 49, busta 1, lettera CXIII</idno></msIdentifier>
+                    <msContents><summary corresp="#letter">Ascoli si confronta con Monaci sulla proposta ricevuta dall’onorevole Villari.</summary></msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#GIA">Graziadio Isaia Ascoli</persName>
+                    <placeName ref="#milano">Milano</placeName>
+                    <date when="1902-10-08"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#roma">Roma</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                    <opener><dateline><placeName ref="#milano">Milano</placeName>, <date when="1902-10-08">8. 10. ’902</date></dateline></opener>
+                    <p>Onorato e caro collega; che è che non è, una lettera, molto melata, del <persName ref="#GG1">Gorrini</persName>, ‘segretario Generale del <orgName ref="#CISS">Comitato</orgName>’, mi ricerca ufficialmente, ‘ in nome dell’<expan><abbr>On</abbr><am>.</am><ex>orevole</ex></expan> Senatore <persName>Vallari</persName> e dei Suoi Colleghi’, perché io abbia a preparare, per il Congresso Storico, una <title ref="#relazione"><hi rend="underline">Relazione sull’opera e i risultati della Scuola Glottologica in Italia</hi></title>.</p>
+                    <p>Ora io sento il bisogno di ricorrere alla saviezza e all’affezione Sua, prima di dar la mia risposta.</p>
+                    <p>Com’Ella sa, e al <persName ref="#GZ">Capo dello Stato</persName> e al <persName ref="#NN">Ministro</persName> io dichiarai in addietro che la mia qualunque e di certo limitatissima opera io di certo non mi permettevo di ricusarla, ma che l’angustia dei termini, a tacer d’altro, non mi consentiva di sperar bene. Chiamato poi dal <persName ref="#NN">Ministro</persName> anche tra i preparatori del <orgName ref="#CISS">Congresso</orgName> differito all’aprile, risposi dubitativamente e non comparsi alla prima adunanza del <orgName ref="#CISS">Comitato</orgName>, la sola che siasi ancora tenuta.</p>
+                    <p>L’improvviso e fervoroso invito che oggi ricevo, desta in me e deve destare una certa maraviglia. Ma d’altronde anche mi dà una certa consolazione.</p>
+                    <p>L’ufficio, in sé e per sé, storicamente mi si adatta. Ma lo posso io accettare senza ledere i riguardi d’ordine generale che devo ad altri e per conseguenza a me stesso?</p>
+                    <p>Lasciato alle sole mie forze, io qui non so rispondere, poiché da gran tempo non so nulla intorno agli umori che s’agitano intorno a codesto <orgName ref="#CISS">Congresso</orgName>. Mi disponevo, in attesa di nuove convocazioni, d’interrogare la bontà Sua nella recente mia visita alla capitale. Ma la Sua persona m’è d’improvviso mancata!</p>
+                    <p>Come nella mia età è naturale, ogni occasione di giovare comunque alla causa della pace non può non allettarmi, e questa particolare occasione ha inoltre l’attrattiva della cosa più inaspettata. Pace, nel caso nostro, vuole insieme dire una decente concordia rimpetto agli oltre montani. Ma d’altronde la vecchiaja ci rende più che mai doveroso il rispetto d’ogni legittimo riguardo.</p>
+                    <p>Che dunque mi consiglia, con assoluta schiettezza, la Sua illuminata bontà? Questa domanda, nol nego, Le può forse riuscire un po’ molesta, ma Ella mi ha abituato a fare a fidanza co’ Suoi amichevoli sentimenti.</p>
+                    <closer><salute>Il <expan><abbr>div</abbr><am>.</am><ex>otissi</ex><abbr>mo</abbr></expan> <expan><abbr>aff</abbr><am>.</am><ex>ezionatissi</ex><abbr>mo</abbr></expan> Suo</salute>
+                        <signed><persName ref="#GIA">G. I. Ascoli</persName></signed></closer>
+                    <postscript><p>Potrebbe fors’anche non
+                        <lb/>riuscire inoppportuna una
+                        <lb/>pubblica e liberissima esposizione
+                        <lb/>delle cose toponomastiche,
+                        <lb/>la quale riuscirebbe
+                        <lb/>naturalissima nella chiesta
+                        <lb/><title ref="#relazione">Relazione</title>.</p></postscript>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

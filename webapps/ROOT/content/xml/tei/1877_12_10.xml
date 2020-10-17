@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ernesto Monaci a Pio Rajna, 10 dicembre 1877</title>
+                <editor role="transcription"><persName>Alessia Di Virgilio</persName></editor>
+                <editor role="encoding"><persName>Laura Pireddu</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2020-03-31"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl><bibl>Alessia Di Virgilio, <title>Carteggio Monaci - Rajna (1873-1877)</title>, tesi di laurea, Sapienza Università di Roma, a.a. 2018-2019</bibl></listBibl>
+                <msDesc>
+                    <msIdentifier><repository>Archivio Pio Rajna, presso la Biblioteca Marucelliana di Firenze.</repository> <idno>Lettera XLI</idno></msIdentifier>
+                    <msContents><summary corresp="#letter">Lettera di Ernesto Monaci a Pio Rajna del 10 dicembre 1877</summary></msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#roma">Roma</placeName>
+                    <date when="1877-12-10"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#PR">Pio Rajna</persName>
+                    <placeName ref="#sconosciuto">?</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                    <opener><dateline><placeName ref="#roma">Roma</placeName>, <date when="1877-12-10">10 dicembre 1877</date></dateline></opener>
+                    <p><expan><abbr>C</abbr><am>.</am><ex>arissimo</ex></expan><expan><abbr>A</abbr><am>.</am><ex>mico</ex></expan> Le note che tu trovi mancare 
+                        nella tua stampa, mancano anche nel ms., sebbene vi siano i richiami. Io supposi che tu volessi opporre le note sulle prove o che si trattasse
+                        di un “pentimento’’. Comunque sia, ora farò impaginare e dopo avrai le prove un’altra volta.</p>
+                    <p>Non mancherò di annunziare i tuoi corsi, e così pure vorrei annunziare quelli dell’<persName ref="#GIA">Ascoli</persName> (parte <rs type="topic" key="Latino"><expan><abbr>neol</abbr><am>.</am><ex>atina</ex></expan></rs>) 
+                        se potessi saperli. Annunzierò pure il lavoro che prepari, e quell’altro ti piacerà di comunicarmi.</p>
+                    <p>Quanto all’articoletto tuo, se non trovassi assolutamente spazio bastante nel <expan><abbr>fasc</abbr><am>.</am><ex>icolo</ex></expan> 2° (e spererei che ciò non avvenisse) 
+                        potrei egualmente farlo comporre in Gennajo e poi farti avere qualche copia del foglio tirato senza aspettare la pubblicazione del <expan><abbr>fasc</abbr><am>.</am><ex>icolo</ex></expan> 
+                        Se per altro credi che la <title ref="#ROM"><hi rendition="underline">Romania</hi> </title>  o la <title ref="#ZrP"><hi rend="underline">Zeitschrift</hi></title>  ti scriveranno <pb/> più sollecitamente, 
+                        non voglio che si facci un articolo dei miei desiderj. Io aspetto qualche altro tuo lavoro.</p>
+                    <p>Ora debbo pregarti di un favore. Recentemente ho trovato nella <orgName ref="#BibVat">Vaticana</orgName> un antico <title>poema latino sulle imprese di Federico Barbarossa</title> 
+                        in <placeName ref="#italia">Italia</placeName>. Ho verificato che il poema è esistito, e il <persName ref="#ED">Dǘmmler</persName> lo trova di molta importanza storica, e mi stimola a pubblicarlo subito. Non mi sarebbe ciò difficile; 
+                        ma dallo stesso <persName ref="#ED"><expan><abbr>D</abbr><am>.</am><ex>ümmler</ex></expan></persName> per mezzo del <persName>Malfatti</persName> sono stato tanto avvertito che in <placeName ref="#milano">Milano</placeName> 
+                        nella <orgName ref="#BibTriv">Trivulziana</orgName> è stato or ora trovato da un certo sig. <persName>Delcio</persName>, tedesco, un altro <title type="manuscript" key="Codice della Trivulziana">codice</title> dello stesso poema. Questo 2° codice è del sec. 16°, a quanto mi dicono, 
+                        e da due versi mandatimi ho scoperto che sia una copia del <title type="manuscript" key="Codice Vaticano">Vaticano</title>. Potresti tu confrontarmi la paginetta che qui ti mando, trascritta alla lettera dal 
+                        <pb/><title type="manuscript" key="Codice Vaticano"><expan><abbr>cod</abbr><am>.</am><ex>ice</ex></expan><expan><abbr>Vat</abbr><am>.</am><ex>icano</ex></expan></title>? Dammi altresì un’occhiata se appresso vi sono lacune nel testo di qualche parola o versi 
+                        (basterebbe che ne sapessi una o due)?</p>
+                    <p>Dopo questo mi gioverebbe assai indagare la provenienza di quel ms. – io per ora ho un semplice sospetto; che cioè quella copia sia stata fatta da uno studioso di cui restano parecchie tracce sul <title type="manuscript" key="Codice Vaticano"><expan><abbr>cod</abbr><am>.</am><ex>ice</ex></expan> Vaticano</title> 
+                        consistenti in postille marginali.</p>
+                    <closer>Scusami la noja e <salute>seguita a volermi bene</salute>
+                        <signed>Il tuo <persName ref="#EM">E. Monaci</persName></signed></closer>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>
+

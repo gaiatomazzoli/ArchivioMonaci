@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="../schema/menu/menu.rng" type="xml"?>
+<root xmlns="http://www.kcl.ac.uk/artshums/depts/ddh/kiln/ns/1.0"
+      xmlns:i18n="http://apache.org/cocoon/i18n/2.1">
+  <menu label="Texts" match="local-tei-index-display" i18n:key="menu-texts" >
+    <item label="Catalogue" match="local-tei-index-display" i18n:key="menu-catalogue" />
+    <menu label="Search" match="local-search" i18n:key="menu-search" />
+  </menu>
+  <menu label="Indices" i18n:key="menu-indices">
+    <item label="Places" match="local-index-display-html" params="tei luoghi_menzionati" i18n:key="menu-index-place"/>
+    <item label="Persons" match="local-index-display-html" params="tei persone_menzionate" i18n:key="menu-index-person"/>
+    <item label="Institutions" match="local-index-display-html" params="tei istituzioni_menzionate" i18n:key="menu-index-institution"/>
+    <item label="Authors" match="local-index-display-html" params="tei autori_menzionati" i18n:key="menu-index-work_author"/>
+    <item label="Works" match="local-index-display-html" params="tei opere_menzionate" i18n:key="menu-index-work"/>
+    <item label="Sources" match="local-index-display-html" params="tei fonti_menzionate" i18n:key="menu-index-source"/>
+    <!--<item label="Topics" match="local-index-display-html" params="tei tematiche" i18n:key="menu-index-topic"/>-->
+  </menu>
+  <menu label="Language" i18n:key="menu-language">
+    <item label="Italiano" language="it" match="local-language-home-page"/>
+    <item label="English" language="en" match="local-language-home-page"/>
+  </menu>
+  <!--<menu label="Admin" language="" match="local-admin-home-page" i18n:key="menu-admin" />-->
+</root>

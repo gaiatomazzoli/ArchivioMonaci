@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Giuseppe Pitrè a Luigi Manzoni, 29 dicembre 1872</title>
+            <editor role="transcription"><persName>Mariateresa Prota</persName></editor>
+            <editor role="encoding"><persName>Mariateresa Prota</persName></editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+            <date when="2017-01-31">gennaio 2017</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+            </availability>
+         </publicationStmt>
+          <sourceDesc>
+          <msDesc>
+             <msIdentifier><repository>Archivio Monaci, Società Filologica Romana, presso il Dipartimento di Studi Europei, Americani e Interculturali, Sapienza, Università di Roma.</repository> <idno>Busta n. 21</idno></msIdentifier>
+             <msContents><summary corresp="#letter">Lettera di Giuseppe Pitrè a Luigi Manzoni del 29 dicembre 1872.</summary></msContents>
+             </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <profileDesc>
+        <correspDesc>
+           <correspAction type="sent">
+              <persName ref="#GPI">Giuseppe Pitrè</persName>
+              <placeName ref="#palermo">Palermo</placeName>
+              <date when="1872-12-29">29 dicembre 1872</date>
+           </correspAction>
+           <correspAction type="received">
+              <persName ref="#LM">Luigi Manzoni</persName>
+              <placeName ref="#sconosciuto">?</placeName>
+              <date/>
+           </correspAction>
+        </correspDesc> 
+     </profileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <div type="transcription" xml:lang="it">
+            <opener>
+               <salute><expan><abbr>Ch</abbr><am>.</am><ex>iarissi</ex><abbr>mo</abbr></expan> Signore</salute>
+            </opener>
+            <p>Le scrivo pochi versi per augurarle tante cose pel nuovo anno che stiamo per incominciare e per dirle che avendo veduto nella <orgName ref="#BibPal">Biblioteca comunale</orgName> di qua un primo fasc. della <title ref="#RFR">Rivista di filologia romanza</title> ove sono annunziate in preparazione alcune <title ref="#tradizioni">Tradizioni popolari</title> da essere pubblicate da me, desidero sapere se esse tradizioni (<title ref="#fiabe">Novelle e fiabe popolari siciliane</title> differenti dalle quattro già edite che Le ho mandate) Le abbisognino pel prossimo 2° fascicolo.</p>
+            <p>Vorrei poi pregarla di due favori: il primo, che Vs mi ringrazii il prof. <persName ref="#EM">Monaci</persName> del buon ricordo che ha fatto di me e dell’opera santa di affratellamento che ei propone per tutti i cultori degli studi filologici; talché mi è venuto più volte di esclamare: <quote>Benedetto questo professore! che c’insegna a conoscerci l’un l’altro, ad amarci, a stringerci la mano!</quote> L’altro favore è che Vs. gradisca l’attestato della mia sincera stima e le congratulazioni che Le fo per l’ottimo (dico <hi rend="underline">ottimo</hi>) cominciamento del suo giornale.
+            </p>
+            <closer>
+               <salute>E con questo La saluto cordialmente, e me Le offro di cuore</salute>
+            <dateline>
+               <placeName ref="#palermo">Palermo</placeName>
+               <date when="1872-12-29">29 dic. 72.</date>
+            </dateline>
+               <salute><expan><abbr>Dev</abbr><ex>otissi</ex><abbr>mo</abbr></expan> e <expan><abbr>aff</abbr><ex>ezionatissi</ex><abbr>mo</abbr></expan></salute>
+               <signed><persName ref="#GPI">G. Pitrè</persName></signed>
+            </closer>
+         </div>
+      </body>
+  </text>
+</TEI>

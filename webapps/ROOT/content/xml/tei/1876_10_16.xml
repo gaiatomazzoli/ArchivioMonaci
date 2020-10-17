@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ernesto Monaci a Pio Rajna, 16 ottobre 1876</title>
+                <editor role="transcription"><persName>Alessia di Virgilio</persName></editor>
+                <editor role="encoding"><persName>Simone Palmieri</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2020-03-26"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl><bibl>Alessia Di Virgilio, <title>Carteggio Monaci - Rajna (1873-1877)</title>, tesi di laurea, Sapienza Università di Roma, a.a. 2018-2019</bibl></listBibl>
+                <msDesc>
+                    <msIdentifier><repository>Archivio Pio Rajna, Biblioteca Marucelliana, Firenze.</repository> <idno>Lettera XXVIII</idno></msIdentifier>
+                    <msContents><summary corresp="#letter">Ernesto Monaci si congratula con Pio Rajna per la pubblicazione del prestigioso "Le fonti dell’Orlando Furioso", e discute di varie tematiche riguardanti la politica didattica adottata nelle disposizioni ministeriali del 1876</summary></msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#roma">Roma</placeName>
+                    <date when="1876-10-16"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#PR">Pio Rajna</persName>
+                    <placeName ref="#sconosciuto">?</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                    <opener><dateline><placeName ref="#roma">Roma</placeName>, <date when="1876-10-16">16 ottobre 1876</date></dateline>
+                        <salute>Mio carissimo <persName ref="#PR">Rajna</persName></salute></opener>
+                    <p>lascia che, almeno col cuore, venga ad abbracciarti, e farti le più vive congratulazioni pel tuo bellissimo libro sulle <title ref="#ariosto"><hi rend="underline">Fonti del Furioso</hi></title>.</p>
+                    <p>Chiunque ama il progresso degli studj e questa patria nostra, non può non rallegrarsi di un’opera come quella; e tu sii le cento volte benedetto, 
+                           che così potentemente concorri per riguadagnare all’Italia la sua antica fama nel sapere filologico.</p>
+                    <p>Ormai siamo alla riapertura delle scuole, e che si farà? Alla vigilia di cominciare le lezioni, io non so ancora se dovrò fare <rs type="topic" key="Lingue e Letterature">Lingue e Letterature</rs>, 
+                        come l’anno scorso, o Letterature soltanto. Se il corso mi sarà limitato ad un anno solo o mi lasceranno un biennio. 
+                            Insomma ignoro affatto tutto ciò che mi riguarda, e così anche ignoro quant’altro si racchiude nei regolamenti; 
+                            perché questi, al giorno in cui siamo, non sono ancora pubblicati! -  Intesi tempo ad<pb break="no"/>dietro che tu pure stavi di malumore per simile motivo, 
+                            e segnatamente per l’operato della Commissione cui attribuirsi la soppressione della cattedra di Letterature neolatine. 
+                        Ma per quanto la <rs type="topic" key="Filologia romanza">filologia romanza</rs> si trovasse a mal partito con qualcuno dei più influenti della Commissione, 
+                            tuttavia sta pur certo che non si parlò mai di soppressione, ma solo si cercò di metterla in condizione di morire da se…che rabbia mi sono divorato in quell’occasione! 
+                            Ci fu un momento che fui tentato di mettere il campo a rumore e di scriverne anche all’<persName ref="#GIA">Ascoli</persName> perché interponesse la sua autorevole parola. 
+                        Ma poi pensai: l’<persName ref="#GIA">Ascoli</persName>, giustamente annojati di tuttociò, non vorrà, come Achille ritrovarsi sotto la tenda? 
+                            So che il Consiglio superiore tagliò fuori molte delle modificazioni della Commissione, so pure che uno dei consiglieri si fece il paladino della filologia romanza in seno al consiglio, 
+                            e parlò molto della importanza degli studj comparativi su queste lingue, fra cui comprese l‘ungherese e il polacco (!!) <pb/> so pure che quell’arringa fece molto buon effetto e la formula 
+                             – Storia comparata tornò nel regolamento. Ma di ciò e del resto, che avrà fatto il ministro? Ecco di ciò di cui sono tuttavia curioso. Ma lasciamo un po’ stare, vada tutto come si vuole, lavoriamo noi e non pensiamo ad altro.</p>
+                    <closer><salute>Stammi bene, divertiti, dammi tue notizie, vedendo l’<persName ref="#GIA">Ascoli</persName> riveriscilo da mia parte e pigliati un abbraccio dal sempre tuo</salute> 	
+                         <signed><persName ref="#EM">Ernesto Monaci</persName></signed></closer>
+                    <postscript><p>Parecchi giorni indietro il M. se <persName ref="#GF1">Ferrajoli</persName> mi disse di pregarti di questo favore. Si tratterebbe di trovargli il libro di cui qui ti accludo il titolo,
+                                        e avendolo spedito a me colla indicazione del relativo prezzo, che ti rimetterò per posta.</p></postscript>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

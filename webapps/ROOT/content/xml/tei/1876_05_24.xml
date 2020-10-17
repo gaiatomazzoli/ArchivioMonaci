@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ernesto Monaci a Pio Rajna, 24 maggio 1876</title>
+                <editor role="transcription"><persName>Alessia Di Virgilio</persName></editor>
+                <editor role="encoding"><persName>Simone Palmieri</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2020-02-26"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl><bibl>Alessia Di Virgilio, <title>Carteggio Monaci - Rajna (1873-1877)</title>, tesi di laurea, Sapienza Università di Roma, a.a. 2018-2019</bibl></listBibl>
+                <msDesc>
+                    <msIdentifier><repository>Archivio Pio Rajna, Biblioteca Marucelliana, Firenze.</repository> <idno>Lettera XXVII</idno></msIdentifier>
+                    <msContents><summary corresp="#postcard">Cartolina postale con cui Ernesto Monaci invita Pio Rajna a rendere note su "Rivista di Filologia romanza" alcune informazioni inerenti i suoi articoli, pubblicati sulla rivista "Forster".</summary></msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#Mi">Milano</placeName>
+                    <date when="1876-05-24"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#PR">Pio Rajna</persName>
+                    <placeName ref="#sconosciuto">?</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                    <opener><salute>Caro <persName ref="#PR">Rajna</persName></salute></opener>
+                    <p>Mi scrivesti una volta che volevi mandare alla <title ref="#RFR"><hi rend="underline">Rivista</hi></title> un cenno delle due pubblicazioni del <persName ref="#WF">Forster</persName>. Se sei pronto, mandamela pure subito, che siamo all’ultimo foglio del fascicolo 4°.</p>
+                    <p>Spero che stii bene e che ti trovi avanti con tuo lavoro, tanto da tutti desiderato.</p>
+                    <p>Io e <persName ref="#AB">Bartoli</persName> stiamo preparando un volume per la 
+                        <title><expan><hi rend="underline"><abbr>Bibl</abbr><am>.</am></hi><ex>ioteca</ex></expan> <expan><hi rend="underline"><abbr>Ital</abbr><am>.</am></hi><ex>iana</ex></expan></title>
+                        compiuto il lavoro, spero che tu e l’<persName ref="#GIA">Ascoli</persName> avrete la piacenza di esaminarli e deciderne se vi convenga di far parte del consiglio direttivo</p>
+                    <closer><salute>Addio. Voglimi sempre bene</salute>
+                    <signed>Tuo <persName ref="#EM">E.M</persName></signed></closer>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

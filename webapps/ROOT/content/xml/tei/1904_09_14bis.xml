@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ernesto Monaci a Graziadio Isaia Ascoli, 14 settembre 1904</title>
+                <editor role="transcription"><persName>Chiara Maria Calcagni</persName></editor>
+                <editor role="encoding"><persName>Mariangela Distilo</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2020-02-26"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl><bibl>Chiara Maria Calcagni, <title>Lettere scelte dal carteggio Ascoli-Monaci (1880/1906): trascrizione e commento</title>, tesi di laurea, Sapienza Università di Roma, a.a. 2018-2019</bibl></listBibl>
+                <msDesc>
+                    <msIdentifier><repository>Archivio Ascoli, Accademia Nazionale dei Lincei, presso la Biblioteca dell'Accademia dei Lincei e Corsiniana, Roma.</repository> <idno>Lettera CXXXI seconda</idno></msIdentifier>
+                    <msContents><summary corresp="#letter">Lettera di E. Monaci a G.I. Ascoli del 14 settembre 1904</summary></msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#sconosciuto">?</placeName>
+                    <date when="1904-09-14"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#GIA">Graziadio Isaia Ascoli</persName>
+                    <placeName ref="#sconosciuto">?</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                    <opener><dateline><date when="1904-09-14">14 sett. 1904</date></dateline></opener>
+                    <p>Per la Toponomastica italiana.</p>
+                    <p>Alcuni mesi addietro una rivista straniera annunziava che un insigne glottologo, cui l’Italia deve già molta gratitudine per gli studi profondi che conservava alla nostra lingua, testé aveva divisato di promuovere altri studi italiani nel suo laboratorio universitario, questa volta indirizzandoli nella toponomastica.</p>
+                    <p>In ogni altro momento un simile annunzio ci avrebbe rallegrato siccome prova novella dell’interessamento che scienziati stranieri hanno per l’Italia. Ma la <hi rend="underline">toponomastica italiana</hi> non è più da un pezzo un lavoro da iniziare; dopo le primizie di <persName ref="#GF">Giovanni Flechia</persName>, avemmo <hi rend="underline">il grandioso disegno ideato</hi> da <persName ref="#GIA">G. I. Ascoli</persName> e, son già diversi anni che sotto la guida di lui cominciò ad attuarsi quel disegno per opera del compianto <persName ref="#BB">Bianco Bianchi</persName> e poi di <persName ref="#SP">Silvio Pieri</persName>, il cui classico saggio servì anche di modello a molti altri lavori minori. Ne a questo si era fermato l’<persName ref="#GIA">Ascoli</persName>. Riconosciuta la impossibilità di far compiuta l’opera senza l’aiuto dello stato, egli ottenne che nell’ultimo censimento fosse aggiunto un quesito, le cui risposte dovevano tutte servire per la toponomastica; terminato il censimento l’ingente suppellettile di oltre sette milioni di schede, messa a disposizione dall’<persName ref="#GIA">Ascoli</persName> all’<orgName ref="#AccLin">Academia dei Lincei</orgName>, e altro non mancava per iniziare i lavori se non lo Stato, mantenendo gli impegni presi, fornisse il necessario per provvedere alle spese più indispensabili, quando… ma a che sollevare il velo su certe miserie? Basti che si sappia che il Maestro, non potendo assentire a una condizione nuova a cui nell’ultimo momento s’era voluto si volle subordinare il decreto della dotazione, si vide costretto a declinare da se ogni incarico, e la nave arenava proprio nel momento di entrare in porto. Da allora tutto è rimasto sospeso. Lascerà ormai lo Stato morir così un’impresa siffatta? L’<persName ref="#GIA">Ascoli</persName>, a cui lo pregava di riallacciare, come si dice, la pratica col <persName ref="#VEO">Ministro</persName> attuale della <orgName ref="#MPI"><expan><abbr>I</abbr><ex>struzione</ex></expan><expan><abbr>P</abbr><ex>ubblica</ex></expan></orgName> mandava in risposta un piego che accompagnava con queste parole: “ON. E c. coll. --- testamento --- Ma ho pensato --- consenzienti!! … e chi ricevette quel piego tutto di <title ref="#ricordi">“ricordi concernenti la topon. Ital.”</title>, malgrado il carattere confidenziale che avevamo, sollecitò il permesso di pubblicarli, affinchè si sappia bene a qual punto erano le copie in Italia quando si cominciò a promuovere lo studio della topon. Italiana altrove, e si veda che, talora dall’opera mancata venisse jattura al decoro della scuola italiana non è certamente su di essa che ne ricade la responsabilità.</p>
+                    <p>Mio Signore - Come poté venirle in mente che io volessi comunque far violenza alla sua volontà, pubblicando senza permesso i suoi <title ref="#ricordi">“Ricordi concernenti la toponomastica italiana”</title>? bensì io sperava che il permesso sarebbe venuto; e intanto, quasi deprecato, scrissi la cartolina, ove la ringraziavo per la <orgName ref="#SFR">Società</orgName> del bene che ci faceva, dandoci a pubblicare un suo scritto, come già mi aveva fatto sperare alcune settimane prima. In quello scritto non m’era sfuggito qualche passo confidenziale, evidentemente non destinato alla stampa. Ma, pensava io, quelle poche parole potranno togliersi sulle prove di stampa. E tolte quelle parole, restava sempre un complesso di note, che mi pareva peccato non venissero in luce, nel momento in cui una scuola non italiana ha annunciato con molta disinvoltura di volersi accingere a una lavoro sulla toponomastica italiana, come se finora nulla fosse stato fatto. Questa considerazione mi aveva anche fatto abbozzare alcune righe che qui le accludo e che, avuto il suo consenso, pensavo di porre innanzi al Suo scritto, desiderando supremamente di vedere affin rotta una malìa che costringe all’inerzia tante buone forze, e sperando ancora – lo dico francamente – che la volontà del maestro si pieghi all’amore dei discepoli e s’induca a riprendere risolutamente la direzione di un’impresa, che l’Italia attende dall’<persName ref="#GIA">Ascoli</persName> e che non si può compiere senza di Lui.</p>
+                    <closer><salute>Al Sen. <persName ref="#GIA">G. I. Ascoli</persName></salute></closer>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>
+

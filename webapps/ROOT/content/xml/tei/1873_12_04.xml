@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Pio Rajna a Ernesto Monaci, 4 dicembre 1873</title>
+            <editor role="transcription"><persName>Maria Teresa Rachetta</persName></editor>
+            <editor role="encoding"><persName>Veronica Aurizi</persName>, <persName>Elena Spadini</persName></editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+            <date when="2016-11-30">novembre 2016</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><repository>Archivio Monaci, Società Filologica Romana, presso il Dipartimento di Studi Europei, Americani e Interculturali, Sapienza, Università di Roma.</repository> <idno>Busta n. 22, fascicolo 1095.</idno></msIdentifier>
+               <msContents><summary corresp="#letter">Lettera di Pio Rajna ad Ernesto Monaci del 4 dicembre 1873.</summary></msContents>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#PR">Pio Rajna</persName>
+               <placeName ref="#milano">Milano</placeName>
+               <date when="1873-11-22">4 dicembre 1873</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#EM">Ernesto Monaci</persName>
+               <placeName ref="#sconosciuto">?</placeName>
+               <date/>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+     
+   </teiHeader>
+   <text>
+      <body>
+         <div type="transcription" xml:lang="it">
+               <opener>
+                  <dateline><placeName ref="#milano">Milano</placeName>,
+                  <date when="1873-12-04">4 dicembre 1873</date></dateline>
+               <salute>Amico pregiatissimo,</salute>
+               </opener>
+                  <p>Voi avreste ben ragione di essere in collera con me
+                  per lo scempio che feci delle bozze; ma spero che non ne sia nulla e che m’avreste
+                  perdonato la colpa commessa. Se il tipografo ne mosse lagnanze io meno che altri
+                  vorrei dargli il torto; ancora una volta ho dovuto persuadermi quanto sia savio il
+                  precetto oraziano nunumque prematur in annum, e non potendo osservarlo alla
+                  lettera mi sono proposto di non lasciarmi almeno uscir più nulla dalle mani quando
+                  mi trovi stretto da altre faccende e impedito dal compiere l’ufficio di critico
+                  severo. Dissi che per riparazione ero dispostissimo a rinunziare a quella parte di
+                  estratti che voi stimaste convenevole; se invece vi pare più opportuno che paghi
+                  al <persName ref="#PG">Galeati</persName> il lavoro che si dovette rifar sono pronto anche a cotesto. Altre bozze
+                  dopo quelle prime non ho più ricevuto; mi ricrescerebbe se fossi stato io la
+                  causa principale della ritardata pubblicazione. Ebbi tempo addietro la
+                  dotta e utilissima dissertazione del prof. <persName ref="#EMS">Stengel</persName> intorno ai codici francesi
+                  della <orgName ref="#BibTor">biblioteca di <placeName ref="#torino">Torino</placeName></orgName>. Mi pare che i bolli postali dicessero <placeName ref="#roma">
+               Roma</placeName> e dubitai
+                  che l’autore potesse trovarsi costì. Il dubbio m’ha fatto indugiare a scrivergli,
+                  tanto più che da una lettera del <persName ref="#GP">Paris</persName> avevo saputo che non molto prima egli era
+                     in <placeName ref="#francia">Francia</placeName>. Abbiate la bontà di dirmi se adesso gli si può scrivere a <placeName ref="#marburg">Marburg</placeName>.
+                   Non so se vi sia giunta all’orecchio una novità che mi riguarda. Mi si
+                   è nominato professore straordinario di letterature romanze all’<orgName ref="#AccMil">Accademia
+                  Scientifica Letteraria</orgName>. Si tratta di iniziare questo insegnamento, e crederete
+                  senza fatica se vi dico che l’impresa mi fa paura. Ma d’altra parte non potevo
+                  certo rifiutare un’occasione così propizia di lasciare le scuole secondarie per
+                  darmi interamente agli studi che preferisco. Le lezioni dovranno cominciare tra
+                  breve; ma avanti tutto è necessario che il Ministro mi mandi un successore al
+                  liceo, perchè io sia liberato dal peso delle mie quindici ore settimanali. Si dice
+                  che la nomina sia già fatto, e fatta da parecchio tempo; ma intanto io me ne sto
+                  qui sospeso come un’anima del limbo. Buono quale voi siete sempre, senza dubbio vi
+                  rallegrerete della mia fortuna. Ma non so se potrete avere l’eroismo di
+                  rallegrarvi anche di una seccatura che il nuovo ufficio m’induce a darvi. Tra gli
+                  argomenti di cui avrò a discorrere sino dal principio sarà il <title ref="#intelligenza">poema
+                  dell’Intelligenza</title>. Lo sceglierò a soggetto di una conferenza settimanale, nella
+                  quale anche i giovani dovranno essere parte attiva, e non solo ascoltare ciò che
+                  loro si dica. Sarebbe per me del massimo interesse l’avere un saggio, sia pure
+                  assai breve, del <title type="manuscript" key="Codice Vaticano">codice vaticano</title>, il più antico, a quanto pare, dei tre che si
+                  conoscono. Se a ivi non fosse di troppo incomodo vi pregherei, quando vi accade di
+                  andare alla <orgName ref="#BibVat">Vaticana</orgName>, per altro, di trascrivermi quattro o cinque stanze, di
+                  vedere quante ne contenga il poema in cotesto manoscritto e di dirmi presso a poco
+                  che cosa costerebbe una copia completa. Scusate la briga e rifatevi nel miglior
+                  modo che sapete. Non vi starò a ridire che cosa abbian detto di voi e
+                  l’<persName ref="#GIA">Ascoli</persName> e il <persName ref="#ADA">D’Ancona</persName>. A me le loro parole hano fatto gran piacere, e insieme
+                  accresiuto ancora il desiderio già vivissimo di conoscervi in altro modo che per
+                  lettera. A che ne siamo col <title ref="#canzoniere">canzoniere portoghese</title>? 
+                  </p>
+           <closer> <salute>Abbiatemi qualche volta a memoria, e credetemi 
+              <expan><abbr>Aff</abbr><am>.</am><ex>ezionatissi</ex><abbr>mo</abbr></expan> vostro</salute>
+               <signed><persName ref="#PR">Pio Rajna</persName></signed></closer>
+         </div>
+      </body>
+   </text>
+</TEI>

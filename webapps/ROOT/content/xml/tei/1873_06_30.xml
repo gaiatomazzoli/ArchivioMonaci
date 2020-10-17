@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Ernesto Monaci a Paul Meyer, 30 giugno 1873</title>
+            <editor role="transcription"><persName>Marco Veneziale</persName></editor>
+            <editor role="encoding"><persName>Chiara Cocciarelli</persName></editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+            <date when="2016-12-01">dicembre 2016</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><repository>Bibliothèque Nationale de France.</repository></msIdentifier>
+               <msContents><summary corresp="#letter">Lettera di Ernesto Monaci a Paul Meyer del 30 giugno 1873. </summary></msContents>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+  <profileDesc>
+     <correspDesc>
+        <correspAction type="sent">
+           <persName ref="#EM">Ernesto Monaci</persName>
+           <placeName ref="#roma">Roma</placeName>
+           <date when="1873-06-30">30 giugno 1873</date>
+        </correspAction>
+        <correspAction type="received">
+           <persName ref="#PM">Paul Meyer</persName>
+           <placeName ref="#sconosciuto">?</placeName>
+           <date/>
+        </correspAction>
+     </correspDesc>
+  </profileDesc>
+  </teiHeader>
+   <text>
+      <body>
+         <div type="transcription" xml:lang="fr">
+            <opener>
+               <dateline>
+                  <placeName ref="#roma">Roma</placeName>
+               <date when="1873-06-30">30 giugno 1873</date>
+               </dateline>
+               <salute>Mio signore</salute>
+            </opener>
+            <p>Ricevetti la sua lettera colla nota del sig. <persName ref="#LDML">de Mas Latrie</persName>
+               quando appunto ritornavo dall’ultima seduta della <orgName ref="#BibVat">Vaticana</orgName>.
+               Ora la <orgName ref="#BibVat">biblioteca</orgName> resta chiusa per me fino al <date when="1873-11-12">12 di novembre</date>. Tuttavia non dispero di rendere presto al mio amico
+               un servigio così frivolo come quello che mi domanda. Un amico mio, il sig. <persName ref="#IG">I. Guidi</persName>,
+               come scrittore della <orgName ref="#BibVat">Vat.</orgName> per le lingue orientali, vi ha l’accesso libero tutto l’anno.
+               Appena potrò vederlo (credo che in questi giorni sia assente da <placeName ref="#roma">Roma</placeName>), lo pregherò di farmi quei riscontri sullo
+               <title ref="#strambaldi">Strambaldi</title>, e il sig. <persName ref="#LDML"><expan><abbr>D</abbr><am>.</am><ex>e</ex> <abbr>M</abbr><am>.</am><ex>as</ex> <abbr>L</abbr><am>.</am><ex>atrie</ex></expan></persName> potrà essere pienamente sicureo della esattezza con cui saranno fatti.
+               Ricevetti la <title ref="#ROM">Romania</title> e la ringrazio. Sul finire di questa settimana sarà distribuito il ns. <title ref="#RFR">2° <expan><abbr>fasc</abbr><am>.</am><ex>icolo</ex></expan></title> e ho già scritto al
+               <persName ref="#PG">Galeati</persName> che ne spedisca due copie al sig. <persName ref="#FV">Vieweg</persName>,
+               una per Lei l’altra pel sig. <persName ref="#GP">Paris</persName>. Non le fo ispedire direttamente perché l’indirizzo del sig.
+               <persName ref="#GP">Paris</persName> mi è ignoto. Di altri due periodici francesi desidererei vivamente il cambio:
+               la <title ref="#RC">revue critique</title> e la <title ref="#BECh">bibl. de l’Ec. des chartes</title>.  – Potrei sperarlo? Se vi fosse difficoltà per la differenza del prezzo d’abbonamento,
+               pagherei volentieri il di più. – Da parecchi mesi pregai il Bibliotecario della ns. <orgName ref="#Sapienza">Università</orgName>
+               di provvedere questi due giornali, ed egli anzi mi promise di farne venire tutta la collezione. Promesse vane.
+               Fino a quest’ora ho potuto verificare che non v’è commesso nulla.  – È difficile figurarsi quale penuria abbiamo di libri per gli istudi nostri.
+               Qui si può far il romanista come si potrebbe nella <placeName ref="#cina">Cina</placeName>.... Non le faccia perciò meraviglia se anche la <title ref="#RFR">Rivista</title>
+               vivesse un po’ delle condizioni del paese in cui vive. Spero che il sig. <persName ref="#GP">Paris</persName> stia bene. Me lo riverisca distintamente.</p>
+               <closer><salute>In attesa dei suoi commodi, le rinnovo, signore, l’espressione della mia stima e della mia devozione sincera</salute>
+                  <signed><persName ref="#EM">Ernesto Monaci</persName></signed></closer>
+            </div>
+      </body>
+  </text>
+</TEI>

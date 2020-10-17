@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ernesto Monaci a Graziadio Isaia Ascoli, 3 febbraio 1896</title>
+                <editor role="transcription"><persName>Chiara Maria Calcagni</persName></editor>
+                <editor role="encoding"><persName>Laura Pireddu</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2020-04-06"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl><bibl>Chiara Maria Calcagni, <title>Lettere scelte dal carteggio Ascoli-Monaci (1880/1906): trascrizione e commento</title>, tesi di laurea, Sapienza Università di Roma, a.a. 2018-2019</bibl></listBibl>
+                <msDesc>
+                    <msIdentifier><repository>Archivio di Ascoli ai Lincei, Biblioteca dell’Accademia dei Lincei e Corsiniana, Roma.</repository> <idno>Pacco n. 4, lettera 4.</idno></msIdentifier>
+                    <msContents><summary corresp="#letter">Concorso Lincei - Termine per presentazione.</summary></msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#roma">Roma</placeName>
+                    <date when="1896-02-03"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#GIA">Graziadio Isaia Ascoli</persName>
+                    <placeName ref="#sconosciuto">?</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                    <opener><dateline><placeName ref="#roma">Roma</placeName>, <date when="1896-02-03">3. II. ’96</date></dateline>
+                        <salute>Mio Signore,</salute></opener>
+                    <p>il prof. <persName ref="#LS">Schiaparelli</persName>, che fa da cancelliere per le corrispondenze relative ai concorsi, la sera 
+                        del 1° <expan><abbr>corr</abbr><am>.</am><ex>ente</ex></expan> mi mandò, con altre anche una lettera al prof. <persName ref="#CG">Giacomino</persName> per annunziargli punto il 
+                        termine della consegna del suo lavoro. Lì per lì firmai; ma mi sovvenni anche dei precedenti, a cui
+                        mi richiama pure la Sua <title type="letter">lettera</title> del 1° <expan><abbr>corr</abbr><am>.</am><ex>ente</ex></expan>, e così nel rimandare al <persName ref="#LS">prof. <expan><abbr>Sch</abbr><am>.</am><ex>iaparelli</ex></expan></persName> La lettera firmata, 
+                        un’altra lettera diressi a lui, ove gli dicevo che in questo caso pareva non doversi far luogo 
+                        all’applicazione del solito articolo del Regolamento perché questa volta trattavasi di memoria  
+                        <hi rend="underline">già presentata</hi>. Dubitando egli, lo pregavo di deferire la cosa al presidente, che sapevo prossimo 
+                        a venire. Non contento di ciò jeri mattina andai all’<orgName ref="#AccLin">Accademia</orgName> per parlare al <persName ref="#FB">Presidente</persName> da me. 
+                        Non era ancora arrivato; ma trovai il prof. <persName ref="#LS"><expan><abbr>Sch</abbr><am>.</am><ex>iaparelli</ex></expan></persName> e gli ripetei a voce quanto gli avevo scritto, 
+                        pregandolo di chiedere in mio nome al <persName ref="#FB">Presid.</persName> di sottoporre la cosa al Cons. d’amministrazione
+                        qualora la mia eccezione non fosse apparsa attendibile. Non ho avuto altra comunicazione. 
+                        Dopo ricevuta la Sua <title type="letter">lettera</title> sono tornato al <placeName ref="#corsini">palazzo Corsini</placeName>. Non ho trovato né il <persName ref="#FB">Pres.</persName> 
+                        né il prof. <persName ref="#LS"><expan><abbr>Sch</abbr><am>.</am><ex>iaparelli</ex></expan></persName>. Ad ogni modo credo fin d’ora di poterla assicurare che 
+                        la memoria del prof. <persName ref="#CG">Giacomino</persName> sarà ricevuta dal <persName ref="#LS">prof Schiaparelli</persName>. Il <persName ref="#FB">Presidente</persName>
+                        non un uomo da cedere a cocciutaggini tanto cretine.
+                    </p>
+                    <closer><salute>Mi creda sempre</salute>
+                        <salute>il suo <expan><abbr>aff</abbr><am>.</am><ex>ezionatissi</ex><abbr>mo</abbr></expan></salute>
+                            <signed><persName ref="#EM">Ern. Monaci</persName></signed></closer>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>
+

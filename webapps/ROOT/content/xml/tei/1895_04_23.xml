@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Cesare De Lollis a Ernesto Monaci, 23 aprile 1895</title>
+                <editor role="transcription"><persName>Debora Matteo</persName></editor>
+                <editor role="encoding"><persName>Laura Pireddu</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2020-04-29"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl><bibl>Debora Matteo, <title>Itinerario di un carteggio</title>, tesi di laurea, Sapienza Università di Roma, a.a. 2017-2018</bibl></listBibl>
+                <msDesc>
+                    <msIdentifier><repository>Archivio Monaci, Società Filologica Romana, presso il Dipartimento di Studi Europei, Americani e Interculturali, Sapienza, Università di Roma.</repository> <idno>Busta n. 8, fascicolo 394.</idno></msIdentifier>
+                    <msContents><summary corresp="#letter">Lettera di Cesare De Lollis a Ernesto Monaci.</summary></msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#CDL">Cesare De Lollis</persName>
+                    <placeName ref="#sconosciuto">?</placeName>
+                    <date when="1895-04-23"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#sconosciuto">?</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                    <p>[...]</p>
+                    <p>II prof. <persName ref="#AA1">Asturaro</persName>, di questa Facoltà, quantunque qui non vi sia che un posto 
+                        d’ordinario, quello al quale io miro, ha rinnovato direttamente al <orgName>Ministero</orgName> (vale
+                        a dire senza passar pel tramite della Facoltà) l’istanza per la promozione: e dico
+                        “rinnovato”, perché, proposto più d’una volta dalla Facoltà prima di me, è stato
+                        respinto per insufficienza di titoli. La sua istanza, m’immagino, non sarà neppur
+                        trasmessa dal <orgName>Ministero</orgName> al <orgName>Consiglio</orgName>: tuttavia, 
+                        siccome egli [...] ritien possibile che l’una delle due promozioni (la mia o la sua) possano 
+                        aver luogo a titolo di soprannumero, e in questo senso può aver fatto premure presso il <orgName>Ministero</orgName>, io,
+                        da mia parte, ho creduto opportuno mettere sull’avviso qualcuno del <orgName>Consiglio
+                        Superiore</orgName>. Se scrivo a Lei, anziché ad altri, Ella, che ha tenuto a balia e
+                        straordinariato e ordinariato del sottoscritto, non se ne meraviglierà punto: ma
+                        della cosa né scrivo né parlo ad altri che a Lei, che pregherei [...] di tenermi
+                        informato di tutto quel che della pratica dell’<persName ref="#AA1">Asturaro</persName> potesse venire a galla in 
+                        seno al <orgName>Consiglio</orgName>.</p>
+                    <p>[...]</p>
+                 </div>
+            </div>
+        </body>
+    </text>
+</TEI>

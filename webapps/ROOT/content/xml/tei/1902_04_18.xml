@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ernesto Monaci a Graziadio Isaia Ascoli, 18 aprile 1902</title>
+                <editor role="transcription"><persName>Chiara Maria Calcagni</persName></editor>
+                <editor role="encoding"><persName>Giulia Lucchesi</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2020-03-30"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl><bibl>Chiara Maria Calcagni, <title>Lettere scelte dal carteggio Ascoli-Monaci (1880/1906): trascrizione e commento</title>, tesi di laurea, Sapienza Università di Roma, a.a. 2018-2019</bibl></listBibl>
+                <msDesc>
+                    <msIdentifier><repository>Archivio di Ascoli ai Lincei, presso la Biblioteca dell’Accademia dei Lincei e Corsiniana a Roma.</repository> <idno>Busta n. 129, scatola 50, lettera 63</idno></msIdentifier>
+                    <msContents><summary corresp="#letter">Lettera di Ernesto Monaci a Graziadio Isaia Ascoli del 18 aprile 1902.</summary></msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#roma">Roma</placeName>
+                    <date when="1902-04-18"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#GIA">Graziadio Isaia Ascoli</persName>
+                    <placeName ref="#sconosciuto">?</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                    <opener>
+                        <dateline><placeName ref="#roma">Roma</placeName> <date when="1902-04-18">18 aprile 1902</date></dateline>
+                        <salute>Mio Signore</salute></opener>
+                    <p>Sono molti giorni che non le ho scritto, ed eccomi a farle un po’ di storia.</p>
+                        <p>Avuta risposta dall’economo del <orgName ref="#AccLin">palazzo del Lincei</orgName> 
+                        che non manca nel palazzo un locale adatto per trasportarvi le note buste, ne scrissi 
+                        al Ministro <persName ref="#GB1">Baccelli</persName>, proponendogli insieme 
+                            di fare un decretino, d’accordo col Ministro <persName ref="#EM3">Masi</persName>, 
+                        e nel senso che Ella mi aveva indicato qualche giorno prima.</p>
+                        <p>Il 4 aprile il <expan><abbr>com</abbr><am>.</am><ex>missario</ex></expan> 
+                        <persName>Nazari</persName> capo del gabinetto del <persName ref="#GB1">Baccelli</persName> mi scriveva di aver 
+                        ricevuto la mia lettera nonché quella di Lei per il Ministro, e soggiungeva che il Ministro 
+                        “prima di provvedere al riguardo, ha disposto che, come di regola, sia sentito l’avviso 
+                        del Direttore Geñle della statistica”.</p>
+                        <p>Passati alcuni giorni, mi recai dal <expan><abbr>Sig</abbr><am>.</am><ex>nor</ex></expan> 
+                        <persName>Nazari</persName> per sapere se il 
+                        <expan><abbr>Dir</abbr><am>.</am><ex>ettore</ex></expan> <expan><abbr>Gen</abbr><am>.</am><ex>erale</ex></expan>
+                        aveva finalmente dato il suo responso. Ma il <expan><abbr>sig</abbr><am>.</am><ex>nor</ex></expan> 
+                        <persName>Nazari</persName> 
+                        mi fece dire dall’usciere che pel momento non poteva ricevermi. Con tutta la pazienza 
+                        che bisogna tenere in serbo per certe occasioni, me ne andai, lasciai passare alcuni giorni 
+                        e poi ritornai. A farla breve, quattro volte sono tornato dal <expan><abbr>sig</abbr><am>.</am><ex>nor</ex></expan> 
+                        <persName><expan><abbr>N</abbr><am>.</am><ex>azari</ex></expan></persName> ed ebbi sempre 
+                        la stessa risposta dall’usciero. Avendo esaurito la mia provvista di pazienza, l’altrojeri, 
+                        appena tornato a casa, scrissi e mandai <hi rend="underline">per espresso</hi> al 
+                        <expan><abbr>Com</abbr><am>.</am><ex>missario</ex></expan> <persName>Nazari</persName> 
+                        un biglietto per fargli sapere che io non sarei più tornato da lui e che perciò la risposta 
+                        del Ministro poteva pure comunicarla direttamente al <expan><abbr>Sen</abbr><am>.</am><ex>atore</ex></expan>
+                        <persName ref="#GIA">Ascoli</persName>.</p>
+                        <p>Dopo di ciò ho ricevuto ancora una lettera del <expan><abbr>Sign</abbr><am>.</am><ex>or</ex></expan> 
+                        <persName>Nazari</persName> con un lungo 
+                        sproloquio per spiegarmi il Suo contegno e per dirmi che della risposta del ministro davasi 
+                        comunicazione direttamente a Lei.</p>
+                        <p>Credo pertanto che a quest’ora Ella sappia che cosa deliberava il ministro, e attendo, nel caso, 
+                        istruzioni da Lei.</p>
+                        <p>Aggiungo che il <persName ref="#EM3">Masi</persName>, capo di gabinetto del 
+                        <expan><abbr>Min</abbr><am>.</am><ex>istro</ex></expan> 
+                        <persName ref="#NN">Nasi</persName>, mi ha scritto ieri in questi termini: 
+                        “<expan><abbr>S</abbr><am>.</am><ex>ua</ex></expan> <expan><abbr>E</abbr><am>.</am><ex>ccellenza</ex></expan>
+                        il <expan><abbr>M</abbr><am>.</am><ex>inistro</ex></expan>, letta la lettera del 
+                        <expan><abbr>prof</abbr><am>.</am><ex>essore</ex></expan> 
+                        <persName ref="#GIA">Ascoli</persName>, mi ha detto di riprendere le pratiche per il 
+                            <title ref="#DizTop"><expan><abbr>Dizion</abbr><am>.</am><ex>ario</ex></expan> <expan><abbr>Toponom</abbr><am>.</am><ex>astico</ex></expan></title>
+                        A cui accenna il ch. Professore, 
+                        facendo il nome di lei per gli opportuni accordi. Io sono adunque a disposizione, 
+                        se occorrerà l’intervento del <orgName ref="#MPI">Ministero</orgName> per attuare il disegno.”</p>
+                        <p>Argomento da ciò che il <persName ref="#GB1">Baccelli</persName> abbia anche lui consentito. </p>
+                        <p>In attesa de’ Suoi comandi</p>
+                    <closer><salute>il Suo aff.mo </salute>
+                        <signed><persName ref="#EM"><expan><abbr>Ern</abbr><am>.</am><ex>esto</ex></expan> Monaci</persName></signed></closer>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

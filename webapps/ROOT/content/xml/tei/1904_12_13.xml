@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Graziadio Isaia Ascoli a Ernesto Monaci, 13 dicembre 1904</title>
+                <editor role="transcription"><persName>Chiara Maria Calcagni</persName></editor>
+                <editor role="encoding"><persName>Mariangela Distilo</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2020-02-26"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl><bibl>Chiara Maria Calcagni, <title>Lettere scelte dal carteggio Ascoli-Monaci (1880/1906): trascrizione e commento</title>, tesi di laurea, Sapienza Università di Roma, a.a. 2018-2019</bibl></listBibl>
+                <msDesc>
+                    <msIdentifier><repository>Archivio Monaci, Società Filologica Romana, presso il Dipartimento di Studi Europei, Americani e Interculturali, Sapienza, Università di Roma.</repository> <idno>Busta n. 1, fascicolo 49, lettera del 13/12/1904</idno></msIdentifier>
+                    <msContents><summary corresp="#letter">Lettera di G. I. Ascoli a E. Monaci del 13 dicembre 1904</summary></msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#GIA">Graziadio Isaia Ascoli</persName>
+                    <placeName ref="#milano">Milano</placeName>
+                    <date when="1904-12-13"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#sconosciuto">?</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                    <opener><dateline><placeName ref="#milano">Milano</placeName>, <date when="1904-12-13">13. 12. ’904</date></dateline></opener>
+                    <p>Onorato e caro collega; ecco la Sua buona e bella Introduzione alla quale ormai non occorrerebbero se non assai poche correzioni od aggiunte, e anzi in effetto, una sola mutazione e una sola aggiunta. La mutazione proviene dall’equivoco circa il tenore della Rivista d’oltralpe. E l’aggiunta è necessaria in ogni sua parte, ma in ispecie per evitare che le persone, di cui si parla nei <title ref="#ricordi"><hi rend="underline">Ricordi</hi></title>, si offendano di non essere state sentite prima della stampa. Già diremmo che tra coloro che son nominati nella presunta qualità di collaboratori, non restava di sentire se non il <persName ref="#EGP">Parodi</persName>. Per l’altro gruppo, i membri della Presidenze dell’<orgName ref="#AccLin">Academia</orgName> e il <persName ref="#CN">Nigra</persName> vanno sentiti <hi rend="underline">pro forma</hi>. Rimane però il <persName ref="#LB">Bodio</persName>, che è per me una grande incognita e il cui preventivo consenso, pieno e assoluto, è un caso di Stato. Scusi l’orribile fretta e voglia sempre bene al </p>
+                    <closer><salute>Suo <expan><abbr>aff</abbr><am>.</am><ex>ezionatissi</ex><abbr>mo</abbr></expan> <expan><abbr>div</abbr><am>.</am><ex>otissi</ex><abbr>mo</abbr></expan></salute>
+                        <signed><persName ref="#GIA">G. I. Ascoli</persName></signed></closer>
+                    <postscript><p>Del <persName ref="#FDO">D’Ovidio</persName> presumo naturalmente <lb/> che già conosca il testo dei <lb/> <title ref="#ricordi"><hi rend="underline">Ricordi</hi></title>.</p></postscript>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

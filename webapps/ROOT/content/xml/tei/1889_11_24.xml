@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Cesare De Lollis a Ernesto Monaci, 24 novembre 1889</title>
+                <editor role="transcription"><persName>Susanna Casacchia</persName>, <persName>Debora Matteo</persName></editor>
+                <editor role="encoding"><persName>Susanna Casacchia</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2020-04-27"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl><bibl>Debora Matteo, <title>Itinerario di un carteggio</title>, tesi di laurea, Sapienza Università di Roma, a.a. 2017-2018</bibl></listBibl>
+                <msDesc>
+                    <msIdentifier><repository>Archivio Monaci, Società Filologica Romana, presso il Dipartimento di Studi Europei, Americani e Interculturali, Sapienza, Università di Roma.</repository> <idno>Busta n. 8, fascicolo 394.</idno></msIdentifier>
+                    <msContents><summary corresp="#letter">Lettera di Cesare De Lollis a Ernesto Monaci del 24 novembre 1889.</summary></msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#CDL">Cesare De Lollis</persName>
+                    <placeName ref="#siviglia">Siviglia</placeName>
+                    <date when="1889-11-24"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#roma">Roma</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                    <div type="textpart" subtype="envelope">
+                        <opener> 
+                         <address>
+                            <addrLine>Piazza Capranica, 95 II</addrLine> 
+                            </address>
+                            <salute>Carissimo <expan><abbr>Sig</abbr><am>.</am><ex>or</ex></expan> Professore,</salute>
+                    </opener>
+                        <p> Ho ricevuto iersera la Sua in data del 19 e con questo stesso corriere spedisco al Moguel la procura sua del <expan><abbr>com</abbr><am>.</am><ex>mendator</ex></expan>
+                            <persName ref="#OT">Tommasini</persName>. Quanto ai facismili del <persName type="author" ref="#berceo">Berceo</persName>, del <persName ref="#arcipreste">Arcipreste</persName> e delle Cantigas, 
+                        stia pur sicuro che quando io mi sia inteso colla Direzione della Biblioteca e il fotografo Laurent, essi potranno eseguirsi benissimo, essendo io lontano. Colla Direzione della Biblioteca 
+                        io mi sono già messo d’accordo: nessuna diffi<pb break="no"/>coltà da parte di essa: anzi il <expan><abbr>sig</abbr><am>.</am><ex>nore</ex></expan> Par y <unclear>Melias</unclear>,
+                        sottodirettore della sala dei mss. ed uomo intelligente di codeste cose per quanto possa esserle un spagnolo, si è offerto a sorvegliare l’opera del fotografo, nessun pericolo di 
+                        equivoco dunque, quando si abbiano le segnature dei mss., e i dati presi dalle pagine.</p>
+                        <p> Io sono qui da 8 giorni, occupato a copiare il <hi rend="underline">Libro de Profezias</hi> di <persName ref="#CC3">Colombo</persName>, un zibaldone di passi dalle 
+                        Sacre Scritture, che non ha altra importanza che quella di essere stato messo insieme dal grande Genovese. È una copia di grande interesse: ed io stesso son maravigliato come in 
+                        5 sedute <pb/> di 3 ½ l’una abbia potuto copiare la bellezza di quaranta carte. Sabato venturo (30) lascerò ad ogni costo <placeName ref="#siviglia">Siviglia</placeName>: passerò un 
+                        giorno a <placeName ref="#madrid">Madrid</placeName>, un paio ad Escorial, quattro a <placeName ref="#paris">Parigi</placeName> e sarò a <placeName ref="#roma">Roma</placeName>.  
+                        Avrei avuto bisogno di restare qui più lungo tempo: ma, a parte i mici doveri verso <orgName ref="#ISI">Istituto</orgName> e i miei lavori da tempo sospesi, io sono stanco 
+                        di questa vita: son diventato una vera macchina tachigrafica, specie di macchina che non può funzionare più di tre o quattro mesi di seguito senza accettare avarie. Insomma, io 
+                        non ne posso più di questo lavoro brutale, e avendo fatto il più e il più importante, non voglio più saperne di prolungare il <pb/> mio soggiorno in <placeName ref="#spagna">Spagna</placeName>.
+                        E ciò quantunque <placeName ref="#siviglia">Siviglia</placeName> sia un soggiorno maraviglioso soprattutto per la mitezza del clima, di cui non si ha idea nemmeno a 
+                        <placeName ref="#napoli">Napoli</placeName>. Avrei di pregarla di un favore. Un <expan><abbr>sig</abbr><am>.</am><ex>nor</ex></expan> Vincenzo Belleno, di <placeName ref="#chioggia">Chioggia</placeName>,
+                        ha da tempo tra le mani un lavoro su Geronimo Vianello, lavoro pel quale ha spedito molti documenti mandatigli da <placeName ref="#madrid">Madrid</placeName>. Il <expan><abbr>sig</abbr><am>.</am><ex>nor</ex></expan>
+                        Robles, della <orgName ref="#BibMad"><expan><abbr>Bibl</abbr><am>.</am><ex>lioteca</ex></expan> <expan><abbr>Naz</abbr><am>.</am><ex>ionale</ex></expan></orgName>
+                        di <placeName ref="#madrid">Madrid</placeName>, desidera sapere se il lavoro è uscito o no. Il <gap reason="illegible" extent="unknown" unit="chars"/> potrebbe sapere la cosa,
+                        scrivendone al <expan><abbr>Comm</abbr><am>.</am><ex>mendator</ex></expan> <persName ref="#GB3">Berchet</persName>, di cui io non ho l’indirizzo. Prego Lei di parlarne al  
+                        <gap reason="illegible" extent="unknown" unit="chars"/>, colla speranza che questi non dimenticherà una preghiera che gli venga da parte sua.</p>
+                        <closer>
+                                <salute>A rivederla tra pochi giorni e mi creda il suo affmo e <expan><abbr>dev</abbr><ex>otissi</ex><abbr>mo</abbr></expan> buon discepolo</salute>
+                            <signed><persName ref="#CDL">De Lollis</persName></signed>
+                         <dateline>
+                            <placeName ref="#paris">Parigi</placeName>
+                            <date when="1889-11-24">24 <expan><am>9</am><ex>novem</ex><abbr>bre</abbr><am>.</am></expan></date>
+                        </dateline>
+                        </closer>
+                </div>
+            </div>
+            </div>
+        </body>
+    </text>
+</TEI>

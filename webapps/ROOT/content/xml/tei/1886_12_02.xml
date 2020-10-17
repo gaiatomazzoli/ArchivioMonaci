@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Graziadio Isaia Ascoli a Ernesto Monaci, 2 dicembre 1886</title>
+                <editor role="transcription"><persName>Chiara Maria Calcagni</persName></editor>
+                <editor role="encoding"><persName>Laura Pireddu</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2020-04-06"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl><bibl>Chiara Maria Calcagni, <title>Lettere scelte dal carteggio Ascoli-Monaci (1880/1906): trascrizione e commento</title>, tesi di laurea, Sapienza Università di Roma, a.a. 2018-2019</bibl></listBibl>
+                <msDesc>
+                    <msIdentifier><repository>Archivio Monaci, Società Filologica Romana, presso il Dipartimento di Studi Europei, Americani e Interculturali, Sapienza, Università di Roma.</repository> <idno>Busta n. 1, fascicolo 49, lettera LXII.</idno></msIdentifier>
+                    <msContents><summary corresp="#letter">Lettera di Graziadio Isaia Ascoli a Ernesto Monaci del 2 dicembre 1886</summary></msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#GIA">Graziadio Isaia Ascoli</persName>
+                    <placeName ref="#milano">Milano</placeName>
+                    <date when="1886-12-02"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#roma">Roma</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="envelope">
+                    <opener><salute>All’onorevole sig. Comm. <persName ref="#EM">Ernesto Prof. Monaci</persName></salute>
+                        <address><addrLine><placeName ref="#roma">Roma</placeName> Piazza Capranica 95 II</addrLine></address></opener>
+                </div>
+                    <div type="textpart" subtype="letter">
+                    <opener>Amico onorandissimo.</opener>
+                        <p>Sono pienamente sicuro, che se mi manca, in questo coro, il saluto di Lei, ciò non derivi la scarsa affezione. 
+                            Ma dall’incontro mi vien da temere, ch’Ella non sia in buona salute o abbia qualche preoccupazione domestica; 
+                            e Le sarei gratissimo, se mi volesse mandare o far mandare qualche sua notizia.</p>
+                        <closer><salute>Con affezione vivissima</salute> 
+                            <signed>Il Suo div.mo <persName ref="#GIA">Ascoli</persName></signed> 
+                            <dateline><placeName ref="#milano"><expan><abbr>Mil</abbr><am>.</am><ex>ano</ex></expan></placeName> <date when="1886-12-02">2.12.86</date></dateline></closer>
+              
+            </div>
+          </div>
+        </body>
+    </text>
+</TEI>

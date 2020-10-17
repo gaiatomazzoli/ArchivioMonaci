@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ernesto Monaci a Graziadio Isaia Ascoli, 18 luglio 1906</title>
+                <editor role="transcription"><persName>Chiara Maria Calcagni</persName></editor>
+                <editor role="encoding"><persName>Giulia Lucchesi</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2020-04-06"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl><bibl>Chiara Maria Calcagni, <title>Lettere scelte dal carteggio Ascoli-Monaci (1880/1906): trascrizione e commento</title>, tesi di laurea, Sapienza Università di Roma, a.a. 2018-2019</bibl></listBibl>
+                <msDesc>
+                    <msIdentifier><repository>Archivio di Ascoli ai Lincei, presso la Biblioteca dell’Accademia dei Lincei e Corsiniana a Roma.</repository> <idno>Busta n. 1, scatola 40, lettera 2</idno></msIdentifier>
+                    <msContents><summary corresp="#letter">Lettera di Ernesto monaci a Graziadio Isaia Ascoli del 18 luglio 1906.</summary></msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#roma">Roma</placeName>
+                    <date when="1906-07-18"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#GIA">Graziadio Isaia Ascoli</persName>
+                    <placeName ref="#sconosciuto">?</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                    <opener>
+                        <dateline><placeName ref="#roma">Roma</placeName> <date when="1906-07-18">18 luglio 1906</date></dateline>
+                        <salute>Mio Signore</salute></opener>
+                    <p>pochi giorni dopo ricevuta <title type="letter" ref="./1906_07_10.html">la Sua del 10</title>, venne improvvisamente a trovarmi 
+                    il <persName ref="#FDO">D’Ovidio</persName>. Gli accennai al “divieto” di cui mi 
+                        parlava <title type="letter" ref="./1906_07_10.html">la Sua lettera</title>, ed egli mi disse subito, che le sue riserve erano limitate 
+                        al momento in cui le cose relative alla <rs type="topic" key="Toponomastica">Toponomastica</rs> non si trovavano 
+                    ancora ben definite. “Ora – mi soggiunse – non è più così. Il <persName ref="#AM3">Majorana</persName> 
+                    mi ha di nuovo assicurato, che la somma promessa è stata ormai iscritta per prossimo bilancio, 
+                    e perciò non c’è più ragione di tacerne col <persName ref="#SP">Pieri</persName>”. 
+                    Quanto alla “favola” del <persName ref="#LL">Luzzatti</persName>, si rassicuri. 
+                    Io riferii a Lei quanto aveva detto il <persName ref="#FDO">D’Ovidio</persName> in seno al 
+                    Consiglio dell’Accademia, e non ne ho parlato con nessun altro; non c’è stato comunque il minimo scandalo. 
+                    Il <persName ref="#CN">conte Nigra</persName> è tornato a <placeName ref="#roma">Roma</placeName> 
+                    e sta proprio bene; da un pezzo non lo vedevo di così buona ciera.</p>
+                    <p>Nel dispaccio al <persName ref="#AT">Tobler</persName> s’è unito anche il <persName ref="#FDO">D’Ovidio</persName>; 
+                    e siccome egli era per aver notizia dello scrutinio prima di me, così volle egli stesso incaricarsi del telegramma. 
+                    Spero che Ella mi assolverà dell’aver consentito al desiderio di lui.</p>
+                    
+                    <closer>Con i più affettuosi saluti. 
+                        Il Suo <expan><abbr>dev</abbr><am>.</am><ex>oto</ex></expan> 
+                        <signed><persName ref="#EM"><expan><abbr>E</abbr><am>.</am><ex>rnesto</ex></expan> Monaci</persName></signed></closer>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>
+

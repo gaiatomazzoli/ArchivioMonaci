@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ernesto Monaci a Pio Rajna, 10 novembre 1877</title>
+                <editor role="transcription"><persName>Alessia Di Virgilio</persName></editor>
+                <editor role="encoding"><persName>Laura Pireddu</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2020-03-29"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl><bibl>Alessia Di Virgilio, <title>Carteggio Monaci - Rajna (1873-1877)</title>, tesi di laurea, Sapienza Università di Roma, a.a. 2018-2019</bibl></listBibl>
+                 <msDesc>
+                     <msIdentifier><repository>Archivio Pio Rajna, presso la Biblioteca Marucelliana di Firenze.</repository> <idno>Lettera XXXIX</idno></msIdentifier>
+                    <msContents><summary corresp="#postcard">Cartolina postale di Ernesto Monaci a Pio Rajna del 10 novembre 1877 </summary></msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#roma">Roma</placeName>
+                    <date when="1877-11-10"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#PR">Pio Rajna</persName>
+                    <placeName ref="#sconosciuto">?</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                    <opener><dateline><placeName ref="#roma">Roma</placeName>, <date when="1877-11-10">10 novembre 1877</date></dateline></opener>
+                    <p><expan><abbr>C</abbr><am>.</am><ex>arissimo</ex></expan><expan><abbr>A</abbr><am>.</am><ex>mico</ex></expan> Grazie dell’ottimo scritto che mi hai mandato. 
+                        A suo tempo riceverai le bozze. Nessuna difficoltà poi per pubblicare un testo <rs type="topic" key="Francese"><expan><abbr>fr</abbr><am>.</am><ex>ancese</ex></expan></rs> 
+                        Anche di 35 pagine, massimo poi essendo tu l’editore. Soltanto è necessario che ti mi avverta a tempo perché ti sia riservato spazio abbastanza nel fascicolo più vicino. 
+                        Ora ho già ricercato offerte pel <expan><abbr>fasc</abbr><am>.</am><ex>icolo</ex></expan> 2°, ma pel 3° posso disporre ancora. 
+                        Per <title>Varietà</title> poi e bibliogr.mo posso ricevere anche pei
+                        <expan><abbr>fasc</abbr><am>.</am><ex>icoli</ex></expan> 1° e 2°. Addio.</p>
+                    <closer>Tutto tuo <signed><persName ref="#EM">E.M.</persName></signed></closer>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>
+

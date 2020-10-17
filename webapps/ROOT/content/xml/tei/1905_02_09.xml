@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Graziadio Isaia Ascoli a Ernesto Monaci, 9 febbraio 1905</title>
+                <editor role="transcription"><persName>Chiara Maria Calcagni</persName></editor>
+                <editor role="encoding"><persName>Stefano Boschi</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2020-04-06"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl><bibl>Chiara Maria Calcagni, <title>Lettere scelte dal carteggio Ascoli-Monaci (1880/1906): trascrizione e commento</title>, tesi di laurea, Sapienza Università di Roma, a.a. 2018-2019</bibl></listBibl>
+                <msDesc>
+                    <msIdentifier><repository>Archivio Monaci, Società Filologica Romana, presso il Dipartimento di Studi Europei, Americani e Interculturali, Sapienza, Università di Roma.</repository> <idno>Busta n. 1, fascicolo 49, lettera 142.</idno></msIdentifier>
+                    <msContents><summary corresp="#letter">Si annuncia una prossima venuta a Roma. Si ragiona della richiesta del Pieri.</summary></msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#GIA">Graziadio Isaia Ascoli</persName>
+                    <placeName ref="#milano">Milano</placeName>
+                    <date when="1905-02-09"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#sconosciuto">?</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                    <opener><dateline><placeName ref="#milano">Milano</placeName>, <date when="1905-02-09">9. 2. ’905</date></dateline></opener>
+                    <p>Onorato e caro collega; mi voglia scusare se non ho risposto subito alla buona Sua <title type="letter" ref="./1905_02_03.html">lettera</title> del 3, accompagnata da quella dell’on. Vicepresidente diretta a Lei, la quale a Lei ritorna qui inserita. Sono stato preso anch’io dall’<hi rend="underline">influenza</hi>, ma non è assalto grave e spero di liberarmene entro pochi giorni.</p>
+                    <p>Conto dunque di arrivare a <placeName ref="#roma">Roma</placeName> la sera del 16 (giovedì); e avremmo così due giorni e mezzo (venerdì, sabato e la mattina della domenica) per attendere alle cose nostre presso il Ministro o il Ministero. <persName ref="#EM">Ella</persName> potrebbe intanto fissare quanto a <persName ref="#EM">Lei</persName> meglio paresse per l’ora delle udienze ecc.; poiché se proprio non casca il mondo, io sarò il 17 di mattina a piena Sua disposizione nel luogo che Le piacerà indicarmi con un suo viglietto al solito albergo. Sarei anche pronto, se proprio Le paresse occorrere, a anticipare il mio arrivo di un giorno; ma bisognerebbe che la sua bontà si disturbasse ad avvertirmene, quanto le fosse dato più presto.</p>
+                    <p>Con <title type="letter">lettera</title> del 28 genn., partita però in ritardo e giuntami poco prima della <title type="letter" ref="./1905_02_03.html">Sua</title> del 3 corr., il <persName ref="#EM2">Mancini</persName> mi trasmetteva copia della lettera presidenziale del 26 genn., con la quale si mandavano al Ministero i nomi dei <orgName ref="#AccLin">Lincei</orgName> chiamati a far parte della Commissione per la <rs type="topic" key="Toponomastica">Toponomastica</rs>, s’annunziavano gli esperimenti in corso e si riservavano le risposte definitive.</p>
+                    <p>Tutto questo mi è parso ben chiaro. Ma all’incontro confesso di non vedere ben chiaramente (pronto però a obbedire anche ad occhi affatto chiusi) come oggi possa parere cosa urgente od opportuna l’insistere sul pronto <hi rend="underline">comando</hi> del <persName ref="#SP">Pieri</persName>. È dunque ormai il <persName ref="#LB">Bodio</persName> convinto che lo spoglio possa riuscire secondo i comuni desideri, brevemente indicati nei <title  ref="#ricordi"><hi rend="underline">Ricordi</hi></title>? È dunque ormai il Ministro pienamente sicuro di poter disporre del fondo? Se queste due condizioni non sussistono ancora, come insistere sul <hi rend="underline">comando</hi>, che manifestatamente le presuppone? Basta, dalla Sua parola mi verrà luce intorno ad ogni cosa; e intanto io le stringo cordialmente la mano.</p>
+                    <closer><salute>L’aff.mo e div.mo suo</salute> <signed><persName ref="#GIA">Ascoli</persName></signed></closer>
+                    
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

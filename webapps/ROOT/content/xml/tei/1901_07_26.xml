@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Cesare De Lollis a Ernesto Monaci, 26 luglio 1901</title>
+                <editor role="transcription"><persName>Debora Matteo</persName></editor>
+                <editor role="encoding"><persName>Margherita Bisceglia</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2020-04-20"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl><bibl>Debora Matteo, <title>Itinerario di un carteggio</title>, tesi di laurea, Sapienza Università di Roma, a.a. 2017-2018</bibl></listBibl>
+                <msDesc>
+                    <msIdentifier><repository>Archivio Monaci, Società Filologica Romana, presso il Dipartimento di Studi Europei, Americani e Interculturali, Sapienza, Università di Roma.</repository> <idno>Busta n. 8, fascicolo 394.</idno></msIdentifier>
+                    <msContents><summary corresp="#letter">Lettera di Cesare De Lollis a Ernesto Monaci del 26 luglio 1901</summary></msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#CDL">Cesare De Lollis</persName>
+                    <placeName ref="#brixlegg">Brixlegg</placeName>
+                    <date when="1901-04-26"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#sconosciuto">?</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                    <opener>
+                        <dateline><placeName ref="#brixlegg">Brixlegg (Tirolo)</placeName>, <date when="1901-07-26">26. VII. 901.</date></dateline>
+                        <salute>Caro Professore,</salute></opener>
+                    <p>Ho sotto gli occhi la sua del 20 giugno e del 23 luglio. 
+                        Ella è uomo troppo misurato, per aver bisogno dei miei consigli, e per quanto riguarda la faccenda Sicardi se io avessi vista 
+                        <gap reason="illegible" extent="unknown" unit="chars"/> o in bozze la nota e se inserita sul penultimo fascicolo, appena appena
+                        mi sarei fatto lecito di porle quesito se il V meritasse l’amore di Ella 
+                        <gap reason="illegible" extent="unknown" unit="chars"/>. Ora, poi, che la cosa è diventata personale e quando Ella mi scrive
+                        potrò io arrogarmi il diritto di <gap reason="illegible" extent="unknown" unit="chars"/> gli studj? Scriva pure tutto quel che 
+                        lei vorrà, di dover scrivere, e <gap reason="illegible" extent="unknown" unit="chars"/> Che sa di aver <gap reason="illegible" extent="unknown" unit="chars"/> anche contro di me,
+                        non avrei <gap reason="illegible" extent="unknown" unit="chars"/> l’autorizzazione a porre il mio nome davanti il suo, 
+                        sotto quanti Ella avrà potuto scrivere a tal riguardo. Ma, rifiuti, ella può liberissimamente dire quanto vuole sugli studj 
+                        <gap reason="illegible" extent="unknown" unit="chars"/> dalla Romania <gap reason="illegible" extent="unknown" unit="chars"/> le sue questioni personali senza intervento <gap reason="illegible" extent="unknown" unit="chars"/></p>
+                    <p>Quando alla notizia rimasta fori il fascicolo già <gap reason="illegible" extent="unknown" unit="chars"/> nulla è anche di quella ora in stampa.</p>
+                    <closer><signed><persName ref="#CDL">Cesare de Lollis</persName></signed></closer>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

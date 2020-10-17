@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ernesto Monaci a Graziadio Isaia Ascoli, 5 marzo 1902</title>
+                <editor role="transcription"><persName>Chiara Maria Calcagni</persName></editor>
+                <editor role="encoding"><persName>Simone Palmieri</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2020-02-26"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl><bibl>Chiara Maria Calcagni, <title>Lettere scelte dal carteggio Ascoli-Monaci (1880/1906): trascrizione e commento</title>, tesi di laurea, Sapienza Università di Roma, a.a. 2018-2019</bibl></listBibl>
+                <msDesc>
+                    <msIdentifier><repository>Archivio di Ascoli ai Lincei, presso la Biblioteca dell’Accademia dei Lincei e Corsiniana a Roma.</repository> 
+                        <idno>Lettera 129/59</idno></msIdentifier>
+                    <msContents><summary corresp="#letter">Ernesto Monaci ragguaglia Graziadio Isaia Ascolti circa lo stato delle schede di censimento</summary></msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#roma">Roma</placeName>
+                    <date when="1902-03-05"/>
+                </correspAction>
+                <correspAction type="received">
+                        <persName ref="#GIA">Graziadio Isaia Ascoli</persName>
+                        <placeName ref="#sconosciuto">?</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                    <opener>
+                        <dateline><placeName ref="#roma">Roma</placeName>, <date when="1902-03-05">5 marzo 1902</date></dateline>
+                    </opener>
+                    <p>Mio Signore, dal <orgName ref="#MPI">Ministero della <expan><abbr>P</abbr><am>.</am><ex>ubblica</ex><abbr>I</abbr><am>.</am><ex>struzione</ex></expan></orgName> 
+                        non ebbi mai alcuna comunicazione riguardo alle <rs type="topic" key="Schede censimento">schede del censimento</rs>, e perciò dovetti astenermi dal fare qualunque pratica in proposito, 
+                        ritenendo che ne fosse stato scritto direttamente a Lei. Oggi ricevuta la lettera sua, sono andato alla Minerva e ho parlato col <persName ref="#EM3">Masi</persName>, 
+                        il <hi rend="underline">vero</hi> capo del gabinetto Ministro <persName ref="#NN">Nasi</persName>. Il <persName ref="#EM3">Masi</persName> era al corrente di tutto e, 
+                        prima ancora che io finissi di domandarlo, mi ha detto questo: le <rs type="topic" key="Schede censimento">schede</rs> ammontano a una cifra immensa; il <orgName ref="#MPI">Ministero</orgName> 
+                        non ha mezzi per fare il lavoro dello spoglio e ha chiesto per ciò ajuto al <orgName ref="#MT"><expan><abbr>Min</abbr><am>.</am><ex>istero</ex></expan> del Tesoro</orgName>. 
+                        Questo non rispose ancora. Si farà una sollecitazione. Quanto alla conservazione delle schede bisogna rivolgersi al <orgName ref="#MinAgr"><expan><abbr>Min</abbr><am>.</am><ex>istero</ex></expan> d’ <expan><abbr>Agric</abbr><am>.</am><ex>oltura</ex> <abbr>Ind</abbr><am>.</am><ex>ustria</ex></expan> E Commercio</orgName>. Dopo di ciò sono corso dal <persName ref="#GB1">Baccelli</persName>. 
+                        Anch’egli mi ha detto che non ci sono fondi per lo spoglio, né sarà facile il trovarne. Intanto ha ordinato, me presente, che si scriva all’officiale responsabile per sapere bene come sono conservate le schede, e mi ha promesso di farmi avere comunicazione della risposta tostochè questa sarà giunta. 
+                        Mi riservo dunque di scriverle altra lettera e spero presto. Intanto mi conservi la sua benevolenza e mi abbia sempre</p>
+                    <closer><salute>Suo <expan><abbr>dev</abbr><am>.</am><ex>otissimo</ex></expan> e <expan><abbr>aff</abbr><am>.</am><ex>ezionatissimo</ex></expan></salute>
+                        <signed><persName ref="#EM"> Ern. Monaci</persName></signed></closer>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

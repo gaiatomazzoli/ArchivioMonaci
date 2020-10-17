@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Pio Rajna a Ernesto Monaci, 12 maggio 1877</title>
+                <editor role="transcription"><persName>Alessia Di Virgilio</persName></editor>
+                <editor role="encoding"><persName>Margherita Filippozzi</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2020-03-19"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl><bibl>Alessia Di Virgilio, <title>Carteggio Monaci - Rajna (1873-1877)</title>, tesi di laurea, Sapienza Università di Roma, a.a. 2018-2019</bibl></listBibl>
+                <msDesc>
+                    <msIdentifier><repository>Archivio Monaci, Società Filologica Romana, presso il Dipartimento di Studi Europei, Americani e Interculturali, Sapienza, Università di Roma.</repository> <idno>Busta n. 22, fascicolo 1095, lettera XXXIII.</idno></msIdentifier>
+                    <msContents><summary corresp="#letter">Lettera di Pio Rajna a Ernesto Monaci del 12 maggio 1877.</summary></msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#PR">Pio Rajna</persName>
+                    <placeName ref="#milano">Milano</placeName>
+                    <date when="1877-05-12"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#roma">Roma</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                    <opener><dateline><placeName ref="#milano">Milano</placeName>, <date when="1877-05-12">12 Maggio 77</date></dateline>                        
+                        <salute>Caro <persName ref="#EM">Monaci</persName></salute></opener>
+                    <p>La tua lettera "furiosa", diretta all’<orgName ref="#AccLin">Accademia</orgName>, venne nelle mie mani molte ore dopo la <title type="letter">cartolina</title>, sicché seppi che il fuoco era spento prima di aver avuto notizia dell’incendio.
+                        Ho piacere che tutto sia finito bene. Ti dirò che a me pure fece una grata sorpresa all’appello.
+                        Avanti di vederlo stampato, ne conoscevo solo gli ultimi periodi.
+                        Son quelli, che, per più d’una ragione, non mi piacevano, e che m’avevano indotto a desiderare d’esser lasciato in disparte. 
+                        Anche adesso, conosciuto il documento nella sua integrità, io non sono entusiasta al pari di te;
+                        credo che chi ha la borsa abbia la forza <pb/>e che per conseguenza, se il comitato di <placeName ref="#berlino">Berlino</placeName> s’impuntasse, potrebbe farci ballare a suo arbitrio.
+                        Tuttavia sono persuaso che anche lassù s’avrà paura degli abusi, e che però ogni cosa procederà liscia liscia, secondo i nostri desiderii.
+                        Del resto l’<persName ref="#GIA">Ascoli</persName> avrebbe anche immaginato un espediente per assicurare la partecipazione italiana nelle deliberazioni finali.</p>
+                    <p>Insomma, adesso importa di mettere insieme quattrini più che sia possibile.
+                        Tu, che sei alla <placeName ref="#roma">capitale</placeName>, potrai far molto, specialmente stuzzicando l’attività dei <orgName ref="#AccLin">Lincei</orgName>.
+                        Esprimo certo il pensiero dei colleghi, dicendo che si conta assai su di te.</p>
+                    <p>Certo, se la <title ref="#RFR">Rivista</title> risorge, non mancherò di portarci qualche pietra.
+                        Della roba ne avrei in abbondanza; <pb/>il guaio si è che metto mano a molte cose, e ne finisco ben poche.
+                        Se Lazzaro sarà richiamato in vita, procurerò di disciplinarmi.
+                        Senza dubbio tu faresti un’opera santa. Capisco che convenga esser ben sicuri della riuscita.
+                        Ma di questa, lo zelo tuo può essere un’arma sufficiente.</p>
+                    <p>Salutami l’<persName ref="#AI">Ive</persName>, se è ancora costì.</p>
+                    <closer><salute>E tu vogli bene al</salute> 
+                        <salute>Tuo <expan><abbr>aff</abbr><ex>ezionatissi</ex><abbr>mo</abbr></expan></salute>
+                        <signed><persName ref="#PR"><expan><abbr>P</abbr><am>.</am><ex>io</ex></expan> Rajna</persName></signed></closer>                    
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

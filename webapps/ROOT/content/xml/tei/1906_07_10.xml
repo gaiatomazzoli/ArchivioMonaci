@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Graziadio Isaia Ascoli a Ernesto Monaci, 10 luglio 1906</title>
+                <editor role="transcription"><persName>Chiara Maria Calcagni</persName></editor>
+                <editor role="encoding"><persName>Giulia Lucchesi</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2020-04-04"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl><bibl>Chiara Maria Calcagni, <title>Lettere scelte dal carteggio Ascoli-Monaci (1880/1906): trascrizione e commento</title>, tesi di laurea, Sapienza Università di Roma, a.a. 2018-2019</bibl></listBibl>
+                <msDesc>
+                    <msIdentifier><repository>Archivio Monaci, Società Filologica Romana, presso il Dipartimento di Studi Europei, Americani e Interculturali, Sapienza, Università di Roma.</repository> <idno>Busta n. 1, fascicolo 49, lettera 168</idno></msIdentifier>
+                    <msContents><summary corresp="#letter">Lettera di Graziadio Isaia Ascoli a Ernesto Monaci del 10 luglio 1906.</summary></msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#PR">Graziadio Isaia Ascoli</persName>
+                    <placeName ref="#milano">Milano</placeName>
+                    <date when="1906-07-10"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#sconosciuto">?</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                    <opener><dateline><placeName ref="#milano"><expan><abbr>Mil</abbr><am>.</am><ex>ano</ex></expan></placeName>, 
+                        <date when="1906-07-10">10 luglio ’906</date></dateline>
+                        <salute>Onorato e caro collega;</salute></opener>
+                    <p>Le rendo vivissime grazie per la buona Sua lettera del <date>18 giugno</date>. 
+                    Le ragioni, per le quali mi è riuscita alquanto enigmatica e alquanto spiacevole 
+                    la conferenza di <persName ref="#PM">Paul Meyer</persName>, mi porterebbero a 
+                    molestarla con infinite parole, non poche delle quali non sarebbero punto agevoli 
+                    a profferirsi, massime per iscritto. Onde è forse meglio che io differisca. Oh mi 
+                    fosse dato di trovarmi non tanto di rado vicino a Lei! Non Le dirò quanto mi 
+                    rallegrasse la parte buona delle cose attinenti alla <rs type="topic" key="Toponomastica">Topomastica</rs>, 
+                    ch’Ella, insieme con la non buona, mi descriveva così mirabilmente. Qui, di mio 
+                    rincrescimento particolare, avrei per vero due cosucce, che però potranno presto 
+                    avere o forse hanno già avuto qualche rimedio. Mi rincresce cioè in primo luogo 
+                    che una specie di divieto del <persName ref="#FDO">d’Ovidio</persName> mi tolga 
+                    d’aprir bocca col <persName ref="#SP">Pieri</persName>. 
+                    Questo divieto lo accettavo per verità in <placeName ref="#roma">Roma</placeName> 
+                    il 2 di luglio, quando io non conoscevo la lettera a me diretta dal 
+                    <persName ref="#PB1">Boselli</persName> e allora viaggiante alla volta di 
+                    <placeName ref="#milano">Milano</placeName>, ne ancora avevo parlato col 
+                    <persName ref="#LL">Luzzatti</persName>, che fu il 3, nella seduta Reale. 
+                    Ma pure non ho creduto di reputarmene peranco svincolato. In secondo luogo, mi rincresce 
+                    si sia fatta correre la favola (favola involontaria, come va da sé), che il <persName ref="#LL">Luzzatti</persName> 
+                    avesse con me vantato di aver ben vantato di aver ben preparato il successore per la iscrizione 
+                    da noi desiderata. Il vero è all’incontro, che il <persName ref="#LL">Luzzatti</persName> 
+                    avendo sentito da me come forse la Commissione nostra poteva contare sopra una raccomandazione 
+                    di lui al proprio successore e avendomi interrogato intorno l’affare come intorno a cosa 
+                    per lui nuova, finì per pronunziare le parole che io fedelissimamente ho riferito.</p>
+                    <p>Lo spoglio delle nostre schede sta per compirsi e il nostro dispaccio per 
+                    <placeName ref="#berlino">Berlino</placeName> starà, speriamo, per partire. Ella ora 
+                    tornerà a godere della compagnia del <persName ref="#CN">Conte</persName>, che par proprio 
+                    ritornato in liete condizioni. E così continui perennemente! E sanità perenne e perenne contentezza a Lei pure!
+                    </p>
+                    <closer><salute>l’<expan><abbr>aff</abbr><am>.</am><ex>ezionatissi</ex><abbr>mo</abbr></expan> <expan><abbr>div</abbr><ex>otissi</ex><abbr>mo</abbr></expan>
+                        Suo</salute><signed><persName ref="#GIA"><expan><abbr>G</abbr><am>.</am><ex>raziadio</ex></expan> 
+                            <expan><abbr>I</abbr><am>.</am><ex>saia</ex></expan> Ascoli</persName></signed></closer>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ernesto Monaci a Graziadio Isaia Ascoli, 27 novembre 1904</title>
+                <editor role="transcription"><persName>Chiara Maria Calcagni</persName></editor>
+                <editor role="encoding"><persName>Mariangela Distilo</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2020-02-26"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl><bibl>Chiara Maria Calcagni, <title>Lettere scelte dal carteggio Ascoli-Monaci (1880/1906): trascrizione e commento</title>, tesi di laurea, Sapienza Università di Roma, a.a. 2018-2019</bibl></listBibl>
+                <msDesc>
+                    <msIdentifier><repository>Archivio Ascoli, Accademia Nazionale dei Lincei, presso la Biblioteca dell’Accademia dei Lincei e Corsiniana, Roma.</repository> <idno>Llettera 97/6</idno></msIdentifier>
+                    <msContents><summary corresp="#letter">Lettera di E. Monaci a G. I. Ascoli del 27 novembre 1904</summary></msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#roma">Roma</placeName>
+                    <date when="1904-11-27"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#GIA">Graziadio Isaia Ascoli</persName>
+                    <placeName ref="#sconosciuto">?</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                    <opener><address><addrLine><placeName ref="#roma">Roma</placeName>, Via de’ Condotti 75.</addrLine></address>
+                        <dateline><date when="1904-11-27">27 nov. 1904.</date></dateline></opener>
+                    <p>Mio Signore, prima di riscriverle volli aver parlato col <persName ref="#FDO">D’Ovidio</persName>, che dovea venire in <placeName ref="#roma">Roma</placeName> per la inaugurazione del nuovo anno accademico ai <orgName ref="#AccLin">Lincei</orgName>. Volli informarlo di quanto erasi fatto all’<orgName ref="#AccLin">accademia</orgName> rispetto alla Toponomastica, e dirgli dello stato presente della vertenza affinché, volendo, potesse prendere egli l’iniziativa delle pratiche ulteriori. Lo vidi infatti e mi persuasi che non avrei potuto trovare disposizione migliore di quella che trovai in lui. Non solamente egli mi si mostrò animato da vivo desiderio di portare la cosa innanzi e di non perder tempo; ma mi disse ancora che, prima di ripartire per <placeName ref="#napoli">Napoli</placeName>, sarebbe andato dal conte <persName ref="#CN">Nigra</persName> per abboccarsi in proposito con lui; mi parlò del segretario e, prima ancora che gli esprimessi il mio avviso, nominò il <persName ref="#SP">Pieri</persName> come l’uomo che, a ogni costo, bisogna farsi concedere dal Ministero. Mi disse da ultimo che al suo ritorno per la seduta di dicembre si proponeva di avviar tutto per la conclusione. Intanto il ministro <persName ref="#VEO">Orlando</persName> scriverà, credo, all’<orgName ref="#AccLin">Accademia</orgName> partecipandole la risposta avuta da Lei e invitandola ad assumere la impresa; e così tutto potrà essere pronto allorché il <persName ref="#FDO">D’O.</persName> tornerà.</p>
+                    <p>Naturalmente, dopo quanto Le ho esposto, io non ho parlato più della cosa al <persName ref="#PB">Blaserna</persName> né al <persName ref="#LB">Bodio</persName>. Ciò farà il <persName ref="#FDO">D’O.</persName>, secondo che egli stesso mi disse, e sarà molto meglio.</p>
+                    <p>Ma intanto i <title ref="#ricordi"><hi rend="underline">Ricordi</hi></title> non si muterranno davvero nel Programma definitivo dell’impresa? E sarà più lecito agli <title ref="#SR"><hi rend="underline">Studi Romanzi</hi></title> di aspirare a pubblicarli mentre l’impresa diventa lincea? La <orgName ref="#SFR">Società</orgName> ci teneva assai a far uscire il fasc. col Suo nome in testa. Ma, se non si potrà più pubblicare i <title ref="#ricordi"><hi rend="underline">Ricordi</hi></title>, non si potrà sperare che il <persName ref="#PM1">Maestri</persName> destini allo stesso fascicolo qualche altro scritto, sia pure di una pagina?</p>
+                    <p>Mi continui, venerato e caro maestro, la sua benevolenza e mi abbia sempre per il suo</p> 
+                        <closer><salute><expan><abbr>dev</abbr><am>.</am><ex>otissimo</ex></expan> e <expan><abbr>aff</abbr><am>.</am><ex>ezionatissimo</ex></expan></salute>
+                        <signed><persName ref="#EM">E. Monaci</persName></signed></closer>
+                </div>
+                <div type="textpart" subtype="letter">
+                    <opener><dateline><placeName ref="#milano">Mil.</placeName>, <date when="1904-11-29">29. 11. ’904</date></dateline>
+                        <salute>Carissimo <persName ref="#SP">Pieri</persName>;</salute></opener>
+                    <p>jeri, al tramonto,
+                        <lb/>m’è toccato mandarle un telegramma piuttosto
+                        <lb/>melanconico; ed ecco giungermi stamani
+                        <lb/>questa buona lettera, che le spedisco indila-<lb/>mente, con la preghiera di volermela
+                        <lb/>restituire. Mi riverisca la Signora e mi voglia</p>
+                    <closer><salute><expan><abbr>aff</abbr><am>.</am><ex>ezionatissi</ex><abbr>mo</abbr></expan> Suo</salute> <signed><persName ref="#GIA">Ascoli</persName></signed></closer>
+                </div>
+                </div>
+        </body>
+    </text>
+</TEI>
+
+

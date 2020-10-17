@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Cesare De Lollis a Ernesto Monaci, 2 febbraio 1899</title>
+                <editor role="transcription"><persName>Debora Matteo</persName></editor>
+                <editor role="encoding"><persName>Laura Pireddu</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2020-05-12"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl><bibl>Debora Matteo, <title>Itinerario di un carteggio</title>, tesi di laurea, Sapienza Università di Roma, a.a. 2017-2018</bibl></listBibl>
+                <msDesc>
+                    <msIdentifier><repository>Archivio Monaci, Società Filologica Romana, presso il Dipartimento di Studi Europei, Americani e Interculturali, Sapienza, Università di Roma.</repository> <idno>Busta n. 8, fascicolo 394.</idno></msIdentifier>
+                    <msContents><summary corresp="#letter">Lettera di Cesare De Lollis a Ernesto Monaci del 2 febbraio 1899.</summary></msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#CDL">Cesare De Lollis</persName>
+                    <placeName ref="#sconosciuto">?</placeName>
+                    <date when="1899-02-02"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#sconosciuto">?</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                    <p>[...]</p>
+                    <p>Giorni fa un amico di qui mi portò i fascicoli del <title ref="#GD">Giornale Dantesco</title> dove il <persName ref="#FT1"><expan><abbr>comm</abbr><am>.</am><ex>endator</ex></expan> Torraca</persName> continua 
+                        i suoi sfoghi. [...] 
+                        Mi par giunto il momento di segnalare all’opinione pubblica e al <persName ref="#GB1">Ministro 
+                        dell’Istruzione</persName> in ispecie gli eccessi polemici di quell’egregio uomo, preconizzato <persName>Direttore generale 
+                            dell’Istruzione superiore</persName> [...]; e il tutto rimettere a S.E. il <persName ref="#GB1">Ministro</persName>, col quesito finale: «è lecito 
+                        ad un alto impiegato di codesto <orgName ref="#MPI">Ministero</orgName> contenersi coi Professori, così come non oserebbe fare un 
+                        Direttore generale degli Esteri col personale delle Ambasciate, o uno degli Interni coi Prefetti, 
+                        e via dicendo?». [...] 
+                        Sicché prevedo di dover consacrare un pajo di paginuzze del <title>Bullettino</title>
+                        al santo scopo di ricordare al <persName ref="#FT1"><expan><abbr>Comm</abbr><am>.</am><ex>endator</ex></expan> <expan><abbr>T</abbr><am>.</am><ex>orraca</ex></expan></persName> la sua delicata posizione, e, più, di ricordarla a S.E. 
+                        il <persName ref="#GB1">Ministro</persName>, che da un momento all’altro potrebbe metterlo a contatto ufficiale con quei professori 
+                        ch’egli, il <persName ref="#FT1"><expan><abbr>comm</abbr><am>.</am><ex>endator</ex></expan> <expan><abbr>T</abbr><ex>orraca</ex></expan></persName>, tanto odia e disprezza. Sottometterò, s’intende, al Suo giudizio il testo della 
+                        mia brevissima replica; ma, inutile il dirlo, me ne assumerò io solo la responsabilità, trattandosi 
+                        di cosa personale. [...] 
+                        Il fascicolo del <title>Bullettino</title> sarà abbastanza ben nutrito, a parte la Torracheide.</p>
+                    <p>[...]</p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

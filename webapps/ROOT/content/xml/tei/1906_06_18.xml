@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ernesto Monaci a Graziadio Isaia Ascoli, 18 giugno 1906</title>
+                <editor role="transcription"><persName>Chiara Maria Calcagni</persName></editor>
+                <editor role="encoding"><persName>Stefano Boschi</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2020-04-08"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl><bibl>Chiara Maria Calcagni, <title>Lettere scelte dal carteggio Ascoli-Monaci (1880/1906): trascrizione e commento</title>, tesi di laurea, Sapienza Università di Roma, a.a. 2018-2019</bibl></listBibl>
+                <msDesc>
+                    <msIdentifier><repository>Archivio Ascoli, presso la Biblioteca dell’Accademia dei Lincei e Corsiniana, Roma.</repository> <idno>Pacco 1, busta 52.</idno></msIdentifier>
+                    <msContents><summary corresp="#letter">Si espongono le decisioni di Ministero e Accademia riguardo alla commissione sulla Toponomastica e ai fondi da riservare alla stessa.</summary></msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#roma">Roma</placeName>
+                    <date when="1906-06-18"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#GIA">Graziadio Isaia Ascoli</persName>
+                    <placeName ref="#sconosciuto">?</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                    <opener><dateline><placeName ref="#roma">Roma</placeName> <date when="1906-06-18">18 giugno 1906</date></dateline>
+                        <salute>Mio Signore</salute></opener>
+                    <p>Non ho letto l’articolo di <persName ref="#PM">Paul Meyer</persName>, perché non so chi abbia qui a <placeName ref="#roma">Roma</placeName> la <title ref="#RM"><hi rend="underline"><expan><abbr>Rev</abbr><am>.</am><ex>ue</ex></expan> du mois</hi></title>; ma farò di tutto per leggerla. Del resto, il <persName ref="#PM"><expan><abbr>M</abbr><am>.</am><ex>eyer</ex></expan></persName> è in fondo un galantuomo e non mi sorprende che, malgrado i seguenti accessi atrabiliari a cui va soggetto, riesce qualche volta ad essere giusto. Vengo alla <rs type="topic" key="Toponomastica">Toponomastica</rs>. Non istò a dirle come rinunciassi sul momento a visitare il <expan><abbr>Min</abbr><am>.</am><ex>istro</ex></expan> <persName ref="#GF2">Fusinato</persName>. Egli si è sequestrato da tutti, perfino dalla Camera, ove manda il <persName ref="#AC">Ciuffelli</persName> a rispondere sulla questione <persName>Fogazzaro</persName>; e in simili momenti non credetti lecito tentare di forzar la consegna, quantunque resti oscura la causa di quest’isolamento. Credetti piuttosto doveroso di aspettare qualche giorno. Intanto abbiamo avuto la tornata accademica del mese, e jeri il <persName ref="#PB">Blaserna</persName>, appena l’ho visto, mi ha annunziato che il <orgName ref="#MPI">ministero dell’<expan><abbr>Istr</abbr><am>.</am><ex>uzione</ex></expan></orgName>, con lettera firmata dal <persName ref="#AC">Ciuffelli</persName>…, ha partecipato all’<orgName ref="#AccLin">Accademia</orgName> che il <persName ref="#AM3">Ministro del Tesoro</persName> iscriverà, secondo gli impegni presi, la somma di l. 20,000 per la <rs type="topic" key="Toponomastica">Toponomastica</rs>, ma che desidera di aver prima una specifica della spesa, perché tal somma dovrebb’essere definitiva.</p>
+                    <p>Avvertiva inoltre che la iscrizione sarà nel bilancio 1907-8, non essendo possibile introdurre una variazione nel bilancio in corso. Dopo questa notizia sommaria, il <persName ref="#PB">Blaserna</persName> mi ha invitato a trovarmi, finita la seduta, nel consiglio di amministrazione, a cui sarebbe intervenuto anche il <persName ref="#FDO">D’Ovidio</persName> ch’era per arrivare. Difatto nel consiglio si è riparlato della cosa, è stata letta la lettera firmata dal <persName ref="#AC">Ciuffelli</persName> e si è concluso che l’<orgName ref="#AccLin">Accademia</orgName> risponderà al Ministero assicurandolo che la iscrizione della predetta somma non potrà correre rischio di variazioni, perché, - quantunque una ‘specifica’ non sia possibile -, avendo l’<orgName ref="#AccLin">accademia</orgName> già accettato l’incarico conferitole dal Ministro <persName ref="#VEO">Orlando</persName>, essa stessa penserà a sopperire a un di più, ove ce ne fosse bisogno. Inoltre su proposta del <persName ref="#FDO">D’Ovidio</persName>, è stato deliberato che, sebbene la ricorrenza della dotazione sarà dal 1907 in poi, l’<orgName ref="#AccLin">Accademia</orgName> anticiperà alla Commissione la prima annualità perché si possa cominciare al più presto. Rimane dunque – diceva il <persName ref="#FDO">D’O.</persName> – soltanto la questione del <persName ref="#SP">Pieri</persName>, e se egli sarà nominato a <placeName ref="#pisa">Pisa</placeName>, come si spera, la soluzione anche da questo lato sarebbe appianata, perché, facendo il <persName ref="#SP"><expan><abbr>P</abbr><am>.</am><ex>ieri</ex></expan></persName> sei ore settimanali invece di tre, potrebbe in poche settimane mettersi in grado di venire a lavorare in <placeName ref="#roma">Roma</placeName> senza bisogno di comando o anche di permessi. Le ho riferito, spero esattamente, quanto dovevo; aggiungo da ultimo che il <persName ref="#FDO">D’Ovidio</persName>, a parte, mi ha detto d’aver verificato che il buon <persName ref="#LL">Luzzatti</persName> nulla aveva preparato al suo successore per la iscrizione della dotazione. Chi, al contrario, avrebbe veramente cercato d’impegnare il suo successore, sarebbe stato il <persName ref="#PB1">Boselli</persName>; e di qui il malumore del <persName ref="#GF2">Fusinato</persName>.</p>
+                    <p>Mi continui la Sua benevolenza e mi abbia sempre</p>
+                    <closer><salute>il suo aff.mo</salute>
+                    <signed><persName ref="#EM">E. Monaci</persName></signed></closer>
+                </div>
+                <div type="textpart" subtype="notes">
+                    <p>Risp. 10. 7. ’906</p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

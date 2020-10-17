@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Cesare De Lollis a Ernesto Monaci</title>
+                <editor role="transcription"><persName>Margherita Filippozzi</persName>, <persName>Debora Matteo</persName></editor>
+                <editor role="encoding"><persName>Margherita Filippozzi</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2020-05-01"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl><bibl>Debora Matteo, <title>Itinerario di un carteggio</title>, tesi di laurea, Sapienza Università di Roma, a.a. 2017-2018</bibl></listBibl>
+                <msDesc>
+                    <msIdentifier><repository>Archivio Monaci, Società Filologica Romana, presso il Dipartimento di Studi Europei, Americani e Interculturali, Sapienza, Università di Roma.</repository> <idno>Busta n. 8, fascicolo 394.</idno></msIdentifier>
+                    <msContents><summary corresp="#letter">Lettera di Cesare De Lollis a Ernesto Monaci, priva di data completa, con cui De Lollis presenta al suo maestro lo studio condotto su tre autori della letteratura ispano-portoghese medievale, in particolare su Alfonso X.</summary></msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#CDL">Cesare De Lollis</persName>
+                    <placeName ref="#roma">Roma</placeName>
+                    <date when="1887" cert="low"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#sconosciuto">?</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                    <opener><dateline><placeName ref="#roma">Roma</placeName>, <date>15</date></dateline>
+                        <salute>Egregio Sig. Professore</salute></opener>
+                    <p>Eccole quel benedetto <title ref="#alfonsoX">lavoruccio</title>: le giungerà prima che lei non immaginasse, <gap reason="illegible" extent="unknown" unit="chars"/> prima della mia partenza da <placeName ref="#roma">Roma</placeName>.
+                        Ho dovuto finir subito, per parecchie cause urgenti: le principali, la febbre della nostalgia <gap reason="illegible" extent="unknown" unit="chars"/> con questo caldo, e la noia che mi dà il Ministero della Guerra,
+                        dove si pretende, s’io voglio ritardare un altro anno, che m’iscriva nel corso di filosofia.</p>
+                    <p>Io non pretendo che lei legga tutto: le ci vorrebbe almeno un mese di tempo a decifrare i geroglifici, che in certi punti dovrò stentare io stesso ad interpretare.
+                        Il lavoro è un po’ disordinato, ed ha bisogno di un po' di ripulitura nella forma: cosa che potrò fare.
+                        Intanto lei vorrà avere la bontà, spero, di guardare l’insieme, il metodo che ho tenuto e le conclusioni a cui son venuto.</p>
+                    <p>L’analisi dei <rs type="topic" key="Lirica provenzale">componimenti dei tre trovatori</rs> <pb/>mi ha dato il risultato sicuro che l’elemento provenzale è più largamente rappresentato da <persName type="author" ref="#alfonso">Alfonso, che io credo il X, di Castiglia e Leone</persName>.
+                        Dietro questo risultato il significato dei due versi di <persName type="author" ref="#alfonso">Alfonso X</persName> mi è sembrato chiaro abbastanza:
+                        egli non disconosce in <gap reason="illegible" extent="unknown" unit="chars"/> <unclear>da Ponte</unclear> lo studio di imitare i modelli provenzali, ma deride la maniera imperfetta, con cui mette in atto questa imitazione e lo chiama perciò discepolo di <persName type="author" ref="#bernal">Bernaldo de Bonaval</persName>,
+                        che è come il primo e più rozzo imitatore della tecnica provenzale.</p>
+                    <p>Ho lasciato un bel margine in bianco: segni e corregga dove le pare sia da segnare e correggere.</p>
+                    <p>Mi è stato impossibile trovare la redazione spagnola di quella specie di <rs type="topic" key="Lirica">ballata</rs></p>
+                    <p><gap reason="illegible" extent="unknown" unit="chars"/> ecc.</p>
+                    <p>che lei riporta nella <title ref="#crestomazia">Crestomazia</title>. Si trova forse nel <title ref="#amadis1">romanzo dell’Amadis de Gaula</title>? Desidererei saperlo.</p>
+                    <p>Ebbi il piego riservatomi dal <persName ref="#AT">Tobler</persName> in una lettera gentilissima.
+                        Egli ha trovato che la parte del poemetto che si trova soltanto nel <title type="manuscript">codice va<pb break="no"/>ticano</title> non ha nulla che fare col poemetto che egli sta pubblicando <title>Super natura</title>.
+                        Mi ha mandato mille saluti per lei. Io parto di qui sabato prossimo. Il lavoro può tenerlo se non ha tempo per ora, come suppongo, anche prima del mese corrente. Me lo spedirà poi al mio Paese <placeName ref="#chieti">Chieti</placeName> per <placeName ref="#casalincontrada">Casalincontrada</placeName>.
+                        Le rinnovo i più vivi ringraziamenti per la paterna benevolenza dimostratami contro ogni mio merito, durante quest’anno: mi dispiace che per ora non è in me la possibilità di significarle con fatti la mia gratitudine.
+                        <persName>Signandi</persName> la saluta.</p>
+                    <closer><signed><persName ref="#CDL">Cesare de Lollis</persName></signed></closer>
+                    <postscript><p>Me le raccomando per quelli scrittarelli sui <rs type="topic" key="Raddoppiamento">raddoppiamenti</rs>, non mi importa di avere qualche giorno più tardi gli estratti,
+                        perché non corretti tutti gli errori di <pb/>stampa. Spero, al proposito, che le venga fatto di poterci dare un’occhiata lei stesso.
+                        Nel caso, potrebbe ancora mandarmi le bozze, per le correzioni, al <placeName ref="#chieti">paese</placeName>. Specialmente, per quelle righe saltate, sarebbe un errore se non fossero ristabilite, prima di compaginare lo scritto.</p></postscript>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

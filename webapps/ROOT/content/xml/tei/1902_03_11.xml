@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ernesto Monaci a Graziadio Isaia Ascoli, 11 marzo 1902</title>
+                <editor role="transcription"><persName>Chiara Maria Calcagni</persName></editor>
+                <editor role="encoding"><persName>Simone Palmieri</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2020-02-26"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl><bibl>Chiara Maria Calcagni, <title>Lettere scelte dal carteggio Ascoli-Monaci (1880/1906): trascrizione e commento</title>, tesi di laurea, Sapienza Università di Roma, a.a. 2018-2019</bibl></listBibl>
+                <msDesc>
+                    <msIdentifier><repository>Archivio di Ascoli ai Lincei, presso la Biblioteca dell’Accademia dei Lincei e Corsiniana a Roma.</repository> 
+                        <idno>Lettera 129/61</idno></msIdentifier>
+                    <msContents><summary corresp="#letter">Ernesto Monaci informa Graziadio Isaia Ascolti sullo stato delle schede di censimento e gli propone l’apertura di un laboratorio di Toponomatica italiana ai Lincei.</summary></msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#roma">Roma</placeName>
+                    <date when="1902-03-11"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#GIA">Graziadio Isaia Ascoli</persName>
+                    <placeName ref="#sconosciuto">?</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                    <opener>
+                        <dateline><placeName ref="#roma">Roma</placeName> <date when="1902-03-07">11 marzo 1902</date></dateline>
+                    </opener>
+                    <p>Mio Signore, al <orgName ref="#MinAgr">Ministero di <expan><abbr>Agr</abbr><am>.</am><ex>icoltura</ex> <abbr>Ind</abbr><am>.</am><ex>ustria</ex> <abbr>Comm</abbr><am>.</am><ex>ercio</ex></expan></orgName> 
+                        Mi si assicura che le <rs type="topic" key="Schede censimento">schede</rs> raccolte non corrono alcun pericolo e saranno ben conservate. Vorrei crederlo; ma con questa brava gente dei burocratici bisogna essere tomisti; e nessuno mi ha invitato ad andare a vedere…</p> 
+                    <p>Intanto mi si affaccia un’idea, anzi mi si è affacciata da tre giorni. Ella giudichi se sia il caso di tenerne conto. Io penso: l’<persName ref = "#GIA">Ascoli</persName> è Linceo; ai <orgName ref="#AccLin">Lincei</orgName> c’è posto per immagazzinare anche tutti gli atti del 
+                        <rs type="topic" key="Schede censimento">Censimento</rs> senza dar fastidio a nessuno; la classe di scienze storiche e <expan><abbr>fil</abbr><am>.</am><ex>ologiche</ex></expan> non lavora, e sarebbe una gran bella cosa se l’<persName ref="#GIA">Ascoli</persName>
+                        venisse a piantare proprio in seno ai <orgName ref="#AccLin">Lincei</orgName> il suo <rs type="topic" key="Toponomastica">laboratorio per la <expan><abbr>Toponom</abbr><am>.</am><ex>astica</ex></expan> Italiana</rs>. Le pubblicazioni della classe potrebbero così ravvivarsi, 
+                        e quel manipoletto di gioventù laboriosa che abbiamo a <placeName ref="#roma">Roma</placeName> si rannoderebbe intorno al Maestro. Io, modesto caporale, mi sentirei orgoglioso di accompagnare al fuoco, sotto il Suo comando, i miei vecchi discepoli; 
+                        e con noi sarebbe quel buon atleta che è il <persName ref="#LC2">Ceci </persName>, e….. così si potrebbe di certo cominciare. Cominciato poi, nessun dubbio che sussidi per continuare si dovrebbero? Aspetto un suo cenno per muovermi. </p>
+                    <closer><salute>Il suo</salute>
+                        <signed><persName ref="#EM">Ern. Monaci</persName></signed></closer>
+                    
+                    <postscript><p> I) Pensi ancora che, a <placeName ref="#corsini">palazzo Corsini</placeName>, oltre
+                        all’<orgName ref="#AccLin"><expan><abbr>Acc</abbr><am>.</am><ex>ademia</ex></expan> dei Lincei</orgName>, 
+                        c’è anche l’<orgName ref="#ISI">Istituto storico</orgName>, pur esso sonnecchiante. Quanto interesse deve avere l’<orgName ref="#ISI">Istituto</orgName> 
+                        perché il lavoro della <rs type="topic" key="Toponomastica"><expan><abbr>Top</abbr><am>.</am><ex>onomastica</ex></expan> <expan><abbr>ital</abbr><am>.</am><ex>iana</ex></expan></rs>
+                        si compia! Potrà taluno sollevare qualche obbiezione ipocrita; ma vi sarà pure qualcuno che gli risponderà.
+                    </p></postscript>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

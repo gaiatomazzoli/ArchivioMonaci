@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ernesto Monaci a Graziadio Isaia Ascoli, 31 marzo 1902</title>
+                <editor role="transcription"><persName>Chiara Maria Calcagni</persName></editor>
+                <editor role="encoding"><persName>Simone Palmieri</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2020-02-26"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl><bibl>Chiara Maria Calcagni, <title>Lettere scelte dal carteggio Ascoli-Monaci (1880/1906): trascrizione e commento</title>, tesi di laurea, Sapienza Università di Roma, a.a. 2018-2019</bibl></listBibl>
+                <msDesc>
+                    <msIdentifier><repository>Archivio di Ascoli ai Lincei, presso la Biblioteca dell’Accademia dei Lincei e Corsiniana a Roma.</repository> 
+                        <idno>Lettera 129/62</idno></msIdentifier>
+                    <msContents><summary corresp="#letter">Lettera di Ernesto Monaci a Graziadio Isaia Ascoli del 31 marzo 1902.</summary></msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#roma">Roma</placeName>
+                    <date when="1902-03-31"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#GIA">Graziadio Isaia Ascoli</persName>
+                    <placeName ref="#sconosciuto">?</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                    <opener><dateline><placeName ref="#roma">Roma</placeName> <date when="1902-03-31">31. III. 1902</date></dateline></opener>
+                        <p>I <hi rend="underline">due</hi> ministri del decreto</p>
+                        <p><persName>Badi</persName>.</p>
+                        <p><persName ref="#FM">Mariotti</persName></p>
+                        <p><rs type="topic" key="Toponomastica">Toponomastica</rs> <hi rend="underline">ecc.</hi></p>
+                    <p>Mio Signore, grazie, prima di tutto, del Suo affettuoso saluto. Ora vengo a darle un po conto delle cose nostre; e dico <hi rend="underline">nostre</hi>, 
+                        perché ci tengo assai alla parte che Ella ha voluto darmi nella attuazione del Suo grande disegno. Il <persName  ref="#PB">Blaserna</persName>
+                        consente volentieri che il materiale raccolto sia depositato al <placeName ref="#corsini">palazzo Corsini</placeName>; 
+                        soltanto fece riserva circa il locale. Ma anche il locale ora è trovato, e non manca che fare il trasporto. La spesa del trasporto sarà di circa 1000 lire; 
+                        così almeno mi dicevano all’<orgName ref="#AccLin">Accademia</orgName>, dato che il peso sia di circa KI. 65,000. 
+                        Al <orgName ref="#MinAgr">Ministero di <expan><abbr>Agr</abbr><am>.</am><ex>icoltura</ex></expan> <expan><abbr>c</abbr><am>.</am><ex>ommercio</ex></expan></orgName> 
+                        questa cifra non ha sollevato difficoltà; e siamo rimasti d’intesa che nella settimana corrente io scriverò al Ministro una lettera, 
+                        come incaricato dall’<persName ref="#GIA">Ascoli</persName>, proponendo che le note buste siano trasportate al <placeName ref="#corsini">palazzo Corsini</placeName>, 
+                        e che si nomini una commissione come Ella proponeva nella <title type="letter" ref="./1902_03_22.html">sua del 22</title> uscente. 
+                        Al <orgName ref="#MPI">Ministero della <expan><abbr>P</abbr><am>.</am><ex>ubblica</ex></expan><expan><abbr>I</abbr><am>.</am><ex>struzione</ex></expan></orgName> 
+                        ho di già prevenuto l’ottimo <persName ref="#EM3">Masi</persName>, il quale mi ha assicurato che la Sua ottima proposta sarà bene accolta.
+                        Domani dunque scriverò al <persName ref="#GB1">Baccelli</persName> (oggi, festa degli alberi, non era momento opportuno); 
+                        ma intanto sarebbe opportuno che qualche bigliettino confidenziale dell’<persName ref="#GIA">Ascoli</persName> andasse al <persName ref="#GB1">Baccelli</persName>, 
+                        al <persName ref="#NN">Nasi</persName> e al <persName  ref="#PB">Blaserna</persName>. 
+                        Così son certo che il “decretino” verrà più presto, e in aprile e maggio si potrà fare il trasporto e collocare tutto il materiale, affinché per la fine di maggio, quando si riunirà l’accademia, 
+                        tutto si trovi a posto. Fino a quel momento non è il caso di pensare ad altro. Allora il Maestro verrà, vedrà, giudicherà sul da fare.</p>
+                    <p>Quanto alla sua lettera al ministro <persName ref="#NN">Nasi</persName> sono sempre ai Suoi comandi per portargliela; ma La prego di non presentarmi se non come un esecutore del suo disegno.
+                        In questi termini la cosa andrà. Se invece la burocrazia potesse vedere nella cosa un disegno affidato a me dopo che fosse stato abbandonato dall’<persName ref="#GIA">Ascoli</persName>, 
+                        son certo che troverebbe la via di mandare tutto a monte. È assolutamente necessario che Ella mantenga la direzione di tutto.</p> 
+                    <closer><salute>Il Suo <expan><abbr>aff</abbr><am>.</am><ex>ezionatissimo</ex></expan> e <expan><abbr>dev</abbr><am>.</am><ex>otissi</ex><abbr>mo</abbr></expan></salute>
+                         <signed><persName ref="#EM">E. Monaci</persName></signed></closer>
+                     </div>
+                <div type="textpart" subtype="notes" n="1">
+                    <opener><persName ref="#PB">Blaserna</persName> / 
+                        <dateline>62a, <date when="1902-04-02">2. 4. ’902</date></dateline></opener>                
+                        <p>Onorato e caro collega; il mio insigne collaboratore, <persName ref="#EM">Ernesto Monaci</persName>, mi scrive della molta bontà con cui vi piace 
+                            secondarlo per quanto spetta alle collezioni toponomastiche, emulando anche in questo il vostro predecessore, </p>
+                        <p>l’indimenticabile</p>
+                        <p><persName ref="#FB">Brioschi</persName>. Io</p>
+                        <p>non vi ho mai toccato delle generose intenzioni che il <persName ref="#FB">Brioschi</persName> aveva manifestato intorno a  questo proposito,
+                            al <persName ref="#GD">Doria</persName> e a me, perché non volevo usurpare il vostro tempo e anche perché m’eran venute meno le forze che l’impresa richiedeva. 
+                            Né ora vorrei <expan><abbr>maggiorm</abbr><am>.</am><ex>ente</ex></expan> Disturbarvi sotto alcun rispetto; ma sento l’obbligo di mandarvi anch’io i ringraziamenti 
+                                più calorosi e più sinceri per l’ospitalità di cui ci rallegrate e onorate. E vi pregovi volermi sempre</p>
+                       <closer><salute>l’<expan><abbr>aff</abbr><am>.</am><ex>ezionatissimo</ex></expan> suo</salute></closer>
+                    <postscript><p>1) al <persName ref="#PB">Blaserna</persName> per la ospitalità che concede al <placeName ref="#corsini">palazzo Corsini</placeName>.</p></postscript>
+                    </div>
+                
+                <div type="textpart" subtype="notes" n="2">
+                    <opener><persName ref="#NN">Nasi</persName> 62b</opener>                
+                    <p>Eccellenza; La ringrazio molto vivamente della cortesia generosa che La indusse a rivolgermi la buona Sua lettera del 26 p.p. Ma che <hi rend="underline">giova nelle fata dar di cozzo</hi>? 
+                        Si tratta di un <orgName ref="#ISI">Istituto</orgName> che attraversa una fase strana e dolorosa, e non rimane se non l’augurio che riesca ai par Suoi di raddrizzarne le sorti. 
+                        Il fatto, che la I. V., si compiaceva di ricordare, mi riporta a quell’udienza in cui pur Le parlavo della collaborazione validissima che m’era promessa dal mio illustre collega, 
+                        <persName ref="#EM">Ernesto Monaci</persName>, pur quanto concerneva le collezioni toponomastiche e altre congeneri. L’I. V. ha già forse da lui sentito, 
+                        come noi non ci permettiamo d’insistere sulla domanda a quei favori che pur già c’erano consentiti quando stavamo a capo dell’I. V. per onorare <persName ref="#PB1">Boselli</persName> e <persName ref="#FM">Mariotti</persName>. 
+                        Ma d’altronde non dobbiamo disperare d’essere agitati, man mano, al conseguimento dei nostri pensieri.</p>
+                </div>
+                <div type="textpart" subtype="notes" n="3">
+                    <opener>62c
+                        <salute>Eccellenza</salute></opener>                
+                    <p>Questo Suo antico e devoto cliente, ringagliardito dalla illustre collaborazione d’<persName ref="#EM">Ernesto Monaci</persName>,
+                        si permette di farsele innanzi per ringraziarla anch’egli della <expan><abbr>validiss</abbr><am>.</am><ex>issima</ex></expan> 
+                            protezione che Le piace di conceder alla nostra impresa.</p>
+                       </div>
+            </div>
+        </body>
+    </text>
+</TEI>

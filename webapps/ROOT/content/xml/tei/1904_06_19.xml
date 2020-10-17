@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ernesto Monaci a Graziadio Isaia Ascoli, 19 giugno 1904</title>
+                <editor role="transcription"><persName>Chiara Maria Calcagni</persName></editor>
+                <editor role="encoding"><persName>Eleonora Bruno</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2020-04-07"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl><bibl>Chiara Maria Calcagni, <title>Lettere scelte dal carteggio Ascoli-Monaci (1880/1906): trascrizione e commento</title>, tesi di laurea, Sapienza Università di Roma, a.a. 2018-2019</bibl></listBibl>
+                <msDesc>
+                    <msIdentifier><repository>Archivio di Ascoli ai Lincei, presso la Biblioteca dell’Accademia dei Lincei e Corsiniana.</repository> <idno>Lettera 94/9</idno></msIdentifier>
+                    <msContents><summary corresp="#letter">Lettera di E. Monaci a G. I. Ascoli del 19 giugno 1904</summary></msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#roma">Roma</placeName>
+                    <date when="1904-06-19"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#GIA">Graziadio Isaia Ascoli</persName>
+                    <placeName ref="#milano">Milano</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                    <opener>
+                        <dateline>
+                            <placeName ref="#roma">Roma</placeName>
+                            <date when="1904-06-19">19 giugno 1904</date>
+                        </dateline>
+                    </opener>
+                    <p>Mio Signore, vengo dall’<orgName ref="#AccLin"><expan><abbr>Accad</abbr><am>.</am><ex>emia</ex></expan> dei Lincei</orgName>, ove ho parlato, di quanto Ella mi scriveva, col <persName ref="#IG">Guidi</persName> e col <persName ref="#EM2">Mancini</persName>. Dal <persName ref="#EM2">Mancini</persName> ho saputo che il fascicolo della “seduta reale” non è ancora pubblicato, perché il <persName>Pirotta</persName> non ha pronte ancora le note al suo discorso. Allora ho domandato al <persName ref="#IG">Guidi</persName> se intanto era permesso di comunicare ai giornali una od altra delle relazioni sui concorsi ai premi, e la conclusione del suo discorso è stata, che l’<orgName ref="#AccLin">Accademia</orgName> non fa comunicazioni anticipate ai giornali, ma che non è vietato agli accademici di comunicare essi ai giornali quel he credono, anche il testo delle relazioni, se in loro mani; e siamo rimasti d’intesa che domani, fatta la correzione delle sue bozze, ne manderanno cinque copie a me, e che io le manderò a Lei, perché ne faccia l’uso che le piacerà. Ciò premesso, aggiungerò che anch’io credo molto opportuno, che la <title>relazione</title> sua sia pubblicata al più presto da giornali che abbiano larga diffusione. Nel pubblico si è destata intorno al <persName ref="#AT1">Trombetti</persName> una grande curiosità, e un ammalato ben noto ne profitta per sfogare il suo malumore e gettare insinuazioni maligne e peggio. Una delle ultime sue lezioni all’università fu una tirata furiosa contro il <persName ref="#AT1">Tr.</persName> E si chiuse con l’annunzio che una parte del corso suo nell’anno prossimo sarà dedicata alla confutazione delle dottrine del prof. <persName ref="#AT1">Tr.</persName> – Evidentemente egli si riferiva alle due lettere a stampa, e di ciò si valeva per iscreditare il lavoro principale inedito. Importa dunque per tutti che la parola dell’<persName ref="#GIA">Ascoli</persName> venga a mettere ogni cosa apposto e si tolga agli avventurieri ogni motivo di far rumore nel vuoto. Vedrò anche alla <title ref="#NuovaAnt2"><hi rend="underline"><expan><abbr>Antol</abbr><am>.</am><ex>ogia</ex></expan></hi></title> se si sia in tempo per una comunicazione nel fasc. del 1° luglio; ma in ogni caso la <title ref="#VI"><hi rend="underline">Vita <expan><abbr>Internaz</abbr><am>.</am><ex>ionale</ex></expan></hi></title> il <title ref="#CdS"><hi rend="underline"><expan><abbr>Corr</abbr><am>.</am><ex>iere</ex> <abbr>d</abbr><am>.</am><ex>ella</ex></expan> Sera</hi></title> e il <title ref="#IS"><hi rend="underline">Secolo</hi></title> daranno abbastanza diffusione alla <title>Relazione</title>.</p>
+                    <p>A proposito poi dei giornali, Le dirò che il <title ref="#GI"><hi rend="underline"><expan><abbr>giorn</abbr><am>.</am><ex>ale</ex></expan> d’Italia</hi></title> prese a volo la sua allusione alla <rs type="topic" key="Toponomastica">toponomastica</rs> e un redattore venne da me per domandarmi che ne sapevo. Gli diedi qualche cenno, ma dissi che per il momento non era daparlarne; e quel redattore è tornato per dirmi che il <title ref="#GI"><expan><hi rend="underline"><abbr>Giorn</abbr><am>.</am><ex>ale</ex> <abbr>d’It</abbr><am>.</am><ex>alia</ex></hi></expan></title> è sempre pronto a pubblicare ogni comunicazione che gli si farà sulla <rs type="topic" key="Toponomastica">Toponomastica</rs>. Quando dunque Ella lo permettesse, si potrebbe cominciare dal dare una notiziola della cosa, e il resto poi forse verrebbe da sé. Si aprirebbe così uno spiraglio anche a quel bravo <persName ref="#SP">Pieri</persName>, il quale giorni fa mi scrisse una lettera proprio accorata.</p>
+                    <p>La ringrazio per quanto mi scrisse del <persName ref="#CS">Salvioni</persName>; e la <orgName ref="#SFR"><expan><abbr>Soc</abbr><am>.</am><ex>ietà</ex> <abbr>fil</abbr><am>.</am><ex>ologica</ex> <abbr>rom</abbr><am>.</am><ex>ana</ex></expan></orgName> La ringrazia soprattutto per la speranza che ci d di pubblicare presto un suo scritto. Si vorrebbe con esso comunicare il III degli <title ref="#SR"><hi rend="underline">Studi Romanzi</hi></title>.</p>
+                    <closer>
+                        <salute>il suo aff.mo</salute>
+                        <signed><persName ref="#EM">E. Monaci</persName></signed>
+                    </closer>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

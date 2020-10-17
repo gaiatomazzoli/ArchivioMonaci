@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Graziadio Isaia Ascoli ad Ernesto Monaci, 4 agosto 1902</title>
+                <editor role="transcription"><persName>Chiara Maria Calcagni</persName></editor>
+                <editor role="encoding"><persName>Virginia Machera</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2020-04-07"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl><bibl>Chiara Maria Calcagni, <title>Lettere scelte dal carteggio Ascoli-Monaci (1880/1906): trascrizione e commento</title>, tesi di laurea, Sapienza Università di Roma, a.a. 2018-2019</bibl></listBibl>
+                <msDesc>
+                    <msIdentifier><repository>Archivio Monaci, Società Filologica Romana, presso il dipartimento di Studi Europei, Americani e Interculturali, Sapienza, Università di Roma.</repository> <idno>Fascicolo 1, busta 49, lettera CIX</idno></msIdentifier>
+                    <msContents><summary corresp="#letter">Monaci si indigna per il contenuto della lettera ricevuta da Ascoli.</summary></msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#GIA">Graziadio Isaia Ascoli</persName>
+                    <placeName ref="#milano">Milano</placeName>
+                    <date when="1902-08-04"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#roma">Roma</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                    <opener><dateline><placeName ref="#milano">Milano</placeName>, <date when="1902-08-04">4. 8. ’902</date></dateline></opener>
+                    <p>Onorato e caro collega; le confermo la <title type="letter" ref="./1902_08_03.html">mia</title> di jeri, che ho dovuto lasciare in tronco, e ora colmo la mia lacuna.</p>
+                    <p>Non le posso dunque dire quanto io rimanessi sbalordito per la lettera del <persName ref="#NN">Ministro</persName>. A chi aveva egli mai parlato di una commissione da lui ideata o di un commissario già da lui scelto? Nulla s’ebbe o si senti mai di concreto dalla parte di lui. Né l’ombra di una disposizione organica, né l’ombra di un quattrino. Le buste essendo in pericolo, il <orgName ref="#MPI">Ministero dell’Istruzione</orgName> nulla ha fatto per ajutarci. Il trasporto s’è compiuto per virtù di Lei e a spese del <orgName ref="#MinAgr">Ministero dell’Agricoltura</orgName>. L’<orgName ref="#AccLin">Academia</orgName> chiede i proprj locali e la facoltà che il lavoro si avesse a proseguire nel suo grembo, e chiede ricevuta al <orgName ref="#MinAgr">Ministero d’Agricoltura</orgName> della suppellettile che ne aveva ritirato. Per l’opera che intorno a questa suppellettile si doveva condurre, proponemmo, di assoluta nostra spontaneità, una Commissione ministeriale; e il Ministero, dopo varie oscillazioni, ha scartato la nostra idea. Buon padrone. Ma come ci viene a rimproverare la libera scelta dei commissari, ch’egli s’era riservata, quasi noi avessimo presunto di usurpare le sue funzioni? Egli aveva assolutamente desiderato l’impresa; e noi, dopo conseguito quel che si poteva, mercé il <orgName ref="#MinAgr">Ministero d’agricoltura</orgName> e l’<orgName ref="#AccLin">Academia</orgName>, tornammo alla riscossa anche alle porte sue.</p>
+                    <p>Tutto questo io non doveva dire nella mia lettera al <persName ref="#NN">Ministro</persName>, per non inasprire la situazione. Ma confido che alla saviezza di Lei possa riuscire anche una calma confutazione delle rimostranze del <persName ref="#NN">Ministro</persName>. Nulla, d’altronde, assolutamente nulla, ho mai trovato nelle artifiziose lettere del <persName ref="#LP">Pullè</persName>, che accennasse a una Commissione predisposta dal <persName ref="#NN">Ministro</persName>, nella quale esso <persName ref="#LP">Pullè</persName> fosse già bell’e collocato!!</p>
+                    <closer><salute>Con una forte stretta di mano,</salute>
+                        <salute>l’<expan><abbr>aff</abbr><am>.</am><ex>ezionatissi</ex><abbr>mo</abbr></expan> <expan><abbr>div</abbr><am>.</am><ex>otissi</ex><abbr>mo</abbr></expan> Suo</salute>
+                        <signed><persName ref="#GIA">G. I. Ascoli</persName></signed></closer>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

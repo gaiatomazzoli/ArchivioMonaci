@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Cesare De Lollis a Ernesto Monaci, 22 dicembre 1888</title>
+                <editor role="transcription"><persName>Debora Matteo</persName></editor>
+                <editor role="encoding"><persName>Susanna Casacchia</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2020-04-27"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl><bibl>Debora Matteo, <title>Itinerario di un carteggio</title>, tesi di laurea, Sapienza Università di Roma, a.a. 2017-2018</bibl></listBibl>
+                <msDesc>
+                    <msIdentifier><repository>Archivio Monaci, Società Filologica Romana, presso il Dipartimento di Studi Europei, Americani e Interculturali, Sapienza, Università di Roma.</repository> <idno>Busta n. 8, fascicolo 394.</idno></msIdentifier>
+                    <msContents><summary corresp="#letter">Lettera di Cesare De Lollis a Ernesto Monaci del 22 dicembre 1888.</summary></msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#CDL">Cesare De Lollis</persName>
+                    <placeName ref="#chieti">Chieti</placeName>
+                    <date when="1888-12-22"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#roma">Roma</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                    <div type="textpart" subtype="envelope">
+                        <opener>
+                            <address>
+                                <addrLine>
+                                    Piazza Capranica, 95 II
+                                </addrLine> 
+                            </address>
+                            <salute>Egregio <expan><abbr>Sig</abbr><am>.</am><ex>or</ex></expan> Professore,</salute>
+                        </opener>
+                        <p>[...] Lascio quindi correre queste poche righe, per significarle ciò che mi fu impossibile dirle ieri sera, nell’<orgName ref="#ISI">Istituto Storico Italiano</orgName>, per via della presenza d’altri.</p> 
+                        <p> E tengo principalmente ad esprimerle di nuovo e più vivamente che mai la mia gratitudine. Debbo a Lei se recandomi al paese, per un impegno già 
+                            preso dall’<orgName ref="#ISI">Istituto</orgName>, posso ripresentarmi alla famiglia senza aver l’aria d’un disperato. [...] Lo debbo a Lei che da cinque <pb/> anni, con una benevolenza, 
+                        di cui origine e causa non può essere che il Suo cuor d’oro, mi sorregge e mi guida per una via, che è lunga assai, e che, ad inoltrarvisi, diventa sempre più difficile e scabrosa. 
+                        Senza di Lei, io non sarei andato all’estero e non avrei avuto l’onorevole incarico dall’<orgName ref="#ISI">Istituto</orgName>: senza di Lei non mi vedrei ora assicurato l’avvenire d’un anno e, forse, di tutta la mia carriera. [...] Ho ottenuto più che non desiderassi: e sono contentissimo. [...] Questa lettera, che solo ora mi accorgo essere ben lunga, Le giungerà domani, 23: sono ancora in tempo sempre per augurare a Lei ed alla Sua famiglia le buone feste.</p>
+                        <closer>  
+                        <salute>Mi creda per sempre il suo affmo discepolo</salute>
+                        <signed><persName ref="#CDL">Cesare De Lollis</persName></signed>
+                        <dateline>
+                            <placeName ref="#chieti">Chieti</placeName>
+                            <date when="1888-12-22">22 <expan><am>10</am><ex>dicem</ex><abbr>bre</abbr></expan></date>
+                        </dateline>
+                    </closer>
+                </div>
+            </div>
+            </div>
+        </body>
+    </text>
+</TEI>

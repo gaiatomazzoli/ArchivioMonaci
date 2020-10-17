@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Graziadio Isaia Ascoli a Ernesto Monaci, 29 marzo 1903</title>
+                <editor role="transcription"><persName>Chiara Maria Calcagni</persName></editor>
+                <editor role="encoding"><persName>Eleonora Bruno</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2020-04-04"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl><bibl>Chiara Maria Calcagni, <title>Lettere scelte dal carteggio Ascoli-Monaci (1880/1906): trascrizione e commento</title>, tesi di laurea, Sapienza Università di Roma, a.a. 2018-2019</bibl></listBibl>
+                <msDesc>
+                    <msIdentifier><repository>Archivio Monaci, Società Filologica Romana, presso il Dipartimento di Studi Europei, Americani e Interculturali, Sapienza, Università di Roma.</repository> <idno>Busta n.1, fascicolo 49, lettera 115</idno></msIdentifier>
+                    <msContents><summary corresp="#letter">Lettera di Graziadio Isaia Ascoli a Ernesto Monaci del 29 marzo 1903</summary></msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#GIA">Graziadio Isaia Ascoli</persName>
+                    <placeName ref="#milano">Milano</placeName>
+                    <date when="1903-03-29"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#roma">Roma</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                    <opener>
+                        <dateline>
+                           <placeName ref="#milano">Milano</placeName>,
+                            <date when="1903-03-29">29. 3. ’903</date>
+                        </dateline></opener>
+                    <p>Onorato e caro collega; la Sua così buona <title type="letter" ref="./1903_03_27.html">lettera</title> mi commuove profondamente; e io tosto m’arrenderei a fare una <hi rend="underline">poscritta</hi> che valesse a mitigare l’impressione prodotta dalla <hi rend="underline">lettera aperta</hi>, se qualche Suo ulteriore schiarimento riuscisse a persuadermi che ciò convenga o che me ne corra comunque l’obbligo o il dovere. Né ho il bisogno di ricordarle quanto facilmente io rimanga persuaso dalle parole Sue. Ma che ho a dirle? Io per ora son convinto di aver compiuto un’opera dolorosa bensì, ma buona ed efficace, scrivendo come ho fatto. Potevo dire anche di più e forse giovava; poniamo però che per ora basti. Ma sminuire l’effetto di quello che pur dissi, mi parrebbe pur cosa non giusta e troppo onerosa. Gli articoli avversi, che mi fu dato di vedere; li ho considerati con molta calma, e m’è parso che non meritassero d’esser confutati. D’altronde, che mai significa tutto questo strepito, sollevato da una povera lettera, se non che questa colpiva proprio nel segno? Un mite ma fermo ammonimento nella più ufficiosa «<title ref="#MR">Montags Revue</title>» di <placeName ref="#wien">Vienna</placeName>, uscito nel frattempo, ha molto chiaramente mostrato come non fossero fantastici gli sgomenti da me espressi. Non voglio fidare alla carta i nomi di certi consenzienti, la cui approvazione, per motivi specialissimi, aveva pe me un valore insuperabile; ma intanto Le dirò (proprio a quattr’occhi che s’intende) di aver ricevuto anche dall’on. <persName ref="#GZ">Zanardelli</persName> qualche rigo assai confortante. È perciò abbastanza naturale, che io sia molto perplesso circa il ritoccare il mio povero testo, nel senso di attenuarlo; ma Ella mi ammonisca ancora; e per ogni oncia di persuasione ch’Ella m’instilli, Le prometto due oncie di rassegnazione.</p>
+                    <p>Dalla mia rinuncia al <orgName ref="#CISS">Congresso storico</orgName>, già scrissi <expan><abbr>ripetutam</abbr><am>.</am><ex>ente</ex></expan> al Comitato e al <persName ref="#NN">Ministro</persName>, e non mi potrei contraddire se non per la ragione o col pretesto della chiamata che in questo momento mi arriva dalla presidenza del Senato. Ma se vengo per quel congresso, come poi ricusarmi al Congresso del buon <persName ref="#ADG">De Gubernatis</persName>, che vien subito dopo? Ora, due indigestioni di seguito, alla mia età, diventan cosa troppo seria! </p>
+                    <p>Quanto al nuovo <title ref="#SR">periodico</title>, io saluterò con grande esultanza la sua apparizione, ma di certo non son degno d’iniziarlo. La lieta nuova mi fa poi pensare alla condizione delle mie partite con la <orgName ref="#SFR"><expan><abbr>S</abbr><am>.</am><ex>ocietà</ex> <abbr>F</abbr><am>.</am><ex>ilologica</ex> <abbr>R</abbr><am>.</am><ex>omana</ex></expan></orgName> Prego la Sua bontà di dire al tesoriere che m’esorti a fare il mio debito. Io purtroppo la bussola dei conti la perdo di continuo. E mi scriva, e perdoni la molta fretta, e m’abbia sempre</p>
+                    <closer>
+                        <salute>l’aff.mo <expan><abbr>div</abbr><am>.</am><ex>otissi</ex><abbr>mo</abbr></expan> Suo</salute>
+                        <signed><persName ref="#GIA">G. I. Ascoli</persName></signed>
+                    </closer>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

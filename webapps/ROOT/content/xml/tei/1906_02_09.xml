@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Graziadio Isaia Ascoli a Ernesto Monaci, 9 febbraio 1906</title>
+                <editor role="transcription"><persName>Chiara Maria Calcagni</persName></editor>
+                <editor role="encoding"><persName>Stefano Boschi</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2020-04-07"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl><bibl>Chiara Maria Calcagni, <title>Lettere scelte dal carteggio Ascoli-Monaci (1880/1906): trascrizione e commento</title>, tesi di laurea, Sapienza Università di Roma, a.a. 2018-2019</bibl></listBibl>
+                <msDesc>
+                    <msIdentifier><repository>Archivio Monaci, Società Filologica Romana, presso il Dipartimento di Studi Europei, Americani e Interculturali, Sapienza, Università di Roma.</repository> <idno>Busta n. 1, fascicolo 49, lettera 159.</idno></msIdentifier>
+                    <msContents><summary corresp="#postcard #letter">Cartolina postale e lettera.</summary></msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#GIA">Graziadio Isaia Ascoli</persName>
+                    <placeName ref="#milano">Milano</placeName>
+                    <date when="1906-02-09"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#roma">Roma</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                    <head><note>Cartolina postale</note></head>
+                    <opener><salute>All’illustre prof. comm. Ernesto Monaci</salute>
+                        <address><addrLine><placeName ref="#roma">Roma</placeName>,</addrLine>
+                        <addrLine>Via Condotti 75 III</addrLine></address></opener>
+                </div>
+                <div type="textpart" subtype="letter">
+                    <head><note>Lettera</note></head>
+                    <opener><dateline><placeName ref="#milano">Milano</placeName>, <date when="1906-02-09">9. 2. ’906</date></dateline></opener>
+                    <p>Onorato e caro collega; le confermo la <title type="letter">mia</title> del 3 <expan><abbr>corr</abbr><am>.</am><ex>ente</ex></expan> Il 6 mi toccò rispondere analogamente a una lunga e non simpatica lettera del <persName ref="#WF">F.</persName>; e tenni copia della mia risposta, perché, all’occorrenza, si possa anche stampare. Mi racconsola che alla <orgName ref="#MPI">P. I.</orgName> ritorni l’<expan><abbr>on</abbr><am>.</am><ex>orevole</ex></expan> <persName ref="#PB1">B.</persName> – com’Ella <expan><abbr>certam</abbr><am>.</am><ex>ente</ex></expan> ricorda, è stato lui a accettar <expan><abbr>primam</abbr><am>.</am><ex>ente</ex></expan> il disegno della <rs type="topic" key="Toponomastica">Toponomastica</rs>. Non può con lui mancare la conferma del <hi rend="underline">commento</hi> al <persName>P.</persName> -</p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

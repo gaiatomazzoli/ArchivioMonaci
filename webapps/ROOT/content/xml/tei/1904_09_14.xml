@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ernesto Monaci a Graziadio Isaia Ascoli, 14 settembre 1904</title>
+                <editor role="transcription"><persName>Chiara Maria Calcagni</persName></editor>
+                <editor role="encoding"><persName>Mariangela Distilo</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2020-02-26"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl><bibl>Chiara Maria Calcagni, <title>Lettere scelte dal carteggio Ascoli-Monaci (1880/1906): trascrizione e commento</title>, tesi di laurea, Sapienza Università di Roma, a.a. 2018-2019</bibl></listBibl>
+                <msDesc>
+                    <msIdentifier><repository>Archivio Ascoli, Accademia Nazionale dei Lincei, presso la Biblioteca dell'Accademia dei Lincei e Corsiniana, Roma.</repository> <idno>Lettera 97/5</idno></msIdentifier>
+                    <msContents><summary corresp="#letter">Lettera di E. Monaci a G.I. Ascoli del 14 settembre 1904</summary></msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#roma">Roma</placeName>
+                    <date when="1904-09-14"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#GIA">Graziadio Isaia Ascoli</persName>
+                    <placeName ref="#sconosciuto">?</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                    <opener><dateline><placeName ref="#roma">Roma</placeName> <date when="1904-09-14">14 sett. 1904</date></dateline>
+                        <salute>Mio Signore,</salute></opener>
+                    <p>come poté venirle in mente che io volessi comunque far violenza alla Sua volontà, pubblicando senza permesso i suoi <title ref="#ricordi">“Ricordi concernenti la Topon. Ital.”</title>? Bensì io sperava che il permesso sarebbe venuto. E intanto, quasi a deprecarlo, avevo scritta la <title type="letter">cartolina</title> dove La ringraziavo per la <orgName ref="#SFR">Società</orgName> del bene che ci faceva, dandoci a pubblicare un suo scritto, siccome già n’aveva fatto sperare alcune settimane prima. In quello scritto non era sfuggito qualche passo confidenziale evidentemente non destinato alla stampa. Ma – pensavo io – quelle poche parole potranno togliersi o mutarsi sulle bozze.</p>
+                    <p>E tolte quelle parole, restava sempre un complesso di note, che mi pareva peccato non venissero alla luce, specie nel momento che una scuola non italiana con molta disinvoltura ha fatto sapere di volersi accingere a un lavoro sulla toponomastica italiana, come se finora nulla fosse stato fatto. 1) questa considerazione mi aveva anche fatto abbozzare alcune righe che qui le accludo e che, avuto il suo assenso, pensavo di porre innanzi al suo scritto, desiderando supremamente di veder vinta una malia che costringe all’inerzia tante nobili forze, e sperando ancora – lo dico francamente – che la volontà del <persName ref="#GIA">Maestro</persName> si pieghi all’amore dei discepoli e s’induca a riprendere risolutamente la direzione di un’impresa, che l’Italia attende dall’<persName ref="#GIA">Ascoli</persName> e che non si può compiere senza di Lui.</p>
+                    <closer><salute>il Suo <expan><abbr>div</abbr><am>.</am><ex>otissimo</ex></expan> e <expan><abbr>aff</abbr><am>.</am><ex>ezionatissi</ex><abbr>mo</abbr></expan></salute>
+                        <signed><persName ref="#EM">E. Monaci</persName></signed></closer>
+                    <postscript><p>1) io non ho potuto trovare ancora la notizia sui giornali che ho alla mano; ma ricordo quanto Ella mi disse.</p></postscript>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

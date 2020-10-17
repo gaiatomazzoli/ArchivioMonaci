@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Pio Rajna a Ernesto Monaci, 24 maggio 1873</title>
+                <editor role="transcription"><persName>Alessia Di Virgilio</persName></editor>
+                <editor role="encoding"><persName>Eleonora Bruno</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2020-03-22"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl><bibl>Alessia Di Virgilio, <title>Carteggio Monaci - Rajna (1873-1877)</title>, tesi di laurea, Sapienza Università di Roma, a.a. 2018-2019</bibl></listBibl>
+                <msDesc>
+                    <msIdentifier><repository>Archivio Monaci, Società Filologica Romana, presso il Dipartimento di Studi Europei, Americani e Interculturali, Sapienza, Università di Roma.</repository> <idno>Busta n. 22, fascicolo 1095, lettera 6</idno></msIdentifier>
+                    <msContents><summary corresp="#letter">Lettera di Pio Rajna a Ernesto Monaci del 24 maggio 1873</summary></msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#PR">Pio Rajna</persName>
+                    <placeName ref="#milano">Milano</placeName>
+                    <date when="1873-05-24"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#roma">Roma</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                    <opener>
+                        <dateline>
+                            <placeName ref="#milano">Milano</placeName>,
+                            <date when="1873-05-24">24 Maggio 73</date>
+                        </dateline>
+                        <salute>Mio Riverito Signore,</salute>
+                    </opener>
+                    <p>Sebbene assai tardi, non per questo la ringrazio meno di cuore del bell’<title ref="#portoghesi">opuscolo</title> che Ella ebbe la cortesia di mandarmi in dono. Ho gustato i canti e le giudiziose Sue illustrazioni; rallegrandomi non poco al pensiero che tra non molto possederemo tutta intera la raccolta del <title type="manuscript" key="Codice Vaticano 4803" corresp="https://digi.vatlib.it/view/MSS_Vat.lat.4803">cod. vaticano</title> edita colla medesima diligenza e la medesima dottrina. Davvero che codesto saggio infiamma vieppiù il desiderio dell’opera a cui Ella attende, la quale se riuscirà a Lei di non poco onore sarà pure di decoro agli studii italiani.</p>
+                    <p>Il prof. <persName ref="#EMS">Stengel</persName> le avrà scritto come io mi disponga ad allestire per la <title ref="#RFR">Rivista</title> un lavoro <pb/> intorno all’<title ref="#attila">Attila</title>  di <persName type="author" ref="#NdC">Nicolò da Casola</persName> che si conserva all’<orgName>Estense</orgName>. Intenderei di mettermi a stendere questo scritto, per il quale ho appunti assai copiosi, appena abbia potuto sbrigare uno studio intorno ad <persName type="author" ref="#uggeri">Uggeri il Danese</persName>, di cui la prima parte apparirà nel fascicolo sesto della <title ref="#ROM">Romanìa</title>.Temo soltanto che il lavoro riesca troppo lungo e quindi non più adatto per la <title ref="#RFR">Rivista</title>, non potendo naturalmente restringermi a dar conto del poema di <persName type="author" ref="#NdC">Nicolò</persName>, ma dovendo estendere le osservazioni ad altri documenti. Ma se l’<title ref="#attila">Attila</title> non avesse a convenire penserò a mandare qualche altra cosuccia.</p>
+                    <closer>Desidero vivamente che mi si offra occasione di poterla conoscere di persona. 
+                        <salute>Intanto colla più viva stima e simpatia mi raffermo.
+                            Suo devotissimo</salute>
+                        <signed><persName ref="#PR">Pio Rajna</persName></signed>
+                    </closer>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ernesto Monaci a Pio Rajna, gennaio 1876 (?)</title>
+                <editor role="transcription"><persName>Alessia Di Virgilio</persName></editor>
+                <editor role="encoding"><persName>Giulia Lucchesi</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2020-03-11"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl><bibl>Alessia Di Virgilio, <title>Carteggio Monaci - Rajna (1873-1877)</title>, tesi di laurea, Sapienza Università di Roma, a.a. 2018-2019</bibl></listBibl>
+                <msDesc>
+                    <msIdentifier><repository>Archivio Pio Rajna. Biblioteca Marucelliana di Firenze.</repository></msIdentifier>
+                    <msContents><summary corresp="#postcard">Cartolina di Ernesto Monaci a Pio Rajna, probabilmente posteriore al 4 gennaio 1876.</summary></msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#sconosciuto">?</placeName>
+                    <date when="1876-01" cert="low"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#PR">Pio Rajna</persName>
+                    <placeName ref="#sconosciuto">?</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                    <opener>Carissimo amico</opener>
+                    <p>Ti ringrazio di cuore degli incoraggiamenti e degli ottimi consigli che mi dai. Quanto prima cercherò di profittarne, 
+                        giacché il mio corso comincia martedì 1° (1 Febbr.). Il fascicolo prossimo della Rivista potrebbe uscire fra un mese. 
+                        Ma questo è un conto che fo io senza l’oste, ossia senza il tipografo; e riguardo a lui posso dirti soltanto che 
+                        non gli resti da comporre più di un foglio. In questo foglio, che contiene due lunghe recensioni sulle <title ref="#rime">Rime Antiche</title> 
+                        e qualche <hi rend="underline">entrefilet</hi>, potrò benissimo inserire il tuo annunzio dell’<title ref="#ajol">Ajol</title>, e lo farò con tutto il piacere, 
+                        giacché mi sarà sempre caro produrre qualche cosa tua.
+                        Quanto al prezzo del <title ref="#canzoniere"><expan><abbr>Canz</abbr><am>.</am><ex>oniere</ex></expan></title> sono interamente del tuo parere, 
+                        e non mancai di prenderne a suo tempo al <persName ref="#MN"><expan><abbr>N</abbr><am>.</am><ex>iemeyer</ex></expan></persName> mentre però 
+                        in ogni altra cosa lo trovai pieghevolissimo, su ciò non valsi a rimuoverlo dal suo proposito. 
+                        Egli dice che per quelle edizioni ha avuto spese straordinarie e assai gravi. Gli altri no. Non costeranno così e, 
+                        del resto, usciranno per dispense più piccole e ad intervalli molto lunghi. 
+                        Quanto poi a te, senza dubbio troverai nel <persName ref="#MN"><expan><abbr>N</abbr><am>.</am><ex>iemeyer</ex></expan></persName> ogni facilitazione. 
+                        Ti disse nulla il <persName ref="#UC">Canello</persName> di una edizione di <title>Classici italiani</title>
+                        che prepara il <persName ref="#NZ">Zanichelli</persName> di <placeName ref="#bologna">Bologna</placeName> e che vorrebbe diretta 
+                        unicamente da allievi della scuola moderna?
+                    </p>
+                    <closer>Tuo <signed><persName ref="#EM"><expan><abbr>E</abbr><am>.</am><ex>rnesto</ex></expan> Monaci</persName></signed></closer>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

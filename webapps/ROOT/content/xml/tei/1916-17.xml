@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>La filologia romanza alla vigilia di un’era nuova</title>
+                <editor role="transcription"><persName>Samuele Autorino</persName></editor>
+                <editor role="encoding"><persName>Samuele Autorino</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2020-03-01"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl><bibl>Samuele Autorino, <title>Ernesto Monaci, prospettive per la filologia romanza alla vigilia di un’era nuova</title>, tesi di laurea discussa in data 26/09/2019 presso Sapienza Università di Roma</bibl></listBibl>
+                <msDesc>
+                    <msIdentifier><repository>Archivio Monaci, Società Filologica Romana, presso il Dipartimento di Studi Europei, Americani e Interculturali, Sapienza, Università di Roma.</repository> <idno>Busta n. 39, fascicolo 1528</idno></msIdentifier>
+                    <msContents><summary corresp="#notes">La trascrizione tiene conto della prima parte del corso, che contiene una riflessione sullo stato degli studi romanzi negli anni della Grande Guerra. In particolare, vengono analizzati importanti aspetti quali l'eredità del <rs type="topic" key="Romanticismo">Romanticismo</rs> nei confronti degli studi comparati, lo scarto esistente tra lo stato degli studi di <rs type="topic" key="Linguistica">linguistica</rs> e quelli di <rs type="topic" key="Letteratura">letteratura</rs>, l'importanza della <rs type="topic" key="Comparazione">comparazione</rs> e della riscoperta della <rs type="topic" key="Letteratura popolare">letteratura popolare</rs>. Infine, vengono fornite agli studenti alcune linee guida relative ai compiti ai quali la filologia romanza avrebbe ancora dovuto assolvere.</summary></msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="section" n="1">
+                    <head>La filologia romanza alla vigilia di un’era nuova: il fatto, il da farsi - Dialettologia italiana delle zone di confine</head>
+                    <head>Corso 1916-1917</head>
+                    <p>Nella parte prima voglio parlare della dialettologia italiana, de’ suoi più recenti progressi e di altri modi in cui potrà esplicarsi la sua azione. <del>in servigio non solamente della scienza ma anche della patria.</del></p>
+                    <p>Finora la scienza non lavorò che per sé. Ora viene il tempo che la scienza deve mettere l’opera sua anche a profitto della nazione; e questo dico già per il dovere che ad ogni cittadino incombe di portare per quanto può il suo concorso là dove ne sia il bisogno; ma soprattutto per questo che, tra i bisogni del momento, ce n’è pure alcuno cui proprio alla filologia spetta di provvedere.</p></div>
+                <div type="textpart" subtype="section" n="1">
+                <pb/><p>Fra lingua e dialetto – si dice – non c’è differenza, sono anzi una stessa cosa. Ma questo si potrà sostenere soltanto se limitiamo l’osservazione all’organismo; il quale certamente non differisce dal dialetto alla lingua; quantunque poi una certa differenza si colga anche qui; perché l’organismo del dialetto sta all’organismo della lingua come l’organismo del fanciullo sta all’organismo dell’uomo adulto. Siamo cioè a gradi diversi di sviluppo.</p>
+                    <p>Ma per definire adeguatamente codeste due specie del linguaggio, conviene tener conto anche dei fattori che le producono e delle funzioni che esse compiono nella vita sociale.</p>
+                    <p>Quanto ai fattori, il dialetto non ne ha che uno, e questo è la natura. La lingua invece è prodotto in parte della natura e in parte dell’arte.</p>
+                    <p>Quanto poi alle funzioni, quella del dialetto è limitata entro l’ambito del comune o tutt’alpiù della provincia; mentre la lingua serve a tutta la nazione.</p></div>
+                <div type="textpart" subtype="section" n="2">
+                    <pb/><head>Esercitazioni pratiche</head>
+                    <p>A ciascun saggio dialettale dovrebbe far corredo: A. un cenno storico del paese, o almeno qualche dato statistico: è un popolo di agricoltori? di pastori? di pescatori? di trafficanti? ecc.</p>
+                    <p>B. Una descrizione e possibilmente una fotografia del costume paesano.</p>
+                    <p>C. Una notazione musicale del modo con cui quel parlare si profferisce o si canta.</p></div>
+                <div type="textpart" subtype="section" n="2">
+                    <pb/><p>1909-1910= Intorno ai primordj delle letterature romanze: Il primo limite cronologico.</p>
+                    <p>1908-1909= Vicende della coltura (sic.) nella età carolingia. Primordj della letteratura provenzale. Dualismo fra chierici e cavalieri, fra chierici e giullari. Trovadori cavalieri e trovadori borghesi.</p>
+                    <p>1911-1912= Intorno alla storia della filologia romanza. Il libro del <persName ref="#GB">Bertoni</persName> sul Duecento.   . . . . . . .</p>
+                    <p>1910-1911= Il Laudario dei Disciplinati d’Urbino.  . . .</p>
+                    <p>1912-1913= Nozioni elementari su la filologia romanza e primi additamenti bibliografici. Di quello che oggi si ritiene come definitivamente acquisito nella storia delle lingue romanze. Nuovi studi per lo sviluppo della dialettologia. L’italiano preletterario e i suoi dialettismi nella zona da <placeName ref="#roma">Roma</placeName> alla <placeName ref="#toscana">Toscana</placeName>. Le prime manifestazioni della poesia volgare in Italia. Le <hi rend="underline">stravaganti</hi> della nostra lirica primitiva.</p>
+                    <p>1913-1914= Letteratura provenzale: note sui testi del <title><hi rend="underline">manuale</hi> <persName ref="#VC"><hi rend="underline">Crescini</hi></persName></title>, n’. 1-23.</p>
+                    <p>1914-1915= Il periodo iniziale nella storia delle letterature romanze e lo svolgimento della letteratura narrativa.</p><p>1915-1916= La filologia romanza e la sua storia, dagli antichi grammatici al <persName ref="#FJMR">Raynouard</persName>, al <persName ref="#FD">Diez</persName>, all’<persName ref="#GIA">Ascoli</persName>.<lb/>- Gli elementi ladini delle Glosse di Cassel.</p>
+                    <p>1916-1917= La filologia romanza alla vigilia di un’era nuova: il fatto, il da farsi.</p></div>
+                <div type="textpart" subtype="section" n="3">
+                    <pb/><head>1916-1917</head>
+                    <p>I. <lb/>Cenni sullo svolgimento generale delle letterature romanze. Lo studio comparativo dei fenomeni che esse presentano in comune, porta a ricostruire la storia di tali fenomeni, e porta anche a intravvedere una legge fondamentale che governa tutto lo svolgimento di queste letterature.</p>
+                    <p>I dialetti della zona alpina e la loro letteratura.<lb/>a)	Gruppo trentino-lombardo;<lb/>b)	Gruppo friulano-veneto.</p>
+                    <div type="textpart" subtype="section">
+                        <pb/><head>Corso 1916-1917</head>
+                        <p>I. Del nuovo periodo in cui stanno per entrare i nostri studi. _ In questo momento più che mai importa riassumere il lavoro del passato per sapere quel che resta ancora da fare nelle singole branche della filologia romanza. <hi rend="superscript">1)</hi></p>
+                        <p>II. Rudimenti di dialettologia italiana.</p>
+                        <p>III. Lettura di antichi testi italiani.</p>
+                        <p>1)	Nella storia della lingua: Progressi nello studio del latino volgare conseguiti in questo periodo. Restano ancora da spogliare parecchi autori. Manca un lessico che comprenda tutta la suppellettile conosciuta.</p>
+                    </div>
+                   <div type="textpart" subtype="section">
+                       <pb/><head>Corso 1916-1917 <lb/>Rudimenti di dialettologia italiana.</head>
+                       <p>1.	La dialettologia e l’opera di G. I. Ascoli.</p>
+                       <p>2.	L’<title ref="#italia"><hi rend="underline">Italia dialettale</hi></title> di G. Bertoni.</p>
+                           <p>3.	Dialetto e dialettalismi.</p>
+                           <p>4.	Lingua e dialetto.</p>
+                           <p>5.	Antichità dei dialetti.</p>
+                           <p>6.	La classificazione dei dialetti italiani.</p>
+                           <p>7.	Riassunto dei capitoli 3-6.</p>
+                           <p>8.	L’italiano in <placeName ref="#corsica">Corsica.</placeName></p>
+                           <p>9.	Le letterature dialettali.</p>
+                       <p>Cenni sulla letteratura dialettale della <placeName ref="#liguria">Liguria</placeName></p>
+                       <p>'' '' '' '' del <placeName ref="#piemonte">Piemonte</placeName></p>
+                       <p>'' '' '' '' della <placeName ref="#lombardia">Lombardia</placeName></p>
+                       <p>'' '' '' '' del <placeName ref="#veneto">Veneto</placeName></p>
+                       <p>'' '' '' '' della <placeName ref="#svizzeraIT">Svizzera italiana</placeName></p>
+                       <p>'' '' '' '' del <placeName ref="#trentino">Trentino</placeName></p>
+                       <p>'' '' '' '' del <placeName ref="#friuli">Friuli</placeName></p>
+                       <p>Cenni sui mezzi che abbiamo per lo studio delle predette letterature, e dei rispettivi dialetti.</p>
+                       <p>Cenni su quanto si è fatto nelle predette regioni per impartirvi l’insegnamento della lingua per mezzo del dialetto locale.</p>
+                       <p>La nostra frontiera linguistica e i pericoli che la minacciano.</p></div>
+                    <div type="textpart" subtype="section">
+                        <pb/><head>Testi studiati nel corso 1916-1917</head>
+                        <p>1.	Glossemi ladini del sec. XII (<title>Facsimili</title>, n˚. 12).</p>
+                        <p>2.	Sermone gallo-italico (<title ref="#crestomazia">Crestomazia dei primi secoli</title>, n. 10).</p>
+                        <p>3.	Discordo di <persName type="author" ref="#raimbaut">Rambaldo di Vaqueiras</persName> (<title ref="#testi">Testi ant. prov.</title>, n˚. 21).</p>
+                        <p>4.	Canto per la vittoria dei Genovesi sui Veneziani nel 1294 (Crestomazia n˚. 142III).</p>
+                        <p>5.	Canto per la vittoria dei Genovesi alle Curzolari (Crestomazia n˚. 142 IV).</p>
+                        <p>6.	Le cinquanta cortesie da tavola di <persName type="author" ref="#bonvesin">fra Bonvisin</persName> (Crestomazia n˚. 131 II).</p>
+                        <p>7.	La flor šlaserna (Miscellanea <persName ref="#PR">Rajna</persName>, p. 691).</p>
+                        <p>8.	Lamento della Sposa del Crociato (Crestomazia n˚. 129).</p>
+                        <p>9.	La Gana de Val de Mezdì (<persName ref="#GBA">Alton</persName>, <title ref="#stories">Stories</title>, n˚. 1).</p>
+                        <p>10.	L’Orco dalla Val (Alton, <title ref="#proverbi">Proverbi e Tradizioni ecc.</title> p. 55).</p>
+                        <p>11.	L Bao (Alton, Proverbi ecc. p. 58).</p>
+                        <p>12.	Col maladet (Alton, Proverbi ecc. p. 59).</p>
+                        <p>13.	Col de Lana (Alton, Proverbi ecc. p. 61).</p>
+                        <p>14.	L Pavaró (Alton, Proverbi ecc. p. 64)</p>
+                        <p>15.	Les Gannes e i Salvans (Alton, Proverbi ecc. p. 65).</p>
+                        <p>16.	I Strions de Fodòm (Alton, Proverbi ecc. p. 75).</p>
+                        <p>17.	Travestimento Friulano dell’Orl. Furioso (<title ref="#AGI">Archivio glottologico</title> IV, 245).</p>
+                        <p>18.	L’ascenso (Archivio glottologico IV, 316).</p>
+                        <p>19.	Sonetto in friulano di <persName type="author" ref="#CF1">Carlo Favetti</persName> (Archivio glottologico IV, 323).</p>
+                        <p>20.	Aneddoto finale della Parb. del figliol prodigo (Archivio glottologico IV, 322).</p>
+                    </div>
+                </div>
+                
+               <div type="textpart" subtype="section" n="4">
+                   <pb/><p>1˚. Il periodo iniziale nella storia della lingua e delle letterature romanze: lo sdoppiamento del latino.</p>
+                   <p>2˚. La restaurazione del latino morto.</p>
+                   <p>3˚. Il risveglio del nuovo latino.</p>
+                   <p>4˚. La reazione degli Umanisti.</p>
+                   <p>5˚. Il trionfo definitivo del volgare.</p></div>
+                
+                <div type="textpart" subtype="section" n="5">
+                    <pb/><head>Filologia romanza<lb/>alla vigilia<lb/> di un’era nuova.</head>
+                    <p>Dacché cominciò la guerra presente i nostri studi, come anche altri studi, subiscono una sosta, e se in passato si poteva ogni anno dar principio ai nostri corsi parlando dei progressi conseguiti nei mesi precedenti, questo non accade che possa farsi più oggi. Né è da meravigliarsene. Le migliori forze giovanili furono in gran parte attirate nella zona di guerra; e anche chi non poté partecipare di persona all’opera santa di rivendicazione dei nostri diritti, sente mancarsi ogni possa per la ripresa di un lavoro efficace.</p>
+                    <p>Questa spossatezza pochi ànno il coraggio di confessarla, ma la si tradisce tuttavia anche di più nell’affaccendarsi convulso di molti altri, i quali non riescono poi a trarre dalle loro fatiche quel succo onde si alimenta qualunque progresso. Gli è che quel grande movimento di studi che costituisce la maggiore gloria del secolo XIX, ha omai compiuta la sua parabola. Già prima che cominciasse la guerra, s’erano manifestati segni molteplici del suo declinare. Se la guerra non fosse scoppiata forse questo stato preagonico o quasi si sarebbe prolungato chi sa quanto ancora. Ma lo scoppio della guerra ha troncato tutto in un colpo. Quel periodo glorioso ormai è chiuso per sempre. Quando tornerà la pace, ci troveremo o almeno voi vi troverete al principio di un’era nuova, e a quest’era deve oggi preparare la scuola.</p>
+                </div> 
+            
+            <div type="textpart" subtype="section">
+                <pb/><dateline><date when="1916-11-14"></date>14 nov. 1916</dateline> 
+                <p>Prima di fermarci sopra la materia speciale che sarà argomento del nostro corso in quest’anno accademico, non sarà inutile dare un’occhiata generale a tutto il vastissimo campo, entro cui siamo chiamati a lavorare.</p>
+                <p>Tanto più ciò è utile in questo momento, che è momento direi quasi di vigilia. Oggi siamo sulla soglia di un’era nuova. La Guerra forse non è stata estranea ad affrettarne l’avvento; ma anche senza la guerra, non si sarebbe forse tardato molto ad avvederci che quel grande periodo storico a cui dobbiamo il rinnovamento della nostra come anche di tante altre discipline, è un periodo ormai chiuso, e che un altro rinnovamento si avvicina. Più che mai dunque oggi tornerà opportuno dare uno sguardo complessivo all’opera compiuta in quel periodo, vedere ciò che esso ci lascia come acquisto definitivamente alla scienza, ciò che resta da fare alle generazioni che sottentrano nel lavoro.</p>
+                
+                <pb/><p>Scadimento degli studj classici, al declinare del sec. XVIII, isteriliti dall’umanesimo.</p>
+                <p>Interessamento che si desta per lo studio del medio evo, di cui si cominciano a intravvedere i rapporti con l’età moderna. Letterati, storici, filologi si dànno a frugare entro quella massa oscura, apparentemente caotica, e ne traggono la riabilitazione di quella età tanto conculcata. </p>
+                <p>Questa riabilitazione si consegue per opera di un’arte nuova, tutta fuoco e colori, un’arte che abbaglia e affascina, quale era sempre mancata ai cultori dell’antichità. Per costoro il culto dell’antichità erasi ridotto quasi totalmente a un freddo studio di forma; e se qualcuno non era rimasto pago di ciò, il suo spirito si era elevato soltanto ad una aspirazione nostalgica fuori della vita verso gli “irrevocati dì”. Al contrario, gli altri sentivano tutto il valore del presente, nel rannodamento del presente col passato giungevano a una più chiara intuizione della legge fatale del progresso, e noi anche alla determinazione di altre energie latenti, di mezzo alle quali pigliava vigore e doveva diventar dominante il sentimento della nazionalità. Di qui tutta la forza della nuova scuola che fu detta dei romantici; e romantici allora sorgono non solamente a conquistare i dominj delle lettere e dell’arte, ma romantici troviamo presso che in tutti i rami dell’attività intellettuale, ovunque manifestantisi alla foga impulsiva dell’azione, alla efficacia coloritrice della parola, alla potenza evocatrice di tutte le facoltà e di tutte le passioni operanti sull’anima nostra.</p>
+                <p>Nella filologia uno dei primi a sentire il tocco della nuova corrente d’idee fu <persName ref="#JGH">Giovanni Goffredo Herder</persName>, che da’ suoi studj critici fu portato alla convinzione, che l’essenza della vera poesia risiede nell’anima del popolo più che nell’opera degli scrittori. Per lui la lingua stessa in origine fu una creazione poetica e perciò la poesia primitiva, la più spontanea e naturale, hassi a ricercare nella parola dell’umanità nascente, e non in quella dell’uomo pervenuto a maturità. Da questo concetto mosse la sua raccolta di canti popolari editi fra il 1778 e il ’79, che intitolò <title ref="#stimmen">Voci del popolo in canzoni (Stimmen der Völker in Liedern)</title>, e così anche il suo <title ref="#poemacid">Cid</title>, da lui tratto e ricomposto su vecchia romanza spagnola.</p>
+            
+                <pb/><p>Dopo il rinnovamento della filologia, la storia delle lingue come la storia delle letterature romanze fu presa a ristudiare comparativamente. Ma tale studio fu applicato alla illustrazione dei singoli fenomeni sia linguistici che letterarj, e non si elevò mai ad una sintesi generale, che comprendesse <hi rend="stacked">mirasse a comprendere</hi> in un sistema unico tutto lo svolgimento di cotali fenomeni, coordinandone i vicendevoli rapporti e investigandone la organicità. Constatando questa mancanza, dobbiamo subito anche riconoscere che di essa non si può dar colpa a nessuno.</p>
+                <p>Una sintesi come quella a cui si accennava, non era possibile tentarla finché i singoli problemi non fossero stati ristudiati e chiariti uno ad uno. A ciò intese con tutte le sue forze la generazione ormai giunta al tramonto, e alla sua annegazione si è debitori se oggi le condizioni di studio sono profondamente mutate in meglio e se, grazie ad esse, si può cominciare a tentare l’ultima prova, una sintesi non immatura.</p></div>
+            
+            <div type="textpart" subtype="section" n="6">
+                <pb/><head><persName ref="#KS">Storck</persName>, <title ref="#storia_lt">Storia della letteratura tedesca</title></head>
+                <p>Herder Giovanni Goffredo – nato nel 1744, morto nel 1803.<lb/>addita nell’anima del popolo l’essenza della poesia – p. 7.<lb/>combatte il concetto del <persName ref="#JJW">Winckelmann</persName> intorno al classicismo – p. 184.<lb/>l’opera sua significa distacco dal passato – p. 185.<lb/>Gli studi critici lo portano nella convinzione che la lingua in origine fu una creazione poetica, e che perciò la vera poesia primitiva, la più spontanea e naturale, aveasi a ricercare nella parola dell’umanità nascente e non in quella dell’uomo pervenuto alla virilità. Da questo concetto muove la sua raccolta di canti popolari (Stimmen der Völker in Liedern, 1778 – ’79 = Voci del popolo in Canti) – p. 228 – donde finalmente assorge all’altro concetto, che l’originalità dell’arte si deve attingere dal popolo; ogni poesia più pura è l’espressione del tempo e del popolo in cui è nata, e che perciò si debbono imitare gli antichi non in quello che fecero, bensì nel modo col quale essi fecero o procedettero, da loro apprendendo non il trovato ma l’arte di trovare. – p. 230.</p>
+                <p><persName ref="#FAW">Federico Augusto Wolf</persName>, prof. ad <placeName ref="#halle">Halle</placeName> dal 1782 al 1806, nella <orgName ref="#UHW">Università</orgName> fondata da <persName ref="#napoleone">Napoleone I</persName>, bandisce nel 1794 il suo manifesto, detto dell’<hi rend="underline">ateismo omerico</hi></p>
+                
+            <div type="textpart" subtype="section" n="7">
+                <pb/><p>La decadenza a cui accennava nel paragrafo precedente, non potrebbe essere più manifesta quando si considerano certi sintomi. Ne indico alcuni.</p>
+                <p>Mancanza di nuove iniziative. Scimpio d’energie nel rifare, e non meglio, quello che già fu fatto. Fatiche puerili per ostentare la propria personalità. Offuscamento di coscienza nell’adempimento dei propri doveri. Degenerazione della critica nella denigrazione, nel vituperio, nel vaniloquio, e sua impotenza a ricostruire quello che demolisce.</p>
+            </div> 
+                
+                <div type="textpart" subtype="section" n="8">
+                    <pb/><head><hi rend="underline">Storia letteraria</hi> e <hi rend="underline">storia della letteratura</hi></head>
+                    <p>Queste due formole non si equivalgono. La storia della letteratura ordinariamente prescinde dalla storia della lingua o tutt’alpiù (sic.) ne raccoglie i dati principali e a quelli si appaga. La storia letteraria invece implica la trattazione storica della lingua quanto quella della letteratura e deve le due materie coordinare in modo da far sentire il nesso che le collega e come le vicende loro reciprocamente s’illuminano e meglio si spiegano.</p>
+                    <p>Si consideri inoltre che, allo stato presente degli studi la storia della lingua – almeno nel campo romanzo – sta assai più avanti che la storia della letteratura; perciò, ravvicinando gli studi delle due branche, quello della letteratura non potrà che avvantaggiarsene. Mi spiego. La storia della lingua, tuttoché non ancora compiuta, ha nondimeno già preso un indirizzo decisamente scientifico, è pervenuta a scoprire le leggi fondamentali che ne governano lo svolgimento e quotidianamente procede innanzi sicura per la sua via. All’incontro la storia della letteratura si muove tutt’ora nella fase dell’empirismo; i tentativi fatti qua o là per darle un indirizzo scientifico rimasero finora infruttuosi e inutilmente si viene cercando una base consistente da cui prender le mosse. Ma, se dalla storia della letteratura passiamo a quella della lingua, ci salteranno subito alla mente riscontri e analogie bastevoli a fermare la nostra attenzione e a farci sentire l’indissolubilità di nessi che fra le due storie intercedono.</p>
+                    <p>Lo sdoppiamento che nella storia del Latino si verifica, a un certo punto, fra la lingua parlata e la scritta, fra il latino volgare e il letterario, trova pieno riscontro nella letteratura latina che, a un certo momento, anzi proprio nello stesso tempo della lingua, comincia a scindersi in pagana e in cristiana, in aulica e in popolare.</p>
+                    <p>È nella letteratura popolare e principalmente nella cristiana che la lingua parlata comincia a prendere posto accanto la scritta; a sua volta diventa lingua scritta anch’essa, soppianta la prima, poi gradatamente si scinde e finalmente mette capo a nuove lingue che saranno le romanze. Ed è nella letteratura aulica o togata non solo pagana ma anche cristiana che il latino scritto trova un rifugio, una prima base di resistenza contro l’elemento popolare, ne frena il libero sviluppo negli ultimi tempi dell’impero romano e, giunto ai tempi di <persName ref="#carlomagno">Carlomagno</persName>, perviene a prendere di nuovo il sopravvento e a far tacere a lungo le lingue novelle, che altrimenti sarebbero fin da allora venute in fiore. Quello che fu chiamato un giorno il latino della prima rinascita, fu in verità per le lingue novelle una tomba, dove esse restarono per più secoli sepolte e, se non morte, paralizzate.</p>
+                
+                    <pb/><p>Ecco dunque delinearsi la prima età, il periodo iniziale nella storia delle lingue e insieme delle letterature figlie del Latino, periodo che vien caratterizzato soprattutto dal dualismo di due tendenze antitetiche, una delle quali trova il suo propulsore nell’elemento popolare, l’altra si fa forte nella tradizione erudita. Nella storia delle lingue tutto ciò era stato già riconosciuto, ma non meno giusto è che lo si riconosca per la storia delle letterature. Del resto, che cos’è questo latino volgare, se noi prescindiamo dalla letteratura che l’ha conservato? Nient’altro che un’astrazione, che sarà sempre discutibile. Per riportarlo alla sua realtà, per metterlo fuori di discussione, non abbiamo altro mezzo che rifarci a quella letteratura di cui esso diventò la espressione. Ma in quella letteratura si ritrova non solamente la documentazione storica del latino volgare e della fase primitiva delle lingue romanze, ma si ritrova ancora il principal nucleo delle tradizioni, donde poi rampolleranno le letterature romanze e le loro forme d’arte. Come nella letteratura latina colta o erudita della stessa età ritroveremo il substrato di quell’altra letteratura che riprenderà vigore nell’età carolingia e che con vicenda alterna verrà fino ai giorni nostri contrastandosi alla prima il dominio dell’arte. Nessun dissidio nella storia letteraria è così antico, così continuo e tenace quanto questo. Esso apparisce sotto forme diverse secondo i tempi e i luoghi, ma in fondo è sempre lo stesso. Prima tornerà a manifestarsi nell’antagonismo fra grammatici o chierici e giullari; poi fra giullari e trovadori; poi fra trovadori del trobar clus e coloro della rima plana, poi nella querela fra gli Antichi e i Moderni, finalmente nelle zuffe tra Classici e Romantici, e via via che si verrà studiando e ristudiando la storia si scopriranno altri dissidi, in fondo ai quali troveremo sempre le due tendenze antitetiche di cui s’è parlato; e l’alternarsi delle due tendenze ci gioverà sempre a spiegare così le vicende alterne della lingua, ove ora prevale il gusto della parlata ora il gusto dell’arcaismo e della tradizione scritta, e così anche ci servirà a spiegare le vicende alterne della letteratura, nella quale s’incarnano tutte le vicende della lingua e insieme si rivelano le ragioni di tali vicende.</p>
+                </div>
+                
+    <div type="textpart" subtype="section">
+        <pb/><head>Il dualismo dominante<lb/>nella letteratura romana.</head>
+        <p>La letteratura primitiva dei romani è tutta realistica.</p>
+        <p>La jeratica nulla ha di quel sentimento della natura che anima gl’inni vedici; nulla della passione inquieta e angosciata dei Salmi. Gli <hi rend="underline">Indigitamenta</hi> non contenevano che i nomi degli Dei; i <hi rend="underline">Libri pontificales</hi> non indicavano che le cerimonie rituali; i Canti degli <hi rend="underline">Arvales</hi> e dei <hi rend="underline">Salii</hi> si limitavano a deprecare la protezione delle messi. (<title ref="#histoire"><persName ref="#RP">Pichon</persName></title> pp. 20-21)</p>
+        <p>La letteratura civile si manifesta negli elogi funebri degli Scipioni, ove tutto si riduce a dare il nome e il prenome del morto, i suoi titoli officiali, la enumerazione delle sue vittorie. Troviamo ancora qualche proverbio e le Sentenze attribuite ad <persName type="author" ref="#appio">Appio Claudio</persName>, in saturnii come gli elogi più antichi degli Scipioni. Vi si tratta di finanza, di politica, di grammatica, di morale; ma sempre terra terra, senza mai elevare il pensiero a considerazioni generali. Le più antiche leggi, le Dodici Tavole, destano anch’oggi l’ammirazione per la precisione dei termini, la chiarezza dei costrutti, per la qualità (?) delle sanzioni… La storia prende forma negli <hi rend="underline">Annales pontificales</hi>, dove </p>
+    </div>
+                
+                <div type="textpart" subtype="section">
+                    <pb/><head>Nota al paragrafo 3.</head>
+                    <p>Questo dualismo - giova qui ricordarlo - non cominciava allora. Dacché con <persName type="author" ref="#ennio">Ennio</persName> e con <persName type="author" ref="#virgilio">Virgilio</persName> si propagò nel mondo romano il gusto dell’arte greca e dell’immitazione (sic.) di essa, la letteratura romana dapprincipio tutta realistica prese a piegare verso il convenzionalismo, e da allora le due tendenze antitetiche cominciarono a dividere il campo della letteratura. Si pensi al poema di <persName type="author" ref="#lucano">Lucano</persName> di contro a quelli di <persName type="author" ref="#stazio">Stazio</persName> e di <persName type="author" ref="#flacco">Valerio Flacco</persName>; agli Epigrammi di <persName type="author" ref="#marziale">Marziale</persName> e alle Satire di <persName type="author" ref="#giovenale">Giovenale</persName></p>
+                </div>
+                
+                <div type="textpart" subtype="section" n="9">
+                    <pb/><head>La interpretazione romantica<lb/>della storia letteraria</head>
+                </div>
+                <div type="textpart" subtype="section">
+                    <pb/><head>Verso il rinnovamento della storia letteraria</head>
+                    <p>La storiografia della letteratura ebbe principio sotto il predominio dell’umanesimo. Il criterio umanistico ne fissò i valori e ne regolò la selezione, e ad esso si deve l’angustia dei termini entro i quali la storia stessa vivacchiò ristretta finché l’umanesimo perdurò.</p>
+                    <p>Ad allargare gli orizzonti della storia letteraria sopravvenne il romanticismo. La letteratura popolare che per l’innanzi appena aveva ottenuto qualche rara menzione, allora salì in prima linea nella considerazione dello storico; più che a lumeggiare i fatti, si mirò a indagarne le cause e il processo di formazione; nella evoluzione graduale dell’essere più che nella potenza creativa del genio si cercò la spiegazione dei capolavori dell’arte. Dove si trovò il vuoto, lo si riempì di ricostruzioni più ardite che solide, e così vediamo svolgersi e grandeggiare la storia dell’epopea francese, la quale sarebbe finita proprio quando noi cominciamo a trovarne i primi monumenti. Così vediamo nella storia della lirica, dietro ai primissimi trovatori conosciuti, immaginarsi interi cicli di altri poeti scomparsi. Infine sopra tutta la letteratura delle origini si projettò una luce nuova, per la quale ebbero risalto figure e cose che prima eran rimase quasi inosservate nell’ombra, e dal tutto insieme emerse una visione mirabile, che sedusse e fu accolta come la verità.</p>
+                
+                    <pb/><p>2<lb/>Noi oggi assistiamo alla crisi della concezione romantica della storia letteraria. La letteratura popolare è venuta in gran parte a risultare d’origine erudita; il popolo, lungi dall’averla creata, non avrebbe fatto che adattarsela, spesso anche deformandola. L’epopea francese rientra nei più modesti limiti del romanzo. L’epica bretone vede sempre più allontanarsi quel nebuloso fantastico entro il quale credette un giorno di poter sorprendere la genesi di quelle che <persName type="author" ref="#dante">Dante</persName> chiamò <hi rend="underline">ambages pulcherrime</hi>;e in genere tutto quello che non aveva trovata una documentazione ben salda, oggi lo vediamo vacillare ed essere revocato in dubbio.</p>
+                    <p>Dove si va? Alle demolizioni dell’oggi che sostituirà il domani?</p>
+                    <p>Interpretazione romantica della storia letteraria. Per essa le chanson de geste diventano epopee; e di contro a queste epopee umane avremo anche le epopee bestiali. Che altro è pei romantici la vecchia favola esopica del lupo e della volpe nelle elaborazioni e negli sviluppi che ricevette dal medioevo? per essa i goliardi diventano i precursori del rinascimento.</p>
+
+                    <pb/><p>L’epica romanzesca diventò epopea. Epopea francese fu chiamata la <title ref="#chanson"><hi rend="underline">Chanson de Roland</hi></title>, e quando fu esumata tutta quella enorme farragine di poemi, circa ottanta, che dal <hi rend="underline">Roland</hi> vanno fino a <hi rend="underline">Rainoart au tinel</hi>, se ne fecero più cicli, tutti compresï (sic.) nell’appellativo generico di <hi rend="underline">Epopées françaises</hi>. La prima di esse, il <hi rend="underline">Roland</hi>, fu comparata alla <title ref="#iliade"><hi rend="underline">Iliade</hi></title> di <persName type="author" ref="#omero">Omero</persName>.</p>
+                </div>
+             
+             <div type="textpart" subtype="section">
+                 <pb/><head>La interpretazione romantica della storia letteraria.</head>
+                 <p>Lungamente la storia letteraria era stata interpretata dal pensiero umanistico. Col sopravvenire del Romanticismo, anche la storia letteraria prende nuovo indirizzo, sotto la corrente delle nuove idee assorge a una concezione nuova de’ suoi fattori e dei fenomeni in cui si esplicò la letteratura</p>
+             </div>
+                
+                <div type="textpart" subtype="section">
+                    <pb/><head>Interpretazione romantica della storia.</head>
+                    <p>V. quel che dice del <persName ref="#HT">Taine</persName> <persName ref="#PLC">P. L. Cecchi</persName> nell’<title ref="#ASI"><hi rend="underline">Archivio storico italiano</hi></title> 1878, pp. 280-1 e appresso del <persName ref="#FG">Gregorovius</persName>, del <persName ref="#TM">Mommsen</persName>, del <persName ref="#FTP">Perrens</persName>, nonché del <persName ref="#AB">[Bartoli]</persName> a proposito dei Goliardi, ivi p. 291.</p>
+                </div>
+                
+                <div type="textpart" subtype="section">
+                    <pb/><head>La interpretazione romantica<lb/>della storia letteraria.</head>
+                    <p><persName type="author" ref="#BDSM">Benoit de Sainte More</persName> (sic.) e la foresta di Broceliande. È noto il fatto. Benoit de Sainte More (sic.) uno dei maggiori romanzatori del sec. XII, dopo aver cantato e aver sentito cantare le tante avventure cavalleresche di re Artù e di tutta la sua nobile compagnia, volle alfine vedere con i suoi occhi uno dei luoghi pieni delle rimembranze di quelle avventure. Questo era la foresta di Broceliande. Là sorgeva il castello… là ebbe luogo… là si vedeva… ecc.</p>
+                    <p>Piena dunque la testa di quei racconti meravigliosi, che gli avevano ispirati tanti bei versi, volle alfine veder da sé il principal teatro di quelle imprese e mosse al viaggio della foresta famosa. Ma giunto là e percorsa la foresta per lungo e per largo, nulla vi trovò e riprese la via del ritorno col cuore freddo dalla delusione provata.</p>
+                    <p>Il curioso aneddoto che ci fu raccontato da Benoît medesimo, torna in mente riandando il grande lavorio fatto nel secolo scorso per ricostruire la storia letteraria del medioevo. Per l’innanzi tutta quella età, detta dei secoli barbari, era stata dagli umanisti guardata con noncuranza e disprezzo e rappresentata quasi un caos….. Ma quando i critici nuovi cominciarono a guardare in quel caos, videro che da esso erano uscite assai cose e molto belle. Si destò così interesse per quella esplorazione, si svegliò entusiasmo, si moltiplicarono le ricerche e in poco tempo al caos d’una volta succededeva (sic.) una esposizione affascinante e incantevole.</p>
+                </div>
+                
+                <div type="textpart" subtype="section" n="10">
+                    <pb/><p>La forma oratoria data all’insegnamento universitario (il quale dovrebb’essere il più lontano da tale forma) se trova i suoi germi nel retoricume degli umanisti, si rinnovò ed ebbe veri splendori nella età del romanticismo, di cui poi questa forma fu un’altra delle tante manifestazioni di quel fenomeno; Vedasi quegli oratori universitarj <persName ref="#GL">Lanson</persName> p. 906</p>
+                </div>
+          
+          <div type="textpart" subtype="section" n="11">
+              <pb/><head>Il latino e i Barbari</head>
+              <p>Il basso latino, cioè quella nuova latinità che si diffuse nell’Occidente dopo la caduta dell’impero romano, quel latino che fu e restò lingua scritta piuttosto che parlata durante tutti i secoli del medio evo, non fu tanto un prodotto spontaneo della civiltà nostra, quanto un mezzo adottato dai barbari per estendere più facilmente la loro dominazione su i paesi conquistati, contrapponendolo ai volgari nuovi che, per la loro varietà, erano una difficoltà ben maggiore ad apprenderli. Essi inoltre erano la voce del popolo, e importava non poco ai barbari mantener silenziosa questa voce finché durava la loro oppressione.</p>
+              </div>
+                
+                <div type="textpart" subtype="section" n="11">
+                    <pb/><head>Decadenza degli studj classici</head>
+                    <p>Che gli studj classici sieno in decadenza non occorre addurne prove. Sono i cultori stessi di tali studj che ce lo dicono in tutti i modi; e, seppure non ce lo dicessero essi, la cosa non apparirebbe meno certa, solo che si ponga mente a tutto quello che si sta facendo da parecchi anni in qua per mettervi riparo.</p>
+                    <p>Ma sarà difficile che il riparo si trovi finché non si muta rotta. I classicisti imputano ai cosiddetti modernisti la loro mala sorte, e non s’accorgono che il guajo è venuto proprio da loro, dal modo con cui essi pretendono di far gustare alle generazioni nuove le letterature antiche, soprattutto la latina.</p>
+                    <p>Se invece di stancare la gioventù nel farle apprendere tutto quello che forma il bagaglio dell’arte classica, ch’è poi un’arte tutta o quasi d’imitazione; si pensasse a farle rilevare quanto la letteratura latina ha in sé pur di originale, e quanto più forse n’avrebbe avuto, se non l’avesse pervertita la mania della imitazione greca, l’interessamento della gioventù si risveglierebbe per questa materia, come si viene risvegliando per <del>le letterature moderne dacché s’è cominciato a studiarle sotto il riguardo della loro maggiore o minore originalità.</del> tutto ciò ch’è anima e vita della nazione.</p>
+                    
+                    <pb/><p>I progressi fatti durante il secolo scorso, nella storia letteraria, sono innegabili, e furono grandi. Ma nell’ordine dell’analisi. Una sintesi che abbracci tutta la evoluzione delle letterature moderne, che illumini l’organismo a tutte comune, dia ragione delle singole divergenze, spieghi le molteplici anomalie e l’apparente saltuarietà del loro processo, una tale sintesi manca tuttora.</p>
+                    <p>E quanto siamo tuttora lontani dal conseguirla, basti pensare che anch’oggi si va quasi a tentoni nella ricerca del primo momento da cui muovere nello studio delle origini; basta pensare che tutta una parte della letteratura, quella del popolo, non ha per anco trovato come inquadrarsi nella storia di tutta la letteratura nazionale.</p>
+                </div>
+                
+                <div type="textpart" subtype="section" n="12">
+                    <pb/><p>Difetti degli scrittori dell’opera imperiale:<lb/>“Nec multas sententias, sed omnia tamquam sententias” <persName type="author" ref="#quintiliano">Quintiliano</persName> (Così anche Figaro cercava qualche cosa che rassomigliasse a un pensiero). v. Pichon p. 454.</p>   
+                </div>
+                
+                <div type="textpart" subtype="section" n="13">
+                    <pb/><p>di qui si potrebbe, d’un salto, giungere alla fine della p. 153, interponendo soltanto alcune righe, dove suppergiù si dicesse: <persName type="author" ref="#moscoli">Nerio Moscoli</persName> dettò i suoi versi nello stesso volgare che adoperarono gli altri rimatori in mezzo ai quali l’abbiamo trovato, i quali si espressero tutti in quello che potremmo chiamare il perugino letterario del medioevo, e che diversificava abbastanza dal volgare di <placeName ref="#castello">Città di Castello</placeName>, come può vedere ognuno nel bello studio di <persName ref="#BB">B. Bianchi</persName>. Ora, come si spiega ciò?</p>
+                </div>
+                
+                <div type="textpart" subtype="section" n="14">
+                    <pb/><p>Nei lessici meglio che nei trattati grammaticali si manifesta l’opera di rinnovamento che i grammatici portarono nel latino, perché qui non avevano dall’antichità troppi modelli a cui conformarsi. Un lessico generale della loro lingua i romani non l’avevano lasciato. Essi avevano lasciato soltanto delle opere speciali, come i libri di <persName type="author" ref="#varrone">Terenzio Varrone</persName> e di <persName type="author" ref="#placido">Placido</persName> intesi a illustrare le antichità patrie, o quelli di <persName type="author" ref="#labeone">Antistio Labeone</persName> e di <persName type="author" ref="#gallo">Elio Gallo</persName> in</p>
+                </div>
+                
+                <div type="textpart" subtype="section" n="15">
+                    <pb/><p>Analogamente a quanto osservai nella letteratura, vediamo nell’arte pure manifestarsi le due tendenze antitetiche del realismo e del convenzionalismo…..</p>
+                    <p>E così ancora nella vita sociale e nella politica.</p>
+                    <p>La prima età è caratterizzata dalle lotte per la conquista della libertà religiosa. Nella seconda il risorgere dell’imperialismo e il sorgere del feudalesimo attutiscono nell’asservimento ogni impulso individuale finché lo sfascio dell’impero, il decadere del feudalesimo e il sorgere dei comuni e delle repubbliche segnano il principio di un’altra età ch’è pur quella in cui torna a prevalere il realismo nella letteratura e nell’arte. Subentra il periodo dell’umanesimo e questo coincide col sorgere delle tirannidi. Gli umanisti possono chiamarsi i veri poeti della tirannide, e la loro prevalenza dura quanto dura il soffocamente (sic.) della libertà. Colla fine del sec. XVIII questa ripiglia vigore e l’avvento del romanticismo inaugura un altra (sic.) età che fa pieno riscontro alla prima e alla terza.</p>
+                </div>
+                
+                <div type="textpart" subtype="section" n="15">
+                    <pb/><p>Se non poco si è fatto, molto più resta da fare.</p>
+                    <p>E, confessiamolo una volta, molto più si poteva anche aver fatto, se non avessimo lasciato prevalere in noi la naturale inclinazione verso l’estetica, inclinazione che paralizza ogni impulso dello spirito verso la storia. Il gusto dell’estetica attira lo spirito verso la contemplazione e il quietismo, mentre la storia è movimento, e non ha vita che nella agitazione e nella irrequietezza.</p>
+                
+                    <pb/><p>Se fino a jeri potemmo accogliere negli studi nostri la collaborazione straniera ed anche più o meno gradirla, d’ora innanzi diventerebbe per noi una umiliazione se ci lasciassimo prevenire da altri in quello che per noi è doveroso di fare. E si pensi che ormai non c’è ramo dei nostri studi dove gli stranieri non abbiano già fatto molto.</p>
+                </div>
+                
+                <div type="textpart" subtype="section" n="16">
+                    <pb/><head>Perché studiamo la storia?</head>
+                    <p>La curiosità ingenita nell’uomo di penetrare l’ignoto ci spinge naturalmente a rivolgerci sul passato, a chiedergli la spiegazione di ciò che noi non sappiamo.</p>
+                    <p>Ma quando si comincia ad avere dalla storia le prime risposte, presto giungiamo ad accorgerci che la conoscenza del passato non solamente appaga una legittima curiosità, ma ci dà anche la spiegazione del presente, e che la vita che noi viviamo sarebbe per noi stessi un mistero più oscuro di quanto essa è, se nella storia non cercassimo la chiave che ce ne apra il segreto. È dunque per renderci piena ragione del presente che sopratutto (sic.) giova studiare la storia; e ciò sentiremo anche meglio dopo che avremo osservato le molte e continue analogie che intercedono tra i fatti odierni e quelli del passato. Ci persuadiamo allora che il più della storia è costituito da ricorsi, e che questi, se sempre o quasi presentano fra loro delle differenze, hanno anche tanto di conforme, che la conoscenza di uno non è mai inutile per meglio comprender l’altro, ed è così che dalla storia otteniamo il maggiore aiuto per bene orientarci dinanzi al presente e verso l’avvenire.</p>
+                </div>
+                
+               <div type="textpart" subtype="section" n="17">
+                   <pb/><head>Comparazione</head>
+                   <p>Nel suo rinnovamento la filologia ha ritrovato nella comparazione il principale sussidio per le sue indagini e le sue dimostrazioni. Molto infatti si ottiene dal metodo comparativo, quando la comparazione sia disciplinata, non la si lasci correre sbrigliatamente ovunque, ma la si restringa dentro i suoi giusti limiti. Nella linguistica questi limiti furon presto trovati e la comparazione vi si esercita sempre fra i prodotti della stessa famiglia idiomatica. Più difficile trovare il giusto limite nella comparazione letteraria.  Ma qui bisogna anche notare che la comparazione non va soltanto esercitata in senso diremo così collaterale, cioè tra fatti della stessa età; ma giova estenderla nelle età anteriori e nelle posteriori, cioè in senso ascendentale o discendentale, perché la storia procede per ricorsi, e cotali ricorsi, se non si svolgono in modi identici, conservano tuttavia quasi sempre molte analogie fra loro, e quindi si rischiarano e s’illuminano a vicenda. Valga qualche esempio.</p>
+               </div>
+                
+                <div type="textpart" subtype="section" n="18">
+                    <pb/><head>Il da farsi</head>
+                </div>
+                
+                <div type="textpart" subtype="section">
+                    <pb/><head>Storia letteraria: suo compito.</head>
+                    <p>La <hi rend="underline">storia</hi> non è da confondere con la <hi rend="underline">cronaca</hi>. La cronaca prende nota per ordine di tempo di tutti i fatti compresi in una data età; la storia tien conto soltanto di quei fatti ch’ebbero una efficacia, dirò così, determinativa nei destini di quella età e non furono semplici aneddoti senza conseguenze.</p>
+                    <p>Ciò premesso ed ammesso, quali sono i fatti di cui deve tener conto la storia letteraria? Criterj diversi finora si avvicendarono. La celebrità dell’opera, il maggior valore estetico che le fu attribuito, la singolarità che le si riconobbe, furono</p>
+                
+                    <pb/><p>Perché non abbiamo ancora una storia complessiva di tutte le letterature romanze?</p>
+                    <p>Le ragioni possono essere parecchie; ma una certamente è questa, che non si ritrovò finora un momento a tutte comune, dal quale muovere siccome dal periodo originario.</p>
+                    
+                    <pb/><p>Accanto allo studio della nostra letteratura nazionale è istituito lo studio della storia di essa, perché non si può appieno comprendere e gustare una letteratura se non se ne conosce la storia; ma la storia di una letteratura ha un ambito ben più largo della letteratura stessa; perché i fatti o fenomeni ond’essa è intessuta, ora hanno origine ora sviluppi in altre letterature. Per rendersi adunque ragione di essi è necessario acquistare una sufficiente nozione anche di quelle altre letterature con le quali sono riconosciuti o presumibili dei rapporti, e che possono chiamarsi congeneri. Le letterature congeneri della italiana sono quelle della <placeName ref="#francia">Francia</placeName> della <placeName ref="#spagna">Spagna</placeName> e <placeName ref="#portogallo">Portogallo</placeName> e della <placeName ref="#romania">Rumenia</placeName>.</p>
+                </div>
+                
+                <div type="textpart" subtype="section">
+                    <pb/><head>Schiarimenti e supplemento al paragrafo 1.</head>
+                    <p>Incertezza e titubanza manifestatesi finora negli storici delle singole letterature romanze, nel fissare il limite a quo delle loro storie. Il <persName ref="#GT1">Tiraboschi</persName> metteva a capo della sua <title ref="#storia_li">storia della letteratura italiana</title> un intero volume contenente la storia letteraria degli Etruschi, degli abitatori della Magna Grecia e dei Romani. Similmente avevan fatto i PP. Maurini fondando l’<title ref="#HLF">Histoire littéraire de la France</title>, e così anche i <persName ref="#RRM">fratelli</persName> <persName ref="#PRM">Mohedanos</persName> per la <title ref="#HLE">storia letteraria della Spagna</title>. Essi adunque evitarono di cercare il momento che divida la letteratura antica dalle moderne fondendo in una storia sola storie tra loro <del>abbastanza</del> totalmente diverse. In limiti alquanto più ristetti (sic.) si contenevano più tardi <persName ref="#JJA"></persName>Ampère per la Francia, <persName ref="#JADLR">Amedor de los Rios</persName> per la Spagna, prendendo dalla letteratura latina quegli scrittori ch’erano stati nativi delle Gallie o della Spagna; ma anch’essi in sostanza seguivano la linea tracciata dai Maurini, dal Tiraboschi, dai Mohedanos.</p>
+                </div>
+                
+                <div type="textpart" subtype="section">
+                    <pb/><head>Epica</head>
+                    <p>È noto che la infinita varietà di opere narrative che elaborò il medioevo, venivano da questo aggruppate in tre principali categorie, chiamate della materia di Francia, di Bretagna, di Roma. L’attività filologica sinora diede la preferenza alle materie di Francia e di Bretagna, e in questo campo si piò dire che ormai s’è fatto abbastanza, almeno rispetto all’interesse italiano. Rimane da fare altrettanto per la materia di Roma.</p>
+                </div>
+                
+                <div type="textpart" subtype="section">
+                    <pb/><head>Improprietà di linguaggio nella nomenclatura<lb/>delle forme letterarie.</head>
+                    <p>Fra gli appunti che posson farsi alla storiografia delle letterature moderne, uno è quello di avere spesso e senza bisogno cambiato nome alle cose. Perché chiamare epopee le canzoni di gesta</p>
+                </div>
+            
+            <div type="textpart" subtype="section">
+                <pb/><head>La storia poetica di Roma<lb/>nelle letterature romanze</head></div>
+                
+              <div type="textpart" subtype="section">
+                  <pb/><head>Problemi insoluti nella storia<lb/>delle lingue e delle letterature romanze.</head>
+                  <p>1.	Quale è il periodo <hi rend="stacked">momento</hi> iniziale da cui si dovrebbe muovere nel descrivere la storia delle letterature romanze?</p>
+              </div>
+                
+              <div type="textpart" subtype="section">
+                  <pb/><head>La edizione degli scrittori antichi.</head>
+                  <p>Oggi si vogliono rifiutare le edizioni tedesche e si vuol metter mano alla edizione italiana. Niente di meglio. Ma ci si è pensato un po’ tardi. Germania ed Olanda, Francia e Inghilterra hanno già tanto lavorato intorno a gli scrittori antichi, che omai da noi non si potrà fare un passo senza imbatterci nel lavoro straniero e senza affrontare il continuo rischio di sentirci accusati di plagio o d’ignoranza. Il materiale critico è stato già raccolto e vagliato. Ci metteremo a fare <hi rend="underline">ex novo</hi> quella immane fatica? O vorremo utilizzare l’opera altrui?  .     .     .     .       .     .     .     .     .  Ci pensino i cultori dell’antichità. Per quelli che si occupano di studj moderni la bisogna è diversa. Qui gli stranieri hanno lavorato poco, specie in fatto di scrittori italiani, e c’è ancora quasi tutto da fare. E si è già cominciato a fare. Le varie collezioni di scrittori italiani cominciate testé quasi simultaneamente, provano che si è già sentito il bisogno e che si è destato il fervore per sopperirvi. Disgraziatamente però dalle prime prove s’è visto che la preparazione non fu sinora pari al bisogno. È necessario prepararsi meglio, e a questo scopo dedicheremo qualche ora del corso di quest’anno.</p>
+                  <p>Ma per prepararsi al lavoro della edizione è necessaria una buona base nella paleografia e nella storia della lingua: due branche queste della filologia, nelle quali abbiamo lasciato sinora fare tutto agli stranieri. Per la paleografia classica non si esce dalle opere dello <persName ref="#KZ">Zangemeister</persName>, del <persName ref="#WW">Wattenbach</persName>, dello <persName ref="#EC">Chatelain</persName>. Per la storia del latino non trovate un solo autore italiano a cui ricorrere. Il meglio che fu prodotto in questo campo è tutto tedesco e in piccola parte anche francese.</p>
+                  
+                  <div type="textpart" subtype="section">
+                      <pb/><head>Il libro del Bertoni: ciò che v’è di buono, ciò che vi manca.</head>
+                      <p>Letture collaterali nella nostra raccolta di Facsimili, ove sceglieremo i testi dialettali italiani. Ricerca da farvi per la storia dei singoli dialettalismi che presentano. Ajuti che per ciò offre allo studente il <orgName ref="#Gabinetto">Gab. Di Paleografia</orgName>.</p>
+                  
+                      <pb/><p>Le letterature regionali.<lb/>La preparazione per la storia della lingua.<lb/>Il glossario basso-latino e volgare dell’Italia.<lb/>L’edizione dei poeti antichi.
+                      </p>
+                  </div>
+                  
+                  <div type="textpart" subtype="section">
+                      <pb/><head>La letteratura popolare.</head>
+                      <p>Uno dei maggiori e più nuovi acquiti (sic.) fatti dalla filologia moderna nel secolo scorso è stato quello della letteratura popolare, non curata affatto nei secoli precedenti o ricordata quasi soltanto per disprezzarla. Dallo Herder in poi tale disprezzo si è tramutato in un culto speciale, che ha portato a scoprire quasi in ogni popolo una vena di poesia più sincera e quindi anche più significativa di quella che il più delle volte anima la letteratura d’arte. La storia letteraria ha cominciato a utilizzare questo nuovo materiale; ma il maggior profitto ne ritrassero finora le letterature nordiche.</p>
+                      <p>Nelle letterature romanze soltanto per il periodo medioevale quella suppellettile fu adoperata. Per l’età moderna essa restò inattiva e formò una branca separata della storia letteraria, il <hi rend="underline">folklore</hi>.</p>
+                  </div>
+                  
+                  <div type="textpart" subtype="section">
+                      <pb/><head>La teoria delle cantilene </head>
+                      <p>Fu immaginata per spiegare la formazione dei poemi epici chiamati impropriamente epopee, non volendosi ammettere che tali poemi fossero stati composti solo ad un tratto, in una volta tanto. Ma ciò pure si verificò per i poemi della storia di Troja. Vi furono forse cantilene o altre forme intermediarie fra il <title ref="#roman_dt"><hi rend="underline">Roman de Troie</hi></title> di Benoit de Sainte More e il <title ref="DET"><hi rend="underline">De excidio Troie</hi></title> di <persName type="author" ref="#darete">Darete Frigio</persName>?</p>
+                  
+                     <pb/><p>Fra gli argomenti su cui si fonda il <persName ref="#GP">Paris</persName> per stabilire la maggiore antichità del <title ref="#leger">Saint Léger</title> e della Passion sul <title ref="#alexis">Saint Alexis</title> e sul Roland, egli adduce l’uso del piuccheperfetto mancante nel Roland, con un solo esempio nel Saint Alexis, abituale all’incontro nei poemi di <placeName ref="#clermont">Clermont</placeName>. Ma tale differenza poteva aver ragione non solo dal tempo ma anche dai luoghi diversi da cui vennero quei poemi. Ebbe il piuccheperfetto ugual vita in tutta la Francia? Siamo ben lontani dal saperlo. In Italia, dove il piuccheperfetto ebbe anche più vitalità che in Francia, vi sono regioni dove non ne troviamo traccia alcuna. Crederemo per questo che le produzioni di tali regioni sieno posteriori a quelle delle regioni ove il piuccheperfetto si trova?</p>
+                  </div>
+                  
+                  <div type="textpart" subtype="section">
+                      <pb/><head>Laude</head>
+                      <p>La Lauda è un altro degli argomenti su cui molto già si è fatto, ma più ancora resta da fare.</p>
+                      <p>Fin dal primo secolo della stampa si cominciò a farne raccolta e si continuò nei secoli seguenti. Ma le laude allora pubblicate non furono le più antiche; la ricerca di queste cominciò soltanto nei tempi nostri, quando si destò la curiosità e la ricerca delle origini.</p>
+                      <p>Da quel momento è venuta in luce un grande quantità di laude prima non conosciute, e le pubblicazioni furon fatte non più in forma di florilegi o di antologie, ma riproducendo gli antichi laudarj manoscritti come ci erano stati trasmessi dall’antichità. Si cominciò così a vedere quanto diffuso per tutta Italia fu il costume dei Laudesi e quanto antico. Le testimonianze storiche ci permettono di risalire fino alla prima metà del sec. XII, a un tempo cioè in cui la poesia di corte non era forse ancor nata in Italia. Le conseguenze di questa constatazione hanno una portata, il cui valore non fu sinora pesato abbastanza. Un’altra constatazione fu anche fatta intorno alla Lauda, ed è che se i Siciliani, come li chiamava e li intendeva Dante, furon primi nel canto d’amore, il canto dei Laudesi all’incontro echeggiò primo dalla <placeName ref="#toscana">Toscana</placeName>. Quanta importanza ciò abbia per spiegarci la formazione del nostro idioma letterario predantesco s’intuisce facilmente anche da questi soli accenni. </p>
+                  </div>
+                  
+                  <div type="textpart" subtype="section">
+                      <pb/><head>Dettami</head>
+                      <p>Fra i più recenti acquisti della nostra storia letteraria son da noverare le produzioni dei dettatori, una classe d’uomini di lettere che in Italia vigoreggiò più che altrove. Ma essi furono presto dimenticati, e se Dante non ne avesse conservato e quasi consecrato il nome, forse sarebbero rimasti anche più profondamente nell’oblìo. Essi venivano dalla classe degli antichi grammatici, e furono veramente grammatici che si specializzarono in un officio suppergiù corrispondente a quello del segretario moderno. Cominciarono dal dare forma più acconcia e pulita agli atti notarili. Questi negli ultimi secoli del medio evo s’erano talmente imbarbariti, che il loro linguaggio, malgrado gli antichi formularj che loro servivano da falsariga, eransi ridotti a uno stranissimo amalgama, dove il latino, il volgare e gl’ibridismi i più bizzarri si fondavano in un tutto di continuo oscillante e mutevole e pei più divenuto quasi affatto inintelligibile. I dettatori cominciarono dal raddrizzare quelle scritture, e le riportarono ad una latinità che, se non riacquistò il sapore antico, tornò nonpertanto ad essere grammaticalmente abbastanza corretta. Ma conseguenza di quella restaurazione fu che quegli atti diventarono meno intelligibili di prima per tutti coloro che non sapevano di latino, e così si rese necessario che i notari ne spiegassero alle parti il contenuto in volgare. Ciò si fece dapprima oralmente; poi si fecero ancora delle traduzioni in scritto; finalmente si misero in volgare anche i formularj, e in tutto ciò l’opera dei dettatori venne prendendo un nuovo indirizzo. Da restauratori del latino diventarono dirozzatori del volgare, e di questa loro nuova produzione restano tuttora saggi che, per antichità, rivaleggiano con quelli dei laudesi e con quelli dei cantori d’amore. Primo centro di questi dettatori fu lo studio bolognese, d’onde poi si propagarono per quasi tutta Italia; e così sotto la penna di costoro cominciò a formarsi un’altra specie d’idioma letterario, analogo se non simile a quello dei laudesi e a quello dei cantori d’amore.</p>
+                  </div>
+                  
+                  <div type="textpart" subtype="section">
+                      <pb/><head>Lessicologia</head>
+                  </div>
+                  
+                  <div type="textpart" subtype="section">
+                      <pb/><head>I soprannomi</head>
+                      <p>È un materiale finora rimasto quasi affatto inesplorato. Fu oggetto di qualche osservazione nel campo grammaticale. Ma per la storia letteraria non so che alcuno abbia pensato di metterlo a profitto. Nei soprannomi ritroviamo le prime manifestazioni dello spirito satirico popolare. Farne dunque una raccolta per regioni; aggrupparli e classificarli secondo le varie tendenze che esprimono; compararli da una regione ad altra sarebbero altrettanti studi che ci aprirebbero la via per una storia affatto nuova della satira italiana prima dell’apparire della letteratura. Fonti per una tale raccolta saranno le carte notarili dei bassi secoli. Le molte migliaja che ne furono pubblicate in questi ultimi anni, faciliteranno tali studi, non essendo ora più necessario ricorrere agli archivi per fare lo spoglio.</p>
+                      <p>A del <title ref="#lancillotto">Lancillotto in prosa</title> e de	Qualche saggio sui soprannomi della regione romana.</p>
+                  </div>
+                  
+                  <div type="textpart" subtype="section">
+                      <pb/><head>Parole oscure e rare<lb/>nell’italiano antico.</head>
+                      <p><persName ref="#AD">A. Delboulle</persName> iniziò nella <title ref="#ROM"><hi rend="underline">Romania</hi></title>, n˚. 122-3, una raccolta di voci oscure e rare dell’antico francese, che sono tuttora altrettanti problemi lessicali e semasiologici. Egli non dà la spiegazione, ma ne raccoglie le testimonianze per facilitarne lo studio. Perché non fare altrettanto per l’italiano?</p>
+                  </div>
+              </div>
+            </div>
+            
+            </div>
+        </body>                                                                                                                                                                                                                                                                                                                                                                                                                                                      
+    </text>
+</TEI>

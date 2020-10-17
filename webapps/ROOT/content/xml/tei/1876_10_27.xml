@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Pio Rajna a Ernesto Monaci, 27 ottobre 1876</title>
+                <editor role="transcription"><persName>Alessia Di Virgilio</persName></editor>
+                <editor role="encoding"><persName>Simone Palmieri</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2020-02-26"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl><bibl>Alessia Di Virgilio, <title>Carteggio Monaci - Rajna (1873-1877)</title>, tesi di laurea, Sapienza Università di Roma, a.a. 2018-2019</bibl></listBibl>
+                <msDesc>
+                    <msIdentifier><repository>Archivio Monaci, Società Filologica Romana, presso il Dipartimento di Studi Europei, Americani e Interculturali, Sapienza, Università di Roma.</repository> <idno>Busta n. 22, fascicolo 1095, lettera XXVII</idno></msIdentifier>
+                    <msContents><summary corresp="#letter">Pio Rajna spedice a Ernesto Monaci l’ "Apologia di Dino Compagni", affinché Monaci la consegni al Marchese Ferrajoli.</summary></msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#PR">Pio Rajna</persName>
+                    <placeName ref="#milano">Milano</placeName>
+                    <date when="1876-10-27"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#sconosciuto">?</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                    <opener><dateline><placeName ref="#milano">Milano</placeName>, <date when="1876-10-27">27 ottobre 1876</date></dateline>
+                        <salute>Carissimo <persName ref="#EM">Monaci</persName></salute></opener>
+                    <p>dirigo a te l’<title ref="#apologia">Apologia</title> del <persName type="author" ref="#compagni">Compagni</persName>, desiderata dal M. se <persName ref="#GF1">Ferrajoli</persName>, affinché nel consegnarla tu faccia anche le mie scuse per il lungo ritardo. 
+                        La colpa è del <persName>Vallardi</persName>, ottimo uomo, ma assai smemorato. Avendo visto che il libro usciva dal suo stabilimento, credetti di far bene ricorrendo alla fonte. 
+                        Non so come, al momento non s’avevano più esemplari, e bisognava andarne a prendere dall’autore. Mi promise di scrivermi senz’altro l’indomani, e invece si scordò la cosa una volta, la si scordò una seconda, 
+                        dopo ch’io fui ritornato a rinfrescarne la memoria, e solo quando con un biglietto ebbi mostrato di essermi ben bene impazientito, mi si fece l’onore di credermi. 
+                        Del <pb/> costo non so ancora nulla. Certo si tratta di una somma enorme.</p>
+                        <p>Sono ben lieto che delle <title ref="#ariosto"><hi rend="underline">Fonti</hi></title> non paja male ad un giudice far tuo. 
+                        Bada peraltro che l’amicizia e la generosità dell’anima ti inducono ad esagerare d’assai il merito del mio lavoro. 
+                        Non tarderai di certo ad accorgertene tu stesso, se già non te ne sei accorta a quest’ora avrei voluto offrirtene un esemplare. 
+                        Disgraziatamente, per ora almeno, mi trovo affatto sprovvisto.</p>
+                    <p>Di certo avrai visto costà l’<persName ref="#GIA">Ascoli</persName>, a discorso con lui del <hi rend="underline">salvataggio</hi> delle nostre cattedre, al quale egli cooperò attivamente. 
+                        Non ho avuto ancora sotto gli occhi i nuovi regolamenti, e in questo momento non provo nemmeno la necessità di esaminarli. 
+                        Niente mi assicura ch’io debba aver parte nella loro applicazione. Non ti scrivo la storia, perché fino ad ora manca la conclusione</p>
+                    <pb/>
+                    <closer><salute>Addio. Vogli sempre bene al Tuo <expan><abbr>Aff</abbr><ex>ezionatissi</ex><abbr>mo</abbr></expan></salute> <signed><persName ref="#PR">Pio Rajna</persName></signed></closer>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

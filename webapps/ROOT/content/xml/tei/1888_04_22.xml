@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Cesare De Lollis a Ernesto Monaci, 22 aprile 1888</title>
+                <editor role="transcription"><persName>Debora Matteo</persName></editor>
+                <editor role="encoding"><persName>Susanna Casacchia</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2020-04-26"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl><bibl>Debora Matteo, <title>Itinerario di un carteggio</title>, tesi di laurea, Sapienza Università di Roma, a.a. 2017-2018</bibl></listBibl>
+                <msDesc>
+                    <msIdentifier><repository>Archivio Monaci, Società Filologica Romana, presso il Dipartimento di Studi Europei, Americani e Interculturali, Sapienza, Università di Roma.</repository> <idno>Busta n. 8, fascicolo 394.</idno></msIdentifier>
+                    <msContents><summary corresp="#letter">Lettera di Cesare De Lollis a Ernesto Monaci del 22 aprile 1888.</summary></msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#CDL">Cesare De Lollis</persName>
+                    <placeName ref="#paris">Parigi</placeName>
+                    <date when="1888-04-22"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#roma">Roma</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                    <div type="textpart" subtype="envelope">
+                        <opener>
+                        <address>
+                            <addrLine>Piazza Capranica, 95 II</addrLine> 
+                        </address>
+                        <salute>Egregio <expan><abbr>Sig</abbr><am>.</am><ex>or</ex></expan> Professore,</salute>
+                    </opener>
+                        <p>Ella, vorrà perdonarmi, spero, la rarità delle mie lettere in questi ultimi tempi. [...] Io parto per la <placeName ref="#spagna">Spagna</placeName>, desideroso e fiducioso di 
+                            trovar qualche cosa di buono. [...] Le sarei gratissimo se oltre a procurarmi delle lettere di presentazione, volesse determinarmi meglio il programma di esplorazione. Qui, intanto, tanto per portarmi via qualche cosa della <orgName ref="#BnF">Nazionale</orgName>, ho copiato e collazionato quanto di <persName type="author" ref="#sordello">Sordello</persName> dicono i <title type="manuscript" key="Codici provenzali">codici provenzali</title>. 
+                            Questo <rs type="topic" key="Trovatori italiani">trovatore</rs> italiano, avvolto di tanto mistero, e studiato e analizzato da tanti, ha certamente una singolare importanza per noi italiani: e credo non sia inutile (benché certo non indispensabile) una edizione critica di tutte le sue liriche, da nessuno finora, se non mi sbaglio, tentata. [...] Io non partirò prima del 30. [...]</p>
+                    <closer>  
+                        <salute>La riverisco e prego di credermi il sempre suo <expan><abbr>dev</abbr><ex>otissi</ex><abbr>mo</abbr></expan> e affmo
+                        discepolo</salute>
+                        <signed><persName ref="#CDL">De Lollis</persName></signed>
+                        <dateline>
+                            <placeName ref="#paris">Parigi</placeName>
+                            <date when="1888-04-22">22</date>
+                        </dateline>
+                    </closer>
+                </div>
+            </div>
+                </div>
+        </body>
+    </text>
+</TEI>

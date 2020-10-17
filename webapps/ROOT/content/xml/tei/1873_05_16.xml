@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Adolfo Mussafia a Ernesto Monaci, 16 maggio 1873</title>
+            <editor role="transcription"><persName>Marco Veneziale</persName></editor>
+            <editor role="encoding"><persName>Daniele De Sanctis</persName></editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+            <date when="2016-11-30">novembre 2016</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><repository>Archivio Monaci, Società Filologica Romana, presso il Dipartimento di Studi Europei, Americani e Interculturali, Sapienza, Università di Roma.</repository></msIdentifier>
+               <msContents><summary corresp="#letter">Lettera di Adolfo Mussafia a Ernesto Monaci del 16 maggio 1873.</summary></msContents>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#EM">Ernesto Monaci</persName>
+               <placeName ref="#roma">Roma</placeName>
+               <date when="1873-11-22">22 novembre 1873</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#GIA">Graziadio Isaia Ascoli</persName>
+               <placeName ref="#sconosciuto">?</placeName>
+               <date/>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="transcription" xml:lang="it">
+            <opener>
+               <dateline><placeName ref="#wien">Vienna</placeName>, <date when="1873-05-16">1873 </date></dateline>
+               <salute>Mio ottimo Signor <persName ref="#EM">Monaci</persName>!</salute>
+            </opener>
+            <p>L’orlo nero di questo foglio servirà di scusa al mio lungo silenzio; una mia sorella,
+               che conviveva meco, dopo parecchi mesi di penosissima malattia, andò al bacio del
+               Signore. Ella che, come seppi dall’amico <persName ref="#EMS">Stengel</persName>, ebbe pur troppo
+               a soffrire ultimamente la medesima sciagura, comprenderà bene il mio dolore. Sappia
+               che del donativo impostole dal <persName ref="#FAV">Sigr Varnhagen</persName> (che ora al
+               modo inglese rinunciò a questo nome, e fatto barone non ne vuol sapere che di
+               Porto-Seguro) io sono innocente; fu lui che leggendo alla nostra biblioteca sulla
+               copertina del prima fascicolo della <title ref="#RFR">Rivista</title> ch’Ella annunciava un
+               lavoro sul canzoniere Vaticano, mi disse: Chi sa se questo Signore conosce le mie
+                  <title>Trobas</title> colle Appendici? Risposi che senza dubbio, poiché in Italia
+               ora si studia con metodo e non si scrive senza conoscere ciò che fecero altri
+               sull’argomento; a che egli: Ad ogni modo gli farà mandare da
+                  <placeName ref="#paris">Parigi</placeName> un esemplare. Ed io non credei di do<pb break="no"/>vermegli opporre;
+               né volendo, avrei potuto. Nella sua generosa offerta c’entra per certo un po’ di
+               vanità ed un po’ di paura; in ogni caso non parmi che ciò La obblighi a molto; e
+               coll’urbanità che Ella usa verso i lavori del V. nel Saggio publicato può benissimo
+               congiungersi una critica anche severa. Com’è bello e grazioso il libretto da Lei
+               mandatomi! E come vivo ne nasce il desiderio di vedere l’intera pubblicazione! Ella
+               comincia con un lavoro, con cui altri sarebbe lieto di finire; e comincia così bene
+               da mostrare ch’Ella è in grado di vincere le molte difficoltà che la natura del
+               codice e la lingua non istudiata fin qui a sufficienza presentano all’editore. Il
+               nome del <persName ref="#LM">Sigr Manzoni</persName> mi richiamò alla mente che Stengel
+               m’aveva scritto d’informarmi se a <placeName ref="#wien">Vienna</placeName> c’era il cholera e se
+               si poteva con facilità trovare alloggio, ed io preoccupato dallo stato disperato
+               della povera defunta mancai di sodisfare al desiderio espostomi. Ed ora molto me ne
+               duole, perché avrei volentieri servito il <persName ref="#LM">sigr Manzoni</persName>,
+               amico degli amici miei, e fratello (o cugino?) del podestà di<pb/> Lugo, con cui sono del
+               pari stretto di cordiale amicizia. Ed io mo <unclear>vo</unclear> tormentando col pensiero, che
+               questo signore sia pur venuto a <placeName ref="#wien">Vienna</placeName>, ma a buona ragione non si sia curato di
+               vedere chi gli aveva negato un sì leggiero favore. Se così è, io sono in vero troppo
+               punito della mia trascuratezza. Mi faccia la grazia di esporre <persName ref="#LM">al Sigr
+                  <expan><abbr>M</abbr><ex>anzoni</ex></expan></persName> il motivo del mio silenzio e il sincero dispiacere che ne
+               risento. Il mio primo fascicolo della <title ref="#RFR">Rivista</title> è pieno di sgrobii fatti in margine
+               dell’articolo del <persName ref="#UC">Canello</persName>? Sarei soverchia ardito, se La
+               pregassi, nel caso che avesse un esemplare disponibile, di volermelo favorire? Il
+               secondo fascicolo quando uscirà?</p>
+            <closer>Le manderò fra breve il componimento poetico in dialetto. Possibilmente per il
+               terzo fascicolo; se no, per il quarto. <salute>Con sincera stima mi dico Suo
+                  <expan><abbr>aff</abbr><am>.</am><ex>ezionatissim</ex><abbr>o</abbr></expan></salute>
+               <signed><persName ref="#AM">A Mussafia</persName></signed>
+               <dateline><placeName ref="#wien">Vienna</placeName>, <date when="1873-05-16">16 maggio 1873</date></dateline></closer>
+         </div>
+      </body>
+   </text>
+</TEI>

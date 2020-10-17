@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ernesto Monaci a Graziadio Isaia Ascoli, 14 dicembre 1904</title>
+                <editor role="transcription"><persName>Chiara Maria Calcagni</persName></editor>
+                <editor role="encoding"><persName>Mariangela Distilo</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2020-02-26"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl><bibl>Chiara Maria Calcagni, <title>Lettere scelte dal carteggio Ascoli-Monaci (1880/1906): trascrizione e commento</title>, tesi di laurea, Sapienza Università di Roma, a.a. 2018-2019</bibl></listBibl>
+                <msDesc>
+                    <msIdentifier><repository>Archivio Ascoli, Accademia Nazionale dei Lincei, presso la Biblioteca dell’Accademia dei Lincei e Corsiniana, Roma.</repository> <idno>Lettera 97/3</idno></msIdentifier>
+                    <msContents><summary corresp="#letter">Lettera di E. Monaci a G. I. Ascoli del 14 dicembre 1904</summary></msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#roma">Roma</placeName>
+                    <date when="1904-12-14"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#GIA">Graziadio Isaia Ascoli</persName>
+                    <placeName ref="#sconosciuto">?</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                    <opener><dateline><placeName ref="#roma">Roma</placeName> <date when="1904-12-14">14. XII. 1904</date></dateline></opener>
+                    <p>Mio Signore, ho ricevuto la Sua <title type="letter" ref="./1904_12_13.html">lettera</title>, e mando subito alla tipografia la <title><hi rend="underline">Introduzione</hi></title>. Il <persName ref="#FDO">D’Ovidio</persName> è informato di tutto, e ha convocato per lunedì i soci che altra volta erano stati designati da Lei per la <orgName ref="#Toponomastica">Commissione della Toponomastica</orgName>. Confido che si verrà alla conclusione, e che si daranno al Presidente tutti gli elementi per rispondere al Ministro, il quale finora ha mantenuto puntualmente quanto aveva promesso di fare.</p>
+                    <closer><salute>Mi abbia sempre il Suo <expan><abbr>aff</abbr><am>.</am><ex>ezionatissi</ex><abbr>mo</abbr></expan></salute>
+                        <signed><persName ref="#EM">E. Monaci</persName></signed></closer>
+               
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

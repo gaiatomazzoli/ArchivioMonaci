@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ernesto Monaci a Pio Rajna, 4 gennaio 1876</title>
+                <editor role="transcription"><persName>Alessia Di Virgilio</persName></editor>
+                <editor role="encoding"><persName>Margherita Filippozzi</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2020-03-23"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl><bibl>Alessia Di Virgilio, <title>Carteggio Monaci - Rajna (1873-1877)</title>, tesi di laurea, Sapienza Università di Roma, a.a. 2018-2019</bibl></listBibl>
+                <msDesc>
+                    <msIdentifier><repository>Archivio Pio Rajna, Biblioteca Marucelliana, Firenze.</repository> <idno>Lettera XX.</idno></msIdentifier>
+                    <msContents><summary corresp="#letter">Lettera di Ernesto Monaci a Pio Rajna del 4 gennaio 1876, relativa al conferimento a Monaci della cattedra di Storia comparata delle lingue neolatine all’Università Sapienza.</summary></msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#roma">Roma</placeName>
+                    <date when="1876-01-04"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#PR">Pio Rajna</persName>
+                    <placeName ref="#sconosciuto">?</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                    <opener><dateline><placeName ref="#roma">Roma</placeName> <date when="1876-01-04">4 del 76</date></dateline>
+                        <salute>Mio caro <persName ref="#PR">Rajna</persName></salute></opener>
+                    <p>Tornato jersera da una strana corsa che dovetti fare nel <placeName ref="#ciociaria">paese dei Ciociari</placeName>, ho trovato la <title type="letter">tua cartolina</title>, e mi affretto a ringraziarti delle affettuosissime parole che mi dirigi.
+                        Ciò che è passato in questi ultimi giorni, mi è giusto tenuto improvviso che ne sono ancora sconvolto.
+                        Io non avevo mai pensato ad una cattedra: anzi, conoscendo abbastanza le mie deboli forze, avevo sempre resistito ai consigli che mi si davano perché entrassi nell’insegnamento.
+                        Ma questa volta non si è trattato di consigli. <persName ref="#GF1">Ferrajoli</persName> e <persName ref="#ADA">D’Ancona</persName> mi hanno fatto trovare dinanzi al <persName ref="#RB">Ministro</persName> che mi offriva la cattedra.
+                        Che fare? Ho accettato come <hi rend="underline">una prova</hi>. Ma anche questa prova mi spaventa, e temo che un giorno mi si possa accusare d’inconsideratezza e di temerità.
+                        Come insegnar bene agli altri quando non si fece prima un corso di studi regolare sulla materia, e non si ha la minima conoscenza della scuola?
+                        È ciò, che mi tiene fortemente in pensiero, né, sul momento, trovo come riparare nemmeno in parte al difetto, se non chiedendo consiglio agli amici.
+                        Se vorrai darmi qualche lume e qualche indirizzo sul metodo <pb/>da tenere, mi farai un grande beneficio.
+                        Sto pensando per quest’anno di trattenermi sulle origini, e di studiare il <rs type="topic" key="Latino medievale">latino medievale</rs> così nella <rs type="topic" key="Latino medievale">lingua</rs> come nella <rs type="topic" key="Latino medievale">letteratura</rs>, e così porre le basi ai successivi tre amici del corso. Che ne dici?</p>
+                    <p>Quanto alla proposta di <placeName ref="#palermo">Palermo</placeName>, io nulla sapevo. Me ne toccò così di volo il <expan><abbr>n</abbr><ex>o</ex><abbr>s</abbr><am>.</am><ex>tro</ex></expan> <persName ref="#UC">Canello</persName> che nulla compresi.
+                        Ma ora dalle tue parole mi spiego bene la cosa, e anche di questo pensiero affettuoso e gentile non ho parole per ringraziare abbastanza chi prese tanto interesse per me. Potessi un giorno rendermi degno di tante prove di stima e amicizia!</p>
+                    <p>Sono dolente di non aver potuto finora mandarti un esemplare del <title ref="#canzoniere">Canzoniere</title>. Ma non ne ho avuti e non ne ho.
+                        Io potei soltanto dare alla <orgName ref="#Niemeyer">Niemeyer</orgName> alcuni indirizzi per pochi esemplari di recezione, e per averne qualche copia a mia disposizione credo che dovrò ancora aspettare.(1)
+                        Le lodi che mi dai per questo lavoro mi empiono di coraggio; sento tuttavia quanto debbo alla tua generosità, e nelle tue parole avrò uno stimolo a far meglio un’altra volta.</p>
+                    <p>La nuova occupazione della scuola mi obbliga pel momento a sospendere il lavoro delle <title ref="#communicazioni">"comunicazioni"</title>.
+                        Ma sarà <pb/>per poco tempo, e quando tu te ne avrai agio, potrai pure venire preparando il <title ref="#tesoro">Tesoro</title> di <persName type="author" ref="#sordello">Sordello</persName>,
+                        ché entro il 76 vorrei ad ogni costo dar fuori il vol. dei <title ref="#canzoniere2">Testi portoghesi</title>.</p>
+                    <p>Sono contento che abbia trovato l’editore al tuo <title ref="#ariosto">Orlando</title>, e mi auguro che presto esca a luce quest’opera tanto meritamente aspettata da tutti gli studiosi.
+                        Quando avrai degli annunzi del vol., ti prego di mandarmene qualche copia; perché, sebbene in un paese poco romanista, pure non dispero di trovare qualche soscrizione anche qui.</p>
+                    <p>Il <expan><abbr>M</abbr><am>.</am><ex>archese</ex></expan> <persName ref="#GF1">Ferrajoli</persName> giorni fa mi diceva <quote>Perché il sig. <persName ref="#PR">Rajna</persName> non pensa ad una edizione del <persName type="author" ref="#boiardo">Bojardo</persName>?
+                        Nel caso che lo desiderasse, potrei scrivere al <expan><abbr>C</abbr><am>.</am><ex>onte</ex></expan> <persName ref="#GPL">Porro</persName> affinché gli agevolasse l’accesso al <title type="manuscript" key="Manoscritto Trivulziano">ms. Trivulziano</title></quote>.</p>
+                    <p>Ti prego dei miei ossequi all’<persName ref="#GIA">Ascoli</persName>, al quale non scrivo soltanto per non turbarlo nei suoi profondi studj.
+                        Dimmi tante cose al <persName ref="#UC">Canello</persName>, del quale spero presto qualche risposta alle mie lettere ultime,</p>
+                    <closer><salute>e tu prendi un abbraccio e cento auguri dal</salute>                        
+                        <salute>Tuo</salute>
+                        <signed><persName ref="#EM"><expan><abbr>E</abbr><am>.</am><ex>rnesto</ex></expan> Monaci</persName></signed></closer>
+                    <postscript><p>(1) Intanto ti prego di gradire uno dei pochissimi esemplari dei <title ref="#cantos">"Cantos de Ledino"</title>.
+                        Ne manderei una parte all’<persName ref="#GIA">Ascoli</persName>, ma temo che sarei troppo ardito presentandogli una cosa tanto meschina che solo oso offrirla a quelli con cui vivo in stretta intimità, com’è con te.</p></postscript>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

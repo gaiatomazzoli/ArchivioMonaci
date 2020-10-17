@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Pio Rajna a Ernesto Monaci, 13 dicembre 1873</title>
+                <editor role="transcription"><persName>Alessia Di Virgilio</persName></editor>
+                <editor role="encoding"><persName>Mariangela Distilo</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2020-02-26"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl><bibl>Alessia Di Virgilio, <title>Carteggio Monaci - Rajna (1873-1877)</title>, tesi di laurea, Sapienza Università di Roma, a.a. 2018-2019</bibl></listBibl>
+                <msDesc>
+                    <msIdentifier><repository>Archivio Monaci, Società Filologica Romana, presso il Dipartimento di Studi Europei, Americani e Interculturali, Sapienza, Università di Roma.</repository> <idno>Busta n. 22, fascicolo 1095, lettera X</idno></msIdentifier>
+                    <msContents><summary corresp="#letter">Lettera di Rajna a Monaci del 13 dicembre 1873.</summary></msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#PR">Pio Rajna</persName>
+                    <placeName ref="#milano">Milano</placeName>
+                    <date when="1873-12-13"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#sconosciuto">?</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                    <opener><dateline><placeName ref="#milano">Milano</placeName>, <date when="1873-12-13">13 Dicembre 1873</date></dateline>
+                        <salute>Carissimo amico,</salute></opener>
+                    <p>Bravo! M’hai fatto due regaloni in una volta sola, e proprio sento il bisogno di ringraziartene. Veramente l’idea di bandire il <hi rend="underline">voi</hi> l’avrei forse messa innanzi io per il primo, se non m’avesse trattenuto la storia delle bozze. E via con queste bozze! Tu dirai. Dillo pure, e vedi, che ne hai ben ragione; ma neppur io sono senza senso se ebbi paura che ti fosse spiaciuto lo strazio fatto di quelle povere pagine. Gli è che appunto in quel tempo m’era tornato un rabbuffo serio per una causa identica; e sì che si trattava di mutamenti assai più leggeri e che io avevo ogni diritto di prendermi quel po’ di libertà che m’ero preso. Non vorrei che per questo avessi a credere che io sia sempre un flagello per i tipografi; mi è accaduto quest’anno di essere in grazia di circostanze speciali; peraltro bisogna che abbia sempre la precauzione di non mandare il ms. finché non si può mettere mano alla stampa, perché due mesi dopo aver <pb/> scritto una cosa è impossibile o poco meno che la possa approvare del tutto.</p>
+                    <p>Ma per tornare addietro, se l’idea del <hi rend="underline">tu</hi> s’ebbe tutti e due ad un tempo, quella del ritratto ti appartiene e merita proprio di esser detta luminosa. Fino a che di una persona non si conosce la figura la fantasia se la foggia a suo capriccio, e naturalmente, è un miracolo se dà nel segno. Anch’io stavo dunque immaginando quale tu dovessi essere, e mancando di una traccia, c’era il pericolo che dessi parte della mia amicizia a un Monaci che non fosse il <persName ref="#EM">Monaci</persName> di <placeName ref="#roma">Roma</placeName>, Via Giulio Romano, N° 12. Adesso il pericolo è bello e svanito, e io posso rappresentarmi l’amico proprio tal quale egli è. Insomma ti ripeto che proprio m’hai fatto un regalone. Ti avrei risposto subito e mandato in contraccambio un ritratto mio, se me ne fossi trovato un solo che mi mostrasse presso a poco come sono. Ma non avendone se non di sbarbati e quasi imberbi, mentre adesso porto la barba, bisognò che corressi da una fotografia per riparare alla mancanza. E siccome qui i fotografi di un certo grado lavorano assai, è scorsa una settimana, e ancora mi trovo a pazientare fino a domattina per avere non più che un paio di copie. Pazienterà dunque anche la lettera, sebbe<pb break="no"/>ne l’indugio la rincresca.</p>
+                    <p>Ti ringrazio degli estratti. Avevo detto che trenta erano anche di troppo, e tu me ne hai procurato quaranta. Fu per me una sorpresa gradita, giacché facendo i conti trovai che erano parecchie le persone alle quali o per una ragione, o per un’altra era bene che mandassi qualcosa. Oltre all’errore da te avvertito vorrei che ne sono scorsi alcuni altri; ma la cosa è mia, non già del tipografo. Mi farai piacere mettendo nel prossimo fascicolo l’errata-corrige; un’altra volta farò il possibile perché non ce ne sia bisogno.</p>
+                    <p>Dunque il 3° numero è uscito da un pezzetto?</p>
+                    <p>Qui non s’è anche visto, per colpa certamente del <persName ref="#EL">Lӧscher</persName> che forse ha scordato che io gli ho pagato l’abbonamento. Per il prossimo anno fammi spedire il giornale direttamente e dimmi a chi devo sborsare le dieci lire.</p>
+                    <p>Quando uscirà il primo fascicolo del 74? Vorrei mandarti qualcosa, ma non so se arriverà a tempo. Sto preparando una chiacchierata sulle voci <hi rend="underline">contrasta</hi> e <hi rend="underline">contrastare</hi>: deve la sua origine a una stolida critica della <title ref="#RE">Rivista Europea</title>, che forse avrai visto. <lb/>Chi ha scritto <hi rend="underline">incontastabile</hi> non è già il <persName ref="#ADA">D’Ancona,</persName>, ma io, che senza alcun rincrescimento, me ne assumo <pb/> anche la responsabilità. Peraltro nella mia chiacchierata a questo si accennerebbe soltanto di volo; l’argomento vero sarebbe l’origine e i rapporti dei due vocaboli e delle loro famiglie. Ci sono parecchie difficoltà che m’impediscono di stendere il lavoro, sebbene si tratti di ben poche pagine.</p>
+                    <p>Ti ringrazio delle ricerche che mi prometti di fare per scoprire, se è possibile, il codice dell’<title ref="#intelligenza">Intelligenza</title>. Procura che in qualche modo io ti possa ricambiare.</p>
+                    <p>L’<persName ref="#GIA">Ascoli</persName>, prima ancora che io gli riferissi l’ambasciata tua, m’ha incaricato di mandarti i suoi saluti più cordiali. Ti ho già fatto intendere che impressione hai lasciato nell’animo suo, come in quello, che a quanto pare, di tutti coloro che ti conoscono.</p>
+                    <p>Il mio Decreto naviga ancora per i mari della <orgName ref="#CorConti">Corte dei Conti</orgName>, e non è anche certo quando giungerà a riva.</p>
+                    <p>Secondo i calcoli fatti dovrebbe stare pochi giorni; ma se anche tarderà qualche poco oramai non me ne dolgo; solo mi studio di rendermi un po’ più leggero l’insegnamento finale, facendo grazia agli scolari di compiti scritti.</p>
+                    <p>Ricordati più spesso che puoi di questo tuo nuovo amico, che per affetto caldo e sincero confida di non meritarsi uno degli ultimi posti. Addio.</p>
+                    <postscript><p>P.S. Ho paura ci dice qualche altra cosuccia da correggere nei testi. Mi vien sott’occhio un <hi rend="underline">teasso</hi> che temo dovuto al compositore. Collazionerò di nuovo la stampa con ms. e occorrendo riscriverò.</p></postscript>
+                    <postscript><p>P.S. 2°. Ripensando meglio, ho trattenuto la lettera tanto da fare una nuova collazione col manoscritto. Vedrai che non è riuscito inutile. Un’altra volta sarà necessaria una seconda correzione delle prove; sulle prime qualcosa sfugge sempre. Si potrebbe tirare anche a parte l’<expan><abbr>err</abbr><ex>ata</ex></expan> <expan><abbr>corr</abbr><ex>ige</ex></expan> con numerazione in modo da poterlo aggiungere agli restati? Venti esemplari basterebbero: trenta sarebbero d’avanzo.</p></postscript>
+                    <closer><salute>Tuo <expan><abbr>aff</abbr><ex>ezionatissi</ex><abbr>mo</abbr></expan></salute> <signed><persName ref="#PR">Pio Rajna</persName></signed></closer>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

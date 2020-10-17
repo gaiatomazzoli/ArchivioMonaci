@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ernesto Monaci a Graziadio Isaia Ascoli, 3 dicembre 1886</title>
+                <editor role="transcription"><persName>Chiara Maria Calcagni</persName></editor>
+                <editor role="encoding"><persName>Laura Pireddu</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2020-04-06"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl><bibl>Chiara Maria Calcagni, <title>Lettere scelte dal carteggio Ascoli-Monaci (1880/1906): trascrizione e commento</title>, tesi di laurea, Sapienza Università di Roma, a.a. 2018-2019</bibl></listBibl>
+                <msDesc>
+                    <msIdentifier><repository>Archivio di Ascoli ai Lincei, Biblioteca dell’Accademia dei Lincei e Corsiniana, Roma.</repository> <idno>Pacco n. 98,  lettera 57.</idno></msIdentifier>
+                    <msContents><summary corresp="#letter">Invio opuscolo in onore di Graziadio Isaia Ascoli.</summary></msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#roma">Roma</placeName>
+                    <date when="1886-12-03"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#GIA">Graziadio Isaia Ascoli</persName>
+                    <placeName ref="#sconosciuto">?</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                   <opener><dateline><placeName ref="#roma">Roma</placeName> <date when="1886-12-03">3 dicembre 1886</date></dateline>
+                       <salute>Venerato Amico e Signore</salute></opener>
+                    <p>Riceverà spero non oltre posdomani, un <title>opuscolino</title>, il quale doveva essere nelle mani Sue fin dal giovedì 
+                        della settimana passata. Malgrado il ritardo, per me incresciosissimo, confido che Ella vorrà accogliere con la 
+                        solita Sua benevolenza sul modesto ricordo di affezione sincera e immutabile.</p>
+                    <p>Ho mia madre ammalata, ma da jersera in via di miglioramento. La salute mia è buona, e vedo bene che Dio manda 
+                        il freddo secondo i panni.</p>
+                    <closer><salute>Il Suo</salute>
+                        <signed><persName ref="#EM">E. Monaci</persName></signed></closer>
+                </div>
+             </div>
+        </body>
+    </text>
+</TEI>
+

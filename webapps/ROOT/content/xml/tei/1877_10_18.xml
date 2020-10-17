@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Pio Rajna a Ernesto Monaci, 18 ottobre 1877</title>
+                <editor role="transcription"><persName>Alessia Di Virgilio</persName></editor>
+                <editor role="encoding"><persName>Giulia Lucchesi</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2020-03-26"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl><bibl>Alessia Di Virgilio, <title>Carteggio Monaci - Rajna (1873-1877)</title>, tesi di laurea, Sapienza Università di Roma, a.a. 2018-2019</bibl></listBibl>
+                <msDesc>
+                    <msIdentifier><repository>Archivio Monaci, Società Filologica Romana, presso il Dipartimento di Studi Europei, Americani e Interculturali, Sapienza, Università di Roma.</repository> <idno>Busta n. 22, fascicolo 1095, lettera 34</idno></msIdentifier>
+                    <msContents><summary corresp="#postcard">Cartolina di Pio Rajna a Ernesto Monaci del 18 ottobre 1877.</summary></msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#PR">Pio Rajna</persName>
+                    <placeName ref="#roma">Roma</placeName>
+                    <date when="1877-10-18"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#sconosciuto">?</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                    <opener><salute><expan><abbr>C</abbr><am>.</am><ex>arissimo</ex></expan> <expan><abbr>A</abbr><am>.</am><ex>mico</ex></expan></salute></opener>
+                    <p>
+                    Approvo pienamente la sostituzione della voce <hi rend="underline">giornale annuario</hi> ricordava anche
+                        troppo il <persName>Fahrbahn</persName>. Quanto al resto, siccome per l’<title ref="#attila">Attila</title> il tempo
+                        non è proprio sufficiente, e d’altronde la ragione della varietà che tu metti avanti è di moltissimo peso,
+                        specialmente per un primo numero, rimedierò con uno scambio. Manderò a te ciò che volevo dare al
+                        <persName ref="#GG">Grӧber</persName>, e viceversa. Forse anche per la <title ref="#ZrP">Zeitschrift</title>
+                        è meglio. I motivi che mi inducevano a fare diversamente, ben considerati non sono di tal sorta che non ci
+                        si possa passare sopra. Lascio dunque subito il lavoro a cui m’ero messo, e riprendo i frammenti di favole francesi,
+                        per non abbandonarti finché non sian sbrigati del tutto. Bada peraltro di non te lo figurare cosa importantissima.
+                        Avrei anche una <title ref="#canto">preghiera prosificata alla Vergine</title>, trascritta da un codice Senese.
+                        La conosci? Per la stessa ragione della varietà vorresti anche questa? Bisognerebbe solo assicurarsi che non sia
+                        la medesima pubblicata dal <persName ref="#EL">Loescher</persName> in un opuscolo di cui trovo
+                        l’annuncio nell’ultimo numero della <title ref="#ROM">Romania</title>.
+                        La mia comincia: Flor de paradis…
+                    </p>
+                    <postscript><p>P.S. Mi giunge adesso la tua <title type="letter" ref="./1877_10_17.html">seconda cartolina</title>. Siamo perfettamente intesi salvo su quelle liete speranze.
+                        Confido ancor io di vedere prosperare durevolmente il nuovo giornale. Ma guarda se non fondassi tal mia fiducia
+                        su infondo pochi soldi che non possa essere la mia collaborazione!</p></postscript>
+                    </div>
+            </div>
+        </body>
+    </text>
+</TEI>

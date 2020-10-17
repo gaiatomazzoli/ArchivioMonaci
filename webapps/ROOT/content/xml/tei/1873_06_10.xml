@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Ernesto Monaci a Paul Meyer, 10 giugno 1873</title>
+            <editor role="transcription"><persName>Marco Veneziale</persName></editor>
+            <editor role="encoding"><persName>Francesca Iacuzzo</persName></editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+            <date when="2016-11-30">novembre 2016</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><repository>Bibliothèque Nationale de France.</repository></msIdentifier>
+               <msContents><summary corresp="#letter">Lettera di Ernesto Monaci a Paul Meyer del 10 giugno 1873.</summary></msContents>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#EM">Ernesto Monaci</persName>
+               <placeName ref="#roma">Roma</placeName>
+               <date when="1873-06-10">10 giugno 1873</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#PM">Paul Meyer</persName>
+               <placeName ref="#sconosciuto">?</placeName>
+               <date/>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="transcription" xml:lang="it">
+            <div type="textpart" subtype="letter">
+            <opener>
+               <dateline>
+                  <placeName ref="#roma">Roma</placeName>
+                  <date when="1873-06-10">10 giugno 1873</date>
+               </dateline>
+               <salute>Mio riverito signore</salute>
+            </opener>
+               <p>Le accuso ricevimento di fr. 40 in tre biglietti della Banca di
+                  <placeName ref="#francia">Francia</placeName> da lei speditimi per posta, assicurati, il giorno
+                  <date>5</date> corr. a totale pagamento della copia di alcuni fogli della cronaca
+               di Stramboldi esistente nella Vaticana, fatta eseguire pel signor de <persName ref="#LDML">Mas
+                  Latrie</persName>. La ringrazio dell’onore che Ella fa al mio libretto parlandone
+                  nella <title ref="#ROM">Romania</title>. Pubblicato per nozze, e quindi per un circolo di
+               lettori non troppo dediti alla filologia, esso non poteva certamente aspirare a
+               richiamar l’attenzione a l’esame di uno scienziato. Sento perciò tutta la cortesia
+               che Ella ha voluto curarmi. Riguardo alle poche parole da me premesse alla raccolta,
+               le fo osservare che io citai quel passo del suo articolo sul
+                  <title ref="#cancioneirinho">Cancionerihno</title> non già per combatterlo, ma sibbene per confortare le
+               parole mie coll’autorità del suo giudizio; poiché siamo pienamente d’accordo che la
+               forma attuale di quei canti sia letteraria e non popolare. – Vi era però un punto sul
+               quale le nostre vedute mi pareva divergessero. Dopo aver detto che quelle poesie non
+               sono “propriamente popolari”, Ella avea soggiunto: “qu’elles soient par la suite
+               devenues pop. c’est ce qu’on peut regarder comme fort probable”, e citava l’esempio
+               di <persName>S. de B.</persName> che amava sentire i suoi versi cantati dalle
+               fanciulle che andavano alla fontana. Evidente quindi mi sembrava la sua conclusione;
+               che cioè quelle poesie, prima nella letteratura e poi fossero passate nel popolo. Io
+               invece pensavo che dal popolo esse fossero passate nella letteratura. Ciò mi fece
+               aggiungere quelle poche linee di osservazioni che posi nella p. IX. – Ma elle ora mi
+               dice non esistere nemmeno un’ombra di differenza tra le nostre opinioni, ed io me ne
+               rallegro sinceramente trovando dalla mia parte un giudice così autorevole: solo
+               confesso di non sapermi ancora persuadere che i due passi sopra citati contengano un
+               senso identico. Se tuttavia è così La prego a perdonarmi questo plagio involontario.
+               Del resto non posso ammettere che, se non esiste oggi differenza d’opinione tra noi,
+               esisterà forse un giorno quando Ella abbia dimostrato i rapporti tra quelle poesie
+               port. e le ant. franc. del <title type="manuscript" key="Codice Douce 308">Cod. Douce 308</title>. Ove ciò avvenga, io non
+               sento alcuna ripugnanza a correggere le mie opinioni, e affretto anzi col desiderio
+               il momento che i suoi studi vengano a gettare questa nuova luce sopra una letteratura
+               che studio con molto amore.</p>
+            <closer>Intanto gradisca di nuovo i miei ringraziamenti e i sensi della mia più sincera
+               stima e devozione
+               <signed><persName ref="#EM">Ernesto Monaci</persName></signed></closer>
+            <postscript>
+               <p>P.S. mi scrive <persName ref="#EMS">Stengel</persName> da <placeName ref="#marburg">Marburg</placeName> che il
+                  fasc. V della <title ref="#ROM">Romania</title> è uscito da oltre un mese. È
+                  vero? Noi non l’abbiamo ancora ricevuto.</p>
+            </postscript>
+         </div>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Graziadio Isaia Ascoli a Ernesto Monaci, 9 maggio 1902</title>
+                <editor role="transcription"><persName>Chiara Maria Calcagni</persName></editor>
+                <editor role="encoding"><persName>Giulia Lucchesi</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2020-04-03"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl><bibl>Chiara Maria Calcagni, <title>Lettere scelte dal carteggio Ascoli-Monaci (1880/1906): trascrizione e commento</title>, tesi di laurea, Sapienza Università di Roma, a.a. 2018-2019</bibl></listBibl>
+                <msDesc>
+                    <msIdentifier><repository>Archivio Monaci, Società Filologica Romana, presso il Dipartimento di Studi Europei, Americani e Interculturali, Sapienza, Università di Roma.</repository> <idno>Busta n. 1, fascicolo 49, lettera 100</idno></msIdentifier>
+                    <msContents><summary corresp="#letter">Lettera di Graziadio Isaia Ascoli a Ernesto Monaci del 9 maggio 1902.</summary></msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#GIA">Graziadio Isaia Ascoli</persName>
+                    <placeName ref="#milano">Milano</placeName>
+                    <date when="1902-05-09"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#roma">Roma</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="envelope">
+                    <head><note>Fronte cartolina postale</note></head>
+                    <opener><salute>All’illustre signore</salute>
+                        <salute><expan><abbr>Prof</abbr><am>.</am><ex>essor</ex></expan> 
+                            Comm. <persName ref="#EM">Ernesto Monaci</persName></salute>
+                        <address><addrLine><placeName ref="#roma">Roma</placeName> Piazza Capranica 95 II</addrLine></address></opener>
+                </div>
+                    <div type="textpart" subtype="letter">
+                        <head><note>Retro cartolina postale</note></head>
+                    <opener><dateline><placeName ref="#milano">Milano</placeName>, <date when="1902-05-09">9. 5, ’902</date></dateline></opener>
+                        <p>Onorando e caro collega; il suo <title type="letter" ref="./1902_05_07.html">telegramma</title> mi ha molto commosso. È un nuovo documento della nobiltà 
+                        dell’animo Suo, poiché io altro non ho fatto se non una parte del mio dovere! 
+                        Molto poi mi rallegra la notizia che il <hi rend="underline">trasporto</hi> sia imminente. Ha Ella preso notizia del verbale 
+                        che si legge nel 4° fascicolo della <title ref="#RGI"><hi rend="underline">Rivista geografica Italiana</hi></title> (aprile 1902)? 
+                        Il <persName ref="#CdN">De Negri</persName> poi si mostra deferente alla nostra impresa, ma rivolge 
+                        ai <orgName ref="#AccLin">Lincei</orgName> un’ammonizione che può parere tutt’altro che opportuna. 
+                        Confido però che non valga a sgomentare nessuno; e noi riusciremo, per vie molto quiete, a persuadere 
+                        all’onorevole <persName ref="#NN">Nasi</persName> il nostro decretino. 
+                        </p>
+                    
+                        <closer><salute>l’aff.mo <expan><abbr>div</abbr><am>.</am><ex>otissi</ex><abbr>mo</abbr></expan>
+                        Suo</salute>
+                            <signed><persName ref="#GIA"><expan><abbr>G</abbr><am>.</am><ex>raziadio</ex></expan> 
+                        <expan><abbr>I</abbr><am>.</am><ex>saia</ex></expan> Ascoli</persName></signed></closer>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>
+

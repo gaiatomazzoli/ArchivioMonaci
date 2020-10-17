@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ernesto Monaci a Graziadio Isaia Ascoli, 4 dicembre 1904</title>
+                <editor role="transcription"><persName>Chiara Maria Calcagni</persName></editor>
+                <editor role="encoding"><persName>Mariangela Distilo</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2020-02-26"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl><bibl>Chiara Maria Calcagni, <title>Lettere scelte dal carteggio Ascoli-Monaci (1880/1906): trascrizione e commento</title>, tesi di laurea, Sapienza Università di Roma, a.a. 2018-2019</bibl></listBibl>
+                <msDesc>
+                    <msIdentifier><repository>Archivio Ascoli, Accademia Nazionale dei Lincei, presso la Biblioteca dell’Accademia dei Lincei e Corsiniana, Roma.</repository> <idno>Lettera 97/8</idno></msIdentifier>
+                    <msContents><summary corresp="#letter">Lettera di E. Monaci a G.I. Ascoli del 4 dicembre 1904</summary></msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#roma">Roma</placeName>
+                    <date when="1904-12-04"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#GIA">Graziadio Isaia Ascoli</persName>
+                    <placeName ref="#sconosciuto">?</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                    <opener><dateline><placeName ref="#roma">Roma</placeName> <date when="1904-12-04">4. XII. ’904</date></dateline>
+                        <salute>Mio signore e maestro venerato</salute></opener>
+                    <p>Prima di tutto: congratulazioni di cuore per l’atto energico con cui il Ministro <persName ref="#VEO">Orlando</persName> ha riparato alla ingratitudine e alla pusillanimità della Facoltà di <placeName ref="#milano">Milano</placeName>!</p>
+                    <p>Quanto ai <title ref="#ricordi">Ricordi</title>, io non desideravo e non desidero se non di pubblicarli nei <title ref="#SR"><hi rend="underline">St. Romanzi</hi></title>. Temevo che la prossima conclusione degli accordi con l’<orgName ref="#AccLin">Acc. dei Lincei</orgName> me li facesse perdere. Ma, dacché non è così, mando subito il ms. alla stamperia. Sulle bozze Ella poi farà tutti quei ritocchi che vorrà. Quanto alla Introduzione, mi permetta di pregarLa affinché Ella stessa voglia, su quell’abbozzo che le mandai e di cui non conservo copia, indicarmi o – meglio ancora – mutare addirittura tutti i passi che non debbono restare come stanno.</p>
+                    <p>Finora il <persName ref="#PB">Blaserna</persName> non mi ha chiamato, ma in questi giorni egli è occupatissimo, e non dubito che in breve mi sarà dato d’intendermi anche con lui. Diversamente, il Leu. <persName ref="#FDO">D’Ovidio</persName> ormai sarà un sicuro intermediario.</p>
+                    <closer><salute>Il suo <expan><abbr>aff</abbr><am>.</am><ex>ezionatissi</ex><abbr>mo</abbr></expan></salute>
+                        <signed><persName ref="#EM">Ern. Monaci</persName></signed></closer>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

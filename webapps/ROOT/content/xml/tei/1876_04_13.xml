@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Pio Rajna a Ernesto Monaci, 13 aprile 1876</title>
+                <editor role="transcription"><persName>Alessia Di Virgilio</persName></editor>
+                <editor role="encoding"><persName>Virginia Machera</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2020-03-28"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl><bibl>Alessia Di Virgilio, <title>Carteggio Monaci - Rajna (1873-1877)</title>, tesi di laurea, Sapienza Università di Roma, a.a. 2018-2019</bibl></listBibl>
+                <msDesc>
+                    <msIdentifier><repository>Archivio Monaci, Società Filologica Romana, presso il Dipartimento di Studi Europei, Americani e Interculturali, Sapienza, Università di Roma.</repository> <idno>Busta n. 22, fascicolo 1095, lettera XXV</idno></msIdentifier>
+                    <msContents><summary corresp="#letter">Rajna a Monaci, XXV</summary></msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#PR">Pio Rajna</persName>
+                    <placeName ref="#milano">Milano</placeName>
+                    <date when="1876-04-13"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#sconosciuto">?</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                    <opener><dateline><placeName ref="#milano">Milano</placeName>, <date when="1876-04-13">13 Aprile 76</date></dateline>
+                        <salute>Carissimo <persName ref="#EM">Monaci</persName></salute></opener>
+                    <p>Un’edizione della <title ref="#vitanuova">Vita Nuova</title>, sta da tempo nei miei disegni. Ma dev’ essere un’edizione critica, fondata sulla classificazione dei manoscritti, e insieme anche sullo studio dell’ortografia dantesca. Il testo che preparai per il <persName ref="#ADA">D’Ancona</persName> non è solo un lavoro per così dire approssimativo. Acconsentii ad addossarmi quella parte, solo perché al <persName ref="#ADA">D’Ancona</persName> non potevo dire no.</p>
+                    <p>Del resto gli spogli dei manoscritti non erano sufficienti né abbastanza sicuri. Poi, avevo cominciato appena, che mi trovai impigliato in tutt’altre brighe, le quali m’impedivano sempre più di fa le cose come avrei voluto. Dunque adesso l’edizione che vagheggio richiederebbe e fatiche, e spese, e viaggi, a cui per / ora non posso proprio sobbarcarmi. E anche terminata la stampa assai gravosa del mio <title ref="#ariosto"><persName type="author" ref="#ariosto">Ariosto</persName></title>, non mi sarà possibile di mettermi a questa nuova impresa. Dopo essermi cavato gli occhi per più mesi sulle bozze, farei una pazzia se non pensassi a riposare la vista, che già fin d’ora sento assai stanca. Ho molte lagnanze da muovere a Mamma Natura: ma gli occhi almeno me li poteva proprio dar migliori.</p>
+                    <p>Vedo bene i pericoli a cui si va incontro. Ma che fare? Alla peggio ci ritireremo tutti quanti, riserbandoci di fare a miglior tempo. I nostri nomi non furono ancora messi avanti, e se lo <persName ref="#NZ">Zanichelli</persName> ricascherà nei soliti, lo lasceremo fare. Diremo anche noi come dell’uva la volpe: tanto non era matura.</p>
+                    <closer><salute>Addio, mio caro. Voglio bene al Tuo <expan><abbr>aff</abbr><am>.</am><ex>ezionatissi</ex><abbr>mo</abbr></expan></salute> <signed><persName ref="#PR">P. Rajna</persName></signed>
+                    </closer>
+                    
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

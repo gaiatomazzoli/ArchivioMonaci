@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Graziadio Isaia Ascoli a Ernesto Monaci, 22 marzo 1902</title>
+                <editor role="transcription"><persName>Chiara Maria Calcagni</persName></editor>
+                <editor role="encoding"><persName>Simone Palmieri</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2020-02-26"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl><bibl>Chiara Maria Calcagni, <title>Lettere scelte dal carteggio Ascoli-Monaci (1880/1906): trascrizione e commento</title>, tesi di laurea, Sapienza Università di Roma, a.a. 2018-2019</bibl></listBibl>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Archivio Monaci, Società Filologica Romana, presso il
+                            Dipartimento di Studi Europei, Americani e Interculturali, Sapienza,
+                            Università di Roma.</repository>
+                        <idno>Busta n. 1, fascicolo 49, lettera XCV</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary corresp="#letter">Lettera di Graziadio Isaia Ascoli a Ernesto Monaci del 22 marzo 1902.</summary>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#GIA">Graziadio Isaia Ascolti</persName>
+                    <placeName ref="#milano">Milano</placeName>
+                    <date when="1902-03-22"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#sconosciuto">?</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                    <opener>
+                        <dateline>
+                            <placeName ref="#milano">Milano</placeName>, <date when="1902-03-22">22.3.’902</date></dateline>
+                          </opener>
+                    <p>Onorato e caro collega; spero che la Sua indisposizione sia cessata, e vengo prima di tutto a congratularmi per le buone disposizioni del 
+                        <persName ref="#IG">Guidi</persName> e del <persName ref="#PB">Blaserna</persName> Quanto alla prosa dell 
+                        Com.m.<persName ref="#CdN"> De Negri</persName>, comprendo molto bene che non Le potrebbe piacere. 
+                        Ma bisogna aver pazienza; e un nostro amico strettissimo mi assicura, che, non ostante la ruvidezza della forma, il 
+                        <persName ref="#CdN">De <expan><abbr>N</abbr><am>.</am><ex>egri</ex></expan></persName> punto non va tra i peggiori. 
+                        Ella vincerà di certo ogni ostacolo, e io naturalmente sono a disposizione Sua. Per tutto quanto non le paresse non superflua la mia qualunque intervenzione.rinseiremo 
+                        di certo e il merito sarà Suo; ma intanto non sarà forse fuori di luogo qualche ulteriore schiarimento.</p>
+                    <p>L’idea del sign. <persName ref="#CdN">De <expan><abbr>N</abbr><am>.</am><ex>egri</ex></expan></persName> 
+                        di semplificare l’operazione ricorrendo a determinati <rs type="topic" key="Spoglio toponomastico">spogli</rs> da chiedersi ai Comuni (e in ispecie vuol dire a <rs type="topic" key="Spoglio toponomastico">spogli toponomastici</rs> 
+                        delle sezioni rurali delle rispettive frazioni), non è punto nuova, e io di certo non la ho mai osteggiata, poiché io mi trovava nella condizione di chi pensa: ‘pigliamo comunque ciò che si può pigliare’. 
+                        Ma come ottenere codesti spogli? Taluno diceva: Il <persName ref="#NN">ministro dell’Istruzione</persName> si rivolga ai rispettivi Comuni e spieghi loro l’importanza dell’opera a cui intendeva chiamarli e a cui del resto nessuna 
+                        disposizione regolamentare li avrebbero obbligati. Al che si obbiettava: è troppo incerta cosa il decidere quali i Comuni avrebbero ad essere interpellati e quali no; troppo incerta cosa l’adesione dei 
+                        Comuni che pure fossero interpellati; troppo incerto il modo in cui avrebbero eseguito lo spoglio pur quelli che aderissero; quand’era all’incontro manifesto che il postulato essenziale era aver lo spoglio 
+                        di tutti i Comuni che avessero materia da offrirci e averlo da tutti al modo stesso.</p>
+                    <p>A questo postulato risponderebbe lo spoglio che si facesse sul complesso generale delle buste che stanno raccolte presso la Direzione della Italianistica. 
+                        Ma qui, è vero, c’è la plettora della suppellettile sterminata.</p> 
+                    <p>A ogni modo dello spediente di un appello del Ministro a un determinato numero di Comuni, nessuno ha mai più par. dopo il primo momento, lato. 
+                        E la conservazione di tutte le buste presso la Direzione della Statistica, dopo che ne erano state estratte le schede contenenti i dati demografici, 
+                        prova senz’altro che da quel cumulo di buste s’intendeva ritrovare l suppellettile toponomastica.</p>           
+                    <p> Nell’aprile del 1891 la compilazione di questa suppellettile fu nuovamente discussa e richiesta nel <orgName ref="#CG">Congresso geografico</orgName> 
+                        tenutosi in <placeName ref="#milano">Milano</placeName>. Io non ci potei assistere, per la sventura che appunto allora mi piombava addosso; 
+                        e l’oratore fu <persName ref="#LP">Pullé</persName> poche dopo, c’incontrammo in <placeName ref="#roma">Roma</placeName>, per certe commissioni, 
+                        il <persName ref="#LP">Pullé</persName> ed io, e si rinnovarono i discorsi col <persName ref="#LB">Bodio</persName> 
+                        (a cui veramente si deve che la raccolta dei nomi fosse comunque riuscita) e col <persName ref="#ABR">Bosco</persName>, 
+                        ora diventato professore, ma allora cospicuo impiegato nella statistica. Si tiene tenne, e quattro insieme, una lunga 
+                        seduta <hi rend="underline">all’albergo di <placeName ref="#milano">Milano</placeName></hi> e nessuno ha più toccato dell’idea di un ricorso particolare a un dato numero di Comuni.</p>  
+                    <p> È all’incontro derivato, da quella conferenza, l’incarico all’egregio <persName ref="#ABR">Bosco</persName> di tentare qualche omaggio circa la quantità del guadagno che 
+                        la toponomastica avrebbe ritratto dallo spoglio delle buste. E non molti giorni dopo, egli ebbe la compiacenza di portar in Senato lo spoglio contenente alcune 
+                        <hi rend="underline">frazioni di Comune</hi>, scelte fra le diverse Province dello Stato. Il guadagno aveva a risultare dal rapporto tra l’unico nome, che sta per la data 
+                        <hi rend="underline">frazione di Comune</hi> nel <title>Dizionario postale</title>, e i diversi nomi che l’ulteriore frazionamento veniva a dare per la stessa 
+                        <hi rend="underline">frazione di Comune</hi> nella raccolta delle buste. Sarà stato, se ben ricordo, lo spoglio di una dozzina di 
+                        <hi rend="underline">frazioni di Comune</hi>. Una di <placeName ref="#calabria">Calabria</placeName> dava il guadagno di 
+                        <hi rend="underline">uno a diciassette</hi>; una di <placeName ref="#lombardia">Lombardia</placeName> di 
+                        <hi rend="underline">uno a dieci</hi>; una del <placeName ref="#piemonte">Piemonte</placeName>, scarso guadagno; una di 
+                        <placeName ref="#sardegna">Sardegna</placeName> (o forse d’altra regione), nessun guadagno; ecc. rimanemmo abbastanza confortati 
+                        e si stabilì di estendere l’assaggio a un centinajo circa di <hi rend="underline">frazione di comune</hi>. ritornato io poco appresso, e sempre sotto l’egida del 
+                        <persName ref="#LB">Bodio</persName>, all’ufficio della Statistica, non ci trovai più il 
+                        <persName ref="#ABR">Bosco</persName>, ma ebbi a trattenermi lungamente con un altro molto intelligente impiegato (il cui nome non posso più dire se sia 
+                        <persName ref="#AA">Aschieri</persName> o <persName ref="#ER">Raseri</persName>), che aveva la sua stanza piena di buste e continuava il lavoro. 
+                        Pareva che di questa continuazione io dovessi ricever qualche notizia a <placeName ref="#milano">Milano</placeName>; 
+                        ma io nulla più riseppi, tranne che dell’inquietudine, che in taluno era insorta, circa la conservazione delle buste.</p>   
+                    <p>A ogni modo, non mai alcun ritorno alla idea di nuove interpellanze ai Comuni. E qui tra parentesi, 
+                        Le confesserò una ragion particolare, per la quale (se già tant’altro non ci fosse stato) 
+                        a me doveva piùpiacere che si lavorasse sul cumulo generale che non sopra gli estratti di una data parte dei minori Comuni. 
+                        È una ragione che non va addotta ai profani, perché non ridano. 
+                        E sta in ciò: che le buste portano per tutti i Comuni, grandi e piccoli, i nomi delle via e delle piazze in cui risiedono i cittadini enumerati.</p>
+                    <p>Posseder la raccolta dei nomi di tutte le vie i tutte le città, grandi e piccole, dell’<placeName ref="#italia">Italia</placeName>, 
+                        e negligerla o lasciarla disperdere! Mi sarebbe parso un delitto.</p>  
+                    <p>Il grande impaccio è ora la mole eccessiva. Se l’operazione fosse potuta procedere razionalmente, quest’impaccio più non s’avrebbe. 
+                        Poiché, a cagion d’esempio, le città di <placeName ref="#roma">Roma</placeName>, <placeName ref="#milano">Milano</placeName>, 
+                        <placeName ref="#napoli">Napoli</placeName> Napoli, daranno un centomila buste ciascuna.</p> 
+                    <p>Se si rinunziava al nome delle vie, altro non restava, dopo estrattene le schede, se non di distruggere tutte le quattrocentomila buste. 
+                        E se pur non si rinunziava ai nomi delle vie, non si sarebbe però trattato di mantenere se non le buste portanti dei nomi in ispecial modo curiosi e perciò pochi; 
+                        onde sempre veniva, sin dal primo momento, una grande estimazione di buste.</p>
+                    <p>Ma ora che dunque si fa? Se una cerna tornasse possibile sul posto in cui le buste si trovano, bisognerebbe farla. Parmi però assolutamente improbabile che questa possibilità ci sia. 
+                        E allora altro non resta che di trasportare tutto il cumulo, dato che questo possa capire nei locali che sono disponibili a <placeName ref="#corsini">Palazzo Corsini</placeName>.</p>
+                    <p>E la spesa? Non sarà poi cosa dell’altro mondo! A me del resto pare, che, senza parlare alle Camere di stanziamenti più o meno cospicui, 
+                        i <orgName ref="#MPI">Ministri dell’Istruzione</orgName> e <orgName ref="#MinAgr">dell’Agricoltura</orgName> potrebbero sin d’ora combinare un decretino, col quale sarebbe istituita presso 
+                        i <orgName ref="#AccLin">Lincei</orgName> una Commissione che vegliasse all’ampliamento del <title>Dizionario geografico italiano</title> secondo le risultanze dei censimenti anagrafici, 
+                        con quella modesta provvisione che la segreteria della Commissione e il particolare servizio richiederebbe, provvisione da prestarsi per giusta metà fra i due dicasteri. 
+                        La Commissione riferirebbe, d’anno in anno, o da semestre in semestere, intorno al progresso dei lavori.</p>
+                   <p>Ma io scrivo e scrivo, e nulla o troppo poco Le dico, ch’Ella già non sappia o preveda molto meglio di me. Dunque mi scusi e lavori impavidamente, che sarà di certo con la più viva soddisfazione di tutti noi del mestiere, e di tutti gli omini de’ buoni studi.</p>
+                    <closer><salute>L’<expan><abbr>aff</abbr><am>.</am><ex>ezionatissi</ex><abbr>mo</abbr></expan> <expan><abbr>div</abbr><am>.</am><ex>otissi</ex><abbr>mo</abbr></expan> Suo</salute>
+                        <signed><persName ref="#GIA">G. I. Ascoli</persName></signed></closer>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

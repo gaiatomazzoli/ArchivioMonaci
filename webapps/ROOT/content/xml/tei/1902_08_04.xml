@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ernesto Monaci a Graziadio Isaia Ascoli, 4 agosto 1902</title>
+                <editor role="transcription"><persName>Chiara Maria Calcagni</persName></editor>
+                <editor role="encoding"><persName>Virginia Machera</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2020-04-04"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl><bibl>Chiara Maria Calcagni, <title>Lettere scelte dal carteggio Ascoli-Monaci (1880/1906): trascrizione e commento</title>, tesi di laurea, Sapienza Università di Roma, a.a. 2018-2019</bibl></listBibl>
+                <msDesc>
+                    <msIdentifier><repository>Archivio Ascoli, Biblioteca dell’Accademia dei Lincei e Corsiniana, Roma.</repository> <idno>Lettera 129/47</idno></msIdentifier>
+                    <msContents><summary corresp="#letter">Monaci discute con Ascoli l’esclusione dei quattro accademici per volontà del Ministro.</summary></msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#roma">Roma</placeName>
+                    <date when="1902-08-04"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#GIA">Graziadio Isaia Ascoli</persName>
+                    <placeName ref="#milano">Milano</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                    <opener><dateline><placeName ref="#roma">Roma</placeName> <date when="1902-08-04">4 agosto 1902</date></dateline>
+                        <salute>Mio Signore</salute></opener>
+                    <p>La sua nobile risposta ben potrebbe provocare un ravvedimento… Ma, se non m’inganno, dalla lettera del <persName ref="#NN">Ministro</persName> si tradisce un partito preso dal quale sarà difficile che receda: il partito di far entrare nell’opera il <persName ref="#LP">Pullè</persName> e di far escludere qualcun altro che al <persName ref="#LP">Pullè</persName> egli creda avverso.</p>
+                    <p>Un mese addietro il <persName ref="#NN">Ministro</persName> accettava tutta la <orgName ref="#Toponomastica">commissione</orgName> quale gli era stata proposta da Lei. Io ho veduto co’ miei occhi il testo del decreto già messo in buona copia per ordine del <persName ref="#NN">Ministro</persName>. Vi si leggevano tutti i nomi da Lei indicati, e ricordo che, per la firma, non si aspettava se non l’adesione di Lei all’aggiunta del nome del <persName ref="#LP">Pullè</persName>. Come va dunque che oggi il <persName ref="#NN">ministro</persName> non si perita di tornare sui suoi passi, e impone di escludere dalla commissione quattro accademici <hi rend="underline">a scelta</hi>? Forsechè le commissioni Accademiche costarono mai (almeno ai <orgName ref="#AccLin">Lincei</orgName>) un soldo di spesa? Non potendo dunque essere qui questione di bilancio, diventa manifesto che l’unico motivo di questa esclusione non può essere che una ripicca personale contro chi è sospettato reo di aver suscitato l’incidente col <persName ref="#LP">Pullè</persName> e che si vuole tagliar fuori ad ogni costo senza parlarne.</p>
+                    <p>Il raziocinio mi ha portato fin qui; ad andare più oltre si ribella la dignità umana. Ma tutte queste miserie non debbono intralciare un’opera che l’Italia aspetta da Lei e che Lei solo può condurre a compimento; non debbono procacciare la vittoria dei <persName ref="#CdN">De Negri</persName> e <persName>C ͥ.</persName>! E se l’<persName ref="#GIA">Ascoli</persName> si rifiutò di proporre al <persName ref="#NN">ministro</persName> qualunque eliminazione dalla lista accademica già concordata, la soluzione potrà venire per altra via, dato che, in questo caso, gli altri accademici la pensino – come spero – non diversamente da me. La soluzione potrebbe essere questa, che io, mentre ringrazio il <persName ref="#GIA">Maestro</persName> per l’altissimo onore di avermi designato a suo collaboratore, lo prego di far sapere a <expan><abbr>S</abbr><am>.</am><ex>ua</ex></expan> <expan><abbr>E</abbr><am>.</am><ex>ccellenza</ex></expan> il <persName ref="#NN">Ministro</persName> che non potrei peraltro accettar mai nel seno dell’<orgName ref="#AccLin">Accademia</orgName> un incarico che mi venisse da qualunque altra persona che non fosse il <persName ref="#PV">Presidente</persName> dell’<orgName ref="#AccLin">accademia</orgName> stessa. Superfluo aggiungere che io resterò sempre a disposizione del <persName ref="#GIA">maestro</persName> per qualunque servizio che io valessi a prestargli nella cosa fuori dall’ambito ufficiale. Ma che la cosa si ravvii ad ogni costo! Come cittadino italiano sento il diritto di fare questo voto</p>
+                    <closer><salute>il suo</salute>
+                        <signed><persName ref="#EM">Ern. Monaci</persName></signed> </closer>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

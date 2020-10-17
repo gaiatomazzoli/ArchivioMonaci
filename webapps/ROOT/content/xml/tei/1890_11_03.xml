@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Cesare De Lollis a Ernesto Monaci, 3 novembre 1890 (?)</title>
+                <editor role="transcription"><persName>Debora Matteo</persName></editor>
+                <editor role="encoding"><persName>Mariangela Distilo</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2020-02-26"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl><bibl>Debora Matteo, <title>Itinerario di un carteggio</title>, tesi di laurea, Sapienza Università di Roma, a.a. 2017-2018</bibl></listBibl>
+                <msDesc>
+                    <msIdentifier><repository>Archivio Monaci, Società Filologica Romana, presso il Dipartimento di Studi Europei, Americani e Interculturali, Sapienza, Università di Roma.</repository> <idno>Busta n. 8, fascicolo 394.</idno></msIdentifier>
+                    <msContents><summary corresp="#letter">Lettera di Cesare De Lollis a Ernesto Monaci del 3 novembre 1890 (?)</summary></msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#CDL">Cesare De Lollis</persName>
+                    <placeName ref="#genova">Genova</placeName>
+                    <date when="1890-11-03" cert="low"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#sconosciuto">?</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                    <p>[...]</p>
+                    <p>Oggi si adunerà la Facoltà (<persName ref="#LTB">Belgrano</persName>, <persName ref="#LC4">Cerrato</persName>, <persName ref="#FE">Eusebio</persName>) per ridomandare al <persName ref="#PB1">Ministro</persName> l’insegnamento delle Letterature neolatine. Naturalmente io sarei stato contentissimo che detti signori facessero il mio nome, come quello d’un candidato possibile. Ma il prof. <persName ref="#LTB">Belgrano</persName> ha assunto un atteggiamento passivo di fronte agli altri due i quali si sentono la coscienza involta di spine per l’impegno già altra volta assunto dal <persName ref="#EGP">Parodi</persName> e di farlo venir qui incaricato... Non c’è stato verso di convincerli che il <persName ref="#EGP">Parodi</persName> troverà presto sfogo altrove e può sin d’ora guardare dall’alto in basso una residenza come questa di <placeName ref="#genova">Genova</placeName> e un insegnamento umile come quello delle neolatine. Decisamente il <persName ref="#EGP">Parodi</persName> è come le belle donne, a cui piace esser desiderate da molti, per darsi ad uno solo in fine. Infatti l’<persName ref="#FE">Eusebio</persName> mi ha mostrato una lettera nella quale il <persName ref="#EGP">Parodi</persName> dichiara esplicitamente ch’egli non ha mai rinunziato all’ideale di venire a <placeName ref="#genova">Genova</placeName>, in una qualunque condizione. Io spero quindi, più che in altro, nelle intenzioni del <persName ref="#PB1">Ministro</persName>: e per questo mi spiace di essere e dover rimanere ancora per alcuni giorni lontano da <placeName ref="#roma">Roma</placeName>. Non vorrei che, lungi dall’occhio del padrone, il cavallo dimagrisse in modo da morir d’anemia.</p>
+                    <p>[...]</p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

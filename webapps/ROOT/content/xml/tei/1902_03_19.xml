@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ernesto Monaci a Graziadio Isaia Ascoli, 19 marzo 1902</title>
+                <editor role="transcription"><persName>Chiara Maria Calcagni</persName></editor>
+                <editor role="encoding"><persName>Simone Palmieri</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2020-02-26"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl><bibl>Chiara Maria Calcagni, <title>Lettere scelte dal carteggio Ascoli-Monaci (1880/1906): trascrizione e commento</title>, tesi di laurea, Sapienza Università di Roma, a.a. 2018-2019</bibl></listBibl>
+                <msDesc>
+                    <msIdentifier><repository>Archivio di Ascoli ai Lincei, presso la Biblioteca dell’Accademia dei Lincei e Corsiniana a Roma.</repository> 
+                        <idno>Lettera 128/10</idno></msIdentifier>
+                    <msContents><summary corresp="#letter">Lettera di Ernesto Monaci a Graziadio Isaia Ascoli del 19 marzo 1902.</summary></msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#roma">Roma</placeName>
+                    <date when="1902-03-19"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#GIA">Graziadio Isaia Ascoli</persName>
+                    <placeName ref="#sconosciuto">?</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                    <opener><dateline><placeName ref="#roma">Roma</placeName> <date when="1902-03-19"> 19 III 1902</date></dateline>
+                      <salute>Mio Signore</salute></opener>
+                    <p> andremo, si, a vele spiegate, se con noi sarà il pilota.</p> 
+                    <p> Non appena ricevuta la <title type="letter" ref="./1902_03_13.html">sua</title> del 13, parlai della cosa al <persName ref="#IG">Guidi</persName>, il quale è pronto a metter l’opera sua. Domenica poi vidi il 
+                        <persName ref="#PB">Blaserna</persName>, gli domandai se le buste depositate nei sotterranei dell’Acquario 
+                        avrebbero potuto essere trasportate nel palazzo del <orgName ref="#AccLin">Lincei</orgName> ad uso dei futuri lavori diretti da Lei, e n’ebbi risposta affermativa. 
+                        Così restava che si regolasse la faccenda del trasporto, e perciò mi recai al <orgName ref="#MinAgr">
+                            <expan><abbr>Min</abbr><am>.</am><ex>istero</ex></expan> d’<expan><abbr>Agr</abbr><am>.</am><ex>icoltura</ex>
+                                <abbr>Ind</abbr><am>.</am><ex>ustria</ex></expan> e Commercio</orgName>.</p>  	
+                        <p> Là ho veduto che ci fosse bisogno di una letterina Sua per dare un po’ di sveglia. Il direttore generale <persName ref="#CdN">De Negri</persName>, 
+                            ora a capo dell’ufficio di statistica, sollecitato dal gabinetto del ministro a rispondere per iscritto ai quesiti che già una settimana addietro gli erano stati fatti,
+                            jeri stesso mandava al Gabinetto un dispaccio, molto sguajato, di tre pagine, in cui finiva col dichiarare che non si rifiuta di consegnare le buste ai 
+                            <orgName ref="#AccLin">Lincei</orgName>, non avendone più alcun bisogno l’officio suo; ma che si tratta di sette milioni e dugentomila pezzi dal complessivo peso di kil. 65,000! 
+                            E aggiungeva esser necessario che l’accademia pensi al trasporto. Io ho chiesto che mi si mandi la copia della lettera per comunicarla testualmente a Lei, non intendendo di portare la parola del sign. 
+                            <persName ref="#CdN">De Negri</persName> finchè si esprime a quel modo. Perciò queste righe – che Le scrivo alla meglio dal letto ove m’inchioda una fiera nevralgia – 
+                            valgano soltanto per farle sapere a qual punto si trova la pratica; ma mi riservo di mandarle la copia della lettera tosto che mi sarà pervenuta, e allora forse anch’Ella troverà opportuno 
+                            che venga a <placeName ref="#roma">Roma</placeName> una Sua letterina, la quale valga a mettere le cose al posto. Mi scusi della fretta con cui scrivo e mi abbia sempre</p>   
+                    <closer><salute>il suo <expan><abbr>dev</abbr><am>.</am><ex>otissi</ex><abbr>mo</abbr></expan> e aff.mo</salute> 
+                        <signed><persName ref="#EM">Ern. Monaci</persName></signed></closer>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

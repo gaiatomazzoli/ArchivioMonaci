@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ernesto Monaci a Graziadio Isaia Ascoli, 13 aprile 1900</title>
+                <editor role="transcription"><persName>Chiara Maria Calcagni</persName></editor>
+                <editor role="encoding"><persName>Simone Palmieri</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2020-02-26"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl><bibl>Chiara Maria Calcagni, <title>Lettere scelte dal carteggio Ascoli-Monaci (1880/1906): trascrizione e commento</title>, tesi di laurea, Sapienza Università di Roma, a.a. 2018-2019</bibl></listBibl>
+                <msDesc>
+                    <msIdentifier><repository>Archivio di Ascoli ai Lincei, presso la Biblioteca dell’Accademia dei Lincei e Corsiniana a Roma.</repository> 
+                        <idno>Lettera 91/32</idno></msIdentifier>
+                    <msContents><summary corresp="#letter">Ernesto Monaci si scusa con Graziadio Isaia Ascoli per aver letto in ritardo il suo articolo</summary></msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#roma">Roma</placeName>
+                    <date when="1900-04-13"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#GIA">Graziadio Isaia Ascoli</persName>
+                    <placeName ref="#sconosciuto">?</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                  <opener><dateline><placeName ref="#roma">Roma</placeName>, <date when="1900-04-13">13 aprile 1900</date></dateline>
+                      <salute>Mio Signore</salute></opener>
+                    <p>Le chiedo scusa del ritardo con cui Le rimando le pagine del suo bellissimo 
+                        <title>articolo sui continuatori di <hi rend="underline">ipsu</hi></title>, 
+                        che riceverà in plico a parte. Ho dovuto passare parecchi giorni in diverse commissioni, e mi è stato impossibile di rimettermi, 
+                        prima di jeri, a frugare fra le mie carte. Le noterelle che accludo sono ben povera cosa; 
+                        ma dopo una esplorazione come la Sua è naturale che resti appena da spigolare. Del resto, mi riservo di ricercare ancora. </p>
+                    <p>Ma intanto Le mando senz’altro indugio questo poco, non fosse che per assicurarla del desiderio che ho di servirla. </p> 
+                    <closer><salute>Mi creda sempre</salute>
+                        <salute>Suo <expan><abbr>dev</abbr><am>.</am><ex>otissi</ex><abbr>mo</abbr></expan></salute>
+                         <signed><persName ref="#EM">Ern. Monaci</persName></signed></closer>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

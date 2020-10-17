@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ernesto Monaci a Pio Rajna, 27 dicembre 1874</title>
+                <editor role="transcription"><persName>Alessia Di Virgilio</persName></editor>
+                <editor role="encoding"><persName>Margherita Filippozzi</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2020-03-22"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl><bibl>Alessia Di Virgilio, <title>Carteggio Monaci - Rajna (1873-1877)</title>, tesi di laurea, Sapienza Università di Roma, a.a. 2018-2019</bibl></listBibl>
+                <msDesc>
+                    <msIdentifier><repository>Archivio Pio Rajna, Biblioteca Marucelliana, Firenze.</repository> <idno>Lettera XVIII.</idno></msIdentifier>
+                    <msContents><summary corresp="#letter">Lettera di Ernesto Monaci a Pio Rajna del 27 dicembre 1874.</summary></msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#roma">Roma</placeName>
+                    <date when="1874-12-27"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#PR">Pio Rajna</persName>
+                    <placeName ref="#sconosciuto">?</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                    <opener><dateline><placeName ref="#roma">Roma</placeName> <date when="1874-12-27">27 Dicembre 1874</date></dateline>
+                        <salute>Mio carissimo amico</salute></opener>
+                    <p>Grazie infinite delle <title type="letter" ref="./1874_12_25.html">tue lettere</title> delle notizie che mi dici di te, e che ho desiderato da tanto tempo.
+                        Grazie ancora delle generose lodi che prodighi sugli "<title ref="#uffizi">Uffizi</title>".</p>
+                    <p>L’è una roba un po’ curiosa, e fu nello studiarci intorno, che mi vennero tra mani tutte quelle altre materie da pubblicarsi:
+                        un dì o l’altro che n’abbia il tempo ci tornerò sopra e le preparerò per la stampa: ma adesso ho già troppa carne alla pentola.</p>
+                    <p>Della <rs type="topic" key="Agiografia"><expan><abbr>S</abbr><am>.</am><ex>anta</ex></expan> Caterina</rs> (nel <title type="manuscript" key="Codice XIII.D.59">Cod.XIII.D.59 <hi rend="underline">Bis,Mag.Nap.</hi></title>) mi scrisse il <persName ref="#AM">Mussafia</persName> quando andai a <placeName ref="#napoli">Napoli</placeName>,
+                        ed io stesso ne feci l’inter-copia che mandai a lui nel Luglio scorso.</p>
+                    <p>Col <persName ref="#MN">Niemeyer</persName> ecco come stanno le cose. Egli ha acquistato il diritto per una edizione del <title ref="#canzoniere">Canzoniere Portoghese</title> limitata a 500 copie.
+                        Sarà una edizione diplomatica che riprodurrà il <title type="manuscript" key="Manoscritto Vaticano">ms.</title> pagina per pagina, linea per linea con tutte le abbreviazioni e formerà perciò un grosso vol. in 4° di s in 6000 pag.
+                        Il compenso è fissato in talleri 8 per ogni foglio di stampa in 4°, cioè 1 tallo per pagina, e questi dovevano pagarsi secondo il con<pb break="no"/>tratto, metà a Luglio, facendosi la pubblicazione del vol., e l’altra metà nel Gennaio 76.
+                        In seguito però il <persName ref="#MN"><expan><abbr>N</abbr><am>.</am><ex>iemeyer</ex></expan></persName>, fosse un po’ preoccupato del preventivo sulle spese, mi ha chiesto di differire il pagamento dell’onorario dopo la vendita di 300 esemplari.
+                        Non volendo parere né duro né babbeo, ho risposto che lasciavo tutto alla sua lealtà. Vedremo. Per mia parte sono pronto a tutto:
+                        l’edizione del <title ref="#canzoniere">Canzoniere</title> già due volte ordinata, prima dall’<orgName ref="#AccLisb">Accademia reale di Lisbona</orgName>, e poi dall’<persName ref="#PII">Imperatore del <placeName ref="#brasile">Brasile</placeName></persName>,
+                        era rimasta sempre in asso, ed io non sono stato mai più fortunato nel <title ref="#canzoniere">Canzoniere Portoghese</title>…</p>
+                    <p>M’auguro che migliori condizioni trovi tu per il lavoro sull’<title ref="#ariosto">Ariosto</title>.
+                        Del resto, è quello un lavoro cui non può mancare assolutamente un bello onorario, essendo già troppo solida la reputazione che ti sei fatto e desideratissima l’opera mi ti aggiungi.
+                        Dove io potessi giovarti e con <persName ref="#MN"><expan><abbr>N</abbr><am>.</am><ex>iemeyer</ex></expan></persName> e in altro modo, scrivi.
+                        Sappi ancora che <persName ref="#EMS">Stengel</persName> è molto in relazione con <persName ref="#MN"><expan><abbr>N</abbr><am>.</am><ex>iemeyer</ex></expan></persName> e a cui debbo l’averlo conosciuto io.</p>
+                    <closer><salute>Fa buon anno, e pigliati un abbraccio di cuore del tuo affettuoso</salute>
+                    <signed><persName ref="#EM">Ernesto Monaci</persName></signed></closer>                    
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

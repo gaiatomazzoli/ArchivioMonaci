@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ernesto Monaci a Pio Rajna, 6 dicembre 1873</title>
+                <editor role="transcription"><persName>Alessia Di Virgilio</persName></editor>
+                <editor role="encoding"><persName>Mariangela Distilo</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2020-02-26"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl><bibl>Alessia Di Virgilio, <title>Carteggio Monaci - Rajna (1873-1877)</title>, tesi di laurea, Sapienza Università di Roma, a.a. 2018-2019</bibl></listBibl>
+                <msDesc>
+                    <msIdentifier><repository>Archivio Monaci, Società Filologica Romana, presso il Dipartimento di Studi Europei, Americani e Interculturali, Sapienza, Università di Roma.</repository> <idno>Busta n. 22, fascicolo 1095, lettera XII</idno></msIdentifier>
+                    <msContents><summary corresp="#postcard">Cartolina di Monaci a Rajna del 6 dicembre 1873</summary></msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#roma">Roma</placeName>
+                    <date when="1873-12-06"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#PR">Pio Rajna</persName>
+                    <placeName ref="#sconosciuto">?</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                    <opener><dateline><placeName ref="#roma">Roma</placeName> <date when="1873-12-06">6 Dicembre 1873</date></dateline>
+                        <salute>Egregio amico</salute></opener>
+                    <p>Comincio dal prendermi un’altra licenza, e metto dal un lato anche quel benedetto <hi rend="underline">voi</hi>. - Converrai che sul <hi rend="underline">voi</hi> non ci si può restar sempre; c’è una formula di transizione, e le transizioni più sono brevi e più sono belle. -  Del resto, finora stai tuttavia nel limbo, e poi accordare un altro po’ di confidenza a un mortale; domani che sarai portato ufficialmente tra’ celesti, chi ardirebbe più a chiedertene? - Dunque profitto del momento che mi resta. - </p>
+                    <p>Ma davvero che la tua elegia su quel rifacimento di bozze mi ha fatto proprio ridere. Come diavolo potevi pensare ch’io fossi in collera? Veramente c’era di che... Ti dico invece che sono ben contento che si arrivasse a tempo a riparar tutto. Quel che preme a me è che le cose vadano dirittamente: e se al tipografo ne cresce la fatica, meglio per lui. - Quanto alle seconde prove, esse furono rivedute da me, e ben pochi errori vi erano rimasti. Non mi <pb/> feci mandare la terza perché <persName ref="#PG">Galeati</persName> <hi rend="underline">mi assicurò</hi> che non ce n’era bisogno, e d’altro lato mi diceva che aveva urgenza di liberare i caratteri. - Come sia poi che gli estratti sieno venuti fuori soltanto adesso non me lo so spiegare; una copia me ne giunse jersera. Fino a questo momento mi sono accorto di una mancanza di una <hi rend="underline">s</hi> a <hi rend="underline">Norditalienischen</hi> (p. 8, n.4); ma per avventura non sarà la sola menda. - Oh mio caro, che molestia è questa partita delle bozze! - Basta: se vi troverai errori notevoli, segnalatemeli a tempo perché li possa tener pronti nell’ <expan><hi rend="underline"><abbr>err</abbr><ex>ata</ex> <abbr>corr</abbr><ex>ige</ex></hi></expan> e che sarò nel fasc. 4°.</p>
+                    <p><persName ref="#EMS">Stengel</persName> è a Marburg, e la sua dissertazione te la spedii io, avendola ricevuta con altra copia entro un plico di libri che mi mandò.</p>
+                    <p>La bella notizia della tua nomina all’<orgName ref="#AccLin">Accademia</orgName>, già l’avevo saputa dal <persName ref="#ADA">D’Ancona</persName>, e te ne fo i miei sinceri rallegramenti. Sono proprio lieto che si cominci a fare giorno anche qua, e che la scelta sia stata fatta così felicemente.</p>
+                    <p>Comincerai dunque coll’<title ref="#intelligenza"><hi rend="underline">Intelligenza</hi></title>? Molto bene <pb/> il soggetto è interessante e merita che una volta lo illustri come va.  Io farò di tutto per iscovare il codice vaticano; ma ti confesso che dubito di riuscirci, giacchè un’altra volta mi ci sono provato inutilmente. Il <persName ref="#FT">Trucchi</persName> non lasciò nota nel numero, ed oggi non si sa nemmeno in quale lezione della Vaticana si trovi. (Saprai che la <orgName ref="#BibVat">Vaticana</orgName> consta di parecchie biblioteche). Se si potesse frugare ne’ Cataloghi a piacere, il male sarebbe presto rimediato; ma né di tutte le sezioni si hanno i cataloghi, né agli estranei è permessi esaminarli liberamente. Basta: sta pur sicuro che se c’è modo di trovarlo, lo troverò, e tu ne avrai quello che desideri. </p>
+                    <p>Mi domandi del Canzoniere portoghese? Aspetto sempre che il fonditore sia comodo di consegnarci i caratteri che ti abbisognano. - Credimi pure che questa storia della fonderia è schifosa; ed io penso indirizzare il <persName ref="#PG">Galeati</persName> alla fonderia che ha dato i caratteri per l’<expan><hi rend="underline"><abbr>Arch</abbr><ex>ivio</ex> <abbr>Glott</abbr><ex>ologico</ex></hi></expan>. Forse sarà più sollecite di quella bolognese, che ci fornisce presentemente.</p>
+                    <p>In questo momento fo metter mano alla stampa dei fascicoli 4 e 5, che avendo una numerazione diversa potranno portarsi avanti contemporaneamente, facendoci così riparare un po’ del tempo perduto. Dubito però che i materiali mi bastino, avendo dovuto respingere due lunghi articoli, sui quali contavo. Tu ora sei occupatissimo, e non sono così indiscreto di domandarti: ma se ti trovassi qualcosa di già allestita da poterne disporre per la <title ref="#RFR"><hi rend="underline">Rivista</hi></title>, te ne sarei ben grato.</p>
+                    <p>Se vedi l’<persName ref="#GIA">Ascoli</persName> ti prego di riverirlo cordialmente da parte mia. Sono stato ben contento di aver conosciuto questa gloria nostra. Così desidero conoscere anche te, e finché non potremo abbracciarci, scambiamoci almeno le fotografie. Addio. </p>
+                    <closer><salute>Tuo <expan><abbr>aff</abbr><ex>ezionatissi</ex><abbr>mo</abbr></expan></salute> <signed><persName ref="#EM">Ernesto Monaci</persName></signed></closer>
+                    <postscript><p>P.S. spero che a quest’ora ti sieno giunti gli Estratti tuoi.</p></postscript>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,571 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Luoghi</title>
+            </titleStmt>
+            <publicationStmt>
+                <p/>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <listPlace>
+                <!-- Per ciascun luogo: xml:id, nome, nazione e ID del luogo in GeoNames (https://www.geonames.org/) -->
+                
+                <place xml:id="abruzzo">
+                    <placeName>Abruzzo</placeName>
+                    <country>Italia</country>
+                    <idno type="GeoNames">3183560</idno>
+                </place>
+                
+                <place xml:id="alpi">
+                    <placeName>Alpi</placeName>
+                    <country>Italia</country>
+                </place>
+                
+                <place xml:id="amburgo">
+                    <placeName>Amburgo</placeName>
+                    <country>Germania</country>
+                    <idno type="GeoNames">2911298</idno>
+                </place>
+                
+                <place xml:id="anzio">
+                    <placeName>Anzio</placeName>
+                    <country>Italia</country>
+                    <idno type="GeoNames">3183005</idno>
+                </place>
+                
+                <place xml:id="assisi">
+                    <placeName>Assisi</placeName>
+                    <country>Italia</country>
+                    <idno type="GeoNames">3182722</idno>
+                </place>
+                
+                <place xml:id="asti">
+                    <placeName>Asti</placeName>
+                    <country>Italia</country>
+                    <idno type="GeoNames">3182714</idno>
+                </place>
+                
+                <place xml:id="austria">
+                    <placeName>Austria</placeName>
+                    <country>Austria</country>
+                    <idno type="GeoNames">2782113</idno>
+                </place>
+                
+                <place xml:id="avenay">
+                    <placeName>Avenay</placeName>
+                    <country>Francia</country>
+                    <idno type="GeoNames">3035736</idno>
+                </place>
+                
+                <place xml:id="bergamo">
+                    <placeName>Bergamo</placeName>
+                    <country>Italia</country>
+                    <idno type="GeoNames">3182164</idno>
+                </place>
+                
+                <place xml:id="berlino">
+                    <placeName>Berlino</placeName>
+                    <country>Germania</country>
+                    <idno type="GeoNames">2950159</idno>
+                </place>
+                
+                <place xml:id="bologna">
+                    <placeName>Bologna</placeName>
+                    <country>Italia</country>
+                    <idno type="GeoNames">3181928</idno>
+                </place>
+                
+                <place xml:id="brasile">
+                    <placeName>Brasile</placeName>
+                    <country>Brasile</country>
+                    <idno type="GeoNames">3469034</idno>
+                </place>
+                
+                <place xml:id="braunschweig">
+                    <placeName>Braunschweig</placeName>
+                    <country>Germania</country>
+                    <idno type="GeoNames">6552297</idno>
+                </place>
+                
+                <place xml:id="brixlegg">
+                    <placeName>Brixlegg</placeName>
+                    <country>Austria</country>
+                    <idno type="GeoNames">2781391</idno>
+                </place>
+                
+                <place xml:id="budapest">
+                    <placeName>Budapest</placeName>
+                    <country>Ungheria</country>
+                    <idno type="GeoNames">3054643</idno>
+                </place>
+                
+                <place xml:id="caienna">
+                    <placeName>Cajenna</placeName>
+                    <country>Francia</country>
+                    <region>Guyana francese</region>
+                    <idno type="GeoNames">3382160</idno>
+                </place>
+                
+                <place xml:id="calabria">
+                    <placeName>Calabria</placeName>
+                    <country>Italia</country>
+                    <idno type="GeoNames">2525468</idno>
+                </place>
+                
+                <place xml:id="casalincontrada">
+                    <placeName>Casalincontrada</placeName>
+                    <country>Italia</country>
+                    <idno type="GeoNames">3180182</idno>
+                </place>
+                
+                <place xml:id="chieti">
+                    <placeName>Chieti</placeName>
+                    <country>Italia</country>
+                    <idno type="GeoNames">3178796</idno>
+                </place>
+                
+                <place xml:id="chioggia">
+                    <placeName>Chioggia</placeName>
+                    <country>Italia</country>
+                    <idno type="GeoNames">3178784</idno>
+                </place>
+                
+                <place xml:id="cina">
+                    <placeName>Cina</placeName>
+                    <country>Cina</country>
+                    <idno type="GeoNames">1814991</idno>
+                </place>
+                
+                <place xml:id="ciociaria">
+                    <placeName>Ciociaria</placeName>
+                    <country>Italia</country>
+                </place>
+                
+                <place xml:id="castello">
+                    <placeName>Città di Castello</placeName>
+                    <country>Italia</country>                   
+                    <idno type="GeoNames">3178619</idno>
+                </place>
+                
+                <place xml:id="clermont">
+                    <placeName>Clermont-Ferrand</placeName>
+                    <country>Francia</country>
+                    <idno type="GeoNames">3024635</idno>
+                </place>
+                
+                <place xml:id="corsica">
+                    <placeName>Corsica</placeName>
+                    <country>Francia</country>
+                    <idno type="GeoNames">3023517</idno>
+                </place>
+                
+                <place xml:id="vaticano">
+                    <placeName>Città del Vaticano</placeName>
+                    <country>Città del Vaticano</country>
+                    <idno type="GeoNames">3164670</idno>
+                </place>
+                
+                <place xml:id="cremona">
+                    <placeName>Cremona</placeName>
+                    <country>Italia</country>
+                    <idno type="GeoNames">3177838</idno>
+                </place>
+                
+                <place xml:id="fabriano">
+                    <placeName>Fabriano</placeName>
+                    <country>Italia</country>
+                    <idno type="GeoNames">3177315</idno>
+                </place>
+                
+                <place xml:id="ferrara">
+                    <placeName>Ferrara</placeName>
+                    <country>Italia</country>
+                    <idno type="GeoNames">3177090</idno>
+                </place>
+                
+                <place xml:id="firenze">
+                    <placeName>Firenze</placeName>
+                    <country>Italia</country>
+                    <idno type="GeoNames">3176959</idno>
+                </place>
+                
+                <place xml:id="foligno">
+                    <placeName>Foligno</placeName>
+                    <country>Italia</country>
+                    <idno type="GeoNames">3176854</idno>
+                </place>
+                
+                <place xml:id="francia">
+                    <placeName>Francia</placeName>
+                    <country>Francia</country>
+                    <idno type="GeoNames">3017382</idno>
+                </place>
+                
+                <place xml:id="frascati">
+                    <placeName>Frascati</placeName>
+                    <country>Italia</country>
+                    <idno type="GeoNames">3176589</idno>
+                </place>
+                
+                <place xml:id="friuli">
+                    <placeName>Friuli - Venezia Giulia</placeName>
+                    <country>Italia</country>
+                    <idno type="GeoNames">3176525</idno>
+                </place>
+                
+                <place xml:id="genova">
+                    <placeName>Genova</placeName>
+                    <country>Italia</country>
+                    <idno type="GeoNames">3176219</idno>
+                </place>
+                
+                <place xml:id="germania">
+                    <placeName>Germania</placeName>
+                    <country>Germania</country>
+                    <idno type="GeoNames">2921044</idno>
+                </place>
+                
+                <place xml:id="gubbio">
+                    <placeName>Gubbio</placeName>
+                    <country>Italia</country>
+                    <idno type="GeoNames">3175687</idno>
+                </place>
+                
+                <place xml:id="halle">
+                    <placeName>Halle an der Saale</placeName>
+                    <country>Germania</country>
+                    <idno type="GeoNames">2911522</idno>
+                </place>
+                
+                <place xml:id="italia">
+                    <placeName>Italia</placeName>
+                    <country>Italia</country>
+                    <idno type="GeoNames">3175395</idno>
+                </place>
+                
+                <place xml:id="aquila">
+                    <placeName>L’Aquila</placeName>
+                    <country>Italia</country>
+                    <idno type="GeoNames">3175121</idno>
+                </place>
+                
+                <place xml:id="ladinia">
+                    <placeName>Ladinia</placeName>
+                    <country>Italia</country>
+                </place>
+                
+                <place xml:id="liguria">
+                    <placeName>Liguria</placeName>
+                    <country>Italia</country>
+                    <idno type="GeoNames">3174725</idno>
+                </place>
+                
+                <place xml:id="lisbona">
+                    <placeName>Lisbona</placeName>
+                    <country>Portogallo</country>
+                    <idno type="GeoNames">2267057</idno>
+                </place>
+                
+                <place xml:id="lombardia">
+                    <placeName>Lombardia</placeName>
+                    <country>Italia</country>
+                    <idno type="GeoNames">3174618</idno>
+                </place>
+                
+                <place xml:id="madrid">
+                    <placeName>Madrid</placeName>
+                    <country>Spagna</country>
+                    <idno type="GeoNames">3117735</idno>
+                </place>
+                
+                <place xml:id="mantova">
+                    <placeName>Mantova</placeName>
+                    <country>Italia</country>
+                    <idno type="GeoNames">3174051</idno>
+                </place>
+                
+                <place xml:id="marburg">
+                    <placeName>Marburg</placeName>
+                    <country>Germania</country>
+                    <idno type="GeoNames">2873759</idno>
+                </place>
+                
+                <place xml:id="maselica">
+                    <placeName>Maselica</placeName>
+                    <country>Italia</country>                   
+                </place>
+                
+                <place xml:id="milano">
+                    <placeName>Milano</placeName>
+                    <country>Italia</country>
+                    <idno type="GeoNames">3173435</idno>
+                </place>
+                
+                <place xml:id="modena">
+                    <placeName>Modena</placeName>
+                    <country>Italia</country>
+                    <idno type="GeoNames">3173331</idno>
+                </place>
+                
+                <place xml:id="monacodibaviera">
+                    <placeName>Monaco di Baviera</placeName>
+                    <country>Germania</country>
+                    <idno type="GeoNames">2867714</idno>
+                </place>
+                
+                <place xml:id="santangelo">
+                    <placeName>Monte Sant’Angelo</placeName>
+                    <country>Italia</country>                    
+                </place>
+                
+                <place xml:id="münchen">
+                    <placeName>Monaco</placeName>
+                    <country>Germania</country>
+                    <idno type="GeoNames">2867714</idno>
+                </place>
+                
+                <place xml:id="napoli">
+                    <placeName>Napoli</placeName>
+                    <country>Italia</country>
+                    <idno type="GeoNames">3172394</idno>
+                </place>
+                
+                <place xml:id="nocera">
+                    <placeName>Nocera Umbra</placeName>
+                    <country>Italia</country>
+                    <idno type="GeoNames">6542042</idno>
+                </place>
+                
+                <place xml:id="oxford">
+                    <placeName>Oxford</placeName>
+                    <country>Regno Unito</country>
+                    <idno type="GeoNames">2640729</idno>
+                </place>
+                
+                <place xml:id="padova">
+                    <placeName>Padova</placeName>
+                    <country>Italia</country>
+                    <idno type="GeoNames">3171728</idno>
+                </place>
+                
+                <place xml:id="corsini">
+                    <placeName>Palazzo Corsini</placeName>
+                    <country>Italia</country>
+                </place>
+                
+                <place xml:id="palermo">
+                    <placeName>Palermo</placeName>
+                    <country>Italia</country>
+                    <idno type="GeoNames">2523920</idno>
+                </place>
+                
+                <place xml:id="paris">
+                    <placeName>Parigi</placeName>
+                    <country>Francia</country>
+                    <idno type="GeoNames">2988507</idno>
+                </place>
+                
+                <place xml:id="perugia">
+                    <placeName>Perugia</placeName>
+                    <country>Italia</country>
+                    <idno type="GeoNames">3171180</idno>
+                </place>
+                
+                <place xml:id="piemonte">
+                    <placeName>Piemonte</placeName>
+                    <country>Italia</country>
+                    <idno type="GeoNames">3170831</idno>
+                </place>
+                
+                <place xml:id="pierile">
+                    <placeName>Pierile</placeName>
+                    <country>Italia</country>                   
+                </place>
+                
+                <place xml:id="pisa">
+                    <placeName>Pisa</placeName>
+                    <country>Italia</country>
+                    <idno type="GeoNames">3170647</idno>
+                </place>
+                
+                <place xml:id="portogallo">
+                    <placeName>Portogallo</placeName>
+                    <country>Portogallo</country>
+                    <idno type="GeoNames">2264397</idno>
+                </place>
+                
+                <place xml:id="pozzuoli">
+                    <placeName>Pozzuoli</placeName>
+                    <country>Italia</country>
+                    <idno type="GeoNames">3169984</idno>
+                </place>
+                
+                <place xml:id="recanati">
+                    <placeName>Recanati</placeName>
+                    <country>Italia</country>
+                    <idno type="GeoNames">3169540</idno>
+                </place>
+                
+                <place xml:id="roma">
+                    <placeName>Roma</placeName>
+                    <country>Italia</country>
+                    <idno type="GeoNames">3169070</idno>
+                </place>
+                
+                <place xml:id="romania">
+                    <placeName>Romania</placeName>
+                    <country>Romania</country>
+                    <idno type="GeoNames">798549</idno>
+                </place>
+                
+                <place xml:id="sanpieroasieve">
+                    <placeName>San Piero a Sieve</placeName>
+                    <country>Italia</country>
+                    <idno type="GeoNames">3167869</idno>
+                </place>
+                
+                <place xml:id="sansepolcro">
+                    <placeName>Sansepolcro</placeName>
+                    <country>Italia</country>
+                    <idno type="GeoNames">3167736</idno>
+                </place>
+                
+                <place xml:id="sardegna">
+                    <placeName>Sardegna</placeName>
+                    <country>Italia</country>
+                    <idno type="GeoNames">2523228</idno>
+                </place>
+                
+                <place xml:id="siberia">
+                    <placeName>Siberia</placeName>
+                    <country>Russia</country>
+                    <idno type="GeoNames">11961345</idno>
+                </place>
+                
+                <place xml:id="sicilia">
+                    <placeName>Sicilia</placeName>
+                    <country>Italia</country>
+                    <idno type="GeoNames">2523119</idno>
+                </place>
+                
+                <place xml:id="siena">
+                    <placeName>Siena</placeName>
+                    <country>Italia</country>
+                    <idno type="GeoNames">3166548</idno>
+                </place>
+                
+                <place xml:id="siviglia">
+                    <placeName>Siviglia</placeName>
+                    <country>Spagna</country>
+                    <idno type="GeoNames">2510911</idno>
+                </place>
+                
+                <place xml:id="sondrio">
+                    <placeName>Sondrio</placeName>
+                    <country>Italia</country>
+                    <idno type="GeoNames">3166397</idno>
+                </place>
+                
+                <place xml:id="soriano">
+                    <placeName>Soriano nel Cimino</placeName>
+                    <country>Italia</country>
+                    <idno type="GeoNames">3166357</idno>
+                </place>
+                
+                <place xml:id="spagna">
+                    <placeName>Spagna</placeName>
+                    <country>Spagna</country>
+                    <idno type="GeoNames">2510769</idno>
+                </place>
+                
+                <place xml:id="stigliano">
+                    <placeName>Stigliano</placeName>
+                    <country>Italia</country>
+                    <idno type="GeoNames">3166141</idno>
+                </place>
+                
+                <place xml:id="svizzeraIT">
+                    <placeName>Svizzera italiana</placeName>
+                    <country>Italia</country>
+                    <idno type="GeoNames"></idno>
+                </place>
+                
+                <place xml:id="todi">
+                    <placeName>Todi</placeName>
+                    <country>Italia</country>
+                    <idno type="GeoNames">3165612</idno>
+                </place>
+                
+                <place xml:id="toledo">
+                    <placeName>Toledo</placeName>
+                    <country>Spagna</country>
+                    <idno type="GeoNames">2510409</idno>
+                </place>
+                
+                <place xml:id="torino">
+                    <placeName>Torino</placeName>
+                    <country>Italia</country>
+                    <idno type="GeoNames"></idno>
+                </place>
+                
+                <place xml:id="toscana">
+                    <placeName>Toscana</placeName>
+                    <country>Italia</country>
+                    <idno type="GeoNames">3165361</idno>
+                </place>
+                
+                <place xml:id="trentino">
+                    <placeName>Trentino - Alto Adige</placeName>
+                    <country>Italia</country>
+                    <idno type="GeoNames">3165244</idno>
+                </place>
+                
+                <place xml:id="valdobbiadene">
+                    <placeName>Valdobbiadene</placeName>
+                    <country>Italia</country>
+                    <idno type="GeoNames">3164931</idno>
+                </place>
+                
+                <place xml:id="veneto">
+                    <placeName>Veneto</placeName>
+                    <country>Italia</country>
+                    <idno type="GeoNames">3164604</idno>
+                </place>
+                
+                <place xml:id="venezia">
+                    <placeName>Venezia</placeName>
+                    <country>Italia</country>
+                    <idno type="GeoNames">3164603</idno>
+                </place>
+                
+                <place xml:id="volterra">
+                    <placeName>Volterra</placeName>
+                    <country>Italia</country>
+                    <idno type="GeoNames">6299613</idno>
+                </place>
+                
+                <place xml:id="wien">
+                    <placeName>Vienna</placeName>
+                    <country>Austria</country>
+                    <idno type="GeoNames">2761369</idno>
+                </place>
+                
+                <place xml:id="sconosciuto">
+                    <placeName>Non specificato</placeName>
+                </place>
+                
+            </listPlace>
+        </body>
+    </text>
+</TEI>

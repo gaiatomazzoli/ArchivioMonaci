@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Cesare De Lollis a Ernesto Monaci, 4 novembre 1890 (?)</title>
+                <editor role="transcription"><persName>Debora Matteo</persName></editor>
+                <editor role="encoding"><persName>Mariangela Distilo</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2020-02-26"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl><bibl>Debora Matteo, <title>Itinerario di un carteggio</title>, tesi di laurea, Sapienza Università di Roma, a.a. 2017-2018</bibl></listBibl>
+                <msDesc>
+                    <msIdentifier><repository>Archivio Monaci, Società Filologica Romana, presso il Dipartimento di Studi Europei, Americani e Interculturali, Sapienza, Università di Roma.</repository> <idno>Busta n. 8, fascicolo 394.</idno></msIdentifier>
+                    <msContents><summary corresp="#letter">Lettera di Cesare De Lollis a Ernesto Monaci del 4 novembre 1890 (?)</summary></msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#CDL">Cesare De Lollis</persName>
+                    <placeName ref="#genova">Genova</placeName>
+                    <date when="1890-11-04" cert="low"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#sconosciuto">?</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                    <p>[...]</p>
+                    <p>Sin dal primo giorno ch’io venni qui, m’accorsi che il <persName ref="#EGP">Parodi</persName>, del quale pur s’era sempre detto ed io avevo creduto non volesse più saper di <placeName ref="#genova">Genova</placeName>, lavorava attivamente. Volevo comunicarle il mio sospetto; ma non volli farlo, per tema d’ingannarmi: Le comunico oggi la lettera del <persName ref="#PR">Rajna</persName> che dice molto, dice tutto, che cioè a <placeName ref="#genova">Genova</placeName> io non devo pensare. [...] 
+                        D’altra parte, io son sicuro che il <persName ref="#EGP">Parodi</persName> considerò l’incarico genovese come un passatempo di pochi mesi: e non posso trovar giusto ch’egli attraversi la via a me, che volevo finalmente fermarmi, e provare se l’esistenza mi diventasse un po’ più tollerabile, mettendomi un po’ d’ordine nelle mie cose. 
+                        Quindi, io son risoluto a richiamare il <persName ref="#PB1">Ministro</persName> alle sue parole, che fu per <placeName ref="#genova">Genova</placeName>. È possibile che il <persName ref="#PB1">Ministro</persName>, per salvar capra e cavolo, voglia dare l’incarico al <persName ref="#EGP">Parodi</persName> in <placeName ref="#genova">Genova</placeName>, e mandare me a mangiare i mandarini della Conca d’Oro. 
+                        Ma io son deciso, in tal caso, a mettermi avanti per l’incarico a <placeName ref="#genova">Genova</placeName>, non dubitando che, per rispetto alla legalità, il <persName ref="#PB1">Ministro</persName> preferirà me a lui. [...] Consideri Ella il mio caso, e veda se non convenga ravvivare nel <persName ref="#PB1">Ministro</persName> le buone disposizioni che già mostrò di avere a mio riguardo. 
+                        S’Ella crede di non potersi recare di persona da lui, un Suo biglietto potrà forse, anzi, ne son convinto, dovrà salvar la mia posizione. Ella non va mai di Ministri, lo so: ma appunto per questo non dubito che la Sua parola, in questo momento, farebbe traboccare la bilancia dalla mia parte.</p>
+                    <p>[...]</p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Cesare De Lollis a Ernesto Monaci, maggio 1902 (?)</title>
+                <editor role="transcription"><persName>Margherita Filippozzi</persName>, <persName>Debora Matteo</persName></editor>
+                <editor role="encoding"><persName>Margherita Filippozzi</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2020-04-30"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl><bibl>Debora Matteo, <title>Itinerario di un carteggio</title>, tesi di laurea, Sapienza Università di Roma, a.a. 2017-2018</bibl></listBibl>
+                <msDesc>
+                    <msIdentifier><repository>Archivio Monaci, Società Filologica Romana, presso il Dipartimento di Studi Europei, Americani e Interculturali, Sapienza, Università di Roma.</repository> <idno>Busta n. 8, fascicolo 394.</idno></msIdentifier>
+                    <msContents><summary corresp="#letter">Lettera di Cesare De Lollis a Ernesto Monaci (attribuibile forse al maggio del 1902) in cui De Lollis accenna a un buona occasione offertagli, del cui successo si è incaricato <persName ref="#LC2">L. Ceci</persName>, e ribadisce il proprio impegno, perché gli "Studi di Filologia Romanza" possano diventare una vera e propria rivista.</summary></msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#CDL">Cesare De Lollis</persName>
+                    <placeName ref="#sconosciuto">?</placeName>
+                    <date when="1902-05" cert="low"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#sconosciuto">?</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                    <p>[...]</p>
+                    <p>Per quanto sta in me, vorrò fare il possibile perché gli <title ref="#SFR">Studj</title> s’avvicinino sempre più e meglio al tipo vero e proprio di rivista.
+                        Ma non si potrà riuscire, se non si fissano dei termini di tempo per la pubblicazione dei fascicoli,
+                        ché questa è la condizione per allettare i compagni di studio a collaborare col <title ref="#BollBibl"><hi rend="underline">Bollettino Bibliografico</hi></title>.
+                        Il quale, d’altra parte, non parrà essere alimentato che da una schiera di studiosi.
+                        È naturale che si esiti a mandare delle recensioni a una rivista ch’esce a liberi intervalli: essendovi sempre il pericolo ch’esse e i libri di cui trattano abbian perduto tutta la freschezza quando il nuovo fascicolo della rivista sarà uscito.</p>
+                    <p>So di essere io il colpevole: la mia colpa confesso e il mio proposito esprimo di mettermi alla prova con buona lena. Dopo uno o due fascicoli si vedrà l’andamento delle cose.</p>
+                    <p>Illusioni non me ne faccio, perché ho davanti agli occhi l’esempio del <persName ref="#RR">Renier</persName>, un lavoratore di prim’ordine,
+                        il quale, per tenere il <title ref="#GSLI">Giornale</title> a grande altezza, vi dedica quasi tutto sé stesso. [...] 
+                        Quanto alla mia faccenda, continuo a non saper nulla di preciso e ad aver fiducia in Lei e nel <persName ref="#LC2">Ceci</persName>; fiducia, s’intende, piena, incondizionata. [...] Della mia condizione qui io sono addirittura nauseato. La Facoltà s’è quest’anno ancor più assottigliata: e un insegnamento come il mio vi rappresenta meno che niente.
+                        M’è toccato un giorno di trovarmi in classe faccia a faccia con un unico uditore. [...] Creda che il caso è grave; e che per quanto si voglia essere uomo di spirito, vien anche il momento in cui si prova il bisogno di esser professore di qualche cosa e di qualcheduno, sul serio.</p>
+                    <closer><salute>Suo ben di cuore <expan><abbr>aff</abbr><ex>ezionatissimo</ex></expan> discepolo</salute> 
+                        <signed><persName ref="#CDL">Cesare De Lollis</persName></signed></closer>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

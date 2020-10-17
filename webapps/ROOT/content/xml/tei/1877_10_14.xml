@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Pio Rajna a Ernesto Monaci, 14 ottobre 1877</title>
+                <editor role="transcription"><persName>Alessia Di Virgilio</persName></editor>
+                <editor role="encoding"><persName>Susanna Casacchia</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2020-03-20"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl><bibl>Alessia Di Virgilio, <title>Carteggio Monaci - Rajna (1873-1877)</title>, tesi di laurea, Sapienza Università di Roma, a.a. 2018-2019</bibl></listBibl>
+                <msDesc>
+                    <msIdentifier><repository>Archivio Monaci, Società Filologica Romana, presso il Dipartimento di Studi Europei, Americani e Interculturali, Sapienza, Università di Roma.</repository> <idno>Busta n. 22, fascicolo 1095, lettera 37</idno></msIdentifier>
+                    <msContents><summary corresp="#postcard">Cartolina postale di Pio Rajna a Ernesto Monaci del 14 ottobre 1877.</summary></msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#PR">Pio Rajna</persName>
+                    <placeName ref="#milano">Milano</placeName>
+                    <date when="1877-10-14"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#sconosciuto">?</placeName>
+                    <date when="1877-10-16"/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                    <opener>
+                        <dateline><placeName ref="#milano">Milano</placeName>, <date when="1877-10-14">14 ottobre 77</date></dateline>
+                        <salute><expan><abbr>C</abbr><am>.</am><ex>arissimo</ex></expan> <expan><abbr>A</abbr><ex>mico</ex></expan></salute>
+                    </opener>
+                    <p>Il titolo da te scelto, mi pare stia bene. Soltanto, se fosse stato possibile trovare un nome unico avrei preferito. Ma per quanto mi guardi attorno, non vedo nulla di opportuno.
+                        <placeName ref="#paris">Parigi</placeName>, s’è presa ciò che c’era di veramente buono. – Ora dimmi due cose: 1. Se ti occorre da me un articolo lungo, oppure uno breve; 
+                        - 2. Entro qual termine debba esser consegnato il ms. – mi metterei volentieri al lavoro sull’<title ref="#attila"><hi rend="underline">Attila</hi></title>*, ma il tempo non mi par sufficiente, tanto più 
+                        che, per finirlo almeno, ho bisogno di un codice <hi rend="underline">Marciano</hi>. Ora sai quanto tempo si perde molte volte per una pratica di questo genere. – ho terminato 
+                        ora appunto un articolo intorno alle nostre cattedre. 
+                        Posto che si pubblichi – non sono ancora ben deciso - ciò avverrà nella <title ref="#NuovaAnt">Nuova Antologia</title>, e piuttosto nel fascicolo di Dicembre, che in quello di Novembre. 
+                        L’<persName ref="#GIA">Ascoli</persName> partì jeri per la <placeName ref="#ladinia"><hi rend="underline">Ladinia</hi></placeName>, dove va a studiare i nomi locali. 
+                        Avremo di certo un lavoro di somma importanza. 
+                    </p>
+                 <closer><salute>– voglimi bene e credimi Il tuo</salute> 
+                     <signed><persName ref="#PR"><expan><abbr>P</abbr><am>.</am><ex>io</ex></expan> Rajna </persName></signed>
+                 </closer>
+                    <postscript><p>*quello già annunziato sulla copertina d’uno dei primi <title ref="#RFR">fascicoli</title></p></postscript>
+                    </div>
+            </div>
+        </body>
+    </text>
+</TEI>

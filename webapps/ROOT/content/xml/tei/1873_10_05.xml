@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ernesto Monaci a Pio Rajna, 5 ottobre 1873</title>
+                <editor role="transcription"><persName>Alessia Di Virgilio</persName></editor>
+                <editor role="encoding"><persName>Susanna Casacchia</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2020-03-13"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl><bibl>Alessia Di Virgilio, <title>Carteggio Monaci - Rajna (1873-1877)</title>, tesi di laurea, Sapienza Università di Roma, a.a. 2018-2019</bibl></listBibl>
+                <msDesc>
+                    <msIdentifier><repository>Archivio Pio Rajna, Biblioteca Marucelliana di Firenze.</repository> <idno>Lettera 10</idno></msIdentifier>
+                    <msContents><summary corresp="#letter">Lettera di Ernesto Monaci a Pio Rajna del 5 ottobre 1873.</summary></msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#roma">Roma</placeName>
+                    <date when="1873-10-05"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#PR">Pio Rajna</persName>
+                    <placeName ref="#milano">Milano</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                    <opener>
+                        <dateline><placeName ref="#roma">Roma</placeName>, li <date when="1873-10-05">5 ottobre 1873</date></dateline>
+                        <salute>Mio egregio Signore ed amico</salute></opener>
+                    <p>Tornato in <placeName ref="#roma">Roma</placeName> dopo un’assenza di quasi 3 mesi, trovo una sua <title type="letter" ref="./1873_07_26.html">lettera</title> del 26 luglio; la quale per inavvedatezza 
+                        di chi si prendeva cura della mia corrispondenza, fu lasciata giacere qui in  <placeName ref="#roma">Roma</placeName> tra le stampe, anziché essermi rimessa fuori colle altre 
+                        lettere siccome avevo disposto. Dolente di simile errore che certamente mi avrà fatto parere assai villano verso di Lei, La prego volermi perdonare quest’indugio nel risponderle, 
+                        che come Ella vede fu del tutto involontario.</p>
+                    <p> La ringrazio di quanto si compiacque dirmi circa quei due <title ref="#poemetti1 #poemetti2">poemetti cavallereschi</title> di cui Le avevo parlato. Sentendo che 
+                        Ella aveva divisato di darli a luce per intero in un testo critico, m’auguro di vederla presto portare a compimento questo proposito; e se non isgradisse di pubblicarli nella mia 
+                        <title ref="#RFR"><hi rend="underline">Rivista</hi></title>, ne sarei ben contento. </p>
+                    <p> Se io Le mossi quella dimanda, ciò non deve punto rattenerla: anzi, le dirò francamente che gioverebbe al mio scopo che il lavoro fosse compiuto da lei. Sappia che da qualche tempo io 
+                        attendo alla compilazione di una <title ref="#crestomazia"><hi rend="underline">Crestomazia italiana dei primi secoli</hi></title>; compilazione per la quale raccolgo non solo il fiore 
+                        della nostra <rs type="topic" key="Letteratura artistica">letteratura <hi rend="underline">artistica</hi></rs>, ma anche di quanto più notevole è stato prodotto nel campo della <rs type="topic" key="Letteratura popolare">letteratura popolare</rs>
+                        e dei <rs type="topic" key="Dialetti">dialetti</rs> fino al secolo XV; affinché pure coloro che si occupano delle lettere nostre con intenti scientifici abbiano un manuale siccome l’hanno coloro che le studiano 
+                        dal lato dell’arte.</p> <pb/>
+                    <p>Volendo da luogo in questa raccolta anche alla <rs type="topic" key="Letteratura">letteratura</rs>, posi mente a quei <title ref="#poemetti1 #poemetti2">poemetti</title>; i quali, per esser brevi, 
+                        mi permetterebbero di dare di questo genere anche qualche saggio completo, e non dei soli brani staccati come mi conviene fare per opere di maggior mole. Ciò premesso, Ella vede che ove essi fossero 
+                        già pubblicati da Lei, io ne avrei il vantaggio di non doverne punto curarne l’edizione, poiché mi limiterei (col suo permesso) a riprodurre la sua. Perciò io torno ad invitarla, anche 
+                        per un po’ d’egoismo, a far Lei questo lavoro, Lei che ha le  mani in pasta e che potrà condurlo assai meglio che io non farei. </p>
+                    <p> Ed ora che siamo a parlare di pubblicazioni, debbo dirle che con ogni probabilità un editore tedesco inizierà in <placeName ref="#germania">Germania</placeName> la stampa di una <hi rend="underline">Altromanische Handbibliothek</hi>, 
+                        che conterrà una serie di edizioni critiche dei più antichi <rs type="topic" key="Letteratura romanza">testi romanzi</rs>. <persName ref="#EMS">Stengel</persName>  dirigerà questa pubblicazione. Se Ella volesse alla 
+                        raccolta qualche volume curato da Lei, me lo dica che ne darò subito avviso allo <persName ref="#EMS">Stengel</persName>, il quale mi ha incaricato di trovargli in <placeName ref="#italia">Italia</placeName> 
+                        qualche collaboratore sicuro, e mi segnalò particolarmente Lei. Le condizioni non sono ancora stabilite, ma si pensa di offrire 20 fr. per ogni foglio (in 8vo piccolo) 
+                        d’illustrazioni (introduzione, glossari ecc.), e 10 franchi per ogni foglio di testo. Tra qualche giorno riceverò la prova di stampa del suo articolo.</p>
+                    <closer><salute>Nella speranza che Ella mi continuerà la sua benevolenza, mi ripeto. Suo aff.mo amico</salute> 
+                        <signed><persName ref="#EM">Ernesto Monaci</persName></signed></closer>
+                  </div>
+            </div>
+        </body>
+    </text>
+</TEI>

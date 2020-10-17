@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Cesare De Lollis a Ernesto Monaci, 11 ottobre 1889</title>
+                <editor role="transcription"><persName>Susanna Casacchia</persName>, <persName>Debora Matteo</persName></editor>
+                <editor role="encoding"><persName>Susanna Casacchia</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2020-04-27"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl><bibl>Debora Matteo, <title>Itinerario di un carteggio</title>, tesi di laurea, Sapienza Università di Roma, a.a. 2017-2018</bibl></listBibl>
+                <msDesc>
+                    <msIdentifier><repository>Archivio Monaci, Società Filologica Romana, presso il Dipartimento di Studi Europei, Americani e Interculturali, Sapienza, Università di Roma.</repository> <idno>Busta n. 8, fascicolo 394.</idno></msIdentifier>
+                    <msContents><summary corresp="#letter">Lettera di Cesare De Lollis a Ernesto Monaci dell’11 ottobre 1889.</summary></msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#CDL">Cesare De Lollis</persName>
+                    <placeName ref="#Madrid">Madrid</placeName>
+                    <date when="1889-10-11"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#sconosciuto">?</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                    <opener>
+                        <address>
+                            <addrLine>Piazza Capranica, 95 II</addrLine> 
+                        </address>
+                        <dateline>
+                            <placeName ref="#madrid">Madrid</placeName>
+                            <date when="1889-10-11"> 11 <expan><am>8</am><ex>otto</ex><abbr>bre</abbr></expan></date>
+                        </dateline>
+                        <salute>Carissimo <expan><abbr>Sig</abbr><am>.</am><ex>or</ex></expan> Professore,</salute>
+                    </opener>
+                    <p> Ho ricevuto stamani la Sua carissima in data del 5. Carissime, Lo creda, mi son tutte le Sue lettere, come se mi venissero da mio Padre. E l’ultima Sua non avrei lasciata 
+                     senza risposta se la mia salute, andata di nuovo a male coll’entrar dell’autunno, non mi avesse sconsolato anima e corpo. Ormai vedo bene che solo un cambiamento radicale di vita 
+                     può restituirmi la salute di 14 o 15 mesi fa. Ma è un bel dire! E poi tante cause morali, di svariata natura, influiscono sul mio fisico: e non sta a me il rincuorarle per 
+                     distruggere gli effetti.Basta: per ora <pb/> non desidero altro se non di poter tirare innanzi ancora un mese, in modo da risparmiarmi il gusto di fare il mio ingresso in un ospedale spagnolo.</p>
+                    <p> Quanto alla mia missione, La ringrazio dei consigli. Tuttavia, io ho la coscienza di aver fatto il mio dovere, e piú. Avrei fatto semplicemente il mio dovere, se mi 
+                     fossi attenuto alle istruzioni impartitemi <hi rend="underline">per iscritto</hi> dal <persName ref="#HH">Harrisse</persName>, a <hi rend="underline">cui disposizione</hi> la 
+                     Commissione mi mise. E se non mi avessi fatto che questo, povera Commissione! Avrebbe dovuto spedire un nuovo missionario. Cosí, invece, informatomi bene dei dettagli del progetto 
+                     che la Commissione <pb/> accarezza, mi son messo a far da me la parte che il <persName ref="#HH">Harrisse</persName> avea lasciata indietro. Questo benedetto uomo non riesco a capirlo: 
+                     è un uomo d’ingegno che ha però addosso quel gran peccato mortale, di cui Lei ha giustamente tanta paura, di fare il <hi rend="underline">savant</hi>  nello stesso tempo che 
+                     l’avvocato. I suoi lavori son maravigliosi dicono i Colombisti di professione; ma io Le faccio notare che i piú illustri di essi sono italiani e… spagnoli!</p>
+                    <p> Le dico tutto questo, cosí, tanto perché Ella mi ha toccato il tasto. Piú Le dirò a voce. Intanto, creda che io sono in ottime relazioni col <persName ref="#HH">Harrisse</persName>, 
+                     e che deploro di doverne dare tali giudizi; vorrei ingannarmi!</p>
+                    <p> So bene che c’è nella Commissione Colom<pb break="no"/>biana qualcuno che mi ciurla nel manico. Ma non me ne preoccupo. Permetto una sola osservazione, e non la derivi dal mio
+                    carattere un po’ pessimista: nella Commissione non c’è un solo che sappia precisamente che cosa essa debba o voglia fare: Le ho parlato di un loro progetto ma è loro, in quanto che 
+                    lo han preso a prestito dal <persName ref="#HH">Harrisse</persName>, senza informarsi dei dettagli ecc. Se domani io inviassi la copia d’uno dei piú noti e piú stampati documenti,
+                    come cosa del tutto nuova, prima di un mese non se ne accorgerebbe nessuno.</p>
+                    <p> Il progetto dunque è di pubblicare un gran codice contenente tutto ciò che ci resta di <persName ref="#CC3">Colombo</persName>: relazioni di viaggi, lettere, testamento. Si tratta 
+                    di riprodurre, riveduti sugli originali, testi già stampati. Ora, i testi autentici io ho dovuto e debbo ricopiare da capo, colle  <hi rend="underline">abbreviature</hi> tutte <pb/> 
+                   (si figuri che divertimento con mss. del sec. XVI!). Gli autografi bisogna facsimilare. Della prima parte del lavoro ho già fatto moltissimo: la seconda dipende dal fotografo, ché io, per mia 
+                    parte ho già bene avviata la cosa. Pei primi di novembre io potrò lavorare all’archivio del duca di Veragua, il quale è disposto, mi pare, a lasciare andare i mss. nel laboratorio 
+                    del fotografo. E credo che la Commissione, nonostante la mediazione dell’Ambasciata, non avrebbe mai tirato il ragno dal buco. [...] Mi saluti il suo Peppino, al quale voglia anche dire ch gli ripeterò dei <hi rend="underline">cigarillos</hi> della famosa fabbrica di <placeName ref="#siviglia">Siviglia</placeName></p>
+                    <closer>  
+                        <salute>Tanti cordiali saluti dal Suo affmo e <expan><abbr>dev</abbr><ex>ottissi</ex><abbr>mo</abbr></expan></salute>
+                        <signed><persName ref="#CDL"><expan><abbr>C</abbr><am>.</am><ex>esare</ex></expan> De Lollis</persName></signed>
+                    </closer>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ernesto Monaci a Pio Rajna, marzo 1874</title>
+                <editor role="transcription"><persName>Alessia Di Virgilio</persName></editor>
+                <editor role="encoding"><persName>Margherita Filippozzi</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2020-03-12"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl><bibl>Alessia Di Virgilio, <title>Carteggio Monaci - Rajna (1873-1877)</title>, tesi di laurea, Sapienza Università di Roma, a.a. 2018-2019</bibl></listBibl>
+                <msDesc>
+                    <msIdentifier><repository>Archivio Pio Rajna, Biblioteca Marucelliana, Firenze.</repository> <idno>Lettera XVI</idno></msIdentifier>
+                    <msContents><summary corresp="#postcard">Cartolina postale di Ernesto Monaci a Pio Rajna, posteriore al 3 marzo 1874.</summary></msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#sconosciuto">?</placeName>
+                    <date when="1874-03" cert="low"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#PR">Pio Rajna</persName>
+                    <placeName ref="#sconosciuto">?</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                    <opener><salute>Mio carissimo</salute></opener>
+                    <p>Prima che finisse il carnevale, <persName ref="#PG">Galeati</persName> mi aveva mandato le bozze del tuo articolo tre volte, e all’ultimo ne ordinai la tiratura appena fossero giunte le 2e dell’autore.</p> 
+                    <p>Credevo perciò che a quest’ora e tu le avessi ricevute una 2a volta e <persName ref="#PG">Galeati</persName> avesse tirato anche gli estratti. 
+                        <title type="letter" ref="./1874_03_03.html">La tua del 3</title> mi ha stupito non poco. Ma è ancora la solita storia che mi fa perdere le staffe...</p>
+                    <p>Aspetto da <persName ref="#PG"><expan><abbr>Gal</abbr><am>.</am><ex>eati</ex></expan></persName> una spiegazione.</p>
+                    <closer><salute>Intanto un saluto di cuore.</salute>
+                    <signed><persName ref="#EM"><expan><abbr>E</abbr><am>.</am><ex>rnesto</ex></expan> Monaci</persName></signed></closer>
+                    
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

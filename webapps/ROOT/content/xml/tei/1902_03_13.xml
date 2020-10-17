@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Graziadio Isaia Ascoli a Ernesto Monaci, 13 marzo 1902</title>
+                <editor role="transcription"><persName>Chiara Maria Calcagni</persName></editor>
+                <editor role="encoding"><persName>Simone Palmieri</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2020-02-26"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl><bibl>Chiara Maria Calcagni, <title>Lettere scelte dal carteggio Ascoli-Monaci (1880/1906): trascrizione e commento</title>, tesi di laurea, Sapienza Università di Roma, a.a. 2018-2019</bibl></listBibl>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Archivio Monaci, Società Filologica Romana, presso il
+                            Dipartimento di Studi Europei, Americani e Interculturali, Sapienza,
+                            Università di Roma.</repository>
+                        <idno>Busta n. 1, fascicolo 49, lettera XCIV</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary corresp="#letter">Lettera di Graziadio Isaia Ascoli a Ernesto Monaci del 13 marzo 1902.</summary>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#GIA">Graziadio Isaia Ascolti</persName>
+                    <placeName ref="#milano">Milano</placeName>
+                    <date when="1902-03-13"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#sconosciuto">?</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                    <opener>
+                        <dateline><placeName ref="#milano">Milano</placeName>, <date when="1902-03-13">13.03.’902</date></dateline>
+                          </opener>
+                    <p>Onorando e caro collega; molto La ringrazio delle buone sue lettere, <title type="letter" ref="./1902_03_05.html">5</title>, <title type="letter" ref="./1902_03_07.html">7</title> e <title type="letter" ref="./1902_03_11.html">11</title> corr., mantenendomi naturalmente nella mia pervicacia intorno un particolare di cui è toccato nella seconda.</p>
+                        <p>Quanto alla raccolta della suppellettile toponomastica e alle rispettive illustrazioni, la sua bontà riesce a dirmi ch’Ell’aspetti una mia parola per rompere gli indugi. Ma io Le mando cento parole, anziché una, e vedo nella sua buona volontà 
+                        una delle migliori fortune che mi sieno mai toccate. Ed Ella deve agire energicamente, secondo che il Suo criterio Le detti, criterio che vale, anche nell’ordine assoluto, ben meglio del mio, e che poi ha per sé tutte le prerogative che dipendono dall’essere continuamente sulla faccia del luogo. 
+                        Agisca Ella dunque, io ne la scongiuro, con piena indipendenza e con ogni prontezza; né c’è bisogno di soggiungere, che il pieno mio consentimento, dato che mai per mera forma occorresse, Le è cordialmente assicurato per <hi rend="underline">omnia secola soeculorum</hi>.</p>
+                        <p>Solo per non parere di volermi esimere dalla mia qualunque parte di pensiero, mi provo subito a dirle come in questo momento mi stanno dinanzi le due diverse parti di lavoro, cioè la collezione dei nomi e le loro illustrazioni.</p> 
+                    <p>Una larga collezione è dunque ottenuta con le schede dell’ultimo censimento; e vuol dire che il <title><hi rend="underline">dizionario geografico postale</hi></title> (o altrimenti con maggiore precisione si vorrà denominare), il quale dovrà scaturire da questo censimento, 
+                        conterrà un numero di nomi locali infinitamente maggiore di quello ch’era dato dal <title><hi rend="underline">Dizionario</hi></title> a cui dava origine il censimento del 1881. 
+                        Il quale censimento del 1881 non dava se non i <hi rend="underline">comuni</hi> e le <hi rend="underline">frazioni di comune</hi>; e ora anche avremo le <hi rend="underline">frazioni delle frazioni</hi>, 
+                        in quanto formino speciali entità od unità topografiche e portino propri lor nomi (sieno poi esse entità topografiche, o non sieno, anche località d’ordine postale).</p>
+                    <p>Contro la compilazione di questo più esteso <title>Dizionario ufficiale dell’Italia geografica</title>, non può sorgere alcun obiezione razionale; e sarebbe cosa veramente enorme che non si curasse la conservazione e lo spoglio dei documenti che portano a codesto grande incremento della nomenclatura geografica dell’Italia.</p> 
+                    <p>Codesti documenti non si possono più dire le <rs type="topic" key="Schede censimento"><hi rend="underline">schede</hi> del censimento</rs>.  Le <rs type="topic" key="Schede censimento"><hi rend="underline">schede</hi></rs> vere e proprie sono già state estratte dalle rispettive <hi rend="underline">buste</hi>, per cavarne i dati demografici; e le <hi rend="underline">buste</hi>, ormai vuote, portano sulla loro superficie i nomi locali da spogliare. Sono di carta assai sottile e tanto più facilmente soggette perciò a deperire. Una di esse buste è cosa ben leggera e tal che occupa un minimo posto. 
+                        Ma si deve trattare di più di <hi rend="underline">settemilioni di buste</hi>.</p>
+                    <p>Il pensiero di far trasportare tutta questa suppellettile, con ogni maggior prontezza, in tale ambiente dove la miglior conservazione le sarebbe assicurata e dove lo spoglio (e più tardi anche l’opera illustrativa) potrebbe molto opportunamente eseguirsi, è di certo un pensiero felicissimo. 
+                        Il <orgName ref="#MinAgr">Ministro dell’Agricoltura</orgName> concederebbe, credo, assai facilmente questo trasporto, quando, per mezzo di Lei, codest’<orgName ref="#AccLin">Academia</orgName> c’entrasse; ma, ed è superfluo che io lo dica, i fautori dello spoglio e del nuovo 
+                        <title>Dizionario geografico</title> ufficiale bisognerebbe che badassero a non prosciogliere i <orgName ref="#MinAgr">Ministeri dell’Agricultura</orgName> e dell’<orgName ref="#MPI">Istruzione</orgName> dai loro impegni circa l’opera e la stampa.</p>
+                    <p>La produzione di codesto maggior <title>lessico di geografia italiana</title> (la cui mancanza è una grande vergogna per lo Stato) ha una grandissima importanza per sé medesima, e vuol dire, pur fatta astrazione da ogni ulteriore costrutto, propriamente scientifico, che poi ne possa derivare. 
+                        Perciò, le ragioni altre volte accampate, come per esempio che l’<rs type="topic" key="Archeologia">archeologia</rs>, la <rs type="topic" key="Filologia">filologia</rs> ecc. avrebbero maggiore interesse nella «<rs type="topic" key="Toponomastica">Toponomastica</rs>» che non la <rs type="topic" key="Geografia">geografia</rs> vera e propria, ragioni che principalmente 
+                        si adducevano per sottrarsi a certe compartecipazioni di spesa, punto non avrebbero ragion d’essere, sin che il postulato si limita a un mero accrescimento del <title>dizionario geografico</title>. Perciò, a dirla a quattr’occhi e d’un colpo solo, io e più altri, che valgono ben meglio di me, 
+                        abbiamo sempre stimato che le venti o trentamila lire, da spendersi nello spoglio delle buste e nella stampa del nuovo dizionario ufficiale, andrebbero sottratte di santa ragione nel giro d’un pajo d’anni, alla dotazione della <orgName ref="#SGI"><hi rend="underline">Società geografica italiana </hi></orgName>.</p> 
+                    <p>Io non mi son mai avventurato a toccar questa corda coi Ministri. Ma ella vi si potrebbe adoperare, io credo, per vari modj e molto efficacemente. E <hi rend="underline">in extremis</hi>, quando occorresse, credo che troveremmo degli ajuti anche in Parlamento 
+                        (<persName ref="#LB">Bodio</persName>, il <expan><abbr>gen</abbr><am>.</am><ex>erale</ex></expan> <persName ref="#AF">Ferrero</persName>, <persName ref="#CN">Nigra</persName> e altri). </p>  
+                    <p>Tutto questo dunque per la parte che direi pratica: salvar le buste, spogliarle accuratamente, pubblicarne sollecitamente lo spoglio.</p>
+                    <p>Passando alla parte illustrativa o scientifica, prudenza vuole, mi pare, di non insistervi, per ora, al cospetto dei Ministeri ecc., affin di evitare le apparenze di voler troppo e affin di togliere agli avversi ogni pretesto alle accuse che sien favorite le ricerche speciali della disciplina
+                        A a scapito di quelle della disciplina B <hi rend="underline"><quote>Experto crede Ruperto</quote></hi>.</p>
+                    <p>Il compianto <persName>Biondi</persName> aveva già stipulato, per mezzo mio, col <persName ref="#GD">Doria</persName>  una specie di contratto, concernente la <rs type="topic" key="Toponomastica">toponomastica del territorio aretino e regioni contermini</rs>; e d’improvviso, non certo per colpa di <persName ref="#GD">Doria</persName>, 
+                        la stipulazione è molto meschinamente tramontata. Parecchi anni più tardi, il compianto <persName ref="#FB">Brioschi</persName> e il <persName ref="#GD">Doria</persName>, ancora per mezzo mio, si intesero intorno al contributo annuo di 3000 lire, che i <orgName ref="#AccLin">Lincei</orgName> e la <orgName ref="#SGI">Geografica</orgName> 
+                        avrebbero dato, per giusta metà, non so più per quanti anni,  all’opera della <rs type="topic" key="Toponomastica">Toponomastica</rs>, riservandosi il <persName ref="#GD">Doria</persName>, poco meno che per mero scrupolo, il consentimento del proprio Consiglio, … il qual consentimento, e di certo non per colpa del <persName ref="#GD">Doria</persName>, è mancato! </p> 
+                        <p>Quando s’avrà una buona volta ordinato e stampato il lessico risultante dal censimento del ’901, questo lessico si verrà poi man mano perfezionando per quant’è della precisa pronunzia o trascrizione dei nomi; e si verrà insieme istituendo, regione per regione, lo studio storico, etimologico ecc. della suppellettile toponomastica relativamente completa ed appurata.</p>
+                    <p>Secondo che Ella vede benissimo, il trasportare ai <orgName ref="#AccLin">Lincei</orgName> anche il lavoro meramente pratico dello spoglio delle buste agevolerebbe e accerterebbe anche l’opera successiva della esplorazione scientifica del materiale raccolto. E nulla vieterebbe che la esplorazione in parte incominciasse anche durante lo spoglio; 
+                        e così, per esempio, l’esplorazione della parte laziale subito dopo compito, che potrebbe essere il primo. Ma, circa la spesa o l’ingerenza, che ne dovesse direttamente provenire al governo, bisognerebbe, mi pare, nei primi tempi tacerne. </p>
+                    <p>La collocazione di una specie di uffizio toponomastico nell’<orgName ref="#AccLin">Acad. Dei Lincei</orgName> era entrata anche nel pensiero di <persName ref="#PB1">Boselli</persName> ministro, e del <persName ref="#AM2">Messedaglia</persName>, né occorre dire se il <persName ref="#FB">Brioschi</persName> la favorisse. 
+                        Ora, con le debite cautele, il pensiero s’avrebbe a innovare, e a incarnarsi gagliardamente, per virtù di Lei e del nostro <persName ref="#IG">Guidi</persName>. S’aggiungerebbe, come Ella ben dice, la spalla atletica del <persName ref="#LC2">Ceci</persName>; e questa Sua avvertenza molto mi rallegra, anche perché implica liete notizie intorno alla salute di questo carissimo amico. 
+                        A tempo e luogo, Le potrebbe, credo, riuscire opportuna anche la diligenza e l’assiduità del <persName ref="#SP">Pieri</persName>, il quale molto facilmente potrebbe esser <hi rend="underline">comandato</hi> dal Ministero a prestar la sua opera <hi rend="underline">ad hoc</hi> sotto la direzione di Lei. Insomma, quando ella c’entri a vele spiegate, è cosa che si fa e che si compie a tutt’andare. </p>
+                        <p>Questo mio scarabocchio, in sé e per sé così privo di novità e importanza, diverrà un documento storico quando possa comunque valere a confermarla nel proposito di <quote>«Non lasciare la magnanima impresa»</quote>; e intanto io Le chiedo scusa dell’orribilissima fretta e sono di tutto cuore </p>
+                        <closer><salute>Il suo <expan><abbr>div</abbr><am>.</am><ex>otissimo</ex></expan> e <expan><abbr>aff</abbr><am>.</am><ex>ezionatissimo</ex></expan></salute>
+                            <signed>Suo <persName ref="#GIA">G. I. Ascoli</persName></signed></closer>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Pio Rajna a Ernesto Monaci, 24 ottobre 1873</title>
+                <editor role="transcription"><persName>Alessia Di Virgilio</persName></editor>
+                <editor role="encoding"><persName>Susanna Casacchia</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2020-03-13"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl><bibl>Alessia Di Virgilio, <title>Carteggio Monaci - Rajna (1873-1877)</title>, tesi di laurea, Sapienza Università di Roma, a.a. 2018-2019</bibl></listBibl>
+                <msDesc>
+                    <msIdentifier><repository>Archivio Monaci, Società Filologica Romana, presso il Dipartimento di Studi Europei, Americani e Interculturali, Sapienza, Università di Roma.</repository> <idno>Busta n. 22, fascicolo 1095, lettera 9</idno></msIdentifier>
+                    <msContents><summary corresp="#letter">Lettera di Pio Rajna a Ernesto Monaci del 24 ottobre 1873.</summary></msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#PR">Pio Rajna</persName>
+                    <placeName ref="#milano">Milano</placeName>
+                    <date when="1873-10-24"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#roma">Roma</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                    <opener>
+                        <dateline><placeName ref="#milano">Milano</placeName>, <date when="1873-10-24">24 Ottobre 1873</date></dateline>
+                        <salute>Mio Egregio Signore ed Amico,</salute></opener>
+                    <p>Il non ricevere da Lei una risposta non mi aveva davvero fatto pensar male; bisognerebbe che io non conoscessi la Sua gentilezza per non ricorrere piuttosto ad ogni altra 
+                        ipotesi che a quella di una negligenza volontaria. Poi anche il mio credito era molto discutibile, giacché la mia ultima <title type="letter" ref="./1873_07_26.html">lettera</title> era essa medesima 
+                        più che altro una risposta a certe domande che Ella mi aveva dirette.</p>
+                    <p> Giacchè a Lei non reca danno o dispiacere, pubblicherò i due <title ref="#poemetti1 #poemetti2">cantari</title> del <title type="manuscript" key="Codice Ambrosiano">codice Ambrosiano</title>. 
+                        Non posso però dire di mettermi subito, perché ho alcune cose da sbrigare, e pur troppo d’ora in avanti gran parte del mio tempo dovrò darlo alla scuola. S’immagini se non sarò 
+                        lietissimo di vederli riprodotti sulla Sua <title ref="#crestomazia">Crestomazia</title>! Solo dubito che possano convenirle, giacchè la lezione del <title type="manuscript" key="Codice Ambrosiano">ms.</title> 
+                        è giunta orribilmente e la mia restituzione non potrà non essere incerta in molti luoghi. Forse riuscirebbe più opportuno al suo scopo il cantare <title ref="#carduino1"><hi rend="underline">come Tristano e <pb/> Lancillotto conbatetero al Petrone di Merlino</hi></title>, che io sospetto opera di quel medesimo autore che compose la <title ref="#poemetti1"><hi rend="underline">Morte</hi></title> 
+                        e la <title ref="#poemetti2"><hi rend="underline">Vendetta</hi></title> di Tristano, e che ha il grande vantaggio di esserci conservato in un buon codice fiorentino. Questo cantare sta per 
+                       venire in luce insieme con un altro poemetto (il <title ref="#carduino1"><hi rend="underline">Carduino</hi></title>) in un volume delle <title ref="#carduino2"><hi rend="underline">Curiosità Letterarie</hi> </title>
+                        curato da me. Bisognerebbe vedere se il <persName ref="#GR">Romagnoli</persName> consente alla riproduzione; ma di ciò saremo a tempo a discorrere quando Ella avrà veduto se quella scrittura fa per Lei. </p>
+                    <p> Nel caso che le sconvenisse la <title ref="#malagigi"><hi rend="underline">Sala di Malagigi</hi></title>, che pubblicai anni addietro per le nozze <persName ref="#ADA">D’Ancona</persName>, 
+                        metterò a sua disposizione un esemplare con parecchie correzioni e note. </p>
+                    <p> L’idea della sua <title ref="#crestomazia"><hi rend="underline">Crestomazia</hi></title> m’è parsa eccellente, e mi rallegro quanto mai se sia nata nella mente di chi saprà mandarla a esenzione in maniera degna degli studii rinnovati. 
+                        M’auguro che Ella possa condurre a termine l’impresa sollecitamente, per quanto la sollecitudine è conciliabile colla diligenza. </p>
+                    <p> Al prof. <persName ref="#EMS">Stengel</persName>  dica pure che collaborerò ben volentieri alla sua <hi rend="underline">Altromanische Handbibliothek</hi>.</p>
+                    <p> Non posso dire precisamente che cosa sarei disposto a dare, giacché dovrò dipendere dalle circostanze. </p>
+                    <p> Vado pensando alla <title ref="#poema"><hi rend="underline">Spagna</hi></title> in rima, che ho trascritto <pb/> da un <title type="manuscript" key="Codice riccardiano">codice riccardiano</title>; 
+                        solo temo non si opponga la spesa, la quale sarebbe maggiore del compenso offerto dall’editore, dovendosi confrontare altri due manoscritti, in parte diversissimi, di cui uno per 
+                        di più non è a  <placeName ref="#firenze">Firenze</placeName>, ma a  <placeName ref="#ferrara">Ferrara</placeName>. Avrei pure altre cose: un <title ref="#huon">Ugone d’Alvernia franco-italiano</title>,
+                        di cui ho ricopiato per intero due versioni, l’una da un <title type="manuscript" key="Codice del seminario di Padova">codice</title> del seminario di <placeName ref="#padova">Padova</placeName>, l’altra da 
+                        un <title type="manuscript" key="Manoscritto torinese">ms. torinese</title>; un romanzo in prosa non meno antico del <title ref="#reali">Fioravante</title>, che peraltro ho promesso di stampare nella raccolta 
+                        del Nistri, se il prof. <persName ref="#ADA">D’Ancona</persName> la ripiglierà; poi dell’altro ancora, di cui è inutile discorrere finché non sia tempo di fare. Se dunque il disegno 
+                        verrà messo in atto, gradirò di averne notizia e di sapere le condizioni.</p>
+                    <p> Le bozze del mio articolo non mi sono giunte ancora, e sarei contentissimo se le ultime pagine dell’introduzione non fossero composte. Voglia in grazia domandare al tipografo e 
+                        dirgli che se così fosse si compiaccia di mandarmi per qualche giorno il ms, della parte proemiale. Avrei parecchie cose da aggiungere e da rettificare, giacché in questi ultimi mesi 
+                        ho dovuto occuparmi di antichi <rs type="topic" key="Dialetti">dialetti</rs> più che non avessi fatto prima. Ma forse il mio desiderio viene troppo tardo; in tal caso mi voglia scusare anticipatamente 
+                        se per questa volta mi prenderò forse molta libertà <pb/> colle bozze. Certo è meglio far strillare un pochino il proto che da troppo appiglio alle critiche.</p>
+                    <closer><salute>Mi continui la sua benevolenza e mi creda Suo aff.mo</salute>
+                        <signed><persName ref="#PR">Pio Rajna</persName></signed>
+                    </closer>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

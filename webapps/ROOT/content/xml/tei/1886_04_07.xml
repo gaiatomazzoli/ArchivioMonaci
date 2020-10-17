@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ernesto Monaci a Graziadio Isaia Ascoli, 7 aprile 1886</title>
+                <editor role="transcription"><persName>Chiara Maria Calcagni</persName></editor>
+                <editor role="encoding"><persName>Susanna Casacchia</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Archivio Ascoli. Biblioteca dell’Accademia Nazionale dei Lincei e Corsiniana di Roma</publisher>
+                <date when="2020-03-31"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl><bibl>Chiara Maria Calcagni, <title>Lettere scelte dal carteggio Ascoli-Monaci (1880/1906): trascrizione e commento</title>, tesi di laurea, Sapienza Università di Roma, a.a. 2018-2019</bibl></listBibl>
+                <msDesc>
+                    <msIdentifier><repository>Archivio Ascoli, Biblioteca dell’Accademia Nazionale dei Lincei e Corsiniana di Roma </repository> <idno> Pacco n°155, lettera 13</idno></msIdentifier>
+                    <msContents><summary corresp="#letter">Lettera di Ernesto Monaci a Graziadio Isaia Ascoli del 7 aprile 1886.</summary></msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#roma">Roma</placeName>
+                    <date when="1886-04-07"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#GIA">Graziadio Isaia Ascoli</persName>
+                    <placeName ref="#milano">Milano</placeName>
+                    <date when="1886-04-07"/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                    <opener>
+                        <dateline><placeName ref="#roma">Roma</placeName> <date when="1886-04-07">7 apr. ’86</date></dateline>
+                        <salute>Mio venerato Amico!</salute></opener>
+                    <p> Non appena si seppe che alcuni professori della <expan><abbr>Univ</abbr><am>.</am><ex>ersità</ex></expan> Di <placeName ref="#napoli">Napoli</placeName> e di <placeName ref="#roma">Roma</placeName> 
+                        avevano indirizzata a Lei una lettera per iscongiurarla a desistere dalle sue dimissioni, colleghi di altre università scrissero che volevano associarsi a noi in questa dimotivazione. 
+                        Così il foglio andando ove fu richiesto, tardò di giungere al suo destino, e a quest’ora gli rimarrebbe per anco altra e non poca via da percorrere. Ma agli amici che già 
+                        firmarono, preme che cessi ormai ogni indugio, ed io mi affretto a spedirle questo foglio. Esso dovrebbe comparirle in miglior veste; ma anche così spero che le giungerà 
+                        egualmente accetto, siccome quello che reca la espressione di un vero plebiscito del cuore in nome degli insegnanti di sette facoltà del regno.</p>
+                    <closer>
+                        <salute> Possa questa sincera e calda dimostrazione cancellare per sempre dal Suo cuore amareggiato la impressione di ciò che non si vuol più ricordare, e mi creda sempre </salute>
+                        <salute>il Suo</salute> 
+                        <signed><persName ref="#EM"><expan><abbr>E</abbr><am>.</am><ex>rnesto</ex></expan> Monaci</persName></signed>
+                    </closer>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

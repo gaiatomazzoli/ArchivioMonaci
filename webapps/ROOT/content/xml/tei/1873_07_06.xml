@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ernesto Monaci a Pio Rajna, 6 luglio 1873</title>
+                <editor role="transcription"><persName>Alessia Di Virgilio</persName></editor>
+                <editor role="encoding"><persName>Susanna Casacchia</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2020-03-12"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl><bibl>Alessia Di Virgilio, <title>Carteggio Monaci - Rajna (1873-1877)</title>, tesi di laurea, Sapienza Università di Roma, a.a. 2018-2019</bibl></listBibl>
+                <msDesc>
+                    <msIdentifier><repository>Archivio Pio Rajna, Biblioteca Marucelliana di Firenze.</repository> <idno>Lettera 9</idno></msIdentifier>
+                    <msContents><summary corresp="#letter">Lettera di Ernesto Monaci a Pio Rajna del 6 luglio 1873.</summary></msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#roma">Roma</placeName>
+                    <date when="1873-07-06"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#PR">Pio Rajna</persName>
+                    <placeName ref="#milano">Milano</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                    <opener>
+                        <dateline><placeName ref="#roma">Roma</placeName> <date when="1873-07-06">6 Luglio 1873</date></dateline>
+                        <salute>Caro ed egregio signore</salute></opener>
+                    <p>Ricevetti il suo lavoro (<title ref="#frammenti"><hi rend="underline">Due frammenti di <expan><abbr>rom</abbr><am>.</am><ex>anzi</ex></expan> cavallereschi</hi></title>), che ho letto col massimo piacere. Invero l’ho trovato 
+                        quale dovevo aspettarlo dalla dotta sua penna, e non so punto convenire nella opinione che Ella me ne esternava nella sua <title type="letter" ref="./1873_06_26.html">lettera</title>. Sono certo 
+                        che anche i lettori della <title ref="#RFR">Rivista</title> saranno del mio avviso.</p>
+                    <p> Lo scritto sarà inserito per <hi rend="underline">intero</hi> nel fascicolo 3°, a costo d’aumentarne il numero delle pagine. </p> 
+                    <p> Di una sola cosa l’avverto: non si meravigli se le prove di stampa tarderanno. Sebbene per questo <expan><abbr>fasc</abbr><am>.</am><ex>icolo</ex></expan> non s’abbia da ricorrere 
+                        alla fonderia (causa principale del ritardo del fascicolo 2°), tuttavia la lentezza abituale del nostro <persName ref="#PG">Galeati </persName> non ci permette di sperare molta 
+                        prontezza. Ora si sta stampando <pb/> la continuazione di un lavoro del  <persName ref="#GPI">Pitrè</persName>; verrà appresso uno studio del <persName ref="#TB">Braga</persName> 
+                        (<title ref="#amadis"><hi rend="underline">Origini dell’Amadigi di G</hi></title>), le cui prove, dovendo andare infine a <placeName ref="#lisbona">Lisbona</placeName>, conviene preparare 
+                        sollecitamente perché non mancano sospensioni sulla stampa; quindi sarà subito composto l’<title ref="#frammenti">articolo</title> suo.</p>
+                    <p> Il codice da cui Ella ha tratto i <title ref="#frammenti"><hi rend="underline">due frammenti</hi></title>, contiene anche, secondo alcuni appunti che io ho, due poemetti (o <hi rend="underline">frammenti</hi>?) 
+                        in 8 va rima, uno intitolato “<title ref="#poemetti1">La morte di meser Tristano</title>” e l’altro “<title ref="#poemetti2">La vendeta che fe meser Lanzelloto</title>”. </p>
+                    <p> - Sarebbero per avventure questa le scritture, che nella sua introduzione, Ella dice di voler pubblicare in altro lavoro? - Non so se la mia domanda sia indiscreta; se non lo è, 
+                        Le sarei obbligato ove un giorno a suo comodo, avendo occasione di scrivervi, me ne dicesse una parola. </p>
+                    <p> Mi perdoni questa arditezza, e voglia comandarmi libe<pb break="no"/>ramente ovunque fossi capace di scriverla.</p>
+                    <closer><salute>Io mi confermo nella protesta della più sincera stima ed amicizia. Suo <expan><abbr>dev</abbr><am>.</am><ex>otissi</ex><abbr>mo</abbr></expan></salute> 
+                        <signed><persName ref="#EM">Ernesto Monaci</persName></signed></closer>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

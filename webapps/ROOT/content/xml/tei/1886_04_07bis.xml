@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Graziadio Isaia Ascoli a Ernesto Monaci, 7 aprile 1886</title>
+                <editor role="transcription"><persName>Chiara Maria Calcagni</persName></editor>
+                <editor role="encoding"><persName>Susanna Casacchia</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2020-03-31"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl><bibl>Chiara Maria Calcagni, <title>Lettere scelte dal carteggio Ascoli-Monaci (1880/1906): trascrizione e commento</title>, tesi di laurea, Sapienza Università di Roma, a.a. 2018-2019</bibl></listBibl>
+                <msDesc>
+                    <msIdentifier><repository>Archivio Monaci, Società Filologica Romana, presso il Dipartimento di Studi Europei, Americani e Interculturali, Sapienza, Università di Roma.</repository> <idno>Busta n. 1, fascicolo 49, lettera 51</idno></msIdentifier>
+                    <msContents><summary corresp="#postcard">Cartolina di Graziadio Isaia Ascoli a Ernesto Monaci del 7 aprile 1886.</summary></msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#PR">Graziadio Isaia Ascoli</persName>
+                    <placeName ref="#milano">Milano</placeName>
+                    <date when="1886-04-07"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#sconosciuto">?</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">    
+                    <opener>
+                        <salute>All’onorevole signor <expan><abbr>Comm</abbr><am>.</am><ex>endatore</ex></expan> <persName ref="#EM">Ernesto Monaci</persName></salute>
+                        <salute>Rettore della <expan><abbr>R</abbr><am>.</am><ex>egia</ex></expan> università di <placeName ref="#roma"><hi rend="underline">Roma</hi></placeName></salute>
+                        <address>
+                            <addrLine>Piazza Capranica 95 II</addrLine>
+                        </address>
+                        <salute>Carissimo amico.</salute>
+                    </opener>
+                    <p> Dopo scritta la mia lettera d’oggi, leggo sui giornali della sera un dispaccio da <placeName ref="#roma">Roma</placeName>, dov’è parlato di un indirizzo a me rivolto alla bontà 
+                        dei colleghi romani e della ripresa de’ miei corsi, da me consentita alle istanze del C. La seconda parte non è vera, e può essere di fattura ministeriale; ma la prima pare 
+                        autentica, e io ora sto nella viva apprensione d’essere parso peggio che scortese a Lei ed altri colleghi. M’affretto perciò a dirle, che io da <placeName ref="#roma">Roma</placeName> 
+                        non ho ricevuto assolutamente nulla, delle sue affettuose lettere infuori. </p>
+                    <p> Il C. allude a uffici che io abbia fatto fare presso di lui. E anche questa m’è parsa una machiavelleria curiosa!
+                    </p>
+                    <closer>
+                         <salute>Aff.mo Suo</salute>
+                        <signed><persName ref="#GIA">Ascoli</persName></signed>
+                        <dateline><placeName ref="#milano">Mil.,</placeName><date when="1886-04-07">7.4.86</date>, sera</dateline>
+                    </closer>
+                </div>
+                <div type="textpart" subtype="notes" n="1">
+                    <head><note>Annotazione 1</note></head>
+                    <p>Prof. <persName ref="#GIA">Ascoli</persName></p>
+                    <p><placeName ref="#milano">Milano</placeName></p>
+                    <p>Termine richiesto è il 18 ottobre venturo. Maggiori informazioni per lettera.</p>
+                    <p><persName ref="#EM">Monaci</persName></p>
+                </div>
+                <div type="textpart" subtype="notes" n="2">
+                    <head><note>Annotazione 2</note></head>
+                    <p>Prof. <persName ref="#GIA">Ascoli</persName></p>
+                    <p><placeName ref="#milano">Milano</placeName></p>
+                    <p>Decreto annullato senza sua domanda. Altra risposta rende necessarie ricerche Archivio.</p>
+                    <p><persName ref="#EM">Monaci</persName></p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

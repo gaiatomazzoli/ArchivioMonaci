@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ernesto Monaci a Pio Rajna, 19 marzo 1876</title>
+                <editor role="transcription"><persName>Alessia Di Virgilio</persName></editor>
+                <editor role="encoding"><persName>Giulia Lucchesi</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2020-03-11"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl><bibl>Alessia Di Virgilio, <title>Carteggio Monaci - Rajna (1873-1877)</title>, tesi di laurea, Sapienza Università di Roma, a.a. 2018-2019</bibl></listBibl>
+                <msDesc>
+                    <msIdentifier><repository>Archivio Pio Rajna. Biblioteca Marucelliana di Firenze.</repository></msIdentifier>
+                    <msContents><summary corresp="#postcard">Cartolina di Ernesto Monaci a Pio Rajna del 19 marzo 1876.</summary></msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#sconosciuto">?</placeName>
+                    <date when="1876-03-19"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#PR">Pio Rajna</persName>
+                    <placeName ref="#sconosciuto">?</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                    <opener><expan><abbr>C</abbr><am>.</am><ex>arissimo</ex></expan><expan><abbr>a</abbr><am>.</am><ex>mico</ex></expan></opener>
+                    <p>Resterò o piuttosto entrerò nel consiglio se così piace a te e ai colleghi. 
+                        Ciò che soprattutto bramo è che questa impresa, che tu pure riconosci necessaria, fiorisca. 
+                        A tale intento coopererò anch’io volentieri per quanto è nelle mie povere forze. Ma il primo impulso, 
+                        la direzione, non può partire da me. Ci vuole una persona ed un nome più autorevole che può trovarsi soltanto 
+                        tra i <hi rend="underline">sette</hi>.
+                        Se si sta dispersi e lontani, a <placeName ref="#milano">Milano</placeName> però siete due che valete per dieci. 
+                        È naturale dunque che di là parta <hi rend="underline">l’ordine del giorno</hi>. Io ho fatto la prima proposta. Voialtri esaminate, 
+                        correggete, ordinate per l’attuazione. Io intanto farò da segretario, comunicherò coi colleghi, tratterò 
+                        le cose che crederete più urgenti, rappresenterò insomma, se così volete, il potere <hi rend="underline">esecutivo</hi> fino a che 
+                        tutto non sia pienamente ordinato. 
+                        Comincia dunque ora tu a fare la tua parte, e sii persuaso che un omino come te è indispensabile in una 
+                        faccenda di questo genere. Non vi spiego di più perché so che la tua modestia non lo vorrebbe. Ma primo devo 
+                        parlare di edizioni che finora ho dato fra noi dei saggi come quelli che hai dato tu.
+                        </p>
+                    <closer><salute>T’abbraccio, e all’opera. Addio. Tuo</salute> 
+                        <signed><persName ref="#EM">Monaci</persName></signed></closer>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>
+

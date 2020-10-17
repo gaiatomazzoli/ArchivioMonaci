@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Indici</title>
+      </titleStmt>
+      <publicationStmt>
+        <p></p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Born digital document.</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <div>
+        <p>Indici delle principali categorie di termini marcati.</p>
+      </div>
+    </front>
+    <body>
+      <div xml:id="luoghi_menzionati">
+      <head>Luoghi</head>
+        <div type="headings">
+          <list>
+            <item>Luoghi</item>
+            <item>Riferimenti</item>
+          </list>
+        </div>
+        <div type="notes">
+            <p>Indice dei luoghi menzionati.</p>
+      </div>
+      </div>
+      
+      <div xml:id="persone_menzionate">
+        <head>Persone</head>
+        <div type="headings">
+          <list>
+            <item>Persone</item>
+            <item>Riferimenti</item>
+          </list>
+        </div>
+        <div type="notes">
+              <p>Indice delle persone menzionate.</p>
+        </div>
+      </div>
+      
+      <div xml:id="istituzioni_menzionate">
+        <head>Istituzioni</head>
+        <div type="headings">
+          <list>
+            <item>Istituzioni</item>
+            <item>Riferimenti</item>
+          </list>
+        </div>
+        <div type="notes">
+          <p>Indice delle istituzioni menzionate.</p>
+        </div>
+      </div>
+      
+      <div xml:id="autori_menzionati">
+        <head>Autori</head>
+        <div type="headings">
+          <list>
+            <item>Autori</item>
+            <item>Riferimenti</item>
+          </list>
+        </div>
+        <div type="notes">
+              <p>Indice degli autori menzionati.</p>
+        </div>
+      </div>
+      
+      <div xml:id="opere_menzionate">
+        <head>Opere</head>
+        <div type="headings">
+          <list>
+            <item>Opere</item>
+            <item>Riferimenti</item>
+          </list>
+        </div>
+        <div type="notes">
+              <p>Indice delle opere menzionate.</p>
+        </div>
+      </div>
+      
+      <div xml:id="fonti_menzionate">
+        <head>Fonti</head>
+        <div type="headings">
+          <list>
+            <item>Fonti</item>
+            <item>Riferimenti</item>
+          </list>
+        </div>
+        <div type="notes">
+          <p>Indice dei manoscritti e delle epigrafi menzionate.</p>
+        </div>
+      </div>
+      
+      <div xml:id="tematiche">
+        <head>Tematiche</head>
+        <div type="headings">
+          <list>
+            <item>Tematiche</item>
+            <item>Riferimenti</item>
+          </list>
+        </div>
+        <div type="notes">
+              <p>Indice delle principali tematiche menzionate.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

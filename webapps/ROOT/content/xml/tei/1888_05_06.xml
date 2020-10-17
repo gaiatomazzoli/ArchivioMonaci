@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Cesare De Lollis a Ernesto Monaci, 6 maggio 1888</title>
+                <editor role="transcription"><persName>Debora Matteo</persName></editor>
+                <editor role="encoding"><persName>Susanna Casacchia</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2020-04-27"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl><bibl>Debora Matteo, <title>Itinerario di un carteggio</title>, tesi di laurea, Sapienza Università di Roma, a.a. 2017-2018</bibl></listBibl>
+                <msDesc>
+                    <msIdentifier><repository>Archivio Monaci, Società Filologica Romana, presso il Dipartimento di Studi Europei, Americani e Interculturali, Sapienza, Università di Roma.</repository> <idno>Busta n. 8, fascicolo 394.</idno></msIdentifier>
+                    <msContents><summary corresp="#letter">Lettera di Cesare De Lollis a Ernesto Monaci del 6 maggio 1888.</summary></msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#CDL">Cesare De Lollis</persName>
+                    <placeName ref="#madrid">Madrid</placeName>
+                    <date when="1888-05-06"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#sconosciuto">?</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                        <opener>
+                         <dateline>
+                            <placeName ref="#paris">Parigi</placeName>
+                            <date when="1888-05-06">6 Maggio</date>
+                        </dateline>
+                            <salute>Egregio <expan><abbr>Sig</abbr><am>.</am><ex>or</ex></expan> Professore,</salute>
+                    </opener>
+                    <p>[...] Per un viaggiatore filologo non è facile accomodarsi e sistemarsi subito: quindi è che son costretto a stare ancora in albergo. [...] Sin dal primo giorno che arrivai volli dare una capatina alla <orgName ref="#BnF"><expan><abbr>Bibl</abbr><am>.</am><ex>ioteca</ex></expan>Nazionale</orgName>, al cui Direttore consegnai <gap reason="illegible" extent="unknown" unit="chars"/> una lettera del <persName ref="#AMF">Morel-Fatio</persName>. 
+                        Egli mi ha accolto assai cortesemente e mi si è mostrato disposto ad usarmi tutte le possibili agevolazioni. 
+                        Per l’accesso all’Escuriale mi si fanno prevedere molte difficoltà. [...] Lavorerò qui il più che mi sarà possibile: quando mi parrà di aver fiutato un po’ dappertutto, passerò all’Escuriale, 
+                        e di li poi a <placeName ref="#toledo">Toledo</placeName>. [...]</p>
+                    <closer>  
+                        <salute>Mi creda il sempre suo affmo e <gap reason="illegible" extent="unknown" unit="chars"/> discepolo</salute>
+                        <signed><persName ref="#CDL">De Lollis</persName></signed>     
+                    </closer>
+                    <postscript><p>Volendomi scrivere, lo faccia con sempre <hi rend="underline">Poste <gap reason="illegible" extent="unknown" unit="chars"/></hi></p></postscript>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

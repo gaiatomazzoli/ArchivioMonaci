@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ernesto Monaci a Pio Rajna, 27 gennaio 1874</title>
+                <editor role="transcription"><persName>Alessia Di Virgilio</persName></editor>
+                <editor role="encoding"><persName>Susanna Casacchia</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2020-03-16"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl><bibl>Alessia Di Virgilio, <title>Carteggio Monaci - Rajna (1873-1877)</title>, tesi di laurea, Sapienza Università di Roma, a.a. 2018-2019</bibl></listBibl>
+                <msDesc>
+                    <msIdentifier><repository>Archivio Pio Rajna, Biblioteca Marucelliana di Firenze.</repository> <idno>Lettera 15</idno></msIdentifier>
+                    <msContents><summary corresp="#letter">Lettera di Ernesto Monaci a Pio Rajna del 27 gennaio 1874.</summary></msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#roma">Roma</placeName>
+                    <date when="1874-01-27"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#PR">Pio Rajna</persName>
+                    <placeName ref="#milano">Milano</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                    <opener>
+                        <dateline><placeName ref="#roma">Roma</placeName> <date when="1874-01-27">27 del 74</date></dateline>
+                        <salute>Mio carissimo amico</salute>
+                    </opener>
+                    <p>Ebbi il tuo <title ref="#contrastare">articolo</title>, e appena letto lo mandai alla stampa e spero che ora si stia componendo. Esso mi è piaciuto assai, e, a dirtela all’orecchio, ci ho avuto un gusto matto per 
+                        quella bastonata solenne che hai dato all’<persName ref="#FD">illustre saccente</persName>. Sì, esso è un brav’uomo, assai dotto ecc.; ma se la sbaglia di grosso quando s’immischia di certe faccende che non 
+                        sono dell’India, e la tua lezione ci è andata proprio a capello.</p>
+                    <p>Avrai le bozze due volte o più se ne desideri. – il tuo <hi rend="underline"><expan><abbr>err</abbr><ex>ata</ex></expan> - <expan><abbr>corr</abbr><ex>ige</ex></expan></hi> 
+                        sarà posto in fine al <expan><abbr>vol</abbr><am>.</am><ex>ume</ex></expan>, cioè al <expan><abbr>fasc</abbr><am>.</am><ex>icolo</ex></expan> 4° ora alla stampa, e di esso avrai pure le bozze. - - se 
+                        <persName ref="#PG">Galeati</persName> andasse speditamente, questo <expan><abbr>fasc</abbr><am>.</am><ex>icolo</ex></expan>
+                        potrebbe uscire non più tardi di un mese, giacché i materiali sono tutti pronti: ma ormai non ci so contar più sulle promesse di <persName ref="#PG">Galeati</persName>. Oh mio 
+                        caro, quanto è brutto avere a fare con tipografi! E in verità ti dico che ne sono sì stanco che non più…. </p>
+                    <p>Ho cercato e ricercato alla <orgName ref="#BibVat">Vaticana</orgName> <title ref="#intelligenza">il poema dell’Intelligenza</title>, ed ho perduto ogni speranza di trovarlo. Soltanto un caso potrà farlo rinvenire. – 
+                        Del resto io comincio a dubitare che il <title ref="#intelligenza">poema</title> stia proprio là. – Chi ce lo dice? – Stando alle parole del <persName ref="#DC">Carbone</persName>, avevo sempre creduto che lo dicesse il <persName ref="#FT">Trucchi</persName>: 
+                        <pb/> ma in questi giorni sono tornato inutilmente sul <persName ref="#FT">Trucchi</persName> per vedere ove lo dicesse. In nessuno dei due luoghi ove fa menzione del poema in ottava rima, mai si riferisce alla 
+                        <orgName ref="#BibVat">Vaticana</orgName>; e avverti, che la notizia che premette al frammento è in data di <placeName ref="#firenze">Firenze</placeName> e non di <placeName ref="#roma">Roma</placeName>(1). 
+                        È più probabile dunque che si riferisca a una biblioteca fiorentina; e sarebbe a vedere se la lezione del suo frammento potesse identificarsi con quella di uno dei due <title type="manuscript" key="Codici fiorentini">codici fiorentini</title>. – oh se il 
+                        <persName ref="#FT">Trucchi</persName> parlasse! Ma c’è vivo, credo che stia a <placeName ref="#caienna">Cajenna </placeName> pensando a tutt’altro che <title ref="#intelligenza">al poema dell’Intelligenza</title>.</p>
+                    <p>Vedendo il <expan><abbr>prof</abbr><am>.</am><ex>essore</ex></expan> <persName ref="#GIA">Ascoli</persName> ringrazialo da parte mia del suo gentilissimo biglietto e digli che ho trovato altre due collezioni simili a quella di cui gli mandai un saggio. È tutta una 
+                        <rs type="topic" key="Letteratura umbra">letteratura umbra</rs>, di cui finora ignoravo quasi l’esistenza.</p>
+                    <closer><salute> Voglimi sempre bene e dammi altri comandi dove ti posso meglio servire. Tuo <expan><abbr>affett</abbr><am>.</am><ex>uosissimo</ex></expan> amico</salute>
+                    <signed><persName ref="#EM">Ernesto Monaci</persName></signed>
+                    </closer>
+                    <postscript><p>(1) Il <persName ref="#FT">Trucchi</persName> dice che l’<title ref="#intelligenza"><hi rend="underline"><expan><abbr>Int</abbr><am>.</am><ex>elligenza</ex></expan></hi></title> 
+                        Si trova in una miscellanea con alcuni cantari = della parte bianca e ora nessuno di questi cantari si trova registrato alla 
+                        <orgName ref="#BibVat">Vaticana</orgName>. I <title type="manuscript" key="Codici fiorentini"><expan><abbr>cod</abbr><am>.</am><ex>ici</ex></expan> fiorentini</title> sono miscellanei?</p></postscript>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

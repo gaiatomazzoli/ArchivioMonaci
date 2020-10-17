@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Pio Rajna a Ernesto Monaci, 12 gennaio 1874</title>
+                <editor role="transcription"><persName>Alessia Di Virgilio</persName></editor>
+                <editor role="encoding"><persName>Susanna Casacchia</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2020-03-16"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl><bibl>Alessia Di Virgilio, <title>Carteggio Monaci - Rajna (1873-1877)</title>, tesi di laurea, Sapienza Università di Roma, a.a. 2018-2019</bibl></listBibl>
+                <msDesc>
+                    <msIdentifier><repository>Archivio Monaci, Società Filologica Romana, presso il Dipartimento di Studi Europei, Americani e Interculturali, Sapienza, Università di Roma.</repository> <idno>Busta n. 22, fascicolo 1095, lettera 13</idno></msIdentifier>
+                    <msContents><summary corresp="#postcard">Cartolina postale di Pio Rajna a Ernesto Monaci del 12 gennaio 1874.</summary></msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#PR">Pio Rajna</persName>
+                    <placeName ref="#milano">Milano</placeName>
+                    <date when="1874-01-12"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#roma">Roma</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                    <opener>
+                        <dateline><placeName ref="#milano">Milano</placeName>, <date when="1874-01-12">12 del 74</date></dateline>
+                        </opener>
+                        <p>La tua cartolina mi ha messo i brividi. L’<title ref="#contrastare">articolo</title> è appena abbozzato e stenta a prendere una forma decente per pretendersi al pubblico. È una cosa da nulla, eppure mi fa 
+                        tribolare. È vero che ho dovuto pensare a molte altre cose, parte per me, parte per questa o quell’amico: ma mai che la sorte m’avesse mandato uno di quei giorni felici in cui 
+                        si fa molto con poca fatica! </p> 
+                    <p> Se anche senza le mie poche pagine hai materia che basti per i due fascicoli, non te ne curare più che tanto: saranno per un’altra volta. Ma io 
+                        non lascerò di darmene pensiero quantunque sappia che è un affaraccio. Avevo pur tentato un altro lavoro; volevo dare una leggenda di S. Bernardo in <rs type="topic" key="Dialetti">dialetto veneziano</rs>, 
+                        accompagnandola con illustrazioni. Se non che qui pur vedi che per superare le difficoltà c’era parecchio da fare, e soprattutto era necessario non avere fretta. Ciò che al 
+                        momento non si vede, per quanto si faccia, dopo un certo tempo si presenta spesso da sé alla mente!</p>
+                    <p>Grazie per le brighe che ti dai per l’<title ref="#intelligenza"><hi rend="underline"><expan><abbr>Int</abbr><am>.</am><ex>elligenza</ex></expan></hi></title>- Io sto bene, a dispetto di un freddo da 
+                        <placeName ref="#siberia">Siberia</placeName>. E tu come stai?</p>
+                    <postscript><p>P.S. <date when="1974-01-13">13/1</date>. Così scrivevo iersera: ma proprio dopo aver scritto, m’è riuscito di lavorare un po’ meno infelicemente, cosicché spererei di avere pronta la <title ref="#contrastare">chiacchierata</title>
+                    tra 4 o 5 giorni. Se l’aspettare imbarazza o se hai altri scritti da sostituire ti ripeterò ancora di non prendere altra cura del mio. Se pure importa, l’ordunque farai come ti piacerà. 
+                    Appena lesto il lavoro te lo manderò, e tu ne disporrai a tuo arbitrio, o per il <title ref="#RFR">giornale</title> o per il caminetto. A questo primo ne dovrebbe tener dietro un secondo, nato per via e 
+                    che in parte fu causa del ritardo.</p></postscript>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

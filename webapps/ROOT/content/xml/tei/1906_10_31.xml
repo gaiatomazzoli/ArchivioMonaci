@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Guido Mazzoni a Vittorio Rossi, 31 ottobre 1906</title>
+                <editor role="transcription"><persName>Debora Matteo</persName></editor>
+                <editor role="encoding"><persName>Stefano Boschi</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2020-05-08"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl><bibl>Debora Matteo, <title>Itinerario di un carteggio</title>, tesi di laurea, Sapienza Università di Roma, a.a. 2017-2018</bibl></listBibl>
+                <msDesc>
+                    <msIdentifier><repository>Fondo Rossi, Biblioteca Alessandrina di Roma.</repository></msIdentifier>
+                    <msContents><summary corresp="#letter">Lamenta il pessimo contegno del De Lollis.</summary></msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#GM">Guido Mazzoni</persName>
+                    <placeName ref="#sconosciuto">?</placeName>
+                    <date when="1906-10-31"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#VR">Vittorio Rossi</persName>
+                    <placeName ref="#sconosciuto">?</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                    <p>[...]</p>
+                    <p>L’articolo del <persName ref="#CDL">De Lollis</persName>, nella <title ref="#RivIt">Rivista d’Italia</title>, contro il <title ref="#manuale">Manuale</title> mio e del <persName ref="#PEP">Pavolini</persName> ha una brutta base di rancori personali. Pur votando il passaggio di lui da <placeName ref="#genova">Genova</placeName> a <placeName ref="#roma">Roma</placeName> per l’artic. 69, e usando verso <persName ref="#CDL">lui</persName> ogni amichevole cortesia di fatti e di parole, sostenni, per debito di coscienza, nel Consiglio, che in Italia ora non si può abbinare in una cattedra sola (quando si specifichino le letterature moderne) la francese e la spagnola. Scegliesse <persName ref="#CDL">lui</persName> tra l’una e l’altra. Ma <persName ref="#CDL">egli</persName> entrambe le vuole insieme, per far contraltare al <persName ref="#EM">Monaci</persName>. [...] Pettegolezzi e ripicchi e odi romaneschi nei quali, se Dio vuole, io non entrai né entro. E me l’ha giurata. [...] 
+                        Il fatto si è che 13 mesi dopo la pubblicazione del libro, alla riapertura delle scuole secondarie cui è destinato, dopo avermi detto bene privatamente innanzi, dopo avermi fatto la corte, privatamente e in una citazione nella <title ref="#NuovaAnt2"><expan><abbr>N</abbr><am>.</am><ex>uova</ex></expan> Antologia</title>, quando da me sperava appoggio incondizionato, ci dà addosso a quel modo. [...] Avrà forse ragione in tutto: ma torto moralmente.</p>
+                    <p>[...]</p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

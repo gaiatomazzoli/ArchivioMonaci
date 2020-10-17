@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ernesto Monaci a Graziadio Isaia Ascoli, 16 luglio 1902</title>
+                <editor role="transcription"><persName>Chiara Maria Calcagni</persName></editor>
+                <editor role="encoding"><persName>Stefano Boschi</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2020-04-02"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl><bibl>Chiara Maria Calcagni, <title>Lettere scelte dal carteggio Ascoli-Monaci (1880/1906): trascrizione e commento</title>, tesi di laurea, Sapienza Università di Roma, a.a. 2018-2019</bibl></listBibl>
+                <msDesc>
+                    <msIdentifier><repository>Archivio Ascoli, presso la Biblioteca dell’Accademia dei Lincei e Corsiniana, Roma.</repository> <idno>Pacco 129, busta 45.</idno></msIdentifier>
+                    <msContents><summary corresp="#letter">Sulla competizione tra De Lollis e Segré.</summary></msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#roma">Roma</placeName>
+                    <date when="1902-07-16"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#GIA">Graziadio Isaia Ascoli</persName>
+                    <placeName ref="#sconosciuto">?</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                    <opener><dateline><placeName ref="#roma">Roma</placeName> <date when="1902-07-16">16 luglio 1902</date></dateline>
+                    <salute>Mio Signore</salute></opener>
+                    <p>Al <persName ref="#CDL">De Lollis</persName> promisi che non avrei fatto opposizione alla Sua domanda per le “lett. Mod. comp.”, non promisi di <hi rend="underline">appoggiarla</hi>. Questo non avrei potuto fare, perché una domanda simile era stata fatta dal <persName ref="#CS1">Segré</persName>, e io che avevo avuto ambedue a scolari, sentivo il dovere di astenermi da qualunque voto, se non riuscivo a impedire fra loro un conflitto. A tale scopo anzi andai dal <persName ref="#CS1">Segré</persName> e gli dichiarai che non avrei potuto appoggiare la Sua domanda finché il <persName ref="#CDL">De L.</persName> manteneva la sua, e la stessa dichiarazione feci più tardi al <persName ref="#CDL">De L.</persName>, mentre pur lo consigliavo di abboccarsi col <persName ref="#CS1">Segré</persName>, sperando che da un colloquio fra loro si sarebbe potuto venire a un accordo. Ma il <persName ref="#CDL">De L.</persName> al mio consiglio prima titubò, poi disse di non volerne sapere e mi richiese insistentemente che io appoggiassi la sua dimanda. Gli ricordai allora la mia posizione delicata in cui mi trovavo, e gli feci osservare che, se io mi fossi astenuto dal voto, ciò non poteva riuscire di pregiudizio a lui, perché tutta la facoltà comprendeva la causa della mia astensione. Il <persName ref="#CDL">De L.</persName> allora, lungi dal tener conto di quanto gli avevo detto, cominciò a dare in escandescenze, e giunse a queste parole: lei non mi vuole a <placeName ref="#roma">Roma</placeName>; l’<persName ref="#GIA">Ascoli</persName> me l’aveva già detto! È lei stesso che ora <hi rend="underline">mi ha fatto sorgere contro</hi> un competitore nel <persName ref="#CS1">Segré</persName>!</p>
+                    <p>Nelle prossime votazioni accademiche lascerò in bianco la <rs type="topic" key="Filosofia">filosofia</rs>! In quanto alla <rs type="topic" key="Storia">storia</rs>, permetta che raccomandi alla sua considerazione i titoli del <persName ref="#CM1">Manfroni</persName>, candidato a uno dei posti di corrispondente.</p>
+                    <p>Il <persName ref="#EM3">Masi</persName> spero di vederlo questa sera al Consiglio. Se no, aspetterò ancora qualche giorno prima di andar da lui, non essendo terminata la discussione del bilancio della P. I.</p>
+                    <closer><salute>Mi voglia bene e mi abbia sempre</salute>
+                    <salute>Suo aff.mo</salute>
+                    <signed><persName ref="#EM">E. Monaci</persName></signed></closer>
+                    
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

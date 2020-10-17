@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Graziadio Isaia Ascoli a Ernesto Monaci, 17 maggio 1904</title>
+                <editor role="transcription"><persName>Chiara Maria Calcagni</persName></editor>
+                <editor role="encoding"><persName>Eleonora Bruno</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2020-04-07"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl><bibl>Chiara Maria Calcagni, <title>Lettere scelte dal carteggio Ascoli-Monaci (1880/1906): trascrizione e commento</title>, tesi di laurea, Sapienza Università di Roma, a.a. 2018-2019</bibl></listBibl>
+                <msDesc>
+                    <msIdentifier><repository>Archivio Monaci, Società Filologica Romana, presso il Dipartimento di Studi Europei, Americani e Interculturali, Sapienza, Università di Roma.</repository> <idno>Busta n. 1, fascicolo 49, lettera 121</idno></msIdentifier>
+                    <msContents><summary corresp="#letter">Lettera di G. I. Ascoli a E. Monaci del 17 maggio 1904.</summary></msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#GIA">Graziadio Isaia Ascoli</persName>
+                    <placeName ref="#milano">Milano</placeName>
+                    <date when="1904-05-17"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#roma">Roma</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                    <opener>
+                        <dateline>
+                            <placeName ref="#milano">Milano</placeName>,
+                            <date when="1904-05-17">17. 5. ’904</date>
+                        </dateline>
+                    </opener>
+                    <p>Onorato e caro collega; molto La ringrazio della bontà ch’Ella sempre mi dimostra; ma, com’Ella può immaginare, molto mi rattrista quanto Ella mi dice sulle condizioni Sue! Lasci tuttavolta che io le dichiari, e non per me solo, ch’Ella assolutamente ha il dovere (non parliamo del diritto) di punto non badare alle malefatte della gente perversa!</p>
+                    <p>Poche ore dopo che era arrivata nel mio studiuolo la buona Sua <title type="letter" ref="./1904_05_14.html">lettera</title>, ne sopraggiungeva un’altra dell’ing. <persName ref="#EM2">Mancini</persName>, che mi ridomandava, per Lei, i titoli del <persName>Della Torre</persName>; e io li ho subito fatti partire.</p>
+                    <p>Le sedute per il <rs type="topic" key="Concorso">Concorso</rs> andrebbero tenute, mi pare, in casa Sua, poiché a Lei non è sempre facile di recarsi altrove. La cosa sarebbe tanto più naturale, in quanto ne verrebbe pur la comodità degli altri. Io intanto mi farei precedere, se Ella non mel vieta, da un mio <title>zibaldone di noterelle</title>, intorno al quale molto mi premerebbe di trovar formato il Suo giudizio quando io arrivi a <placeName ref="#roma">Roma</placeName> (sarà, pare, intorno al 28). Mi mandi Ella dunque, se così Le piace, un Suo viglietto di visita; e vorrà dire ch’Ella mi consente di darle questo anticipato disturbo. E mi scusi e voglia sempre</p>
+                    <closer>
+                        <salute>il div.mo aff.mo Suo</salute>
+                        <signed><persName ref="#GIA">G. I. Ascoli</persName></signed>
+                    </closer>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

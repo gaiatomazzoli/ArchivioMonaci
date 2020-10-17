@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ernesto Monaci a Graziadio Isaia Ascoli, 5 agosto 1902</title>
+                <editor role="transcription"><persName>Chiara Maria Calcagni</persName></editor>
+                <editor role="encoding"><persName>Virginia Machera</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2020-04-07"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl><bibl>Chiara Maria Calcagni, <title>Lettere scelte dal carteggio Ascoli-Monaci (1880/1906): trascrizione e commento</title>, tesi di laurea, Sapienza Università di Roma, a.a. 2018-2019</bibl></listBibl>
+                <msDesc>
+                    <msIdentifier><repository>Archivio Ascoli, Biblioteca dell’Accademia dei Lincei e Corsiniana, Roma.</repository> <idno>Lettera 129/48</idno></msIdentifier>
+                    <msContents><summary corresp="#letter">Monaci chiede ad Ascoli di comunicare a Masi la sua rinuncia.</summary></msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#roma">Roma</placeName>
+                    <date when="1902-08-02"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#GIA">Graziadio Isaia Ascoli</persName>
+                    <placeName ref="#milano">Milano</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                    <opener><dateline><placeName ref="#roma">Roma</placeName> <date when="1902-08-05">5 agosto 1902</date></dateline>
+                        <salute>Mio signore,</salute></opener>
+                    <p>se riescirò in questo giorni a vedere il <persName ref="#EM3">Masi</persName>, non mancherò di dirgli con tutta calma qualche cosa sulla lettera del <persName ref="#NN">Ministro</persName>. Ma dubito che il <persName ref="#EM3">Masi</persName> si lasci vedere. Il povero <persName ref="#VDB">De Bartholomeis</persName> non vi è riuscito ancora, sebbene abbia messo assedio alla Minerva da quando è qui. Evidentemente il buon <persName ref="#EM3">Masi</persName> si trova più che altri impacciato a dover rispondere in nome di <persName ref="#NN"><expan><abbr>S</abbr><am>.</am><ex>ua</ex></expan> <expan><abbr>E</abbr><am>.</am><ex>ccellenza</ex></expan></persName> sopra tante cose, intorno alle quali egli s’accorge che non si fa giustizia; ed è un fatto che in questi giorni egli non si trova in ufficio nemmeno nella solita ora destinata alle udienze (dalle 5 alle 6). Del resto, come le accennavo nella <title type="letter" ref="./1902_08_04.html">mia</title> di jeri, sempre più mi vado persuadendo che il <persName ref="#EM3">Masi</persName> proprio non garba che io entri nella <orgName ref="#Toponomastica">Commissione</orgName>, e se Ella le comunicasse la mia rinuncia, forse lo vedrebbe tornare sui suoi passi un’altra volta e consentire in tutto il resto. Io anzi torno a pregarla di fare quest’ultimo tentativo. Diversamente, o bisogna rifar capo dal <orgName ref="#MinAgr">Ministero d’Agricoltura</orgName>, o darla vinta a chi si era proposto d’intralciare la cosa affinchè non venisse a compimento.</p>
+                    <closer><salute>Con devoto affetto</salute>
+                        <salute>il Suo</salute>
+                        <signed><persName ref="#EM">E. Monaci</persName></signed></closer>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

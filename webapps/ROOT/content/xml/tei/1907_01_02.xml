@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Graziadio Isaia Ascoli a Ernesto Monaci, 2 gennaio 1907</title>
+                <editor role="transcription"><persName>Chiara Maria Calcagni</persName></editor>
+                <editor role="encoding"><persName>Giulia Lucchesi</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2020-04-06"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl><bibl>Chiara Maria Calcagni, <title>Lettere scelte dal carteggio Ascoli-Monaci (1880/1906): trascrizione e commento</title>, tesi di laurea, Sapienza Università di Roma, a.a. 2018-2019</bibl></listBibl>
+                <msDesc>
+                    <msIdentifier><repository>Archivio Monaci, Società Filologica Romana, presso il Dipartimento di Studi Europei, Americani e Interculturali, Sapienza, Università di Roma.</repository> <idno>Busta n. 1, fascicolo 49, lettera 171</idno></msIdentifier>
+                    <msContents><summary corresp="#letter">Lettera di Graziadio Isaia Ascoli a Ernesto Monaci del 2 gennaio 1907.</summary></msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#PR">Graziadio Isaia Ascoli</persName>
+                    <placeName ref="#milano">Milano</placeName>
+                    <date when="1907-01-02"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#sconosciuto">?</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                    <opener><dateline><placeName ref="#milano">Milano</placeName>, <date when="1907-01-02">2. 1. ’907</date></dateline>
+                        <salute>Carissimo e onorevolissimo amico;</salute></opener>
+                    <p>La ringrazio vivamente della buona e confortante risposta che Le è piaciuto dare jeri stesso al mio 
+                    <title type="letter">telegramma</title>, e insieme Le chiedo scusa di aver dovuto mancare alla mia promessa di riscriverle ancora, 
+                    jeri stesso, per la posta.</p>
+                    <p>Di vecchie note, non mi rimaneva di urgente, se non il grido del buono e bravo <persName ref="#SP">Pieri</persName>, 
+                    che in mezzo al tumulto per <placeName ref="#pisa">Pisa</placeName>, mi riportava, accennando insieme 
+                        agli altri amici alla <rs type="topic" key="Toponomastica">Toponomastica</rs> impresa. Ma, se io tacqui, non fu di certo per disinteresse; 
+                    fu per importanza e fu in ispecie per la persuasione che ogni mia parola riuscirebbe superflua presso 
+                    di Lei o presso il <persName ref="#FDO">D’Ovidio</persName>.</p>
+                    <p>Quanto al <persName ref="#CN">conte <expan><abbr>N</abbr><am>.</am><ex>igra</ex></expan></persName>, 
+                    sentivo nell’ango, il naturale desiderio che tra gl’intimi non fu dimenticata l’antica e tenacissima 
+                    e per me divota amicizia che aveva stretto i due morti o morenti.</p>
+                    <p>Oggi rasserenatesi alquanto le cose, mi tornan in prima linea alcune coserelline recenti, 
+                    che forse, apprese da Lei, non gli dispiacerebbero; come per esempio una denominazione generosamente 
+                    conferitami dal <persName ref="#PM">Meyer</persName>.</p>
+                    <p><persName ref="#WML">Lübke</persName>, rettore ormai dell’
+                    <orgName ref="#UV">Università di <placeName ref="#wien">Vienna</placeName></orgName>, nel discorso 
+                    inaugurale, e della domanda, assolutamente privata, quantanni pochi giorni dopo, dal 
+                    <orgName ref="#SR">Seminario romano</orgName>, logico dell’
+                    <orgName ref="#UV">Università di <placeName ref="#wien">Vienna</placeName></orgName>, di mandare il 
+                    mio ritratto per esservi unito, nell’aula degli studi, con quelli di <persName ref="#GP">Paris</persName>, 
+                    <persName ref="#AM">Mussafia</persName> e <persName ref="#AT">Tobler</persName>; - oppure dell’ingegnoso modo 
+                        col quale <persName ref="#EK">Ernesto Kuhn</persName> (figlio di <persName ref="#AK">Teodoro</persName>) 
+                    trovò d’intrecciare il nome del <persName ref="#CN">Conte</persName> col mio povero nome nella solenne 
+                    commemorazione dello Zensj, tenutasi nell’<orgName ref="#ASM">Accademia delle scienze di 
+                    <placeName ref="#monacodibaviera">Monaco di Baviera</placeName></orgName>. Ogni cosa, bene inteso, 
+                    sempre rimessa al giudizio Suo, di cui sono in gran fretta, ma con grandissima riconoscenza,
+                    </p>
+                    <closer><salute>l’<expan><abbr>aff</abbr><am>.</am><ex>ezionatissi</ex><abbr>mo</abbr></expan> <expan><abbr>div</abbr><ex>otissi</ex><abbr>mo</abbr></expan>
+                    Suo</salute> <signed><persName ref="#GIA">Ascoli</persName></signed></closer>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

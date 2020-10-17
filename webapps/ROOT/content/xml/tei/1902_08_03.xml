@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Graziadio Isaia Ascoli ad Ernesto Monaci, 3 agosto 1902</title>
+                <editor role="transcription"><persName>Chiara Maria Calcagni</persName></editor>
+                <editor role="encoding"><persName>Virginia Machera</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2020-04-04"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl><bibl>Chiara Maria Calcagni, <title>Lettere scelte dal carteggio Ascoli-Monaci (1880/1906): trascrizione e commento</title>, tesi di laurea, Sapienza Università di Roma, a.a. 2018-2019</bibl></listBibl>
+                <msDesc>
+                    <msIdentifier><repository>Archivio Monaci, Società Filologica Romana, presso il Dipartimento di Studi Europei, Americani e Interculturali, Sapienza, Università di Roma.</repository> <idno>Fascicolo 49, busta 1, lettera CVIII</idno></msIdentifier>
+                    <msContents><summary corresp="#letter">Ascoli informa Monaci della lettera del Ministro Nasi.</summary></msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#GIA">Graziadio Isaia Ascoli</persName>
+                    <placeName ref="#milano">Milano</placeName>
+                    <date when="1902-08-03"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#roma">Roma</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                    <opener><dateline><placeName ref="#milano">Milano</placeName>, <date when="1902-08-03">3. 8. ’902</date></dateline></opener>
+                    <p>Onorato e caro collega; io appunto andava studiando, anche per le istigazioni di qualche nostro compagno, una nuova e meno disperata risposta alla buona lettera che recentemente Ella mi diresse, quand’ecco arrivarmi jeri una lettera del <persName ref="#NN">Ministro</persName>, della quale mi affretto a darle copia, insieme con la copia della risposta che immediatamente io gli mandai. Il <persName ref="#NN">Ministro</persName>, non avendo ottenuto che il <persName ref="#LP">Pullé</persName> lo prosciogliesse e riconoscendo d’altra parte che l’intrusione pura e semplice di questo galantuomo nella Commissione academica riusciva cosa enorme, ha imaginato cosa affatto nuova, della quale è manifesto che a me è impossibile, assolutamente impossibile, prendere parte. Per Lei, all’incontro, mi par che la condizione sia ben diversa; ed è perfettamente sincero quanto io ne scrissi al <persName ref="#NN">Ministro</persName>.</p>
+                    <p>… Non volendo ritardare questa mia comunicazione, sono costretto  chiudere senz’altro, limitandomi per oggi a ringraziarla vivamente della grande amorevolezza con cui Le è piaciuto di accompagnarmi in questa burrascosa faccenda.</p>
+                    <closer><salute>L’<expan><abbr>Aff</abbr><am>.</am><ex>ezionatissi</ex><abbr>mo</abbr></expan> <expan><abbr>Div</abbr><am>.</am><ex>otissi</ex><abbr>mo</abbr></expan> Suo</salute>
+                        <signed><persName ref="#GIA">G. I. Ascoli</persName></signed></closer>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

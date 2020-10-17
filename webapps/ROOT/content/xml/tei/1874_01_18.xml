@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Pio Rajna a Ernesto Monaci, 18 gennaio 1874</title>
+                <editor role="transcription"><persName>Alessia Di Virgilio</persName></editor>
+                <editor role="encoding"><persName>Susanna Casacchia</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2020-03-16"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl><bibl>Alessia Di Virgilio, <title>Carteggio Monaci - Rajna (1873-1877)</title>, tesi di laurea, Sapienza Università di Roma, a.a. 2018-2019</bibl></listBibl>
+                <msDesc>
+                    <msIdentifier><repository>Archivio Monaci, Società Filologica Romana, presso il Dipartimento di Studi Europei, Americani e Interculturali, Sapienza, Università di Roma.</repository> <idno>Busta n. 22, fascicolo 1095, lettera 12</idno></msIdentifier>
+                    <msContents><summary corresp="#letter">Lettera di Pio Rajna a Ernesto Monaci del 18 gennaio 1874.</summary></msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#PR">Pio Rajna</persName>
+                    <placeName ref="#milano">Milano</placeName>
+                    <date when="1874-01-18"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#roma">Roma</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                    <opener>
+                        <dateline><placeName ref="#milano">Milano</placeName>, li <date when="1874-01-18">18 gennaio 74</date></dateline>
+                        <salute>Carissimo Amico,</salute></opener>
+                    <p>Mantengo la parola data, ed oggi, Domenica, Mando l’<title ref="#contrastare">articolo</title>. Come! Dirai, tanto tempo per iscrivere di queste corbellerie? Proprio sì; anche la 
+                        semplice trascrizione m’è costata fatica, perché ha dovuto essere in grandissima parte una trasformazione. Insomma vedrai se il lavoro ti va, e se convenga occupare per 
+                        parecchie pagine i lettori della <title ref="#RFR">Rivista</title> di <title ref="#contrastare"><hi rend="underline">contestare e contrastare</hi></title>. M’è riuscita una cosa più 
+                        lunga che non fosse nella intenzione; la prima nota ti spiegherà in parte il perché. Che dici della dottrina del <persName ref="#ADG">De <expan><abbr>Gub</abbr><am>.</am><ex>ernatis</ex></expan></persName> 
+                        e del suo modo di ragionare?</p>
+                    <p> Non mi sono lasciato vincere da prurito di metterlo in derisione, o piuttosto dopo essermi lasciato vincere ho fatto miglior senno; ma non ho potuto a meno di riprodurre 
+                        le sue parole. Mi pare la vendetta più sanguinosa che potessi prendere di lui. Giacché a dirti il vero proprio m’ha stucco col suo continuo spropositare, che il pubblico <pb/> 
+                        prende per buona moneta. Del resto non gli serbo rancore di sorta, nemmeno per ombra. Lo credo un galantuomo, un uomo d’ingegno, uno studioso che sa molto e impara 
+                        continuamente: ma non potrebbe smettere una volta di parlare di ciò che non sa, e di pronunziare tuttavia la sua sentenza in un tono come se non si fosse mai occupato d’altro?</p>
+                    <p>Il <persName ref="#FDO">D’Ovidio</persName>, che mi deve succedere al <orgName ref="#LP">Parini</orgName>, ha ricevuto il suo decreto; vuol dire che se non è arrivato, arriverà certo 
+                        oggi o domani anche il mio. Così al principio di Febbraio bisognerà cominciare all’<orgName ref="#AccLin">Accademia</orgName>.
+                        Mando il priego con raccomandazione, giacché se si perdesse non potrei rimediare per ora. Hai provveduto all’errata-corrige dei <title ref="#frammenti"><hi rend="underline">Due frammenti</hi></title>, etc.? 
+                        Sarà bene farmi mandare due volte la bozza.</p>
+                    <closer>
+                        <salute>Addio, vogli bene al Tuo aff.mo</salute> 
+                        <signed><persName ref="#PR">Pio Rajna</persName></signed>
+                    </closer>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

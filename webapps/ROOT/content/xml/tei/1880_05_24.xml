@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ernesto Monaci a Graziadio Isaia Ascoli, 24 maggio 1880</title>
+                <editor role="transcription"><persName>Chiara Maria Calcagni</persName></editor>
+                <editor role="encoding"><persName>Margherita Filippozzi</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2020-04-01"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl><bibl>Chiara Maria Calcagni, <title>Lettere scelte dal carteggio Ascoli-Monaci (1880/1906): trascrizione e commento</title>, tesi di laurea, Sapienza Università di Roma, a.a. 2018-2019</bibl></listBibl>
+                <msDesc>
+                    <msIdentifier><repository>Archivio Graziadio Isaia Ascoli, Biblioteca dell’Accademia Nazionale dei Lincei e Corsiniana, Roma.</repository> <idno>Carteggio 46, lettera 175/3.</idno></msIdentifier>
+                    <msContents><summary corresp="#letter">Lettera di Ernesto Monaci a Graziadio Isaia Ascoli del 24 maggio 1880.</summary></msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#roma">Roma</placeName>
+                    <date when="1880-05-24"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#GIA">Graziadio Isaia Ascoli</persName>
+                    <placeName ref="#sconosciuto">?</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                    <opener><dateline><placeName ref="#roma">Roma</placeName> <date when="1880-05-24">24 maggio 1880</date></dateline> 
+                        <salute>Mio caro Signore</salute></opener>
+                    <p>Sto allestendo le copie dei testi da aggiungere all’<title ref="#antper"><hi rend="underline"><expan><abbr>Antol</abbr><am>.</am><ex>ogia</ex></expan> <expan><abbr>Perug</abbr><am>.</am><ex>ina</ex></expan></hi></title>.
+                        E intanto mi sorge il sospetto che uno dei testi che già le mandai e che avevo fatto copiare a <placeName ref="#perugia">Perugia</placeName>, non abbia avuto una trascrizione abbastanza fedele.
+                        Parlo di quella lunga <title ref="#laudapassione">lauda drammatica sulla Passione</title>, che comincia, se non erro, <title ref="#laudapassione"><quote><hi rend="underline">Sengnore scribe</hi></quote></title>.
+                        Avrebbe Ella la bontà di rimandarmela? Ho potuto avere il codice in <placeName ref="#roma">Roma</placeName> e rivedrei il testo per intero da me.</p>
+                    <closer><salute>Mi creda sempre</salute> 
+                        <salute>il suo aff.mo</salute>
+                        <signed><persName ref="#EM"><expan><abbr>E</abbr><am>.</am><ex>rnesto</ex></expan> Monaci</persName></signed></closer>                    
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

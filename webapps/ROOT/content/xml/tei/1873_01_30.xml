@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Pio Rajna a Ernesto Monaci, 30 gennaio 1873</title>
+            <editor role="transcription"><persName>Maria Teresa Rachetta</persName></editor>
+            <editor role="encoding"><persName>Martina D’Arcangelo</persName></editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+            <date when="2017-01-31">gennaio 2017</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><repository>Archivio Monaci, Società Filologica Romana, presso il Dipartimento di Studi Europei, Americani e Interculturali, Sapienza, Università di Roma.</repository> <idno>Busta n. 22, fascicolo 1095.</idno></msIdentifier>
+               <msContents><summary corresp="#letter">Lettera di Pio Rajna a Ernesto Monaci del 30 gennaio 1873.</summary></msContents>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#PR">Pio Rajna</persName>
+               <placeName ref="#milano">Milano</placeName>
+               <date when="1873-01-30">30 gennaio 1873</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#EM">Ernesto Monaci</persName>
+               <placeName ref="#sconosciuto">?</placeName>
+               <date/>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="transcription" xml:lang="it">
+            <opener>
+               <dateline>
+                  <placeName ref="#milano">Milano</placeName> 
+                  <date when="1873-01-30">30 gennaio 1873</date>
+               </dateline>
+               <salute>Mio riverito Signore,</salute>
+            </opener>
+            <p>La Sua gentilezza le fa pensare che io abbia dovuto meravigliarmi non mi vedendo
+               invitato a scrivere per la <title ref="#RFR">Rivista</title>; ma davvero io dovrei pure ad
+               essere presuntuoso se stimassi necessario il mio aiuto in un’intrapresa qualsivaglia.
+               Non mi sono dunque meravigliato, né ella ha bisogno alcuno alcuno di giustificazioni;
+               piuttosto è mio dovere ringraziarla della sua lettera e delle molte garbatezze che vi
+               si contengono. Dirle che mi riuscì cara, è dir cosa che anche da sé stessa si
+               intende, poiché ognuno che onestamente coltiva uno studio cura non poco di poter
+               stringere legami con quanti lavorano nel medesimo campo. Appena mi sia possibile
+               cercherò di mandare qualche cosuccia per il giornale, che mi
+               rallegro di veder bene avviato, a al quale auguro ogni fortuna. Né questa gli può
+               mancare, affidato com’è ad ottime mani, che certo non risparmieranno fatica per far
+               sì che esso cresca onore all’<placeName ref="#italia">Italia</placeName> presso gli
+               stranieri che si occupano dei medesimi studii. Che dei miei non venga subito in
+               luce un giudizio, non mi può certo spiacere; anche in questo vedo una prova manifesta
+               della serietà di propositi colla quale Ella e i colleghi Suoi si sono convinti a
+               un’impresa né leggiera né facile. Non so s’io mi inganni, ma io temo che una delle
+               cagioni che ritardano in <placeName ref="#italia">Italia</placeName> il progredire
+               degli Studi s’abbia a cercare nella mancanza di una critica diretta unicamente al
+               bene della scienza, la quale si faccia da tutti rispettare, e in primo luogo dagli
+               autori stessi, quand’anche si trovino sferzati.</p>
+            <closer><salute>Di nuovo ringraziandola, mi dico con simpatia Suo <expan><abbr>dev</abbr><am>.</am><ex>otissi</ex><abbr>mo</abbr></expan></salute>
+               <signed><persName ref="#PR">Pio Rajna</persName></signed></closer>
+         </div>
+      </body>
+   </text>
+</TEI>

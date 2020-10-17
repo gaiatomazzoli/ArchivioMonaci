@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ernesto Monaci a Graziadio Isaia Ascoli, 3 febbraio 1905</title>
+                <editor role="transcription"><persName>Chiara Maria Calcagni</persName></editor>
+                <editor role="encoding"><persName>Stefano Boschi</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2020-04-06"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl><bibl>Chiara Maria Calcagni, <title>Lettere scelte dal carteggio Ascoli-Monaci (1880/1906): trascrizione e commento</title>, tesi di laurea, Sapienza Università di Roma, a.a. 2018-2019</bibl></listBibl>
+                <msDesc>
+                    <msIdentifier><repository>Archivio Ascoli, presso la Biblioteca dell’Accademia dei Lincei e Corsiniana, Roma.</repository> <idno>Pacco 97, busta 1.</idno></msIdentifier>
+                    <msContents><summary corresp="#letter">Si chiede che l’Ascoli presenti al ministro domanda di trasferimento a Roma per il prof. Pieri.</summary></msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#roma">Roma</placeName>
+                    <date when="1905-02-03"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#GIA">Graziadio Isaia Ascoli</persName>
+                    <placeName ref="#sconosciuto">?</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                    <opener><dateline><placeName ref="#roma">Roma</placeName> <date when="1905-02-03">3 febbr. 1905</date></dateline>
+                        <salute>Mio Signore</salute></opener>
+                    <p>La Sua <title type="letter">lettera</title>, mandatami per espresso, giunse in tempo perché io la comunicassi alla Commissione convocata al <placeName ref="#corsini">pal. Corsini</placeName>, e la Commissione rimandava allora ogni discussione ad altra seduta, limitandosi per quel giorno a parlare del prof. <persName ref="#SP">Pieri</persName>, intorno al quale tutti si trovarono d’accordo nella proposta di chiedere al Ministro il trasferimento in <placeName ref="#roma">Roma</placeName>, affinché potesse accudire pienamente al nuovo officio. Ma come fare tale domanda al Ministro? Qui sorsero alcuni dubbi, opinando il <persName ref="#FDO">D’Ovidio</persName> che, se avesse fatto egli la domanda, questa non avrebbe forse avuto presso il Ministro quella efficacia che si doveva desiderare. Così si concluse che, per presentare la domanda al Ministro, si dovesse pregar <persName ref="#GIA">Lei</persName> insieme a un altro accademico, e il <persName ref="#FDO">D’Ovidio</persName> si riservò di comunicarci questo dopo aver sentito anche il Presidente dell’<orgName ref="#AccLin">Accademia</orgName> e gli altri del Consiglio. La lettera che le accludo, giuntami jersera, parla appunto di ciò; ed io la trasmetto a <persName ref="#GIA">Lei</persName> perché veda se, senza troppo suo incomodo, potesse fare questa gita a <placeName ref="#roma">Roma</placeName> e presentare al Ministro la domanda relativa al <persName ref="#SP">Pieri</persName>. Certo che, senza di Lei, questo primo passo non si può farlo. Anche il conte <persName ref="#CN">Nigra</persName>, che ho riveduto questa mattina, è di questo parere, e spero che <persName ref="#GIA">Ella</persName> mi perdonerà se Le reco un messaggio un poco, per la stagione, molesto.</p>
+                    <closer><salute>il Suo aff.mo</salute>
+                        <signed><persName ref="#EM">Ern. Monaci</persName></signed></closer>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

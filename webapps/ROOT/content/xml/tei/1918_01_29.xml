@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Cesare De Lollis a Ernesto Monaci, 29 gennaio 1918</title>
+                <editor role="transcription"><persName>Debora Matteo</persName></editor>
+                <editor role="encoding"><persName>Stefano Boschi</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2020-05-08"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl><bibl>Debora Matteo, <title>Itinerario di un carteggio</title>, tesi di laurea, Sapienza Università di Roma, a.a. 2017-2018</bibl></listBibl>
+                <msDesc>
+                    <msIdentifier><repository>Archivio Monaci, Società Filologica Romana, presso il Dipartimento di Studi Europei, Americani e Interculturali, Sapienza, Università di Roma.</repository> <idno>Busta n. 8, fascicolo 394.</idno></msIdentifier>
+                    <msContents><summary corresp="#letter">Sulla volontà di adempiere al desiderio dell’antico maestro, che sia il De Lollis stesso a succedergli.</summary></msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#CDL">Cesare De Lollis</persName>
+                    <placeName ref="#sconosciuto">Dal fronte</placeName>
+                    <date when="1918-01-29"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#sconosciuto">?</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                    <opener><salute>Caro <persName ref="#EM">Professore</persName>,</salute></opener>
+                    <p>solo da poco ho saputo che Lei si è ufficialmente ritirato dall’insegnamento. Ne ho provato dispiacere, e proprio per questo mi son trattenuto dallo scriverle. Dopo tanto tempo, avrei voluto cogliere un’altra occasione per rifarmi vivo con Lei. [...] Lei è stato un maestro esemplare, nel vero senso della parola; in questo senso Ella ha portato nel Suo insegnamento tanta dignità, che bastava a formare non solo buoni studiosi, ma uomini di elevata coscienza. Ben posso dirlo <persName ref="#CDL">io</persName> che son venuto da Lei la prima volta trentaquattro anni fa. È stato Lei che ha fatto di <persName ref="#CDL">me</persName> uno studioso ordinato. [...] Così stando le cose, succederle nella cattedra che ha or ora lasciato vacante, significa raccogliere un nobilissimo retaggio. E ciò non può non lusingarmi. Speriamo possa avvenir senza lotta; ma, se sarà necessario, lotteremo contro i pretendenti non rispettosi del Suo desiderio.</p>
+                    <p>[...]</p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

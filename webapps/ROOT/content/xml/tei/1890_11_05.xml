@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Cesare De Lollis a Ernesto Monaci, 5 novembre 1890 (?)</title>
+                <editor role="transcription"><persName>Debora Matteo</persName></editor>
+                <editor role="encoding"><persName>Mariangela Distilo</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2020-02-26"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl><bibl>Debora Matteo, <title>Itinerario di un carteggio</title>, tesi di laurea, Sapienza Università di Roma, a.a. 2017-2018</bibl></listBibl>
+                <msDesc>
+                    <msIdentifier><repository>Archivio Monaci, Società Filologica Romana, presso il Dipartimento di Studi Europei, Americani e Interculturali, Sapienza, Università di Roma.</repository> <idno>Busta n. 8, fascicolo 394.</idno></msIdentifier>
+                    <msContents><summary corresp="#letter">Lettera di Cesare De Lollis a Ernesto Monaci del 5 novembre 1890 (?)</summary></msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#CDL">Cesare De Lollis</persName>
+                    <placeName ref="#genova">Genova</placeName>
+                    <date when="1890-11-05" cert="low"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#sconosciuto">?</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                    <p>[...]</p>
+                    <p>Ho riflettuto a lungo sul modo in cui si contiene il <persName ref="#EGP">Parodi</persName>, e Le confesso che sempre più mi convinco ch’egli s’è diportato malissimo. Anche il prof. <persName ref="#LTB">Belgrano</persName>, al quale ho detto tutto, è rimasto sorpreso, e mi ha dichiarato ch’egli ritiene il <persName ref="#EGP">Parodi</persName> in preda a uno di quegli accessi d’isterismo che gli vengono dalla neurastenia di cui è vittima. Neurastenia o no, il fatto è che è lui che viene ad attraversare la via a me, non io a lui. 
+                        Egli ha finora guardato d’alto in basso l’insegnamento delle neolatine, riserbandosi a più alti destini: d’un tratto, s’accorge che il compimento di questi destini si differisce e minaccia magari di dileguarsi; ed eccolo scendere nella lizza a mettere i bastoni tra le gambe altrui. [...] Io son qui sulle spine, non potendo movermi prima di lunedì, e non riuscendo finora a carpire una risposta agli impiegati del <orgName ref="#MPI">Ministero</orgName>, ai quali ho scritto. 
+                        D’altra parte, io non so a che eccesso arriverei se dovessi essere lasciato a terra pel capriccio, bisogna dir così, muliebre del <persName ref="#EGP">Parodi</persName>. Mi permetto quindi di rinnovarle caldissimamente la preghiera di far sentire la Sua voce al <persName ref="#PB1">Ministro</persName>: è una preghiera che il <persName ref="#LTB">Belgrano</persName> mi autorizza a farle anche in nome di lui, che n’è convinto al par di me che Lei possa tagliare il nodo gordiano. È un gran disturbo che Le procuro, e Le confesso che mai come ora ho sentito vero il motto charta non erubescit... Ma a compiere tale sacrifizio per me spero che l’indurrà, oltre la paterna benevolenza di cui m’involge da sette anni, la considerazione che sarà anche l’ultimo che mi permetterò di chiederle.</p>
+                    <p>[...]</p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>
+

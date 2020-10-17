@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Graziadio Isaia Ascoli a Ernesto Monaci, 19 marzo 1906</title>
+                <editor role="transcription"><persName>Debora Matteo</persName></editor>
+                <editor role="encoding"><persName>Stefano Boschi</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2020-05-08"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl><bibl>Debora Matteo, <title>Itinerario di un carteggio</title>, tesi di laurea, Sapienza Università di Roma, a.a. 2017-2018</bibl></listBibl>
+                
+                <msDesc>
+                    <msIdentifier><repository>Archivio Monaci, Società Filologica Romana, presso il Dipartimento di Studi Europei, Americani e Interculturali, Sapienza, Università di Roma.</repository> <idno>Busta n. 1, fascicolo 49, lettera 163.</idno></msIdentifier>
+                    <msContents><summary corresp="#letter">Compiange le critiche che il Monaci subisce dal De Lollis.</summary></msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#GIA">Graziadio Isaia Ascoli</persName>
+                    <placeName ref="#sconosciuto">?</placeName>
+                    <date when="1906-03-19"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#sconosciuto">?</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                    <p>[...]</p>
+                    <p>Le accuse che Le si muovono son veramente stomachevoli; ma vorrei ch’<persName ref="#EM">Ella</persName> pur mi permettesse di dire che son tanto goffe e vengono da così stravaganti persone, da non esservi miglior partito per un par Suo che il non curarle affatto. <persName ref="#GIA">Io</persName>, del rimanente, son prontissimo ad attestare che <persName ref="#EM">Ella</persName> si offriva a restringere il proprio insegnamento alle sole letterature neolatine, abbandonando al <persName ref="#CDL">De Lollis</persName> la parte linguistica del neolatino, e ricordo benissimo di essermi adoperato, direttamente e indirettamente, a comunicare questa Sua offerta al <persName ref="#CDL">D.L.</persName>, come anche posso fermamente attestare d’essermi in conclusione convinto che nessuna concessione di Lei sarebbe mai bastata a soddisfare il <persName ref="#CDL">D.L.</persName></p>
+                    <p>[...].</p>
+                    <p>Cessò di frequentare, in Genova, la casa di mia figlia; e richiesto finalmente da mio genero del perché della diserzione, egli dichiarò che la causa ne ero <persName ref="#GIA">io</persName>, fattomi nemico di <persName ref="#CDL">lui</persName> per compiacere a <persName ref="#EM">Lei</persName>. Risaputo ch’ebbi ciò da mio genero, <persName ref="#GIA">io</persName> naturalmente gli ho dimostrato come tutto poi si riducesse a una serie di calunnie e di pazzia.</p>
+                    <p>[...]</p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Cesare De Lollis a Ernesto Monaci, 16 aprile 1901</title>
+                <editor role="transcription"><persName>Debora Matteo</persName></editor>
+                <editor role="encoding"><persName>Margherita Bisceglia</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2020-04-20"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl><bibl>Debora Matteo, <title>Itinerario di un carteggio</title>, tesi di laurea, Sapienza Università di Roma, a.a. 2017-2018</bibl></listBibl>
+                <msDesc>
+                    <msIdentifier><repository>Archivio Monaci, Società Filologica Romana, presso il Dipartimento di Studi Europei, Americani e Interculturali, Sapienza, Università di Roma.</repository> <idno>Busta n. 8, fascicolo 394.</idno></msIdentifier>
+                    <msContents><summary corresp="#letter">Lettera di Cesare De Lollis a Ernesto Monaci del 16 aprile 1901</summary></msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#CDL">Cesare De Lollis</persName>
+                    <placeName ref="#genova">Genova</placeName>
+                    <date when="1901-04-16"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#roma">Roma</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                    <opener>
+                        <dateline><placeName ref="#genova">Genova</placeName>, <date when="1901-04-16">16. IV. ‘901</date></dateline>
+                        <salute>Caro Professore,</salute></opener>
+                    <p>Secondo me, la sollecitazione della casa Loescher, di cui le 
+                        <gap reason="illegible" extent="unknown" unit="chars"/>
+                            qui racchiusa la lettera, è ragione nota. 
+                            Riconosco però che una rivista vera e propria richiede molto tempo e lavoro, 
+                            e se veramente Ella non si sente da spendervi né dell’uno né dell’altro, 
+                            temo non se ne potrà far nulla. Perché per ragioni che sarebbe lungo a me esporre, 
+                            a Lei stare a sentire, probabilmente io dovrò passare una buona parte dell’anno prossimo 
+                            venturo <gap reason="illegible" extent="unknown" unit="chars"/> lontano da 
+                        <placeName ref="#genova">Genova</placeName>, e in condizioni che non mi permetteranno stabilità 
+                            di occupazione e continuità d’impegni. S’Ella, pel primo anno, <pb/>
+                        avesse creduto di poter 
+                            dare buona parte di sé all’impresa, che del resto io avrei potuto impegnarmi a far tutto 
+                            o quasi l’anno successivo: e si sarebbe così, adattandosi alla necessità della cosa, 
+                            stabilito un criterio d’alternativa. Ma poiché sembra che non possa, pazienza. 
+                            Dei volontari non mancheranno i quali sarebbero lieti di assicurarsi la soma ch’io, 
+                            purtroppo, non posso ora, sul momento, caricarmi <gap reason="illegible" extent="unknown" unit="chars"/>. 
+                            Solo, mi riserverei la pubblicazione di due righe sul I° numero della rivista 
+                            per dichiarare che la mia ritirata fu cosa tutta spontanea, e non motivata da dissensi 
+                            o che so io.</p>
+                    <closer><signed><persName ref="#CDL">Cesare de Lollis</persName></signed></closer>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

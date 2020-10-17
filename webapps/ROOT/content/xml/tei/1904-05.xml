@@ -1,0 +1,659 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Zibaldone di G. Leopardi in relazione al movimento moderno della filologia romanza</title>
+                <editor role="transcription"><persName>Antonio Geremia</persName></editor>
+                <editor role="encoding"><persName>Samuele Autorino</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2020-06-30"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl><bibl>Antonio Geremia, <title>Ernesto Monaci: trascrizione di appunti sul corso universitario riguardo lo Zibaldone di Giacomo Leopardi</title>, tesi di laurea, Sapienza Università di Roma, a.a. 2018-2019</bibl></listBibl>
+                <msDesc>
+                    <msIdentifier><repository>Archivio Monaci, Società Filologica Romana, presso il Dipartimento di Studi Europei, Americani e Interculturali, Sapienza, Università di Roma.</repository> <idno>Busta n. 36, fascicolo 1516</idno></msIdentifier>
+                    <msContents><summary corresp="#notes">Il corso, relativo all’a.a. 1904-1905 e intitolato <title>Zibaldone di G. Leopardi in relazione al movimento moderno della filologia romanza</title>, mira ad indagare alcune importanti riflessioni, di natura per lo più linguistica, contenute nello <title ref="#zibaldone">Zibaldone</title> di <persName ref="#leopardi">Giacomo Leopardi</persName>. Suddivise in tre diversi fascicoli, le carte in questione affrontano questioni fondamentali che vanno dall’influenza esercitata dal Romanticismo nei confronti degli studi romanzi al rapporto tra latino, latino volgare e lingue romanze, passando per un’attenta analisi, scrupolosamente condotta attraverso schede lessicografiche, di una serie di voci su cui già il poeta recanatese aveva avuto modo di avanzare interessanti riflessioni.</summary></msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                
+                <div type="textpart" subtype="section" n="1">
+                    <head>Leopardi, pensieri</head>
+                </div>
+                
+                <div type="textpart" subtype="section" n="2">
+                    <pb/><head>Analisi psicologica</head>
+                    <p>Osservazione sui (sic) psicologi moderni I, 160.</p>
+                    <p>Dolore moderno e dolore antico I, 188, cf. 198, 215.</p>
+                    <p>Sobrietà descrittiva degli antichi rispetto al lusso di particolare nei moderni. I, 210.</p>
+                </div>
+                
+                <div type="textpart" subtype="section">
+                    <pb/><head>Lingua</head>
+                    <p><hi rend="underline">parole e termini</hi>, loro differenza.I, 221</p>
+                    <p>I vocaboli si creano dove si formano le cose significate, I 227.</p>
+                    <p>La parola è un’arte importante degli uomini. I, 248.</p>
+                </div>
+                
+                <div type="textpart" subtype="section">
+                    <pb/><head>Latini</head>
+                    <p>La <hi rend="underline">vis comica</hi> in <persName ref="#plauto">Plauto</persName> I, 87 confronti con <persName ref="#terenzio">Terenzio</persName> ivi.</p>
+                    <p><persName ref="#cicerone">Cicerone</persName> «il predicatore delle illusioni»  I, 107; cf. 268.</p>
+                    <p><persName ref="#orazio">Orazio</persName> I, 172</p>
+                    <p><persName ref="#celso">Celso</persName> I, 125-131;</p>
+                    <p>Primordj in Roma della poesia, uccisa dalla imitazione greca. I, 161, cf.</p>
+                    <p>Diffusione della loro lingua. I, 335.</p>
+                </div>
+                
+                <div type="textpart" subtype="section">
+                    <pb/><head>Varia</head>
+                    <p>Il poetico nell’insegnamento anche della matematica: I, 167.</p>
+                    <p>Avversione del Leopardi ai romanzi per la loro esagerazione  I,175.<lb/>(di qui la sua avversione al romanticismo in genere, mentre pure egli è romantico per eccellenza. Ma per lui il romanticismo era nient’altro che un’esagerazione.)</p>
+                    <p>Altra nota contro i romantici: I, 196.</p>
+                    <p>Utilità del possedere più lingue: I, 204.</p>
+                    <p>Delle imitazioni e loro valore: I, 249.</p>
+                    <p>«Nella carriera poetica il mio spirito ha percorso lo stesso stato che lo spirito umano in generale». I, 249  (La pagina in cui svolge questa osservazione dovrebbe esser tenuta a commento dei Canti prima delle lucubrazioni  di tutti i dottori che vi scrissero sopra).</p>
+                    <p>Le accademie e il loro influsso sulla letteratura. I, 251.</p>
+                    <p>Su <title ref="#ossian">Ossian</title> I, 302, 308.</p><!-- Ho dato per scontato che si faccia riferimento all’opera e non al personaggio, ma dovrò verificare -->
+                    <p>Su <persName ref="GGB">Byron</persName> I, 323 , 334.</p>
+                    <p>Grafia, uso delle lineette...I, 325.</p>
+                
+                    <pb/><p>Sul dolore dell’usignolo in <persName ref="#virgilio">Virgilio</persName>, 281.</p>
+                </div>
+                
+                <div type="textpart" subtype="section">
+                    <pb/><head>Folklore</head>
+                    <p>Canti popolari di <placeName ref="#recanati">Recanati</placeName> I, 119 .</p>                   
+                </div>
+                
+                <div type="textpart" subtype="section">
+                    <pb/><head>Francesi</head>
+                    <p>Hanno nella loro lingua familiari certe esagerazioni che sono vere e proprie frasi della lingua, non di uno o l’altro scrittore… I, 85.</p>
+                    <p>Con la loro pronunzia tolgono a molte parole «quel suono espressivo che avevano in origine». I, 89 (cf. 146).</p>
+                    <p>In che consista la <hi rend="underline">duttilità</hi> della loro lingua I, 121 .</p>
+                    <p>Il ridicolo dei francesi assai diverso da quello dei comici greci o latini. I, 140.</p>
+                    <p>Difetto di «grazia» nella loro lingua. I, 150 , cf. 310</p>
+                    <p>Presero l’ü dai greci. I, 162.</p>
+                    <p>La loro natura è «obbligata e avvezzata alla continua uniformità… per lo spirito di società e d’eccessivo incivilimento». I, 186.</p>
+                    <p>«Le grazie naturali sono affatto sbandite dal loro stile». I, 202.</p>
+                    <p>Loro «disprezzo e quasi odio degli stranieri». I, 230.</p>
+                    <p>Bossuet e la lingua francese. I, 318, 319.</p>
+                    <p>Nemici del sublime. I, 339.</p>
+                </div>
+                
+                <div type="textpart" subtype="section">
+                    <pb/><head>Leopardi: Pensieri.</head>
+                    <p>Armonia delle parole e quanto essa sia diversamente sentita e gustata dagli uomini. III, 1</p>
+                    <p>Lingua comune. Tutte le lingue colte dell’Europa hanno un certo numero di voci comuni, con le quali esprimono quanto di più sottile e di più spirituale si venne dai moderni pensando oltre gli antichi, e con le quali ancora talvolta esprimono cose già pensate e dette dagli antichi, ma più sottilmente e finamente, secondo il progresso delle cognizioni e della scienza.</p>
+                    <p>Queste voci formano una specie di vocabolario universale e quasi una piccola lingua nelle quali s’infondono gli scrittori e i parlatori di tutta l’Europa colta. Ma, osserva qui il Leopardi, la massima parte di questo vocabolario manca all’italiano, o per lo meno, in <placeName ref="#italia">Italia</placeName> è considerato impuro, e così l’Italia dal purismo si faceva metter fuori di questo mondo e fuori di questo secolo. III, 6-7.</p>
+                    <p>Facendosi a combattere quell’esclusivismo, il Leopardi vorrebbe che si chiamassero barbari i gallicismi, non gli europeismi (p. 8) e di questi vorrebbe arricchita la lingua italiana (p. 9), e sono belle le pagine seguenti, dove il Leopardi spiega come vorrebbe procedere tale arricchimento.</p>
+                </div>
+                
+                <div type="textpart" subtype="section">
+                    <pb/><head><persName ref="#petrarca">Petrarca</persName></head>
+                    <p>Superiore a Orazio I, 108 ;</p>
+                    <p>sue proprietà esclusive. I, 110 ;</p>
+                    <p>sua spontaneità. I, 110;</p>
+                    <p>sua semplicità diversa da quella dei greci. I, 182;</p>
+                    <p>in che principalmente differisca dagli altri poeti d’amore. I, 224;</p>
+                    <p>le sue canzoni <hi rend="underline">Spirto gentil</hi> e <hi rend="underline">Italia mia</hi> sono il «il più eloquente eloquente <!-- Controllare carta IX in archivio --> pezzo italiano». I, 120.</p>
+                </div>
+                
+                <div type="textpart" subtype="section">
+                    <pb/><head>Lingua italiana</head>
+                    <p>Alfabeto, come debba pronunciarsi I, 122; cf. 181; sue origini 158;</p>
+                    <p>sua derivazione dal «volgare di Roma» I, 142.</p>
+                    <p>Nella sua pronunzia del latino, come la francese, anche l’italiano ha tolto a molte parole «quasi tutta l’espressione» che le dava il suono primitivo. I, 146.</p>
+                    <p>Sulla questione che l’italiano debba arricchirsi attingendo al latino, non al francese al tedesco ecc. I, 151, 55.</p>
+                    <p>Sui gallicismi. I, 172.</p>
+                </div>
+                
+                <div type="textpart" subtype="section">
+                    <pb/><head>Il romanticismo</head>
+                    <p>Concetti unilaterali sul romanticismo.</p>
+                    <p>Secondo il <persName ref="#LDB">Di Breme</persName> e il Leopardi.</p>
+                    <p>Pensieri I, 95: Il Di Breme «vuole che la poesia moderna sia fondata sull’ideale che egli chiama patetico e più comunemente si dice sentimentale» (p. 95); riduce «la poesia moderna al solo patetico». (p. 98).</p>
+                    <p>Della sentimentalità, Z. 177.</p>
+                    <p>Superiorità della poesia antica rispetto alla romantica, secondo il Leopardi. Z. 191 3.</p>
+                    <p>Differenze tra <persName ref="#omero">Omero</persName> ed Ossian, Z. 205 1, 2.</p>
+                    <p>La grandezza naturale e spontanea negli antichi non nei moderni, Z. 207, 2.</p>
+                    <p>Sugli eccessi della poesia Byroniana , Z. 224, 1.</p>
+                    <p>Sensibilità; la espressione di essa nel Lazio comparve col mezzo di Virgilio, Z. 232, 2.</p>
+                    <p>Libertà e irregolarità dei versi classici, come Omero ecc. Z. 307.</p>
+                    <p>Naturalezza di certi giochi presso i greci, artificialità degli stessi giochi presso i romani, Zibaldone 328 in fine. Così nella letteratura.</p>
+                
+                    <pb/><p>Cinquecentisti I, 76; 169<lb/>alamanni. I, 170<lb/><persName type="author" ref="#lorenzino">Lorenzino De Medici</persName>. I, 171</p>
+                    <p>Trecento I, 76; Petrarca  :  sua semplicità diversa da quella dei greci<lb/>sua spontaneità I, 170; [I, 182;<lb/>superiore a Orazio I, 108,<lb/>proprietà esclusive I, 110; le sue canzoni <hi rend="underline">Spirto gentil</hi> e <hi rend="underline">Italia mia</hi> sono ognuna il più eloquente pezzo italiano I, 120. (e vedi <hi rend="underline">Petrarca</hi>).</p>
+                    <p>Quattrocento I, 78. <persName ref="IS1">Sannazzaro</persName> I, 166; 164; 168.</p>
+                    <p>Seicento: <persName ref="#FT2">F. Testi</persName> I, 169 <persName ref="#VF">Filicaja</persName> I,110, 115, 119, <persName ref="#GC2">Chiabrera</persName> I, 111, 114, 115, 116, 117; <persName ref="#tasso">Tasso</persName>, il solo italiano veramente eloquente, eccetto il Petrarca. I, 120.</p>
+                    <p>Settecento: <persName ref="#CAG">Guidi</persName> I, 115, 116, 119, <persName ref="#GBFZ">Zappi</persName> I, 117, 118; <persName ref="#EM4">Manfredi</persName> I , 118.</p>
+                    <p>Ottocento: <persName ref="#PM2">Metastasio</persName> I, 125; 139.</p>
+                    <p>Moderni: il <persName ref="#VM">Monti</persName> I, 92; 131<lb/>i romantici I, 94<lb/><persName ref="#AV">Verri</persName> I, 192.</p>
+                    
+                    <pb/><p>Poesie rusticali: I, 166.</p>
+                    <p>Apologo: nel <persName ref="#LP1">Pignotti</persName> I, 179.</p>
+                </div>
+                
+                <div type="textpart" subtype="section">
+                    <pb/><head>Le etimologie del Leopardi nei Pensieri (Zibaldone):</head>
+                    <p>Vol. I:</p>
+                    <p><hi rend="underline">testa p.124.</hi></p>
+                    <p><hi rend="underline">blittri, blitteri marchegiano p. 143.</hi></p>
+                    <p><hi rend="underline">nausea p.205.</hi></p>
+                    <p><hi rend="underline">tomba</hi></p>
+                    <p><hi rend="underline">transversare</hi></p>
+                    <note><hi rend="underline">tomba</hi> e <hi rend="underline">transversare</hi> sono uniti da una graffa che rimanda all’indicazione: p. 218</note>
+                    <p><hi rend="underline">baggeo</hi></p>
+                    <p><hi rend="underline">planer</hi></p>
+                    <p><hi rend="underline">demi fr.</hi></p>
+                    <p><hi rend="underline">serpo</hi></p>
+                    <p><hi rend="underline">salio</hi></p>
+                    <p><hi rend="underline">salto</hi></p>
+                    <note>Le parole comprese tra <hi rend="underline">baggeo</hi> e <hi rend="underline">salto</hi> sono unite da una graffa che rimanda all’indicazione: p. 220</note>
+                    <p><hi rend="underline">gridare a testa p. 222</hi></p>
+                    <p><hi rend="underline">impertinente p. 223</hi></p>
+                    <p><hi rend="underline">agevole p. 224</hi></p>
+                    <p><hi rend="underline">quanto a p. 256</hi></p>
+                    <p><hi rend="underline">tornio, tornire, tornare p. 327</hi></p>
+                    <p><hi rend="underline">trattenere p. 328</hi></p>
+                    <p><hi rend="underline">hanter fr. p. 421.</hi></p>
+                    <p>Volume III: repere, inerpicare, ripire, ripido, -ezza, p. 19<lb/>-eggiare p. 26; -icciare, -ellare, -olare, ecc. p. 27<lb/>Sull’etimologia in genere pp. 51-59.<lb/>Il latino vive ancora nelle lingue romanze p. 69.<lb/>Abitare da habitis p. 97.<lb/>Gl, gn p. 101, 103, 104.   ch, sci, acc.  p. 114</p>
+                    
+                    <pb/><p>Imitazione dei greci nocque ai latini e imitazione dei greci e dei latini nocque agl’italiani. Leopardi, Zibaldone 54; in <persName ref="#ovidio">Ovidio</persName>, 21,1.  (cf. Z. 308, 2; 312, 2.) .</p>
+                    <p>Uno dei caratteri del romanticismo è nel Leopardi la esagerazione, Z. 53, 2.</p>
+                    <p>Opinioni del Di Breme sul romanticismo discusse dal Leopardi. Z, 15, 1.</p>
+                    <p>Stetilizzazione delle facoltà ridotte ad arte, Z. 39, 1.</p>
+                    <p>Modo diverso di rappresentare una immagine in <persName ref="#dante">Dante</persName> e in Ovidio Z. 57, 1.</p>
+                    <p>I veri idilli teocritei nostri non sono nel Sannazzaro ecc. Ma nella <title ref="#nencia">Nencia</title>, nel <title ref="cecco">Cecco di Varlungo</title>. Z. 57, 2.</p>
+                    <p>L’eccessivo dei romantici, Z. 74, 1.</p>
+                    <p>L’espressione del dolore, diversa negli antichi e nei moderni, Z. 76, 4; 86, 1.</p>
+                    
+                    <pb/><p>Sterilità dell’odio 59, 4.</p>
+                    <p>Amor patrio degli antichi fu piuttosto amor di gloria 67, 3.</p>
+                    <p>Perché tanto c’interessino le cose cantate dai greci e dai romani 192.</p>
+                    <p>Pochi soldati napolitani stanziati a <placeName ref="#recanati">Recanati</placeName> al tempo del Leopardi per uno o due anni bastarono a introdurre colà molte parole ed espressioni del loro dialetto, 242.</p>
+                    <p>La tirannia favorevole agli studj, 274.</p>
+                </div>
+                
+                <div type="textpart" subtype="section">
+                    <pb/><head>Leopardi: Pensieri:</head>
+                    <p>repere e ripire III, 19.</p>
+                </div>
+                
+                <div type="textpart" subtype="section" n="2">
+                    <pb/><p>1. Le lingue romanze nella storia generale del linguaggio e nella storia dell’incivilimento moderno.</p>
+                    <p>4. Le lingue romanze nei loro rapporti col latino.</p>
+                    <p>5. I coefficienti etnici nelle trasformazioni del latino.</p>
+                    <p>6. Gli elementi eterogenei nella formazione delle lingue romanze.</p>
+                    <p>3. Le lingue romanze, i loro dialetti, i loro vernacoli.</p>
+                    <p>2. Le prime manifestazioni delle lingue romanze.</p><!-- RICONTROLLARE ORDINE (carta XVIII) -->
+                </div>
+                
+                <div type="textpart" subtype="section">
+                    <pb/><head>Corso 1904-’5</head>
+                    <p>Parte I: Il Zibaldone di Giacomo Leopardi in rapporto al movimento moderno della filologia romanza.</p>
+                    <p>1. Quando fu scritto il Zibaldone – In quali condizioni fu scritto – con quale scopo – Come pervenne a noi – Come fu pubblicato – Impedimenti frapposti – Dallo stato per accertarne la lezione in luoghi dubbi e per farne libero uso nel campo degli studj – Questioni filologiche trattate nel Zibaldone – Sussidj per esaminarle negl’ indici compilati dall’ autore medesimo.</p>
+                    
+                    <pb/><p>Etimologie</p>
+                    <p><hi rend="underline">nausea</hi> Leopardi I, 205 – cf. k. 5558.</p>
+                </div>
+                
+                <div type="textpart" subtype="section">
+                    <pb/><head><persName ref="#GG">G. Gröber</persName>: Grundriss der romanischen Philologie:</head>
+                    <p>fase. 1° (I, 1-139); Geschcichte der romanischen Philologie v. G. Gröber.</p>
+                    <p>Fase. 4°-5° (II1, 97- 432) Übersicht über die lateinische Literatur von der Mitte des VI jahrhunderts bis 1350 v. G. Grober</p>
+                </div>
+                
+                <div type="textpart" subtype="section">
+                    <pb/><head>Leopardi, Zibaldone</head>
+                    <p>Volume I cc. 1 – 456.</p>
+                    <p>II “ 457 – 1206.</p>
+                    <p>III “1207 – 1998.</p>
+                    <p>IV “1999 – 2800.</p>
+                    <p>V “2801 – 3518.</p>
+                    <p>VI “3519 – 4079.</p>
+                    <p>VII “4080 – 4526.</p>
+                    
+                    <pb/><p>1°. Dedicherò come di solito qualche ora alla storia della filologia, e poiché negli anni passati trattai della filologia nei secoli che precedettero il XIX, quest’anno vorrei invece venire al XIX e soprattutto chiamare la vostra attenzione sopra una grande lacuna di questa storia quale finora è stata descritta dal Gröber.</p>
+                    <p>2°. Qualche altra ora vorrei dedicare alla dialettologia italiana, illustrando un canzoniere inedito.</p>
+                    <p>3°. Altre ore vorrei riservare a questioni diverse di filologia.</p>
+                </div>
+                
+                <div type="textpart" subtype="section">
+                    <pb/><p>Sul latino volgare<lb/>v. pp. 42, 34- 36, 32, 44,47-8, 95-6,</p>
+                    <p>Sul greco nel romanzo<lb/>v. pp. 43, 44, 50, 47-8, 62.</p>
+                    <p>Sull’alfabeto e sulla fonetica<lb/>v. p. 51-2, 54-5.</p>
+                    
+                    <pb/><p><hi rend="underline">Imitazione</hi>. Suoi danni nei latini e negl’italiani v. p. 54.</p>
+                    <p><hi rend="undeline">Poesia sulla matematica</hi>. p. 58.</p>
+                    <p><hi rend="underline">Dialetti germanici</hi>– loro pregi: III, 465, 466.</p>
+                    <p><hi rend="underline">Dialetti e lingua arcaica</hi>– V, 133.</p>
+                    <p><hi rend="underline">Lingua poetica</hi>- V, 131.</p>
+                </div>
+                
+                <div type="textpart" subtype="section">
+                    <pb/><head>Corso 1904- 1905.        Lezione 1<hi rend="superscript">a</hi>.</head>
+                    <p>Avvertenze sull’ordinamento della materia nella <orgName ref="#Sapienza">università di Roma</orgName>.</p>
+                    <p>L’avere addossato l’insegnamento delle lingue neolatine al titolare di letterature neolatine senza concedere al doppio insegnamento un corrispettivo di tempo, ebbe per conseguenza che questa materia fu addirittura strozzata.</p>
+                    <p>Basti considerare che, mentre essa, fra tutte le materie che s’insegnano in questa facoltà, è la più vasta; di fatto poi si trova esser quasi la sola, cui non sia concesso più di un anno nel programma della facoltà; e che, mentre nelle altre università questo solo anno è destinato tutto alle letterature, qui esso deve bastare anche per le lingue!</p>
+                    <p>Avverto questo non per fare lamenti, ma per togliere illusioni a chi, nuovo, credesse di trovare in questa scuola quanto possa bastargli a maturarsi nella materia. Una volta il numero ristrettissimo degli studenti permetteva di fare qualche cosa di più, sia per la forma più familiare della esposizione, sia per il maggior numero di ore di cui potevasi disporre nell’anno. Oggi nemmeno ciò è possibile.</p>
+                    <p>Il moltiplicarsi degl’insegnamenti obbligatorj e semiobbligatorj e il numero cresciuto degli studenti costringono l’insegnante in certi limiti, che sono assai più angusti di quanto erano in passato. E cresce l’angustia se si pone mente allo ordinamento degli studj, nel quale oggi, capovolto l’ordine razionale, la storia comparata delle lingue classiche, necessaria preparazione allo studio delle neolatine, è assegnata all’ultim’anno di facoltà, laddove le neolatine vanno al 2° o al 3°!</p>
+                    
+                    <pb/><p>Un’altra difficoltà che è venuta crescendo, sta nella deficienza del materiale scolastico. Una scuola di filologia dovrebbe dedicare buona parte del suo tempo alle esercitazioni pratiche; queste naturalmente dovrebbero esser condotte su le fonti non su libri di seconda mano, e perciò su mss. o riproduzioni di mss. Così si fa nei maggiori istituti esteri, così dopo molti stenti si era cominciato a fare anche qui, e la raccolta preparata per la università di Roma servì utilmente anche a molte altre università. Ma oggi il numero di quegli esemplari è così ristretto rispetto alla scolaresca presente, che ho dovuto rinunciare a farne uso, e sostituire ad essi piccole puntate a stampa…</p>
+                    <p>Che se lo studente vuol supplire studiando da sé nelle biblioteche, e crede di trovare nelle biblioteche di Roma quel che non troverebbe altrove, anche lì avrà delusioni. Il prestito concesso in proporzioni troppo larghe è causa che il meglio circoli quasi sempre fuori di Roma, ora chiesto da una università ora da altra…</p>
+                    <p>Ma di contro a questo peggioramento nelle condizioni della scuola rispetto a certi studi, c’è pure da rilevare un miglioramento che in passato non si aveva. Voglio dire del concorso della libera docenza.</p>
+                    <p>In quest’anno vi sarà un corso libero in letteratura latina del medioevo (prof. <persName ref="#FE1">Ermini</persName>), altro in grammatica comparata delle lingue romanze (prof. <persName ref="#VDB">De Bartolomeis</persName>); altro in stilistica (pr. <persName ref="#CT">Trabalza</persName>); senza dire dei corsi di letterature moderne del <persName ref="#CS1">Segrè</persName>, e di stilistica del <persName ref="#">Salvadori</persName>. Chi abbia voglia dunque potrà supplire con altri corsi al poco che potrebbe fare venendo soltanto qui.</p>
+                    <p>Ma veniamo alle materie che vorrei trattare io in quest’anno.</p>
+                    
+                    <pb/><p>Lavoro da fare in questo capitolo:</p>
+                    <p>Comporre la <hi rend="underline">nota dei fonti</hi> adoperati dal Leopardi;<lb/>= la serie delle voci da lui attribuite al latino volgare;</p>
+                    <p>raccogliere i criteri di metodo che lo guidarono, ed esporre le deduzioni che egli trasse dai fatti osservati e le applicazioni che ne faceva alla storia delle lingue neolatine</p>
+                </div>
+                
+                <div type="textpart" subtype="section">
+                    <pb/><head>Traduzioni</head>
+                    <p>Per tradurre efficacemente  molte volte conviene foggiare vocaboli nuovi, quantunque il lessico già possieda <hi rend="underline">l’equivalente</hi> di ciò che si traduce. «Se la voce non è nuova, non fa in noi quell’impressione» che in altri fece l’originale. I, 89 </p>
+                    <p>«L’efficacia dell’espressioni bene spesso è il medesimo che la novità»...I, 91.</p>
+                    
+                    <pb/><p>Alla poetica popolare volge l’occhio con curiosità, e lo colpisce il ritrovare fra le plebi danesi la favola di <persName ref="#apuleio">Apulejo</persName> e il vedere i tramutamenti nuovi che incontra l’Asino d’oro in quei paesi (VII, 258). Altrove parla con simile interessamento delle saghe scandinave, delle rapsodie finlandesi e (342-3); dei canti serbi (336).</p>
+                    </div>
+                
+                <div type="textpart" subtype="section">
+                    <pb/><head>Leopardi filologo</head>
+                    <p><hi rend="underline">A. Linaber</hi>, gli scritti filologici di Giacomo Leopardi, Firenze, Cellini, 1881;</p>
+                    <p><hi rend="underline">Colagrossi</hi>, studj sul Tasso e su Leopardi; Forlì, Gherardi, 1882.;</p>
+                    <p><hi rend="underline">G. Moroncini</hi>, il Leopardi filologo, Napoli; Morano, 1891;</p>
+                    <p><hi rend="underline">G. Setti</hi>, il Leopardi filologo; nella <hi rend="underline"><title ref="#NuovaAnt">N. Antologia</title></hi>, 1° giugno, 1891.</p>
+                    
+                    <pb/><p>La grande letteratura del medioevo restò quasi ignota al Leopardi, e quel poco che ne conobbe, parve a lui così puerile e da “non costituire una letteratura”. (VII, 313).</p>
+                    <p>Il libro del <!--  -->Faber  lo faceva propendere verso la teoria della monogenesi nella storia delle lingue (VII, 314).</p>
+                    <p>Nello studio del latino egli era risalito alla prosodia preenniana, e i libri del Lindermann <!-- forse Lindemann? verificare --> e dello <persName ref="#GH">Hermann</persName> sono da lui citati a conferma delle sue induzioni circa i mutamenti di pronunzia nel latino e nel greco (VII, 315).  Payne Knight VII, 321.</p>
+                </div>
+                
+                <div type="textpart" subtype="section">
+                    <pb/><head>Prosa</head>
+                    <p>Sua arte I, 124; è la nutrice del verso I, 119;</p>
+                    
+                    <pb/><p>Bello il pensiero su la vera poesia (VII, 383). Un pezzo che ne troviamo, ci rinfresca e quasi accresce la nostra vitalità. Ma raramente se ne trova, e il Monti – nota qui il Leopardi - non ne ha alcuno…</p>
+                
+                    <pb/><p>981, 1 (p. 313-4): deriva oculus da ocus, che si ritrova nel russo e deve esistere nel latino volgare.</p>
+                    
+                    <pb/><p>Indici e Cataloghi IV, fascicolo 2°.</p>
+                    <p>Palatino 91 scritto nel 1361. p. 85.</p>
+                </div>
+                
+                <div type="textpart" subtype="section">
+                    <pb/><head>Politica</head>
+                    <p>A chi governa giova mantener diviso il popolo in due fazioni. I, 224, cf. 267.</p>
+                    <p>Anarchia e dispotismo. I, 225.</p>
+                    <p>Effetti dell’incivilimento moderno. I, 269.</p>
+                </div>
+                
+                <div type="textpart" subtype="section">
+                    <pb/><head>Dialetti</head>
+                    <p>Lo studio dei dialetti a tempo del Leopardi era ben poco avanzato. Comunemente vi si vedeva non altro che corruzione della lingua, ed erano oggetti di curiosità vaga piuttosto che di studio vero. Il Leopardi parla spesso dei dialetti; v. VII, 453.</p>
+                    <p>112, 4 (p. 223): trae dal latino <hi rend="underline">impertinente</hi>, ritenendo che fosse nell’uso volgare.</p>
+                    <p>113, 2 (p. 224): trae <hi rend="underline">agevole</hi> da agere, e ritiene che i latini avessero anche <hi rend="underline">agibilis</hi></p>
+                    <p>150, 1 (p. 256): rileva in Tacito un volgarismo in <hi rend="underline">quantum ad (quanto a)</hi> invece di <hi rend="underline">quod attinet ad</hi>; 462, 2 (II, 5): vi riconosce un grecismo.</p>
+                    <p>205, 2 (p. 308): crede che nell’italiano <hi rend="underline">Oste</hi> “albergatore e anche ospite” il latino <hi rend="underline">Hostes</hi> sia venuto a sostituirsi ad <hi rend="underline">hospes</hi>.</p>
+                    <p>228, 1 (p. 327): riconosce la base greca in <hi rend="underline">tornio</hi>, <hi rend="underline">tornice</hi>, lat. <hi rend="underline">tornus</hi>, (ne riparla al 932, 1)</p>
+                    <p>230, 2 (p. 328): <hi rend="underline">trattenere</hi> da <hi rend="underline">intertenere</hi>.</p>
+                    <p>II</p>
+                    <p>366, 1 (p. 421): Discute l’etimologia di <hi rend="underline">hanter</hi> “frequentare, aver familiare” ecc. se dal nordico o dal greco.</p>
+                    <p>380, 2 (p.116): rileva il volgarismo <hi rend="underline">naturale est</hi> non registrato dai lessici.</p>
+                    <p>497, 7 (p. 25): studia il passaggio di significato di <hi rend="underline">fabula</hi> da <hi rend="underline">discorso</hi> a <hi rend="underline">ciancia</hi>.</p>
+                    <p>501, 2 (p. 28): <hi rend="underline">movēre</hi> latino adoperato in senso intransitivo Come <!-- controllare maiuscola -->italiano <hi rend="underline">muovere</hi>.</p>
+                    <p>595, 1 (p. 82): <hi rend="underline">coquĕre</hi> nel senso volgare di “molestare” notato in Virgilio, e dal Leopardi In <!-- controllare maiuscola --> <persName ref="#ennio">Ennio</persName>.</p>
+                    <p>597, 1 (p. 83): nota l’uso popolare <hi rend="underline">diventar di stoppa</hi> per “istupire”, mentre nel latino non si trova più col significato originario.</p>
+                    <p>599, 3 (p. 84): nota che il significato di <hi rend="underline">difendere</hi> per <hi rend="underline">proibire</hi> non è gallicismo ma del latino antichissimo.</p>
+                    <p>928, 1 (p. 272): <hi rend="underline">spegnere</hi> derivato dal greco; ma dovette essere anche nel latino altrimenti non si troverebbe in italiano, che solo possiede la parola.</p>
+                </div>
+                
+                <div type="textpart" subtype="section">
+                    <pb/><p>Sentenze</p>
+                    <p>“La pazienza è la più eroica delle virtù, giusto perché non &lt;ha&gt; <!-- testo emendato da Monaci? --> nessuna apparenza d’eroico”. I, 223.</p>
+                </div>
+                
+                <div type="textpart" subtype="section">
+                    <pb/><head>Sul latino volgare.</head>
+                    <p>Giusto il concetto del latino volgare nel Leopardi, retta l’applicazione che continuamente ne fa nelle sue indagini etimologiche; e dove ne ricostruisce parti, egli procede sempre con quel rigore cosciente di metodo, che la scuola moderna inculca. Non gli basta quindi di argomentare l’esistenza a priori da raffronti che gli sovvengono nel latino letterario o “scritto”. Ma è la pluralità dei riflessi moderni che lo decide. ved. Per esempio a p. 459 del vol. VII, dove ha parlato della formazione di avverbi di preposizioni  in italiano che essi fossero proprj del latino volgare, osserva egli, apparisce non solamente del trovarne alcuni nel latino scritto, ma anche perché “comune a tutte tre le lingue figlie”. Etimi determinati a questo modo ved. ivi p. 454.</p>
+                    
+                    <pb/><p>Il concetto del latino volgare era andato oscurandosi sempre più fino al <persName ref="#FJMR">Raynouard</persName> che ne volle trar fuori la sua <hi rend="underline">langue romane</hi>. Non solo il <persName ref="#GP1">Perticari</persName> e il Monti ne restarono illusi, ma per un certo tempo anche il <persName ref="#FD">Diez</persName> (Poes. d. troub.…); e se il Diez rimise più tardi la questione sul suo vero tramite, ciò fu per il metodo con cui egli prese a ristudiarlo per suo conto. Descrizione del latino v. nella grammatica del Diez (1835-55). - Studj successivi per completare in questa parte il Diez (<persName ref="#HS">Schuchart</persName>, <persName ref="#WS">Seelmann</persName>); e quando si è conosciuto tutto questo lavorio, se ci volgiamo agli studj isolati del Leopardi – anteriori a tutti costoro – non possiamo non essere colpiti dalla rettitudine e dalla giustezza di essi.</p>
+                    <p>Non si lasciò illudere dal Sistema Raynouardiano. Piuttosto che perdersi nelle definizioni, cercò i fatti, li andava raccogliendo giorno per giorno e si contentava di esaminarli senza troppe deduzioni.</p>
+                    
+                    <pb/><p>2) E dalla raccolta dei fatti egli si eleva anche alle ricostruzioni, ma con quanta cautela! …</p>
+                    <p>1) Trova nuove fonti (Celso).</p>
+                    <p>Lavoro da fare per questa parte, capitolo da ordinare.</p>
+                </div>
+                
+                <div type="textpart" subtype="section">
+                    <pb/><head>Leopardi, Zibaldone</head>
+                    <p>Civiltà antica diversa dalla moderna 4171, I.</p>
+                    <p>Il latino dopo il Risorgimento fu danno e ritardo al progresso 3336, I; 3338, I.</p>
+                    
+                    <pb/><p>Mutabilità del linguaggio e suo conseguente e progressivo scindersi, divariare e moltiplicarsi in dialetti. -v. le buone pagine su questo argomento in II, 276-282 , nelle quali anche si delineano felicemente altri concetti generali su la natura delle lingue, e sull’assurdità di una lingua universale ed artificiale (v. p. 280).</p>     
+                    <p>V. ancora III, 275 , ove si rincalzacetto del progressivo moltiplic il conarsi<!-- controllare carta XXXVI --> dei dialetti e si intuisce la vera ragione per cui, ad esempio, i dialetti vigoreggiano più o meno in certi tempi e in certi luoghi. Così V, 133, dove si parla della lingua poetica in genere e dell’arcaismo che spesso si confonde col dialettalismo; sul che v. ancora V, 150-3.</p>
+                </div>
+                
+                <div type="textpart" subtype="section">
+                    <head>Leopardi. Sul latino volgare:</head>
+                    <p>32, 2: argomenta a un latino v. <hi rend="underline">testa</hi> con valore di “capo”, dal fatto che noi chiamiamo il capo anche <hi rend="underline">la coccia</hi>.</p>
+                    <p>32, 4 (p. 125-31). Partendo dall’esame di un passo di Celso (<hi rend="underline">Cornel. Celsus, De medicina</hi>) e raffrontandone altri, dimostra che “questa prosa...fosse presa dal volgare di Roma” (p. 129).</p>
+                    <p>Indi passa a esaminare il <hi rend="underline">Libellus de arte dicendi</hi> attribuito pure a Celso, trova in alcuni costrutti volgari una ragione per riconoscervi lo stesso autore, quantunque l’opuscolo accenni ad alterazioni e guasti posteriori (p. 129-31).</p>
+                    <p>42, 1 (p. 142): argomenta l’italiano derivato dal volgare di Roma pel fatto che essa conserva parole antichissime latine “poi andate in disuso presso gli scrittori”.</p>
+                    <p>43, 5 (p. 143): nota che <hi rend="underline">blittri</hi>, del nostro uso comune ma non registrato dai vocabolari, è d’origine greca.</p>
+                    <p>95, 2 (p. 205): nota nausea, latino <hi rend="underline">nausea</hi> dal greco ναυτία.</p>
+                    <p>97, 3 (p. 218): argomenta un latino v. <hi rend="underline">tumbus</hi> o <hi rend="underline">tumba</hi> dal fatto che noi abbiamo <hi rend="underline">tomba</hi> e che i greci dicevano τυμβος nello stesso significato.</p>
+                    <p>97, 4 (p. 218): altra osservazione sul greco Kαμάρα  per <hi rend="underline">cubiculum</hi></p><!-- manca il punto? -->
+                    <p>109, 1 (p. 220): riconosce una base latino In <!-- controllare maiuscola, carta XXXVII --> <hi rend="underline">baggeo</hi>, e nota <hi rend="underline">buonus</hi> per <hi rend="uderline">bonus</hi> già in <persName ref="#frontone">Frontone</persName>.</p>
+                    <p>11, 1 (p. 222). trae la frase <hi rend="underline">gridare a testa</hi> dal greco.</p>
+                    
+                    <pb/><p>Sul Valaco II, 312, 313.</p>
+                    <p>Romania II, 313.</p>
+                    <p>Chj = cl latino II, 313 n.</p>
+                    
+                    <pb/><p>Malgrado certe apparenze, l’italiano rispecchia il latino meglio che il fr. E<!-- controllare maiuscola --> lo spagnolo 203-206.</p>
+                    <p>Mancanza di letteratura proprio nella Spagna e nell’Italia moderna. 238.</p>
+                    <p>Mancanza nel fr. di una lingua poetica 244-5.</p>
+                    <p>Differenza tra i neologismi tratti dal latino e quelli tratti da lingue esotiche. 246.</p>
+                    <p>Non è sicuro che la lingua greca sia madre o sorella della latina. 319. Ma madre della letteratura latina e della italiana spagnola ecc. è la letteratura greca! 319-21.</p>
+                    <p>Concetto degli allotropi ben chiaro nel Leopardi . 335.</p>
+                    
+                    <pb/><p>Allegria della paura VI, 6.</p>
+                    <p>pitto e pinto, ragione delle due forme 17. <!-- controllare carta XXXVIII v. --></p>
+                    <p>impassibilità del povero II.</p>
+                    <p>Latino volgare 27.</p>
+                    <p>Lingua poetica di Dante e Petrarca comparata con quella di Omero 29.</p>
+                    <p>Sperare= aspettare 36.</p>
+                    <p>Le lingue spagnola francese ecc. servono per argomentare al latino antico e al latino volgare 37.</p>
+                    <p>Conformità dello spagnolo col latino maggiore che nelle altre lingue romanze 37... 44.</p>
+                    <p>Derivazioni dall’accusativo latino o dall’ablativo nell’italiano e nello spagnolo 204.</p>
+                    <p>La sentimentalità di Byron 206-207.</p>
+                    <p>Conformità della letteratura moderna spagnola e della moderna italiana. - Ciò che noi vediamo bene e di lontano, ci rispecchia quel che segue in Italia – utilità quindi della compassione. 214.</p>
+                    
+                    <pb/><!-- carta su più colonne, controllare! --><p>soltar ecc. spagnolo III, 212-23.</p>
+                    <p>genio III, 216.</p>
+                    <p>guai = vae II, 305, 476 .</p>
+                    <p><hi rend="underline">poeticità</hi> delle parole III, 217, 369, 374, 389.</p>
+                    <p>hurtar sp. III, 234.</p>
+                    <p>verbi continuativi III, 292.</p>
+                    <p>scrittura e pronunzia nel fr. III, 294.</p>
+                    <p>golpe, deguiser, vizzo ecc. III, 305<!-- punto? --></p>
+                    <p>caput III, 312.</p>
+                    <p>agevole = III, 364.</p>
+                    <p>hueco sp. III, 372.</p>
+                    <p>pronunzia v. gl III, 383.</p>
+                    <p>del latino in Gallia, 456.</p>
+                    <p>argomenti sul latino volgare III, 385.</p>
+                    <p>favellare III, 440.</p>
+                    <p>vastus III, 452.</p>
+                    <p>futuro romanzo III, 469.</p>
+                    <p>quietari III, 480.</p>
+                    
+                    <pb/><p>Vol. II= pensare p. 16.</p>
+                    <p>favola e favella 25-6.</p>
+                    <p>muovere =andare 28.</p>
+                    <p>in comparazione, rispetto ecc. 32.</p>
+                    <p>inde = donde 34.</p>
+                    <p>cuocere e coquere 82.</p>
+                    <p>diventar di stoppa e stupire 83.</p>
+                    <p>defendere = prohibere 84.</p>
+                    <p>e teta greco differenze di pronuncia 145.</p>
+                    <p>potenzialità del latino 160.</p>
+                    <p>composti con ducere e facere 161.</p>
+                    <p><hi rend="underline">torvo</hi> e <hi rend="underline">torvamente</hi> 183.</p>
+                    <p>s impura 200.</p>
+                    <p>favellare, hablar 232.</p>
+                    <p>sdoppiamenti del linguaggio 276.</p>
+                    <p>tornare, tourner 283.</p>
+                </div>
+                
+                <div type="textpart" subtype="section">
+                    <pb/><head>etimologia, lessico=</head>
+                    <p>italiano <hi rend="underline">coccia</hi> = latino volgare <hi rend="underline">Testa</hi> = latino classico <hi rend="underline">caput</hi>. I, 124 .</p>
+                    <p><hi rend="underline">blittri, blitteri</hi> = <hi rend="underline">blitri</hi> (alfabeto greco). I, 144.</p>
+                    <p><hi rend="underline">nausea</hi>. I, 205 <!-- punto? --></p>
+                    <p><hi rend="underline">tomba</hi> 218.</p>
+                    <p>Kαμάρα (alfabeto greco) <!-- probabilmente un commento di Antonio --> I, 218.</p>
+                    <p><hi rend="underline">baggeo</hi>, <hi rend="underline">planer</hi> fr. <hi rend="underline">Serpo</hi>, <hi rend="underline">salio</hi>, <hi rend="underline">sudor</hi></p>
+                    <p><hi rend="underline">buonus</hi> per <hi rend="underline">bonus</hi>; <hi rend="underline">demi</hi> fr. da <hi rend="underline">ημi-semi</hi>!</p>
+                    <note><hi rend="underline">baggeo</hi> e <hi rend="underline">buonus</hi> sono uniti da una graffa che rimanda all’indicazione: I, 220.</note>
+                    <p><hi rend="underline">Impertinente</hi> I, 223.</p>
+                    <p><hi rend="underline">agevole</hi> I, 224.</p>
+                    <p><hi rend="underline">quantum ad</hi> I, 256.</p>
+                    <p><hi rend="underline">oste</hi> I, 308.</p>
+                    <p><hi rend="underline">torno</hi> 80 da τορνοω. I, 327.</p>
+                    <p><hi rend="underline">intertenere</hi> I, 328.</p>
+                </div>
+                
+                <div type="textpart" subtype="section" n="3">
+                    <pb/><p>veggio 105, 106</p>
+                    <p>vedo 105 più volte</p>
+                    <p>lauro 105</p>
+                    <p>carchi 105</p>
+                    <p>carche 105</p>
+                    <p>formosissima 105</p>
+                    <p>latèbre 128</p>
+                    <p>sparte (-se) 105</p>
+                    <p>tenèbre 135</p>
+                    <p>palpèbre 135</p>
+                    <p>loco 104</p>
+                    <p>brando 106</p>
+                    <p>lùgubri 187</p>
+                    <p>foco 106</p>
+                    <p>scheletro 189, 207</p>
+                    <p>italici 106</p>
+                    <p>itala 106</p>
+                    <p>itali 166</p>
+                    <p>estranie 106</p>
+                    <p>aura 115</p>
+                    <p>polve 106</p>
+                    <p>fraudi 132</p>
+                    <p>frodi 156</p>
+                    <p>gioventude 106</p>
+                    <p>templi 114, 124, 207</p>
+                    <p>tempio 112</p>
+                    <p>scempio 151</p>
+                    <p>natia 106</p>
+                    <p>esempli 114</p>
+                    <p>esempio 115</p>
+                    <p>esemplo 117</p>
+                    <p>correan 106</p>
+                    <p>salia 107</p>
+                    <p>toglieasi 107</p>
+                    <p>parea 107</p>
+                    <p>attendea 107</p>
+                    <p>alme 106</p>
+                    <p>dea 107</p>
+                    <p>passeggiere 107 (sing. masc.)</p>
+                    <p>coprir (perf. 3<hi rend="superscript">a</hi>) 107</p>
+                    <p>foro (furono) 107</p>
+                    <p>furo 168</p>
+                    <p>etra 107</p>
+                    <p>lacrime 107</p>
+                    <p>piagna 113</p>
+                    <p>lito (lido) 107</p>
+                    <p>lidi 111, 132, 156</p>
+                    <p>liti 116</p>
+                    <p>lido 119, 122, 124, 206.</p>
+                    <p>perigli 107</p>
+                    <p>lion 107</p>
+                    
+                    <div type="textpart" subtype="section">
+                    <pb/><head>-ate, -ute</head>
+                    <p>gioventude 106</p>  
+                    <p>virtude 108, 124</p>
+                    <p>età 106, 115</p>
+                    <p>etade 109, 114, 115 </p>
+                    <p>etade 119, 120, 141, 142.</p>
+                    <p>libertà 112</p>
+                    <p>virtude 109, 115, 119</p>
+                    <p>necessitade 154</p>
+                    <p>virtù 112, 118</p>
+                    <p>pietade 110, 112, 144</p>
+                    <p>beltade 157</p>
+                    <p>età 117, 118</p>
+                    <p>virtudi 110</p>
+                    <p>eternità 207</p>
+                    <p>amenità 117</p>
+                    <p>cittudi 111, 130, 198, 206</p>
+                    <p>pietà 205, 210</p>
+                    <p>vanità 117</p>
+                    <p>schiavitude 111</p>
+                    <p>probità 204</p>
+                    <p>gioventù 120</p>
+                    <p>viltade 115</p>
+                    <p>età 198, 202, 205, 214</p>
+                    <p>beltà 120, 133</p>
+                    <p>etade 118, 125, 213, 214</p>
+                    <p>oscurità 198</p>
+                    <p>età 120, 125</p>
+                    <p>virtude 120, 122</p>
+                    <p>città 194, 201, 206</p>
+                    <p>virtù 122, 124</p>
+                    <p>beltade 121, 137, 178</p>
+                    <p>beltà 194</p>
+                    <p>pietà 124, 129</p>
+                    <p>libertade 121</p>
+                    <p>felicità 193, 203</p>
+                    <p>necessità 124</p>
+                    <p>virtude 156</p>
+                    <p>mediocrità 193</p>
+                    <p>età 120, 125</p>
+                    <p>virtudi 161, 165, 191, 195</p>
+                    <p>civiltà 192, 202</p>
+                    <p>pietà 130, 145</p>
+                    <p>necessitade 176</p>
+                    <p>libertà 186, 202</p>
+                    <p>servitù 131</p>
+                    <p>pietade 187</p>
+                    <p>voluttà 183</p>
+                    <p>virtù 134</p>
+                    <p>etadi 189, 200, 207</p>
+                    <p>vanità 183</p>
+                    <p>verità 137</p>
+                    <p>felicitade 196</p>
+                    <p>età 182, 195, 196, 197</p>
+                    <p>età 138, 143</p>
+                    <p>facoltadi 196</p>
+                    <p>virtù 181, 190, 192</p>
+                    <p>gioventù 139</p>
+                    <p>cittade 200</p>
+                    <p>immensità 178</p>
+                    <p>immensità 140</p>
+                    <p>pietade 204</p>
+                    <p>età 177, 197</p>
+                    <p>beltà 142, 144</p>
+                    <p>oscuritade 212</p>
+                    <p>viltà 177, 182</p>
+                    <p>felicità 143, 145</p>
+                    <p>gioventù 168, 198</p>
+                    <p>pietà 148, 149</p>
+                    <p>età 166, 174, 175</p>
+                    <p>beltà 148, 152</p>
+                    <p>beltà 166, 179, 184</p>
+                    <p>felicità 151, 154</p>
+                    <p>felicità 164, 180, 192</p>
+                    <p>età 152, 155</p>
+                    <p>beltà 162, 162*<!-- ? --></p>
+                    <p>necessità 154, 154*<!-- ? --></p>
+                    <p>pietà 161, 165, 207</p>
+                    <p>felicità 155, 155*<!-- ? --></p>
+                    <p>verità 161</p>
+                    <p>gioventù 156, 156*<!-- ? --></p>
+                    <p>età 156, 157, 163</p>
+                    <p>virtù 156, 160, 177</p>
+                    </div>
+                    
+                    <div type="textpart" subtype="section">
+                        <pb/><head>condizionale</head>
+                        <p>compiangerìa 117</p>
+                        <p>fôra 152</p>
+                        <p>direbbe 118</p>
+                        <p>saria 152</p>
+                        <p>appresterebbe 118</p>
+                        <p>potria 154</p>
+                        <p>farebbe 152</p>
+                        <p>potria 186</p>
+                        <p>sosterria 214</p>
+                    </div>
+                    
+                    <div type="textpart" subtype="section">
+                        <pb/><head>ĕ</head>
+                        <p>fera 111, 126, 127</p>
+                        <p>fiero 151</p>
+                        <p>intera 118, 143, 166</p>
+                        <p>alteri 121</p>
+                        <p>intero 135</p>
+                        <p>leve 142, 152</p>
+                        <p>lieve 190</p>
+                        <p>lievi 193</p>
+                        <p>gel 158</p>
+                        <p>altere 190</p>
+                    </div>
+                    
+                    <div type="textpart" subtype="section">
+                        <pb/><head>ǒ</head>
+                        <p>loco 106, 120, 138, 146, 154*, 171, 202, 208, 212] luoghi 167  lochi 183, 188, 200, 207</p>
+                        <p>foco 106, 120, 137, 137*, 161, 208</p>
+                        <p>cor 109, 112, 120, 127, 135, 136, 136*, 137, 137*, 139, 140, 143</p>
+                        <p>core 110, 113, 120, 122, 133, 135, 135*, 136, 136*, 136, 137, 138, 139, 141, 141*, 143, 146, 147, 147*, 149, 152, 153, 163</p>
+                        <p>dinovo 111</p>
+                        <p>accora 111</p>
+                        <p>percoter 114</p>
+                        <p>cori 163</p>
+                        <p>cor 143*, 146, 149, 149*, 150, 150*, 151, 151*, 157, 158, 159, 160, 162, 164, 165, 166, 168</p>
+                        <p>novo 114, 127, 152, 157, 159, 167, 175</p>
+                        <p>gioco 119, 122, 132, 139, 146, 161, 176, 195</p>
+                        <p>mova 120</p>
+                        <p>movi 122, 168, 177 move 134, 146, 156 movo 168</p>
+                        <p>scote 124</p>
+                        <p>rote 122, 147 ruote ISI (tormenti)</p>
+                        <p>percote 124</p>
+                        <p>scole 124</p>
+                        <p>commove 124 commova 146 mover 183</p>
+                        <p></p>
+                        <p></p>
+                        <p>roti 127</p>
+                        <p>nova 127, 160, 163</p>
+                        <p>vòte 129, 177 vòta 132   vòto 139, 204   vòti 157, 166</p>
+                        <p>rinnova 131</p>
+                        <p>novi 131    rinnova 211</p>
+                        <p>bove 131, 194, 203, 206</p>
+                        <p>more 138, 188*   muor 149</p>
+                        <p>scopre 154</p>
+                        <p>giochi 155</p>
+                        <p>risona 200</p>
+                        <p>aiuole 164</p>
+                        <p>figliuoli 207</p>
+                        <p>erbaiuol 173</p>
+                        <p>legnaiuol 175</p>
+                        <p>paiuoli 194</p>
+                        <p>move 169, 177</p>
+                        <p>core 170, 177, 179, 185</p>
+                        <p>discopri 170</p>
+                        <p>copre 205</p>
+                        <p>cor 172, 177, 179, 180, 182, 185, 189, 213</p>
+                        <p>nova 173, 178, 180, 184, 197</p>
+                        <p>novo 184, 193, 195, 196, 202</p>
+                        <p>novi 186, 187</p>
+                        <p>fera (sost.) 212</p>
+                    </div>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Graziadio Isaia Ascoli a Ernesto Monaci, 3 luglio 1902</title>
+                <editor role="transcription"><persName>Chiara Maria Calcagni</persName></editor>
+                <editor role="encoding"><persName>Stefano Boschi</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2020-04-01"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl><bibl>Chiara Maria Calcagni, <title>Lettere scelte dal carteggio Ascoli-Monaci (1880/1906): trascrizione e commento</title>, tesi di laurea, Sapienza Università di Roma, a.a. 2018-2019</bibl></listBibl>
+                <msDesc>
+                    <msIdentifier><repository>Archivio Monaci, Società Filologica Romana, presso il Dipartimento di Studi Europei, Americani e Interculturali, Sapienza, Università di Roma.</repository> <idno>Busta n. 1, fascicolo 49, lettera 106.</idno></msIdentifier>
+                    <msContents><summary corresp="#letter">Sulla non opportunità di un inserimento del Pullè nella Commissione dell’Accademia dei Lincei. Ascoli minaccia dimissioni.</summary></msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#GIA">Graziadio Isaia Ascoli</persName>
+                    <placeName ref="#milano">Milano</placeName>
+                    <date when="1902-07-03"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#sconosciuto">?</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                    <opener><dateline><placeName ref="#milano">Milano</placeName>, <date when="1902-07-03">3. 7. ’902</date></dateline></opener>
+                    <p>Onorato e caro collega; Le confermo il mio <title type="letter">telegramma</title>. In risposta alla lettera che il <persName ref="#LP">Pullè</persName> mi dirigeva il 25 dello scorso mese, io gli dissi che l’onestà e la delicatezza volevano ch’egli telegrafasse di nuovo al Ministro per svincolarlo assolutamente da ogni impegno. Il Ministro lo aveva cioè richiesto: «se desiderava tuttora essere incluso nella Commissione.»</p>
+                    <p>Ora, di codesto desiderio non era mai stato parlato a me, né dal Ministro, né dall’irrequieto professore. Il quale ha bensì il merito, che di buon grado io gli riconosco, di aver agitato in un pajo di congressi la questione della <rs type="topic" key="Toponomastica">Toponomastica</rs>; ma non ha potuto fare se non tumultuoriamente e senza alcun positivo costrutto, mancandogli ogni vera competenza e la fiducia dei colleghi. Mandava egli ultimamente di pari passo la sua candidatura al Consiglio Superiore e certe sollecitazioni concernenti le buste del censimento, trovando che le due cose dovessero vicendevolmente cospirare in favor suo. Io non lo ajutai in nessun senso; né egli del resto mi ha mai domandato di entrar nella Commissione (circa la quale ora scopro che avesse trattato col Ministro!), ed ha all’incontro sempre sentito da me che dovevano scorrere degli anni prima che la sua ingerenza potesse cominciare.</p>
+                    <p>Ella sa con quanta circospezione io preparassi la lista dei nomi da proporsi al Ministero per la Commissione ch’egli istituiva (secondo i disegni del decreto, che abbiamo comunicato anche al <persName ref="#PB">Blaserna</persName>) «in seno all’<orgName ref="#AccLin">Academia dei Lincei»</orgName>.</p>
+                    <p>Ora, è ben possibile che Ministro e <orgName ref="#AccLin">Academia</orgName> d’accordo compongano un nuovo decreto e facciano del <persName ref="#LP">Pullé</persName> un membro della Commissione. Ma come posso io assistere a questa manipolazione? Nella lista, da me pensata, tutti i componenti sapevano l’uno dell’altro e si trovavano contenti; e la lista era così pensata che nessuno degli esclusi aveva motivo di dolersi. Ora all’incontro s’intruderebbe un commissario non mai prima annunziato a chicchessia, escludendo più e più altri, nell’<orgName ref="#AccLin">Academia</orgName> e fuori, che avrebbero una competenza molto maggiore della sua!</p>
+                    <p>A me dunque è assolutamente illecito il rimanere nella Commissione, e non ci rimango. Ella lavorerà ugualmente bene, e anzi lavorerà meglio. Che se mai, lungo l’opera, le potesse venir desiderio di qualche mio avvertimento, io non mancherò di fare, da privato studioso, il debito mio. Intanto le stringo cordialmente la mano e sono con ogni migliore sentimento.</p>
+                    <closer><salute>L’aff.mo e div.mo Suo</salute>
+                    <signed> <persName ref="#GIA">Ascoli</persName></signed></closer>
+
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

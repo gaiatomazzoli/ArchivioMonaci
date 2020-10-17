@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Graziadio Isaia Ascoli a Ernesto Monaci, 4 aprile 1903</title>
+                <editor role="transcription"><persName>Chiara Maria Calcagni</persName></editor>
+                <editor role="encoding"><persName>Eleonora Bruno</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2020-04-06"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl><bibl>Chiara Maria Calcagni, <title>Lettere scelte dal carteggio Ascoli-Monaci (1880/1906): trascrizione e commento</title>, tesi di laurea, Sapienza Università di Roma, a.a. 2018-2019</bibl></listBibl>
+                <msDesc>
+                    <msIdentifier><repository>Archivio Monaci, Società Filologica Romana, presso il Dipartimento di Studi Europei, Americani e Interculturali, Sapienza, Università di Roma.</repository> <idno>Busta n. 1, fascicolo 49, lettera 117</idno></msIdentifier>
+                    <msContents><summary corresp="#letter">Lettera di G. I. Ascoli a E. Monaci del 4 aprile 1903</summary></msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#GIA">Graziadio Isaia Ascoli</persName>
+                    <placeName ref="#milano">Milano</placeName>
+                    <date when="1903-04-04"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#roma">Roma</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                    <opener>
+                        <dateline>
+                            <placeName ref="#milano">Milano</placeName>,
+                            <date when="1903-04-04">4. 4. ’903</date>
+                        </dateline>
+                    </opener>
+                    <p>Onorato e caro collega; la ringrazio dello schiarimento che mi dà, e non mi lascerò sfuggire e anzi cercherò l’occasione di metterlo a profitto, sebbene la perfidia degli avversari mi renda via via più scabroso il cammino. Dico scabroso, per evitare una parola troppo <hi rend="underline">verista</hi>.</p>
+                    <p>Ella forse ha già avuto notizia dei finti dispacci, che annunziavano da <placeName ref="#wien">Vienna</placeName> e da <placeName ref="#budapest">Budapest</placeName>, le grandi onorificenze a me conferite dall’<placeName ref="#austria">Austria</placeName>, in premio della <hi rend="underline">Lettera aperta</hi>. Un <title>giornale milanese</title>, sfidato (non da me!) a mettere le carte in tavola sul conto di quei falsi telegrammi, dovette naturalmente capitolare, ma si attentò a soggiungere, che il castigo io a ogni modo non mancherei di subirlo!</p>
+                    <p>Ieri poi una lettera del nostro buon <persName ref="#EM2">Mancini</persName> mi parlava delle mie dimissioni da socio dell’<orgName ref="#AccLin"><expan><abbr>Acad</abbr><am>.</am><ex>emia</ex></expan> Dei Lincei</orgName>, date per telegramma, in forma più o meno singolare.</p>
+                    <p>È, che s’intende, un falso pur questo; e probabilmente son tutti falsi che hanno lo stesso autore, o lo stesso gruppo d’autori, </p>
+                    <p>……… e bisogna lasciar che si divertano!</p>
+                    <p>Ma anche a noi galantuomini rimangono dei divertimenti e migliori dei loro; ed Ella intanto non cessi di volermi bene.</p>
+                    <closer>
+                        <salute>L’aff.mo <expan><abbr>div</abbr><am>.</am><ex>otissi</ex><abbr>mo</abbr></expan> Suo</salute>
+                        <signed><persName ref="#GIA">G. I. Ascoli</persName></signed>
+                    </closer>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

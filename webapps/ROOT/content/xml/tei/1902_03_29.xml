@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Graziadio Isaia Ascoli a Ernesto Monaci, 29 marzo 1902</title>
+                <editor role="transcription"><persName>Chiara Maria Calcagni</persName></editor>
+                <editor role="encoding"><persName>Simone Palmieri</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2020-02-26"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl><bibl>Chiara Maria Calcagni, <title>Lettere scelte dal carteggio Ascoli-Monaci (1880/1906): trascrizione e commento</title>, tesi di laurea, Sapienza Università di Roma, a.a. 2018-2019</bibl></listBibl>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Archivio Monaci, Società Filologica Romana, presso il
+                            Dipartimento di Studi Europei, Americani e Interculturali, Sapienza,
+                            Università di Roma.</repository>
+                        <idno>Busta n. 1, fascicolo 49, lettera XCIII</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary corresp="#letter">Lettera di Graziadio Isaia Ascoli a Ernesto Monaci del 29 marzo 1902.</summary>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#GIA">Graziadio Isaia Ascolti</persName>
+                    <placeName ref="#milano">Milano</placeName>
+                    <date when="1902-03-29"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#sconosciuto">?</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                    <opener>
+                        <dateline><placeName ref="#milano"><expan><abbr>Mil</abbr><am>.</am><ex>ano</ex></expan></placeName>, <date when="1902-03-29">29. 3. ’902</date></dateline>
+                          </opener>
+                    <p>Onorato e caro collega; prima di tutto: buona Pasqua! Poi le dirò di aver ricevuto un bell’esemplare del <title>volume</title> veramente magnifico, a Lei consacrato per il Suo giubileo.</p> 
+                      <p>Dalle cortesi parole, con cui m’è offerto, non vedo ancora bene a chi io ne deva render grazie; ma il nostro <persName ref="#VDB">De Bartholomeis</persName> non tarderà a illuminarmi. 
+                          E finalmente ho come il rimorso di un’omissione, al quale non vorrei se ne aggiungesse un altro: quella di non averla confessata. </p>
+                    <p>In favore dell’idea di farci possibilmente consegnare tutti i sette milioni di buste, io le davo, come in segreto, la ragione di non lasciarci carpire la collezione dei nomi delle vie e di tutte le città e borgate italiane. 
+                        Ma c’è un altro motivo ancora, e anzi più stringente, che suffraga quell’idea. I sette di buste ci darebbero, in un solo colpo, l’intiera collezione di tutti i cognomi italiani, poiché ogni busta deve pur portare il cognome del capo-famiglia (o un’ inganno a partito). 
+                        Ora, com’Ella sa meglio di me, c’è, a tacer d’altro, un’intima relazione tra nomi di luogo e cognomi.</p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

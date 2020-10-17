@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Cesare De Lollis a Ernesto Monaci, 21 ottobre 1885</title>
+                <editor role="transcription"><persName>Debora Matteo</persName></editor>
+                <editor role="encoding"><persName>Giulia Lucchesi</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2020-04-21"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl><bibl>Debora Matteo, <title>Itinerario di un carteggio</title>, tesi di laurea, Sapienza Università di Roma, a.a. 2017-2018</bibl></listBibl>
+                <msDesc>
+                    <msIdentifier><repository>Archivio Monaci, Società Filologica Romana, presso il Dipartimento di Studi Europei, Americani e Interculturali, Sapienza, Università di Roma.</repository> <idno>Busta n. 8, fascicolo 394.</idno></msIdentifier>
+                    <msContents><summary corresp="#letter">Lettera di Cesare De Lollis a Ernesto Monaci</summary></msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#CDL">Cesare De Lollis</persName>
+                    <placeName ref="#casalincontrada">Casalincontrada</placeName>
+                    <date when="1885-10-21"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#sconosciuto">?</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                    <opener><salute>Egregio <expan><abbr>Sign</abbr><am>.</am><ex>or</ex></expan> Professore</salute></opener>
+                    <p>Ella non può immaginare quanto conforto in così brutto momento mi abbia recato la sua carissima. 
+                       Essa è stata per me una prova novella della sua benevolenza, nella quale ho il dovere, dirò così, 
+                       di sperar molto. La ringrazio dal profondo del cuore.</p>
+                       <p>Ho ricevuto contemporaneamente le bozze del 
+                        <title>poema su Federico</title>. Ho cominciato subito a lavorarvi su, e qualche cosa ho trovato. 
+                        Farò i riscontri con tutta la pazienza possibile e mi auguro di poterle in questa faccenda riuscir utile. 
+                        Però glielo dico francamente, da tale lavoro non mi preme di ricavare alcun utile. Desidero di avere il 
+                        piacere, massimo per me di rendere alcun servizio a Lei, che mi ha colmato di favori. E quest’idea appunto 
+                        di lavorare solo per amore del mio carissimo Maestro son sicuro mi darà maggior leva e mi farò riempire il 
+                        meglio che per me sia possibile in tal lavoro. Ad ogni modo per ora non attenderò nient’altro che questo.</p> 
+                        <p>Spero si realizzeranno le speranze che Ella mi dà circa la classificazione che mi toccherà nel concorso. 
+                        Appena ne avrò notizia, scriverò al buon <persName>Ferrante</persName> per un sussidio di risulta. 
+                        Son dolente di non aver potuto insieme stampato alla commissione il mio lavoro sull’<title ref="#Esopo">Esopo</title> di
+                            <persName type="author" ref="#tuppo">Francesco del Tuppo</persName>: ho qui da più di un mese tutte le bozze, che non 
+                            ho potuto rinviare al <persName>Morano</persName>, dovendo fare delle larghe correzioni per le quali aspetto alcuni riscontri
+                            dal <persName>Martini</persName>, (bibliotecario della <orgName ref="#BNN">nazionale di <placeName ref="#napoli">Napoli</placeName></orgName>). 
+                        La copia manoscritta, inviata al <orgName>Ministero</orgName> pel concorso, portava qualche errore ed era 
+                        incompleta in qualche punto.</p>
+                    <p>Quanto al <title>poemetto francese sulle proprietà di alcune femmine</title>, 
+                        intendo farne un’ultima definitiva collazione, dopo la quale potrò darne in tutta sicurezza l’edizione diplomatica, 
+                        ponendo in nota le correzioni evidenti. Il povero papà, a cui <gap reason="illegible" extent="unknown" unit="chars"/>, 
+                        mi ha offerto di mandarmi subito, a sue spese, 
+                        in <placeName ref="#roma">Roma</placeName>: ma io voglio attendere ancora qualche giorno, nella speranza di vedere 
+                        completamente accomodante le mie cose col <orgName ref="#MG">Ministero della Guerra</orgName>. Poi volerò a 
+                        <placeName ref="#roma">Roma</placeName>.</p>
+                    <p>Ho intenzione di tornare al mio lavoro di letteratura portoghese rimpastandola <gap reason="illegible" extent="unknown" unit="chars"/>
+                        dietro la scorta dei suoi consigli. E necessario, io credo, che riscriva un po’ quella parte dell’esame dei 
+                        componimenti dei tre trovatori, basterà che io dia le cifre della statistica, senza fare <gap reason="illegible" extent="unknown" unit="chars"/>.</p> 
+                        <p>L’anno scorso l’<persName>Ancona</persName> mi parlò della possibilità di avere qualche posto nelle scuole tecniche, 
+                            a me piacerebbe poco perdere il meglio del mio tempo in composizioni <gap reason="illegible" extent="unknown" unit="chars"/>, 
+                            ma qualora ci fosse da far qualche cosa per tal via mi ci abbatterei sempre però che si trattasse di non perdere tutta la giornata. 
+                        Il guaio è che trattenendomi io ancora qualche giorno qui, mi si chiudono molte cose che ora forse sono aperte. 
+                        Pazienza.</p>
+                    <p>Di nuovo le mie più sincere grazie. Dovrò scrivere a <persName ref="#FDO">d’Ovidio</persName>, a cui 
+                        dovrò rinviare anche alcuni suoi lavori.</p>
+                    <closer><salute>Ossequiandola di cuore mi ripeto suo affettuoso discepolo.</salute>
+                        <signed><persName ref="#CDL">Cesare De Lollis</persName></signed>
+                        <dateline><placeName ref="#casalincontrada">Casalincontrada</placeName>, <date when="1885-10-21">21 Ottobre 85.</date></dateline></closer>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

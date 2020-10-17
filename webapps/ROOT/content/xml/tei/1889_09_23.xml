@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Cesare De Lollis a Ernesto Monaci, 23 settembre 1889</title>
+                <editor role="transcription"><persName>Susanna Casacchia</persName>, <persName>Debora Matteo</persName></editor>
+                <editor role="encoding"><persName>Susanna Casacchia</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2020-04-27"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl><bibl>Debora Matteo, <title>Itinerario di un carteggio</title>, tesi di laurea, Sapienza Università di Roma, a.a. 2017-2018</bibl></listBibl>
+                <msDesc>
+                    <msIdentifier><repository>Archivio Monaci, Società Filologica Romana, presso il Dipartimento di Studi Europei, Americani e Interculturali, Sapienza, Università di Roma.</repository> <idno>Busta n. 8, fascicolo 394.</idno></msIdentifier>
+                    <msContents><summary corresp="#letter">Lettera di Cesare De Lollis a Ernesto Monaci del 23 settembre 1889.</summary></msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#CDL">Cesare De Lollis</persName>
+                    <placeName ref="#madrid">Madrid</placeName>
+                    <date when="1889-09-23"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#sconosciuto">?</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                    <opener>
+                        <dateline>
+                            <placeName ref="#madrid">Madrid</placeName>
+                            <date when="1889-09-23"> 23 <expan><am>7</am><ex>settem</ex><abbr>bre</abbr></expan></date>
+                        </dateline>
+                        <salute>Carissimo <expan><abbr>Sig</abbr><am>.</am><ex>nor</ex></expan> Professore,</salute>
+                    </opener>
+                    <p>[...] II materiale per un’antologia d’<rs type="topic" key="Antico castigliano">antico <pb/> castigliano</rs> va crescendo di giorno in giorno. Ella potrà fare una raccolta utile, credo, oltre che pe’ suoi 
+                        allievi anche per quelli delle altre scuole normali italiane. [...] E così lavoro come un cane, contro i propositi fatti. [...] E, a proposito dell’<orgName ref="#ISI">Istituto</orgName>, 
+                   io son desolato di prevedere che mi sarà impossibile esser costà per la fin di settembre, come s’era convenuto. La mia spedizione non è stata ben regolata: e codesto per subordinare la mia 
+                   venuta a quella di <expan><abbr>Mons</abbr><ex>ieu</ex><abbr>r</abbr></expan> <persName>Carini</persName>, il quale poi all’ultimo ha risposto picche. Il Duca di <pb/> Veragua, 
+                   discendente di <persName ref="#CC3">Colombo</persName>, e possessore della maggior parte dei suoi autografi è sempre a <placeName ref="#paris">Parigi</placeName>. E se non torna lui, io non ho il 
+                   coraggio di ripigliare la via dell’<placeName ref="#italia">Italia</placeName>, così colle mani in mano, o per dir meglio, con un po’ di collazioni di testi colombiani 
+                   e con spogli e note dei quali una buona parte andrà certo scartata. Lo scopo insomma della mia missione fallirebbe completamente, se non riuscissi a far fotografare gli autografi: e 
+                   proprio Le confesso che non saprei rassegnarmi a fare una così brutta figura, benché mia non ne sarebbe in fondo la colpa. [...] Mi recherò a <placeName ref="#siviglia">Siviglia</placeName>, per pochi giorni, ma non partirò prima del 2 o 3 ottobre. Colà mi si dice che troverò chi, nel caso di molta fretta, possa, dietro buona ricompensa, aiutarmi. Qualunque cosa Le occorra, 
+                        inutile dirglielo, non <pb/> ha che a farmene un cenno. [...]</p>
+                    <closer>   
+                     <salute>Tanti cordiali auguri alla Sua famiglia e Lei mi creda il sempre Suo affmo e  
+                     <expan><abbr>dev</abbr><ex>otissim</ex><abbr>mo</abbr></expan> discepolo</salute>
+                        <signed><persName ref="#CDL"><expan><abbr>C</abbr><am>.</am><ex>esare</ex></expan> De Lollis</persName></signed>
+                    </closer>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ernesto Monaci a Graziadio Isaia Ascoli, 10 ottobre 1902</title>
+                <editor role="transcription"><persName>Chiara Maria Calcagni</persName></editor>
+                <editor role="encoding"><persName>Virginia Machera</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2020-04-09"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl><bibl>Chiara Maria Calcagni, <title>Lettere scelte dal carteggio Ascoli-Monaci (1880/1906): trascrizione e commento</title>, tesi di laurea, Sapienza Università di Roma, a.a. 2018-2019</bibl></listBibl>
+                <msDesc>
+                    <msIdentifier><repository>Archivio Ascoli, Biblioteca dell’Accademia dei Lincei e Corsiniana, Roma.</repository> <idno>Lettera 93/1</idno></msIdentifier>
+                    <msContents><summary corresp="#letter">Monaci si mostra favorevole circa la possibilità che l’Ascoli partecipi al Congresso Storico Internazionale.</summary></msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#roma">Roma</placeName>
+                    <date when="1902-10-10"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#GIA">Graziadio Isaia Ascoli</persName>
+                    <placeName ref="#milano">Milano</placeName>
+                   <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                    <opener><dateline><placeName ref="#roma">Roma</placeName> <date when="1902-10-10">10 ottobre 1902</date></dateline>
+                        <salute>Mio Signore</salute></opener>
+                    <p>Se per il futuro <orgName ref="#CISS">Congresso Storico Internazionale</orgName> Ella consentirà di far la relazione sull’opera e i risultati della glottologia in Italia, ci potrà dire che il <orgName ref="#CISS">Congresso</orgName> ebbe almeno questo di buono, di farci acquistare una pagina storica che soltanto l’<persName ref="#GIA">Ascoli</persName> poteva darci. Anche se un dissiduo continuasse circa l’idea e l’opportunità di questo congresso, nessuno vi sarà che non s’allieti o si rabbonisca per quanto sarà fatto da Lei; e per mia parte fo caldi voti che Ella accetti l’invito, e non lasci passare questa occasione senza portare dinanzi al pubblico degli studiosi la cosa della <rs type="topic" key="Toponomastica">Toponomastica</rs> cotanto stranamente ingarbugliata da <expan><abbr>S</abbr><am>.</am><ex>ua</ex></expan> <expan><abbr>E</abbr><am>.</am><ex>ccellenza</ex></expan> il <persName ref="#NN">Ministro</persName> per la Istruzione. E a questo proposito della <rs type="topic" key="Toponomastica"><expan><abbr>Top</abbr><am>.</am><ex>onomastica</ex></expan></rs> debbo ora dirle che l’altra sera m’incontrai col <persName ref="#IG">Guidi</persName>, mentre stava attendendo il passaggio di un omnibus che doveva metterlo sulla via di <placeName ref="#frascati">Frascati</placeName>. Così in fretta in fretta mi disse che ad <placeName ref="#amburgo">Amburgo</placeName> aveva avuto occasione di parlare della cosa col <persName ref="#LP">Pullè</persName>, il quale l’aveva assicurato essere volontà del <persName ref="#NN">Ministro</persName>, e non sua, ch’egli facesse parte della <orgName ref="#Toponomastica">Commissione</orgName>. E mi soggiunse il <persName ref="#IG">Guidi</persName>: non c’è poi niente di male che in una commissione accademica sia chiamato anche un estraneo… intanto passò l’omnibus; ma dopo quelle parole capii che, pur senza l’omnibus, non restava altro da dire.</p>
+                    <closer><salute>Mi voglia bene, e creda alla devozione inalterabile del Suo</salute></closer>
+                    <closer><persName ref="#EM">E. Monaci</persName></closer>
+                    
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

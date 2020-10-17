@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Graziadio Isaia Ascoli a Ernesto Monaci, 17 giugno 1904</title>
+                <editor role="transcription"><persName>Chiara Maria Calcagni</persName></editor>
+                <editor role="encoding"><persName>Eleonora Bruno</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2020-04-07"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl><bibl>Chiara Maria Calcagni, <title>Lettere scelte dal carteggio Ascoli-Monaci (1880/1906): trascrizione e commento</title>, tesi di laurea, Sapienza Università di Roma, a.a. 2018-2019</bibl></listBibl>
+                <msDesc>
+                    <msIdentifier><repository>Archivio Monaci, Società Filologica Romana, presso il Dipartimento di Studi Europei, Americani e Interculturali, Sapienza, Università di Roma.</repository> <idno>Busta n. 1, fascicolo 49, lettera 126</idno></msIdentifier>
+                    <msContents><summary corresp="#letter">Lettera di G. I. Ascoli a E. Monaci del 17 giugno 1904, di cui è stata inviata a complemento la <title type="letter" ref="./1904_06_17bis.html">cartolina 127</title> recante la medesima data.</summary></msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#GIA">Graziadio Isaia Ascoli</persName>
+                    <placeName ref="#milano">Milano</placeName>
+                    <date when="1904-06-17"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#roma">Roma</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                    <opener>
+                        <dateline>
+                            <placeName ref="#milano">Milano</placeName>,
+                            <date when="1904-06-17">17. 6. ’904</date>
+                        </dateline>
+                    </opener>
+                    <p>Onorato e caro collega; eccomi a disturbarla ancora; ma almeno con un po’ di calma e senza urgere per la risposta, la quale potrebbe anche assolutamente mancarmi, senza che la Sua cortesia ne provasse alcun rimorso.</p>
+                    <p>Il <persName ref="#ETM">Moneta</persName>, molto mio amico, direttore di una giornale a modo, ‘<title ref="#VI">La vita internazionale</title>’ (organo della <orgName ref="#SP">società per la Pace</orgName>), di cui è collaboratore un giovane nostro amici, il <persName ref="#AP">Panzini</persName>, già condiscepolo del <persName ref="#AT1">Trombetti</persName>, vorrebbe la facoltà di ristampare, tutta o in parte, la <title>Relazione</title> sul lavoro del <persName ref="#AT1">Trombetti</persName>, che si è letta il 4 all’<orgName ref="#AccLin">Academia</orgName>. Ma, prima di tutto, io per ora non la posseggo (rimandai all’<orgName ref="#AccLin">Academia</orgName>, bozze e originale, quattro o cinque giorni or sono); poi non è cosa, che quando pur fosse già pubblicata dall’<orgName ref="#AccLin">Academia</orgName>, io abbia a considerare comunque per mia e offrirla alla riproduzione. Gioverebbe forse che ne fosse parlato a <persName ref="#IG">Guidi</persName>, anche perché egli ordinasse la pronta spedizione delle copie per il Relatore, e giova almeno che siamo d’accordo due membri della Commissione sul ‘quid agendum’.</p>
+                    <p>Le voglio ancora dire, che, dato il caso particolare, parrebbe anche a me assai opportuno che la <title>Relazione</title> si diffondesse per mezzo di una Rivista. E la ‘<title ref="#VI">Vita Internazionale</title>’ tira di certo ormai un numero considerevole d’esemplari, ma non oltrepassa una determinata cerchia di lettori, o l’oltrepassa molto scarsamente. L’organo veramente adatto sarebbe la ‘<title ref="#NuovaAnt2">Nuova Antologia</title>’; e io credo ch’Ella farebbe, se Le paresse di farglielo, un grandissimo favore a <persName ref="#MF">Maggiorino Ferraris</persName>, procurandogli, per il fascicolo del 30 giugno, la <title>Relazione</title>, come opera, che s’intende, della Commissione intiera. La parte, in cui si vine ai singoli esempi contestati, potrebbe essere omessa o raccorciata.</p>
+                    <p>Ma Ella farà secondo l’assoluto e schiettissimo parere e piacer Suo.</p>
+                    <closer><salute>Il Suo aff.mo <expan><abbr>div</abbr><am>.</am><ex>otissi</ex><abbr>mo</abbr></expan></salute>
+                        <signed><persName ref="#GIA">G. I. Ascoli</persName></signed>
+                    </closer>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

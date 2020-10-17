@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Pio Rajna a Ernesto Monaci, 24 dicembre 1877</title>
+                <editor role="transcription"><persName>Alessia Di Virgilio</persName></editor>
+                <editor role="encoding"><persName>Laura Pireddu</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2020-04-06"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl><bibl>Alessia Di Virgilio, <title>Carteggio Monaci - Rajna (1873-1877)</title>, tesi di laurea, Sapienza Università di Roma, a.a. 2018-2019</bibl></listBibl>
+                 <msDesc>
+                    <msIdentifier><repository>Archivio Monaci, Società Filologica Romana, presso il Dipartimento di Studi Europei, Americani e Interculturali, Sapienza, Università di Roma.</repository> <idno>Busta n. 22, fascicolo 1095, lettera XLII</idno></msIdentifier>
+                    <msContents><summary corresp="#letter">Lettera di Pio Rajna a Ernesto Monaci del 24 dicembre 1877</summary></msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#PR">Pio Rajna</persName>
+                    <placeName ref="#milano">Milano</placeName>
+                    <date when="1877-12-24"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#sconosciuto">?</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                    <opener><dateline><placeName ref="#milano">Milano</placeName>, <date when="1877-12-24">24 dicembre 1877</date></dateline>
+                        <salute>Caro <persName ref="#EM">Monaci</persName></salute></opener>
+                    <p>Comunicherò al <expan><abbr>C</abbr><am>.</am><ex>orte</ex><abbr>se</abbr></expan> <persName ref="#GPL">Porro</persName> ciò che tu mi scrivi, e lo pregherò di concretare le proposte milanesi. In genere, pare anche a me, e desiderabile, 
+                        e opportuno, che la pubblicazione si faccia qui, a preferenza d’ogni altra città. Alle ragioni di ordine più elevato, si aggiungono anche le 
+                        materiali. Posto che nei volumi della <orgName ref="#SSL">Società Storica</orgName> il <title>poema</title> non potesse trovar un luogo opportuno, non dubito che l’editore stesso della 
+                        <orgName ref="#SSL">Società</orgName>, il <persName ref="#GB2">Brigola</persName>, non fosse per accoglier subito, e a condizioni abbastanza vantaggiose per te, l’offerta di darlo fuori in un volume a parte. 
+                        Si potrebbe adottare il formato ed i tipi adottati nella pubblicazione, con cui si festeggiò il Centenario di Legnano. Lo smercio del libro ne 
+                        verrebbe agevolato ed accresciuto di sicuro.</p> <pb/>
+                    <p>Quanto al <title><hi rend="underline">Catone</hi></title>, non vorrei annunziarlo prima di aver chiesto <hi rend="underline">formalmente</hi> al <expan><abbr>M</abbr><am>.</am><ex>arche</ex><abbr>se</abbr></expan> <persName ref="#GT">Trivulzio</persName> 
+                        il permesso della pubblicazione. L’altro giorno se ne discorse così per aria, poi si passò ad altro, e non si ritornò più sull’argomento. Non c’è nemmeno da dubitare, che questo permesso non s’abbia; ma giova usare riguardi, 
+                        per poter approfittare, ogni volta che occorre, d’una biblioteca non accessibile ai più. Tanto, finché il codice è alla <orgName ref="#BibTriv">Trivulziana</orgName>, non c’è pericolo d’esser prevenuti. E aggiungerei che al <persName ref="#GPL">Porro</persName> 
+                        dissi poi apertamente della mia intenzione. Ed egli mi assicurò che non avrei trovato difficoltà d’alcuna specie. Solo il <persName ref="#GT">Trivulzio</persName> esprimerebbe forse il desiderio che egli 
+                        si facesse tirare una o due copie in carta distinta, da conservare nella <orgName ref="#BibTriv">biblioteca</orgName>.</p>
+                    <p>Sbrigato un certo lavoro che ho per le mani, vorrei mettermi all’<title ref="#attila"><hi rend="underline">Attila</hi></title>. In che fascicolo potrà aver posto la prima parte? Giacchè è ben certo che bisognerà dividere la pubbli<pb/>cazione. Come appendice, 
+                        sarebbe da dare quel sesto, di cui ti feci cenno l’altra volta, e che da solo verrà ad occupare un par di fogli.</p> 
+                    <p>Uscita che sia la prima dispensa, ti manderò probabilmente l’articolo, per cui t’ho già tanto seccato. Non mi so decidere a darlo ad altri che al <title ref="#GFR">Giornale</title> tuo. Se potrai farlo stampare presto, e provvedere ch’io abbia gli estratti, 
+                        appena possono esser pronti, mi farai un vero piacere.</p>
+                    <p>Provvederò di soddisfare il tuo desiderio riguardo al codice del <persName ref="#CM">Morbio</persName>. Non conosco il proprietario, e però, specialmente dopo l’insuccesso <persName ref="#EM1">Molteni</persName>, è necessario ch’io ricorra a dei giri per arrivare alla meta. Spero di giungerci. 
+                        Sono stato oggi stesso a cercare di un amico, che mi dovrebbe servire di <hi rend="underline">primo</hi> intermediario, ma non l’ho trovato. È un Direttore di giornale, e però anche domani sarà irreperibile. – Io pure preparo una recensione del lavoro del 
+                        <persName ref="#ADA">D’Ancona</persName> per la <title>Perseveranza</title>. Credo che ci troveremo d’accordo <pb/> nella sostanza del giudizio. Secondo me, il lato debole del libro e la parte storica, quella in cui si espone lo scioglimento del genere.</p>
+                    <p>Termina e principia lietamente l’anno.
+                        Il tuo silenzio mi fa sperare che la salute di tuo figlio abbia mantenuta la promessa del Settembre. T’auguro, che da questo lato almeno, tu non abbia più a nutrire apprensioni.</p>
+                    <closer>
+                        <salute>Voglimi sempre bene e credimi</salute>
+                        <salute>Tuo <expan><abbr>Aff</abbr><am>.</am><ex>ezionatissi</ex><abbr>mo</abbr></expan> </salute>
+                            <signed><persName ref="#PR">P.Rajna</persName></signed></closer>
+                    <postscript><p>P.S quasi quasi dimenticavo la cosa di cui più mi premeva. Il <persName ref="#CF">Fauriel</persName>, nel Suo “<title>Dante et les orig. De la langue et de la litt. It., I, 257</title>”, cita un modello di lettera di raccomandazione, contenuto nell’<title ref="#arsdictaminis">Ars Dictaminis</title> di <persName type="author" ref="#boncompagno">Boncompagno da Bologna</persName>. Sarebbe diretta
+                        al <expan><abbr>M</abbr><am>.</am><ex>arche</ex><abbr>se</abbr></expan> <persName>D’Este</persName>, e servirebbe a presentargli <persName type="author" ref="#bernart">Bernardo da Ventadorn</persName>. Pur essendo una finzione, ha, naturalmente, <pb/> interesse per me, che appunto adesso sto studiando <persName type="author" ref="#bernart">Bernardo</persName>. Ma come fidarsi d’un traduttore e d’una traduzione francese? 
+                        E intanto il <title ref="#arsdictaminis">trattato di Boncompagno</title> non è pubblicato, e qui nell’<orgName ref="#BibAmbr">Ambrosiana</orgName> non esiste ms. Bensì un codice si trovava nel secolo passato costì, all’<orgName ref="#ArCSP">Archivio dei Canonici di S. Pietro</orgName>, <hi rend="underline">n. 13, lett, H</hi>. se ne danno estratti nel <title>(Sarti) De claris archiggmn. Bonom, professoribus</title>. 
+                        Cotesto <orgName ref="#ArCSP">Archivio</orgName> esiste sempre, o è forse andato ad arricchire la <orgName ref="#BibVat">Vaticana</orgName>? potresti, dietro questa indicazione, trovar il codice, e trascrivermi l’originale della lettera? Per quanto posso argomentare dal sommario che si contiene nel prologo, dovrebbe stare nel sesto ed ultimo libro, poiché in esso, 
+                        tra l’altre cose, si tratta “<title>De laude sapiente atque sapientium et confortazione doctrina</title>”. Mille scuse, e ringraziamenti anticipati. Il titolo dell’opera in cotesto codice è <title><hi rend="underline">Forma litterarum Scholasticarum</hi></title>.</p></postscript>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ernesto Monaci a Pio Rajna, 5 maggio 1877</title>
+                <editor role="transcription"><persName>Alessia Di Virgilio</persName></editor>
+                <editor role="encoding"><persName>Margherita Filippozzi</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2020-03-18"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl><bibl>Alessia Di Virgilio, <title>Carteggio Monaci - Rajna (1873-1877)</title>, tesi di laurea, Sapienza Università di Roma, a.a. 2018-2019</bibl></listBibl>
+                <msDesc>
+                    <msIdentifier><repository>Archivio Pio Rajna, Biblioteca Marucelliana, Firenze.</repository> <idno>Lettera XXXII.</idno></msIdentifier>
+                    <msContents><summary corresp="#letter">Lettera di Ernesto Monaci a Pio Rajna del 5 maggio 1877.</summary></msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#roma">Roma</placeName>
+                    <date when="1877-05-05"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#PR">Pio Rajna</persName>
+                    <placeName ref="#sconosciuto">?</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                    <opener><dateline><placeName ref="#roma">Roma</placeName> <date when="1877-05-05">5 maggio 1877</date></dateline>                      
+                        <salute>Caro <persName ref="#PR">Rajna</persName></salute></opener>
+                    <p>Ho troppo rispetto e venerazione per l’<persName ref="#GIA">Ascoli</persName>, perché io possa mai pensare a rivoltarmi contro un fatto di cui mi consti essere l’<persName ref="#GIA">Ascoli</persName> l’autore.</p>                      
+                    <p>Ma siamo nel caso? Se sì, sono rassegnato a tutto, e ti do la mia parola d’onore che non mi muoverò.
+                        Ma se no, allora ti dico che sono pronto a dar fuoco alle polveri, e poi nasca quel che vuol nascere; che almeno il decoro italiano, per questa parte, sarà salvo.</p>
+                    <p>Dunque, io ti prego e ti riprego innanzi tutto di darmi una spiegazione, giacché non sono riuscito finora a farmi un’idea chiara sulla cosa.
+                        Abbiamo, in conclusione, un comitato italiano, o un sotto-comitato berlinese?
+                        Siamo i portavoce di un affare già deciso, gli agenti di una soverchieria tedesca;
+                        - ovvero ci siamo riservato almeno il diritto di aver parte nelle deci<pb break="no"/>sioni che dovranno determinare l’aspetto, i limiti, e la sede della <orgName ref="#DiezSt">fondazione Diez</orgName>?
+                        – io non posso credere che l’<persName ref="#GIA">Ascoli</persName> abbia accettato nel primo caso;
+                        giacchè i tedeschi stessi, veduta la piega che prendevano qui le cose, e accortisi che già c’era una sorda resistenza, cominciavano a piegarsi ad altre idee.</p>
+                    <p>Ho in mano lettere che mi provano come il <persName ref="#AT">Tobler</persName> fosse pronto a ritornare in parte sul già fatto, e come <persName ref="#GG">Grӧber</persName>, anch’esso del Comitato, opinasse che anche l’<placeName ref="#italia">Italia</placeName> doveva fare un comitato da sé.</p>
+                    <p>Del resto, lo <persName ref="#HS">Schuchardt</persName>, non solo mi assicurava, ma mi mandava le parole testuali, con cui l’<persName ref="#GIA">Ascoli</persName> gli aveva dichiarato che rinunciava alla istituzione del Sotto-Comitato.</p>
+                    <p>Ora, se non posso credere che lo <persName ref="#HS"><expan><abbr>Schuch</abbr><am>.</am><ex>ardt</ex></expan></persName> m’abbia ingannato, nemmeno posso credere che l’<persName ref="#GIA">Ascoli</persName> abbia detto una cosa e fatta un’altra.
+                        Dunque ci deve essere sotto il maneggio di qualcuno che si tiene celato, e se realmente oggi è venuto fuori un <hi rend="underline">Sotto-Comitato</hi> anziché un <hi rend="underline">Comitato</hi>, non può essere l’opera dell’<persName ref="#GIA">Ascoli</persName>.
+                        – Così debbo <pb/>pensare finché non avrò qualche spiegazione, e di ciò prego caldissimamente la tua amicizia.
+                        Poiché, - lo ripeto- se ciò vien dall’<persName ref="#GIA">Ascoli</persName>, come non credo, tacerò: ma in caso contrario, farò del mio meglio per attraversare e osteggiare la cosa.
+                        Intanto ti dico che non più di due giorni addietro il <persName ref="#TM">Mamiani</persName> mi ha fatto invitare da parte del <persName ref="#LF">Ferri</persName> ad entrare in un <hi rend="underline">Comitato</hi> che si vuole formare nell’<orgName ref="#AccLin"><expan><abbr>Acc</abbr><ex>a</ex><abbr>d</abbr><am>.</am><ex>emia</ex></expan> Dei Lincei</orgName>.
+                        Io ho raccontato <hi rend="underline">quel che sapevo</hi>, ho detto che non potevo farne parte perché impegnato coll’<persName ref="#GIA">Ascoli</persName>.</p>
+                    <p>Mi hanno risposto che l’<persName ref="#GIA">Ascoli</persName> e il <persName ref="#GF">Flechia</persName> sarebbero pure invitati. Comprendi che va a nascere così un curioso imbroglio.
+                        Per mia parte ne sono rimasto fuori, dichiarando che fino a che non fossi libero, non potevo aderire;
+                        ma intanto so che domani in una formula dell’<orgName ref="#AccLin">Accademia</orgName> sarà proposta la formazione del Comitato; forse appresso si costituirà il Comitato ancora;
+                        e in tal caso avremo in <placeName ref="#roma">Roma</placeName> un comitato indipenden<pb break="no"/>te, e fuori di <placeName ref="#roma">Roma</placeName> un sotto-Comitato berlinese…</p>
+                    <p>Sarebbe una curiosa faccenda…</p>
+                    <p>Né i <orgName ref="#AccLin">Lincei</orgName> vogliono indugiare questo passo, perché riconoscono – e giustamente- che l’indugio nostro c’è davvero anche per comitato Viennese.
+                        – Basta: ora che vedi come stanno le cose qui, dimmi tu come stanno le cose da voialtri.</p>
+                    <p>Dalla tua risposta dipende la decisione se io debba gettarmi a capofitto in una baruffa, o restarmene inerte a masticare il rabarbaro.</p>
+                    <closer><salute>Tutto tuo</salute>
+                        <signed><persName ref="#EM"><expan><abbr>E</abbr><am>.</am><ex>rnesto</ex></expan> Monaci</persName></signed></closer>                   
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

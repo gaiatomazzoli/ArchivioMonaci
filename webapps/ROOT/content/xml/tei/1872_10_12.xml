@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Adolfo Mussafia a Ernesto Monaci, 12 ottobre 1872</title>
+            <editor role="transcription"><persName>Marco Veneziale</persName></editor>
+            <editor role="encoding"><persName>Marta Carpiceci</persName></editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+            <date when="2016-11-30">novembre 2016</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><repository>Archivio Monaci, Società Filologica Romana, presso il Dipartimento di Studi Europei, Americani e Interculturali, Sapienza, Università di Roma.</repository></msIdentifier>
+               <msContents><summary corresp="#letter">Lettera di Adolfo Mussafia a Ernesto Monaci del 12 ottobre 1872.</summary></msContents>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#AM">Adolfo Mussafia</persName>
+               <placeName ref="#wien">Vienna</placeName>
+               <date when="1872-10-12">12 ottobre 1872</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#EM">Ernesto Monaci</persName>
+               <placeName ref="#sconosciuto">?</placeName>
+               <date/>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="transcription" xml:lang="it">
+            <opener><salute>Pregiatissimo <persName ref="#EM">Sigr
+                     Monaci</persName></salute>
+            </opener>
+            <p>Le rendo grazie sincere dell’avermi inviato il primo fascicolo della <title ref="#RFR"><hi
+                  rend="underline">Rivista</hi></title>. Mi farà piacere d’indicarmi a
+               chi io debba <unclear>rivolgermi</unclear> per avere l’importo della prima annata, ed a quanto
+               esso ammonti. – Il periodico comincia bene; e me ne congratulo di cuore con lor
+               signori. - L’articolo primo del <persName ref="#UC">Sr
+                  Canello</persName> sembrami fatto un po’ in fretta, e può dar luogo a molte
+               rettificazioni. Io ci ho scritto sopra qualche pagina. Mi dica sinceramente;
+               preferisce che le pubblichi in altro periodico o che le mandi
+                  alla <title ref="#RFR">Rivista</title>? Altrove sarebbe come una relazione sulla
+               <title ref="#RFR"><expan><abbr>Riv</abbr><ex>ista</ex></expan></title>, che si soffermasse particolarmente su d’un articolo; nella
+               <title ref="#RFR"><expan><abbr>Riv</abbr><ex>ista</ex></expan></title> acquisterebbe più facilmente un carattere polemico,
+               che io vorrei evitare. Dall’altro lato potrebbe sembrare utile che le varie opinioni
+               emerse su un dato punto di grammatica si trovino riunite nello stesso volume.
+               Insomma, stabilisca Lei e il <persName ref="#UC">Sig.r
+                  Canello</persName>; e due pariti proposti ne aggiungono il terzo, che io laceri le
+               poche pagine scritte; e farò volentieri anche questo. Le sarei molto grato, se le
+               riuscisse darmi qualche appunto da <expan><abbr>bibl</abbr></expan> romana di
+               <rs type="topic" key="Agiografia">leggende</rs> (particolarmente in versi) su S. Caterina, S. Margherita, S. Cristoforo. Mi
+               riverisca i suoi colleghi; esprima le mie congratulazioni allo
+                  <persName ref="#EMS">Stengel</persName> della buona ventura ch’egli fa, e dell’eccellente
+               modo con cui fu <unclear>gratificato</unclear> E mi creda sempre</p>
+            <closer>
+               <salute>Suo dev.o</salute>
+               <signed><persName ref="#AM">A Mussafia</persName></signed>
+               <placeName ref="#wien">Vienna</placeName> 
+               <dateline><date when="1872-10-12">12 Oct 1872</date>
+               </dateline>
+            </closer>
+            <postscript>
+               <p>Se il <persName ref="#UC">Sr Canello</persName> sapesse
+                  di quanta utilità mi potrebbe essere il materiale da lui raccolto nel suo saggio
+                  sul <expan><abbr>dial</abbr><ex>etto</ex></expan> <expan><abbr>Trivig</abbr><ex>iano</ex></expan>, vincerebbe la soverchia modestia e me lo farebbe
+                  conoscere anche nella 1a edizione, quando pure questa non lo
+                  sodisfaccia.</p>
+            </postscript>
+         </div>
+      </body>
+   </text>
+</TEI>

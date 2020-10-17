@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Pio Rajna a Ernesto Monaci, 31 gennaio 1876</title>
+                <editor role="transcription"><persName>Alessia Di Virgilio</persName></editor>
+                <editor role="encoding"><persName>Giulia Lucchesi</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2020-03-11"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl><bibl>Alessia Di Virgilio, <title>Carteggio Monaci - Rajna (1873-1877)</title>, tesi di laurea, Sapienza Università di Roma, a.a. 2018-2019</bibl></listBibl>
+                <msDesc>
+                    <msIdentifier><repository>Archivio Monaci, Società Filologica Romana, presso il Dipartimento di Studi Europei, Americani e Interculturali, Sapienza, Università di Roma.</repository> <idno>Busta n. 22, fascicolo 1095, lettera 21</idno></msIdentifier>
+                    <msContents><summary corresp="#postcard">Cartolina di Pio Rajna a Ernesto Monaci del 31 gennaio 1876.</summary></msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#PR">Pio Rajna</persName>
+                    <placeName ref="#roma">Roma</placeName>
+                    <date when="1876-01-31"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#sconosciuto">?</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                    <opener><expan><abbr>C</abbr><am>.</am><ex>arissimo</ex></expan> <expan><abbr>A</abbr><am>.</am><ex>mico</ex></expan></opener>
+                    <p>Conservami dunque un pochino di spazio per l’<title ref="#aiol"><hi rend="underline">Aiol</hi></title>.</p>
+                    <p>Ora s’è aggiunto un altro libro di cui render conto: "<title ref="#dialoge">Li Dialoge Gregoire lo Pape</title>", 
+                        sempre del <persName ref="#WF">Fӧrster</persName>. Appena sbrigate alcune faccende, farò di mandarti
+                        i due articoletti. Non ti ho ringraziato della gentilissima offerta riguardo al mio
+                        <title ref="#ariosto"><persName type="author" ref="#ariosto">Ariosto</persName></title>; me ne accorsi dopo aver riempito lo spazio fino all’ultima linea, e
+                        consumato il tempo fino all’ultimo minuto. Ripenso adesso all’omissione. Ma non
+                        credo che l’editore, al quale ho ceduto la proprietà del libro, intenda pubblicare
+                        manifesti, e sottoscrizioni. Dal canto mio non glielo potrei impedire, ma non ne
+                        avrei piacere. Bensì annunzierà la prossima pubblicazione della copertina di altri
+                        libri. La stampa è avviata, ma non stiamo che al secondo foglio. Una cordiale
+                        stretta di mano di più caldi augurii per uno splendido successo. Li chiamo augurii
+                        ma potrei anche dirti rallegramenti.</p>
+                    <closer>Tuo <expan><abbr>aff</abbr><ex>ezionatissi</ex><abbr>mo</abbr></expan>
+                        <signed><persName ref="#PR"><expan><abbr>P</abbr><am>.</am><ex>io</ex></expan> <expan><abbr>R</abbr><am>.</am><ex>ajna</ex></expan></persName></signed></closer>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

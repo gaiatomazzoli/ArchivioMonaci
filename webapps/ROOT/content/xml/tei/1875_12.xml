@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ernesto Monaci a Pio Rajna</title>
+                <editor role="transcription"><persName>Alessia Di Virgilio</persName></editor>
+                <editor role="encoding"><persName>Margherita Filippozzi</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2020-03-22"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl><bibl>Alessia Di Virgilio, <title>Carteggio Monaci - Rajna (1873-1877)</title>, tesi di laurea, Sapienza Università di Roma, a.a. 2018-2019</bibl></listBibl>
+                <msDesc>
+                    <msIdentifier><repository>Archivio Pio Rajna, Biblioteca Marucelliana, Firenze.</repository></msIdentifier>
+                    <msContents><summary corresp="#postcard">Cartolina postale di Ernesto Monaci a Pio Rajna, precedente al 31 dicembre 1875.</summary></msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#sconosciuto">?</placeName>
+                    <date when="1875-12" cert="low"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#PR">Pio Rajna</persName>
+                    <placeName ref="#sconosciuto">?</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                    <opener><salute>Mio carissimo amico,</salute></opener>
+                    <p>ho bisogno di scrivere al <expan><abbr>n</abbr><ex>o</ex><abbr>s</abbr><am>.</am><ex>tro</ex></expan> <persName ref="#UC">Canello</persName> né so dove trovarlo,
+                        perché gli ho scritto inutilmente due mie, una a <placeName ref="#milano">Milano</placeName> l’altra a <placeName ref="#valdobbiadene">Valdobbiadene</placeName>.
+                        Ti prego, se lo sai, di scrivermi il suo indirizzo.
+                        – Fra non molto ti scriverò più a lungo intorno al vol. 2° delle <title ref="#communicazioni">"Communicazioni"</title> e a qualche altra cosa.
+                        – Ti sarò grato intanto se vorrai dirmi qualche cosa intorno all’<orgName ref="#AccMil"><expan><abbr>Acc</abbr><am>.</am><ex>ademia</ex></expan></orgName> e all’<title ref="#attila"><expan><abbr>A</abbr><am>.</am><ex>ttila</ex></expan></title>, che io possa inserire nelle notizie della <title ref="#RFR"><expan><abbr>R</abbr><am>.</am><ex>ivista</ex></expan></title>-</p>
+                    <closer><salute>Tuo</salute>
+                        <signed><persName ref="#EM"><expan><abbr>E</abbr><am>.</am><ex>rnesto</ex></expan> Monaci</persName></signed></closer>                    
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

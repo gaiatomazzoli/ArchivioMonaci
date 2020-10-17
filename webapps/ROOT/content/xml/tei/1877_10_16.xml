@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ernesto Monaci a Pio Rajna, 16 ottobre 1877</title>
+                <editor role="transcription"><persName>Alessia Di Virgilio</persName></editor>
+                <editor role="encoding"><persName>Eleonora Bruno</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2020-03-29"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl><bibl>Alessia Di Virgilio, <title>Carteggio Monaci - Rajna (1873-1877)</title>, tesi di laurea, Sapienza Università di Roma, a.a. 2018-2019</bibl></listBibl>
+                <msDesc>
+                    <msIdentifier><repository>Archivio Pio Rajna, presso la Biblioteca Marucelliana di Firenze.</repository> <idno>lettera 35</idno></msIdentifier>
+                    <msContents><summary corresp="#postcard">Cartolina di Ernesto Monaci a Pio Rajna del 16 ottobre 1877</summary></msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#roma">Roma</placeName>
+                    <date when="1877-10-16"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#PR">Pio Rajna</persName>
+                    <placeName ref="#milano">Milano</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="postcard">
+                    <opener>
+                        <salute>
+                            <expan><abbr>C</abbr><am>.</am><ex>arissimo</ex> <abbr>A</abbr><am>.</am><ex>mico</ex></expan></salute>
+                    </opener>
+                    <p>Poco mi fu mandato sinora e ti confesso che le mie maggiori speranze sono su te. Il lavoro sull’<title ref="#attila"><hi rend="underline">Attila</hi></title> proprio verrebbe a proposito per dare un po’ di varietà alla materia, italiana quasi tutta. Ma non per questo tu devi affannarti e se nel momento non puoi occuparti di ciò, aspetterò. Qualunque altra cosa mi manderai, intanto, sarà sempre un bel dono e un bell’ajuto al <title ref="#GFR">periodico</title>. Per l’invio del ms. potresti prender tempo fino a mezzo novembre, e basterebbe che prima mi facessi soltanto sapere quanto spazio, press’a poco, ci vorrà per te.
+                        – Pel titolo mi consigliano <title ref="#GFR"><hi rend="underline">Giornale di <expan><abbr>f</abbr><am>.</am><ex>ilologia</ex> <abbr>r</abbr><am>.</am><ex>omanza</ex></expan></hi></title> anziché <hi rend="underline"><expan><abbr>Ann</abbr><am>.</am><ex>uario</ex></expan></hi>. E pare anche a me che convenga meglio, tanto più che è consacrato dalla tradizione. Ne convieni tu?
+                        – Pubblicherai dunque un <title ref="#letterature">articolo</title> nella <title ref="#NuovaAnt"><expan><abbr>N</abbr><am>.</am><ex>uova</ex> <abbr>A</abbr><am>.</am><ex>ntologia</ex></expan></title> sulle nostre cattedre? Non puoi credere quale desiderio abbia di poterlo presto leggere.</p>
+                    <closer>
+                        <salute>Addio. Il tuo</salute>
+                        <signed><persName ref="#EM">E. Monaci</persName></signed>
+                    </closer>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

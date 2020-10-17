@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ernesto Monaci a Pio Rajna, 26 marzo 1876</title>
+                <editor role="transcription"><persName>Alessia Di Virgilio</persName></editor>
+                <editor role="encoding"><persName>Virginia Machera</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2020-03-25"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl><bibl>Alessia Di Virgilio, <title>Carteggio Monaci - Rajna (1873-1877)</title>, tesi di laurea, Sapienza Università di Roma, a.a. 2018-2019</bibl></listBibl>
+                <msDesc>
+                    <msIdentifier><repository>Archivio Pio Rajna, Biblioteca Marucelliana di Firenze.</repository> <idno>Lettera XXV</idno></msIdentifier>
+                    <msContents><summary corresp="#postcard">Monaci a Rajna, XXV</summary></msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#milano">Milano</placeName>
+                    <date when="1876-03-26"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#PR">Pio Rajna</persName>
+                    <placeName ref="#sconosciuto">?</placeName>
+                   <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                    <opener><salute>C.A</salute></opener>
+                    <p>Mi spiacerebbe se la mia lettera t’avesse messo di mal umore. Comprendo che tu non possi perdere il tuo miglior tempo per la <hi rend="underline">Biblioteca</hi>, né ho mai pensato che tu avessi a “comprometterti o a vincolarti’’ per essa, né a farle da “rimorchiatore’’. Solo, conoscendo la stima di cui meritamente godi presso tutti, trovavo assai buono che da te fossero partite le prime proposte e i primi consigli, da te un valido impulso agli altri. Né il tuo far ciò voleva dire, “prendere la bandiera, metterli avanti, rischiare la libertà’’. Chi prende la bandiera, chi rischia è l’editore. Noi, tutto ciò che rischiamo è qualche consiglio e qualche lavoro; e quando anche questo rischio ci paresse troppo, due righe di lettera ci scioglierebbero da tutto e non potremmo mai temere di perdere più di quanto ci è piaciuto di mettere. Sta dunque certo che non si trattava di tirarti in nessuna briga, e di questa sicurezza, almeno, doveva esserti mallevadore il nome dell’amico che ti stringe affettuosamente la mano.</p>
+                    <closer><salute>Il Tuo</salute> <signed><persName ref="#EM">E.M.</persName></signed></closer>
+                    
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

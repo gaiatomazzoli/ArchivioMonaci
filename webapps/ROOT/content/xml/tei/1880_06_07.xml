@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Graziadio Isaia Ascoli a Ernesto Monaci, 7 giugno 1880</title>
+                <editor role="transcription"><persName>Chiara Maria Calcagni</persName></editor>
+                <editor role="encoding"><persName>Margherita Filippozzi</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2020-04-01"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl><bibl>Chiara Maria Calcagni, <title>Lettere scelte dal carteggio Ascoli-Monaci (1880/1906): trascrizione e commento</title>, tesi di laurea, Sapienza Università di Roma, a.a. 2018-2019</bibl></listBibl>
+                <msDesc>
+                    <msIdentifier><repository>Archivio Monaci, Società Filologica Romana, presso il Dipartimento di Studi Europei, Americani e Interculturali, Sapienza, Università di Roma.</repository> <idno>Busta n. 1, fascicolo 49, lettera XXVII.</idno></msIdentifier>
+                    <msContents><summary corresp="#letter">Lettera di Graziadio Isaia Ascoli a Ernesto Monaci del 7 giugno 1880.</summary></msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#GIA">Graziadio Isaia Ascoli</persName>
+                    <placeName ref="#milano">Milano</placeName>
+                    <date when="1880-06-07"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#sconosciuto">?</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                    <opener><dateline><placeName ref="#milano">Milano</placeName>, <date when="1880-06-07">7 giugno 1880</date></dateline>
+                        <salute>Carissimo amico,</salute></opener>
+                    <p>La ringrazio dei complimenti, e ora tocca a me di pensare a proporle una scelta e una serie generale, perché Ella poi giudichi in ultima istanza.
+                        Anche Le siamo grati, io e il <persName ref="#EL">Loescher</persName>, perché El.. l’abbia creduto di ritirare la nota domanda;
+                        e il mio spirito precorre impaziente <hi rend="underline">l’ora del gran connubio</hi>.</p>
+                    <p>Qui c’è intanto la <rs type="topic" key="Lauda"><hi rend="underline">Lauda</hi></rs> che Le occorre di rivedere.</p>
+                    <p>Ebbi il "<title ref="#folgore"><persName type="author" ref="#folgore">Folgore</persName></title>" del <persName ref="#GN">Navone</persName>; e per un dilettante, non c’è male davvero.
+                        Quando lo incontri, voglia, La prego, ringraziarlo per me. Io sarei un po’ imbarazzato a scrivergli, anche perché mi cita un po’ a sproposito.</p>
+                    <closer><salute>Con vivi saluti e auguri</salute>
+                        <salute>L’aff.mo Suo</salute>
+                       <signed><persName ref="#GIA"><expan><abbr>G</abbr><am>.</am><ex>raziadio</ex></expan> <expan><abbr>I</abbr><am>.</am><ex>saia</ex></expan> Ascoli</persName></signed></closer>                   
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

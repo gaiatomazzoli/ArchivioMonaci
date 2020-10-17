@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Cesare De Lollis a Ernesto Monaci, 3 ottobre 1886</title>
+                <editor role="transcription"><persName>Debora Matteo</persName></editor>
+                <editor role="encoding"><persName>Susanna Casacchia</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2020-04-23"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl><bibl>Debora Matteo, <title>Itinerario di un carteggio</title>, tesi di laurea, Sapienza Università di Roma, a.a. 2017-2018</bibl></listBibl>
+                <msDesc>
+                    <msIdentifier><repository>Archivio Monaci, Società Filologica Romana, presso il Dipartimento di Studi Europei, Americani e Interculturali, Sapienza, Università di Roma.</repository> <idno>Busta n. 8, fascicolo 394.</idno></msIdentifier>
+                    <msContents><summary corresp="#letter">Lettera di Cesare De Lollis a Ernesto Monaci del 3 ottobre 1886.</summary></msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#CDL">Cesare De Lollis</persName>
+                    <placeName ref="#sconosciuto">?</placeName>
+                    <date when="1886-10-03"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#sconosciuto">?</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                  <p>[...]</p>
+                    <p>Cosa farò a <placeName ref="#roma">Roma</placeName> non so ancora precisamente. Un amico della Divisione per l’Istruzione secondaria mi propose, in via privata, 
+                        un incarico nel Ginnasio Superiore di <placeName ref="#napoli">Napoli</placeName>, incarico che io rifiutai perché, se mi conveniva finanziariamente, esso mi allontanava 
+                        da <placeName ref="#roma">Roma</placeName> dove i miei studj, e Lei e tante altre ragioni mi richiamano. Lo stesso amico mi ha lasciato poi travedere la possibilità d’un 
+                        identico incarico in <placeName ref="#roma">Roma</placeName> [...] ma [...] dovrò riflettere bene prima di accettare. Mi spaventano le venti ore la settimana. [...] Alla <orgName ref="#BibVat">Biblioteca Vaticana</orgName>, senza dubbio, dovrei rinunciare. E a me non sorride l’idea di sfrattare d’un colpo gli ideali che da anni vado accarezzando. [...] Quel che intanto ho deciso è di tornare a <placeName ref="#roma">Roma</placeName>, dove, in un modo o nell’altro, dovrò far miracoli, per potere l’anno prossimo assettare definitivamente le mie cose.</p>
+                    <p>[...]</p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Graziadio Isaia Ascoli a Ernesto Monaci, 4 marzo 1902</title>
+                <editor role="transcription"><persName>Chiara Maria Calcagni</persName></editor>
+                <editor role="encoding"><persName>Simone Palmieri</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2020-02-26"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl><bibl>Chiara Maria Calcagni, <title>Lettere scelte dal carteggio Ascoli-Monaci (1880/1906): trascrizione e commento</title>, tesi di laurea, Sapienza Università di Roma, a.a. 2018-2019</bibl></listBibl>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Archivio Monaci, Società Filologica Romana, presso il
+                            Dipartimento di Studi Europei, Americani e Interculturali, Sapienza,
+                            Università di Roma.</repository>
+                        <idno>Busta n. 1, fascicolo 49, lettera XCIII</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary corresp="#letter">Graziadio Isaia Ascoli chiede a Monaci di sollecitare il Ministro della Pubblica Istruzione affinché egli dia disposizioni sulla conservazione di alcuni materiali</summary>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#GIA">Graziadio Isaia Ascolti</persName>
+                    <placeName ref="#milano">Milano</placeName>
+                    <date when="1902-03-04"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#sconosciuto">?</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                    <opener>
+                        <dateline><placeName ref="#milano">Milano</placeName>, <date when="1902-03-04">4.03. 902</date></dateline>
+                          </opener>
+                    <p>Collega onorandissimo; io son sempre senza notizie circa le buste che giacciono (o giacevano!) presso l’ufficio della Statistica, 
+                        e temo di doverne inferire che il <persName ref="#NN">Ministro  <expan><abbr>d</abbr><am>.</am><ex>ella</ex><abbr>P</abbr><am>.</am><ex>ubblica</ex><abbr>I</abbr><am>.</am><ex>struzione</ex></expan></persName> 
+                        non abbia ancora trovato la via, pur molto pronta, di ricorrere a Lei! Come già le dicevo e il <persName ref="#NN">Ministro</persName> e il <persName ref="#GC1">Sottosegretario di Stato</persName> sono ottimamente disposti; 
+                        ma a quattr’occhi si deve pur sempre soggiungere, che una grande complicazione di cose riesce a paralizzare in quel dicasterio ogni moglior volontà. La mia inquietudine si è <choice><sic>ve<pb break="no"/>ta</sic><corr>ve<pb break="no"/>nuta</corr></choice> sempre accrescendo, anche per l’impossibilità, in cui mi son trovato e mi trovo, 
+                        di sincerarmi coi propri occhi intorno allo stato delle cose. Sarebbe veramente enorme, che raccolta come ormai si aveva, dopo tanti stenti, una suppellettile così abbondante e preziosa, essa fosse condannata a andar marcita o dispersa, per incuria o peggio! Ne deriverebbe oltre il resto uno scandalo molto grave! </p>
+                    <p>So quant’è, e quanto delicata e lodevole, la Sua riservatezza. Ma siamo a un caso di vera e grande urgenza. Non potrebb’Ella trovare il modo di ricordare al <persName ref="#NN">Ministro  <expan><abbr>d</abbr><am>.</am><ex>ella</ex><abbr>P</abbr><am>.</am><ex>ubblica</ex><abbr>I</abbr><am>.</am><ex>struzione</ex></expan></persName>
+                        l’ufficio ch’Ella ebbe la molta bontà di accettare e ch’egli s’è tanto rallegrato ch’Ella accettasse? Egli forse non dispone ancora del denaro che occorrerebbe per lo spoglio di quelle buste; ma che intanto non lasci di vegliare perché sien conservate e bene custodite! Mi viene anche un altro pensiero. Noi parliamo sempre 
+                        del <persName ref="#NN">Ministro della <expan><abbr>P</abbr><am>.</am><ex>ubblica</ex><abbr>I</abbr><am>.</am><ex>struzione</ex></expan></persName> perché s’è sempre pensato, fin dai tempi del <persName ref="#LB">Bodio</persName>, che lo spoglio si avesse a fare a spese di quel <orgName ref="#MinAgr">Ministero dell’Agricultura</orgName>.
+                        Ora il <persName ref="#GB1">Baccelli </persName> ha per Lei la più grande affezione e ammirazione. Non Le potrebbe riuscire, e assai agevolmente, e senza ledere comunque i riguardi che si devono all’<expan><abbr>on</abbr><am>.</am><ex>orevole</ex></expan> <persName ref="#NN">Nasi</persName>, che l’ <expan><abbr>on</abbr><am>.</am><ex>orevole</ex></expan>
+                        <persName ref="#GB1">Baccelli</persName> intanto le desse la pronta facoltà di accertarsi della condizione in cui si trovino codesti milioni di buste? Anche per questo, intanto, come per ogni altro, credo ch’Ella avrebbe, se mai Le occorresse, ogni più divota assistenza da parte del professor <persName>Viglieri</persName>.
+                        Mi perdoni, La prego, le frettolose e poco men che irruente parole. Ma ho ragione di essere molto inquieto. È però possibile che altri s’inganni circa il pericolo che sovrasti o anzi che già ci abbia colpito. Veda di accorrere in nostra difesa e di tranquillarci, se è possibile, quanto più presto le è dato. E mi conservi sempre la Sua preziosa benevolenza.</p>
+                    <closer><salute>Il suo <expan><abbr>div</abbr><am>.</am><ex>otissimo</ex></expan> e <expan><abbr>aff</abbr><am>.</am><ex>ezionatissimo</ex></expan></salute> 
+                        <signed>Suo <persName ref="#GIA">G. I. Ascoli</persName></signed></closer>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

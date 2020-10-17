@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Pio Rajna a Ernesto Monaci, 31 gennaio 1877</title>
+                <editor role="transcription"><persName>Alessia Di Virgilio</persName></editor>
+                <editor role="encoding"><persName>Laura Pireddu</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2020-03-16"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl><bibl>Alessia Di Virgilio, <title>Carteggio Monaci - Rajna (1873-1877)</title>, tesi di laurea, Sapienza Università di Roma, a.a. 2018-2019</bibl></listBibl>
+                <msDesc>
+                    <msIdentifier><repository>Archivio Monaci, Società Filologica Romana, presso il Dipartimento di Studi Europei, Americani e Interculturali, Sapienza, Università di Roma.</repository> <idno>Busta n. 22, fascicolo 1095, lettera XXX.</idno></msIdentifier>
+                    <msContents><summary corresp="#letter">Cartolina postale di Pio Rajna a Ernesto Monaci del 31 gennaio 1877.</summary></msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#PR">Pio Rajna</persName>
+                    <placeName ref="#milano">Milano</placeName>
+                    <date when="1877-01-31"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#sconosciuto">?</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                    <opener><dateline><placeName ref="#milano">Milano</placeName>, <date when="1877-01-31">31 gennaio 1877</date></dateline>
+                    <salute>Mio caro <persName ref="#EM">Monaci</persName></salute></opener>
+                    <p>Dimmi, di grazia, quando si chiude la <orgName ref="#BibVat">Vaticana</orgName>, e più determinatamente, per quanti 
+                        e quanti giorni sarà accessibile nel Marzo. Non si tratta di me, che purtroppo - veramente mi ci rassegno con sufficiente
+                        filosofia – non posso lasciar <placeName ref="#milano">Milano</placeName>, bensì del prof <persName ref="#AI">Ive</persName>, 
+                        venuto per studiare fra noi <rs type="topic" key="Filologia romanza">cose romanze</rs>, con un sussidio del governo <placeName ref="#austria">austriaco</placeName>. È qui dal
+                        Novembre, e di qui passerà a <placeName ref="#roma">Roma</placeName>. 
+                        Avrei molte cose da dire, ma puoi ben figurarti.</p> 
+                    <p>Ma in questo momento sono affetto da pigrizia epistolare. Come va colla salute del tuo bambino? – 
+                        Voglimi bene, sicuro d’esser sempre ricambiata colla buona misura dal</p>
+                    <closer>Tuo <salute><expan><abbr>aff</abbr><am>.</am><ex>ezionatissi</ex><abbr>mo</abbr></expan></salute> 
+                        <signed><persName ref="#PR">P. Rajna</persName></signed></closer>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

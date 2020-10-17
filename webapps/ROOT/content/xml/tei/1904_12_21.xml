@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ernesto Monaci a Graziadio Isaia Ascoli, 21 dicembre 1904</title>
+                <editor role="transcription"><persName>Chiara Maria Calcagni</persName></editor>
+                <editor role="encoding"><persName>Mariangela Distilo</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2020-02-26"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl><bibl>Chiara Maria Calcagni, <title>Lettere scelte dal carteggio Ascoli-Monaci (1880/1906): trascrizione e commento</title>, tesi di laurea, Sapienza Università di Roma, a.a. 2018-2019</bibl></listBibl>
+                <msDesc>
+                    <msIdentifier><repository>Archivio Ascoli, Accademia Nazionale dei Lincei, presso la Biblioteca dell’Accademia dei Lincei e Corsiniana, Roma.</repository> <idno>Lettera 97/4</idno></msIdentifier>
+                    <msContents><summary corresp="#letter">Lettera di E. Monaci a G. I. Ascoli del 21 dicembre 1904</summary></msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#roma">Roma</placeName>
+                    <date when="1904-12-21"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#GIA">Graziadio Isaia Ascoli</persName>
+                    <placeName ref="#sconosciuto">?</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                    <opener><dateline><placeName ref="#roma">Roma</placeName> <date when="1904-12-21">21 dicembre 1904</date></dateline>
+                        <salute>Mio Signore</salute></opener>
+                    <p>Domenica passata il Presid. <persName ref="#PB">Blaserna</persName>, dopo la seduta della Classe, mi chiamò in seno al Consiglio d’Amministrazione, affinché informassi i colleghi di tutti i precedenti che concernevano la faccenda della Toponomastica, e quando ebbi fatta la mia esposizione, tutti furono concordi nell’approvare che l’<orgName ref="#AccLin">Accademia</orgName> assuma l’impresa purché Ella, anche da lontano, ne serbi la direzione; e si restò d’intesa che il Vicepres. <persName ref="#FDO">D’Ovidio</persName> si sarebbe poi abboccato con quei colleghi presenti in <placeName ref="#roma">Roma</placeName> che già altra volta Ella aveva designati per comporre la Commissione, e ciò allo scopo di concretare le proposte da farsi al Ministero. Questa riunione ebbe luogo jeri. Vennero il <persName ref="#IG">Guidi</persName>, il Conte <persName ref="#CN">Nigra</persName>, il Sen. <persName ref="#LB">Bodio</persName>, oltre il <persName ref="#FDO">D’O.</persName> e me. Sulle prime, nessuno voleva far proposte finché fosse assente Lei. Poi riconobbero opportuno di cominciare a parlar della cosa. Il <persName ref="#FDO">D’O.</persName> riassunse il Suo disegno quale Ella lo aveva tracciato nel <title ref="#ricordi"><hi rend="underline">Ricordi</hi></title>, e dopo varie osservazioni si convenne di cominciare, com’è naturale dal lavoro di spoglio delle schede o buste del censimento, e il sen. <persName ref="#LB">Bodio</persName> s’incaricò di far fare un saggio da un impiegato di sua fiducia, per poter calcolare bene il tempo e la spesa che abbisognerà per questo lavoro. Chiese di poter disporre di una somma di lire cento per rimunerare l’impiegato che farà questo saggio, e il Conte <persName ref="#CN">Nigra</persName> volle mettere di suo quella somma a disposizione del Sen. <persName ref="#LB">Bodio</persName>. Si passò poi a parlare del segretario. Anche su ciò tutti furono concordi sulla designazione del <persName ref="#SP">Pieri</persName>. Un po’ di dissenso sorse sul momento in cui si dovesse chiedere il trasloco e il comando al Ministero, parendo a taluno che pel momento, finché cioè il Sen. <persName ref="#LB">Bodio</persName> farà fare lo spoglio e compilare le liste alfabetiche dei nomi, non ce ne sarebbe bisogno.</p>
+                    <p>Ma poi tutti rimasero persuasi che la presenza del <persName ref="#SP">P.</persName> sarà opportuna fin dal principio dei lavori, e perciò si convenne che, non appena il Cons. di Presidenza dell’<orgName ref="#AccLin">Accademia</orgName> avrà nominata la Commissione, questa inizierà le pratiche per chiedere al Min. il prof. <persName ref="#SP">Pieri</persName>.</p>
+                    <p>Naturalmente la commissione sarà nominata nelle persone stesse che il <persName ref="#FDO">D’O.</persName> riunì jeri. Ma per la regolarità della procedura accademica il <persName ref="#PB">Bl</persName>. Dovrà farne la proposta formale al Cons. d’Amm.ñe, e ciò aspettiamo che si compia fra giorni. </p>
+                    <p>Prima di separarsi i Colleghi incaricarono me di riferirle quanto sopra Le ho scritto, affinché Ella fosse informato subito di tutto, e, come vede, le cose seguitano a proceder bene.</p>
+                    <p>Non appena ci sarà altro di nuovo, non mancherò di scriverle. Intanto gradisca i saluti i più affettuosi del Suo</p>
+                    <closer><signed><persName ref="#EM">E. Monaci</persName></signed></closer>
+                    <postscript><p>PS. Dei <title ref="#ricordi"><hi rend="underline">Ricordi</hi></title> ho ordinato, prossimamente,<lb/>che si tirino estratti in <hi rend="underline">cento copie</hi>. Ma se <lb/>Ella desidera di averne un numero maggiore,<lb/>non ha che da scrivermi un cenno.</p></postscript>
+                </div>
+                <div type="textpart" subtype="letter">
+                    <p><date when="1904-12-21">21 sera.</date> – Cariss.° <persName ref="#SP">Pieri</persName>; ecco le notizie,
+                        <lb/>con la preghiera della pronta restituzione
+                        <lb/>di q.ta lettera.</p>
+                <closer>Suo <expan><abbr>aff</abbr><am>.</am><ex>ezionatissi</ex><abbr>mo</abbr></expan> <signed><persName ref="#GIA">Ascoli</persName></signed></closer>
+                </div>
+                </div>
+        </body>
+    </text>
+</TEI>
+

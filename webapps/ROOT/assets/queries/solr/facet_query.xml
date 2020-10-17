@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<query q_fields="document_type" range_fields="anno_invio">
+  <df default="true">text</df>
+  <q default="true">*</q>
+  <document_type>(tei or epidoc)</document_type>
+  <facet>true</facet>
+  <facet.field>tipologia_documentaria</facet.field>
+  <facet.field>lingua</facet.field>
+  <facet.field>mittente</facet.field>
+  <facet.field>destinatario</facet.field>
+  <!--<facet.field>anno_invio</facet.field>-->
+  <facet.field>data_invio</facet.field>
+  <facet.field>data_ricezione</facet.field>
+  <facet.field>luogo_invio</facet.field>
+  <facet.field>luogo_ricezione</facet.field>
+  <facet.field>collocazione_attuale</facet.field>
+  <!--<facet.field>tematiche</facet.field>-->
+  <facet.field>luoghi_menzionati</facet.field>
+  <facet.field>persone_menzionate</facet.field>
+  <facet.field>istituzioni_menzionate</facet.field>
+  <!--<facet.field>autori_menzionati</facet.field>-->
+  <!--<facet.field>opere_menzionate</facet.field>-->
+  <!--<facet.field>fonti_menzionate</facet.field>-->
+  <facet.limit>-1</facet.limit>
+  <facet.mincount>1</facet.mincount>
+  <!-- facet.sort's value may be either "index" (alphabetic order of
+       value) or "count" (numeric order of count). -->
+  <facet.sort>index</facet.sort>
+  <!-- The number of rows returned by Solr at once (that is the number
+       displayed per page of results). -->
+  <rows default="true">700</rows>
+</query>

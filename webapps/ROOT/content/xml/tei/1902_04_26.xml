@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Cesare De Lollis a Ernesto Monaci, 26 aprile 1902</title>
+                <editor role="transcription"><persName>Debora Matteo</persName></editor>
+                <editor role="encoding"><persName>Giulia Lucchesi</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2020-04-22"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl><bibl>Debora Matteo, <title>Itinerario di un carteggio</title>, tesi di laurea, Sapienza Università di Roma, a.a. 2017-2018</bibl></listBibl>
+                <msDesc>
+                    <msIdentifier><repository>Archivio Monaci, Società Filologica Romana, presso il Dipartimento di Studi Europei, Americani e Interculturali, Sapienza, Università di Roma.</repository> <idno>Busta n. 8, fascicolo 394.</idno></msIdentifier>
+                    <msContents><summary corresp="#letter">Lettera di Cesare De Lollis a Ernesto Monaci del 26 aprile 1902</summary></msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#CDL">Cesare De Lollis</persName>
+                    <placeName ref="#genova">Genova</placeName>
+                    <date when="1902-04-26"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#sconosciuto">?</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                    <opener><dateline><placeName ref="#genova">Genova</placeName>, <date when="1902-04-26">26. IV. ’902</date></dateline>
+                        <salute>Caro Professore,</salute></opener>
+                    <p>aggiungo qui due parole a quelle con cui le ho intestato le bozze dello stile laconico che la corrispondenza 
+                        con francatura la “stampa” permette. Alla casa editrice <gap reason="illegible" extent="unknown" unit="chars"/> l’altro durante un breve soggiorno in 
+                        <placeName ref="#torino">Torino</placeName>, mi raccomandò di farci sapere quante pagine fossero <gap reason="illegible" extent="unknown" unit="chars"/>
+                    O meglio di riempire dopo l’ultima riga della attuale notizia, ma nelle bozze oggi pervenutemi, le ho risposto 
+                    un esemplare, non è stato che un 31 in capo, è il numero del foglio? Non lo so perche non ho mai visto i fogli 
+                        <gap reason="illegible" extent="unknown" unit="chars"/> Gli <gap reason="illegible" extent="unknown" unit="chars"/>, li ha messi la tipografia. Se Ella avrà ancora notizie da aggiungere, sarà il caso di raggrupparle 
+                    in altri fascicoli.</p>
+                    <closer><signed><persName ref="#CDL">Cesare De Lollis</persName></signed></closer>
+                    <postscript><p>P.S.: Se Ella mandi a me queste bozze corrette e impaginate e ad Essa 
+                        rimanderò anche le mie correzioni.</p></postscript>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>
+
+
+
+

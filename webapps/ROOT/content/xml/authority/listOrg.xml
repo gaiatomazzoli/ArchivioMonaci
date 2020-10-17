@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Istituzioni</title>
+            </titleStmt>
+            <publicationStmt>
+                <p/>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <listOrg>
+                <org xml:id="Crusca">
+                    <orgName>Accademia della Crusca</orgName>
+                </org>
+                
+                <org xml:id="ASM">
+                    <orgName>Accademia delle Scienze di Monaco di Baviera</orgName>
+                </org>
+                
+                <org xml:id="AccLisb">
+                    <orgName>Accademia Reale Di Lisbona</orgName>
+                </org>
+                
+                <org xml:id="AccMil">
+                    <orgName>Accademia Scientifico-letteraria di Milano</orgName>
+                </org>
+                
+                <org xml:id="ArCSP">
+                    <orgName>Archivio dei Canonici di S. Pietro</orgName>
+                </org>
+                
+                <org xml:id="BibAmbr">
+                    <orgName>Biblioteca Ambrosiana</orgName>
+                </org>
+                
+                <org xml:id="BibBr">
+                    <orgName>Biblioteca di Brera</orgName>
+                </org>
+                
+                <org xml:id="BibMad">
+                    <orgName>Biblioteca Nazionale di Madrid</orgName>
+                </org>
+                
+                <org xml:id="BibPal">
+                    <orgName>Biblioteca comunale di Palermo</orgName>
+                </org>
+                
+                <org xml:id="BibSorb">
+                    <orgName>Biblioteca della Sorbona</orgName>
+                </org>
+                
+                <org xml:id="BibTor">
+                    <orgName>Biblioteca di Torino</orgName>
+                </org>
+                
+                <org xml:id="BNN">
+                    <orgName>Biblioteca Nazionale di Napoli</orgName>
+                </org>
+                
+                <org xml:id="BibTriv">
+                    <orgName>Biblioteca Trivulziana</orgName>
+                </org>
+                
+                <org xml:id="BibVat">
+                    <orgName>Biblioteca Vaticana</orgName>
+                </org>
+                
+                <org xml:id="BnF">
+                    <orgName>Bibliothèque nationale de France</orgName>
+                </org>
+                
+                <org xml:id="CFM">
+                    <orgName>Circolo Filologico di Milano</orgName>
+                </org>
+                
+                <org xml:id="CC">
+                    <orgName>Commissione Colombiana</orgName>
+                </org>
+                
+                <org xml:id="Toponomastica">
+                    <orgName>Commissione per la Toponomastica</orgName>
+                </org>
+                
+                <org xml:id="CG">
+                    <orgName>Congresso Geografico Italiano</orgName>
+                </org>
+                
+                <org xml:id="CISS">
+                    <orgName>Congresso Internazionale di Scienze Storiche</orgName>
+                </org>
+                
+                <org xml:id="CorConti">
+                    <orgName>Corte dei Conti</orgName>
+                </org>
+                
+                <org xml:id="DiezSt">
+                    <orgName>Diez Stiftung</orgName>
+                </org>
+                
+                <org xml:id="ENC">
+                    <orgName>École nationale des chartes</orgName>
+                </org>
+                
+                <org xml:id="Gabinetto">
+                    <orgName>Gabinetto di Paleografia</orgName>
+                </org>
+                
+                <org xml:id="ISI">
+                    <orgName>Istituto Storico Italiano</orgName>
+                </org>
+                
+                <org xml:id="LettSap">
+                    <orgName>Facoltà di Lettere, Università Sapienza</orgName>
+                </org>
+                
+                <org xml:id="LP">
+                    <orgName>Liceo Parini di Milano</orgName>
+                </org>
+                
+                <org xml:id="Loescher">
+                    <orgName>Loescher Editore</orgName>
+                </org>
+                
+                <org xml:id="Niemeyer">
+                    <orgName>Max Niemeyer Verlag</orgName>
+                </org>
+                
+                <org xml:id="ME">
+                    <orgName>Ministero degli Affari Esteri</orgName>
+                </org>
+                
+                <org xml:id="MT">
+                    <orgName>Ministero del Tesoro</orgName>
+                </org>
+                
+                <org xml:id="MinAgr">
+                    <orgName>Ministero dell’Agricoltura, dell’Industria e del Commercio</orgName>
+                </org>
+                
+                <org xml:id="MG">
+                    <orgName>Ministero della Guerra</orgName>
+                </org>
+                
+                <org xml:id="MPI">
+                    <orgName>Ministero della Pubblica Istruzione</orgName>
+                </org>
+                
+                <org xml:id="AccLin">
+                    <orgName>Reale Accademia dei Lincei</orgName>
+                </org>
+                
+                <org xml:id="Sapienza">
+                    <orgName>Sapienza Università di Roma</orgName>
+                </org>
+                
+                <org xml:id="SR">
+                    <orgName>Pontificio Seminario Romano Maggiore</orgName>
+                </org>
+                
+                <org xml:id="SFR">
+                    <orgName>Società Filologica Romana</orgName>
+                </org>
+                
+                <org xml:id="SGI">
+                    <orgName>Società Geografica Italiana</orgName>
+                </org>
+                
+                <org xml:id="SP">
+                    <orgName>Società per la pace e la giustizia internazionale</orgName>
+                </org>
+                
+                <org xml:id="SSL">
+                    <orgName>Società Storica Lombarda</orgName>
+                </org>
+                
+                <org xml:id="UB">
+                    <orgName>Università di Bologna</orgName>
+                </org>
+                
+                <org xml:id="UG">
+                    <orgName>Università di Graz</orgName>
+                </org>
+                
+                <org xml:id="UHW">
+                    <orgName>Università "Martin Lutero" di Halle-Wittenberg</orgName>
+                </org>
+                
+                <org xml:id="UV">
+                    <orgName>Università di Vienna</orgName>
+                </org>   
+            </listOrg>
+        </body>
+    </text>
+</TEI>

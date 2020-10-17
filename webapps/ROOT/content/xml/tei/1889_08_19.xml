@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Cesare De Lollis alla Commissione Colombiana, 19 agosto 1889</title>
+                <editor role="transcription"><persName>Debora Matteo</persName></editor>
+                <editor role="encoding"><persName>Susanna Casacchia</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2020-04-27"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl><bibl>Debora Matteo, <title>Itinerario di un carteggio</title>, tesi di laurea, Sapienza Università di Roma, a.a. 2017-2018</bibl></listBibl>
+                <msDesc>
+                    <msIdentifier><repository>Fondo storico, Subfondo: Regia Commissione colombiana, Società geografica italiana.</repository> <idno>Busta n. 5, Serie 2: Carteggio. U.A. 25</idno></msIdentifier>
+                    <msContents><summary corresp="#letter">Lettera di Cesare De Lollis alla Commissione Colombiana del 19 agosto 1889.</summary></msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#CDL">Cesare De Lollis</persName>
+                    <placeName ref="#paris">Parigi</placeName>
+                    <date when="1889-08-19"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#RCC">Commissione Colombiana</persName>
+                    <placeName ref="#sconosciuto">?</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                    <p>[...]</p>
+                    <p>Con lui [<persName ref="#HH">Harrisse</persName>] <gap reason="illegible" extent="unknown" unit="chars"/> mi sono abboccato stamani. Mi ha esposto a voce tutto il Suo piano, che, secondo il mio assai modesto parere, è altrettanto buono che semplice. 
+                        Domani e posdomani mi recherò a lavorare in sua casa, dove egli ha messi a mia disposizione i suoi appunti, perché io ne estragga quelli che nel processo del lavoro saran 
+                        come la mia pietra miliare. Nel complesso mi pare che, se i funzionari pubblici e privati di <placeName ref="#spagna">Spagna</placeName> coi quali si avrà a trattare non 
+                        frapporranno troppi ostacoli, c’è da sperare di riuscire a far tutto presto e bene. Quanto alla celerità dell’esecuzione, il lavoro si avvantaggerà di certo, se, come formalmente 
+                        ha promesso, verrà anche <expan><abbr>Mons</abbr><ex>ieu</ex><abbr>r</abbr></expan> <persName>Carini</persName>. Nei miei rapporti con lui è bene inteso che io seguirò fedelmente 
+                        le istruzioni dalla <expan><abbr>S</abbr><am>.</am><ex>ignoria</ex></expan> <expan><abbr>V</abbr><am>.</am><ex>ostra</ex></expan> impartitemi.</p>
+                    <p>[...]</p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

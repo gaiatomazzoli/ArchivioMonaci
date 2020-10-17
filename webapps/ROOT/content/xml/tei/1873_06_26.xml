@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Pio Rajna a Ernesto Monaci, 26 giugno 1873</title>
+                <editor role="transcription"><persName>Alessia Di Virgilio</persName></editor>
+                <editor role="encoding"><persName>Susanna Casacchia</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2020-03-12"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl><bibl>Alessia Di Virgilio, <title>Carteggio Monaci - Rajna (1873-1877)</title>, tesi di laurea, Sapienza Università di Roma, a.a. 2018-2019</bibl></listBibl>
+                <msDesc>
+                    <msIdentifier><repository>Archivio Monaci, Società Filologica Romana, presso il Dipartimento di Studi Europei, Americani e Interculturali, Sapienza, Università di Roma.</repository> <idno>Busta n. 22, fascicolo 1095, lettera 7</idno></msIdentifier>
+                    <msContents><summary corresp="#letter">Lettera di Pio Rajna a Ernesto Monaci del 26 giugno 1873.</summary></msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#PR">Pio Rajna</persName>
+                    <placeName ref="#milano">Milano</placeName>
+                    <date when="1873-06-26"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#roma">Roma</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                    
+                    <opener>
+                        <dateline><placeName ref="#milano">Milano</placeName>, <date when="1873-06-26">26 Giugno 1873</date></dateline>
+                        <salute>Mio Riverito Signore,</salute></opener>
+                    <p>Permetta in primo luogo che io Le esponga il mio dispiacere per le sventure domestiche a cui ella accenna nella gentile sua <title type="letter" ref="./1873_06_09.html">lettera</title>. È dura che 
+                        questi pochi giorni di vita abbiano a ogni poco ad essere amareggiati dalla partenza delle persone che si hanno più care, fino a che venga per noi stessi il momento di 
+                        recare ad altri quel medesimo dolore che tante volte abbiamo patito. Bisogna pur troppo consolarsi assai spesso col detto del poeta: <quote><foreign>Levius fit patientia Quidquid 
+                       corrigere est nefas</foreign></quote>.</p>
+                    <p> Il <title ref="#frammenti">lavoruccio</title> di cui Le parlai viene assai tardi. Sebbene quando le scrissi fosse oramai lesto, non mi riuscì che oggi di terminarlo. Si tratta di cose che danno luogo a 
+                        continui dubbi, pentimenti, mutazioni, e che però avrebbero bisogno di essere rivagliati non so quante volte, prima di essere abbandonate al pubblico. Veda un po’ se qual è
+                        l’articolo può essere opportuno per la <title ref="#RFR">Rivista</title>; se non Le garba nulla Lo rattenga dal dirmelo appertamente. Quanto <pb/> 
+                        a me, ne son tutt’altro che soddisfatto. Trattandosi di un’introduzione e di poche pagine di testo non mi par convenevole che la pubblicazione abbia luogo in due fascicoli: le
+                        due parti devono di necessità andare unite. Quindi, se il fascicolo che ora si prepara non può contenerle entrambe, non consegni il manoscritto 
+                        allo stampatore e voglia a suo comodo avvertirmene. Potrei in tal modo rivolgermi al <title ref="#IP">Propugnatore</title> a qualche altro giornale, 
+                        tanto per levarmi dattorno le cose vecchie che mi danno noia; per l’ultimo numero dell’annata cercherei invece di allestire qualche altra cosa. Per una corbelleria quale è quella 
+                        che ora Le mando bastano a esuberanza i trenta estratti che la <title ref="#RFR">Rivista</title> suole mandare; in qualche altro caso può darsi che io 
+                        La preghi di un numero un poco maggiore. Intanto Le sono grato quanto mai della bontà che Ella mi dimostra.</p>
+                    <closer><salute>Gradisca l’espressione della mia sincera stima e mi creda. Suo devotissimo</salute> 
+                        <signed><persName ref="#PR">Pio Rajna</persName></signed></closer>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Cesare De Lollis a Ernesto Monaci</title>
+                <editor role="transcription"><persName>Margherita Filippozzi</persName>, <persName>Debora Matteo</persName></editor>
+                <editor role="encoding"><persName>Margherita Filippozzi</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2020-04-28"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl><bibl>Debora Matteo, <title>Itinerario di un carteggio</title>, tesi di laurea, Sapienza Università di Roma, a.a. 2017-2018</bibl></listBibl>
+                <msDesc>
+                    <msIdentifier><repository>Archivio Monaci, Società Filologica Romana, presso il Dipartimento di Studi Europei, Americani e Interculturali, Sapienza, Università di Roma.</repository> <idno>Busta n. 8, fascicolo 394.</idno></msIdentifier>
+                    <msContents><summary corresp="#postcard">Cartolina postale di Cesare De Lollis a Ernesto Monaci, priva di data completa, in cui De Lollis informa della sua mancata partenza per Roma e di aver inviato al Ministro la domanda di un sussidio straoridinario.</summary></msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#CDL">Cesare De Lollis</persName>
+                    <placeName ref="#casalincontrada">Casalincontrada</placeName>
+                    <date/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#sconosciuto">?</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                    <opener><dateline><placeName ref="#casalincontrada">Casalincontrada</placeName>, <date>16</date></dateline>
+                        <salute>Egregio Sigr. Professore,</salute></opener>
+                    <p>non mi son deciso finora a partire per <placeName ref="#roma">Roma</placeName>, per tante varie ragioni.
+                       Le dirò anche che stamani ero col piede sulla staffa, quando una improvvisa recrudescenza della solita malattia di Papà mi ha costretto a deporre il mio proposito.
+                       Lascerò dunque passare ancora qualche giorno.</p>
+                    <p>Frattanto, mi affretto ad avanzare una domanda al Ministro per un sussidio straordinario: non avrei voluto farlo ancora una volta, ma lo fo,
+                        per dar retta al consiglio del <persName>Mazzini</persName>, al quale, m’immagino, ne avrà parlato Lei.
+                        Sarebbe certo assai utile per me qualche parola che Lei spendesse per dare facile corso alla mia domanda.
+                        Mi tenga presente per qualunque occasione buona Le si presenti. Non so se avrò ancora a scriverle, prima di partire.</p>
+                    <closer><salute>Arrivederla dunque. Suo discepolo</salute>
+                        <signed><persName ref="#CDL">De Lollis</persName></signed></closer>
+                    <postscript><p>La mia domanda al Ministero parte con questa cartolina.</p></postscript>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Pio Rajna a Ernesto Monaci, 24 marzo 1876</title>
+                <editor role="transcription"><persName>Alessia Di Virgilio</persName></editor>
+                <editor role="encoding"><persName>Virginia Machera</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2020-03-23"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl><bibl>Alessia Di Virgilio, <title>Carteggio Monaci - Rajna (1873-1877)</title>, tesi di laurea, Sapienza Università di Roma, a.a. 2018-2019</bibl></listBibl>
+                <msDesc>
+                    <msIdentifier><repository>Archivio Monaci, Società Filologica Romana, presso il Dipartimento di Studi Europei, Americani e Interculturali, Sapienza, Università di Roma.</repository> <idno>Busta n. 22, fascicolo 1095, lettera XXIII</idno></msIdentifier>
+                    <msContents><summary corresp="#postcard">Rajna a Monaci, XXIII</summary></msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#PR">Pio Rajna</persName>
+                    <placeName ref="#milano">Milano</placeName>
+                    <date when="1876-03-24"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#sconosciuto">?</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                    <opener><salute>C.A.</salute></opener>
+                    <p>Quello che tu dici è impossibile. Per cento ed una ragione io non posso fare da rimorchiatore. Ho altre cose sulla bracia, ed in primo luogo l’<persName type="author" ref="#ariosto">Ariosto</persName>, che mi dà assai da fare. Poi non ho nessuna voglia di compromettermi e di vincolarmi. Entrare nel Consiglio, dire di tempo in tempo che cosa si pensa su questo punto o su quello, non richiede un gran consumo di forze; prendere in mano la bandiera, e mettersi avanti, è tutt’altro. E l’ho a dire? Vedo gravi assai le difficoltà: così gravi, dal volerci proprio una grande pertinacia per vincerla. Ed io tanta virtù non me la sento; amo assai i miei comodi; assai la mia libertà…sgridami, che hai ben ragione; ma sono così fatto, e non mi saprei mutare. Metto per ultimo ciò che avrebbe dovuto venir prima: non presumo davvero di possedere le attitudini necessarie, anche astraendo dal carattere. Sicché, amico mio, non far troppo assegnamento su di me. Uomo avvisato, mezzo salvato.  
+                    </p>
+                    <closer><salute>Addio. Tuo <expan><abbr>aff</abbr><ex>ezionatissi</ex><abbr>mo</abbr></expan></salute>
+                        <signed><persName ref="#PR">P.R</persName></signed></closer>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

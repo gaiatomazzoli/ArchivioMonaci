@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Pio Rajna a Ernesto Monaci, 6 settembre 1877</title>
+                <editor role="transcription"><persName>Alessia Di Virgilio</persName></editor>
+                <editor role="encoding"><persName>Margherita Filippozzi</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2020-03-19"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl><bibl>Alessia Di Virgilio, <title>Carteggio Monaci - Rajna (1873-1877)</title>, tesi di laurea, Sapienza Università di Roma, a.a. 2018-2019</bibl></listBibl>
+                <msDesc>
+                    <msIdentifier><repository>Archivio Monaci, Società Filologica Romana, presso il Dipartimento di Studi Europei, Americani e Interculturali, Sapienza, Università di Roma.</repository> <idno>Busta n. 22, fascicolo 1095, lettera XXXIV.</idno></msIdentifier>
+                    <msContents><summary corresp="#letter">Lettera di Pio Rajna a Ernesto Monaci del 6 settembre 1877.</summary></msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#PR">Pio Rajna</persName>
+                    <placeName ref="#firenze">Firenze</placeName>
+                    <date when="1877-09-06"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#sconosciuto">?</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                    <opener><dateline><placeName ref="#firenze">Firenze</placeName>, <date when="1877-09-06">6 Settembre 1877</date></dateline>
+                        <salute>Carissimo <persName ref="#EM">Monaci</persName></salute></opener>
+                    <p>Vado girovagando, come, per vecchia abitudine, soglio fare in questa stagione.</p>
+                    <p>Avevo una mezza idea di spingermi fino a <placeName ref="#roma">Roma</placeName>, per visitare lungo la strada alcune città secondarie, che ho il torto di non conoscere;
+                        ma poi ci ho rinunziato. Venni dalla via di <placeName ref="#genova">Genova</placeName>, feci sosta in varie stazioni balneari, fui a <placeName ref="#volterra">Volterra</placeName>, di lì scesi a <placeName ref="#siena">Siena</placeName>, ed ora sono qui da alcuni giorni, coll’intenzione di rimanere fino alla metà del mese.
+                        A <placeName ref="#roma">Roma</placeName> avevo pure speranza di trovarti. Se di questi tempi preferisci la campagna ed il mare alla <placeName ref="#roma">capitale</placeName>, ti do non una, ma centomila ragioni.</p>
+                    <p>Caso mai ci si fosse veduti, si sarebbe fatta un’infinità di chiacchiere.
+                        Sarà per un’altra occasione, che potrebbe anche offrirsi presto. Solo di una cosa <pb/>mi giova chiederti adesso.
+                        So che ti vai occupando dei <rs type="topic" key="Trovatori italiani">trovatori italiani</rs>. Mi permetti di domandarti cosa più propriamente tu ci prepari? Si tratta di un’edizione critica dei testi, oppure di un’opera storico-letteraria?</p>
+                    <p>Forse hai già indovinato il perché della domanda. E senza andar per le lunghe, ti chiederò in modo più preciso:
+                        Un libro <hi rend="underline">sulla</hi> <rs type="topic" key="Poesia provenzale in Italia">poesia provenzale in Italia</rs> farebbe duplicato col tuo, ovvero, pur incontrandosi con esso per certi punti, avrebbe pur sempre ragione di essere?</p>
+                    <p>Rispondimi senza alcun riguardo. Per toglierti ogni scrupolo, mi basti dirti che fino ad ora mi sono sempre trattenuto vicino alla cosa, senza mettere il piede sulla soglia.
+                        Vorrei mettercelo tra poco, approfittare di una gita a <placeName ref="#venezia">Venezia</placeName> per fare alcune ricerche, ed ecco perché t’interrogo, e ti prego, possibilmente, di una risposta sollecita.
+                        Se scrivi in questa o nella prossima settimana, dirigi qui a <placeName ref="#firenze">Firenze</placeName>, fermo in posta.</p>
+                    <p>Spero che l’aria marina avrà giovato a te e al tuo bambino. E non <pb/>meno ti sarà stato utile un poco d’ozio, se pure te lo sei promesso.
+                        Ho sentito dal <persName ref="#EM1">Molteni</persName> d’una quantità di cose, a cui attendi. Me ne rallegro di cuore, non solo per te, ma per l’onore che ne vince ai nostri studii ed al nostro paese.</p>
+                    <closer><salute>Voglimi bene e credimi sempre</salute> 
+                        <salute>Tuo <expan><abbr>aff</abbr><ex>ezionatissi</ex><abbr>mo</abbr></expan></salute>
+                        <signed><persName ref="#PR"><expan><abbr>P</abbr><am>.</am><ex>io</ex></expan> Rajna</persName></signed></closer>                    
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

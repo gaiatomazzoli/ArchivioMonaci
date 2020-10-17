@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Graziadio Isaia Ascoli a Ernesto Monaci, 18 gennaio 1905</title>
+                <editor role="transcription"><persName>Chiara Maria Calcagni</persName></editor>
+                <editor role="encoding"><persName>Stefano Boschi</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2020-04-06"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl><bibl>Chiara Maria Calcagni, <title>Lettere scelte dal carteggio Ascoli-Monaci (1880/1906): trascrizione e commento</title>, tesi di laurea, Sapienza Università di Roma, a.a. 2018-2019</bibl></listBibl>
+                <msDesc>
+                    <msIdentifier><repository>Archivio Monaci, Società Filologica Romana, presso il Dipartimento di Studi Europei, Americani e Interculturali, Sapienza, Università di Roma.</repository> <idno>Busta n. 1, fascicolo 49, lettera 141.</idno></msIdentifier>
+                    <msContents><summary corresp="#letter">Si espongono le ragioni per cui non si è potuto recare a Roma secondo l’invito del Monaci.</summary></msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#GIA">Graziadio Isaia Ascoli</persName>
+                    <placeName ref="#milano">Milano</placeName>
+                    <date when="1905-01-18"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#sconosciuto">?</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                    <opener><dateline><placeName ref="#milano">Milano</placeName>, <date when="1905-01-18">18. 1. ’905</date></dateline></opener>
+                    <p>Onorato e caro collega; sono pieno d’obblighi verso di Lei, e m’accorgo che le infinite occupazioni e distrazioni mi hanno portato a un ritardo scandaloso.</p>
+                    <p>La ringrazio dunque, in primo luogo, delle pronte notizie che Le è piaciuto di darmi sulla salute del <persName ref="#CN">Nigra</persName>. Non mancherò di inculcargli la prudenza, secondo ch’ella saviamente mi consiglia.</p>
+                    <p>La prego poi di credermi conscio e penetrantissimo dell’assoluto mio dovere di prestarmi, secondo che danno le forze, all’opera della <rs type="topic" key="Toponomastica">Toponomastica</rs>. E benché i miei familiari, stante il grande rigore della stagione, si opponessero alla mia partenza, io già mi accingeva ad obbedire al Suo invito, cui s’era anche aggiunto lo stimolo dell’inquietudine che mi veniva dalla letterina del <persName ref="#CN">Nigra</persName>. Ma sopraggiunge un ostacolo morale, e spero che i colleghi mi possano scusare. Il <persName ref="#AT1">Trombetti</persName>, cioè, che oggi, o domani, tiene la sua prolusione all’<orgName ref="#UB">Università di Bologna</orgName>, viene appunto domenica, 22, a ripeterla al <orgName ref="#CFM">Circolo Filologico di Milano</orgName>; e io non mi son saputo sottrarre all’ufficio di presentarlo.</p>
+                    <p>La seduta di febbraio è forse troppo lontana, ma io potrei anticipare. Tutti i colleghi sono in <placeName ref="#roma">Roma</placeName>, tranne il <persName ref="#FDO">D’Ovidio</persName>, il quale so che si è fatto un gran signore e può non badare alla piccola spesa del viaggio. Io d’altronde, se giovasse, mi potrei spingere insino al Vesuvio.</p>
+                    <p>Jersera sono giunti i bellissimi <title><hi rend="underline">Estratti</hi></title>, 25 in carta distinta e 25 in carta ordinaria. Non vorrei che l’abondanza dipendesse da uno sbaglio, al quale riparerei prontissimamente.</p>
+                    <p>Senza colpa, né Sua, né mia, è incorso un errore, nella data da <placeName ref="#bergamo">Bergamo</placeName>, ch’era da Lei aggiunta sull’ultima prova. Abbiamo un 1902 in luogo del 1904; ed è un errore un po’ nojoso, poiché il 2 dice <persName ref="#NN">Nasi</persName>, dove il 4 diceva <persName ref="#VEO">Orlando</persName>. Nelle 50 copie da me ricevute, la correzione è già eseguita; e s’ottiene facilmente, bastando l’aggiunta di una piccola verticale e un colpettino alla gobbetta. Se poi la composizione fosse ancora <hi rend="underline">in piedi</hi>, si potrebbe correggere al torchio.</p>
+                    <p>Grazie dunque, grazie di tutto, e molte scuse per la fretta indecentissima</p>
+                    <closer><salute>dall’aff.mo div.mo Suo</salute>
+                    <signed><persName ref="#GIA">Ascoli</persName></signed></closer>
+                    
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

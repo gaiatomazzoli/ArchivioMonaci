@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ernesto Monaci a Pio Rajna, 2 novembre 1876</title>
+                <editor role="transcription"><persName>Alessia Di Virgilio</persName></editor>
+                <editor role="encoding"><persName>Simone Palmieri</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2020-02-26"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl><bibl>Alessia Di Virgilio, <title>Carteggio Monaci - Rajna (1873-1877)</title>, tesi di laurea, Sapienza Università di Roma, a.a. 2018-2019</bibl></listBibl>
+                <msDesc>
+                    <msIdentifier><repository>Archivio Pio Rajna, Biblioteca Marucelliana, Firenze.</repository> <idno>Lettera XXVI</idno></msIdentifier>
+                    <msContents><summary corresp="#letter">Lettera di Ernesto Monaci a Pio Rajna del 2 novembre 1876.</summary></msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#roma">Roma</placeName>
+                    <date when="1876-11-02"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#PR">Pio Rajna</persName>
+                    <placeName ref="#sconosciuto">?</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                    <opener><dateline><placeName ref="#roma">Roma</placeName> <date when="1876-11-02">2 novembre 1876</date></dateline>
+                        <salute>Mio carissimo <persName ref="#PR">Rajna</persName></salute></opener> 
+                    <p>Ti ringrazio anche a nome del M.se <persName ref="#GF1">Ferrajoli</persName> del libro che gli hai procurato, e aspetto di saperne il prezzo per rimborsartene subito. 
+                                      Non mi fare qui lo scordato, mio caro, altrimenti dovrò credere che tu non vogli più favorirmi in altra simile occasione. 
+                                      Dalla tua lettera seppi la venuta dell’<persName ref="#GIA">Ascoli</persName> in <placeName ref="#roma">Roma</placeName> 
+                                       e corsi tosto alla Minerva per vederlo; ma egli era già partito. Se ciò m’abbia fatto dispiacere non occorre che tu lo sia. 
+                                       Così nulla so di quanto egli ha fatto pel salvataggio ‘’ della cattedra di <rs type="topic" key="Filologia romanza">filologia romanza</rs> e forse nemmeno arriverò a saperlo per adesso, 
+                                       poiché qui non c’è nessuno che venga a dirmelo. Quanto alla cattedra di Roma credo che a quest’ora già sia ita in fumo, mentre l’Università ha riaperto i suoi corsi 
+                                       e cominciato il nuovo anno scolastico senza che nessun decreto mi sia stato partecipato. Non posso credere ad un indugio burocratico, 
+                                       essendo stati confermati tutti gli altri insegnanti e anche nominati due nuovi, il <persName ref="#IG">Guidi</persName> per l’ebraico e il <persName ref="#CV">Valenziani</persName> pel cinese. 
+                                       Ma non pensare che me ne dolga, ho ben altri dolori, e per la terribile malattia di mio figlio che dura ormai da tre anni, e non desidero altro che essere lasciato in pace colle mie disgrazie. 
+                                       Coi due fascicoli della <title ref="#RFR"><hi rend="underline">Rivista</hi></title> ora usciti ho chiuso anche questa pubblicazione e finalmente sono <pb/> fuori pure da quest’impegno. – riguardo il tuo libro non pensar mai di procacciarmene una copia. 
+                                       Io lo possiedo fin dal primo momento che venne in luce.</p>
+                    <closer><salute >Addio, mio carissimo, voglimi bene come te lo voglio io, e credimi dunque il tuo </salute><signed><persName ref="#EM">E. Monaci</persName></signed> </closer>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

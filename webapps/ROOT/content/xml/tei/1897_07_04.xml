@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Cesare De Lollis a Ernesto Monaci, 4 luglio 1897</title>
+                <editor role="transcription"><persName>Debora Matteo</persName></editor>
+                <editor role="encoding"><persName>Laura Pireddu</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2020-05-12"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl><bibl>Debora Matteo, <title>Itinerario di un carteggio</title>, tesi di laurea, Sapienza Università di Roma, a.a. 2017-2018</bibl></listBibl>
+                <msDesc>
+                    <msIdentifier><repository>Archivio Monaci, Società Filologica Romana, presso il Dipartimento di Studi Europei, Americani e Interculturali, Sapienza, Università di Roma.</repository> <idno>Busta n. 8, fascicolo 394.</idno></msIdentifier>
+                    <msContents><summary corresp="#letter">Lettera di Cesare De Lollis a Ernesto Monaci del 4 luglio 1897.</summary></msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#CDL">Cesare De Lollis</persName>
+                    <placeName ref="#sconosciuto">?</placeName>
+                    <date when="1897-07-04"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#sconosciuto">?</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                    <p>[...]</p>
+                    <p>Le sono assai grato della intenzione ch’Ella mi manifesta di assumermi alla condirezione degli <title ref="#SFR">Studj</title>. Accennando poi alla possibile convenienza 
+                        di reintegrare la rubrica delle recensioni, Ella è proprio venuto incontro a un mio desiderio: s’immagini ch’io pensavo a un
+                        <title>Bullettino critico di <expan><abbr>fil</abbr><am>.</am><ex>ologia</ex></expan> <expan><abbr>rom</abbr><am>.</am><ex>anza</ex></expan></title>, e non davvero per 
+                        potermi dar l’aria di avere un giornale <gap reason="illegible" extent="unknown" unit="chars"/>, ma per poter giudicare, senza tregua, il commendator <persName ref="#FT1">Torraca</persName> (scusi tanto, ma io ormai non lo chiamo che così). 
+                        Le insolenze da lui stampate contro il <persName ref="#PEG">Guarnerio</persName> nell’ultimo n° del <title ref="#GD"><expan><abbr>Giorn</abbr><am>.</am><ex>ale</ex></expan> <expan><abbr>dant</abbr><am>.</am><ex>esco</ex></expan></title> 
+                        e il suo sproloquio su <persName type="author" ref="#colonne">Guido delle Colonne</persName> mi hanno indotto a prender la penna, ed ho buttato giù uno scrittarello che vedrà la luce a giorni. Sceso in lizza, non ne ritrarrò 
+                        più il piede, e spero di potergli dar qualche noja. È tempo di finirla con un monomane il quale è animato non solo da vanità letteraria morbosa, ma anche da inconfessabili livori contro persone che hanno il torto, agli occhj suoi, 
+                        di non essersi mai accorti della sua esistenza.</p>
+                    <p>[...]</p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

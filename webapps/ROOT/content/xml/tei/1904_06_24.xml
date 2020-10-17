@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Graziadio Isaia Ascoli a Ernesto Monaci, 24 giugno 1904</title>
+                <editor role="transcription"><persName>Chiara Maria Calcagni</persName></editor>
+                <editor role="encoding"><persName>Eleonora Bruno</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2020-04-07"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl><bibl>Chiara Maria Calcagni, <title>Lettere scelte dal carteggio Ascoli-Monaci (1880/1906): trascrizione e commento</title>, tesi di laurea, Sapienza Università di Roma, a.a. 2018-2019</bibl></listBibl>
+                <msDesc>
+                    <msIdentifier><repository>Archivio Monaci, Società Filologica Romana, presso il Dipartimento di Studi Europei, Americani e Interculturali, Sapienza, Università di Roma.</repository> <idno>Busta n. 1, fascicolo 49, lettera 128</idno></msIdentifier>
+                    <msContents><summary corresp="#letter">Lettera di G. I. Ascoli a E. Monaci del 24 giugno 1904.</summary></msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#GIA">Graziadio Isaia Ascoli</persName>
+                    <placeName ref="#milano">Milano</placeName>
+                    <date when="1904-06-24"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#roma">Roma</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                    <opener>
+                        <dateline>
+                            <placeName ref="#milano">Milano</placeName>,
+                            <date when="1904-06-24">24. 6. ’904</date>
+                        </dateline>
+                    </opener>
+                    <p>Onorato e caro collega; Le rendo vivissime grazie per la risoluzione e l’esecuzione così pronte e cortesi. Gli esemplari da me ricevuti sono veramente stati quattro, non cinque; ma io penso con molta mia soddisfazione, ch’Ella ne abbia trattenuto uno, per la <title ref="#NuovaAnt2"><hi rend="underline"><expan><abbr>N</abbr><ex>uova </ex><abbr>antol</abbr><am>.</am><ex>ogia</ex></expan></hi></title> dei quattro venuti a me, uno n’ebbe il <title ref="#CdS"><expan><abbr>Corr</abbr><am>.</am><ex>iere</ex> <abbr>d</abbr><am>.</am><ex>ella</ex></expan> Sera</title>, uno il <title ref="#IS">Secolo</title>, e uno ne avrà, oggi o domani, la <title ref="#VI">Vita <expan><abbr>Internaz</abbr><am>.</am><ex>ionale</ex></expan></title>, che esce due volte il mese. Il quarto penso di mandarlo a <persName ref="#JFOK">Kirste</persName> dell’<orgName ref="#UG">Università di Graz</orgName>, che anch’egli insorge con impeto, ma impeto umano non bestiale. L’ottimo <persName ref="#AT1">Trombetti</persName>, del resto, non ha di certo alcuna colpa se gli amici abbiano esagerato in qualche dimostrazione di contentezza, che può anche aver provocato qualche riazione. Egli continua a parermi candidamente onesto e continua a scrivermi con molta modestia e  molta affezione. Parla di ni, scrivendo al <persName ref="#VEO">Ministro</persName>, con schiettissima riconoscenza. </p>
+                    <p>Quanto a ciò ch’Ella mi dice della <rs type="topic" key="Toponomastica">Toponomastica</rs> e della funzione che il <persName ref="#SP">Pieri</persName> potrà avere, come vuol mai che io non consenta? Ci consento con tutta l’anima! Solo devo ripetere sempre, che io più non posso rimanere nell’impresa come un campione, che per qualche tempo son parso. E sono profondamente convinto che all’impresa da ciò non venga alcun danno. Nella presidenza dei <orgName ref="#AccLin">Lincei</orgName>, ora più non abbiamo alcun avversario, e abbiamo all’incontro, liberi perfettamente, il <persName ref="#PB">Blaserna</persName>, il <persName ref="#FDO">D’Ovidio</persName> e il <persName ref="#IG">Guidi</persName>; ed Ella ha pronti a seguirla affettosamente: il <persName ref="#CS">Salvioni</persName>, il <persName ref="#SP">Pieri</persName>, il <persName ref="#VDB">De Bartholomeis</persName>, questo vecchio amico che le scrive e chissà quanti altri. Ha il vento in poppa, e non Le resta se non a spiegar le vele.</p>
+                    <p>Sa chi riporta la palma, non ancora il premio, nel <rs type="topic" key="Concorso per la grammatica italiana">Concorso per la grammatica italiana</rs>? Lo <persName ref="#SZ">Zambaldi</persName>! Ha mandato una lavoro, non senza mende, ma di una struttura che perfettamente risponde al Programma. Ora siamo in crisi perché il relatore, cioè il <persName ref="#SP">Pieri</persName>, si ricusa al compito di discutere le emendazioni con un ottuagenario, che gli è anche gerarchicamente superiore.</p>
+                    <p>Voglia Ella sempre un po’ di bene</p>
+                    <closer>    
+                        <salute>all’aff.mo <expan><abbr>div</abbr><am>.</am><ex>otissi</ex><abbr>mo</abbr></expan> Suo</salute>
+                        <signed><persName ref="#GIA">G. I. Ascoli</persName></signed>
+                    </closer>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

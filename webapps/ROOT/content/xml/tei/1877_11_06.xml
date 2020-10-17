@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Pio Rajna a Ernesto Monaci, 6 novembre 1877</title>
+                <editor role="transcription"><persName>Alessia Di Virgilio</persName></editor>
+                <editor role="encoding"><persName>Giulia Lucchesi</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2020-03-29"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl><bibl>Alessia Di Virgilio, <title>Carteggio Monaci - Rajna (1873-1877)</title>, tesi di laurea, Sapienza Università di Roma, a.a. 2018-2019</bibl></listBibl>
+                <msDesc>
+                    <msIdentifier><repository>Archivio Monaci, Società Filologica Romana, presso il Dipartimento di Studi Europei, Americani e Interculturali, Sapienza, Università di Roma.</repository> <idno>Busta n. 22, fascicolo 1095, lettera 41</idno></msIdentifier>
+                    <msContents><summary corresp="#postcard">Cartolina di Pio Rajna a Ernesto Monaci del 6 novembre 1877.</summary></msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#PR">Pio Rajna</persName>
+                    <placeName ref="#roma">Roma</placeName>
+                    <date when="1877-11-06"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#sconosciuto">?</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                    <opener>
+                        <dateline><placeName ref="#milano">Milano</placeName> <date when="1877-11-07">6 Novembre 77</date></dateline>
+                        <salute><expan><abbr>C</abbr><am>.</am><ex>arissimo</ex></expan> <expan><abbr>A</abbr><am>.</am><ex>mico</ex></expan></salute></opener>
+                    <p>Eccoti il lavoro. Dopo averlo visto non ti rallegrerai forse più di tanto. 
+                    Lo lascio partire con un certo rincrescimento, conoscendo il poco interesse 
+                    che ha, ma in pari tempo è per me un caro sollievo il non trovarmelo più sullo scrittojo. 
+                    Quanto tempo m’ha fatto consumare! Ci ho guadagnato, è vero, una conoscenza più approfondita 
+                    della favola medievale; ma il medesimo scopo avrei potuto raggiungere per vie migliori 
+                    e senza romper tanto la testa al pubblico. Ora quel ch’è fatto è fatto. 
+                    -  I <title ref="#Denkmӓler">Denkmӓler</title> mi serviranno anche per un altro lavoro.
+                    È stata un’idea ben felice la tua. Sicuramente arriveranno sani e salvi. 
+                    – A giorni mi metterò anche ai trovatori. – E così avrò sul fuoco non so quante pentole. 
+                    – Annunzia pure l’<title ref="#attila">Attila</title>, se vuoi. 
+                    Vedrò di allestirlo il più presto possibile. Ma saresti tu disposto a pubblicare tutto 
+                    intero un testo francese in prosa, di circa 30 o 35 pag.  ? M’importerebbe di saperlo.</p>
+                    <closer><salute>Addio. Tuo</salute>
+                        <signed><persName ref="#PR"><expan><abbr>P</abbr><am>.</am><ex>io</ex></expan> <expan><abbr>R</abbr><am>.</am><ex>ajna</ex></expan></persName></signed></closer>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>
+

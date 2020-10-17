@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Pio Rajna a Ernesto Monaci, 25 dicembre 1874</title>
+                <editor role="transcription"><persName>Alessia Di Virgilio</persName></editor>
+                <editor role="encoding"><persName>Margherita Filippozzi</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2020-03-16"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl><bibl>Alessia Di Virgilio, <title>Carteggio Monaci - Rajna (1873-1877)</title>, tesi di laurea, Sapienza Università di Roma, a.a. 2018-2019</bibl></listBibl>
+                <msDesc>
+                    <msIdentifier><repository>Archivio Monaci, Società Filologica Romana, presso il Dipartimento di Studi Europei, Americani e Interculturali, Sapienza, Università di Roma.</repository> <idno>Busta n. 22, fascicolo 1095, lettera XIX</idno></msIdentifier>
+                    <msContents><summary corresp="#letter">Lettera di Pio Rajna a Ernesto Monaci del 25 dicembre 1874.</summary></msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#PR">Pio Rajna</persName>
+                    <placeName ref="#milano">Milano</placeName>
+                    <date when="1874-12-25"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#sconosciuto">?</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                    <opener><dateline><placeName ref="#milano">Milano</placeName>, <date when="1874-12-25">25 dicembre 1874</date></dateline>
+                        <salute>Mio caro Amico,</salute></opener>                    
+                    <p>Mi giungono in questo momento i tuoi preziosi <title ref="#uffizi">Uffizi dei Disciplinati</title>.</p>
+                    <p>La parte venuta in luce nell’ultimo fascicolo della <title ref="#RFR">Rivista</title>, mi aveva, come ben puoi credere, destato desiderio del resto;
+                        ed ora mi rallegro davvero vedendo nella copertina quante belle cose tu vi tieni in serbo.
+                        Per carità. Affrettati a sostituire un passato a quel futuro <hi rend="underline">da pubblicarsi</hi>!
+                        Se io sono impaziente, fa pur conto che gli impazienti si contano per decine, almeno almeno.
+                        S’era fatto ben poco fino ad ora per la <rs type="topic" key="Teatro">storia del nostro teatro</rs>; tra breve, grazie a te, la condizione della cosa sarà mutata.
+                        Di questo tuo primo contributo dirò due parole nella <title ref="#RI">Rivista Italiana</title>, acciocché anche la gente semplicemente colta di <pb/>nostri paesi, non resti al buio della tua bella scoperta.</p>
+                    <p>A proposito, il <title type="manuscript" key="Codice di Napoli">codice di Napoli</title>, a cui accenni nella nota finale, è forse quello segnato <title type="manuscript" key="Codice XIII.D.59">XIII.D.59</title>?
+                        In tal caso t’avrei a chiedere un favore. Ebbi nelle mani <title type="manuscript" key="Codice XIII.D.59">quel ms.</title> tre anni fa, nel 71, e ne avrai alcuni brevi appunti per semplice ricordo.
+                        In quel tempo non isperava, almeno così presto, una cattedra universitaria in <rs type="topic" key="Letteratura neolatina">letteratura neolatina</rs>, e però mi contentavo di raccogliere materiale per la <rs type="topic" key="Romanzo">storia del romanzo</rs>.
+                        Un anno dopo il <persName ref="#AM">Mussafia</persName> mi chiese s’io conoscessi versioni inedite della <rs type="topic" key="Agiografia">leggenda di <expan><abbr>S</abbr><am>.</am><ex>an</ex><abbr>ta</abbr></expan> Caterina</rs>.
+                        Gliene potrei indicare una, contenuta appunto in <title type="manuscript" key="Codice XIII.D.59">quel codice</title> (f° 57-73), ed egli mostrò vivo desiderio di ottenere copia.
+                        Non sapendo a chi rivolgermi a <placeName ref="#napoli">Napoli</placeName>, pregai il <persName ref="#FDO">D’Ovidio</persName> di trovare lui la persona.
+                        Il <persName ref="#FDO">D’Ovidio</persName> scrisse al <persName ref="#AL">Labriola</persName>, il quale fece il lavoro, ma poi lo smarrì.
+                        Insomma, per una serie di combinazioni sfortunate, il <persName ref="#AM">Mussafia</persName> non ha ancora il testo desiderato;
+                        e a ciò si deve imputare in <pb/>gran parte, se nel suo <title ref="#katharinenlegende">"Katharinenlegende"</title> egli dovette limitarsi ad illustrare il testo veneto, riservando per una futura dissertazione le vicende del racconto.
+                        Ora dunque io ti pregherei di lasciare al nostro egregio amico il testo abruzzese della leggenda; ed anzi di procurargliene una copia per mezzo del Sigr. <persName ref="#AM1">Miola</persName>.
+                        Se non m’inganno, gliela dovrebbe aver già chiesta il <persName ref="#FDO">D’Ovidio</persName>; ma certo si darà un gran piacere al <persName ref="#AM">Mussafia</persName>, affrettando, quanto più possibile, la cosa.</p>
+                    <p>Io sto attendendo alle <title ref="#ariosto"><hi rend="underline">fonti dell’<persName type="author" ref="#ariosto">Ariosto</persName></hi></title>, e mi sono guardato attorno per trovare un editore disposto a compensarmi delle spese, se non della fatica.
+                        Per questa ricerca mi sono rivolto anche al <persName ref="#AM">Mussafia</persName>; ed egli scrisse in proposito al sigr. <persName ref="#MN">Niemeyer</persName> che rispose mostrando buone disposizioni.
+                        Ora, prima di trattare direttamente, amerei sapere da te, se non fosse indiscrezione soverchia, con che patti si stampino i tuoi <title ref="#canzoniere">Canti Portoghesi</title>.
+                        Mi trovo in una condizione curiosa: bisogna ch’io sappia se il libro si <pb/>pubblicherà in <placeName ref="#germania">Germania</placeName> o in <placeName ref="#italia">Italia</placeName>,
+                        prima di redigerlo definitivamente, giacché dovrò essere più succinto nel primo caso, più parolaio nel secondo:
+                        e intanto è impossibile conchiuder nulla, se l’editore non può prender consegna diretta del lavoro.
+                        La sola cosa ch’io possa fare, è dunque di pesare le probabilità; e per questo mi occorre di conoscere a un dipresso di patti che mi posso aspettare.</p>
+                    <p>E la <title ref="#RFR">Rivista</title>, che fa? Darai l’annata 1874 o la salterai a piè pari? Se non fosse l’<title ref="#ariosto"><persName type="author" ref="#ariosto">Ariosto</persName></title>, potrei presto darti materia.</p>
+                    <p>Avrai forse visto l’<persName ref="#GIA">Ascoli</persName>, che fu a <placeName ref="#roma">Roma</placeName> parecchi giorni, e che io non ho anche riveduto dopo il ritorno.
+                        Così è possibile che tu sappia della nostra <orgName ref="#AccMil">Accademia</orgName> più che quanto ne sappiamo io e gli amici miei.</p>
+                    <p>Il <persName ref="#RB">Bonghi</persName> non ci è troppo favorevole; ma ai fatti compiuti dovette piegarsi anche gente, più ferma del nostro ministro.
+                        Spero quindi ch’egli abbia fatto di necessità virtù, -</p>
+                    <closer><salute>Addio, mio caro. Abbiti gli auguri più caldi e sinceri dal</salute>                        
+                        <salute>Tuo <expan><abbr>Aff</abbr><ex>ezionatissi</ex><abbr>mo</abbr></expan></salute>
+                        <signed><persName ref="#PR">Pio Rajna</persName></signed></closer>                    
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

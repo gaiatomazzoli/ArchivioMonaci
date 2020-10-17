@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ernesto Monaci a Graziadio Isaia Ascoli, 27 marzo 1903</title>
+                <editor role="transcription"><persName>Chiara Maria Calcagni</persName></editor>
+                <editor role="encoding"><persName>Virginia Machera</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2020-04-09"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl><bibl>Chiara Maria Calcagni, <title>Lettere scelte dal carteggio Ascoli-Monaci (1880/1906): trascrizione e commento</title>, tesi di laurea, Sapienza Università di Roma, a.a. 2018-2019</bibl></listBibl>
+                <msDesc>
+                    <msIdentifier><repository>Archivio Ascoli, Biblioteca dell’Accademia dei Lincei e Corsiniana, Roma.</repository> <idno>Lettera 14/15</idno></msIdentifier>
+                    <msContents><summary corresp="#letter">Monaci invita Ascoli a Roma e lo aggiorna sullo stato delle riviste.</summary></msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#EM">Ernesti Monaci</persName>
+                    <placeName ref="#roma">Roma</placeName>
+                    <date when="1903-03-27"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#GIA">Graziadio Isaia Ascoli</persName>
+                    <placeName ref="#sconosciuto">?</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                    <p>Mio Signore, la notizia che Ella non verrà prossimamente a <placeName ref="#roma">Roma</placeName>, mi addolora. Quando rivedo Lei mi sento rinfrancare lo spirito; le sue parole mi danno luce e conforto; ed io speravo di averne di conforto da Lei in questi giorni, in cui si dovrà vedere a <placeName ref="#roma">Roma</placeName> una gazzarra fatta dalle “autorità” in nome della Storia. Non sarà possibile che Ella muti il suo proposito? Se Ella venisse vorrei parlare ancora della Sua <title type="letter"><hi rend="underline">lettera</hi></title>; vorrei farLe conoscere quel che dice qualcuno che non è da confondere con gli schiamazzatori, ed esprimerle il desiderio sorto, che una Sua proscritta tolga ai migliori ogni pretesto di sbraitare contro la <hi rend="underline">Lettera</hi> e il suo Autore. Intanto la <orgName ref="#SFR">Società filologica romana</orgName>, che poté iscrivere fra i suoi anche l’<persName ref="#GIA">Ascoli</persName>, inizierà quanto prima un’altra pubblicazione che, forse col titolo di <hi rend="underline">Studi di Storia Letteraria</hi>, prenderebbe il posto degli <title ref="#SFR"><hi rend="underline">Studi di <expan><abbr>fil</abbr><am>.</am><ex>ologia</ex></expan> <expan><abbr>rom</abbr><am>.</am><ex>anza</ex></expan></hi></title> testé morti; e la <orgName ref="#SFR">società</orgName> desidererebbe assai di cominciare con qualche scritto uscito dalla penna dell’<persName ref="#GIA">Ascoli</persName>. Ora io pensavo: se l’<persName ref="#GIA">Ascoli</persName> consentisse a darci qualche briciola, e venisse anche a toccarvi dell’argomento trattato nella <hi rend="underline">Lettera</hi>, non farebbe tutti contenti?...</p>
+                    <p>Venga, venga dunque! Se sapesse con quanto desiderio è aspettato! Io chiudo queste righe con la ferma speranza di rivederla presto.</p>
+                    <closer><signed>Il Suo <persName ref="#EM">Ern. Monaci</persName></signed></closer>
+                    
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Pio Rajna a Ernesto Monaci, 12 aprile 1874</title>
+                <editor role="transcription"><persName>Alessia Di Virgilio</persName></editor>
+                <editor role="encoding"><persName>Margherita Filippozzi</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2020-03-13"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl><bibl>Alessia Di Virgilio, <title>Carteggio Monaci - Rajna (1873-1877)</title>, tesi di laurea, Sapienza Università di Roma, a.a. 2018-2019</bibl></listBibl>
+                <msDesc>
+                    <msIdentifier><repository>Archivio Monaci, Società Filologica Romana, presso il Dipartimento di Studi Europei, Americani e Interculturali, Sapienza, Università di Roma.</repository> <idno>Busta n. 22, fascicolo 1095, lettera XVII</idno></msIdentifier>
+                    <msContents><summary corresp="#postcard">Cartolina postale di Pio Rajna a Ernesto Monaci del 12 aprile 1874</summary></msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#PR">Pio Rajna</persName>
+                    <placeName ref="#milano">Milano</placeName>
+                    <date when="1874-04-12"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#sconosciuto">?</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                    <opener><dateline><placeName ref="#milano">Milano</placeName>, <date when="1874-04-12">12 Aprile 74</date></dateline>
+                        <salute><expan><abbr>C</abbr><am>.</am><ex>arissimo</ex></expan> <expan><abbr>A</abbr><am>.</am><ex>mico</ex></expan></salute></opener>
+                    <p>Ho ricevuto gli estratti e ti ringrazio.
+                        Ho notato qualche errorino, ma trattandosi di una cosa assai lieve non so se metta conto avvertirli.
+                        P.2 l.5: invece di <hi rend="underline">scrutare diritti</hi> doveva dire <hi rend="underline">i diritti</hi>.
+                        P.6 l.24: s’è stampato <hi rend="underline">troveramo</hi> in luogo di <hi rend="underline">troveremmo</hi>.</p>
+                    <p>Nella n.1, stessa pag., un <hi rend="underline">t</hi> è andato a spasso all’ultima ora.</p>
+                    <p>Procurerò quanto prima di saperti dire qualcosa sul conto dei Battuti e delle loro <rs type="topic" key="Lauda"><title><hi rend="underline">Laudi</hi></title></rs>.</p>
+                    <closer><salute>Addio. Vogli bene al</salute>
+                        <salute>Tuo <expan><abbr>aff</abbr><ex>ezionatissi</ex><abbr>mo</abbr></expan></salute>
+                        <signed><persName ref="#PR">Pio Rajna</persName></signed></closer>                    
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Giuseppe Pitrè a Luigi Manzoni, 25 settembre 1872</title>
+            <editor role="transcription"><persName>Ilaria Lavorato</persName></editor>
+            <editor role="encoding"><persName>Ilaria Lavorato</persName></editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+            <date when="2017-01-31">gennaio 2017</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><repository>Archivio Monaci, Società Filologica Romana, presso il Dipartimento di Studi Europei, Americani e Interculturali, Sapienza, Università di Roma.</repository> <idno>Busta n. 21, lettera 2.</idno></msIdentifier>
+               <msContents><summary corresp="#letter">Lettera di Giuseppe Pitrè a Luigi Manzoni del 25 settembre 1872.</summary></msContents>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#GPI">Giuseppe Pitrè</persName>
+               <placeName ref="#roma">Roma</placeName>
+               <date when="1872-09-25">25 settembre 1872</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#LM">Luigi Manzoni</persName>
+               <placeName ref="#sconosciuto">?</placeName>
+               <date/>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="transcription" xml:lang="it">
+            <opener>
+               <salute>Chiarissimo Signore,</salute>
+            </opener>
+            <p>Il comune amico Ser <persName ref="#GDM">Di marzo</persName> mi passa una
+               lettera di Vs. in data de’
+               <date when="1872-08-30">30 agosto</date>, colla quale Vos. invitandolo a prender parte ad
+               una rivista filologica da Lei e da altri egregi uomini fondata, e a farvi
+               prender parte anche da me. Io gradisco il cortese di Lei invito: e,
+               comprendo il desiderio del <persName ref="#GDM">Di Marzo</persName> e
+               un dovere di buona educazione e di gratitudine, mi reco ad onore di
+               accettare la gentile offerta e di ringraziarne la S.V.. Se non che, quai
+               lavori potrei io mandare alla sua <title ref="#RFR">Rivista</title>
+               altro che quelli fornitimi dal popolo in mezzo al quale lavoro
+               raccogliendo? Quando la V.S. si contenti di qualche tradizione popolare io
+               sarò pronto a mettermi nel numero dei collaboratori.</p>
+            <pb/><closer><salute>Colgo intanto questa
+               bella occasione per attestarle la mia sincera stima:
+               e salutandola anche per parte del <persName ref="#GDM">Di Marzo</persName> mi dichiaro <expan><abbr>Dev</abbr><am>.</am><ex>otissi</ex><abbr>mo</abbr></expan> e
+                  <expan><abbr>obbl</abbr><ex>i</ex><abbr>g</abbr><am>.</am><ex>atissi</ex><abbr>mo</abbr></expan></salute>
+               <signed><persName ref="#GPI">Giuseppe Pitrè</persName></signed>
+               <dateline>
+                  <placeName ref="#palermo">Palermo</placeName>, <date when="1872-09-25">25 <expan><am>7</am><ex>settem</ex><abbr>bre</abbr></expan> 72</date>
+                  <address>
+                     <addrLine>Largo Sa.Oliva, vicolo</addrLine>
+                     <addrLine>Tromba, n° 4</addrLine>
+                  </address>
+               </dateline>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

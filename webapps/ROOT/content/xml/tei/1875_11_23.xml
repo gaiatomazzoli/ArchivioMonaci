@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Paul Meyer a Ernesto Monaci, 23 novembre 1875</title>
+            <editor role="transcription"><persName>Marco Veneziale</persName></editor>
+            <editor role="encoding"><persName>Naomi Secci</persName>, <persName>Elena Spadini</persName></editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+            <date when="2016-11-30">novembre 2016</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><repository>Archivio Monaci, Società Filologica Romana, presso il Dipartimento di Studi Europei, Americani e Interculturali, Sapienza, Università di Roma.</repository></msIdentifier>
+               <msContents><summary corresp="#letter">Lettera di Paul Meyer a Ernesto Monaci del 23 novembre 1875.</summary></msContents>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#PM">Paul Meyer</persName>
+               <placeName ref="#paris">Parigi</placeName>
+               <date when="1875-11-23">23 novembre 1875</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#EM">Ernesto Monaci</persName>
+               <placeName ref="#sconosciuto">?</placeName>
+               <date/>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="transcription" xml:lang="fr">
+            <opener>
+               <dateline>
+                  <date when="1873-11-22">22 novembre 1873</date>
+               </dateline>
+               <salute>Cher monsieur</salute>
+            </opener>
+            <p>J’ai l’honneur de vous adresser, comme je vous l’avais écrit, mon édition de la
+                  <title ref="#croisade">Croisade albigeoise</title>, que <persName ref="#LC">M. Clédat</persName> aura
+               l’obligeance de vous remettre. Je vous remercie du dernier n° de la <hi
+                  rend="underline">Rivista</hi>, qui m’est heureusement parvenu. J’attends avec
+               impatience vos <title ref="#canzoniere">Communicazioni</title>, de la lecture desquelles je me promets
+               plaisir et instruction.</p>
+            <closer><salute>Croyez bien cher monsieur, à mes sentiments les plus
+               distingués</salute></closer>
+         </div>
+      </body>
+   </text>
+</TEI>

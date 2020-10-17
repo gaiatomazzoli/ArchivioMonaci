@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Graziadio Isaia Ascoli a Ernesto Monaci, 24 marzo 1884</title>
+                <editor role="transcription"><persName>Chiara Maria Calcagni</persName></editor>
+                <editor role="encoding"><persName>Margherita Filippozzi</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2020-04-01"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl><bibl>Chiara Maria Calcagni, <title>Lettere scelte dal carteggio Ascoli-Monaci (1880/1906): trascrizione e commento</title>, tesi di laurea, Sapienza Università di Roma, a.a. 2018-2019</bibl></listBibl>
+                <msDesc>
+                    <msIdentifier><repository>Archivio Monaci, Società Filologica Romana, presso il Dipartimento di Studi Europei, Americani e Interculturali, Sapienza, Università di Roma.</repository> <idno>Busta n. 1, fascicolo 49, lettera XXXIX</idno></msIdentifier>
+                    <msContents><summary corresp="#letter">Lettera di Graziadio Isaia Ascoli a Ernesto Monaci del 24 marzo 1884.</summary></msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#GIA">Graziadio Isaia Ascoli</persName>
+                    <placeName ref="#asti">Asti</placeName>
+                    <date when="1884-03-24"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#sconosciuto">?</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                    <opener><salute>Carissimo amico,</salute></opener>
+                    <p>vedo che nella tradizione lessicale è ferma la traduzione del <rs type="topic" key="Portoghese"><expan><abbr>port</abbr><am>.</am><ex>oghese</ex></expan></rs> <hi rend="underline">eito</hi> per "serie" "ordine" ecc., e di <hi rend="underline">a eito</hi> per "ordinatimi".
+                        Ma che cosa risulta veramente dagli esempi di letteratura viva, specie dagli antichi? Le sarei molto grato se mi volesse illuminare e il potesse prontamente.
+                        Le bado agli esempi del <persName type="author" ref="#vieyra">Vieyra</persName>, son tentato a credere, che in realtà non siasi trattato mai se non di <hi rend="underline">a eito</hi>, e non la significazione di "a un tratto solo".
+                        E saremmo allora <hi rend="underline">ad irtum</hi>, cioè a una combinazione che è molto diffusa anche nelle <placeName ref="#alpi">Alpi</placeName>.</p>
+                    <p>È proprio "al torchio" una mia nota stantia, sulla quale ne torno. Badi, La prego, a farmela migliorare, e ne abbi una porzione anticipata de’ miei ringraziamenti cordialissimi.
+                        Che Le è parso, carissimo amico, della perdita atroce che abbiamo sofferto del nostro presidente? Io posso dire di averla sentita come una sventura domestica.
+                        Povero <persName ref="#QS">Sella</persName>, indimenticabile nome davvero!</p>
+                    <p>La spero in buona salute con la Sua cara famigliola; e nel chiederle molte scuse anche per la fretta soverchia, mi affermo con vivissima stima.</p>                    
+                    <closer><dateline><placeName ref="#asti">Asti</placeName>, <date when="1884-03-24">24.3.84</date></dateline>
+                        <salute>Aff.mo Suo</salute>
+                        <signed><persName ref="#GIA"><expan><abbr>G</abbr><am>.</am><ex>raziadio</ex></expan> <expan><abbr>I</abbr><am>.</am><ex>saia</ex></expan> Ascoli</persName></signed></closer>                    
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

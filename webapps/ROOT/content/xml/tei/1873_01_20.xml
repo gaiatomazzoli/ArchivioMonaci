@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ernesto Monaci a Pio Rajna, 20 gennaio 1873</title>
+                <editor role="transcription"><persName>Alessia Di Virgilio</persName></editor>
+                <editor role="encoding"><persName>Eleonora Bruno</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2020-03-17"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl><bibl>Alessia Di Virgilio, <title>Carteggio Monaci - Rajna (1873-1877)</title>, tesi di laurea, Sapienza Università di Roma, a.a. 2018-2019</bibl></listBibl>
+                <msDesc>
+                    <msIdentifier><repository>Archivio Pio Rajna, presso la Biblioteca Marucelliana di Firenze.</repository> <idno>Lettera 7</idno></msIdentifier>
+                    <msContents><summary corresp="#letter">Lettera di Ernesto Monaci a Pio Rajna del 20 gennaio 1873.</summary></msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#roma">Roma</placeName>
+                    <date when="1873-01-20"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#PR">Pio Rajna</persName>
+                    <placeName ref="#milano">Milano</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                    <opener>
+                        <dateline>
+                        <placeName ref="#roma">Roma</placeName>
+                            <date when="1873-01-20">20 gennaio 1873</date>
+                        </dateline>
+                        <salute>Sig. Prof <persName ref="#PR">Pio Rajna</persName></salute>
+                        <salute>Mio riverito Signore</salute>
+                        </opener>
+                    <p>È mio debito ringraziarla anche a nome dei miei colleghi, per l’esemplare dei suoi "<title ref="#reali">Reali di Francia</title>"
+                        che si gentilmente Le piacque inviarci.</p>
+                    <p>La <title ref="#RFR"><hi rend="underline">Rivista</hi></title> assai volentieri preparerà un rendiconto di qualche lavoro, il quale è novella e splendida prova della attitudine che gl’Italiani ancora possiedono alla coltura della giovane scienza della letteratura. 
+                        Ma l’importanza dell’opera giustamente domanda uno studio tranquillo e maturo; ed Ella, spero, non attribuirà ad altra cagione se la <title ref="#RFR">Rivista</title> non parlerà di essa innanzi che sia pubblicato il terzo fascicolo.</p>
+                    <p>Ora poi, prima di chiudere questa lettera, mi permetta, Signore, una dichiarazione che da un pezzo io desiderava farle. Vedendo pubblicarsi un periodico tutto inteso agli studi con tanto onore da Lei coltivati, Ella avrà dovuto giustamente meravigliarsi che niun invito Le sia stato fatto da noi ad onorare de’ suoi scritti la nuova pubblicazione. Due ragioni ci trattennero da ciò. L’una, che i nomi degli editori, a Lei del tutto ignoti, nulla potevano seriamente prometterle circa la riuscita di una intrapresa, per la quale si fosse chiesto il suo contributo. L’altra, che riposando tale impresa unica<pb break="no"/>mente sopra forze giovanili, non poteva offrire ai Collaboratori suoi quei compensi di che i loro scritti sarebbero meritevoli, e che giornali di riputazione già soda offrono loro. Ciò, ripeto, ci persuase ad un increscioso silenzio verso la <expan><abbr>S</abbr><am>.</am><ex>ignoria</ex> <abbr>V</abbr><am>.</am><ex>ostra</ex></expan> come verso altri dotti, e fece sì che ci limitassimo ad assicurarci la collaborazione di quei soli romanisti, italiani e stranieri, i quali, trovandosi già in relazione con noi, spontaneamente ci offrirono il loro ajuto.</p>
+                    <p>Che se la tema di parerle indiscreti ci fece allora astenere da una domanda che vivamente desideravamo farle, ben sento di non potergliela muovere nemmeno ora, non essendo di molto mutate le condizioni. Tuttavia se l’indirizzo da voi preso, e dal quale non intendiamo punto declinare, le sembrasse meritar l’incoraggiamento di chi ama la scienza e la diffusione di questa in <placeName ref="#italia">Italia</placeName>, né le spiacesse unirsi a noi nel propugnare una causa che abbiamo comune, fin d’ora le dichiaro che saremo sempre ben lieti di porre a disposizione sua i quaderni della nostra <title ref="#RFR">Rivista</title>.</p>
+                    <closer>
+                        <salute>Dopo ciò La prego, Signore, di accogliere l’espressione sincera della stima colla quale mi rassegno.</salute>
+                        <salute>Della <expan><abbr>S</abbr><am>.</am><ex>ignoria</ex> <abbr>V</abbr><am>.</am><ex>ostra</ex></expan></salute>
+                        <salute><expan><abbr>Obbl</abbr><ex>igatissi</ex><abbr>m</abbr><am>.</am><ex>o</ex></expan> </salute>
+                        <salute><expan><abbr>dev</abbr><ex>otissi</ex><abbr>m</abbr><am>.</am><ex>o</ex></expan> Servo</salute>
+                        <signed><persName ref="#EM">Ernesto Monaci</persName></signed>
+                   </closer>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

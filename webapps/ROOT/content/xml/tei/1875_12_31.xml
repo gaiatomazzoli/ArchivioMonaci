@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Pio Rajna a Ernesto Monaci, 31 dicembre 1875</title>
+                <editor role="transcription"><persName>Alessia Di Virgilio</persName></editor>
+                <editor role="encoding"><persName>Margherita Filippozzi</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2020-03-22"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl><bibl>Alessia Di Virgilio, <title>Carteggio Monaci - Rajna (1873-1877)</title>, tesi di laurea, Sapienza Università di Roma, a.a. 2018-2019</bibl></listBibl>
+                <msDesc>
+                    <msIdentifier><repository>Archivio Monaci, Società Filologica Romana, presso il Dipartimento di Studi Europei, Americani e Interculturali, Sapienza, Università di Roma.</repository> <idno>Busta n. 22, fascicolo 1095, lettera XI.</idno></msIdentifier>
+                    <msContents><summary corresp="#postcard">Cartolina postale di Pio Rajna a Ernesto Monaci del 31 dicembre 1875.</summary></msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#PR">Pio Rajna</persName>
+                    <placeName ref="#milano">Milano</placeName>
+                    <date when="1875-12-31"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#sconosciuto">?</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                    <opener><salute>Amico carissimo</salute></opener>
+                    <p>Il <persName ref="#UC">Canello</persName> è qui, e proprio cinque minuti fa ci siamo lasciati discorrendo di te.
+                       Se non ha ricevuto la tua lettera, gli dirò che ne faccia ricerca. Anzi, ora che mi raccapezzo, m’ha detto che non aveva tue notizie da Settembre.
+                        Probabilmente ripartirà a giorni per <placeName ref="#padova">Padova</placeName>. Quando precisamente, non sa. A ogni modo gli puoi scrivere <placeName ref="#milano">qui</placeName>, all’indirizzo Via Fiori Chiari, 18.
+                       Se sarà partito, ci sarà chi avrà cura di respingergli subito la lettera.
+                       Quanto all’<orgName ref="#AccMil"><expan><abbr>Acc</abbr><am>.</am><ex>ademia</ex></expan></orgName> ed all’<title ref="#attila"><expan><abbr>A</abbr><am>.</am><ex>ttila</ex></expan></title>, se vuoi darne notizia, la cosa è semplicissima.
+                       Non hai che stampare: ???... Bella condizione la nostra! Se pure mi posso ancora servire di questo pronome. 
+                       -  Aspetto con desiderio che tu adempia la promessa di riscrivermi a lungo.</p>
+                    <closer><salute>Intanto credimi con affetto.</salute>
+                        <salute>Tuo</salute> <signed><persName ref="#PR"><expan><abbr>P</abbr><am>.</am><ex>io</ex></expan> <expan><abbr>R</abbr><am>.</am><ex>ajna</ex></expan></persName></signed></closer>                   
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

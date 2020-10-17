@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Paul Meyer a Ernesto Monaci, 13 maggio 1873</title>
+            <editor role="transcription"><persName>Marco Veneziale</persName></editor>
+            <editor role="encoding"><persName>Arianna Moretti</persName></editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+            <date when="2016-11-30">novembre 2016</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><repository>Archivio Monaci, Società Filologica Romana, presso il Dipartimento di Studi Europei, Americani e Interculturali, Sapienza, Università di Roma.</repository></msIdentifier>
+               <msContents><summary corresp="#letter">Lettera di Paul Meyer a Ernesto Monaci del 13 maggio 1873.</summary></msContents>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#PM">Paul Meyer</persName>
+               <placeName ref="#paris">Paris</placeName>
+               <date when="1873-05-13">13 Maggio 1873</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#EM">Ernesto Monaci</persName>
+               <placeName ref="#sconosciuto">?</placeName>
+               <date/>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="transcription" xml:lang="fr">
+            <opener>
+               <placeName ref="#paris">Parigi</placeName>
+               <salute>Monsieur,</salute>
+            </opener>
+            <p> L’un de mes anciens maîtres, maintenant mon collègue à l’<orgName ref="#ENC">École des
+                  Chartes</orgName>, <persName ref="#LDML">M. de Mas Latrie</persName>, désire faire faire la
+               copie partielle d’un ms. italien qui est au <placeName ref="#vaticano">Vatican</placeName>. Un peu
+               plus tôt, je me serais adressé dans cette intention à <persName ref="#EMS">M.
+               Stengel</persName>, que j’ai beaucoup connu à <placeName ref="#paris">Paris</placeName> et à
+                  <placeName ref="#oxford">Oxford</placeName>, mais sa récente nomination en
+                  <placeName ref="#germania">Allemagne</placeName> l’a sans doute amené à quitter
+               <placeName ref="#roma">Rome</placeName> depuis quelques temps déjà. Mon ami <persName ref="#GP">G. Paris</persName> 
+               m’a dit que vous voudriez peut-être bien m’indiquer une personne<pb/>
+               disposée à faire ce travail, ou même le faire vous-même. Je n’ose espérer que vous
+               vouliez consacrer à un travail de copiste un temps que vous pouvez employer beaucoup
+               mieux, toutefois, sur l’avis de <persName ref="#GP">G. Paris</persName>, je me permets de
+               m’adresser à vous, et vous transmets ci-inclus la note que me remet <persName ref="#LDML">M. de
+                  Mas Latrie</persName>. Ce dernier a un grand besoin de la portion de la
+               <title ref="#strambaldi">Chronique de Strambaldi</title> qu’il indique: il doit s’en servir pour la
+               suite de son <title ref="#chypre">Histoire de Chypre</title>. La somme demandée pour le travail
+               sera envoyée sans aucun retard par la voie que vous indiqueriez. Je crois qu’un
+               mandat par la <pb/>poste est ce qu’il y a de plus commode. J’ose espérer, Monsieur,
+               que vous voudriez bien accueillir la demande que j’ai l’honneur de vous adresser, me
+               constituant ainsi pour la seconde fois votre obligé. Je le suis en effet une première
+               fois à cause de l’article à la fois instructif et bienveillant que vous avez consacré
+               à mes derniers troubadours. Bien que je vous en aie fait en quelque sorte un
+               remerciement public dans la <title ref="#ROM"><hi rend="underline">Romania</hi></title>, je
+               tiens à vous renouveler actuellement l’expression de ma reconnaissance. Toutes les
+               critiques que vous me faites sont fondées. Il y a même dans les tables beaucoup plus
+               de petites erreurs que vous n’en ayez relevées. Mon excuse, c’est que ces tables ont
+               été rédigées avec une grande précipitation pendant quelques loisirs que j’ai eus au
+               commencement du siège, puis, <pb/>après une interruption de plusieurs mois, imprimées
+               avec une non moins grande précipitation au moment de la Commune. C’étaient de tristes
+               moments pour faire de l’érudition. Quant à me servir des lettres par lesquelles
+                  <persName ref="#KB">M. Bartsch</persName> désigne les chansonniers, je ne le ferai jamais.
+               Ces lettres, par leur arrangement, assument l’apparence d’un classement méthodique,
+               et telle est l’opinion de <persName ref="#KB">M. B.</persName> lui-même. Or, comme je crois
+               qu’il n’y a là qu’une apparence et non une réalité, je crois devoir adopter une autre
+               série de lettres qui n’a pas d’autre prétention que de suivre l’ordre des
+                  Bibliothèques, en commençant par <placeName ref="#paris">Paris</placeName>,
+               et, dans chaque bibliothèque l’ordre des n.os des mss. De la sorte personne n’est
+               trompé. Dans l’espérance que vous voudriez bien me faire la faveur d’une réponse au
+               sujet de la demande de <persName ref="#LDML">M. d. Mas Latrie</persName>,</p>
+            <closer><salute>je vous prie d’agréer, Monsieur, l’expression de mes sentiments les plus
+                  distingués</salute>
+               <signed><persName ref="#PM">Paul Meyer</persName></signed>
+               <date when="1873-05-13">13 mai 1873</date>
+               <address>
+                  <addrLine>Passy, 99 rue de la Tour (Paris)</addrLine>
+               </address></closer>
+         </div>
+      </body>
+   </text>
+</TEI>

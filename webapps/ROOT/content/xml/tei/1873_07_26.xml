@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Pio Rajna a Ernesto Monaci, 26 luglio 1873</title>
+                <editor role="transcription"><persName>Alessia Di Virgilio</persName></editor>
+                <editor role="encoding"><persName>Susanna Casacchia</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2020-03-13"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl><bibl>Alessia Di Virgilio, <title>Carteggio Monaci - Rajna (1873-1877)</title>, tesi di laurea, Sapienza Università di Roma, a.a. 2018-2019</bibl></listBibl>
+                <msDesc>
+                    <msIdentifier><repository>Archivio Monaci, Società Filologica Romana, presso il Dipartimento di Studi Europei, Americani e Interculturali, Sapienza, Università di Roma.</repository> <idno>Busta n. 22, fascicolo 1095, lettera 4</idno></msIdentifier>
+                    <msContents><summary corresp="#letter">Lettera di Pio Rajna a Ernesto Monaci del 26 luglio 1873.</summary></msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#PR">Pio Rajna</persName>
+                    <placeName ref="#milano">Milano</placeName>
+                    <date when="1873-07-26"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#roma">Roma</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                    <opener>
+                        <dateline><placeName ref="#milano">Milano</placeName>, <date when="1873-07-26">26 Luglio 1873</date></dateline>
+                        <salute>Mio Egregio Signore ed Amico,</salute></opener>
+                    <p>Se non ho riscritto prima d’ora, voglia attribuirlo alle brighe degli esami, che per quindici giorni assorbirono tutto il mio tempo. Oggi finalmente mi trovo libero e penso 
+                     con gran piacere ai due modi e mezzo di cui posso disporre come più mi garba. soddisfo dunque al mio debito, e rispondo alla domanda che Ella mi mosse. Le parole dell’articolo mio
+                     non alludono propriamente alla <title ref="#poemetti1">Morte</title> e alla <title ref="#poemetti2">Vendetta di Tristano</title>, ma sì altre scritture di vario genere che contengono nel 
+                        <title type="manuscript" key="Codice Ambrosiano">codice Ambrosiano</title>. Peraltro già da un pezzo ho trascritto con intenzione di pubblicarla anche quei due poemetti, che a mio giudizio furono toscani 
+                     un tempo e acquistarono forma settentrionale solo in grazia della trasmissione di bocca in bocca, o piuttosto di  manoscritto in manoscritto.</p>
+                    <p>Il mio pensiero sarebbe di restituirli per quanto si possa alla loro condizione primitiva, stampando se apparirà opportuno, a fronte della restituzione <pb/> anche il testo quale 
+                        è recato dal <title type="manuscript" key="Codice Ambrosiano">codice</title>. Pubblicare questo solo non mi sembrerebbe convenevole; i versi sono stroppiati troppo barbaramente perché possano dire leggibili. 
+                    Del resto Ella saprà che la maggior parte dei due poemetti verrà già in luce nel secondo volume della <title ref="#tavola">Tavola Rotonda</title> che il <persName ref="#FLP">Polidori </persName> 
+                    vorrà per la sua <title ref="#collezione">Collezione bolognese di opere inedite e rare</title>. Quel medesimo lavoro di trasformazione a cui intendo di sottoporre questi cantori 
+                     ho già compiuto da anni per un altro che trassi da un codice di proprietà privata per gentile concessione del possessore. Da gran tempo avrebbe da essere 
+                     stampato e la prefazione era già pronta; ma ora un impedimento, ora un altro mi costrinsero sempre a rimandare la cosa da un mese all’altro. In fondo non ne sono malcontento, giacché così 
+                     potrò rimediare io stesso a una parte delle magagne. Tra poco invece potrà far uscire un volumetto contenente altre due correzioni cavalleresche in ottava rima, 
+                     che essendo tolte da codici toscani non ebbero bisogno che di correzioni lievissime. Il testo è stampato; manca ancora la prefazione. </p>
+                    <p> Le ho detto quale siano le intenzioni; ma fino a che un proposito non è eseguito può sempre <pb/> accadere che ti abbandoni o di modifichi. Intanto gradirei che a tutto Suo comodo Ella 
+                    mi manifestasse una cosa di cui mi è nato il sospetto: se cioè a Lei pure sia venuto il pensiero di ripubblicare la <title ref="#poemetti1">Morte</title> e la <title ref="#poemetti2">Vendetta</title>. 
+                    Questa sarebbe già una cosa più che sufficiente perché io non pensassi più a mandare ad effetto il mio disegno. </p>
+                    <p> Che le bozze dell’articolo abbiano a tardare non importa; tra una decina di giorni io lascerò forse <placeName ref="#milano">Milano</placeName>, ma naturalmente disporrò in modo che le 
+                     corrispondenze mi siano respinte regolarmente. Vado a <placeName ref="#sondrio">Sondrio</placeName>, mio paese naturale, per girare le montagne e la campagna di una parte dei miei parenti. 
+                        La ringrazio dell’aver dato luogo in uno stesso numero e al testo e all’introduzione, e insieme la ringrazio del giudizio benevolo che Ella porta del <title ref="#frammenti">lavoruccio</title>. 
+                        Certo sarò ben lieto che i lettori giudichino allo stesso modo; ma non posso trattenermi dal temere che esse siano per essere ben più severi.</p>
+                    <closer><salute>Mi creda colla più sincera stima ed amicizia Suo <expan><abbr>dev</abbr><ex>otissi</ex><abbr>mo</abbr></expan></salute> 
+                        <signed><persName ref="#PR">Pio Rajna</persName></signed></closer>
+                    </div>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Graziadio Isaia Ascoli a Ernesto Monaci, 24 dicembre 1904</title>
+                <editor role="transcription"><persName>Chiara Maria Calcagni</persName></editor>
+                <editor role="encoding"><persName>Stefano Boschi</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2020-04-06"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl><bibl>Chiara Maria Calcagni, <title>Lettere scelte dal carteggio Ascoli-Monaci (1880/1906): trascrizione e commento</title>, tesi di laurea, Sapienza Università di Roma, a.a. 2018-2019</bibl></listBibl>
+                <msDesc>
+                    <msIdentifier><repository>Archivio Monaci, Società Filologica Romana, presso il Dipartimento di Studi Europei, Americani e Interculturali, Sapienza, Università di Roma.</repository> <idno>Busta n. 1, fascicolo 49, lettera 138.</idno></msIdentifier>
+                    <msContents><summary corresp="#letter">Sul ruolo del D’Ovidio nella commissione.</summary></msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#GIA">Graziadio Isaia Ascoli</persName>
+                    <placeName ref="#milano">Milano</placeName>
+                    <date when="1904-12-24"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#sconosciuto">?</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                    <opener><dateline><placeName ref="#milano">Milano</placeName>, <date when="1904-12-24">24. 12. ’904</date></dateline></opener>
+                    <p>Onorato e caro collega; sono per oggi costretto a una rapidità dolorosa, la quale non mi deve però impedire dall’incominciare coi più fervorosi auguri di felicità per Lei e tutti i Suoi cari.</p>
+                    <p>Della bontà e della grazia con cui le piace di esercitare la funzione conferitale dai colleghi, su grado naturalmente a Lei ed anche a loro. Ma ho paura ch’Ella mi abbia molto onestamente… tradito. Non eravamo intesi che il <persName ref="#CN">Nigra</persName> avesse l’ufficio di Presidente onorario, il <persName ref="#FDO">D’Ovidio</persName> quello di presidente effettivo, e il <persName ref="#EM">Monaci</persName> quello di vicepresidente? E che vuol significare la frase: ‘naturalmente la commissione sarà nominata nelle persone che il <persName ref="#FDO"><expan><abbr>D’O</abbr><am>.</am><ex>vidio</ex></expan></persName> riunì ieri?’ C’entra o non c’entra lo stesso <persName ref="#FDO"><expan><abbr>D’O</abbr><am>.</am><ex>vidio</ex></expan></persName>? la sua esclusione manderebbe a picco ogni cosa.</p>
+                    <p>Quanto ai <title ref="#ricordi"><hi rend="underline">Ricordi</hi></title>, 25 esemplari mi parrebbero più che sufficienti per me; e anche a questo proposito, moltissime grazie.</p>
+                    <p>L’ottimo <persName>Salviani</persName> ha poi vivissimo il desiderio di un esemplare della nostra <title>Relazione intorno al Premio del Re</title>. Si può avere, o per acquisto, o per regalo dell’Amministrazione?</p>
+                    <p>Mi riservo a riscriverle; e con nuove scuse per il precipizio in cui scrivo, mi confermo, con molte congratulazioni per la splendida riuscita delle Sue pratiche savie e indefesse,</p>
+                    <closer><salute>il div.mo aff.mo Suo</salute>
+                    <signed><persName ref="#GIA">G. I. Ascoli</persName></signed></closer>
+                    
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ernesto Monaci a Pio Rajna, 5 aprile 1874</title>
+                <editor role="transcription"><persName>Alessia Di Virgilio</persName></editor>
+                <editor role="encoding"><persName>Margherita Filippozzi</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2020-03-13"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl><bibl>Alessia Di Virgilio, <title>Carteggio Monaci - Rajna (1873-1877)</title>, tesi di laurea, Sapienza Università di Roma, a.a. 2018-2019</bibl></listBibl>
+                <msDesc>
+                    <msIdentifier><repository>Archivio Pio Rajna, Biblioteca Marucelliana, Firenze.</repository> <idno>Lettera XVII</idno></msIdentifier>
+                    <msContents><summary corresp="#postcard">Cartolina postale di Ernesto Monaci a Pio Rajna del 5 aprile 1874.</summary></msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#roma">Roma</placeName>
+                    <date when="1874-04-05"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#PR">Pio Rajna</persName>
+                    <placeName ref="#sconosciuto">?</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                    <opener><dateline><placeName ref="#roma">Roma</placeName>, <date when="1874-04-05">5 aprile 74</date></dateline>
+                        <salute><expan><abbr>C</abbr><am>.</am><ex>arissimo</ex></expan> <expan><abbr>A</abbr><am>.</am><ex>mico</ex></expan></salute></opener>
+                    <p>Il 4 <expan><abbr>fasc</abbr><am>.</am><ex>icolo</ex></expan> della <title ref="#RFR">Rivista</title> è stampato solamente per metà! Prima che esca a luce ci verrà ancora un buon mese, seppure la tipografia non ci fa perdere altro tempo come è di consueto.</p>
+                    <p>In questo tuo articolo <persName ref="#PG"><expan><abbr>Gal</abbr><am>.</am><ex>eati</ex></expan></persName> mi confessò che per una dimenticanza non se ne aveva mandato la 2a. Peraltro, io lo rividi 3 volte.
+                        Mi duole che finora non se ne abbia mandati gli estratti siccome credevo.
+                        Appena ricevuta <title type="letter" ref="./1874_04_01.html">la tua</title> scrissi un lamento assai vivo. Vedrai che tra qualche giorno ti giungeranno, e se ci sono errori me ne manderai la nota.</p>
+                    <p>Per la nuova annata, di cui il primo <expan><abbr>fasc</abbr><am>.</am><ex>icolo</ex></expan> è in corso di stampa, spero che le cose andranno meglio.
+                        La <title ref="#RFR">Rivista</title> potrà offrire ai <expan><abbr>Collab</abbr><am>.</am><ex>oratori</ex></expan> anche delle condizioni migliori.</p>
+                    <p>Te ne riscriverò.</p>
+                    <p>Da una nota del <title ref="#IP">Propugnatore</title> a. IV, p. I, pg. 168 apprendo che <persName ref="#FR"><expan><abbr>F</abbr><am>.</am><ex>rancesco</ex></expan> Robolotti</persName> della <title ref ="#illustrazione">Grande "Illustrazione del Lombardo Veneto"</title> di <persName ref="#CC"><expan><abbr>C</abbr><am>.</am><ex>esare</ex></expan> Cantù</persName> (<placeName ref="#milano">Milano</placeName>, 1858, III,431) pubblicò una <rs type="topic" key="Lauda">lauda</rs> <quote>tolta da una raccolta pei Battuti</quote>. – mi sapresti dire se si abbia alcuna notizia di questa raccolta?</p>
+                    <p>Altrettanto ti domando di un "<title>Offizio ad uso dei disciplinati di Saluzzo</title>" segnalato da <persName ref="#CC"><expan><abbr>C</abbr><am>.</am><ex>esare</ex></expan> Cantù</persName> in <title ref="#vestigia">Vestigia primitive della lingua e dei <expan><abbr>dial</abbr><am>.</am><ex>etti</ex></expan> <expan><abbr>Ital</abbr><am>.</am><ex>iani</ex></expan></title> p.13?</p>
+                    <p>Così pure conosci altre raccolte di <rs type="topic" key="Canto">canti</rs> o <rs type="topic" key="Lauda">laudi</rs> per uso di quella curiosa gente che furono i Battuti?</p>
+                    <closer><salute>Addio. Tuo</salute> <signed><persName ref="#EM"><expan><abbr>E</abbr><am>.</am><ex>rnesto</ex></expan> <expan><abbr>M</abbr><am>.</am><ex>onaci</ex></expan></persName></signed></closer>                    
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

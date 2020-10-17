@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Graziadio Isaia Ascoli a Ernesto Monaci, 21 febbraio 1880</title>
+                <editor role="transcription"><persName>Chiara Maria Calcagni</persName></editor>
+                <editor role="encoding"><persName>Margherita Filippozzi</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2020-04-01"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl><bibl>Chiara Maria Calcagni, <title>Lettere scelte dal carteggio Ascoli-Monaci (1880/1906): trascrizione e commento</title>, tesi di laurea, Sapienza Università di Roma, a.a. 2018-2019</bibl></listBibl>
+                <msDesc>
+                    <msIdentifier><repository>Archivio Monaci, Società Filologica Romana, presso il Dipartimento di Studi Europei, Americani e Interculturali, Sapienza, Università di Roma.</repository> <idno>Busta n. 1, fascicolo 49, lettera XXV</idno></msIdentifier>
+                    <msContents><summary corresp="#letter">Lettera di Graziadio Isaia Ascoli a Ernesto Monaci del 21 febbraio 1880, riguardante l’elenco di testi scelti da Monaci per un’antologia di antichi testi umbri.</summary></msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#GIA">Graziadio Isaia Ascoli</persName>
+                    <placeName ref="#milano">Milano</placeName>
+                    <date when="1880-02-21"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#sconosciuto">?</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                    <opener><dateline><placeName ref="#milano">Milano</placeName>, <date when="1880-02-21">21 febbraio, 1880</date></dateline>
+                        <salute>Carissimo amico,</salute></opener>
+                    <p>ho passato tutti i testi che le è piaciuto di mandarmi, e vedo che andremo benissimo, né so mai abbastanza ringraziarla per l’amore che Ella mette a arricchire l’<title ref="#AGI"><hi rend="underline">Archivio</hi></title>, pur avendo un giornale suo proprio.
+                        Ma verrà il giorno, io spero, in cui mi sia dato di renderle un po’ del mio pane, pan secco purtroppo, per la Sua bella focaccia.</p>
+                    <p>Intorno a qualcuno de testi non sono però affatto scevro d’ogni scrupolo; o perché mi paja che la vernice letteraria vi offuschi il dialetto di soverchio, o per altro.
+                        Di codesti scrupoli non lascerò di scriverle distesamente, se presto non mi accada, come ne ho speranza, di poterlene parlare di persona; ed Ella vedrà.
+                        Intanto vorrei pregarla di farmi avere, quanpiù presto sia possibile, i testi della provincia, l’elenco de’ quali mi riesce grandemente appetitoso.
+                        Credo per fermo, che il colore natio vi sarà più vivo e spiegato che non nei saggi cittadineschi;
+                        e sarebbe forse il caso di formare una serie sola, annotando naturalmente la patria di ciascun testo.
+                        Così s’è fatto anche per l’<title>antologia friulana</title>, e ne siamo rimasti contenti, comunque le <rs type="topic" key="Dialetti">varietà dialettali del <placeName ref="#friuli">Friuli</placeName></rs> divergono sicuramente fra di loro molto più che non facciano le <rs type="topic" key="Dialetti">perugine</rs>.
+                        Dunque, ancora questo piccolo sforzo, e siamo a cavallo. La stampa incomincia nel marzo e a luglio si vien fuori, almeno coi testi.
+                        Le illustrazioni, se più così Le piace, potrebbero seguire nella puntata che verrà subito dopo;
+                        e quanto al tipo in cui gettarle, Ella può, se così le par bene, attenersi, <hi rend="underline">mutandis mutatis</hi>, a quello che io adottai per la "<title>Cronaca de li Imperadori</title>"
+                        e sarà mantenuto, come credo, dal <persName ref="#WF">Foerster</persName>, che ora pubblica e illustra nell’<title ref="#AGI"><hi rend="underline">Archivio</hi></title> un antico <rs type="topic" key="Dialetti">testo semi-lombardo</rs>,
+                        e anche dal <persName ref="#GF">Flechia</persName> che viene lavorando alle illustrazioni delle <title><hi rend="underline">Rime genovesi</hi></title>.
+                        Questo io Le dico per il dovere che ho di rispondere alle cortesi Sue interrogazioni; ma naturalmente Ell’ha pienissima libertà di fare a tutto Suo modo;
+                        e tanto meglio sarà per tutti, quanto più ci metterà del proprio anche in ordine al metodo ecc. ecc.</p>
+                    <p>Non appena io ebbi ricevuto la cara <title type="letter">Sua del 7</title>, Le rimandavo (con molti ringraziamenti che l’animo dettava e che la mano ha purtroppo lasciato nella penna!) il <persName ref="#RG"><choice><sic>garrucci</sic><corr>Garrucci</corr></choice></persName> troppo lungamente ritenuto.
+                        Il lavoro, pel quale ho adoperato quel <title ref="#cimitero">Cimiterio</title>, è finito da qualche tempo; ma la mia ingordigia è tanta, che volevo ancora giovarmene durante la correzione delle stampe.
+                        Questo è imminente; e s’Ella può, senza alcuna difficoltà e senza molto disturbo, rimandarmi o farmi rimandare il libretto del vispo e a me simpatico archeologo romano, Le ne sarò proprio riconoscente.
+                        Ma è <hi rend="underline">conditio sine qua non</hi> quella che ho posto del non dover seguire la cosa se non è affatto scevra d’ogni difficoltà più o meno grande.</p>
+                    <closer><salute>Mi rallegri, La prego, di frequenti Sue nuove, e mi voglia sempre bene.</salute> 
+                        <salute>Aff.mo Suo</salute>
+                        <signed><persName ref="#GIA"><expan><abbr>G</abbr><am>.</am><ex>raziadio</ex></expan> <expan><abbr>I</abbr><am>.</am><ex>saia</ex></expan> Ascoli</persName></signed></closer>                   
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

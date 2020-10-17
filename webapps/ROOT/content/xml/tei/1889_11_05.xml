@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Cesare De Lollis a Ernesto Monaci, 5 novembre 1889 (?)</title>
+                <editor role="transcription"><persName>Debora Matteo</persName></editor>
+                <editor role="encoding"><persName>Mariangela Distilo</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2020-02-26"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl><bibl>Debora Matteo, <title>Itinerario di un carteggio</title>, tesi di laurea, Sapienza Università di Roma, a.a. 2017-2018</bibl></listBibl>
+                <msDesc>
+                    <msIdentifier><repository>Archivio Monaci, Società Filologica Romana, presso il Dipartimento di Studi Europei, Americani e Interculturali, Sapienza, Università di Roma.</repository> <idno>Busta n. 8, fascicolo 394.</idno></msIdentifier>
+                    <msContents><summary corresp="#letter">Lettera di Cesare De Lollis a Ernesto Monaci del 5 novembre 1889 (?)</summary></msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#CDL">Cesare De Lollis</persName>
+                    <placeName ref="#madrid">Madrid</placeName>
+                    <date when="1889-11-05" cert="low"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#sconosciuto">?</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                    <p>[...]</p>
+                    <p>Io son tornato qui ieri mattina a precipizio, per non mancare all’appuntamento del Duca di Veragna, il quale da gran porco di <placeName ref="#spagna">Spagna</placeName> non si è lasciato trovare. Tornerà, si spera, in settimana. Appena il fotografo sarà in possesso dei documenti, potrò dire d’avere quasi fatto tutto. [...] Io desidero vivamente di tornare in <placeName ref="#italia">Italia</placeName>. [...] Inutile poi ch’io Le dica di essere estremamente mortificato per la prolungata assenza dall’<orgName ref="#ISI">Istituto</orgName>. 
+                        Non oso più nemmeno raccomandarmi alla pazienza Sua e del Sen. <persName ref="#MT">Tabarrini</persName>. Riconosco di aver abusato della bontà dei miei protettori e di avere scrollato io stesso la mia posizione agli occhj dei non protettori: e son pronto a subire le conseguenze di questo stato di cose. [...] Potevo mai prevedere che le cose andassero così in lungo? 
+                        Se c’è qualcuno che è veramente colpevole è quel benedetto Monsignor <persName ref="#IC">Carini</persName>, che avrebbe potuto, per essendo prete, mantenere la sua parola. Mi conforta anche il pensiero che il <persName ref="#HH">Harrisse</persName> è rimasto très - content dei miei lavori. Spero non vorrà limitarsi a dichiararlo a me solamente.</p>
+                    <p>[...]</p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

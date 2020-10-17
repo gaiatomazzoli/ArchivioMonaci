@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ernesto Monaci a Cesare De Lollis, 18 aprile 1901</title>
+                <editor role="transcription"><persName>Debora Matteo</persName></editor>
+                <editor role="encoding"><persName>Margherita Bisceglia</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2020-04-20"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl><bibl>Debora Matteo, <title>Itinerario di un carteggio</title>, tesi di laurea, Sapienza Università di Roma, a.a. 2017-2018</bibl></listBibl>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Collocazione sconosciuta</repository>
+                    </msIdentifier>
+                    <msContents>
+                        <summary corresp="#letter">Lettera di Ernesto Monaci a Cesare De Lollis del 18 aprile 1901</summary>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#roma">Roma</placeName>
+                    <date when="1901-04-18"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#CDL">Cesare De Lollis</persName>
+                    <placeName ref="#genova">Genova</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                    <opener>
+                        <dateline><placeName ref="#roma">Roma</placeName> <date when="1901-04-18">18 Apr. 1901</date></dateline>
+                        <salute>Caro <persName ref="#CDL">De Lollis</persName>,</salute></opener>
+                    <p>Ella mi conosce da un pezzo e sa che non è mio uso esagerare. 
+                        Quando le dissi che non potevo assumermi impegni oltre quelli che già ho, 
+                        sia certo che le dissi la pura verità, donde ingannerei tutti, se consentissi a fare altre promesse. 
+                        Bensì, mi pare se per lei è questione d’esser libero soltanto per un anno e dopo sarebbe disposto a dirigere 
+                        la trasformazione degli <hi rend="underline">Studi</hi>, mi pare - dico - che la casa editrice potrebbe almeno 
+                        consentire in questo che qui le espongo: 
+                        Per quest’anno si seguiti nella forma consueta, ed io stesso curerò la stampa e la raccolta del materiale. 
+                        In quest’anno, non appena Ella potrà, si farà la trasformazione chiesta dall’editore. 
+                        A facilitare questa proposta poi si potrebbe calcolare come fascicolo 1 del volume IX il fascicolo ora in corso;
+                        così non si avrebbe in sostanza da pubblicare più di altri due fascicoli, per essi la materia già c’è, 
+                        e si potrebbe anche tener basso il numero dei fogli ad essi destinati, si giunga che l’editore 
+                        non avrebbe di certo un <pb/> aggravio e si giungerebbe a sistemar tutto convenientemente. 
+                        Se poi non si può cambiare nemmeno così, prego soltanto di farmi sapere subito la risposta negativa.</p>
+                    <closer><salute>Saluti di cuore dal suo affmo</salute>
+                        <signed><persName ref="#EM">E. Monaci</persName></signed></closer>
+                    <postscript>
+                        <p>P.S.: io non ho risposto alla casa Loescher. Se Ella consente nella mia proposta, Ella stesso potrà comunicarlo alla casa L. 
+                           Se poi non consente, Ella stessa può comunicarla quel che qui le ho scritto.</p>
+                    </postscript>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

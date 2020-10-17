@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ernesto Monaci a Pio Rajna, 9 giugno 1873</title>
+                <editor role="transcription"><persName>Alessia Di Virgilio</persName></editor>
+                <editor role="encoding"><persName>Eleonora Bruno</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2020-03-28"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl><bibl>Alessia Di Virgilio, <title>Carteggio Monaci - Rajna (1873-1877)</title>, tesi di laurea, Sapienza Università di Roma, a.a. 2018-2019</bibl></listBibl>
+                <msDesc>
+                    <msIdentifier><repository>Archivio Pio Rajna, presso la Biblioteca Marucelliana di Firenze</repository> <idno>lettera 8</idno></msIdentifier>
+                    <msContents><summary corresp="#letter">Lettera di Ernesto Monaci a Pio Rajna del 9 giugno 1873</summary></msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#roma">Roma</placeName>
+                    <date when="1873-06-09"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#PR">Pio Rajna</persName>
+                    <placeName ref="#milano">Milano</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                    <opener>
+                        <dateline>
+                           <placeName ref="#roma">Roma</placeName>,
+                            <date when="1873-06-09">9 giugno 1873</date>
+                        </dateline>
+                        <salute>Mio egregio signore</salute>
+                      </opener>
+                    <p>Innanzi tutto la prego di scusarmi del mio silenzio dopo la <title type="letter" ref="./1873_05_24.html">sua carissima</title> del 24 maggio; ma in questi giorni la morte è venuta per la seconda volta a portare il lutto nella mia famiglia, e ciò mi ha fatto mancare a più di un dovere.</p>
+                    <p>Inserirò col massimo contento nella <title ref="#RFR"><hi rend="underline">Rivista</hi></title> tanto l’<title ref="#attila"><hi rend="underline">Attila</hi></title>, quanto l’altro studio di cui vi parlo nella mia <title type="letter">ultima</title>.</p>
+                    <p>Che il primo sia un lavoro lungo, non fa nessun ostacolo per voi, purché a Lei non spiaccia di ripartirlo in più fascicoli come già fece nel <title ref="#IP"><hi rend="underline">Propugnatore</hi></title>. – L’altro <title ref="#frammenti">articolo</title>, che ella mi scrive di avere già quasi in pronto, e che desidera pubblicare presto, potremo cominciare a stamparlo nel fasc. 3.</p>
+                    <p>Solo non posso prometterle di porvelo per intero finché non sappia il numero approssimativo delle pagg. che occuperà, essendosi già ricevuti per questo fasc. altri lavori. – Si porrà mano alla stampa verso il 20 del corr., e spero che d’ora innanzi non si verificheranno più questi indugi che dobbiamo <pb/> deplorare nel 2° per la lentezza incredibile della fonderia che doveva fornirci alcuni tipi. <hi rend="underline">Degli estratti</hi> (con copertina, frontispizio e numerazione separata) siamo soliti dare 30 es.</p>
+                    <p>Se però Ella ne desiderasse di più, me lo dica francamente, ché farò ogni mio potere per poterla compiacerla.</p>
+                    <p>La ringrazio delle cortesi parole con cui Le piacque accogliere i "<title ref="#portoghesi">Canti antichi Portoghesi</title>". Esse mi saranno di un caro incoraggiamento nella pubblicazione del <title type="manuscript" key="Canzoniere Vaticano">Canzoniere Vat.</title> che mi costa dure e spesso nojose fatiche.</p> 
+                    <closer><salute>Le stringo cordialmente la mano
+                            Suo devotissimo amico</salute>
+                        <signed><persName ref="#EM">Ernesto Monaci</persName></signed>
+                    </closer>
+                    <postscript><p>P.S. Se io sapessi il titolo del secondo suo lavoro, l’annuncerei assieme cogli altri lavori sulla copertina del 2° fasc. che si stamperà sul finire di questa settimana.</p></postscript>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

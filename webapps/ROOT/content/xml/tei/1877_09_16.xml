@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Pio Rajna a Ernesto Monaci, 16 settembre 1877</title>
+                <editor role="transcription"><persName>Alessia Di Virgilio</persName></editor>
+                <editor role="encoding"><persName>Susanna Casacchia</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2020-03-19"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl><bibl>Alessia Di Virgilio, <title>Carteggio Monaci - Rajna (1873-1877)</title>, tesi di laurea, Sapienza Università di Roma, a.a. 2018-2019</bibl></listBibl>
+                <msDesc>
+                    <msIdentifier><repository>Archivio Monaci, Società Filologica Romana, presso il Dipartimento di Studi Europei, Americani e Interculturali, Sapienza, Università di Roma.</repository> <idno>Busta n. 22, fascicolo 1095, lettera 35</idno></msIdentifier>
+                    <msContents><summary corresp="#letter">Lettera di Pio Rajna a Ernesto Monaci del 16 settembre 1877.</summary></msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#PR">Pio Rajna</persName>
+                    <placeName ref="#firenze">Firenze</placeName>
+                    <date when="1877-09-16"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#roma">Roma</placeName>
+                    <date when="1877-10-11"/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                    <opener>
+                        <dateline><placeName ref="#firenze">Firenze</placeName>, <date when="1877-09-16">16 Settembre 1877</date></dateline>
+                        <salute>Mio caro <persName ref="#EM">Monaci</persName></salute></opener>
+                    <p>Le notizie sul notevole miglioramento della salute di tuo figlio m’hanno fatto tanto piacere. Mi dava assai pena il pensiero che tu ti trovassi continuamente 
+                        a lavorare con una spina così dolorosa nel cuore. Speriamo che proprio la guarigione sia prossima. Te lo auguro con centomila cuori.</p>
+                    <p>Protesto altamente contro le espressioni colte quali tu introduci la risposta all’interrogazione mia. Lasciamelo dire. Sempre, dacché ti conosco, hai avuto una gran tendenza a innalzare agli altri 
+                        molto al di sopra del vero, e ad usare con te stesso un procedimento inverso. Se proprio col mio disegno non disturbo i tuoi piani, <pb/> vedrò di mandarlo ad esecuzione; e a questo scopo dirigerò 
+                        anche la mia lezione di quell’anno. Ma intendiamoci bene. Ciò ch’io vorrei fare, sarebbe un libro <hi rend="underline">sulla poesia provenzale in Italia</hi>, non già una raccolta delle 
+                        poesie composte da <rs type="topic" key="Trovatori italiani">trovatori italiani</rs>. 
+                        Di questa parte, o non faresti bene a occupartene tu? Vedi che egoismo è il mio! a ogni momento potrei chiederti ajuto. E avere da te la lezione corretta di testi che altrimenti mi resterebbero, 
+                        probabilmente, in parte enimmatici. Giacchè, dovendo perder molto tempo in ricerche storiche e letterarie, non mi sarebbe possibile in nessun modo di occuparmi troppo dalle questioni prettamente 
+                        critiche. E nota che mi converrà di studiare assai tutti i <rs type="topic" key="Trovatori">trovatori</rs> stranieri che poco o tanto ebbero che fare coll’<placeName ref="#italia">Italia</placeName>; 
+                        poi, i rimatori nostri del primo secolo. Insomma, a pensarci, c’è da <pb/>sgomentarsi davvero. I nostri due lavori verrebbero ad essere il completamento l’uno dell’altro.</p>
+                    <p>Godo assai che la <title ref="#RFR">Rivista</title> stia per risorgere dal sepolcro. Quanto più presto, tanto meglio. Figurati s’io potrei consigliarti d’indugiare dell’altro! Riguardo ai 
+                        dubbi che mi esponi, a me parrebbe più convenevole di continuare con un 3° volume. L’iniziare una 2° serie, imbarazzerebbe poi alle citazioni. In tal caso bisognerebbe mantenere il titolo. 
+                        Ma, in generale, i giornali guadagnano ad essere, e a parer vecchi. E la <title ref="#RFR"><hi rend="underline">Rivista</hi></title> s’era di già acquistata una riputazione assai onorevole, 
+                        la quale va pur considerata come una specie di patrimonio, tutt’altro che da disprezzare. Ma pur rimandando la pubblicazione nuova coll’ antica, io non avrei alcun riguardo 
+                        a modificare, dove <pb/> sembrerebbe opportuno, la struttura del giornale. Parlo, perché tu m’interroghi. Bada per altro che se la tua decisione è contraria al mio parere, ci 
+                        sottoscrivo fin d’ora. Tu sei in grado di giudicare le cose assai meglio di me.</p>
+                      <p>Cercherò di mandarti un contributo entro il mese di Ottobre, che cosa propriamente, non ti so dire. Ho alle mani varii lavori, a lavorucci. O l’uno o l’altro o l’altro busserà alla tua porta, e 
+                        ti chiederà ospitalità.
+                        Resto ancora questa settimana a <placeName ref="#firenze">Firenze</placeName>. Poi mi rimetterò in cammino. Andrò a  <placeName ref="#roma">Roma</placeName>, 
+                          a <placeName ref="#bologna">Bologna</placeName>, a <placeName ref="#modena">Modena</placeName>, a <placeName ref="#mantova">Mantova</placeName>. A 
+                          <placeName ref="#venezia">Venezia</placeName> dovrò rinunziare per strettezze di tempo. Mi farò mandare lì il ms. che più specialmente mi occorre.</p>
+                    <closer><salute>Voglimi bene, e credimi sempre Tuo aff.mo</salute>
+                        <signed><persName ref="#PR"><expan><abbr>P</abbr><am>.</am><ex>io</ex></expan> Rajna</persName></signed>
+                    </closer>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

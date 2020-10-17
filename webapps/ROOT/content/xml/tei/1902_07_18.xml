@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ernesto Monaci a Graziadio Isaia Ascoli, 18 luglio 1902</title>
+                <editor role="transcription"><persName>Chiara Maria Calcagni</persName></editor>
+                <editor role="encoding"><persName>Virginia Machera</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2020-04-03"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl><bibl>Chiara Maria Calcagni, <title>Lettere scelte dal carteggio Ascoli-Monaci (1880/1906): trascrizione e commento</title>, tesi di laurea, Sapienza Università di Roma, a.a. 2018-2019</bibl></listBibl>
+                <msDesc>
+                    <msIdentifier><repository>Archivio Ascoli, Biblioteca dell’Accademia dei Lincei e Corsiniana, Roma.</repository> <idno>Lettera 129/46</idno></msIdentifier>
+                    <msContents><summary corresp="#letter">Monaci propone ad Ascoli la pubblicazione di un saggio sui materiali per la toponomastica.</summary></msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#roma">Roma</placeName>
+                    <date when="1902-07-18"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#GIA">Graziadio Isaia Ascoli</persName>
+                    <placeName ref="#milano">Milano</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                    <opener><dateline><placeName ref="#roma">Roma</placeName> <date when="1902-07-18">18 VII ’902</date></dateline>
+                        <salute>Mio Signore</salute></opener>
+                    <p>Presto sarà un mese che Ella faceva sapere al Ministro <persName ref="#NN">Nasi</persName> di non voler far parte della <orgName ref="#Toponomastica">commissione per la <expan><abbr>topon</abbr><am>.</am><ex>omastica</ex></expan></orgName>, come era stata da lui modificata con l’intrusione del <persName ref="#LP"><expan><abbr>P</abbr><am>.</am><ex>ullè</ex></expan></persName>, e da allora il <persName ref="#NN">Ministro</persName> non si è fatto più vivo. Dovrà dunque andar tutto all’aria? In verità, che va all’aria dopo questa faccenda, o che almeno si dilegua dopo la Sua dichiarazione, è il <persName ref="#NN">Ministro</persName> della <expan><abbr>I</abbr><am>.</am><ex>struzione</ex></expan> <expan><abbr>P</abbr><am>.</am><ex>ubblica</ex></expan> e il suo decreto. Ma riman sempre, che il materiale per la <expan><abbr>topon</abbr><am>.</am><ex>omastica</ex></expan> era del <orgName ref="#MinAgr">Ministero di <expan><abbr>Agr</abbr><am>.</am><ex>icoltura</ex></expan> E <expan><abbr>Comm</abbr><am>.</am><ex>ercio</ex></expan></orgName> E che da questo fu mandato all’<orgName ref="#AccLin"><expan><abbr>Accad</abbr><am>.</am><ex>emia</ex></expan> Dei Lincei</orgName> per essere messo a Sua disposizione; rimane, che l’<orgName ref="#AccLin">Accademia</orgName> conserva sempre quel materiale sotto chiave aspettando che Lei ne disponga; rimane che nei lavori che gli accademici fanno a <placeName ref="#corsini">Palazzo Corsini</placeName> fino ad ora il <persName ref="#NN">Ministro</persName> della <expan><abbr>P</abbr><am>.</am><ex>ubblica</ex></expan> <expan><abbr>I</abbr><am>.</am><ex>struzione</ex></expan> non ha veruna ingerenza. Ciò premesso, non sarebbe il caso di avviare alla meglio, come si potrà, il lavoro, per darne un volume o almeno un fascicolo di saggio? Alla stampa provvederebbe l’<orgName ref="#AccLin">Accademia</orgName>, né potrebbe sorgere dubbio su ciò. Resterebbe di provvedere al lavoro di schedatura e trascrizione. Orbene, se quei soci che Ella si aggregò nell’opera, concorressero con non più di cento lire ciascuno, credo che si avrebbe abbastanza per allestire il saggio, ed io fin d’ora mi dichiaro pronto a versare la mia quota, se anche a raddoppiarla, se ne fosse bisogno. </p>
+                    <closer><salute>Il suo <expan><abbr>aff</abbr><am>.</am><ex>ezionatissi</ex><abbr>mo</abbr></expan></salute></closer>
+                    <closer><persName ref="#EM">Ern. Monaci</persName></closer>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

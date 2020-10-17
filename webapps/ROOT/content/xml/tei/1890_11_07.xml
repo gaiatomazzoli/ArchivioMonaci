@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Cesare De Lollis a Ernesto Monaci, 7 novembre 1890 (?)</title>
+                <editor role="transcription"><persName>Debora Matteo</persName></editor>
+                <editor role="encoding"><persName>Mariangela Distilo</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2020-02-26"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl><bibl>Debora Matteo, <title>Itinerario di un carteggio</title>, tesi di laurea, Sapienza Università di Roma, a.a. 2017-2018</bibl></listBibl>
+                <msDesc>
+                    <msIdentifier><repository>Archivio Monaci, Società Filologica Romana, presso il Dipartimento di Studi Europei, Americani e Interculturali, Sapienza, Università di Roma.</repository> <idno>Busta n. 8, fascicolo 394.</idno></msIdentifier>
+                    <msContents><summary corresp="#letter">Lettera di Cesare De Lollis a Ernesto Monaci del 7 novembre 1890 (?)</summary></msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#CDL">Cesare De Lollis</persName>
+                    <placeName ref="#genova">Genova</placeName>
+                    <date when="1890-11-07" cert="low"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#sconosciuto">?</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                    <p>[...]</p>
+                    <p>A <placeName ref="#genova">Genova</placeName>, la Facoltà mostra di prediligermi, e il <persName ref="#PB1">Ministro</persName> non mi vuol mandare per far piacere al <persName ref="#EGP">Parodi</persName>, che si degna di fare il neo latino faute de mieux. [...] 
+                        Il <persName ref="#EGP">Parodi</persName> si è diportato con me da maleducato; e una sua lettera che ho ricevuto jeri mi dimostra sempre più ch’egli è un pallone gonfiato di vento e di gesuiteria. Io non potrei quindi in nessun modo mostrarmi generoso con lui, che mi professo di non avvicinare mai più in vita mia e di respingere da me, se mai mi volesse avvicinare.
+                        Son disposto a servirmi di tutti i mezzi, per aver <placeName ref="#genova">Genova</placeName>, compreso quello di contentarmi dell’incarico purché non vi venga lui! La ragione potentissima ch’io ho per tener duro di fronte al Ministero, è questa: ch’io posso venire a <placeName ref="#genova">Genova</placeName> senza mandare in aria i lavori colombiani; non potrei andare altrove, senza venire meno ai miei impegni.
+                        Il <persName ref="#EGP">Parodi</persName> vuoi venire a <placeName ref="#genova">Genova</placeName>, per pochi mesi, avendo in vista le altezze glottologiche, fuori di una Facoltà, incapace di capirlo, com’è questa di <placeName ref="#genova">Genova</placeName>.
+                        Dovrei io quindi stare ai suoi capricci, rassegnato come un fantoccio? Il buon <persName ref="#PR">Rajna</persName> perde il lume degli occhi, quando si tratti del suo pupillo, e, nel modo più chiaro vorrebbe lasciar comprendere a me che di fronte al <persName ref="#EGP">Parodi</persName> c’è poco da fare. [...] 
+                        Mi son seccato profondamente di vedermi subordinato al <persName ref="#EGP">Parodi</persName>, che, colla sua aria di evangelica modestia, par che mandi sprazzi di luce smagliante come una gemma chiusa in uno scrigno. Ed io, cedendogli il posto di <placeName ref="#genova">Genova</placeName>, apporrei la mia sanzione a questa ben predicata superiorità.</p>
+                    <p>[...]</p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>
+
+

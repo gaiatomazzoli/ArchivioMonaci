@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Cesare De Lollis a Ernesto Monaci, 2 maggio 1886</title>
+                <editor role="transcription"><persName>Debora Matteo</persName></editor>
+                <editor role="encoding"><persName>Susanna Casacchia</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2020-04-24"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl><bibl>Debora Matteo, <title>Itinerario di un carteggio</title>, tesi di laurea, Sapienza Università di Roma, a.a. 2017-2018</bibl></listBibl>
+                <msDesc>
+                    <msIdentifier><repository>Archivio Monaci, Società Filologica Romana, presso il Dipartimento di Studi Europei, Americani e Interculturali, Sapienza, Università di Roma.</repository> <idno>Busta n. 8, fascicolo 394.</idno></msIdentifier>
+                    <msContents><summary corresp="#letter">Lettera di Cesare De Lollis a Ernesto Monaci del 2 maggio 1886.</summary></msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#CDL">Cesare De Lollis</persName>
+                    <placeName ref="#chieti">Chieti</placeName>
+                    <date when="1886-05-02"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#sconosciuto">?</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                    <p>[..]</p>
+                    <p>Oltre all’inventario dei codici di <persName ref="#SB">S. Bernardino</persName>, che non presenta in verità grande importanza, ho trascritto da due o tre mss. parecchi componimenti in volgare, che possono riuscire 
+                        interessanti per la storia letteraria in genere e specialmente per quella degli <placeName ref="#abruzzo">Abruzzi</placeName>, di cui così poco ci resta. Sono <title>sacre rappresentazioni</title>
+                        che si leggono in mss. del <expan><abbr>sec</abbr><am>.</am><ex>olo</ex></expan> XV, incastrate nelle prediche di due monaci dell’ordine di <persName type="author" ref="#francesco">S. Francesco</persName>. Hanno ad 
+                        argomento la passione di Cristo: e mostrano dei riscontri evidenti fra di loro, non solo: ma sì l’uno come l’altro dei due componimenti sono in un’indubbia relazione con quella <title ref="#rappresentazione">Sacra Rappresentazione</title> 
+                        pubblicata dal <persName ref="#ADA">D’Ancona</persName> in uno dei primi fascicoli della <title ref="#RFR"><expan><abbr>Riv</abbr><am>.</am><ex>ista</ex></expan> di <expan><abbr>fil</abbr><am>.</am><ex>ologia</ex></expan> 
+                        <expan><abbr>rom</abbr><am>.</am><ex>anza</ex></expan></title> Io non ho potuto fare i debiti confronti ad <placeName ref="#aquila">Aquila</placeName> e non so se potrò farli qui: ma di questi riscontri son certo, 
+                        e c’è da spiegarli, credo, nella comunanza del testo del vangelo. Le due rappresentazioni, di cui io Le parlo, sono in ottave.
+                        Parecchie ottave sono identiche nell’una e nell’altra, e poichè in ambedue i mss., secondo le prove grafiche possibili, si tratta di copie, son portato a credere che un componimento d’epoca anteriore sia stato 
+                        tenuto presente dai due frati. Una terza  <expan><abbr>rappresent</abbr><am>.</am><ex>azione</ex></expan> poi non è né in endecasillabi né in ottave, ma in settenari di cui tre nell’interno della quartina 
+                        fanno una rima e il quarto conserva la stessa rima per tutte le strofe. Oltre a queste, ho trovato qualche altra poesia di argomento sacro. Ella giudicherà poi dell’importanza del tutto. [...] Intanto, ciò che più mi fa piacere è che ho trovati dei sonetti di <persName type="author" ref="#ranallo">Buccio</persName>, che non sono ancora stampati. Sono cinque. [...] Dico la verità, questi sonetti vorrei pubblicarli al più presto possibile, perché non mi accada di esser prevenuto da altri. Il <persName ref="#EP">Percopo</persName> lavora sempre clandestinamente e una volta che lui sa di un codice esistente in <placeName ref="#aquila">L’Aquila</placeName>, non c’è da star sicuri</p>
+                    <p>[...]</p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

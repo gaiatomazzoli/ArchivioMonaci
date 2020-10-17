@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Graziadio Isaia Ascoli a Ernesto Monaci, 2 dicembre 1904</title>
+                <editor role="transcription"><persName>Chiara Maria Calcagni</persName></editor>
+                <editor role="encoding"><persName>Mariangela Distilo</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2020-02-26"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl><bibl>Chiara Maria Calcagni, <title>Lettere scelte dal carteggio Ascoli-Monaci (1880/1906): trascrizione e commento</title>, tesi di laurea, Sapienza Università di Roma, a.a. 2018-2019</bibl></listBibl>
+                <msDesc>
+                    <msIdentifier><repository>Archivio Monaci, Società Filologica Romana, presso il Dipartimento di Studi Europei, Americani e Interculturali, Sapienza, Università di Roma.</repository> <idno>Busta n. 1, fascicolo 49, lettera del 2/12/1904</idno></msIdentifier>
+                    <msContents><summary corresp="#letter">Lettera di G. I. Ascoli a E. Monaci del 2 dicembre 1904</summary></msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#GIA">Graziadio Isaia Ascoli</persName>
+                    <placeName ref="#milano">Milano</placeName>
+                    <date when="1904-12-02"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#roma">Roma</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="envelope">
+                    <head><note>Busta</note></head>
+                    <opener>
+                        <salute>Illustre signore</salute>
+                        <salute>Il Prof. Comm. <persName ref="#EM">Ernesto Monaci</persName></salute>
+                        <address><addrLine><placeName ref="#roma"><hi rend="underline">Roma</hi></placeName></addrLine>
+                        <addrLine>Via Condotti 75 III</addrLine></address>
+                    </opener>
+                    </div>
+                <div type="textpart" subtype="letter">
+                    <head><note>Lettera</note></head>
+                    <opener><dateline><placeName ref="#milano">Milano</placeName>, <date when="1904-12-02">2. 12. ’904</date></dateline></opener>
+                    <p>Onorato e caro collega; la Sua buona <title type="letter" ref="./1904_11_27.html">lettera</title> mi ha grandemente confortato. E poche ore dopo me ne arriva una, buona anch’essa, dal <persName ref="#EM2">Mancini</persName>, che me ne trascriveva una terza, del Ministro, diretta all’<orgName ref="#AccLin">Academia</orgName>, e mi richiedeva, a nome del Presidente, di qualche ajuto per la risposta da mandare alla Minerva. Risposi al <persName ref="#EM2">Mancini</persName> jersera, dicendogli, che nel ringraziare, ora è circa un mese, il Ministro, ora gli avevo dichiarato ch’Ella s’era cortesemente assunto l’ufficio di promuovere le intelligenze necessarie tra l’<orgName ref="#AccLin">Academia</orgName> e il Ministro.</p>
+                    <p>E soggiungevo (al <persName ref="#EM2">Mancini</persName>) che m’era appunto arrivata una lettera di Lei, nella quale m’erano annunziate pratiche ben promettenti, da Lei intavolate, pochi giorni prima, col Vicepresidente. Parermi perciò, che il modo più semplice e sicuro di proseguir le intelligenze, sarebbe quello che il Presidente s’intendesse con Lei.  Di che, per la mia parte, lo pregavo.</p>
+                    <p>Quanto alla pubblicazione dei poveri <title ref="#ricordi"><hi rend="underline">Ricordi</hi></title>, con una sua introduzione, che, a tacer del resto, li scusasse per la loro qualità di cosa confidenziale e improvvisata, la mia principal difficoltà stava nella menzione che io vi faceva, a loro insaputa, dei collaboratori per la parte storica. Ma avvenne che nel frattempo io ne parlassi col <persName ref="#SP">Pieri</persName>, col <persName ref="#PEG">Guarnerio</persName> e col <persName ref="#CS">Salvioni</persName>; e tutti e tre si dichiararono contentissimi d’andar nominati. Non resterebbe, mia pare, se non di sentire il <persName ref="#EGP">Parodi</persName>. Codesta difficoltà è perciò poco men che dileguata. E per le modificazioni che a Lei paressero opportune (data sempre la mia posizione subordinatissima e anzi, come direzione gerarchica, nulla senz’altro), basterebbe che Ella me le proponesse sulle bozze, e io non le ricuserei di certo.</p>
+                    <p>Da quei <title ref="#ricordi"><hi rend="underline">Ricordi</hi></title>, che pur non contengono alcuna acerba recriminazione contro i nostri antichi avversari, risulta del resto assai chiaramente la stranezza e l’inanità dei loro argomenti. Sotto questo rispetto, la loro pubblicazione, non solo non mi spiacerebbe, ma anzi mi darebbe non poca soddisfazione.</p>
+                    <p>Se però accadrà che una ragion qualunque La distolga dallo stampare i <title ref="#ricordi"><hi rend="underline">Ricordi</hi></title>, io non mancherò al mio dovere di prepararle qualche altra coserella. Mi voglia dire, se non Le spiace, per qual giorno dovrei essere pronto.</p>
+                    <closer><salute>E voglia sempre bene al</salute>
+                        <salute>Suo <expan><abbr>div</abbr><am>.</am><ex>otissi</ex><abbr>mo</abbr></expan> e <expan><abbr>aff</abbr><am>.</am><ex>ezionatissi</ex><abbr>mo</abbr></expan></salute>
+                        <signed><persName ref="#GIA">Ascoli</persName></signed></closer>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>
+
+
+

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Graziadio Isaia Ascoli a Ernesto Monaci, 15 febbraio 1906</title>
+                <editor role="transcription"><persName>Chiara Maria Calcagni</persName></editor>
+                <editor role="encoding"><persName>Stefano Boschi</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2020-04-08"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl><bibl>Chiara Maria Calcagni, <title>Lettere scelte dal carteggio Ascoli-Monaci (1880/1906): trascrizione e commento</title>, tesi di laurea, Sapienza Università di Roma, a.a. 2018-2019</bibl></listBibl>
+                <msDesc>
+                    <msIdentifier><repository>Archivio Monaci, Società Filologica Romana, presso il Dipartimento di Studi Europei, Americani e Interculturali, Sapienza, Università di Roma.</repository> <idno>Busta n. 1, fascicolo 49, lettera 160.</idno></msIdentifier>
+                    <msContents><summary corresp="#postcard #letter">Cartolina postale e lettera.</summary></msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#GIA">Graziadio Isaia Ascoli</persName>
+                    <placeName ref="#milano">Milano</placeName>
+                    <date when="1906-02-15"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#roma">Roma</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                    <head><note>Cartolina postale</note></head>
+                    <opener><salute>All’illustre signor prof. comm. Ernesto Monaci</salute>
+                        <salute><hi rend="underline"><placeName ref="#roma">Roma</placeName></hi></salute>
+                        <salute><address><addrLine>Via Condotti 75 III</addrLine></address></salute></opener>
+                </div>
+                <div type="textpart" subtype="letter">
+                    <head><note>Lettera</note></head>
+                    <opener><salute>Onorato e caro collega.</salute></opener>
+                    <p>Molto La ringrazio di quanto mi aggiunge con la buona <title type="letter" ref="./1906_02_11.html">Sua</title> dell’11. Il <persName ref="#WF">F.</persName> non si fece più sentire dopo la <title type="letter">mia</title> del 6. È, purtroppo, un triste e un matto, e sempre in condizioni di salute tutt’altro che liete. Ora si dispone a passare in <placeName ref="#sicilia">Sicilia</placeName>.</p>
+                    <p>A Lei forse non sarà piaciuto che il <persName ref="#PB1">B.</persName> si appoggiasse al <persName>C.</persName> La mia relazione con il <persName ref="#PB1">B.</persName> non andò mai interrotta, e sempre m’è parso ch’egli mi serbasse la benevolenza concessami quando egli stava al <orgName ref="#MPI">Ministero</orgName> col <persName ref="#FM">Mar.</persName> _ col <persName>C.</persName> m’incontrai un pajo di volte, per una certa bega tra lui e un editore, nella quale mi era toccata la parte di paciere od arbitro. Pareva io non gli fossi persona nuova o mal grata. Ma, a ogni modo, con un po’ d’impeto Loro vincono di certo e facilmente la prova. Urgerebbe davvero, e per la cosa in sé, e per il povero <persName ref="#SP">Pieri</persName>. Scusi la fretta e mi voglia sempre il div.mo aff.mo</p>
+                    <closer><signed><persName ref="#GIA">G. I. A.</persName></signed></closer>
+                    
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

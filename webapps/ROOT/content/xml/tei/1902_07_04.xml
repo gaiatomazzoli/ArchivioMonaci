@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ernesto Monaci a Graziadio Isaia Ascoli, 4 luglio 1902</title>
+                <editor role="transcription"><persName>Chiara Maria Calcagni</persName></editor>
+                <editor role="encoding"><persName>Stefano Boschi</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2020-04-01"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl><bibl>Chiara Maria Calcagni, <title>Lettere scelte dal carteggio Ascoli-Monaci (1880/1906): trascrizione e commento</title>, tesi di laurea, Sapienza Università di Roma, a.a. 2018-2019</bibl></listBibl>
+                <msDesc>
+                    <msIdentifier><repository>Archivio Ascoli, presso la Biblioteca dell’Accademia dei Lincei e Corsiniana, Roma.</repository> <idno>Pacco 129, busta 44.</idno></msIdentifier>
+                    <msContents><summary corresp="#letter">Sulle dimissioni dell’Ascoli e di se medesimo nel caso si insista con il Pullè.</summary></msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#roma">Roma</placeName>
+                    <date when="1902-07-04"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#GIA">Graziadio Isaia Ascoli</persName>
+                    <placeName ref="#sconosciuto">?</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                    <opener><dateline><placeName ref="#roma">Roma</placeName> <date when="1902-07-04">4 luglio 1902</date></dateline> 
+                    <salute>Mio Signore</salute></opener>
+                    <p>Il suo <title type="letter">telegramma</title> giunse in buon punto, spero. Io lo portai subito al <persName ref="#EM3">Masi</persName>, il quale se ne mostrò addolorato, ma insieme mi disse: che vuole che faccia? Abbiamo telegrafato di nuovo al <persName ref="#LP">Pullè</persName>, ed egli ha risposto di nuovo che non rinunciava alla promessa fattagli. Il <persName ref="#EM3">Masi</persName> mi mostrò anche il testo del telegramma, che non poteva essere più riciso e insistente; mi disse che il Ministro dopo di ciò aveva dato ordine di preparare il decreto includendovi il nome del <persName ref="#LP">Pullè</persName>, e mi fece vedere il decreto stesso già da lui approntato per portarlo alla firma. Ma il Suo telegramma deve aver fermato tutto. Che può fare il Ministro dal momento che l’<persName ref="#GIA">Ascoli</persName> si dimette? Consegnando il Suo telegramma, io dissi al <persName ref="#EM3">Masi</persName> che, dimessosi l’<persName ref="#GIA">Ascoli</persName>, io non intendevo di aver più alcuna ingerenza nella cosa. Non si può dubitare che gli altri accademici faranno lo stesso tosto che sapranno delle Sue dimissioni. E allora? Resterà tutto affidato al <persName ref="#LP">Pullè</persName>? E verrà il Ministro <persName ref="#EM3">Masi</persName> a insediarlo a <placeName ref="#corsini">palazzo Corsini</placeName>? Io non vorrei essere nei panni loro. Ma stiamo a vedere. Le considerazioni con cui Ella mi chiude la Sua <title type="letter" ref="./1902_07_03.html">lettera</title>, si erano affacciate anche a me e jeri le spiattellai francamente al <persName ref="#EM3">Masi</persName>, ed egli non solo mi dava ragione, ma soggiungeva che anche la destinazione del <persName ref="#LP"><expan><abbr>P</abbr><am>.</am><ex>ullè</ex></expan></persName> ad <placeName ref="#amburgo">Amburgo</placeName> aveva già sollevato reclami di colleghi. Quanto peggio sarebbe da temere se il <persName ref="#LP"><expan><abbr>P</abbr><am>.</am><ex>ullè</ex></expan></persName> fosse chiamato, solo de’ suoi colleghi, nella commissione <orgName ref="#AccLin">Lincea</orgName> per la <rs type="topic" key="Toponomastica">toponomastica</rs>!</p>
+                    <p>Ma stiamo a vedere; per quanto siamo caduti in basso, oso ancora sperare in qualche sussulto del buon senso.</p>
+                    <closer><salute>Il Suo</salute>
+                    <signed><persName ref="#EM">Ern. Monaci</persName></signed></closer>
+                   
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,8 @@
+*.xpr
+*~
+*.log
+sw/jetty/logs
+sw/jetty/temp
+webapps/ROOT/WEB-INF/logs
+.git
+#webapps/rdf4j-server/app_dir

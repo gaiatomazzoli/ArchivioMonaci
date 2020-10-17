@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Cesare De Lollis a Ernesto Monaci, 30 aprile 1887</title>
+                <editor role="transcription"><persName>Debora Matteo</persName></editor>
+                <editor role="encoding"><persName>Susanna Casacchia</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2020-04-23"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl><bibl>Debora Matteo, <title>Itinerario di un carteggio</title>, tesi di laurea, Sapienza Università di Roma, a.a. 2017-2018</bibl></listBibl>
+                <msDesc>
+                    <msIdentifier><repository>Archivio Monaci, Società Filologica Romana, presso il Dipartimento di Studi Europei, 
+                        Americani e Interculturali, Sapienza, Università di Roma.</repository> <idno>Busta n. 8, fascicolo 394.</idno></msIdentifier>
+                    <msContents><summary corresp="#letter">Lettera di Cesare De Lollis a Ernesto Monaci del 30 aprile 1887.</summary></msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#CDL">Cesare De Lollis</persName>
+                    <placeName ref="#cremona">Cremona</placeName>
+                    <date when="1887-04-30"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#sconosciuto">?</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                    <p>[...]</p>
+                    <p>Benché io abbia trovata <placeName ref="#cremona">Cremona</placeName> superiore alla sua fama e benché per me essa abbia dei vantaggi che <placeName ref="#roma">Roma</placeName>
+                        non ha, sento tuttavia l’esilio da <placeName ref="#roma">Roma</placeName>. I miei studi, a cui nell’ultimo mese mi ero ridato anima e corpo, la traversata quotidiana 
+                        da Via Panisperna a S. Pietro, tutto codesto mi forza al rimpianto. E più che di ogni altra cosa (Lei che mi conosce può credermelo) sento il dispiacere di essermi allontanato da Lei, mio secondo 
+                        padre e protettore. Or, la lontananza, come per effetto di miraggio, m’ingigantisce tutti i beneficj da Lei ricevuti, o, per dir meglio, me li fa sentire in tutta 
+                        la loro entità reale. È vero che Ella è buono e benefico con tutti: ma io meritava e merito meno di tanti altri, e Lei ha fatto per me quanto forse per nessun altro 
+                        ha fatto. [...] Sul <title ref="#popoloromano">Popolo Romano</title> ho visto che il Consiglio Superiore ha approvata senza alcuna limitazione la mia libera docenza. Ne sono lieto e del tutto porgo a Lei, 
+                        autore d’ogni cosa, infiniti ringraziamenti. Da casa mi giungono sempre più allarmanti notizie sulla salute di papa. È cosa che mi accora: me lo dicono ridotto in pessimo 
+                        stato: ed io sento che avrei quasi paura di rivederlo così!</p>
+                    <p>[...]</p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

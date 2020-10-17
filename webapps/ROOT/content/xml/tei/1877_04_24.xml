@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Pio Rajna a Ernesto Monaci, 24 aprile 1877</title>
+                <editor role="transcription"><persName>Alessia Di Virgilio</persName></editor>
+                <editor role="encoding"><persName>Laura Pireddu</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2020-03-19"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl><bibl>Alessia Di Virgilio, <title>Carteggio Monaci - Rajna (1873-1877)</title>, tesi di laurea, Sapienza Università di Roma, a.a. 2018-2019</bibl></listBibl>
+                <msDesc>
+                    <msIdentifier><repository>Archivio Monaci, Società Filologica Romana, presso il Dipartimento di Studi Europei, Americani e Interculturali, Sapienza, Università di Roma.</repository> <idno>Busta n. 22, fascicolo 1095, lettera XXIX</idno></msIdentifier>
+                    <msContents><summary corresp="#letter">Lettera di Pio Rajna a Ernesto Monaci del 24 aprile 1877</summary></msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#PR">Pio Rajna</persName>
+                    <placeName ref="#milano">Milano</placeName>
+                    <date when="1877-04-24"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#sconosciuto">?</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                    <opener><dateline><placeName ref="#milano">Milano</placeName>, <date when="1877-04-24">24 Aprile 1877</date> </dateline>
+                        Mio caro <persName ref="#EM">Monaci</persName></opener>
+                    <p>Ormai credo che non ci sia nulla da fare. Se non sono sopraggiunte novità imprevedute, un manifesto,
+                        scritto originariamente dal <persName ref="#GF">Flechia</persName>, modificato dall’<persName ref="#GIA">Ascoli</persName>, dovrebbe a quest’ora essere già diramato 
+                        in molti esemplari. Ci si leggono sotto parecchi nomi, e tra gli altri anche il tuo. Forse non ti piacerà 
+                        del tutto;e anch’io, quando ne ebbi conoscenza, non nascosi che in più di una cosa dissentivo. Avrei anzi 
+                        voluto che uscisse senza la mia firma. Nel tempo stesso vedevo bene la necessità di evitare screzii in faccia 
+                        al pubblico. Esposte dunque schiettamente all’<persName ref="#GIA">Ascoli</persName>  le mie idee e le mie condizioni, lasciai <pb/> lui arbitro 
+                        di togliermi o conservarmi nel comitato. Che abbia fatto, non so; ed ignoro quindi se ci troviamo o no colleghi. 
+                        Dichiarai del resto che ad ogni caso avrei seduto a sinistra, e che già fin d’ora qualcuna delle idee espresse 
+                        dai <placeName ref="#berlino">berlinesi</placeName> proprio non mi andava.</p>
+                    <p>Per ciò che riguarda lo <persName ref="#HS">Schuchardt</persName>, il meglio sarebbe, a mio giudizio, che tu aspettassi a rispondergli dopo d’aver
+                        visto il manifesto. Tanto l’affrettarsi non gioverebbe a nulla, e potrebbe invece dal luogo a qualche inconveniente. 
+                        Per parte nostra, un po’ di rassegnazione sarà il partito più savio.</p>
+                    <p>Dammi notizie della <title ref="#RFR"> <hi rend="underline"> Rivista</hi></title>. Quando risorgerà e in quali condizioni? Davvero era troppo deplorevole la sua scomparsa, 
+                        dopo che, grazie al suo direttore – non dico <hi rend="underline">ai suoi</hi> - aveva fatto così buona <pb/> prova e s’era conciliata tanta stima. 
+                        Caro mio, se stesse in me, io proprio ti condannerei senza remissione a dirigere un periodico di questo genere vita 
+                        natural durante.</p>
+                    <p>Hai avuto il giornale del <persName ref="#GG">Gröber</persName></p>
+                    <closer><salute>-	Vogli sempre bene al 
+                        Tuo <expan><abbr>aff</abbr><am>.</am><ex>ezionatissi</ex><abbr>mo</abbr></expan></salute>
+                        <signed><persName ref="#PR">P.Rajna</persName> </signed>
+                    </closer>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Pio Rajna a Ernesto Monaci, 11 maggio 1877</title>
+                <editor role="transcription"><persName>Alessia Di Virgilio</persName></editor>
+                <editor role="encoding"><persName>Margherita Filippozzi</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2020-03-19"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl><bibl>Alessia Di Virgilio, <title>Carteggio Monaci - Rajna (1873-1877)</title>, tesi di laurea, Sapienza Università di Roma, a.a. 2018-2019</bibl></listBibl>
+                <msDesc>
+                    <msIdentifier><repository>Archivio Monaci, Società Filologica Romana, presso il Dipartimento di Studi Europei, Americani e Interculturali, Sapienza, Università di Roma.</repository> <idno>Busta n. 22, fascicolo 1095, lettera XXXII.</idno></msIdentifier>
+                    <msContents><summary corresp="#letter">Lettera di Pio Rajna a Ernesto Monaci dell’11 maggio 1877.</summary></msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#PR">Pio Rajna</persName>
+                    <placeName ref="#milano">Milano</placeName>
+                    <date when="1877-05-11"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#sconosciuto">?</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                    <opener><dateline><placeName ref="#milano">Milano</placeName>, <date when="1877-05-11">11 Maggio 77</date></dateline>
+                        <salute>Caro <persName ref="#EM">Monaci</persName></salute></opener>
+                    <p>Ho da parteciparti una notizia, che ti farà piacere.
+                        L’espediente immaginato dall’<persName ref="#GIA">Ascoli</persName>, e a cui alludevo l’altro giorno, era questo:
+                        procurare che qualche grosso (?) contributo, quello dei <orgName ref="#AccLin">Lincei</orgName> in primo luogo, potrebbe far clausola, <quote>con la condizione che per lo statuto della <orgName ref="#DiezSt">Fondazione Diez</orgName> abbia a essere chiesta e conseguita l’adesione della <orgName ref="#AccLin"><expan><abbr>R</abbr><am>.</am><ex>eale</ex></expan> Accademia De’ Lincei</orgName></quote>.</p>
+                    <p>Giustissimamente parve per altro all’<persName ref="#GIA">Ascoli</persName> che l’adoperarsi a uno scopo siffatto, senza avvertirne i berlinesi, fosse atto non troppo leale, ed anche imprudente.
+                        Scrisse dunque anzitutto al <persName ref="#AT">Tobler</persName>.
+                        E il <persName ref="#AT">Tobler</persName> rispose con una bella lettera, nella quale ammette di gran cuore, e dice la clausola <quote>legittima, <pb/>solenne</quote>, ecc.</p>
+                    <p>Dunque per questo lato siamo al sicuro. Ora resta solo da attendere l’adesione dei <orgName ref="#AccLin">Lincei</orgName>.
+                        Si può tener per certo che non mancherà; tuttavia, fino a che non sia giunta di fatto e di ciò ora l’<persName ref="#GIA">Ascoli</persName> si occupa, giova non avviare la soscrizione.</p>
+                    <p>Ché, le offerte condizionate potrebbero anche diventar parecchie. Appena s’abbia una notizia sicura, te la comunicherò.
+                        Intanto, per incarico dell’<persName ref="#GIA">Ascoli</persName> stesso, ho cominciato dall’avvertirti del punto a cui sono le cose, affinché non ne avessi prima a ricever notizie più o meno esatte a persone estranee e non se avverto il <persName ref="#UC">Canello</persName> ed il <persName ref="#NC">Caix</persName>.
+                        Agli altri pensa il nostro capo.</p>
+                    <closer><salute>Addio e stammi bene.</salute>                        
+                        <salute>Tuo per sempre</salute>
+                        <signed><persName ref="#PR"><expan><abbr>P</abbr><am>.</am><ex>io</ex></expan> Rajna</persName></signed></closer>                    
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

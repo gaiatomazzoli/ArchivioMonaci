@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Pio Rajna a Ernesto Monaci, 2 novembre 1877</title>
+                <editor role="transcription"><persName>Alessia Di Virgilio</persName></editor>
+                <editor role="encoding"><persName>Giulia Lucchesi</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2020-03-28"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl><bibl>Alessia Di Virgilio, <title>Carteggio Monaci - Rajna (1873-1877)</title>, tesi di laurea, Sapienza Università di Roma, a.a. 2018-2019</bibl></listBibl>
+                <msDesc>
+                    <msIdentifier><repository>Archivio Monaci, Società Filologica Romana, presso il Dipartimento di Studi Europei, Americani e Interculturali, Sapienza, Università di Roma.</repository> <idno>Busta n. 22, fascicolo 1095, lettera 40</idno></msIdentifier>
+                    <msContents><summary corresp="#postcard">Cartolina di Pio Rajna a Ernesto Monaci del 2 novembre 1877.</summary></msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#PR">Pio Rajna</persName>
+                    <placeName ref="#milano">Milano</placeName>
+                    <date when="1877-11-02"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#sconosciuto">?</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                    <opener>
+                        <dateline><placeName ref="#milano">Milano</placeName> <date when="1877-11-02">2 Novembre 77</date></dateline>
+                        <salute><expan><abbr>C</abbr><am>.</am><ex>arissimo</ex></expan> <expan><abbr>A</abbr><am>.</am><ex>mico</ex></expan></salute></opener>
+                    <p>Non credere che mi sia addormentato. Ma per sbrigare i frammenti mi convenne procurarmi 
+                    nuovo materiale da <placeName ref="#venezia">Venezia</placeName>. Ne è venuto che il 
+                    lavoro si va rigonfiando ancor più. Dire che mi conviene rifarlo in gran parte mentre a 
+                    Giugno stava già sotto fascia! Lavorando spero d’esser pronto fra cinque o sei giorni. 
+                    Fa conto che occorrono per me da due fogli di stampa. Un conto esatto è peraltro impossibile, 
+                    perché ci sono varie pagine di note che andranno in carattere minuto. – 
+                    La <title ref="#canto">preghiera provenzale del cod. senese</title> è pubblicata, sopra un 
+                    altro manoscritto, nei <title ref="#Denkmӓler"><hi rend="underline">Denkmӓler del Bart</hi></title>. dunque non è 
+                    più da parlarne, se non fosse per prendere argomento ad una noticina d’una mezza pagina. 
+                    Ma anche per questo occorrerebbero i <title ref="#Denkmӓler"><hi rend="underline">Denkmӓler</hi></title>, che io non ho, 
+                    perché non seppi mai arrendermi ai prezzi <hi rend="underline">ebraici</hi> che mi furono proposti 
+                    quante volte chiesi il libro a librai.</p>
+                    
+                    <closer><salute>Addio. Credimi sempre   Tuo <expan><abbr>aff</abbr><ex>ezionatissi</ex><abbr>mo</abbr></expan></salute>
+                        <signed><persName ref="#PR"><expan><abbr>P</abbr><am>.</am><ex>io</ex></expan> <expan><abbr>R</abbr><am>.</am><ex>ajna</ex></expan></persName></signed></closer>
+                    
+                    <postscript><p>P.S. Mi rallegro tanto della tua nomina. La seppi jersera dall’<persName ref="#GIA">Ascoli</persName>. 
+                        Sarebbe stata una vergogna che ti si fosse fatto aspettare dall’altro!</p></postscript>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>
+

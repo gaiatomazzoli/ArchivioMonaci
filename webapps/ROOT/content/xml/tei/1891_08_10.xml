@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Cesare De Lollis a Ernesto Monaci, 10 agosto 1891</title>
+                <editor role="transcription"><persName>Debora Matteo</persName></editor>
+                <editor role="encoding"><persName>Virginia Machera</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2020-04-28"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl><bibl>Debora Matteo, <title>Itinerario di un carteggio</title>, tesi di laurea, Sapienza Università di Roma, a.a. 2017-2018</bibl></listBibl>
+                <msDesc>
+                    <msIdentifier><repository>Archivio Monaci, Società Filologica Romana, presso il Dipartimento di Studi Europei, Americani e Interculturali, Sapienza, Università di Roma.</repository> <idno>Busta n. 8, fascicolo 394.</idno></msIdentifier>
+                    <msContents><summary corresp="#postcard">De Lollis teme di non riuscire a posizionarsi come ordinario.</summary></msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#CDL">Cesare De Lollis</persName>
+                    <placeName ref="#roma">Roma</placeName>
+                    <date when="1891-08-10"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#sconosciuto">?</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                    <p>[...]</p>
+                    <p>Da jeri ho ripigliato il lavoro sui testi abruzzesi. Ho perduto le tracce dell’<persName ref="#GIA">Ascoli</persName>, che non dev’essere più a <placeName ref="#milano">Milano</placeName>, e prevedo che non ci sarà modo di aver stampato sull’«Archivio», il lavoro pel 26 settembre. Per rimediare, lo stamperei a mie spese, e ho già parlato a tal proposito col <persName>Bianco</persName>. Non è che questo sforzo intellettuale [...] non servirà a niente: poiché da voci più o meno autorevoli che ogni giorno raccolgo son portato a concludere che il <persName ref="#PV">Ministro</persName>, specie per ossequio all’opinione del <persName ref="#PR">Rajna</persName>, non voglia proprio saperne di letterature neo-latine. E questo mi affligge immensamente, perché per me il conseguimento di un posto definitivo non rappresenta più uno sfogo d’ambizione, ma un mezzo per uscire da <placeName ref="#roma">Roma</placeName>. [...] Si è chiusa proprio jeri la <expan><abbr>Vitt</abbr><am>.</am><ex>orio</ex></expan>Emanuele, e non so come diamine fare, io che sono così a corto di libri.</p>
+                    <p>[...]</p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

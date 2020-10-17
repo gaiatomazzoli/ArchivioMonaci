@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Pio Rajna a Ernesto Monaci, 15 ottobre 1877</title>
+                <editor role="transcription"><persName>Alessia Di Virgilio</persName></editor>
+                <editor role="encoding"><persName>Susanna Casacchia</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2020-03-20"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl><bibl>Alessia Di Virgilio, <title>Carteggio Monaci - Rajna (1873-1877)</title>, tesi di laurea, Sapienza Università di Roma, a.a. 2018-2019</bibl></listBibl>
+                <msDesc>
+                    <msIdentifier><repository>Archivio Monaci, Società Filologica Romana, presso il Dipartimento di Studi Europei, Americani e Interculturali, Sapienza, Università di Roma.</repository> <idno>Busta n. 22, fascicolo 1095, lettera 38</idno></msIdentifier>
+                    <msContents><summary corresp="#letter">Lettera di Pio Rajna a Ernesto Monaci del 15 ottobre 1877.</summary></msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#PR">Pio Rajna</persName>
+                    <placeName ref="#milano">Milano</placeName>
+                    <date when="1877-10-15"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#sconosciuto">?</placeName>
+                    <date when="1877-10-16"/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                    <opener>
+                        <dateline><placeName ref="#milano">Milano</placeName>, li <date when="1877-10-15">15 Ott. 77</date></dateline>
+                        <salute>Carissimo <persName ref="#EM">Monaci</persName></salute></opener>
+                    <p>Mando una lettera dietro alla <title type="letter" ref="./1877_10_14.html">cartolina</title>; ed ecco la ragione. Vorrei sapere da te se ti sia mai occorso nelle tue 
+                        ricevute un certo <title ref="#serventese">serventese</title>, assai curioso, che io conosco da un codice, trascritto, per quanto pare a <placeName ref="#stigliano">Stigliano</placeName>, e che, insieme con 
+                        l’altra roba, vorrei allestire per l’<title ref="#GFR">Annuario</title>. Eccotene il principio. Scrivo i versi in colonna, sebbene nel codice stiano di seguito: 
+                        cosa che ha nuociuto non poco alla conservazione del testo originale:</p>
+                        
+                    <p><quote> tant’agio ardire et conoscenza,
+                        che do ali amici ben volienza,
+                        Et l’inimici tegno in temenza.
+                        Ad ogna cosa do sentenza,
+                        et agio senno et provedenza.
+                        In ciaschum misteri.                    
+                        Heo so bene essere cavaleri,</quote> ecc.</p>
+                    <p><pb/> questi versi mi fan come l’affetto ch’io dovessi già prima averli letti, non so dove. Ma sarà un’illusione, prodotta da certi riscontri provenzali. Quel che non è di sicuro 
+                        un’illusione, si è che qua e là ci sono passi maledettamente corrotti, da cui non so se mi riuscirà di levare i piedi. Prima di perdermi altro tempo, o di abbandonarti come 
+                        disperati, ragion vuole ch’io creda se mai si possa avere agiuto d’altronde, anche a costo di romper le tasche a un amico. Bada per altro di non affaticarti a cercare: dimmi 
+                        semplicemente se tra i tuoi appunti è menzionato per caso questa composizione. Non è difficile punto, trattandosi di roba che par composta nelle province meridionali, che non 
+                        esistono altre copie, all’infuori di quella che ha servito a me.</p>
+                    <p>Se un articolo breve ti fa più comodo che un lungo, darò una canzone di <persName type="author" ref="#AdF">Antonio da Ferrara</persName>, in una lezione che a me par veramente originale e che giova a rischiarare 
+                        le condizioni della lingua scritta nel secolo XIV. E se mai, per la difficoltà delle illustrazioni necessarie, <pb/> dovrò indugiare la pubblicazione del <title ref="#serventese">serventese</title>, 
+                        e in grazia sua anche di un cantare che gli dovrebbe far da compagno, manderò certi <title ref="#favole">favole in francese</title>, tratti da un ms. 
+                        ambrosiano, insieme con un’introduzione che ha tutti i difetti, salvo quello d’esser troppo breve. A quest’ultima scelta mi appiglierò peraltro solo in caso di assoluta 
+                        necessità, giacché questo lavoro era già da un pezzo destinato alla <title ref="#ZrP">Zeitschrift</title>.</p>
+                    <p>E fin dal Luglio si trovava sotto fascia e stava per partire, quando mi accorsi di certi riscontri, che mi costringevano a ripigliare fra le mani l’introduzione, 
+                        e a procurarmi nuovi materiali.</p>
+                    <closer>
+                        <salute> Scusa la seccatura, e vogli bene Al tuo aff.mo</salute> 
+                        <signed><persName ref="#PR"><expan><abbr>P</abbr><am>.</am><ex>io</ex></expan> Rajna</persName></signed>
+                    </closer>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

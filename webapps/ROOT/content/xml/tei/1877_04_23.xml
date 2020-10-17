@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ernesto Monaci a Pio Rajna, 23 aprile 1877</title>
+                <editor role="transcription"><persName>Alessia Di Virgilio</persName></editor>
+                <editor role="encoding"><persName>Laura Pireddu</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2020-03-17"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl><bibl>Alessia Di Virgilio, <title>Carteggio Monaci - Rajna (1873-1877)</title>, tesi di laurea, Sapienza Università di Roma, a.a. 2018-2019</bibl></listBibl>
+                <msDesc>
+                    <msIdentifier><repository>Biblioteca Marucelliana di Firenze.</repository></msIdentifier>
+                    <msContents><summary corresp="#letter">Lettera di Ernesto Monaci a Pio Rajna del 23 aprile 1877</summary></msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#roma">Roma</placeName>
+                    <date when="1877-04-23"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#PR">Pio Rajna</persName>
+                    <placeName ref="#sconosciuto">?</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                    <opener><dateline><placeName ref="#roma">Roma</placeName> <date when="1877-04-23">23 aprile 1877</date></dateline>
+                        <salute>Mio caro <persName ref="#PR">Rajna</persName></salute></opener>
+                    <p>Saprai dalla <orgName ref="#DiezSt">Diez-Stiftung</orgName>, della contro- proposta dello <persName ref="#HS">Schuchardt</persName>, e forse anche avrai letto alcune righe mie, inserite dell’<title ref="#O"><hi rend="underline">Opinione</hi></title>, su questa vertenza. 
+                        Anch’io stavo per l’idea che il comitato berlinese dovesse trasformarsi in comitato internazionale. Ma è avvenuto che l’<persName ref="#GIA">Ascoli</persName> mi ha proposto di unirsi a lui in un <hi rend="underline">sotto</hi>-comitato <expan><abbr>ital</abbr><am>.</am><ex>iano</ex></expan>
+                        – Io non gli ho dissimulato che avrei preferito un’altra formula, e ho lasciato a lui giudicare, se, dopo ciò che avevo scritto nella <title ref="#O"><expan><abbr>Opin</abbr><am>.</am><ex>ione</ex></expan></title>, sarebbe stato conveniente che io facessi parte di cotesto sotto-comitato. 
+                        Ma in conclusione mi sono rimesso alla volontà dell’<persName ref="#GIA">Ascoli</persName>, sicuro ciò che deciderebbe lui, sarebbe certamente il meglio. Non appena però avevo mandato questa lettera, eccoti una lettera dello <persName ref="#HS"><expan><abbr>Schuch</abbr><am>.</am><ex>ardt</ex></expan></persName>, 
+                        il quale mi annunzia la formazione del comitato <placeName ref="#wien">Viennese</placeName> <hi rend="underline">indipendente</hi> e mi sollecita a fare altrettanto in <placeName ref="#italia">Italia</placeName>. Rispondo subito che avevo dato la mia parola all’<persName ref="#GIA">Asco<pb break="no"/>li</persName>, e che bisognava innanzi tutto 
+                        inserire l’<persName ref="#GIA">Ascoli</persName>. Sicuro del consenso dell’<persName ref="#GIA">Ascoli</persName>, avrei fatto il mio potere. Allora eccoti un’altra lettera dello <persName ref="#HS"><expan><abbr>Schuch</abbr><am>.</am><ex>ardt</ex></expan></persName> per dirmi che l’<persName ref="#GIA">Ascoli</persName> 
+                        <quote>cedendo alle sue fervorose ed oneste esortazioni, aveva ringraziato alla istituzione del Sotto-Comit.</quote>, e qui aggiungere caldissime parole affinché si pubblicasse presto un programma italiano. – che fare io in questa stretta? – Già prima di questa seconda lettera dello <persName ref="#HS"><expan><abbr>Sch</abbr><am>.</am><ex>uchardt</ex></expan></persName>, 
+                        avevo scritto di nuovo all’<persName ref="#GIA"><expan><abbr>A</abbr><am>.</am><ex>scoli</ex></expan></persName> annunciandogli quanto lo <persName ref="#HS"><expan><abbr>Sch</abbr><am>.</am><ex>uchardt</ex></expan></persName> mi aveva partecipato nella sua prima. Ma dall’<persName ref="#GIA">Ascoli</persName> non ho avuto nessuna risposta.
+                        Ha dunque rinunziato definitivamente alla istituzione Del Sotto-<expan><abbr>Comit</abbr><am>.</am><ex>ato</ex></expan>? E si formerà il <expan><abbr>Comit</abbr><am>.</am><ex>ato</ex></expan> Italiano? Se è così, fin d’ora ti mando la tua adesione. In caso contrario, ti prego di darmi qualche notizia, tanto che io possa dare 
+                        allo <persName ref="#HS"><expan><abbr>Schuch</abbr><am>.</am><ex>ardt</ex></expan></persName> una risposta definitiva; risposta che finora non posso dare, ignorando che pensi l’<persName ref="#GIA">Ascoli</persName>, al quale intendo di tenermi legato. Scusa del modo come <pb/> ti ho scritto per la prescia indiavolata che ho.</p>
+                    <closer><salute>Voglimi bene e credimi sempre il tuo</salute>
+                        <signed><persName ref="#EM">E. Monaci</persName></signed>
+                  </closer>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>
+

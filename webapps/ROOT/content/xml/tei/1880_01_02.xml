@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ernesto Monaci a Graziadio Isaia Ascoli, 2 gennaio 1880</title>
+                <editor role="transcription"><persName>Chiara Maria Calcagni</persName></editor>
+                <editor role="encoding"><persName>Margherita Filippozzi</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2020-03-31"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl><bibl>Chiara Maria Calcagni, <title>Lettere scelte dal carteggio Ascoli-Monaci (1880/1906): trascrizione e commento</title>, tesi di laurea, Sapienza Università di Roma, a.a. 2018-2019</bibl></listBibl>
+                <msDesc>
+                    <msIdentifier><repository>Archivio Graziadio Isaia Ascoli, Biblioteca dell’Accademia Nazionale dei Lincei e Corsiniana, Roma.</repository> <idno>Carteggio 46, lettera 175/2.</idno></msIdentifier>
+                    <msContents><summary corresp="#letter">Lettera di Ernesto Monaci a Graziadio Isaia Ascoli del 2 gennaio 1880, riguardante materiali scelti per un’antologia di antichi testi umbri.</summary></msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#roma">Roma</placeName>
+                    <date when="1880-01-02"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#GIA">Graziadio Isaia Ascoli</persName>
+                    <placeName ref="#sconosciuto">?</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                    <opener><dateline><placeName ref="#roma">Roma</placeName>. <date when="1880-01-02">2 del 1880</date></dateline>
+                        <salute>Mio carissimo signore</salute></opener>
+                    <p>a quest’ora Ella avrà dato già uno sguardo sui fogli che Le spedii, e tremo del giudizio che forse avrà pronunziato di me.
+                        Sento di meritare da Lei ogni rimprovero, ma nello stesso tempo non vorrei che Ella attribuisse a trascurataggine e a negligenza il non aver fatto sinora se non così poco per l’<title ref="#antper">Antologia perugina</title>. 
+                        Il tempo avuto, per altri forse bastevole, è stato, corto per me;
+                        non solo a cagione dei molti materiali da vedere per farne la scelta, e della difficoltà di accedere alle fonti necessarie, ma anche a cagione dei miei occhi che da varj mesi si trovano in condizioni punto buone e mi obbligano a interrompere bene spesso il lavoro.
+                        Tuttavia se Ella crede che aggiungendo o togliendo o corregendo, secondo il suo avviso, io possa riuscire a compiere l’<title ref="#antper">Antologia</title>, sia certo che io mi tengo ben contento di occuparmene, considerando la mia maggior fortuna il poter eseguire un lavoro sotto la sua direzione.
+                        Con questa speranza le aggiungo qui che fra tre giorni Le spedirò altre cinque o sei composizioni (<title ref="#laudadisciplinati">Laude dei disciplinati</title>), le quali, a parer mio, potrebbe formare il principio della raccolta, insieme alla <title ref="#laudapassione">Lauda della passione</title> che Ella troverà fra i testi che già mandai.
+                        Di quella <title ref="#laudapassione">lauda</title> non potei mandare una copia fatta da me, perché non ho ancora potuto ottenere il trasferimento del <title type="manuscript" key="Codice perugino">codice perugino</title> in <placeName ref="#roma">Roma</placeName>, sebbene da più tempo e più volte promessomi.
+                        La copia è del <persName ref="#LM">Manzoni</persName>, la ripassai qua e la, e al momento di stamparla, se non potrò collazionarla io stesso sul <title type="manuscript" key="Codice perugino">codice</title>, la farò collazionare a <persName ref="#AR"><expan><abbr>A</abbr><am>.</am><ex>damo</ex></expan> Rossi</persName>.
+                        Circa la seconda parte dell’<title ref="#antper">Antologia</title>, che potrebbe contenere testi della provincia, Le mando qui unita la lista dei documenti in parte raccolti e in parte aspettati.
+                        Ella veda se son pochi o troppi, o se potessero essere meglio scelti. Appena fissata la serie, e quindi la numerazione dei testi, compilerei un glossario-indice delle voci meno chiare.
+                        Quanto poi agli spogli grammaticali dovrei darli a mo’ di "Annotazioni" come Ella fece sui <title>Testi Friulani</title>?
+                        Ma quelle si riconnettono al I dell’<title ref="#AGI">Archivio</title>, ed io mi troverei molto imbrogliato, senza la sua guida, a pur tentare questa parte.</p>
+                    <closer><salute>Mi voglia bene, mio carissimo signore, e mi creda sempre</salute> 
+                        <salute>il Suo <expan><abbr>dev</abbr><am>.</am><ex>otissi</ex><abbr>mo</abbr></expan> e <expan><abbr>aff</abbr><am>.</am><ex>ezionatissi</ex><abbr>mo</abbr></expan></salute>
+                        <signed><persName ref="#EM"><expan><abbr>E</abbr><am>.</am><ex>rnesto</ex></expan> Monaci</persName></signed></closer>                    
+                </div>
+                <div type="textpart" subtype="enclosure">
+                    <p>Provincia di <placeName ref="#perugia">Perugia</placeName></p>
+                    <p><placeName ref="#assisi"><hi rend="underline">Assisi</hi></placeName></p>
+                    <p>1. <title ref="#cantico"><hi rend="underline">Cantico del Sole</hi></title><hi rend="underline"> di </hi><persName type="author" ref="#francesco"><hi rend="underline"><expan><abbr>S</abbr><am>.</am><ex>an</ex></expan> Francesco</hi></persName>, secondo il <title type="manuscript" key="Codice assisiate">codice più antico</title>, con le varianti degli altri due codici.
+                        Mi valgo perciò del materiale raccolto dal <persName>Bӧlener</persName>, essendo oggi smarrito il <title type="manuscript" key="Codice assisiate">codice assisiate</title>.</p>
+                    <p>2. <title ref="#laudadisciplinati"><hi rend="underline">Laude dei Disciplinati</hi></title>, secondo il <title type="manuscript" key="Codice Frondini/Manzoni">codice Frondini ora Manzoni</title>.</p>
+                    <p><placeName ref="#fabriano"><hi rend="underline">Fabriano</hi></placeName></p>
+                    <p>1. <title ref="#laudadisciplinati"><hi rend="underline">Laude dei Disciplinati</hi></title>, secondo il cod. già copiato dal <persName ref="#EM1">Molteni</persName>.</p> 
+                    <p>(Il <persName ref="#AZ">Zonghi</persName> di <placeName ref="#fabriano">Fabriano</placeName> mi ha ripetutamente promesso una copia di quel codicetto,
+                        ma finora non ebbi nulla, ora tornerò a fargliene premura, offrendogli in cambio una copia fatta da me dello <title>statuto</title> di <expan><abbr>S</abbr><am>.</am><ex>an</ex></expan> Donato, paesello vicino a <placeName ref="#fabriano">Fabriano</placeName>.
+                        A lui credo debba interessare quello <title>statuto</title>, e il codice si trova in mie mani.
+                        Non riuscendo poi ad avere tale copia, potei supplicare con qualcuna delle <rs type="topic" key="Lauda">Laude</rs> o degli altri testi fabrianesi, ultimamente editi dallo <persName ref="#AZ">Zonghi</persName> medesimo.)</p>
+                    <p><placeName ref="#foligno"><hi rend="underline">Foligno</hi></placeName></p>
+                    <p>1. <hi rend="underline">Frammento di uno </hi><title><hi rend="underline">Statuto volgare del sec. XIV</hi></title>. (Da una copia che me ne procurò il <persName ref="#AR"><expan><abbr>A</abbr><am>.</am><ex>damo</ex></expan> Rossi</persName>.)</p>
+                    <p>2. Un passo del <title><hi rend="underline">Laudiverio</hi></title>. (Si potrebbe mettere a profitto due codici non adoperati nelle edizioni del 1775.)</p>
+                    <p>3. <rs type="topic" key="Agiografia"><title><hi rend="underline">Leggenda di San Feliciano</hi></title></rs> patrono di <placeName ref="#foligno">Foligno</placeName>. (È un testo del secolo XV(?), in 8va rima, del quale aspetto copia, non avendo trovato mezzo di far trasferire il Cod. in <placeName ref="#roma">Roma</placeName>.)</p>
+                    <p><placeName ref="#sansepolcro"><hi rend="underline">San Sepolcro</hi></placeName></p>
+                    <p>1. <title ref="#laudadisciplinati"><hi rend="underline">Laude dei Disciplinati</hi></title>. (Da un codice del sec. XIV descritto dal <persName ref="#FC">Corazzini</persName> <title ref="#appunti"><hi rend="underline">Appunti <expan><abbr>stor</abbr><am>.</am><ex>ici</ex></expan> e <expan><abbr>filol</abbr><am>.</am><ex>ogici</ex></expan> su la valle tiberina superiore</hi></title>. 
+                        Se non potrò avere il codice in <placeName ref="#roma">Roma</placeName>, ne avrò copia dal <persName ref="#FC">Corazzini</persName> medesimo.)</p>
+                    <p>2. <title><hi rend="underline">Statuti di <expan><abbr>S</abbr><am>.</am><ex>an</ex></expan> Sepolcro</hi></title> del sec. XIV. Anche di questi come di</p>
+                    <p>3. <hi rend="underline">Carte</hi> dei sec. XV e XVI spero comunicazioni del <persName ref="#FC">Corazzini</persName>.</p>
+                    <p><placeName ref="#castello"><hi rend="underline">Città di Castello</hi></placeName></p>
+                    <p>1. <hi rend="underline">Vari <rs type="topic" key="Sonetto">sonetti</rs></hi> del sec. XIV già copiati dal <title type="manuscript" key="Codice Barberino">codice Barberino dei Poeti perugini</title>.</p>
+                    <p><placeName ref="#nocera"><hi rend="underline">Nocera</hi></placeName></p>
+                    <p>1. <title ref="#profezie"><hi rend="underline">Profezia o Serventese</hi></title><hi rend="underline"> del <expan><abbr>b</abbr><am>.</am><ex>eato</ex></expan> </hi><persName type="author" ref="#tommasuccio"><hi rend="underline">Tommasuccio Unzio</hi></persName> (sec. XIV).
+                        Oltre l’antica edizione, posso mettere a profitto dei codici esistenti in <placeName ref="#roma">Roma</placeName>.</p>
+                    <p><placeName ref="#todi"><hi rend="underline">Todi</hi></placeName></p>
+                    <p>1. Qualche poesia di <persName type="author" ref="#jacopone">Jacopone</persName> (Mi varrei della edizione romana del <persName type="author" ref="#IS">Salviano</persName>, parendomi che conservi un testo migliore di molti codici da me veduti.)</p>
+                    <p><placeName ref="#santangelo"><hi rend="underline">Monte sant’Angelo</hi></placeName></p>
+                    <p>1. <rs type="topic" key="Sonetto">Sonetti</rs> dal <title type="manuscript" key="Codice Barberino">Cod. Barber. dei Poeti perugini</title>.</p>
+                    <p><placeName ref="#pierile"><hi rend="underline">Pierile</hi></placeName> (nell’antico contado di <placeName ref="#perugia">Perugia</placeName>.) 1. <rs type="topic" key="Sonetto">Sonetti</rs> dal <title type="manuscript" key="Codice Barberino">Cod. Barber.</title> predetto.</p>
+                    <p><placeName ref="#gubbio"><hi rend="underline">Gubbio</hi></placeName></p>
+                    <p>1. <persName type="author" ref="#bosone">Bosone</persName>: a) <rs type="topic" key="Sonetto">Sonetti</rs> dal <title type="manuscript" key="Codice Barberino">Cod. Barber.</title>;
+                        b) <title>Poemetto in terza rima sulla discordia fra turchi e Cristiani</title> edito già dall’<persName ref="#LA">Allacci</persName> e da me riveduto sull’antico ms.</p> 
+                    <p>2. <title ref="#laudadisciplinati">Lauda</title> tratta da un codicetto dei Disciplinati di <placeName ref="#gubbio">Gubbio</placeName>.</p>
+                    <p>3. Saggio di un cod. eugubrino della <title ref="#fiorita">Fiorita d’Italia</title> d’<persName type="author" ref="#armannino">Armannino</persName>.</p>
+                    <p><placeName ref="#maselica"><hi rend="underline">Maselica</hi></placeName> 1. Frammento di <rs type="topic" key="Lauda">Lauda</rs> del sec. XIII.</p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

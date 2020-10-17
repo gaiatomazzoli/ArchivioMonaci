@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Graziadio Isaia Ascoli a Ernesto Monaci, 11 febbraio 1896</title>
+                <editor role="transcription"><persName>Chiara Maria Calcagni</persName></editor>
+                <editor role="encoding"><persName>Laura Pireddu</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2020-04-07"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl><bibl>Chiara Maria Calcagni, <title>Lettere scelte dal carteggio Ascoli-Monaci (1880/1906): trascrizione e commento</title>, tesi di laurea, Sapienza Università di Roma, a.a. 2018-2019</bibl></listBibl>
+                <msDesc>
+                    <msIdentifier><repository>Archivio Monaci, Società Filologica Romana, presso il Dipartimento di Studi Europei, Americani e Interculturali, Sapienza, Università di Roma.</repository> <idno>Busta n. 1, fascicolo 49, lettera LXXXIII.</idno></msIdentifier>
+                    <msContents><summary corresp="#letter">Lettera di Graziadio Isaia Ascoli a Ernesto Monaci dell’11 febbraio 1896.</summary></msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#GIA">Graziadio Isaia Ascoli</persName>
+                    <placeName ref="#milano">Milano</placeName>
+                    <date when="1896-02-11"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#sconosciuto">?</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                    <opener><dateline><placeName ref="#milano"><expan><abbr>Mil</abbr><am>.</am><ex>ano</ex></expan></placeName>, <date when="1896-02-11">11.2.96</date></dateline></opener>
+                    <p>Collega onorandissimo. Nuovamente La ringrazio, e di vivo cuore, per le sue premure affettuose. Il ricorrere al Consiglio di Amministrazione, 
+                        che ad ogni modo sarebbe parso anche a me un partito poco opportuno, contravverrebbe poi assolutamente alla ferma intenzione che ora il 
+                        <persName ref="#CG">Giacomino</persName> manifesta, com’Ella può vedere dalla lettera che mi permetto di compiegarle e ch’Ella non si disturberà a restituirmi. 
+                        Dunque lasciamo andare il <expan><abbr>Cons</abbr><am>.</am><ex>iglio</ex></expan> di <expan><abbr>Amm</abbr><am>.</am><ex>inistazione</ex></expan>; 
+                        e circa il resto, s’avrà forse occasione di nuovi discorsi. Io sono a letto dal 27 dic. 95, non proprio per malattia, ma per certe cure che mi vogliono applicare. 
+                        Perciò non avevo nessuno; e la corrispondenza, pure con gl’intimi, procede da una stanza all’altra, secondo che men male si possa. Questo le dico anche perché scusi 
+                        la forma della lettera del buon <persName ref="#CG">Giacomino</persName>. E sono coi sentimenti ch’Ella conosce,</p>
+                    <closer><salute>il div.mo e aff.mo Suo</salute>
+                        <signed><persName ref="#GIA">Ascoli</persName></signed>
+                    </closer>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

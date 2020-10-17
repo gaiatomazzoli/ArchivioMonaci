@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Cesare De Lollis a Ernesto Monaci, 11 giugno 1887</title>
+                <editor role="transcription"><persName>Margherita Filippozzi</persName>, <persName>Debora Matteo</persName></editor>
+                <editor role="encoding"><persName>Margherita Filippozzi</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2020-05-01"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl><bibl>Debora Matteo, <title>Itinerario di un carteggio</title>, tesi di laurea, Sapienza Università di Roma, a.a. 2017-2018</bibl></listBibl>
+                <msDesc>
+                    <msIdentifier><repository>Archivio Monaci, Società Filologica Romana, presso il Dipartimento di Studi Europei, Americani e Interculturali, Sapienza, Università di Roma.</repository> <idno>Busta n. 8, fascicolo 394.</idno></msIdentifier>
+                    <msContents><summary corresp="#letter">Lettera di Cesare De Lollis a Ernesto Monaci, priva di anno, ma attribuibile al 1887, per il riferimento, in essa contenuto, all'insegnamento di storia presso la scuola secondaria superiore a Cremona.</summary></msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#CDL">Cesare De Lollis</persName>
+                    <placeName ref="#cremona">Cremona</placeName>
+                    <date when="1887-06-11"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#EM">Ernesto Mnaci</persName>
+                    <placeName ref="#sconosciuto">?</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                    <opener><salute>Egregio Sig. Professore,</salute></opener>
+                    <p>Ho ricevuta la sua carissima e lì per lì ho avuta l’intenzione di risponderle due righe:
+                        ma non ho potuto cogliere un minuto di tempo libero per farlo.</p>
+                    <p>Conosco troppo bene il suo cuore, per attribuire ad altro che a ragioni da Lei indipendenti il Suo silenzio.
+                        Ad ogni modo me ne ha lautamente compensato con quella lunga e buona lettera. La ringrazio tanto e poi tanto delle buone speranze che mi dà:
+                        tanto più che vedo come mi è impossibile proseguire a questo modo.
+                        Ella non può immaginare la fatica enorme che io fo, per rispondere degna<pb break="no"/>mente all’obbligo pericoloso assuntomi di fare lo storico. Ci riesco così così.
+                        S’immagini che si tratti di percorrere tutta la <rs type="topic" key="Storia">storia, dalle <hi rend="underline">origini</hi> dell’<hi rend="underline">uomo</hi> al <hi rend="underline">1878</hi></rs>.
+                        È una fuga vertiginosa di personaggi che dà il capogiro: è tale una farragine di date, di luoghi e di avvenimenti che non ci sarebbe proprio da stupire
+                        se un povero discepolo confondesse <persName ref="#VE">Vittorio Emanuele</persName> con Nabuccodonosor.  
+                        Per me poi, tra le 15 ore di lezione per ogni settimana e tutto il lavoro di preparazione, non mi resta il tempo, non dico già per lavorare per mio conto, ma per mangiare e dormire.
+                        Se avessi la <rs type="topic" key="Letteratura italiana">letteratura italiana</rs>, sarebbe meno male: ma non dubito che allora vorrei far le cose ancora più coscienziosamente e mi troverei sempre nel caso di non avere un minuto a mia disposizione.</p>
+                    <pb/><p>All’autorità scolastica di qui ho già dichiarato esplicitamente che io non tornerò l’anno venturo. D’altronde, spero che al Ministero non vorranno affatto mancarmi di parola.</p>
+                    <p>Io non mi sento da lasciar Roma: questo è il fatto. Condannarmi per tutta la vita all’insegnamento secondario, senza sentire la speranza di uscirne, è cosa troppo tremenda.</p>
+                    <p>Farò il possibile, per ficcarmi dovunquesiasi, a <placeName ref="#roma">Roma</placeName>: spero che Ella vorrà anche in codesto porgermi il suo valido e benevolo aiuto.</p>
+                    <p>E appunto per <hi rend="underline">brigare</hi>, sarò in <placeName ref="#roma">Roma</placeName> appena finiti gli esami. Non si maravigli se dico <hi rend="underline">brigare</hi>: Ella sa come vanno le cose in burocrazia.</p>
+                    <p>Avrò la fortuna di rivederla subito a <placeName ref="#roma">Roma</placeName>? M’immagino sarà a <placeName ref="#anzio">Porto d’An<pb break="no"/>zio</placeName>:
+                        ma o Ella capiterà a <placeName ref="#roma">Roma</placeName>, o a me non sarà impossibile fare una sfuggita a <placeName ref="#anzio">Porto d’Anzio</placeName>, come altre volte ho fatto.</p>
+                    <p>Mi ha scritto l’altro giorno lo <persName ref="#CC1">Chabaneau</persName> ricordandomi e raccomandandomi il <title>Canzoniere A</title>. Ha Ella trovato il tempo per mettere insieme un altro fascicolo?
+                        Il <persName ref="#LAC">marchese di Valmar</persName> mi ha scritto anche qui, domandandomi l’intero volume da cui io avevo stralciato la <hi rend="underline">brochure</hi> contenente la <title ref="#alfonsoX">ricerca su <persName type="author" ref="#alfonso">Alfonso X</persName></title>.
+                        Il <persName ref="#LAC">marchese</persName> non si era accorto che si trattava d’un periodico.</p>
+                    <p>Quanto alle <rs type="topic" key="Abruzzese"><hi rend="underline">Ricerche abruzzesi</hi></rs> mi atterrò fedelmente alle sue Sue prescrizioni. 
+                        Avrei piacere mi si desse anzi maggior tempo che Lei non mi dica nella Sua:
+                        giacché non so, se in Luglio, con questa novantina di studenti da esaminare, potrò attendere a nulla.</p>
+                    <pb/><p>Mi fermo qui, accortomi di avere invaso un altro foglietto. Ancora una volta me Le raccomando, perché mi tenga presente se Le capita una via qualunque di suggerirmi per tornare e fermarmi a <placeName ref="#roma">Roma</placeName>.</p>
+                    <p>Di nuovo intanto, mille ringraziamenti per la buona memoria che resta di me esule.
+                        Della sua salute non mi ha detto nulla: voglio perciò credere ciò che desidero: che cioè Ella sia completamente ristabilito.</p>
+                    <closer><salute>Mi creda il Suo <expan><abbr>aff</abbr><ex>ezionatissi</ex><abbr>mo</abbr></expan> e <expan><abbr>de</abbr><ex>votissi</ex><abbr>mo</abbr></expan> discepolo</salute>
+                        <signed><persName ref="#CDL">Cesare de Lollis</persName></signed>
+                        <dateline><placeName ref="#cremona">Cremona</placeName> <date when="1887-06-11">11 giugno</date></dateline></closer>                    
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ernesto Monaci a Pio Rajna, 10 aprile 1876</title>
+                <editor role="transcription"><persName>Alessia Di Virgilio</persName></editor>
+                <editor role="encoding"><persName>Virginia Machera</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2020-03-27"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl><bibl>Alessia Di Virgilio, <title>Carteggio Monaci - Rajna (1873-1877)</title>, tesi di laurea, Sapienza Università di Roma, a.a. 2018-2019</bibl></listBibl>
+                <msDesc>
+                    <msIdentifier><repository>Archivio Pio Rajna, Biblioteca Marucelliana di Firenze.</repository> <idno>Lettera XXVI</idno></msIdentifier>
+                    <msContents><summary corresp="#postcard">Monaci a Rajna XXVI</summary></msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#roma">Roma</placeName>
+                    <date when="1876-04-10"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#PR">Pio Rajna</persName>
+                    <placeName ref="#sconosciuto">?</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                    <opener>
+                        <dateline><placeName ref="#roma">Roma</placeName>, <date when="1876-04-10">10 Aprile 1876</date></dateline>
+                        <salute>Mio carissimo <persName ref="#PR">Rajna</persName></salute></opener>
+                    <p>Comprendo bene la tua titubanza. Ma se ciascuno di noi non concorre in un modo o in un altro a mandare innanzi l’impresa, sai tu che accadrà? Che il <persName ref="#NZ">Zanichelli</persName> per mettere fuori volumi ad ogni costo, ora specialmente che ha fatto fondere a posta nuovi caratteri ecc… si rivolgerà ad altre persone più facili e meno scrupolose di noi, e così sarà in luce di quella solita roba per cui l’impresa andrà a picco ben presto, e diventerà sempre più difficile in avvenire l’attuazione del disegno che ora noi vagheggiamo. Anch’io fra la Rivista e le Communicazioni e la scuola non avrei davvero tempo da pensare alla <hi rend="underline">Biblioteca</hi>. Contuttociò appena intesi da <persName ref="#LM">Manzoni</persName> che volevasi fare questa nuova pubblicazione, mi persuasi che a nessun costo conveniva tirarsene fuori, e che anzi bisognava far di tutto perché la cosa si svolgesse secondo le nostre idee. Per questo corsi subito a bussare alla porta dei migliori e, perché si faccia, sono pronto per mia parte a mettere quanto potrò. </p>
+                    <p>Disgraziatamente, ciò che, secondo me, abbisogna in questo momento, non è in poter mio. Parlo di un lavoro da pubblicarsi quale 1° volume. Fare piani e programmi mi pare superfluo o almeno prematuro. E tengo che / la meglio sarebbe dare un volume di saggio, solo accompagnandolo con una breve avvertenza in cui fosse detto che in quello stesso formato e con quel metodo istesso si vorrebbe pubblicare una scelta serie di autori italiani dei primordj della letteratura fino al sec. XVI (o XVII?), e che le pubblicazioni saranno fatte secondo la scelta e la direzione di un consiglio composto dei saggi … </p>
+                    <p> Ora, il <persName ref="#ADA">D’Ancona</persName> mi disse che pel momento non poteva mettere lavori. Al <persName ref="#AM">Mussafia</persName>, atteso il suo stato di salute, non era certo al momento di chiederne. Scrissi al <persName ref="#AB">Bartoli</persName> che una volta mi aveva parlato di lavori suoi sul <title ref="#novellino"><hi rend="underline">Novellino</hi></title>, e gli proposi una edizione di questo che sarebbesi potuta fare raccogliendo anche i lavori di <persName ref="#ADA">D’Ancona</persName> per le illustrazioni, e le varianti dei testi messe assieme dal <persName ref="#GPap">Papanti</persName>. Ma <persName ref="#AB">Bartoli</persName> mi ha risposto che per ora non si può pensare al <title ref="#novellino">Novellino</title>. Provo con <persName ref="#PR">Rajna</persName> e <persName ref="#PR">Rajna</persName> mi dice ‘’non contare su me’’. – intanto <persName ref="#LM">Manzoni</persName> mi scrive che i caratteri ordinati a Renè di Parigi stanno per arrivare, e che allestisca materie per un volume; e poi mi aggiunge: “se ti mancano lavori potrò trovare qualche cosa anche io’’. Ed io so da quali polli è circondato, mi spavento e dico fra me / che ne non giungo in tempo l’affare è spicciato…</p>
+                    <p>Se dunque tu non puoi dare nulla per ora, non avresti almeno in veduta qualcuno da presentare? <persName ref="#LM">Manzoni</persName> mi aveva pure domandato se era possibile fare una 2° edizione della <title ref="#vitanuova"><hi rend="underline">Vita Nova</hi></title> pubblicata da <persName ref="#ADA">D’Ancona</persName> e da te. Sarebbe cosa eccellente, ed ora che il <persName ref="#JHFKW">Witte</persName> ne ha data una anche lui, forse non vi mancherebbe l’opportunità di qualche bella sicurissima critica. Basta; io non aggiungo altro. Ti ho detto come stanno le cose, e spero qualche buono ufficio da te.</p>
+                    <closer><salute>Addio, voglimi sempre bene. Tuo</salute> <signed><persName ref="#EM">E. Monaci</persName></signed></closer>
+                    <postscript><p>P.S Quanto alla parola <hi rend="underline">Classica</hi> sta benissimo di esiliarla. Si potrebbe porre <hi rend="underline">Nuova Biblioteca Italiana</hi>, e ciò comprenderebbe classici e non classici, <foreign>bestia et universa pecora</foreign>.</p></postscript>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>
