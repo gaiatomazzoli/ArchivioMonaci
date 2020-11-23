@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Titolo corso</title>
+                <editor role="transcription"><persName>Nome Cognome</persName></editor>
+                <editor role="encoding"><persName>Nome Cognome</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2020-01-30"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl><bibl>Eventuali riferimenti bibliografici</bibl></listBibl>
+                <msDesc>
+                    <msIdentifier><repository>Archivio Monaci, Società Filologica Romana, presso il Dipartimento di Studi Europei, Americani e Interculturali, Sapienza, Università di Roma.</repository> <idno>Busta n. ..., fascicolo ....</idno></msIdentifier>
+                    <msContents><summary corresp="#notes">Breve sintesi dei contenuti del corso.</summary></msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="section" n="1">
+                    <head>...</head>
+                    <p>...</p>
+                </div>
+                <div type="textpart" subtype="section" n="2">
+                    <head>...</head>
+                    <p>...</p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

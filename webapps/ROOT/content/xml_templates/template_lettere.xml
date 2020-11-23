@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Titolo della lettera</title>
+                <editor role="transcription"><persName>Nome Cognome</persName></editor>
+                <editor role="encoding"><persName>Nome Cognome</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2020-02-26"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl><bibl>Eventuali riferimenti bibliografici</bibl></listBibl>
+                <msDesc>
+                    <msIdentifier><repository>Archivio Monaci, Società Filologica Romana, presso il Dipartimento di Studi Europei, Americani e Interculturali, Sapienza, Università di Roma.</repository> <idno>Busta n. ..., fascicolo ..., lettera ....</idno></msIdentifier>
+                    <msContents><summary corresp="#letter">Breve sintesi del contenuto della lettera.</summary></msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#">Nome Cognome mittente</persName>
+                    <placeName ref="#">Luogo d’invio</placeName>
+                    <date when="1900-01-01"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#">Nome Cognome destinatario</persName>
+                    <placeName ref="#">Luogo di ricezione</placeName>
+                    <date when="1900-01-01"/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                    <opener>...</opener>
+                    <p>...</p>
+                    <closer>...</closer>
+                    <postscript><p>....</p></postscript>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>
