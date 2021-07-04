@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Edmund Stengel a Ernesto Monaci</title>
+                <editor role="transcription"><persName>Maria Spadoni</persName></editor>
+                <editor role="encoding"><persName>Francesca Romana Cacciatori</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2021-05-15"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <bibl>Maria Spadoni, <title>Le lettere di Edmund Stengel a Ernesto Monaci
+                            (Lettere, cartoline e comunicazioni editoriali in italiano scritte da
+                            Edmund Stengel a Ernesto Monaci</title></bibl>
+                </listBibl>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Archivio Monaci, Società Filologica Romana, presso il
+                            Dipartimento di Studi Europei, Americani e Interculturali, Sapienza,
+                            Università di Roma.</repository>
+                        <idno>Busta n. 24, fascicolo 1258, cartolina...</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary corresp="#letter">Edmund Stengel a Ernesto Monaci</summary>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#EMS">Edmund Stengel</persName>
+                    <placeName ref="#germania">Germania</placeName>
+                    <!--bollo postale illeggibile-->
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#sconosciuto">?</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                    <opener>Ti riscrivo ben brevemente ,</opener>
+                    <p>ma non ho piu tempo.Non m’indichi il titolo del Tuo corso di 4 anni. Sospetto
+                        che sia “Grammatica delle lingue romanze” ove Historia di esse. In
+                        quest’ultimo io prendo le mosse dall latino antichissimo dimostrando al
+                        principio gli </p>
+                    <p>archaismi di questo in confronto al
+                                <expan><abbr>lat</abbr><am>.</am><ex>ino</ex></expan> Classico ma
+                        soltanto in quanto si sono continuati nelle lingue romanza, poi studio le
+                        innovazioni dell’antichissimo basso-latino come si riflette nel
+                            <unclear>Plantus</unclear> ( c’è una dissertazione dello <title
+                            ref="#SC">Schmiliusby</title> che giova molto per cio) ma anche qui
+                        lascio da parte tutto che non importa per le lingue romanze e così via. Lo
+                            <persName ref="#HS">Schuchardt</persName>, <unclear>Corsenn</unclear> sono di
+                        grande ajuto. Ma si deve rinunciare di dare qualche cosa di completo la
+                        prima volta. <title ref="#GRF">Le gloses de Rosihenne</title> sono pubblicate
+                        dal <unclear>Kolzuann Germania VIII Diez Altroni Glossare p. 7 e dal Meyer
+                            Reckeil d’anc textes N°20</unclear>. Non mi sono mai</p>
+                    <p>occupato dei Vaganti perciò non posso indicarti altre opere sopra essi. Le
+                        copie delle poesie <expan><abbr>prov</abbr><am>.</am><ex>enzali</ex></expan>
+                        non hanno troppa Fretta. Scriverò al <persName ref="#HES">Suchier</persName>
+                        , il quale non è chiamato A <placeName ref="#graz">Graz</placeName>, avrà
+                        avuto soltanto una domanda preliminaria come io, e ho sentito una settimana
+                        fa che fra altri sono proposto anch’io dalla facoltà Però non ho nessuna
+                        notizia ufficiale. Mi rallegro del Tuo successo in <placeName
+                            ref="#portogallo">Portugallo</placeName>. Speriamo che ben presto avrai
+                        la catedra regolare di <placeName ref="#roma">Roma</placeName>. Non farò
+                        obiezioni contra l’Annuario se Tu credi bene di poterlo continuare. Salutami
+                        bene il <persName ref="#UC">Canello</persName> e la Tua famiglia.</p>
+                    <closer>Sempre il Tuo <lb/><expan><abbr>E</abbr><am>.</am><ex>dmund</ex></expan>
+                        Stengel </closer>
+                    <postscript>
+                        <p>Che dici delle mie inserzioni sulla <lb/>metrica delle poesie populari
+                            del <lb/><title ref="#cantos">Canz. Port.</title> ? </p>
+                    </postscript>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

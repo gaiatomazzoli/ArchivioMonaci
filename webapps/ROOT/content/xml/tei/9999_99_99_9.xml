@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Edmund Stengel a Ernesto Monaci</title>
+                <editor role="transcription"><persName>Maria Spadoni</persName></editor>
+                <editor role="encoding"><persName>Francesca Romana Cacciatori</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2021-05-17"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <bibl>Maria Spadoni, <title>Le lettere di Edmund Stengel a Ernesto Monaci
+                            (Lettere, cartoline e comunicazioni editoriali in italiano scritte da
+                            Edmund Stengel a Ernesto Monaci</title></bibl>
+                </listBibl>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Archivio Monaci, Società Filologica Romana, presso il
+                            Dipartimento di Studi Europei, Americani e Interculturali, Sapienza,
+                            Università di Roma.</repository>
+                        <idno>Busta n. 24, fascicolo 1258, cartolina...</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary corresp="#letter">Edmund Stengel a Ernesto Monaci</summary>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#EMS">Edmund Stengel</persName>
+                    <placeName ref="#germania">Germania</placeName>
+                    <date/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#sconosciuto">?</placeName>
+                    <!--bollo postale illeggibile-->
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                    <opener><expan><abbr>C</abbr><am>.</am><ex>aro</ex><abbr>A</abbr><am>.</am><ex>mico</ex></expan></opener>
+                    <p>Era già per scriverti quando giungeva la tua Cartolina col Giornale. Si
+                        formerà dunqueun comitato italiano? Nel Tuo articolo non c’è ancora detto
+                        niente di preciso su questo punto. Chi riceverà le somme? Chi farà
+                        l’administratore? Il <persName ref="#AT">Tobler</persName> mi diceva che
+                        avendosi rivolto al <persName ref="#GIA">Ascoli</persName> non credette
+                        potersi rivolgere ad altri per raccogliere contribuzioni. L’<persName
+                            ref="#GIA">Ascoli</persName> sembra che non ha ancora fatto molto. Io
+                        adesso sto un po fra due poli aspettando ciò che ne uscirà. Prossimamente la
+                        nuova <title ref="#rivZRP">Zeitschrift fur rom. Philologie</title></p>
+                    <p>darà una prima lista di contributori. Il comitato di <placeName
+                            ref="#berlino">Berlino</placeName> continua dunque nelle sue funzioni ed
+                        io non potrò lungamente far il sordo alle insistenze sue senza rischiare
+                        delle interpretazioni che mi debbono spiacere. Se un secondo comitato si
+                        formerà costituito da persone che hanno l’autorità necessaria, credo che il
+                        comitato di <placeName ref="#berlino">Berlino</placeName> cederà almeno una
+                        parte delle somme da esso raccolte, poiche il <persName ref="#AT"
+                            >Tobler</persName> il quale è quello che ha tutto promosso e finora è
+                        l’anima del comitato, è huomo troppo ragionevole. Ti mando con questo una
+                        dissertazione dottorale di un mio scolare. Non è gran cosa, ma nemeno tutto
+                        inutile. <title ref="#giornaleAZ">Colla Allege. Zeitung</title> non ho più
+                        nessuna relazione. Del articolo sul Tuo <title ref="#cantos">Canzon.
+                            Portoghese</title> non ho ricevuto nemmeno una copia. Se vuole entrare
+                        in relazione il <expan><am>Dr.</am><ex>dottor</ex></expan>
+                        <unclear>Meynche</unclear> , deve scrivere direttamente alla direzione.</p>
+                    <closer>Addio. Tanti saluti del tuo
+                            <lb/><expan>E<am>.</am><ex>dmund</ex></expan>
+                        <expan>St</expan><am>.</am><ex>engel</ex>
+                    </closer>
+                    <!--<postscript>
+                        <p>....</p>
+                    </postscript>-->
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

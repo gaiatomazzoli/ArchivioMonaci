@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Edmund Stengel a Ernesto Monaci, 31 gennaio 1875</title>
+                <editor role="transcription"><persName>Maria Spadoni</persName></editor>
+                <editor role="encoding"><persName>Francesca Romana Cacciatori</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2021-04-30"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <bibl>Maria Spadoni, <title>Le lettere di Edmund Stengel a Ernesto Monaci
+                            (Lettere, cartoline e comunicazioni editoriali in italiano scritte da
+                            Edmund Stengel a Ernesto Monaci</title></bibl>
+                </listBibl>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Archivio Monaci, Società Filologica Romana, presso il
+                            Dipartimento di Studi Europei, Americani e Interculturali, Sapienza,
+                            Università di Roma.</repository>
+                        <idno>Busta n. 24, fascicolo 1258, lettera...</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary corresp="#letter">Edmund Stengel a Ernesto Monaci, 31 gennaio
+                            1875</summary>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#EMS">Edmund Stengel</persName>
+                    <placeName ref="#germania">Germania</placeName>
+                    <date when="1875-01-31"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#sconosciuto">?</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                    <opener>Carissimo mio,</opener>
+                    <p>Tante grazie per le tue congratulazioni cosi sincere. Le mie nozze non si
+                        faranno cosi presto come crederai, ma spero che avranno luogo se non c’è
+                        ostacolo verso la fine di luglio cioè alla fine dei corsi de’state. Faremo
+                        un viaggio probabilmente à <lb/><placeName ref="#paris">Parigi</placeName>
+                        ed io ci anderò solo nel mese di marzo per continuare le mie raccolte pel
+                            <persName ref="#bernart">Bernard da Ventadorn</persName>, Les Lotaringhi
+                        , <title ref="#ROL">Roland</title>. Il <persName ref="#KB"
+                            >Bartsch</persName> vuole dunque fare veramente la sua Raccolta di tutti
+                        lirici provenzali. Mi scrisse oggi domandandomi la copia del <persName
+                            ref="#bernart">Bernard</persName> dal <persName ref="#MN"
+                                    ><expan><abbr>N</abbr><am>.</am><ex>iemeyer</ex></expan></persName>
+                        cedutama dal <persName ref="#HES">Suchier</persName>, ma io l’ho rifiutato.
+                        Ho pubblicato una critica della sua <title ref="#KB"
+                                    ><expan><abbr>Chrest</abbr><am>.</am><ex>omathie</ex>
+                                <abbr>Prov</abbr><am>.</am><ex>ençale</ex></expan> Nella Jenaer
+                            Literatur zertung 1875 N° 4</title> nel quale ho detto francamente la
+                        mia opinione sul suo progetto:</p>
+                    <p>Ma dove resta il contratto col <persName ref="#AB">Bartoli</persName>, io non
+                        ne ho ricevuto niente Il <persName ref="#HES">Suchier</persName> si
+                        impazienta di non veder pubblicato il suo articolo sul <persName ref="#MN"
+                                    ><expan><abbr>N</abbr><am>.</am><ex>iemeyer</ex></expan></persName>
+                        Ho proposto al <persName ref="#AS">Stimming</persName> di far uno studio
+                        mirato sul <title type="manuscript" key="Riccardiano 2909">Q</title> e di
+                        farselo venire da <placeName ref="#firenze">Firenze</placeName>. Si potrebbe
+                        inserire come continuazionedei miei studj. Gli cederò tutti i miei appunti.
+                        Per altro ho paura che <persName ref="#AS">Stimming</persName> sia poco
+                        pratico, almeno è assai imprudente di venire a <placeName ref="#roma"
+                            >Roma</placeName> senza aversi orientizzato nel <persName ref="#AVK"
+                            >Keller</persName> benche gli aveva detto. Adesso perde il suo tempo. Mi
+                        scrive che debbo aquistarti un <title ref="#RB">Keller Romvart</title>, non
+                        mi ricordo che Tu me l’abbia commesso non di meno l’ho fatto cercare dal mio
+                        libraio e Ti sarà inviato.Ti ho mandato hieri la dissertazione dottorale del
+                        mio discepolo <persName ref="#VC">Vietor</persName>. L’appendice chi sarà il
+                        duppio o triplo del presente non si pubblicarà prima d’aprile , poiche
+                        voglio far inserire varie lezioni, che raccoglierò nel Marzo a <placeName
+                            ref="#paris">Parigi</placeName>. Lo stesso <persName ref="#VC"
+                            >Vietor</persName> ha fatto un eccellente lavoro sul <persName
+                            ref="#DCM">Comparetti</persName>
+                        <title ref="#VME">Virgilio nel medio evo</title>. Questo è scritto in
+                        francese poiche deve procurargli la facoltà d’insegnare il francese nei
+                        classi superiori di nostri licei. Si potrebbe questo <lb/>inserire nella
+                            <title ref="#RFR">Rivista</title>? forse sarebbe meglio allora di
+                        tradurlo in italiano poiche mi spiace che un Tedesco scrive
+                                <expan><abbr>franc</abbr><am>.</am><ex>ese</ex></expan> In una
+                                <expan><abbr>Riv</abbr><am>.</am><ex>ista</ex></expan> italiana.
+                        Quanto ai Tuoi “Appunti” mi perdona, non avea pensato. Ma perche non scrivi
+                        direttamente al <persName ref="#MN">Niemeyer</persName>? Come va colla
+                        Stampa del <title ref="#cantos">Canzoniere
+                                    <expan><abbr>portugh</abbr><am>.</am><ex>ese</ex></expan></title>?
+                        Sono prontissimo d’associarmi Teco pel volume
+                                <lb/><expan><abbr>provenz</abbr><am>.</am><ex>ale</ex></expan> delle
+                        “Communicanzoni”, ma prima vorrei che sia terminato il tuo <title
+                            ref="#cantos"><expan><abbr>Canz</abbr><am>.</am><ex>oniere</ex>
+                                <abbr>Portugh</abbr><am>.</am><ex>ese</ex></expan></title></p>
+                    <p>Accetto di cuore la Tua offerta pel “epitalamio“ ma non vorrei punto che Ti
+                        impacci per esso, altrimente sono così contento del promesso come del fatto.
+                        Abbi la bontà di trasmettere la lettera qui giunta al <persName ref="#AS"
+                            >Stimming</persName> quando lo vedrai. Un’altra volta Ti manderò il
+                        ritratto della mia fidanzata ed il mio, e spero che un giorno Tu farai lo
+                        stesso con quello della Tua famiglia.</p>
+                    <closer>Addio un saluto di cuore <lb/>dal Tuo affezionatissimo
+                                <lb/><expan><abbr>E</abbr><am>.</am><ex>dmund</ex></expan> Stengel </closer>
+                    <!--<postscript>
+                        <p>....</p>
+                    </postscript>-->
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

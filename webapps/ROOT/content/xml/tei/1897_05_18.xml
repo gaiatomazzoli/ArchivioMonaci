@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Adolfo Venturi a Ernesto Monaci, 18 maggio 1897</title>
+                <editor role="transcription"><persName>Gaia Tomazzoli</persName></editor>
+                <editor role="encoding"><persName>Gaia Tomazzoli</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2021-03-05"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Archivio Monaci, Società Filologica Romana, presso il
+                            Dipartimento di Studi Europei, Americani e Interculturali, Sapienza,
+                            Università di Roma.</repository>
+                        <idno>Busta n. 28, fascicolo 1355, lettera 1a</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary corresp="#letter">Biglietto di Adolfo Venturi a Ernesto Monaci, 18
+                            maggio 1897</summary> 
+                    </msContents> 
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#AV1">Adolfo Venturi</persName>
+                    <placeName ref="#sconosciuto">?</placeName>
+                    <date when="1897-05-18"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#sconosciuto">?</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                    <opener><dateline><date when="1897-05-18"><hi rend="underline">18 Maggio '97</hi></date></dateline><salute>Caro e illustre Prof,</salute></opener>
+                    <p>Le trasmetto, con preghiera di aggradirle, le tavole che hanno servito sin
+                        qui alle mie lezioni della <orgName ref="#UR">Università</orgName>, e le trasmetterò le altre in seguito.
+                        In più tempo, ardisco di pregarla a voler presentare alla <orgName ref="#AccLin">Accademia de'
+                        Lincei</orgName>, come mio devoto omaggio, il primo volume delle "<title ref="#VV">Vite</title>" del <persName type="author" ref="#GV">Vasari</persName>, da
+                        me edito.</p>
+                    <closer><salute>Con profondo ossequio e perenne affetto di lei</salute><salute><expan><abbr>dev</abbr><am>.</am><ex>otissimo</ex></expan></salute><signed> <persName ref="#AV1">Adolfo Venturi</persName></signed></closer>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

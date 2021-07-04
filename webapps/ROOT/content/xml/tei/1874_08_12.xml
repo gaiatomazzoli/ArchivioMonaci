@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Edmund Stengel a Ernesto Monaci, 12 agosto 1874</title>
+                <editor role="transcription"><persName>Maria Spadoni</persName></editor>
+                <editor role="encoding"><persName>Francesca Romana Cacciatori</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2021-04-30"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <bibl>Maria Spadoni, <title>Le lettere di Edmund Stengel a Ernesto Monaci
+                            (Lettere, cartoline e comunicazioni editoriali in italiano scritte da
+                            Edmund Stengel a Ernesto Monaci</title></bibl>
+                </listBibl>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Archivio Monaci, Società Filologica Romana, presso il
+                            Dipartimento di Studi Europei, Americani e Interculturali, Sapienza,
+                            Università di Roma.</repository>
+                        <idno>Busta n. 24, fascicolo 1258, lettera...</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary corresp="#letter">Edmund Stengel a Ernesto Monaci, 12 agosto
+                            1874.</summary>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#EMS">Edmund Stengel</persName>
+                    <placeName ref="#germania">Germania</placeName>
+                    <date when="1874-08-12"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#sconosciuto">?</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                    <opener>Caro mio,</opener>
+                    <p>Ecco il contratto proposto da me al <persName ref="#MN">Niemeyer</persName>
+                        accettato e formulato da lui :</p>
+                    <p>§ 1. Il Sig.r <persName ref="#EM">Monaci</persName> à <placeName ref="#roma"
+                            >Roma</placeName> vende alla libreria Lappert (<persName ref="#MN">Max
+                            Niemeyer</persName>) <lb/>-À <placeName ref="#halle">Halle</placeName>
+                        <unclear>a/S.</unclear> l’edizione da lui curata del
+                                <expan><abbr>ms</abbr><am>.</am><ex>manoscritto</ex></expan>
+                        <expan><abbr>vatic</abbr><am>.</am><ex>ano</ex></expan>
+                        <expan><am>N°</am><ex>numero</ex></expan> 4803 (<title ref="canzoniere2"
+                            >Canzoniere portughese</title>)</p>
+                    <p> § 2. L’editore si obbliga di preparare per la stampa metà del
+                                <expan><am>ms</am><ex>mese</ex></expan> fin alla <lb/>-fine del anno
+                        1874 la seconda metà fin al 1 April 1875. Incontro la <lb/>-libraria
+                        editrice si obbliga di stampare il libro fin al 15 Giugno 1875 se <lb/>-non
+                        eccede molto 16 fogli di stampa.</p>
+                    <p> § 3. La libraria editrice deve curare che il libro sia bene elegantemente
+                        stampato e si obbliga specialmente nella composizione di ubbidire ai
+                        precetti dell’editore.</p>
+                    <p> § 4. L’editore riceve come onorario per l’edizione di 500 copie 8 talevi per
+                        un foglio di stampa in <expan><am>4°</am><ex>quarto</ex></expan> e si
+                        pagherà la prima metà di questa somma dopo pubblicazione del intero volume,
+                        la seconda metà del Gennaio 1876</p>
+                    <p>§ 5. L’editore riceve per altro 10 copie del libro.</p>
+                    <p>Ti ho mandato il testo tedesco tale quale il <persName ref="#MN"
+                                    ><expan><abbr>N</abbr><am>.</am><ex>iemeyer</ex></expan></persName>
+                        me l’ha inviato. La traduzione è libera e può in qualche luogo dare un senso
+                        un po’ diverso del originale. Vedi che il <persName ref="#MN"
+                            >Niemeyer</persName> ha accresciuto sensibilmente l’onorario. Darà 1
+                            <unclear>L</unclear> ( 3
+                            <expan><abbr>fr</abbr><am>.</am><ex>anchi</ex></expan> 75
+                            <unclear>c.</unclear> in oro ) per pagina. I dati che obbligano a Te e
+                        lui l’ho proposto io. Dicami se puoi essere pronto fin a quel tempo. cioè
+                        fin alla fine del anno e fin al primo aprile. Se no sarà impossibile di
+                        stampare tutto prima si chiude la Biblioteca. Il <persName ref="#MN"
+                            >Niemeyer</persName> per altro dice che non è amico di contratti, poiché
+                        l’ottima guaranzia è l’interesse mutuale e nell’onestà dei contraenti ed io
+                        sono convinto che ni Tu ni lui mancherà fraudolosamente ai promessi una
+                        volta dati. Se Tu dunque consenti ai punti stipulati qui di sopra non c’è
+                        che da dichiarirlo.Allora l’affare si considera concluso. Il <persName
+                            ref="#MN">Niemeyer</persName> Ti prega per altro di mandargli la lista
+                        di tutti i segni che occorano Questa lista deve servire come modello al
+                        fonditore e vi debbono essere inclusi tutti i segni anche le lettere sopra i
+                        quali è sovraposta poiché debbono fondere anch’essi. La lista deve essere
+                        rigorosamente completa, il <persName ref="#MN">Niemeyer</persName> la
+                        condererà ufficiale contra qualunque richiamo ulteriore. Sarà bene se Tu
+                        invii ben presto la lista, affinche una volta fondati i caratteri si può
+                        stampare il sagio. Avea scritto in quest’occasione al <persName ref="#MN"
+                            >Niemeyer</persName> anche della nostra <title ref="#RFR"
+                            >Rivista</title>, spiegandogli il ritardo del
+                                <expan><am>4°</am><ex>quarto</ex></expan>
+                        <expan><abbr>fasc</abbr><am>.</am><ex>icolo</ex></expan> e dicendogli che si
+                        stia trattando con un altro stampatore. Egli mi domanda per cio: “Debbo io
+                        stamparle la <title ref="#RFR">Rivista</title>? Io mi offrire anche per lo
+                        smercio, se acconsentisse à questa proposta e Vi risparmierei molte spese.
+                        Essi starebbero molto bene con questo. Un libro si vende soltanto bene da un
+                        librario editore. “ Ecco una bella proposta. So bene che non si potrebbe
+                        accettare senza cambiare essenzialmente il carattere della <title ref="#RFR"
+                            >Rivista</title>, ma se non c’è altro mezzo, meglio così. Rifletta bene
+                        e mi scriva.</p>
+                    <closer>Addio per oggi <lb/>Tuo
+                                <lb/><expan><abbr>E</abbr><am>.</am><ex>dmund</ex></expan> Stengel </closer>
+                    <postscript>
+                        <p>Ti mando con questo il <title ref="#JL">Jahrbuch</title>
+                            <expan><abbr>fasc</abbr><am>.</am><ex>icolo</ex></expan> 5.</p>
+                    </postscript>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

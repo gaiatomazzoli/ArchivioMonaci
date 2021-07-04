@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ernesto Monaci ad Adolfo Venturi, 19 settembre 1899</title>
+                <editor role="transcription"><persName>Gaia Tomazzoli</persName></editor>
+                <editor role="encoding"><persName>Gaia Tomazzoli</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2021-03-05"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Centro Archivistico della Scuola Normale Superiore di Pisa –
+                            CASNS, fondo Adolfo Venturi.</repository>
+                        <idno>Busta n. 24, fascicolo 1803, lettera 3</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary corresp="#letter">Lettera di Ernesto Monaci ad Adolfo Venturi del
+                            19 settembre 1899.</summary>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#roma">Roma</placeName>
+                    <date when="1899-09-19"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#AV1">Adolfo Venturi</persName>
+                    <placeName ref="#sconosciuto">?</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                    <opener><dateline><placeName ref="#roma">Roma</placeName><date when="1899-09-19"
+                                > 19 <expan><abbr>Sett</abbr><am>.</am><ex>embre</ex></expan>
+                                '99</date></dateline><salute>Carissimo collega ed
+                        amico</salute></opener>
+                    <p>Quantunque io non abbia veste per potere rivolgermi d'ufficio al <orgName ref="#MPI">Ministero</orgName> in
+                        favore della scuola di storia dell'arte, avrei tuttavia tentato qualche
+                        passo. Ma a chi parlare in questi giorni? Il <persName ref="#GB1">Ministro</persName> è sempre assente;
+                        manca il <persName><expan><abbr>segr</abbr><am>.</am><ex>etario</ex></expan> generale</persName>; il <persName ref="#FB1">Barnabei</persName> è pure assente; il <persName ref="#CF2">Fiorilli</persName> non
+                        appartiene più alla <expan><abbr>Direz</abbr><am>.</am><ex>ione</ex></expan> degli Scavi..... Del resto, ben di peggio tocca
+                        alla <orgName ref="#LettSap">Facoltà</orgName> che da otto anni reclama inutilmente un prof. di grammatica
+                        greca e latina! </p>
+                    <closer><salute>Saluti di cuore dal suo <expan><abbr>aff</abbr><ex>ezionatissi</ex><abbr>mo</abbr></expan></salute><signed><persName ref="#EM">EMonaci</persName></signed></closer>
+                   
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

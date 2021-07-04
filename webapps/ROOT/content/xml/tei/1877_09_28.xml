@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Graziadio Isaia Ascoli a Ernesto Monaci, 28 settembre 1877</title>
+                <editor role="transcription"><persName>Stefano Boschi</persName></editor>
+                <editor role="encoding"><persName>Stefano Boschi</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2021-04-01"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Archivio Monaci, Società Filologica Romana, presso il
+                            Dipartimento di Studi Europei, Americani e Interculturali, Sapienza,
+                            Università di Roma.</repository>
+                        <idno>Busta n. 1, fascicolo 49, lettera 12.</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary corresp="#letter">Graziadio Isaia Ascoli a Ernesto Monaci, 28
+                            settembre 1877</summary>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#GIA">Graziadio Isaia Ascoli</persName>
+                    <placeName ref="#milano">Milano</placeName>
+                    <date when="1877-09-28"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#sconosciuto">?</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                    <opener><placeName ref="#milano">Milano,</placeName>
+                        <date when="1877-09-28">28 sett. 77</date></opener>
+                    <opener>Carissimo amico,</opener>
+                    <p>Sono sul punto di partire, prima per <placeName ref="#firenze"
+                            >Firenze</placeName> e di là per le Alpi ladine; ma non me ne voglio
+                        andare senz’aver dato una qualche risposta alle care Sue lettere; ed
+                            <persName ref="#EM">Ella</persName> poi vedrà di scusare la troppa
+                        fretta e la scarsa connessione delle idee.</p>
+                    <p>La <hi rend="underline"><title ref="crestomazia">Crestomazia</title></hi>
+                        sarebbe una gran bella cosa, e spero ch’<persName ref="#EM">Ella</persName>
+                        vi perseveri, ma se, come pare, <persName ref="#EM">Ella</persName> mira a
+                        comprendervi l’Italia intera o pressoché intera, il Suo compito diventa ben
+                        diverso, sott’ogni aspetto, da quello del <persName ref="#AB"
+                            >Bartoli</persName>; e anziché a una <hi rend="underline">Crestomazia
+                            italiana</hi>, <persName ref="#EM">Ella</persName> riesce piuttosto a
+                        quella <hi rend="underline">Collezione di saggi vernacoli</hi>, di cui s’è
+                        altre volte parlato. Intanto <title ref="#AGI">l’Archivio</title> vorrebbe
+                        un’Antologia storica per ciascuna regione; ed <persName ref="#EM"
+                            >Ella</persName> me l’aveva promessa per qualche parte dell’Italia
+                        centrale. In questi giorni si compie la friulana del
+                            <persName>Zoppi</persName>, e il settimo volume s’aprirà con la
+                        bergamasca di <persName ref="#AT2">Antonio Tiraboschi</persName> (il quinto
+                        e il sesto sono occupati dalle <hi rend="underline">Chiose irlandesi</hi> e
+                        dalle illustrazioni che ci vanno annesse e congiunte).</p>
+                    <p>Queste pubblicazioni, quelle del <persName ref="#EL1">Lagomaggiore</persName>
+                        e del <persName ref="#FDO">D’Ovidio</persName> nel secondo volume, e un
+                        certo mio saggio, che rumino da un pezzo ma chi sa mai quando potrò
+                        maturare, <hi rend="underline">sull’abito semitico nella letteratura
+                            spagnuola</hi>, segnano per ora l’estremo confine al quale <hi
+                            rend="underline"><title ref="#AGI">l’Archivio</title></hi> si voglia
+                        spignere nel campo letterario. E la ragione di questa sobrietà è molto
+                        semplice e affatto soggettiva: non ho, per ora, la facoltà di condividere
+                        con chicchessia la direzione dell’impresa; e io non potrei, nella maggior
+                        parte dei casi, star mallevadore del merito di lavori specialissimi intorno
+                        a soggetti di storia letteraria, se non in quanto me ne assicurasse
+                        senz’altro il nome degli autori. Ma ammesso il genere, non si potrebbero
+                        respingere i produttori, solo perché sieno poco noti od ignorati. Ragion
+                        vorrebbe che le cose loro fossero esaminate e giudicate, e a questo io non
+                        potrei bastare, senza negligere tropp’altre cose, in cui già mi trovo
+                        compromesso.</p>
+                    <p>Ecco dunque libero e sicuro il campo per la Sua <hi rend="underline"><title
+                                ref="RFR">Rivista</title></hi>. Ma quand’anche non fosse così libero
+                        e sicuro, io non potrei non esortarla, con tutta la sincerità dell’animo, a
+                        rinnovare la Sua prova; poiché non può essere senza qualche rimorso il
+                        rallentar comunque una qualsiasi onesta attività, ed è addirittura un
+                        delitto il non promuovere con ogni zelo l’attività de’ pari Suoi.</p>
+                    <p>Ho avuto ultimamente occasione di parlar di <persName ref="#EM"
+                            >Lei</persName> con veste ufficiale, e non è d’uopo che <persName
+                            ref="#GIA">io</persName> stia a dirle in qual senso <persName ref="#GIA"
+                            >io</persName> abbia parlato. Spero, e anzi credo fermamente, che ormai
+                        il Suo affare sia a buon porto; ed è bene inteso, ch’<persName ref="#EM"
+                            >Ella</persName> nol dovrà se non al proprio valore.</p>
+                    <p>Le domando nuove scuse pel precipizio con cui Le scrivo, e Le stringo
+                        affettuosamente la mano.</p>
+                    <closer><salute>Suo </salute><signed><persName ref="#GIA">G. I.
+                                Ascoli.</persName></signed></closer>
+
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

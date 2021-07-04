@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Graziadio Isaia Ascoli a Ernesto Monaci, 24 dicembre 1874</title>
+                <editor role="transcription"><persName>Stefano Boschi</persName></editor>
+                <editor role="encoding"><persName>Stefano Boschi</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2021-03-28"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Archivio Monaci, Società Filologica Romana, presso il
+                            Dipartimento di Studi Europei, Americani e Interculturali, Sapienza,
+                            Università di Roma.</repository>
+                        <idno>Busta n. 1, fascicolo 49, documento 2.</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary corresp="#letter">Graziadio Isaia Ascoli a Ernesto Monaci, 24
+                            dicembre 1874</summary>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#GIA">Graziadio Isaia Ascoli</persName>
+                    <placeName ref="#milano">Milano</placeName>
+                    <date when="1874-12-24"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#sconosciuto">?</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                    <opener><placeName ref="#milano">Mil.,</placeName>
+                        <date when="1874-12-24">24 dic. 74</date></opener>
+                    <p>Carissimo amico. Non ho più potuto parlare al <persName ref="#RB"
+                            >Ministro</persName>, e <persName ref="#GIA">me</persName> ne duole non
+                        poco. Ma il <persName ref="#GG3">prof. Govi</persName> può forse aggiustar
+                        facilmente ogni cosa, e ora <persName ref="#EM">Le</persName> compiego un
+                        viglietto per lui, ripetendole d’esser pronto a fare quant’altro <persName
+                            ref="#EM">Le</persName> piaccia domandarmi.</p>
+                    <p>I Suoi “<title>Appunti</title>” mi attraggono grandemente, e <persName
+                            ref="#EM">Le</persName> varranno di certo le più squisite lodi.
+                            <persName ref="#EM">Le</persName> ne rendo nuove e vivissime grazie, e
+                        sono</p>
+                    <closer><salute>il Suo aff.mo</salute><signed>
+                            <persName ref="#GIA">G. I. A.</persName></signed></closer>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

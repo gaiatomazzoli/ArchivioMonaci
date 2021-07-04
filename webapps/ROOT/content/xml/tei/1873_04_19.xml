@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Edmund Stengel a Ernesto Monaci, 19 aprile 1873</title>
+                <editor role="transcription"><persName>Maria Spadoni</persName></editor>
+                <editor role="encoding"><persName>Francesca Romana Cacciatori</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2021-04-12"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <bibl>Maria Spadoni <title>Le lettere di Edmund Stengel a Ernesto Monaci
+                            (Lettere, cartoline e comunicazioni editoriali in italiano scritte da
+                            Edmund Stengel a Ernesto Monaci</title></bibl>
+                </listBibl>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Archivio Monaci, Società Filologica Romana, presso il
+                            Dipartimento di Studi Europei, Americani e Interculturali, Sapienza,
+                            Università di Roma.</repository>
+                        <idno>Busta n. 24, fascicolo 1258, lettera ...</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary corresp="#letter">Edmund Stengel a Ernesto Monaci, 19 aprile
+                            1973.</summary>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#EMS">Edmund Stengel</persName>
+                    <placeName ref="#milano">Milano</placeName>
+                    <date when="1873-04-19"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <!--<placeName ref="#">Luogo di ricezione</placeName>-->
+                    <!--<date when=""/>-->
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                    <opener>Il <persName ref="#JC">Cornu</persName> sta 32 Rue des Ecoles <placeName
+                            ref="#paris">Parigi</placeName></opener>
+                        <ab>Carissimo Amico, </ab>
+                    <p>Poche righe in gran fretta. Parto quest’oggi direttamente per <placeName
+                            ref="#halle">Halle</placeName> dove giungerò Lunedi sera. Non ho fin ora
+                        ricevuto niente dalla Posta. La lettera governativa me l’hai mandato? Cambio
+                        l’indirizzo qui, così la ricevrò à <placeName ref="#halle"
+                        >Halle</placeName>. Spero che tu hai ricevuto il giornale di <placeName
+                            ref="#modena">Modena</placeName> colla mia piccola noticina. Ho
+                        domandato al Sig.r Capelli ed al vicebibliotecario Lodi di cercarci questi
+                        estratti del <persName ref="#GIG">Galvani</persName> e <persName ref="#CVC"
+                            >Cavedoni </persName>Ti prego di mandargli quando ha speso se lui manda
+                        i libri. Non ho potuto finire le mie ricerche sopra l’<title
+                            type="manuscript" key="Codice Estense">Estense</title>. Quando era a
+                            <placeName ref="#modena">Modena</placeName> il <persName ref="#GIG"
+                            >Galvani</persName> si diceva morto, ma dopo non s’è verificato. Qui a
+                            <placeName ref="#milano">Milano</placeName> sono da Mercoledi sera. Sto
+                        studiando il canzoniero <title type="manuscript"
+                            key="Codice Ambrosiano R.71 sup">G.</title> e ho veduto il <persName
+                            ref="#CC">Cantù</persName>. Il jndizio resta sempre lo stesso. È una
+                        bravissima persona, ma noi non possiamo fare niente con lui. Le sue idee
+                        filologiche sono troppo invecchiate. Ho veduto parimente l’<persName
+                            ref="#GIA">Ascoli</persName>, che è una persona molto gentile, soffre un
+                        po' della mallatia dei grandi uomini, della vanità ma è del resto un
+                        scienziato distruttissimo. Abbiamo parlato con molto franchezza sui due
+                        nostri giornali. Lui sarebbe molto disposto ad una fusione delle due
+                        interprese. Credo però non utile di accettarla troppo presto, poiché noi
+                        facilmente saremmo soffocati dallasua autorità. Lui parla con molti valori
+                        di rosa dell andamento del <title ref="#AGI">Archivio</title>, del quale il
+                            <persName ref="#AM">Mussafia</persName> ha fatto un articolo di grandi
+                        elogi nel ultimo <title ref="#PCB">Centralblatt</title>. Gli autori si
+                        pagano da 20 – 30 <expan><abbr>fr</abbr><am>.</am><ex>anchi</ex></expan> il
+                        foglio. Dice che ha fondi assai per stampare ad una volta 5 ai volumi etc.
+                        Quant’a noi io l’ho detto che mi pare che anche la nostra Rivista si sia
+                        stabilita solidalmente. In tutto sono soddisfatto del mio abboccamento con
+                        lui e spero che le due Riviste possino vivere pacificamente una al canto
+                        dell’altra. Finalmente ho veduto e vedrò anch’oggi <persName ref="#PR"
+                            >Raina</persName>, giovane chi m’ha fatto ottima impressione. M’ha già
+                        autorizzato di annunziare un sunto del poema afr. <title ref="#attila"
+                            >Attila flagellum</title> dei poema di <persName ref="NdC">Niccolò “da
+                            Casola Bolognese”</persName>. Il Valentiner non ha ricevute copie dal
+                            <persName ref="#EL">Löscher</persName> e vorrebbe averne una diecina in
+                        commissione. Faccia come ti pare.</p>
+                    <p>Io credo si potevano mandare, ma forse meno. Un bravo e giovane sacerdote
+                        dell’Ambrosiana <persName ref="#GA">Guerrino Amelli</persName> ci farà
+                        un’articolo sopra la musica dei Provenzali valendosi delle note contenute
+                        nel <title type="manuscript" key="Codice Ambrosiano R.71 sup">G.</title> Ho
+                        chiamato l’attenzione del <persName ref="#GA">Amelli</persName> anche sul
+                            <title type="manuscript" key="Codice Chigiano C.V.151">codice.
+                            Chigiano</title> della S. Agnese. L’ho detto di accompagnare l’articolo
+                        suo di un fassimale e di mettersi in relazione con te. A <placeName
+                            ref="#modena">Modena</placeName> ho pregato il Sig. Capelli di farci una
+                        notizia sopra i codici francesi dell’<title type="manuscript"
+                            key="Codice Estense">Estense</title>. </p>
+                    <closer>Ti saluto di cuore <lb/>Edmund Stengel </closer>
+                    <!--<postscript>
+                        <p>....</p>
+                    </postscript>-->
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Graziadio Isaia Ascoli a Ernesto Monaci, 20 marzo 1877</title>
+                <editor role="transcription"><persName>Stefano Boschi</persName></editor>
+                <editor role="encoding"><persName>Stefano Boschi</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2021-04-01"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Archivio Monaci, Società Filologica Romana, presso il
+                            Dipartimento di Studi Europei, Americani e Interculturali, Sapienza,
+                            Università di Roma.</repository>
+                        <idno>Busta n. 1, fascicolo 49, documento 7.</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary corresp="#letter">Graziadio Isaia Ascoli a Ernesto Monaci, 20 marzo
+                            1877</summary>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#GIA">Graziadio Isaia Ascoli</persName>
+                    <placeName ref="#milano">Milano</placeName>
+                    <date when="1877-03-20"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#sconosciuto">?</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                    <opener><placeName ref="#milano">Mil.,</placeName>
+                        <date when="1877-03-20">20.3.77.</date></opener>
+                    <p>Carissimo amico. Mi permetto di presentarle e di raccomandarle il prof.
+                            <persName>Zoe</persName>, istriano, un valoroso discepolo ed amico del
+                        nostro <persName ref="#AM">Mussafia</persName> e anche molto amico mio. La
+                        ringrazio anticipatamente di quanto Le sarà dato di fare in pro di questo
+                        valentuomo, e nel desiderio di Sue buone nuove e di Suoi contributi per <hi
+                            rend="underline"><title ref="#AGI">l’Archivio</title></hi>, mi raffermo
+                        con stima verace</p>
+                    <closer><salute>l'aff.mo Suo </salute><signed><persName ref="#GIA"
+                                >G.I.A.</persName></signed></closer>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Edmund Stengel a Ernesto Monaci</title>
+                <editor role="transcription"><persName>Maria Spadoni</persName></editor>
+                <editor role="encoding"><persName>Francesca Romana Cacciatori</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2021-05-27"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <bibl>Maria Spadoni, <title>Le lettere di Edmund Stengel a Ernesto Monaci
+                            (Lettere, cartoline e comunicazioni editoriali in italiano scritte da
+                            Edmund Stengel a Ernesto Monaci</title></bibl>
+                </listBibl>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Archivio Monaci, Società Filologica Romana, presso il
+                            Dipartimento di Studi Europei, Americani e Interculturali, Sapienza,
+                            Università di Roma.</repository>
+                        <idno>Busta n. 24, fascicolo 1258, cartolina...</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary corresp="#letter">Edmund Stengel a Ernesto Monaci</summary>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#EMS">Edmund Stengel</persName>
+                    <placeName ref="#germania">Germania</placeName>
+                    <!--bollo postale illeggibile-->
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#sconosciuto">?</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                    <opener><expan><abbr>C</abbr><am>.</am><ex>aro</ex>
+                            <abbr>A</abbr><am>.</am><ex>mico</ex></expan></opener>
+                    <p>Ti spedisco oggi le bozze del mio articolo. La traduzione aveva di fatto reso
+                        intellegibile parecchi luoghi del mio testo. Ti prego di ritoccare le mie
+                        correzioni. Della <placeName ref="#spagna">Spagna</placeName> non c’è, in
+                        quanto m’è noto, una edizione eseguita sopra i codici dei quali parla il
+                            <persName ref="#PR">Rajna</persName> nel <title ref="#IP">Propugnatore
+                            IV II</title> e per cio mi servirà qualsivoglia popolare. Avrai ricevuto
+                        la dissertazione del <unclear>Freund</unclear> e il saggio della mia
+                        edizione del <title ref="#ROL">Roland</title>. Ti prego d’indicarmi qualche
+                        miglioramento nell’impianto; finora non m’è giunto il manoscritto. Mi sono
+                        messo in corrispondenza col <persName ref="#EM1">Molteni</persName>. Della
+                        biblioteca del <orgName ref="#bl">Lottich</orgName> il cui catalogo hai
+                        ricevuto l’anno passato ci sono ancora rimasti molti numeri. Il libraio vuol
+                        rabbattere</p>
+                    <p>il prezzo per liberarsene. Se Tu ove la vostra biblioteca dell’Università
+                        desideri l’uno o l’altro, mandimi pure i numeri ed il prezzo pel quale
+                        prenderai i libri. La nostra biblioteca ha comprato una quantità
+                        considerevole, ma il fondo non basta per prendere di piu’.</p>
+                    <p>Ho ricevuto l’<title ref="#complementi">Auberon</title> del <persName
+                            ref="#ARG">Graf</persName>, ma non l’ho ancora essaminato bene. </p>
+                    <closer>Credimi sempre il tuo <lb/><expan><abbr>E</abbr><am>.</am><ex>dmund</ex>
+                            <abbr>St</abbr><am>.</am><ex>engel</ex>
+                        </expan>
+                    </closer>
+                    <!--<postscript>
+                        <p>....</p>
+                    </postscript>-->
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

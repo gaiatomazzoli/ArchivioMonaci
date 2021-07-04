@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Francesco Torraca, 6 giugno 1889</title>
+                <editor role="transcription"><persName>Heloísa Abreu de Lima</persName></editor>
+                <editor role="encoding"><persName>Heloísa Abreu de Lima</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2021-05-01"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <bibl>Benedetti, Amedeo. Francesco Torraca Nelle Lettere Agli Amici Letterati,
+                        in Esperienze letterarie, 1, 39. Fabrizio Serra, 2014, pp. 44-74</bibl>
+                </listBibl>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Archivio Monaci, Società Filologica Romana, presso il
+                            Dipartimento di Studi Europei, Americani e Interculturali, Sapienza,
+                            Università di Roma.</repository>
+                        <idno>Busta n. 26, fascicolo 1313, lettera 13</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary corresp="#letter">Breve sintesi del contenuto della
+                            lettera.</summary>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#FT1">Francesco Torraca</persName>
+                    <placeName ref="#forli">Forlì</placeName>
+                    <date when="1889-06-06"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#sconosciuto">?</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                    <!-- lettera trascritta su un biglietto da visita -->
+                    <opener><lb/><placeName ref="#forli">Forlì</placeName> 6 giugno 89</opener>
+                    <p>Ottimo Amico, Mi cápita in questo momento il catalogo della collezione
+                            <persName ref="#CM">Morbio</persName> che si metterà in
+                            <unclear>ven</unclear>dita il 24 giugno a <placeName ref="#lipsia"
+                            >Lipsia</placeName>, e vi trovo indicato il codice di laude abruzzesi,
+                        che voi sapete ed alcuni altri. Non sarebbe possibile che l’<orgName
+                            ref="#ISI">Istituto Storico</orgName>, o i <orgName ref="#AccLin"
+                            >Lincei</orgName>, o qualche Accademia o Biblioteca la comperasse? Niuno
+                        meglio di voi potrebbe occuparsi di questa faccenda. Il prof. <persName
+                            ref="#GM1">Mazzatinti</persName> vi saluta. Io vi stringo cordialmente
+                        la mano. </p>
+                    <closer><lb/>Attendo una riga di risposta
+                                <lb/><expan><abbr>Aff</abbr><ex>ezionatissi</ex><abbr>mo</abbr></expan>
+                        <expan><abbr>V</abbr><ex>os</ex><abbr>t</abbr><ex>r</ex><abbr>o</abbr></expan>
+                        <lb/><persName ref="#FT1">F. Torraca</persName>
+                    </closer>
+                    <!--  <postscript><p>....</p></postscript>-->
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

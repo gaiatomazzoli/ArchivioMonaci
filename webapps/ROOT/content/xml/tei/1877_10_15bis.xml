@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Graziadio Isaia Ascoli a Ernesto Monaci, 15 ottobre 1877</title>
+                <editor role="transcription"><persName>Stefano Boschi</persName></editor>
+                <editor role="encoding"><persName>Stefano Boschi</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2021-04-01"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Archivio Monaci, Società Filologica Romana, presso il
+                            Dipartimento di Studi Europei, Americani e Interculturali, Sapienza,
+                            Università di Roma.</repository>
+                        <idno>Busta n. 1, fascicolo 49, lettera 13.</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary corresp="#letter">Graziadio Isaia Ascoli a Ernesto Monaci, 15
+                            ottobre 1877</summary>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#GIA">Graziadio Isaia Ascoli</persName>
+                    <placeName ref="#trento">Trento</placeName>
+                    <date when="1877-10-15"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#sconosciuto">?</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                    <opener><placeName ref="#trento">Trento,</placeName>
+                        <date when="1877-10-15">15 ottobre 1877</date></opener>
+                    <opener>Carissimo amico,</opener>
+                    <p>Son qui a gironzellare per la Zona ladina, con un tempo incantevole e con
+                        l’animo lieto; alla qual letizia hanno largamente contribuito le buone nuove
+                            ch’<persName ref="#EM">Ella</persName> mi fece tenere con tanto cordiali
+                        parole. Ma <persName ref="#GIA">io</persName> non era il solo commissario,
+                        né sono stato certamente il solo a dir bene di <persName ref="#EM"
+                            >Lei</persName>; anche senza ripetere che in realtà <persName ref="#EM"
+                            >Ella</persName> non deve la promozione se non ai manifesti Suoi meriti.
+                        La ringrazio poi di vivo cuore per quanto mi dice dei testi perugini e
+                        d’altri testi dialettali. Ora appunto la stamperia ha incominciato a
+                        lavorare intorno a un nuovo fascicolo che s’apre con un articolo del
+                            <persName ref="#GF">Flechia</persName>. Lo faremo seguire dai <rs
+                            type="topic" key="antologia perugina">testi perugini</rs>, e poi, se mel
+                        concederanno, verrò io terzo fra cotanto senno. Il
+                            <persName>Zoppi</persName> aggiugnerà alla sua collezione, che è ormai
+                        tutta stampata, un glossarietto delle voci che non si trovano nel
+                                <bibl><title ref="#VocFr">Vocabolario friulano</title></bibl> del
+                            <persName ref="#JP">Pirona</persName>, e in coda s’avrà forse qualche
+                        mia annotazioncella, d’ordine fonetico e morfologico, che si raccorderà con
+                        le cose notate ne’ precedenti volumi. <persName ref="#EM">Ella</persName>
+                        poi, nel caso Suo, fa naturalmente come Le pare e piace meglio, e <persName
+                            ref="#GIA">io</persName> non vedo l’ora di ricevere il Suo ms., per
+                        passarlo subito alla stamperia. Conto d’essere di ritorno a <placeName
+                            ref="#milano">Milano</placeName> il 27 di questo stesso mese. Intanto,
+                        le chiedo scusa della fretta con che le scrivo, e stringendole
+                        affettuosamente la mano, mi raffermo</p>
+                    <closer><salute>Il Suo </salute><signed><persName ref="#GIA">G. I.
+                                Ascoli.</persName></signed></closer>
+                    <postscript>
+                        <p>Il compenso, che il <persName ref="#EL">Löscher</persName> ci dà, è così
+                            scarso, che mi vergogno di parlargliene; ma insomma è giocoforza che io
+                            per ora chini il capo; e sono, magre magre, £ 30 il foglio di 16 pag. È
+                            però almeno un editore che paga pronto, e anche anticipato.
+                                <foreign>Rara avis</foreign>.</p>
+                    </postscript>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

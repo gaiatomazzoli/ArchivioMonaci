@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Graziadio Isaia Ascoli a Ernesto Monaci, 21 febbraio 1880</title>
+                <editor role="transcription"><persName>Stefano Boschi</persName></editor>
+                <editor role="encoding"><persName>Stefano Boschi</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2021-04-06"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Archivio Monaci, Società Filologica Romana, presso il
+                            Dipartimento di Studi Europei, Americani e Interculturali, Sapienza,
+                            Università di Roma.</repository>
+                        <idno>Busta n. 1, fascicolo 49, lettera 25.</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary corresp="#letter">Graziadio Isaia Ascoli a Ernesto Monaci, 21
+                            febbraio 1880</summary>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#GIA">Graziadio Isaia Ascoli</persName>
+                    <placeName ref="#milano">Milano</placeName>
+                    <date when="1880-02-21"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#sconosciuto">?</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                    <opener><placeName ref="#milano">Milano,</placeName>
+                        <date when="1880-02-21">21 febbraio 1880.</date></opener>
+                    <opener>Carissimo amico,</opener>
+                    <p>Ho passato tutt’i testi che Le è piaciuto di mandarmi, e vedo che andremo
+                        benissimo, né so mai abbastanza ringraziarla per l’amore ch’<persName
+                            ref="#EM">Ella</persName> mette a arricchire <hi rend="underline"
+                            >l’Archivio</hi>, pure avendo un giornale Suo proprio. Ma verrà il
+                        giorno, <persName ref="#GIA">io</persName> spero, in cui mi sia dato di
+                        renderle un po’ del mio pane, pan secco pur troppo, per la Sua bella
+                        focaccia.</p>
+                    <p>Intorno a qualcuno de’ testi, non sono però affatto scevro d’ogni scrupolo; o
+                        perché mi paja che la vernice letteraria vi offuschi il dialetto di
+                        soverchio, o per altro. Di codesti scrupoli non lascerò di scriverle
+                        distesamente, se presto non m’accada, come ne ho speranza, di poterlene
+                        parlare di persona; ed <persName ref="#EM">Ella</persName> vedrà. Intanto
+                        vorrei pregarla di farmi avere, quanpiù presto sia possibile, i testi della
+                        provincia, l’elenco de’ quali mi riesce grandemente appetitoso. Credo per
+                        fermo, che il colore natio vi sarà più vivo e spiegato che non nei saggi
+                        cittadineschi; e sarebbe forse il caso di formare una serie sola, annotando
+                        naturalmente la patria di ciascun testo. Così s’è fatto anche per
+                        l’antologia friulana, e ne siamo rimasti contenti, comunque le varietà
+                        dialettali del Friuli divergono sicuramente tra di loro molto più che non
+                        facciano le perugine. Dunque, ancora questo piccolo sforzo, e siamo a
+                        cavallo. La stampa incomincia nel marzo e a luglio si vien fuori, almeno coi
+                        testi. Le illustrazioni, se più così Le piace, potrebbero seguire nella
+                        puntata che verrà subito dopo; e quanto al tipo in cui gettarle, <persName
+                            ref="#EM">Ella</persName> può, se così Le par bene, attenersi, <hi
+                            rend="underline"><foreign>mutandis mutatis</foreign></hi>, a quello che
+                        io adottai per la <title>“Cronaca de li Imperadori”</title> e sarà mantenuto,
+                        come credo dal <persName ref="#WF">Foerster</persName>, che ora pubblica e
+                        illustra nell’<hi rend="underline">Archivio</hi> un antico testo
+                        semi-lombardo, e anche dal <persName ref="#GF">Flechia</persName>, che viene
+                        lavorando alle illustrazioni delle <hi rend="underline">Rime genovesi</hi>.
+                        Questo <persName ref="#GIA">io</persName> Le dico per il dovere che ho di
+                        rispondere alle cortesi Sue interrogazioni; ma naturalmente <persName
+                            ref="#EM">Ell’</persName>ha pienissima libertà di fare a tutto Suo modo;
+                        e tanto meglio sarà per tutti, quanto più ci metterà del proprio anche in
+                        ordine al metodo ecc. ecc.</p>
+                    <p>Non appena io ebbi ricevuto la cara Sua del 7, Le rimandavo (con molti
+                        ringraziamenti che l’animo dettava e che la mano ha pur troppo lasciato
+                        nella penna!) il Garrucci troppo lungamente ritenuto. Il lavoro, pel quale
+                        ho adoperato quel <hi rend="underline">Cimiterio</hi>, è finito da qualche
+                        tempo; ma la mia ingordigia è tanta, che volevo ancora giovarmene durante la
+                        correzione delle stampe. Quest’è imminente; e s’<persName ref="#EM"
+                            >Ella</persName> può, senza alcuna difficoltà e senza molto disturbo,
+                        rimandarmi o farmi rimandare il libretto del vispo e a me simpatico
+                        archeologo romano, Le ne sarò proprio riconoscente. Ma è <hi
+                            rend="underline"><foreign>conditio sine qua non</foreign></hi> quella
+                        che ho posto del non dover seguire la cosa se non è affatto scevra d’ogni
+                        difficoltà più o meno grande.</p>
+                    <p>Mi rallegri, La prego, di frequenti Sue nuove, e mi voglia sempre bene.</p>
+                    <closer><salute>Aff.mo Suo </salute><signed><persName ref="#GIA">G. I.
+                                Ascoli</persName></signed></closer>
+
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

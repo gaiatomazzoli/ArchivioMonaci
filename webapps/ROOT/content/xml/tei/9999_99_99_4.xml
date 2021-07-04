@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Edmund Stengel a Ernesto Monaci</title>
+                <editor role="transcription"><persName>Maria Spadoni</persName></editor>
+                <editor role="encoding"><persName>Francesca Romana Cacciatori</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2021-04-17"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <bibl><author>Maria Spadoni</author> <title>Le lettere di Edmund Stengel a Ernesto Monaci
+                            (Lettere, cartoline e comunicazioni editoriali in italiano scritte da
+                            Edmund Stengel a Ernesto Monaci</title></bibl>
+                </listBibl>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Archivio Monaci, Società Filologica Romana, presso il
+                            Dipartimento di Studi Europei, Americani e Interculturali, Sapienza,
+                            Università di Roma.</repository>
+                        <idno>Busta n. 24, fascicolo 1258, cartolina...</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary corresp="#letter">Edmund Stengel a Ernesto Monaci</summary>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#EMS">Edmund Stengel</persName>
+                    <placeName ref="#germania">Germania</placeName>
+                    <!--bollo postale illeggibile-->
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#sconosciuto">?</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                    <opener>Caro Amico.</opener>
+                    <p>E’ un pezzo che non t’ho scritto. Avrai ricevuto il <title ref="#BDM">Brun de
+                            Montage</title>
+                        <expan><abbr>pubbl</abbr><am>.</am><ex>icato</ex></expan> dal <persName
+                            ref="#PM">Meyer</persName> pella Societè <unclear>d’anc.
+                            textes</unclear>, e avrai fra breve l’Album e les Chansons. Hai ricevuto
+                        anche il Bullettin 1875 M° 1-4 e 1876 1-4? C’era un imbroglio di
+                            <unclear>libraj</unclear>. Il <persName ref="#FV">Vieweg</persName> è
+                        adesso nostro corrispondente. Vuoi Tu pagargli la soscrizione per un
+                        esemplare delle <expan><abbr>pubbl</abbr><am>.</am><ex>icazioni</ex></expan>
+                        del 1876 (Pel 1875 l’ho pagato io) Oggi ricevetti dal <persName ref="#AT"
+                            >Tobler</persName> un appello per una <orgName ref="#FD"
+                            >Diez–stiftung</orgName> che esce da un comitato di <placeName
+                            ref="#berlino">Berlino</placeName>. Il <persName ref="#HS"
+                            >Schuchardt</persName> ha pubblicato nella Gazzetta d’Augusta un
+                        vehemente articolo contro il comitato e contro il progetto di connettere la
+                            <orgName ref="#FD">Diez-Stiftung</orgName> coll <orgName ref="#AB"
+                            >Accademia di Berlino</orgName> nella quale non c’è nessun Romanista, e
+                        come mi scrive il <persName ref="#AT">Tobler</persName> non ci sarà
+                        probabilmente mentre egli si è in <placeName ref="#berlino"
+                            >Berlino</placeName>. Il <persName ref="#HS">Schuchardt</persName>
+                        propone <placeName ref="#roma">Roma</placeName> come sede della <orgName
+                            ref="#FD">Diez-Stiftung</orgName>. Anche a me dispiace la preponderanza
+                        del elemento Berolinese, che in questo caso certamente non si può
+                        giustificare. Ho già scritto in questo senso al <persName ref="#AT"
+                            >Tobler</persName>. Se puoi parlarne col <persName ref="#AM"
+                            >Mussafia</persName> e con altri che s’interezzano pel progetto e mi
+                        scriva il Tuo e loro parere. Verso il 10 di Marzo vedrò probabilmente e
+                        vorrei potergli parlare anche nel Tuo nome e nel nome di tutti nostri amici.
+                        Ti mando con questo 4 copie del Prospetto se ne vuoi di più mi scriva. Vedo
+                        con piacere dalla <title ref="#RDR">Revue des
+                                    <expan><abbr>lang</abbr><am>.</am><ex>ues</ex><abbr>Rom</abbr><am>.</am><ex>anes</ex></expan></title>
+                        che pubblicherai <title ref="#AC">Li Auzel Cassador</title> nella Collezione
+                        della Società. E come stanno gli affari tuoi. Io sto bene, ma le 10 lezioni
+                        per settimana mi fanno molto lavoro. La critica del <persName ref="#ADN"
+                            >d’Ancona</persName> sul <persName ref="#GC">Carducci</persName> non è
+                        anchora giunta.</p>
+                    <closer>Tutto Tuo
+                                <lb/><expan><abbr>E</abbr><am>.</am><ex>dmund</ex><abbr>St</abbr><am>.</am><ex>engel</ex></expan>
+                    </closer>
+                    <!--<postscript>
+                        <p>....</p>
+                    </postscript>-->
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

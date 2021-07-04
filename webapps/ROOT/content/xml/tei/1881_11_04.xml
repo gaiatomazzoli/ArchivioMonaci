@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Francesco Torraca a Ernesto Monaci, 4 novembre 1881 (?)</title>
+                <editor role="transcription"><persName>Heloísa Abreu de Lima</persName></editor>
+                <editor role="encoding"><persName>Heloísa Abreu de Lima</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2021-04-24"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <!--<listBibl><bibl>Eventuali riferimenti bibliografici</bibl></listBibl>-->
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Archivio Monaci, Società Filologica Romana, presso il
+                            Dipartimento di Studi Europei, Americani e Interculturali, Sapienza,
+                            Università di Roma.</repository>
+                        <idno>Busta n. 26, fascicolo 1313, lettera 5</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary corresp="#letter">Francesco Torraca a Ernesto Monaci, 4 novembre
+                            (anno non indicato)</summary>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#FT1">Francesco Torraca</persName>
+                    <placeName ref="#roma">Roma</placeName>
+                    <date when="1881-11-04"/>
+                    <!-- Dal carteggio possiamo essere certi che la lettera è stata scritta nel 1881 -->
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#roma">Roma</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                    <opener>
+                        <lb/>
+                        <placeName ref="#roma">Roma</placeName> 4 novembre <lb/> Carissimo Amico, </opener>
+                    <p>Un’altra seccatura. Avreste le opere <hi rend="underline">minori</hi> del
+                            <persName ref="#LVC">Camoens</persName>? In caso affermativo, abbiate la
+                        cortesia di dirmi se potete prestarmele per pochi giorni, e quando dovrei
+                        venire o mandare a prenderle.</p>
+                    <p>Vi prego di scusarmi: è per quel lavoretto di cui vi parlai.</p>
+                    <closer><lb/> Comandatemi e credetemi sempre <lb/>
+                        <expan><abbr>V</abbr><ex>os</ex><abbr>t</abbr><ex>r</ex><abbr>o</abbr><am>.</am></expan>
+                        <expan><abbr>Aff</abbr><ex>ezionatissi</ex><abbr>mo</abbr><am>.</am></expan>,
+                                <expan><abbr>Obb</abbr><ex>ligatissi</ex><abbr>mo</abbr><am>.</am></expan>,
+                        <lb/> F. Torraca </closer>
+                    <!--<postscript><p>....</p></postscript>-->
+                </div>
+                <div type="textpart" subtype="envelope">
+                    <p><lb/>Chiarissimo
+                            <lb/><expan><abbr>Prof</abbr><ex>essore</ex><am>.</am></expan>
+                        <persName ref="#EM">Ernesto Monaci </persName>
+                        <lb/>Piazza della Chiesa Nova, 33. <lb/>Città </p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

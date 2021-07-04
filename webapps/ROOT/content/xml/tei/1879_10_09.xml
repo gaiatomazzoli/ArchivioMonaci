@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Graziadio Isaia Ascoli a Ernesto Monaci, 9 ottobre 1879</title>
+                <editor role="transcription"><persName>Stefano Boschi</persName></editor>
+                <editor role="encoding"><persName>Stefano Boschi</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2021-04-06"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Archivio Monaci, Società Filologica Romana, presso il
+                            Dipartimento di Studi Europei, Americani e Interculturali, Sapienza,
+                            Università di Roma.</repository>
+                        <idno>Busta n. 1, fascicolo 49, lettera 19.</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary corresp="#letter">Graziadio Isaia Ascoli a Ernesto Monaci, 9
+                            ottobre 1879</summary>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#GIA">Graziadio Isaia Ascoli</persName>
+                    <placeName ref="#milano">Milano</placeName>
+                    <date when="1879-10-09"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#sconosciuto">?</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                    <opener><placeName ref="#milano">Milano,</placeName>
+                        <date when="1879-10-09">9 ott. 79.</date></opener>
+                    <opener>Carissimo amico,</opener>
+                    <p>Ho tentato di farle una visita, insieme col <persName ref="#PM"
+                            >Meyer</persName>, nelle poche mezz’ore che si son passate a <placeName
+                            ref="#roma">Roma</placeName>; ma è stato, ahimè, un vano tentativo, e
+                        non ho, per ora, alcuna speranza di poterlo rinnovare. Avrei voluto dirle
+                        tante cose e prima di tutto farmi perdonare il troppo lungo mio silenzio.
+                        Poiché è ben vero, che la cara Sua del 28 maggio non mi domandava una
+                        risposta se non nel caso che <hi rend="underline"><title ref="#AGI"
+                                >l’Archivio</title></hi> non Le potesse consentire la dilazione di
+                        cui Ella aveva bisogno per portare <rs type="topic" key="antologia perugina"
+                            >l’Antologia perug.</rs> all’ultima sua perfezione; ma nondimeno
+                            <persName ref="#GIA">io</persName> Le avrei dovuto scrivere ben prima
+                        d’ora e cento volte l’ho voluto fare. Senonché, l’anno scorso è stato per me
+                        il più tribolato di tutti gli anni, e ogni mia più cara corrispondenza ha
+                        dovuto, con mio grande rammarico, andar negletta.</p>
+                    <p>Ora dunque son nella ferma speranza che la Sua <title ref="#antper"
+                            >Antologia</title> sia bell’e pronta, e non ho bisogno di dirle con
+                        quanto desiderio io l’aspetti. Stamperemo simultaneamente, e in caratteri
+                        nuovi, il primo fascicolo del settimo volume e il primo dell’ottavo, l’uno
+                        aprendosi con la Sua <rs type="topic" key="antologia perugina"
+                            >Antologia</rs> e l’altro con la parafrasi lombardesca d’un testo di S.
+                        Grisostomo, edito dal <persName ref="#WF">Foerster</persName>.</p>
+                    <p>Se, per la parte estrinseca e sin dove le diverse condizioni il consentan
+                        volentieri, <persName ref="#EM">Ella</persName> avrà accettato il tipo dei
+                        “Testi Friulani”, Le ne avrò un’obbligazione di più; altrimenti, vorrà dire
+                        ch’Ella avrà avuto le Sue buone ragioni per dipartirsene, e me ne terrò pago
+                        a ogni modo. Per qualche documento friulano, che dal lato della lingua nulla
+                        o poco offriva di caratteristico o di nuovo, è entrato il criterio estetico
+                        a voler che si ammettesse. Dove all’incontro e l’interesse istorico e il
+                        poetico venivan meno, abbiamo adoperato la falce con poca o nessuna
+                        misericordia. Nelle note lessicali ci tenemmo assai parchi; ma lì c’era una
+                        ragione, che per il perugino non sussiste: l’aversi cioè, alla mano di
+                        tutti, un vocabolario copioso e ben fatto. Nelle ragioni letterarie, il
+                        Friuli rimane poi ben più isolato che non una contrada qualsiasi dell’Italia
+                        centrale; ed è superfluo soggiungere, che di tutto il corredo di confronti
+                        letterarj ecc., onde a <persName ref="#EM">Lei</persName> paresse
+                        d’arricchire la Sua collezione, tutti Le saremmo riconoscenti come di un
+                        nuovo e preziosissimo dono.</p>
+                    <p>Che Le è parso dello sgomento che d’improvviso ha colto il buon <persName
+                            ref="#EM1">Molteni</persName> e lo ha costretto a mancarci sul più
+                        bello? A me ne è rincresciuto assai più per il ritardo nella spedizione del
+                        fascicolo, che non per le tre o quattro sere che m’ha costato il far
+                        quell’Indice da me stesso. Ma il povero <persName ref="#EM1"
+                            >Molteni</persName> deve temere che io sia proprio andato in collera,
+                        poiché non s’è più fatto sentire, né vedere. La verità è, che io gliela ho
+                        perdonata da un pezzo, e che la paura ha a lui fatto dimenticare un altro
+                        suo impegno, per il quale io sono ora costretto a disturbare la bontà di
+                            <persName ref="#EM">Lei</persName>. M’aveva egli cioè procurato, dalla
+                        libreria dell’<orgName>Istituto prussiano</orgName>, l’opuscolo del
+                            <persName ref="#RG">Garrucci</persName> del quale s’è ripetutamente
+                        discorso (<hi rend="underline"><title ref="#Cimitero"
+                                        ><expan><abbr>Cimit</abbr><am>.</am><ex>ero</ex></expan>
+                                degli
+                            <expan><abbr>Ebr</abbr><am>.</am><ex>ei</ex></expan></title></hi>, Roma,
+                        1862); ma avvenne che me lo mandasse troppo presto; di guisa che io fui
+                        costretto a rimandarlo prima d’aver finito il lavoruccio per il quale ne
+                        avevo ed ho bisogno. Potrebbe ora la sua gentilezza farmelo ottenere una
+                        seconda volta, per solo un paio di settimane, od anche meno, se pajono
+                        troppe? Le sarei davvero gratissimo anche di questo; e chiedendole molte
+                        scuse della libertà che mi prendo, Le stringo affettuosamente la mano, e
+                        sono, coi sentimenti ch’<persName ref="#EM">Ella</persName> conosce,</p>
+                    <closer><salute>il Suo </salute><signed><persName ref="#GIA">G. I.
+                                Ascoli.</persName></signed></closer>
+
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

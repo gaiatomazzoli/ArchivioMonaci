@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Francesco Torraca a Ernesto Monaci, 15 febbraio (anno non indicato)</title>
+                <editor role="transcription"><persName>Heloísa Abreu de Lima</persName></editor>
+                <editor role="encoding"><persName>Heloísa Abreu de Lima</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2021-05-01"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <!--<listBibl><bibl>Eventuali riferimenti bibliografici</bibl></listBibl>-->
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Archivio Monaci, Società Filologica Romana, presso il
+                            Dipartimento di Studi Europei, Americani e Interculturali, Sapienza,
+                            Università di Roma.</repository>
+                        <idno>Busta n. 26, fascicolo 1313, lettera 15</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary corresp="#letter">Francesco Torraca a Ernesto Monaci, 15 febbraio
+                            (anno non indicato)</summary>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#FT1">Francesco Torraca</persName>
+                    <placeName ref="#roma">Roma</placeName>
+                    <date/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#sconosciuto">?</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                    <opener><lb/><placeName ref="#roma">Roma</placeName>, 15 febbraio <lb/>Egregio
+                        prof. <persName ref="#EM">Monaci</persName>, </opener>
+                    <p>Eccole una delle recensioni che le promisi. Temo sia un po’ troppo lunga. La
+                        prego, ad ogni modo, di giudicarla come farebbe del lavoro d’un <hi
+                            rend="underline">ignoto</hi>. Se anche a Lei pare troppo lunga, o mal
+                        fatta, la metta pure da parte; se trova da farvi tagli o correzioni, non mi
+                        usi pietà; se, infine, non le sembra proprio cattiva, mi consigli intorno
+                        alla convenienza o no di apporvi la mia firma. </p>
+                    <p>Le manderò presto i cenni sul libro del <persName rend="#FDO"
+                            >D’Ovidio</persName>.</p>
+                    <closer>
+                        <lb/>Scusi la noia, e mi creda <lb/>Suo
+                                <expan><abbr>Dev</abbr><ex>otissi</ex><abbr>mo</abbr></expan>
+                        <expan><abbr>Aff</abbr><ex>ezionatissi</ex><abbr>mo</abbr></expan>
+                        <lb/><persName ref="#FT1">F. Torraca</persName>
+                    </closer>
+                    <!--<postscript><p>....</p></postscript>-->
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ernesto Monaci ad Adolfo Venturi, 7 giugno 1899</title>
+                <editor role="transcription"><persName>Gaia Tomazzoli</persName></editor>
+                <editor role="encoding"><persName>Gaia Tomazzoli</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2021-03-05"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Centro Archivistico della Scuola Normale Superiore di Pisa –
+                            CASNS, fondo Adolfo Venturi.</repository>
+                        <idno>Busta n. 24, fascicolo 1803, lettera 2</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary corresp="#letter">Lettera di Ernesto Monaci ad Adolfo Venturi, 7
+                            giugno 1899.</summary>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#roma">Roma</placeName>
+                    <date when="1899-06-07"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#AV1">Adolfo Venturi</persName>
+                    <placeName ref="#sconosciuto">?</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                    <opener><dateline><placeName ref="#roma">Roma</placeName> <date when="1899-06-07">7.VI.'99</date></dateline><salute>Egregio Collega</salute></opener>
+                    <p>Dall'altra sera, che ho ricevuto la sua <hi rend="underline"><title ref="#Madonna">Madonna</title></hi>,
+                        passo ore veramente squisite leggendo con <persName ref="#MM">mia figlia</persName> il Suo libro,
+                        ammirandone le illustrazioni con tanta sapienza raccolte, combinate,
+                        spiegate. Ella ha fatto non solamente un'opera bella ma anche un'opera
+                        buona; e dico questo, perché dinanzi a un libro simile si sente bene quanta
+                        efficacia potrà esso avere sulla cultura del paese nostro. Mi rallegro di
+                        gran cuore che la nostra letteratura abbia fatto questo acquisto. Quanta
+                        operosità potrà destare il suo libro, e quanti lavori dovranno ormai
+                        rannodarsi ad esso! Scendendo dalla catedra e parlando <pb/> col pubblico,
+                        Ella ha saputo tuttavia mantenere una introduzione elevata, che separa il
+                        volume suo dalle molte opere illustrate che ci vengono dall'estero, e ne fa
+                        un modello superbo per chi avrà la forza di mettersi per la sua via. Forse
+                        taluni, che come me si trovano al verde in fatto di preparazione per
+                        studiare in questo volume, desidereranno che le note avessero abbondato un
+                        po' più. Ma capisco bene che per altri anche questa sobrietà deve crescer
+                        merito al libro.</p>
+                    <closer><salute>Grazie di nuovo del prezioso dono e saluti affettuosi dal suo
+                                    <expan><abbr>dev</abbr><am>.</am><hi rend="subscribe"
+                                    ><ex>o</ex><abbr>to</abbr></hi></expan></salute><signed><persName ref="#EM"
+                                        ><expan><abbr>Ern</abbr><am>.</am><ex>esto</ex></expan>
+                                Monaci</persName></signed></closer>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

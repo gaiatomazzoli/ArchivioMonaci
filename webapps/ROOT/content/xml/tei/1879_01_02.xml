@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Edmund Stengel a Ernesto Monaci, 2 Gennaio 1879</title>
+                <editor role="transcription"><persName>Maria Spadoni</persName></editor>
+                <editor role="encoding"><persName>Francesca Romana Cacciatori</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2021-05-31"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <bibl>Maria Spadoni, <title>Le lettere di Edmund Stengel a Ernesto Monaci
+                            (Lettere, cartoline e comunicazioni editoriali in italiano scritte da
+                            Edmund Stengel a Ernesto Monaci</title></bibl>
+                </listBibl>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Archivio Monaci, Società Filologica Romana, presso il
+                            Dipartimento di Studi Europei, Americani e Interculturali, Sapienza,
+                            Università di Roma.</repository>
+                        <idno>Busta n. 24, fascicolo 1258, cartolina...</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary corresp="#letter">Edmund Stengel a Ernesto Monaci, 2 Gennaio
+                            1879.</summary>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#EMS">Edmund Stengel</persName>
+                    <placeName ref="#malberg">Malberg</placeName>
+                    <date when="1879-01-02"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#roma">Roma</placeName>
+                    <date when="1879-01-03"/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                    <opener><expan><abbr>C</abbr><am>.</am><ex>aro</ex>
+                            <abbr>A</abbr><am>.</am><ex>mico</ex></expan></opener>
+                    <p>Tanti augurj pel capo d’anno e grazie pella Tua lettera. L’incaglio coi
+                        soscrizioni si scioglierà il più presto, se Tu vuoi mandare l’esemplare
+                        ricevuto per posta al <persName ref="#PM">P.Meyer</persName> (Rue Raynouard.
+                        Passy – <placeName ref="#paris">Paris</placeName>.) al quale debbo mandare
+                        una copia già da un pezzo.</p>
+                    <p>Le altre due copie domandate dal <persName ref="#EL">Löscher</persName>
+                        saranno spedite a <placeName ref="#lipsia">Leipzig</placeName> più tardi. Le
+                        spese della francatura Ti prego di mettere sul mio conto. Quando uscirà il
+                                <expan><abbr>fasc</abbr><am>.</am><ex>icolo</ex></expan> 3 del
+                            <title ref="#GFR">Giornale</title>? Grazie per il promesso
+                                <expan><abbr>Canz</abbr><am>.</am><ex>oniere</ex></expan> Italiano e
+                        per le rassegne promesse. Quanto</p>
+                    <p>al <title ref="#tesoro">“Tesoro” de Sordello</title> è di fatto da desiderare
+                        che fosse pubblicato, e come sono passati già tanti anni che il <persName
+                            ref="#KB">Bartsch</persName> non ha realizzato il suo promesso, nessuno
+                        al infuor di lui, sarà dscontento se lo pubblichi Tu. Io non sto in
+                        relazione amicale con lui, percio non potrei bene far le Tue scuse presso di
+                        lui. Il meglio sarà se gli scrivi Tu direttamente a <hi rend="underline"
+                                ><placeName ref="#heidelberg">Heidelberg</placeName> in <placeName
+                                ref="#BW">Baden</placeName></hi>. </p>
+                    <closer>Con una stretta di mano <lb/>Tuo
+                                <lb/><expan><abbr>E</abbr><am>.</am><ex>dmund</ex>
+                            <abbr>St</abbr><am>.</am><ex>engel</ex></expan>
+                    </closer>
+                    <postscript>
+                        <p>Prima che mi giunse la Tua lettera amicali sulle disposizioni del
+                                <persName ref="#WF">Förster</persName> verso di me, il mio articolo
+                            sulla <expan><abbr>ed</abbr><am>.</am><ex>izione</ex></expan>
+                            <unclear>Müller</unclear> era stampato. Vidrai nel prossimo
+                                    <expan><abbr>fasc</abbr><am>.</am><ex>icolo</ex></expan> della
+                                <title ref="#ZrP">Zeitschrif</title> una controversia personale su
+                            questo soggetto. Potrai giudicare, se hebbi ragione io, quando non presi
+                            troppo serie le parole del <persName ref="#WF">F.</persName> verso di
+                            Te.</p>
+                    </postscript>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

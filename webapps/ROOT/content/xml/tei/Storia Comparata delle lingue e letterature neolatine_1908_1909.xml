@@ -1,0 +1,1323 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Appunti di <persName ref="#EM">Ernesto Monaci</persName> per il corso di
+                    Storia Comparata delle lingue e letterature neolatine 1908-1909</title>
+                <editor role="transcription"><persName>Susanna Casacchia</persName></editor>
+                <editor role="encoding"><persName>Susanna Casacchia</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2021-06-11"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <bibl>Susanna Casacchia,<title>Tra didattica e comparatistica: Monaci e il mondo
+                            universitario</title>, tesi di laurea, Sapienza Università di Roma, aa.
+                        2018-2019</bibl>
+                </listBibl>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Archivio Monaci, Società Filologica Romana, presso il
+                            Dipartimento di Studi Europei, Americani e Interculturali, Sapienza,
+                            Università di Roma.</repository>
+                        <idno>Busta n. 37, fascicolo 1520.</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary corresp="#notes">Il capitolo 1 del corso, trascritto solo in parte,
+                            contiene gli appunti di Ernesto Monaci sulla letteratura latina
+                            medievale, sui primi documenti delle lingue romanze, sulla distinzione
+                            tra chierici e giullari e sul processo di ripulitura linguistica operato
+                            dai trovadori. Il capitolo 2 del corso, trascritto solo in parte,
+                            contiene le riflessioni di Ernesto Monaci sui mutamenti che si iniziano
+                            ad avere col secolo XII in merito sopratutto alla tradizione lirica, che
+                            fornisce il primo esempio di elevazione delle povere favelle dialettali
+                            adoperate dai giullari. Si tratta di un secolo particolarmente
+                            produttivo anche dal punto di vista della produzione scolastica, della
+                            diffusione delle Università e dal punto di vista della nascita dei primi
+                            centri di attività trovadorica.</summary>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="section" n="1">
+                    <head rend="center">Capitolo I.</head>
+                    <head>I</head>
+                    <p> Nel <expan><abbr>sec</abbr><am>.</am><ex>olo</ex></expan> VIII dopo Cristo
+                        il latino parlato, avanzatosi sempre più rapidamente nella sua evoluzione,
+                            <hi rend="superscript">aveva</hi> cominciato a frangersi in <subst>
+                            <del>più</del>
+                            <add>quelle</add>
+                        </subst>
+                        <rs type="topic">varietà</rs> donde <del>poi</del> emersero il
+                                <expan><abbr>franc</abbr><am>.</am><ex>ese</ex></expan> il
+                                <expan><abbr>prov</abbr><am>.</am><ex>enzale</ex></expan> e le altre
+                        lingue sorelle. Il fatto coincideva <del>anche</del>
+                        <hi rend="superscript">col sorgere</hi> con i primordi delle nazioni
+                        romanze. Ma queste non pervennero <hi rend="superscript">subito</hi> ad
+                        affermarsi nei nuovi loro linguaggi siccome altre nazioni vicine, quali per
+                        esempio le germaniche. Ciò avvenne perché il <subst>
+                            <del>germanico</del>
+                            <add><hi rend="superscript">teutonico</hi></add>
+                        </subst> primitivo scomparve totalmente trasformato nelle favelle che da
+                        esso derivarono, laddove nel latino si <hi rend="superscript">era</hi>
+                        verificato uno sdoppiamento, e mentre quello parlato era scomparso dando
+                        nascimento alle <rs type="topic">lingue romanze</rs>, il latino scritto
+                        seguitò a vivere, che anzi entrò in una vita novella, non più di stento come
+                        nel <expan><abbr>sec</abbr><am>.</am><ex>olo</ex></expan> VII, ma piena di
+                        rigoglio tostoché, risorto <rs type="topic">l’impero</rs> per opera di
+                            <persName ref="#carlomagno">Carlomagno</persName> e consolidatasi la <rs
+                            type="topic">Chiesa</rs> per l’appoggio dell’ <persName
+                            ref="#carlomagno">imperatore</persName> medesimo, il nuovo latino
+                        diventò la lingua ufficiale della <rs type="topic">Chiesa</rs> e dello <rs
+                            type="topic">Stato</rs>. Ambedue quei poteri, <del>che</del>
+                        vagheggiando un dominio universale, ritrovavano nel latino uno strumento che
+                        nessuna delle nuove lingue, ristrette nell’ambito delle rispettive
+                        nazionalità, avrebbe potuto offrire. Il latino era stato la lingua dell’<hi
+                            rend="superscript">antico</hi>
+                        <rs type="topic">impero romano</rs>, <del>antico</del> esso fu sin da
+                        principio la lingua della <rs type="topic">chiesa</rs>. <del>cristiana</del>
+                        Quale altra lingua avrebbe, con la stessa autorità e solennità, potuto
+                        diffondere per tutto l’orbe la parola dell’imperatore e del Pontefice? Quale
+                        lingua accomunerà meglio tutti i popoli soggetti? <del>I pontefici anteriori
+                            ad <persName ref="#PA">Adriano I</persName> non avevano saputo
+                            trattenere questo latino dalla decadenza estrema a cui era <subst>
+                                <del>giunto</del>
+                                <add><hi rend="superscript">pervenuto</hi></add>
+                            </subst> già nel secolo VII. Ma <persName ref="#carlomagno"
+                                >Carlomagno</persName>, benché <subst>
+                                <del>franco</del>
+                                <add><hi rend="superscript">germano</hi></add>
+                            </subst> di nascita, volle ripararvi. I suoi capitolari furono le prime
+                            sanzioni che obbligarono i <rs type="topic">chierici</rs> a tornare allo
+                            studio del latino, egli medesimo diede l'esempio raccogliendo intorno a
+                            sè i migliori grammatici del suo tempo e inaugurando nella sua corte
+                                <del>quel</del>la <hi rend="underline">schola palatina</hi>, fatta
+                            intesa a ravvivare il gusto della latinità; e dal quel tempo cominciò
+                            nel nuovo latino a fiorire tutta una letteratura, che ebbe amplissimo
+                            sviluppo nei quattro secoli successivi e avvolse le nascenti <rs
+                                type="topic">lingue romanze</rs> lasciandole nelll'ombra, <hi
+                                rend="superscript">e impedendone per un pezzo</hi> contrastandone lo
+                            sviluppo</del>
+                        <pb/></p>
+                </div>
+
+                <div type="textpart" subtype="section" n="2">
+                    <head>2</head>
+                    <p> I pontefici anteriori ad <persName ref="#PA">Adriano I</persName> non
+                        avevano saputo trattenere questo latino dalla decadenza estrema a cui era
+                        pervenuto già nel secolo VII. Ma <persName ref="#carlomagno"
+                            >Carlomagno</persName>, benché germano d’origine, vi <del>lle</del>
+                        riparò, e si comprende facilmente la cura con cui egli - mentre
+                            <del>pur</del> faceva raccogliere le antichissime poesie germaniche per
+                        tener alto il sentimento dei suoi Franchi - diede pure opera a restaurare la
+                        cultura latina. Quello era il miglior mezzo per rinsaldare la compagine
+                        dell’antico <rs type="topic">impero</rs> e per tenere addietro il movimento
+                        delle nazionalità, le quali per l'<rs type="topic">impero</rs> erano
+                        altrettante minacce. I capitolari di <persName ref="#carlomagno"
+                                    ><expan><abbr>C</abbr><ex>arlo</ex></expan>magno</persName>
+                        furono le prime sanzioni che obbligarono i <rs type="topic">chierici</rs> a
+                        tornare allo studio del latino; egli medesimo diede l’esempio raccogliendo
+                        intorno a sé i migliori grammatici <del>del suo tempo</del>, <hi
+                            rend="superscript"><persName ref="#PD">Paolo Diacono</persName>,
+                                <persName ref="#PDP">Pietro da Pisa</persName>,<persName ref="#AY"
+                                >Alcuino</persName> e altri molti,</hi> e inaugurando nella sua
+                        corte quella <hi rend="underline">schola palatina</hi> che fu il primo
+                        focolare dove <del>si ravvivò</del> il gusto della latinità <hi
+                            rend="superscript">fu ravvivato</hi>; e da quel tempo cominciò <subst>
+                            <del>nel</del>
+                            <add><hi rend="superscript">in quel</hi></add>
+                        </subst> nuovo latino a fiorire tutta una letteratura aulica, che ebbe
+                        amplissimo sviluppo nei quattro secoli successivi e gettò nell’ombra le
+                        nascenti <rs type="topic">letterature romanze</rs>.<pb/></p>
+
+
+                    <div type="textpart" subtype="section" n="3">
+                        <head>3</head>
+                        <p> Fu quella una <expan><abbr>letter</abbr><am>.</am><ex>atura</ex></expan>
+                            che ottenne i migliori intelletti del tempo, gl’ingegni i più svegliati
+                            gli spiriti più ambiziosi. Diventò la espressione delle classi
+                            privilegiate, bastò per la stessa a sollevare gli umili ai più alti
+                            gradi dell’aristocrazia ed ebbe, come tale, una espansione quanta forse
+                            non aveva avuto nei secoli antichi. Alla <rs type="topic">letteratura
+                                latina</rs> del <rs type="topic">medioevo</rs> partecipavano non
+                            solamente tutti i popoli romanzi ma anche i tedeschi, gli slavi, gli
+                            anglosassoni, e forse non restò paese in occidente ove essa non
+                            penetrasse e non suscitasse cultori <del><gap reason="illegible"
+                                    extent="unknown" unit="chars"/></del> di chiesastica che fu
+                            dapprima, essa presto si laicizzò <hi rend="superscript">diventò
+                                mondana</hi> e non vi fu materia che restasse estranea alle sue
+                            elaborazioni, sì che ben la si potrebbe chiamare una letteratura <hi
+                                rend="superscript">universitaria</hi> enciclopedica, e nel suo
+                            rigoglio, essa assunse <del>una</del> ad una originalità che la
+                            distingue profondamente dalla più tarda letteratura degli umanisti tutta
+                            materiale d'imitazione. Nei latinisti del <rs type="topic">medioevo</rs>
+                            <hi rend="superscript">era</hi> invalso il principio che la lingua
+                            dovesse adattarsi ai tempi e non vi fu <pb/></p>
+
+
+                        <div type="textpart" subtype="section" n="4">
+                            <head>4</head>
+                            <p> arditezza da cui rifuggissero quando la trovarono opportuna.
+                                Modificarono l’ortografia, modificarono le regole della grammatica,
+                                modificarono la prosodia. Nella <subst>
+                                    <del>poesia prosodica</del>
+                                    <add><hi rend="superscript">versificazione</hi></add>
+                                </subst> portarono la rima creando armonie affatto nuove, e altre
+                                armonie trovarono creando la poesia ritmica e la poesia delle
+                                sequenze. Il senso musicale fu tanto in essi acuito che dal verso
+                                portarono la ricerca dell’armonia anche nella prosa e l’arte dei
+                                dictatores subordinò il periodo a leggi ben diverse di quella che
+                                avevano regolato il periodo da <persName ref="#cicerone"
+                                    >Cicerone</persName> a <persName ref="#QAS">Simmaco</persName> e
+                                a <persName ref="#TCC">S.Cipriano</persName>. Di questa letteratura,
+                                che per lungo tempo fu oggetto, nella età moderna, di irrisione
+                                prima che di studio, <subst>
+                                    <del>oggi si</del>
+                                    <add><hi rend="superscript">ormai si è</hi></add>
+                                </subst> cominciato a riconoscere l’importanza, e dalla
+                                considerazione di essa non si <subst>
+                                    <del>può</del>
+                                    <add><hi rend="superscript">potrà più</hi></add>
+                                </subst> prescindere quando si voglia studiare qualunque delle
+                                letterature moderne, sulle quali esercitò sempre influssi malefici
+                                ed ora anche benefici. E malefica fu certamente dapprincipio la sua
+                                azione rispetto alle <rs type="topic">lingue romanze</rs>, <subst>
+                                    <del>impedendone</del>
+                                    <add><hi rend="superscript">di cui trattenne</hi></add>
+                                </subst> per lungo tempo lo sviluppo, mantenendole per più secoli in
+                                una vita latente e rachitica e impedendo <subst>
+                                    <del>le nazioni novelle</del>
+                                    <add><hi rend="superscript">ai nuovi popoli</hi></add>
+                                </subst> di affermarsi nelle lingue loro proprie e nella piena
+                                coscienza delle loro nazionalità. <pb/></p>
+
+
+                            <div type="textpart" subtype="section" n="5">
+                                <head>5</head>
+                                <p>
+                                    <del> Col <expan><abbr>sec</abbr><am>.</am><ex>olo</ex></expan>
+                                        VII dell'eta moderna il latino parlato era pervenuto a
+                                        differenziarsi tanto dal latino scritto o grammaticale,
+                                                <del><gap reason="illegible" extent="unknown"
+                                                unit="chars"/></del> e tanto anche a diversificarsi
+                                        da uno ad altro paese, che la sua primitiva unità ne
+                                        rimaneva spezzata e nei varj paesi cominciavano già a
+                                        disegnarsi, per quanto incerti e confusi <hi
+                                            rend="superscript">alcuni</hi>, di tratti <hi
+                                            rend="superscript">più</hi> caratteristici dei nuovi
+                                        idiomi che dovevano poi prendere il posto del latino. Questo
+                                        fatto coincideva coi primordi della nazione moderna e si
+                                        verificava anche <subst>
+                                            <del><gap reason="illegible" extent="unknown"
+                                                  unit="chars"/>alle</del>
+                                            <add><hi rend="superscript">per le</hi></add>
+                                        </subst> altre antiche lingue europee. Ma mentre <subst>
+                                            <del><gap reason="illegible" extent="unknown"
+                                                  unit="chars"/></del>
+                                            <add><hi rend="superscript">il teutonico</hi></add>
+                                        </subst> primitivo scompariva trasformato nel nuovo, il che <subst>
+                                            <del>anche</del>
+                                            <add><hi rend="superscript">pare</hi></add>
+                                        </subst> accadeva del <gap reason="illegible"
+                                            extent="unknown" unit="chars"/>, nel latino invece
+                                        verificavasi uno sdoppiamento: quello <del>il</del> parlato
+                                        si trasformava - come già detto nelle moderne <rs
+                                            type="topic">lingue romanze</rs> e il latino scritto,
+                                        diventato la lingua ufficiale della chiesa e delle leggi, <subst>
+                                            <del><gap reason="illegible" extent="unknown"
+                                                  unit="chars"/></del>
+                                            <add><hi rend="superscript">cresceva di</hi></add>
+                                        </subst> vigore e d'autorità, e per lungo tempo fu di
+                                        ostacolo allo sviluppo delle <rs type="topic">lingue
+                                            romanze</rs> e della loro cultura letteraria. Questa per
+                                        lungo tempo non <subst>
+                                            <del><gap reason="illegible" extent="unknown"
+                                                  unit="chars"/></del>
+                                            <add><hi rend="superscript">possibile</hi></add>
+                                        </subst> se non in mente latina; e così i nuovi linguaggi
+                                        per più secoli restarono in balia dei volgari, disprezzati
+                                        dall'aristocrazia e impediti di affermarsi come espressione
+                                        delle nazioni nascenti.</del> Spetta alla
+                                        <placeName>Gallia</placeName> il merito di aver primamente
+                                    rotto le pastoje del latino <del><gap reason="illegible"
+                                            extent="unknown" unit="chars"/> più per volontà d'uomini
+                                        che per necessità di cose</del>. La <rs type="topic"
+                                        >Chiesa</rs> gallicana, visto che il popolo non comprendeva
+                                    più <subst>
+                                        <del>l'acquisizione della dottrina cristiana fatta su
+                                            libro</del>
+                                        <add><hi rend="superscript">il latino nel quale
+                                            si</hi></add>
+                                    </subst>
+                                    <gap reason="illegible" extent="unknown" unit="chars"/> la
+                                        <title ref="#bibbia">Bibbia</title>, prescrisse agli
+                                    ecclesiastici di spiegare la <title ref="#bibbia">Bibbia</title>
+                                    a seconda dei luoghi, in lingua romanza e in teutonica. Primo
+                                        <del>fu</del> a ordinare ciò <hi rend="superscript">fu</hi>
+                                    il <rs type="topic">concilio Turonense</rs> dell’813, e lo
+                                    seguirono nello stesso secolo parecchi altri concili. Intanto al
+                                    di fuori della <rs type="topic">chiesa</rs> si verificarono,
+                                        <gap reason="illegible" extent="unknown" unit="chars"/>. <subst>
+                                        <del>
+                                            <gap reason="illegible" extent="unknown" unit="chars"
+                                            /></del>
+                                        <add><hi rend="superscript">Famoso nella</hi></add>
+                                    </subst> storia è l’avvenimento che diede luogo ai cosiddetti
+                                        <title ref="#giuramenti">Giuramenti di Strasburgo</title>.
+                                        <del>Era il <gap reason="illegible" extent="unknown"
+                                            unit="chars"/>
+                                                dell'<expan><abbr>a</abbr><am>.</am><ex>nno</ex></expan>
+                                        842...</del> Così il volgare <del><gap reason="illegible"
+                                            extent="unknown" unit="chars"/></del>
+                                    <hi rend="superscript">per necessità di cose</hi> trovava
+                                    riconoscimento anche in atti ufficiali dello Stato. Nondimeno la
+                                    consuetudine della cancelleria <subst>
+                                        <del>
+                                            <gap reason="illegible" extent="unknown" unit="chars"
+                                            /></del>
+                                        <add><hi rend="superscript">di corte</hi></add>
+                                    </subst> e le tradizioni della letteratura ecclesiastica antica
+                                    avrebbero seguitato a lungo ad essere di ostacolo al trionfo del
+                                    volgare, senza l’opera dei <rs type="topic">giullari</rs>, i
+                                    quali nelle corti <subst>
+                                        <del>
+                                            <gap reason="illegible" extent="unknown" unit="chars"
+                                            /></del>
+                                        <add><hi rend="superscript">feudali presero</hi></add>
+                                    </subst> a celebrare le imprese guerresche dei loro signori, e a
+                                    sollevarli con altri canti. <pb/></p>
+
+
+                                <div type="textpart" subtype="section" n="6">
+                                    <head>6</head>
+                                    <p> È per essi che i rozzi parleri del popolo cominciarono nel
+                                        verso ad acquistare una certa regolarità. Ma, rozzi
+                                        generalmente i <rs type="topic">giullari</rs> medesimi, essi
+                                        non giunsero a dare ai nuovi linguaggi più che una prima
+                                        ripulitura. La lingua delle <rs type="topic"><hi
+                                                rend="underline">chansons de geste</hi></rs>
+                                        conservò sempre un aspetto assai rude anche nei secoli più
+                                        tardi e si deve ai <rs type="topic">trovadori</rs> lo avere
+                                        raffinato il linguaggio e averlo <subst>
+                                            <del>portato</del>
+                                            <add><hi rend="superscript">elevato</hi></add>
+                                        </subst> a tal grado di perfezione artistica da suscitare
+                                        l’ammirazione di tutto l’Occidente, e destare l’emulazione
+                                        delle nazioni sorelle che da essi ebbero i primi <subst>
+                                            <del>modelli</del>
+                                            <add><hi rend="superscript">esempi</hi></add>
+                                        </subst> della poesia moderna. <del>L'arte dei giullari si
+                                            applicò tanto nella <placeName ref="#francia">Francia
+                                            </placeName>del Nord quanto nella meridionale; <hi
+                                                rend="superscript">ma</hi> l'epica <subst>
+                                                <del><gap reason="illegible" extent="unknown"
+                                                  unit="chars"/></del>
+                                                <add><hi rend="superscript">giullaresca</hi></add>
+                                            </subst> trovò nel nord un terreno più propizio che nel
+                                            mezzogiorno, onde là ebbe maggiore svolgimento; Ma <rs
+                                                type="topic">l'arte trovadorica</rs> fu indigena del
+                                            mezzogiorno, ed essa fu la produzione più originale di
+                                            tutta la letteratura di quella regione. </del> I <rs
+                                            type="topic">trovadori</rs> si fanno discendere <del>in
+                                            linea retta</del> dai <rs type="topic">giullari</rs>;
+                                        onde il loro apparire non si spiega senza qualche nozione
+                                        sulla storia dei <rs type="topic">giullari</rs>
+                                        <hi rend="superscript">medesimi</hi>. Disgraziatamente i
+                                        primordi di quella storia sono oscurissimi, perché a
+                                        ricostruirla non abbiamo per più secoli se non documenti che
+                                        involontariamente ci forniscono i loro maggiori avversarj, i
+                                            <rs type="topic">chierici</rs>. I <rs type="topic"
+                                            >giullari</rs> diffondevano le loro produzioni oralmente
+                                        e i <rs type="topic">chierici</rs>, rimasti quasi soli
+                                        depositarj della tradizione scritta, <hi rend="superscript"
+                                            >insegnavano di raccogliere</hi>
+                                        <del><gap reason="illegible" extent="unknown" unit="chars"
+                                            /></del> quelle produzioni da <subst>
+                                            <del><gap reason="illegible" extent="unknown"
+                                                  unit="chars"/></del>
+                                            <add><hi rend="superscript"/>loro disprezzate</add>
+                                        </subst>, e quando per caso o e per necessità dovettero pure <subst>
+                                            <del>conservarne</del>
+                                            <add><hi rend="superscript">addurne</hi></add>
+                                        </subst> qualche brano, ciò non fecero se non travestendolo
+                                        nel loro latino, siccome <subst>
+                                            <del>vediamo</del>
+                                            <add><hi rend="superscript">pare sia stato
+                                                fatto</hi></add>
+                                        </subst> dal frammento epico di <hi rend="underline"
+                                                ><persName ref="#CH">Chlotario rege
+                                                Francorum</persName></hi>, che si trova inserito
+                                        nella vita di <persName ref="#FAM">S.Farone</persName>. Così
+                                        siamo ridotti, pei tempi più antichi, a non poterci valere
+                                        che di semplici accenni che si sorprendono or nei Trattati
+                                        di <hi rend="superscript">religione e</hi> di morale dove se
+                                        ne parla per riprovarli, ora nei Canoni dei concili dove si
+                                        vieta <rs type="topic"><subst>
+                                                <del>agli ecclesiastici</del>
+                                                <add><hi rend="superscript">ai chierici</hi></add>
+                                            </subst></rs> di avere qualunque rapporto con loro, ora
+                                        nei Penitenziali dove si tratta delle sanzioni
+                                        ecclesiastiche che dovevano colpirli. Gli stessi appellativi
+                                        coi quali erano comunemente desi<pb break="no"/></p>
+
+                                    <div type="textpart" subtype="section" n="7">
+                                        <head>7</head>
+                                        <p> gnati, ci fanno subito sentire l’abbiezione in cui eran
+                                            tenuti da coloro che ne parlavano. I <rs type="topic"
+                                                  ><hi rend="underline">Jouculares</hi></rs> o <rs
+                                                type="topic"><hi rend="underline"
+                                                >joculatores</hi></rs> erano indifferentemente
+                                            chiamati anche <hi rend="underline">scurrae</hi>, <hi
+                                                rend="underline">mimi</hi>, <hi rend="underline"
+                                                >pantomimi</hi>, <hi rend="underline"
+                                                >histriones</hi>, <hi rend="underline"
+                                            >ludiones</hi>, <hi rend="underline">saltatores</hi>,
+                                                <hi rend="underline">funamboli</hi>; <del><gap
+                                                  reason="illegible" extent="unknown" unit="chars"
+                                                /></del> ma quantunque nel mestiere che essi
+                                            esercitavano entrasse veramente anche il saltimbanco, il
+                                            prestigiatore, il funambolo, il buffone e simili, certo
+                                            è che in quel mestiere aveva parte anche la musica, il
+                                            canto e la recitazione. <subst>
+                                                <del><gap reason="illegible" extent="unknown"
+                                                  unit="chars"/></del>
+                                                <add><hi rend="superscript">Di qui i nomi di <hi
+                                                  rend="underline">citharista</hi>,</hi></add>
+                                            </subst> di <hi rend="underline">fubicines</hi>, di <hi
+                                                rend="underline">lyricines</hi>, di <hi
+                                                rend="underline">viellatores</hi> che <hi
+                                                rend="superscript">pur</hi> troviamo dati loro non
+                                            di rado, ed è ovvio che a seconda delle attitudini
+                                            individuali e del favore che incontravano, molti col
+                                            tempo si venissero specializzando, e mentre alcuni
+                                            restavano nelle funzioni più basse e vili del mestiere,
+                                            altri si dedicassero alle meno ignobili sino a farne
+                                            un’arte ammirata e rispettata, da attirare a sé, <subst>
+                                                <del>non solamente</del>
+                                                <add><hi rend="superscript">oltre</hi></add>
+                                            </subst> i figli della plebe, <del>ma</del> anche
+                                                  <del><rs type="topic">chierici</rs></del> i figli
+                                            di nobili <hi rend="superscript">e perfino <rs
+                                                  type="topic">i chierici</rs></hi>. Ciò si verifica
+                                                <hi rend="superscript">principalmente</hi> nei
+                                            secoli XII e XIII, ma non dovettero mancarne esempi
+                                            anche prima, e di qui si spiega, come nei loro documenti
+                                            più antichi tanto si ritrovi comune. alla letteratura di
+                                                <rs type="topic">chiesa</rs>. La più antica menzione
+                                            di <hi rend="underline">joculator</hi> vuolsi occorra in
+                                                <persName ref="#SA">Salviano</persName> (sec. V).
+                                            Fra i <rs type="topic">Concilii quello di <placeName
+                                                  ref="#adge">Agde</placeName></rs>
+                                                  dell’<expan><abbr>a</abbr><am>.</am><ex>nno</ex></expan>
+                                            506 sembra sia il primo a parlarne quando minacci pene
+                                            al chierico <del><gap reason="illegible"
+                                                  extent="unknown" unit="chars"/></del>“scurrilem et
+                                            verbis turpibus jocultatorem”. Dopo questi tempi sempre
+                                            più spesso avviene di trovarli nominati. Se ne
+                                            incontrano per tutti i paesi romanzi e anche in
+                                                <placeName ref="#inghilterra"
+                                                >Inghilterra</placeName>, dove penetrarono con i
+                                            Normanni; ma nessun paese sembra che ne abbia tanto
+                                            abbondato quanto la <placeName>Gallia</placeName>, e
+                                            nella <placeName>Gallia</placeName> stessa la parte
+                                            meridionale più ancora della settentrionale. Della loro
+                                            produzione i più antichi monumenti conosciuti <hi
+                                                rend="underline">risalgono ai secoli IX, X, XI. *Del
+                                                  <expan><abbr>sec</abbr><am>.</am><ex>olo</ex></expan>X</hi>
+                                            è il Poema su </p>
+                                        <p><note> *Del
+                                                  <expan><abbr>sec</abbr><am>.</am><ex>olo</ex></expan>
+                                                IX, in
+                                                  <expan><abbr>franc</abbr><am>.</am><ex>ese</ex></expan>
+                                                puro, è la <title ref="#eulalia">cantilena di S.
+                                                  Eulalia</title> di una forma poetica non
+                                                  <del>fu</del> ancora abbastanza sicuramente
+                                                definita, ma che ben corrisponde al tipo della
+                                                sequenza <unclear>notheriana</unclear>
+                                                  (<expan><abbr>Facs</abbr><am>.</am><ex>imile</ex></expan>
+                                                t. 86)</note>
+                                            <pb/></p>
+
+
+
+                                        <div type="textpart" subtype="section" n="8">
+                                            <head>8</head>
+                                            <p>
+                                                <del>su</del> la <hi rend="underline">Passione di
+                                                  Cristo</hi> in 129 stanze ciascuna di quattro
+                                                ottosillabi rimasti a coppia, dove <del>le</del>
+                                                forme provenzali si alternano con forme francesi
+                                                (TAP. XV, 27-34). Allo stesso secolo appartiene la
+                                                redazione provenzalizzata del <hi rend="underline">
+                                                  <persName ref="#SL">Vita di
+                                                  S.Leodegario</persName></hi>, composta
+                                                originariamente in francese, anch’essa a stanze di
+                                                ottosillabi assonanzati a coppia, che il <persName
+                                                  ref="#GP">Paris</persName> considera quale il più
+                                                antico poema in francese in versi regolari che sia
+                                                pervenuto a noi (L <gap reason="illegible"
+                                                  extent="unknown" unit="chars"/> .§ 146). E con
+                                                forme pure miste di provenzale e di francese
+                                                troviamo nel
+                                                  <expan><abbr>sec</abbr><am>.</am><ex>olo</ex></expan>
+                                                XI lo <hi rend="underline"><title ref="#sponsus"
+                                                  >Sponsus</title></hi>, che è un dramma liturgico
+                                                da rannodare al ciclo detto dei Profeti, ove il
+                                                latino si afferma col volgare e la composizione ha
+                                                un carattere quasi affatto lirico (<persName
+                                                  ref="#GP">Paris</persName>, L <gap
+                                                  reason="illegible" extent="unknown" unit="chars"
+                                                />. § 165). Una farcitura pure di latino e di
+                                                volgare è la cosiddetta <title ref="#albabilingue"
+                                                  ><hi rend="underline">Alba bilingue</hi></title>
+                                                del <title type="manuscript"
+                                                  ><expan><abbr>Cod</abbr><am>.</am><ex>ice</ex></expan>
+                                                  <expan><abbr>Vat</abbr><am>.</am><ex>icano</ex></expan>
+                                                  <expan><abbr>Reg</abbr><am>.</am><ex>inense</ex></expan>
+                                                  1462 </title>, <subst>
+                                                  <del>che</del>
+                                                  <add><hi rend="superscript">della quale</hi></add>
+                                                </subst> non si potrà finora <del>assegnare</del>
+                                                con sicurezza <hi rend="superscript">stabilire se
+                                                  provenga</hi> dalle <placeName>Gallie</placeName>
+                                                ovvero dalla vicina <placeName>Ladinia</placeName>,
+                                                  <del> ma che pur sempre <hi rend="superscript"
+                                                  >ci</hi> rappresenta un altro dei rari saggi della
+                                                  poesia volgare primitiva, e questo indubbiamente
+                                                  opera non di un <rs type="topic">giullare</rs> ma
+                                                  di un <rs type="topic">chierico</rs>, il quale
+                                                  però fonde nel suo componimento un ritornello di
+                                                  carattere giullaresco non
+                                                  dubbio</del>(<expan><abbr>Facs</abbr><am>.</am><ex>simile</ex></expan>
+                                                AMss. N°. 57). Finalmente alcune poesie religiose
+                                                trovate in un <title type="manuscript">ms.</title>
+                                                  dell’<expan><abbr>Abaz</abbr><am>.</am><ex>ia</ex></expan>
+                                                di S.Martial de <placeName ref="#limoges"
+                                                  >Limoges</placeName>. E da questi umili seggi si
+                                                sale ben presto nella <placeName ref="#francia"
+                                                  >Francia</placeName>
+                                                <hi rend="superscript">del nord</hi> alla <title
+                                                  ref="#sanalessio"><hi rend="underline"
+                                                  >Chanson</hi> di S. Alessio</title>, alla <title
+                                                  ref="#pèlerinage"><hi rend="underline"
+                                                  >Chanson</hi>del Pellegrinaggio di <persName
+                                                  ref="#CM">Carlomagno</persName></title>
+                                                <del>e</del> alla <title ref="#chansonderoland"><hi
+                                                  rend="underline"
+                                                  ><expan><abbr>ch</abbr><am>.</am><ex>anson</ex></expan></hi>de
+                                                  Roland</title>, nella <hi rend="superscript"
+                                                  ><placeName>Gallia</placeName></hi> meridionale
+                                                alla <hi rend="superscript"><title
+                                                  ref="#canzonedisantafede">S.Fides</title> e alla
+                                                  <title ref="#chansongirart"><hi rend="underline"
+                                                  ><expan><abbr>Ch</abbr><am>.</am><ex>anson</ex></expan>de</hi>
+                                                  Girart de Rossilhon</title></hi>. <del>Ma qui
+                                                  avviene di domandare tutti i documenti fin qui
+                                                  ricordati sono da assegnare tutti alla <rs
+                                                  type="topic"
+                                                  ><expan><abbr>letter</abbr><am>.</am><ex>atura</ex></expan>
+                                                  giullaresca</rs>? Non sembra che i <rs
+                                                  type="topic">giullari</rs> primitivi componessero
+                                                  essi stessi le opere che andava cantando in mezzo
+                                                  al popolo. Ma nella <placeName>Gallia</placeName>
+                                                  <expan><abbr>merid</abbr><am>.</am><ex>ionale</ex></expan>
+                                                  l’incivilimento aveva progredito molto più che
+                                                  nella <placeName>Gallia</placeName>
+                                                  <expan><abbr>settentr</abbr><am>.</am><ex>ionale</ex></expan>
+                                                  e ben presto là troviamo <rs type="topic"
+                                                  >giullari</rs> quali <persName ref="#CER"
+                                                  >Cercamon</persName>
+                                                  <persName ref="#MCB">Macrabrus</persName> ed
+                                                  altri, l’opera poetica dei quali apparisce ben
+                                                  diversa</del><pb/></p>
+
+                                            <div type="textpart" subtype="section" n="9">
+                                                <head>9</head>
+                                                <p> La differenza che corre fra queste ultime
+                                                  composizioni e le altre indicate qui sopra, è
+                                                  grande, e di qualcuna perfino si dubitò se vi
+                                                  dovesse riconoscere l’opera di un <rs type="topic"
+                                                  >chierico</rs> piuttosto che di un <rs
+                                                  type="topic">giullare</rs>. Dell'influsso
+                                                  letterario dei <rs type="topic">chierici</rs>
+                                                  sulla letteratura dei <rs type="topic"
+                                                  >giullari</rs> non mancano tracce anche nelle
+                                                  altre composizioni anteriori, per chi sappia
+                                                  intuirle; e il fatto si spiega, sia perché - come
+                                                  già si è detto - nella famiglia dei <rs
+                                                  type="topic">giullari</rs> penetrarono anche i <rs
+                                                  type="topic">chierici</rs>; sia perché molti <rs
+                                                  type="topic">giullari</rs> ebbero contatto con le
+                                                  scuole e dai libri dei <rs type="topic"
+                                                  >chierici</rs> non di rado attinsero materia per
+                                                  le loro composizioni, in ispecie quando
+                                                  trattatavasi di argomenti religiosi. Ciò in alcuni
+                                                  casi si accerta per riscontri che <hi
+                                                  rend="superscript">ne</hi> troviamo in testi
+                                                  latini, come già si verificò per la <title
+                                                  ref="#eulalia">cantilena di Santa Eulalia</title>
+                                                  e per la <title ref="#vita">Vita di S.
+                                                  Leodgario</title>; in altri casi <subst>
+                                                  <del>lo troviamo</del>
+                                                  <add><hi rend="superscript">ci viene</hi></add>
+                                                  </subst> dichiarato esplicitamente dall’autore
+                                                  medesimo. Così l’anonimo autore della <title
+                                                  ref="#canzonedisantafede"><hi rend="underline"
+                                                  >S.Fides</hi></title> non pretende di aver
+                                                  composto il suo racconto ex novo, ma nell’esordio
+                                                  dice che quella storia è <hi rend="superscript"
+                                                  >già</hi> conosciuta fra i Baschi e in <placeName
+                                                  ref="#aragona">Aragona</placeName> e in
+                                                  <placeName>Guascogna</placeName>; egli la sentì
+                                                  leggere da chierichetti e da buoni grammatici come
+                                                  è nella <hi rend="underline">passione</hi> che
+                                                  trovasi nei lezionarj e gli tornò in mente un
+                                                  giorno che, all’ombra di un pino, sentì leggere un
+                                                  libro latino dei tempi antichi, dove si parlava di
+                                                  tutto, in ispecie del padre del <persName>re
+                                                  Licino</persName>e della stirpe di <persName
+                                                  ref="#MAT">Massimino</persName>, che
+                                                  perseguitavano i santi come il cacciatore fa dei
+                                                  cervi (<title ref="#ROM">Romania</title>, 122-3).
+                                                  Quanto più si discende nel tempo, tanto più
+                                                  vediamo crescere tali influssi anche per un’altra
+                                                  ragione. I <rs type="topic">chierici</rs>, dopo
+                                                  che il volgare della <rs type="topic">poesia
+                                                  giullaresca</rs> cominciò a trovar favore, non
+                                                  solamente presso le plebi, ma anche nella società
+                                                  feudale, in quella casta cioè dove il latino <subst>
+                                                  <del><gap reason="illegible" extent="unknown"
+                                                  unit="chars"/></del>
+                                                  <add><hi rend="superscript">di studio</hi></add>
+                                                  </subst> non poteva <subst>
+                                                  <del>fare troppo presa</del>
+                                                  <add><hi rend="superscript">troppo essere
+                                                  gradito</hi></add>
+                                                  </subst>, presero anch’essi a coltivare il
+                                                  volgare. All’opposizione cominciò a sostituirsi la
+                                                  emulazione, e una prova cospicua di ciò l’abbiamo
+                                                  nel cosiddetto <title ref="#boecis"><hi
+                                                  rend="underline">Boeci</hi></title>.<pb/></p>
+
+                                                <div type="textpart" subtype="section" n="10">
+                                                  <head>10</head>
+                                                  <p> Con tal titolo si designa comunemente un
+                                                  frammento di un poema ove si prese a verseggiare
+                                                  la vita di <persName type="author" ref="#SEB"
+                                                  >Boezio</persName> e ad esporre la materia dei
+                                                  cinque libri <hi rend="underline"><title
+                                                  ref="#philosophiaeconsolationis">Philosophiae
+                                                  consolationis</title></hi> del medesimo. Per noi
+                                                  importa fermarci un istante su la <del>sua</del>
+                                                  storia esterna di quel frammento. Esso trovasi in
+                                                  un codice che oggi si conserva nella <orgName
+                                                  ref="#BibOrl">Biblioteca di Orléans</orgName> ma
+                                                  che anteriormente appartenne alla <orgName
+                                                  ref="#BibFl">biblioteca dell’Abbazia di
+                                                  Fleury</orgName> detta altrimenti l’Abbazia di
+                                                  <placeName ref="#loira"
+                                                  >Saint-Benoît-sur-Loire</placeName>, e colà si
+                                                  ritiene che sia stato scritto. L’abbazia di
+                                                  <placeName ref="#loira">Fleury</placeName>,
+                                                  fondata nel
+                                                  <expan><abbr>sec</abbr><am>.</am><ex>olo</ex></expan>
+                                                  VI, vantavasi di possedere il corpo di <persName
+                                                  ref="#SB">S. Benedetto</persName> ivi trasportato
+                                                  da <placeName ref="#montecassino"
+                                                  >Montecassino</placeName>; <del>e</del> così,
+                                                  arricchita presto da lasciti e da donazioni, era
+                                                  diventata una delle principali abbazie della
+                                                  <placeName ref="#francia">Francia</placeName>. Nel
+                                                  <expan><abbr>sec</abbr><am>.</am><ex>olo</ex></expan>
+                                                  X, riformato il monastero di <persName ref="#ODC"
+                                                  >Oddone di Cluni</persName>, divenne celebre anche
+                                                  per la sua scuola e la sua biblioteca, e crebbe la
+                                                  sua rinomanza <subst>
+                                                  <del>da quando</del>
+                                                  <add><hi rend="superscript">quando </hi></add>
+                                                  </subst>
+                                                  <persName ref="#LVII">Leone VII</persName> papa lo
+                                                  ebbe esentato dalla giurisdizione episcopale
+                                                  dichiarandone l’abbate capo di tutti gli abati
+                                                  della <placeName ref="#francia"
+                                                  >Francia</placeName>, e ne fu eletto abbate
+                                                  <persName ref="#GAU">Gauzlin</persName> figlio di
+                                                  <persName ref="#UCA">Ugo Capeto</persName> re di
+                                                  <placeName ref="#francia">Francia</placeName>,
+                                                  dopo di essere stato pure <hi rend="superscript"
+                                                  >là</hi> educato. A quell’epoca - scrive il
+                                                  <persName ref="#FJR">Raynouard</persName> che
+                                                  raccolse queste notizie - nella scuola di
+                                                  <placeName ref="#fleury">Fleury</placeName> si
+                                                  contavano, fra religiosi ed esterni, cinque mila
+                                                  studenti; e poiché ogni studente era tenuto a dare
+                                                  per onorario o retribuzione due manoscritti
+                                                  ciascun anno, si comprende di leggieri quanta
+                                                  ricchezza di libri vi si dovette presto
+                                                  accumulare. Ora è da quel grande centro di coltura
+                                                  scolastica che uscì il <title ref="#boecis"><hi
+                                                  rend="underline">Boecis</hi></title>,
+                                                  probabilmente negli stessi anni in cui là si
+                                                  trovava il figlio di <persName ref="#UCA">Ugo
+                                                  Capeto</persName>, e per questo frammento vediamo
+                                                  il provenzale cominciare a prender posto accanto
+                                                  al latino anche in uno dei principali istituti
+                                                  d’educazione di quella età. Notevole in esso è la
+                                                  purezza della lingua quale si ritroverà più tardi
+                                                  soltanto nell’uso trovadorico; notevole <pb/></p>
+
+
+                                                  <div type="textpart" subtype="section" n="11">
+                                                  <head>11</head>
+                                                  <p> ancora la forma poetica, che è quella propria
+                                                  delle <rs type="topic">chansons de geste</rs>, con
+                                                  la differenza però che invece dell’assonanza qui
+                                                  già si trova adoperata quasi senza eccezione la
+                                                  rima piena. Nel contesto l’anonimo autore si
+                                                  rivolge agli <hi rend="underline">enfantz</hi> e
+                                                  con questo appellativo ci fa sempre meglio
+                                                  conoscere la classe di persone a cui l’opera sua
+                                                  fu destinata. Un altro frammento, pure dell’XI
+                                                  secolo, proveniente da altra parte della
+                                                  <placeName ref="#francia">Francia</placeName>
+                                                  meridionale, mette anche più del <title
+                                                  ref="#boecis"><hi rend="underline"
+                                                  >Boecis</hi></title> in evidenza la emulazione che
+                                                  erasi destata fra i <rs type="topic">chierici</rs>
+                                                  rispetto alla letteratura volgare, che anzi qui si
+                                                  afferma decisamente l’antagonismo. L’autore è un
+                                                  monaco, che da altre fonti risulta essersi
+                                                  chiamato <persName ref="#AL">Alberico</persName>
+                                                  ed essere stato nativo di <placeName
+                                                  ref="#besançon">Besançon</placeName> o di
+                                                  <placeName ref="#briançon">Briançon</placeName>.
+                                                  Ora questo monaco imprende a narrare storia di
+                                                  <persName ref="#ALM">Alessandro Magno</persName>
+                                                  quale già correva nella letteratura bizantina e
+                                                  romana degli ultimi secoli, e pervenuto a un punto
+                                                  che <subst>
+                                                  <del>per</del>
+                                                  <add><hi rend="superscript">a</hi></add>
+                                                  </subst> lui pareva controverso, quello <hi
+                                                  rend="superscript">cioè</hi> dei genitori
+                                                  dell’eroe, se n’esce in queste parole: Alcuni <rs
+                                                  type="topic">trovadori</rs> dicono che <persName
+                                                  ref="#ALM">Alessandro</persName> fu figlio di un
+                                                  incantatore; ma quei felloni <hi
+                                                  rend="superscript">perfidi adulatori</hi>,
+                                                  lusingatori, mentiscono e fareste male a credere a
+                                                  uno solo di loro…ecc. Notevole in questo passo la
+                                                  menzione dei <rs type="topic">trovadori</rs> che
+                                                  qui <subst>
+                                                  <del><gap reason="illegible" extent="unknown"
+                                                  unit="chars"/></del>
+                                                  <add><hi rend="superscript">s’incontra</hi></add>
+                                                  </subst> per la prima volta <hi rend="superscript"
+                                                  >confondendo i <rs type="topic">trovadori</rs> coi
+                                                  <rs type="topic">giullari</rs> o piuttosto
+                                                  scambiandoli</hi>. Allora dovevano già vivere i
+                                                  <rs type="topic">trovadori</rs>
+                                                  <persName ref="#EV">Ebles de Ventadorn</persName>
+                                                  e <persName ref="#GDA">Guglielmo IX
+                                                  d’Aquitania</persName>; ma nulla permette di
+                                                  credere che essi abbiano cantato le gesta di
+                                                  <persName ref="#ALM">Alessandro Magno</persName>.
+                                                  Meno inverosimile che ne fosse già stato cantato
+                                                  da qualche <rs type="topic">giullare</rs>. Certo è
+                                                  che della poesia profana dei <rs type="topic"
+                                                  >giullari</rs> di quei secoli andò quasi tutto
+                                                  perduto, quantunque <hi rend="superscript"
+                                                  >essa</hi> deb<pb break="ba"/></p>
+
+
+                                                  </div>
+                                                  <div type="textpart" subtype="section" n="12">
+                                                  <head>12</head>
+                                                  <p> ba essere stata già copiosa forse che non
+                                                  quella di carattere religioso. In ispecie le
+                                                  romanze, le danze o canzoni a ballo e le <hi
+                                                  rend="underline">chansons, <hi rend="superscript"
+                                                  >l’histoire o</hi> de toile</hi>, <del><gap
+                                                  reason="illegible" extent="unknown" unit="chars"
+                                                  /></del> opere queste indubbiamente giulleresche,
+                                                  dovettero già circolare nel
+                                                  <expan><abbr>sec</abbr><am>.</am><ex>olo</ex></expan>
+                                                  XI. Ma, fra quante ne restano, nessuna può dirsi <subst>
+                                                  <del><gap reason="illegible" extent="unknown"
+                                                  unit="chars"/></del>
+                                                  <add><hi rend="superscript"/>anteriore</add>
+                                                  </subst> al
+                                                  <expan><abbr>sec</abbr><am>.</am><ex>olo</ex></expan>
+                                                  XII, se non forse quelle due francesi che prendono
+                                                  nome da <hi rend="underline">Erembor</hi> e da <hi
+                                                  rend="underline">Orior</hi>, e quella provenzale
+                                                  di cui abbiamo solamente il principio: </p>
+                                                  <p><hi rend="center">El bosc d’Ardena josta l
+                                                  palais ausor A la fenestra de la plus auta
+                                                  tor…</hi></p>
+                                                  <p> Simili canti, di carattere epico-lirico,
+                                                  furono detti <hi rend="underline">de toile</hi>
+                                                  ossia di tessitrici, perché - come disse il
+                                                  <persName ref="#GP">Paris</persName> (<title
+                                                  ref="#esquisse">Esquisse</title> §34)- fatti a
+                                                  sollievo delle lunghe ore di lavoro nei ginecei; e
+                                                  oggi meglio ancora si spiega quell’appellativo
+                                                  così speciale che ebbero, dacché sappiamo che fra
+                                                  tessitori e tessitrici primamente si diffuse
+                                                  nell’XI secolo il catarismo e con questo
+                                                  l’aborrimento del latino. Per essi furono fatte le
+                                                  prime traduzioni volgari della <title
+                                                  ref="#bibbia">Bibbia</title> che la chiesa presto
+                                                  interdisse; per essi furono composti <hi
+                                                  rend="superscript">in volgare</hi> cantici devoti
+                                                  e formole religiose che più tardi l’Inquisizione
+                                                  si studiò in ogni modo di distruggere, e per essi
+                                                  dovettero prender voga anche le canzoni profane
+                                                  con cui alleviavano le loro penose fatiche e che
+                                                  naturalmente andarono perdute nella persecuzione
+                                                  che li travolse (v. <persName ref="#GV1"><hi
+                                                  rend="underline">G. Volpe</hi></persName> nel <hi
+                                                  rend="underline">Rinnovamento</hi>, 1907). Così
+                                                  per tutto questo periodo che corre dall’VIII alla
+                                                  fine del
+                                                  <expan><abbr>sec</abbr><am>.</am><ex>olo</ex></expan>
+                                                  XI, non troviamo da <hi rend="superscript">un capo
+                                                  all’altro</hi> delle <placeName>Gallie</placeName>
+                                                  se non poche reliquie, e dobbiamo giungere al
+                                                  secolo seguente per trovare una letteratura
+                                                  volgare non più saltuaria e a frammenti, ma
+                                                  continuata e <subst>
+                                                  <del><gap reason="illegible" extent="unknown"
+                                                  unit="chars"/></del>
+                                                  <add><hi rend="superscript">di</hi></add>
+                                                  </subst> tanta ricchezza che mal si spiegherebbe a
+                                                  confronto del periodo che precede, se non si
+                                                  tenesse <del>ben</del> conto del profondo
+                                                  mutamento che intanto era venuto <hi
+                                                  rend="superscript">a</hi> maturarsi nella Società
+                                                  al di <pb/></p>
+
+
+                                                  </div>
+                                                  <div type="textpart" subtype="section" n="13">
+                                                  <head>13</head>
+                                                  <p> là e al di qua della <placeName ref="#loira"
+                                                  >Loira</placeName>, onde <subst>
+                                                  <del>anche</del>
+                                                  <add><hi rend="superscript">pur</hi></add>
+                                                  </subst> si ebbero due letterature abbastanza
+                                                  diverse fra loro non solamente per lingua ma anche
+                                                  per indole e contenuto. A farsi un’idea di tale
+                                                  mutamento e del conseguente sviluppo diverso delle
+                                                  due letterature si cominci dall’osservare le
+                                                  condizioni politiche delle due regioni. La
+                                                  <placeName>Gallia</placeName> del nord nei secoli
+                                                  della monarchia carolingia aveva perduto ogni
+                                                  traccia dell’organizzazione municipale romana, <subst>
+                                                  <del><gap reason="illegible" extent="unknown"
+                                                  unit="chars"/></del>
+                                                  <add><hi rend="superscript">e mentre nella
+                                                  <placeName>Gallia</placeName>
+                                                  meridionale</hi></add>
+                                                  </subst> i signori, benché separati dal popolo,
+                                                  avevano seguitato a vivere dentro le mura della
+                                                  città, nel Nord la vita signorile si era ritirata
+                                                  nei castelli e più dell’altra si era
+                                                  inselvatichita. Le guerre continue che
+                                                  imperversarono nel nord durante i secoli IX e X,
+                                                  non altrettanto turbarono la
+                                                  <placeName>Gallia</placeName> meridionale, ove poi
+                                                  la tregua di Dio, prima che altrove, cominciò ad
+                                                  assicurarne a tutti qualche ora di pace a tutti.
+                                                  Nella educazione militare <hi rend="superscript"
+                                                  >intanto penetrava</hi>
+                                                  <del><gap reason="illegible" extent="unknown"
+                                                  unit="chars"/></del>quel sentimento che <subst>
+                                                  <del>farà</del>
+                                                  <add><hi rend="superscript">fece</hi></add>
+                                                  </subst>sorgere la cavalleria, e questa umanizzava
+                                                  l’uomo di guerra, <subst>
+                                                  <del><gap reason="illegible" extent="unknown"
+                                                  unit="chars"/></del>
+                                                  <add><hi rend="superscript">lo eccitava a
+                                                  farsi</hi></add>
+                                                  </subst> vindice della giustizia conculcata a
+                                                  tutore dei deboli e degli oppressi.
+                                                  Contemporaneamente la legge che pareggiava la
+                                                  donna all’uomo nella investitura feudale <hi
+                                                  rend="superscript"> e nella signoria</hi>, mutava
+                                                  le condizioni di lei nella società, ed elevandola
+                                                  al potere, la rendeva oggetto di ambizioni <hi
+                                                  rend="superscript"> e di omaggio</hi> che, per la
+                                                  differenza sessuale, diventavano galanteria e
+                                                  culto. Le eresie che <hi rend="superscript"
+                                                  >allora</hi> spuntano dovunque, dimostrano un
+                                                  risveglio del sentimento religioso, e <hi
+                                                  rend="superscript">mentre</hi> gli intelletti <hi
+                                                  rend="superscript">più robusti</hi> si affinano
+                                                  portando la discussione su tutto, dalla disciplina
+                                                  ecclesiastica ai drammi, <subst>
+                                                  <del><gap reason="illegible" extent="unknown"
+                                                  unit="chars"/></del>
+                                                  <add><hi rend="superscript">nel popolo</hi></add>
+                                                  </subst> si ravviva l’antico fervore dei
+                                                  pellegrinaggi. Masse numerose per la <placeName
+                                                  ref="#spagna">Spagna</placeName> si dirigono a S.
+                                                  Jacopo di Galizia; per <placeName ref="#italia"
+                                                  >l’Italia</placeName> a <placeName ref="#roma"
+                                                  >Roma</placeName>, al <placeName
+                                                  ref="#montegargano">Monte Gargano</placeName>, a
+                                                  <placeName ref="#sanmichelepuglia">S. Michele di
+                                                  Puglia</placeName>; per l’Oriente al <placeName
+                                                  ref="#sansepolcro">Santo Sepolcro</placeName>.
+                                                  Lungo i viaggi si alternano canti religiosi e
+                                                  profani; nelle soste si piglia riposo ascoltando
+                                                  racconti devoti e non devoti; dopo il ritorno si
+                                                  celebrano le cose vedute e non vedute, si sveglia
+                                                  negli uditori la curiosità dei paesi lontani, lo
+                                                  spirito d’avventura, l’avidità delle grandi
+                                                  rapine. Fra il 1016 e il 1047 abbiamo l’espansione
+                                                  dei Normanni nelle <pb/></p>
+
+                                                  </div>
+                                                  <div type="textpart" subtype="section" n="14">
+                                                  <head>14</head>
+                                                  <p>
+                                                  <placeName ref="#puglia">Puglie</placeName> e
+                                                  nella <placeName ref="#sicilia"
+                                                  >Sicilia</placeName>; nel 1066 altri Normanni e
+                                                  francesi muovono alla conquista dell’<placeName
+                                                  ref="#inghilterra">Inghilterra</placeName>; nel
+                                                  1086 <persName ref="#RAB">Raimondo</persName>
+                                                  principe di <placeName ref="#borgogna"
+                                                  >Borgogna</placeName>, con un manipolo di
+                                                  cavalieri va in soccorso di <persName ref="#ALC"
+                                                  >Alfonso VI di Castiglia</persName> e lo aiuta a
+                                                  riprendere <placeName ref="#toledo">Toledo
+                                                  </placeName> ai Mori; nel 1093 <persName
+                                                  ref="#EB1">Enrico di Borgogna</persName> va con
+                                                  altri francesi in <placeName ref="#portogallo"
+                                                  >Portogallo</placeName> e compie altre imprese
+                                                  contro i Mori. Finalmente nel 1095 comincia il
+                                                  movimento delle Crociate; ed ecco che in poco
+                                                  tempo quella nazione rozza e immiserita ch’era la
+                                                  <placeName ref="#francia">Francia</placeName> del
+                                                  nord e con essa <placeName ref="#aquitania"
+                                                  >l’Aquitania</placeName> ch’era in condizioni
+                                                  assai più prospere, vengono a contatto di altri
+                                                  popoli, di altre civiltà, di altri costumi, e
+                                                  dall’<placeName ref="#italia">Italia</placeName>,
+                                                  dalla <placeName ref="#spagna">Spagna</placeName>,
+                                                  dalla <placeName ref="#grecia">Grecia</placeName>,
+                                                  dalla <placeName ref="#palestina"
+                                                  >Palestina</placeName>, da tutto l’Oriente
+                                                  traggono <hi rend="superscript">nuovi</hi>
+                                                  elementi di progresso. Di tale progresso
+                                                  sorprendiamo subito segni manifesti
+                                                  nell’architettura. Alla romana è giù succeduta la
+                                                  romania con <subst>
+                                                  <del><gap reason="illegible" extent="unknown"
+                                                  unit="chars"/></del>
+                                                  <add><hi rend="superscript">tratti</hi></add>
+                                                  </subst> propri ma che pur seguita ad essere
+                                                  caratterizzata dall’arco a centro pieno. Ma essa
+                                                  prende proporzioni più vaste; nella costruzione
+                                                  delle volte si mostra più ardita; le torri, prima
+                                                  destinate alla gaite e alle scolte, poi alle
+                                                  campane, fiancheggiano e dominano l’edifizio. S.
+                                                  Stefano a <placeName ref="#nevers"
+                                                  >Nevers</placeName>, S.Ilario a <placeName
+                                                  ref="#poitiers">Poitiers</placeName>, S. Trofino
+                                                  ad <placeName ref="#arles">Arles</placeName>, la
+                                                  Catedrale ed <placeName ref="#angoulême"
+                                                  >Angoulême</placeName> offrono i più antichi
+                                                  esempi di questa architettura degli ultimi tempi
+                                                  feudali che riconosce il suo prototipo nel
+                                                  Monastero di <placeName ref="#cluny"
+                                                  >Cluny</placeName> cominciato nel 1089. In questa
+                                                  architettura gli stati furono i primi architetti,
+                                                  i monaci i primi <hi rend="superscript"
+                                                  >decoratori, che arricchivano l’opera loro di</hi>
+                                                  sculture e <del><gap reason="illegible"
+                                                  extent="unknown" unit="chars"/></del> pitture. Ma
+                                                  col
+                                                  <expan><abbr>sec</abbr><am>.</am><ex>olo</ex></expan>
+                                                  XII l’arte passa al laicato e in questa nuova fase
+                                                  trova una forma nuova, detta <hi rend="underline"
+                                                  >l’arte ogivale</hi>. Essa si contrappone alla
+                                                  romanica con l’arco a sesto acuto, formato da due
+                                                  archi a centro pieno che si rinforzano
+                                                  incontrandosi e incrociandosi. Sorprende il vedere
+                                                  qual profitto seppe trarre la nuova estetica da
+                                                  uno spediente dapprima non ad altro inteso che a
+                                                  fortificare le volte. Nulla di più diverso che un
+                                                  tempio greco o romano da una chiesa ogivale. La
+                                                  prima differenza è nelle proporzioni. Il Partenone
+                                                  di <placeName ref="#atene">Atene</placeName>
+                                                  occupa 4000 metri di superficie (Rambaud, p. 384),
+                                                  le cattedrale di <placeName ref="#amiens"
+                                                  >Amiens</placeName> ne occupa 7000! </p>
+
+                                                  </div>
+
+                                                  <div type="textpart" subtype="section" n="1">
+                                                  <head rend="center">Capitolo II.</head>
+                                                  <head>I</head>
+                                                  <p> 1. Col
+                                                  <expan><abbr>sec</abbr><am>.</am><ex>olo</ex></expan>
+                                                  XII s’inizia per la <placeName ref="#provenza"
+                                                  >Provenza</placeName> - siccome avviene pure per
+                                                  la <placeName ref="#francia">Francia</placeName>
+                                                  del Nord - un nuovo periodo, e questo di piena
+                                                  attività in tutte le branche della letteratura <hi
+                                                  rend="superscript">da un capo all’altro della
+                                                  regione.</hi>
+                                                  <rs type="topic">Epica</rs> e <rs type="topic"
+                                                  >lirica</rs>, <rs type="topic">didattica</rs> e
+                                                  <rs type="topic">drammatica</rs> si elevano dagli
+                                                  umili saggi dei secoli precedenti, e la <rs
+                                                  type="topic">lirica</rs> in ispecie assume tale
+                                                  originalità e assurge a tanta altezza da prender
+                                                  posto nella storia dell’incivilimento moderno non
+                                                  solo per aver fornito, siccome notava il
+                                                  <persName>Langlade</persName>, i primi modelli
+                                                  della poesia d’arte a tutte le altre nazioni
+                                                  d’Occidente, ma anche per aver dato il primo
+                                                  esempio di elevazione delle <subst>
+                                                  <del>primitive</del>
+                                                  <add><hi rend="superscript">povere</hi></add>
+                                                  </subst> favelle dialettali <hi rend="superscript"
+                                                  >adoperate dai <rs type="topic"
+                                                  >giullari</rs></hi>, e così aver creato il primo
+                                                  idioma letterario che risonasse in <placeName
+                                                  ref="#Europa">Europa</placeName> dopo la caduta di
+                                                  <placeName ref="#Roma">Roma</placeName>.</p>
+                                                  <p>2. <del>Ciò</del> Può parere strano <hi
+                                                  rend="superscript">che ciò <del><gap
+                                                  reason="illegible" extent="unknown" unit="chars"
+                                                  /></del>avvenisse</hi> in un momento in cui la <hi
+                                                  rend="superscript">rinnovata</hi>
+                                                  <rs type="topic">letteratura latina</rs>
+                                                  vigoreggiò maggiormente, e mentre affiorava tutto
+                                                  il portato della cultura scolastica ravvivatasi da
+                                                  <persName ref="#carlomagno">Carlo Magno</persName>
+                                                  in poi.<pb/></p>
+
+
+                                                  <div type="textpart" subtype="section" n="2">
+                                                  <head>2</head>
+                                                  <p> Allora, oltre i monasteri divenuti sempre più
+                                                  numerosi e ricchi, concorrevano le università a
+                                                  favorire la espansione del nuovo latino. <del><gap
+                                                  reason="illegible" extent="unknown" unit="chars"
+                                                  /></del>. Nei chiostri <persName ref="#ADS">Adamo
+                                                  da San Vittore</persName> portava la sequenza al
+                                                  suo ultimo sviluppo, <hi rend="superscript"
+                                                  >la</hi> ornava <del>dola</del> di tutti gli
+                                                  abbellimenti di cui fu capace l’arte ritmica e <hi
+                                                  rend="superscript">la</hi> sollevava
+                                                  <del>dola</del> alle maggiori altezza del
+                                                  misticismo; dalle Università uscivano poemi come
+                                                  <title ref="#alessandreide"
+                                                  >l’Alessandreide</title> di <persName ref="#GDC"
+                                                  >Gualtiero di Chatillon</persName>
+                                                  <hi rend="superscript">in cui</hi>
+                                                  <subst>
+                                                  <del><gap reason="illegible" extent="unknown"
+                                                  unit="chars"/></del>
+                                                  <add><hi rend="superscript">felicemente imitò
+                                                  <title ref="#eneide">l’Eneide</title>; Apologhi e
+                                                  Commedie che lungamente circolarono con i libri di
+                                                  <persName ref="#FED">Fedro</persName>, di
+                                                  <persName ref="#FDO">Ovidio</persName> e di altri
+                                                  classici e uscivano anche</hi></add>
+                                                  </subst> i canti goliardici, che all’improvviso
+                                                  parvero richiamare l’umanità <hi
+                                                  rend="superscript">dai torpori dell’ascetismo</hi>
+                                                  alle gioie e alle tempeste della vita terrena, e
+                                                  nella varietà lussureggiante delle loro forme
+                                                  poetiche, nella scioltezza realistica del loro
+                                                  linguaggio, nella arditezza delle loro parodie, <subst>
+                                                  <del><gap reason="illegible" extent="unknown"
+                                                  unit="chars"/></del>
+                                                  <add><hi rend="superscript">sonavano</hi></add>
+                                                  </subst> come il preludio di un’era nuova.
+                                                  <pb/></p>
+
+                                                  <div type="textpart" subtype="section" n="3">
+                                                  <head>3</head>
+                                                  <p>Ma il latino aveva fatto il suo tempo, aveva
+                                                  compiuta la sua gloriosa missione. Poté seguire a
+                                                  vivere e anche a gettar fiori in mezzo alla casta
+                                                  che più si era appartata dalla nazione, la casta
+                                                  degli ecclesiastici e degli scolastici; ma alla
+                                                  nazione non poteva bastar più una
+                                                  lingua<del>ggio</del>
+                                                  <subst>
+                                                  <del>fittizia</del>
+                                                  <add><hi rend="superscript">raffazonata</hi></add>
+                                                  </subst> e imparaticcia. A sentimenti nuovi
+                                                  abbisognava una lingua nuova che avesse la sua
+                                                  base <subst>
+                                                  <del>in un</del>
+                                                  <add><hi rend="superscript">nell' uso </hi></add>
+                                                  </subst>
+                                                  <del>linguaggio</del>
+                                                  <del>idioma</del> reale, quello vivente sulle
+                                                  labbra del <del>suo</del> popolo. Questo diedero i
+                                                  <rs type="topic">trovadori</rs> al popolo della
+                                                  <placeName>Gallia</placeName> meridionale; e ben
+                                                  si comprende com’essi furono gli autori di tale
+                                                  rinnovamento, quando si consideri che i primi di
+                                                  loro usciron tutti dalla casta feudale, la più
+                                                  refrattaria per educazione e per costumi alla
+                                                  coltura scolastica, e perciò anche la meglio
+                                                  disposta <hi rend="superscript">a secondare l’uso
+                                                  comune e perfezionarlo</hi>, compiendo l’opera dai
+                                                  <rs type="topic">giullari</rs> iniziata attorno
+                                                  alle <del>fa</del> loro famiglie, nel seno delle
+                                                  loro magnade. Così i <rs type="topic"
+                                                  >trovadori</rs>, non solamente per ragione
+                                                  cronologica, ma anche per la maggiore loro
+                                                  importanza, primi debbono entrare nella storia di
+                                                  questo periodo. <pb/></p>
+
+                                                  <div type="textpart" subtype="section" n="4">
+                                                  <head>4</head>
+                                                  <p>3. A conoscere i <rs type="topic"
+                                                  >trovadori</rs> e le loro opere oggi soccorrono <subst>
+                                                  <del>circa quaranta</del>
+                                                  <add><hi rend="superscript">quarantasei</hi></add>
+                                                  </subst> manoscritti
+                                                  (<expan><abbr>ved</abbr><am>.</am><ex>i</ex></expan>
+                                                  TAP. col X, r. 50 e 55.), dai quali si raccolgono
+                                                  oltre 4000 poesie spettanti a circa quattrocento
+                                                  autori. Di <del><hi rend="superscript"
+                                                  >quasi</hi></del> un altro centinajo, <subst>
+                                                  <del><gap reason="illegible" extent="unknown"
+                                                  unit="chars"/></del>
+                                                  <add><hi rend="superscript">o poco meno</hi></add>
+                                                  </subst>, di autori non <subst>
+                                                  <del>conosciamo</del>
+                                                  <add><hi rend="superscript">rimane</hi></add>
+                                                  </subst> più che il nome. E se si pensa che dei
+                                                  mss. conservatici nessuno <subst>
+                                                  <del><gap reason="illegible" extent="unknown"
+                                                  unit="chars"/></del>
+                                                  <add><hi rend="superscript">risale più
+                                                  su</hi></add>
+                                                  </subst> della <subst>
+                                                  <del>fine</del>
+                                                  <add><hi rend="superscript">2.ᵃ metà</hi></add>
+                                                  </subst> del
+                                                  <expan><abbr>sec</abbr><am>.</am><ex>olo</ex></expan>
+                                                  XIII; che appena due di essi provengono
+                                                  direttamente dalla <placeName ref="#provenza"
+                                                  >Provenza</placeName>, laddove gli altri sono
+                                                  quasi tutti d’origine italiana; che nessuna <rs
+                                                  type="topic">poesia trovadorica</rs> è pervenuta a
+                                                  noi in rotoli o in quaderni, <subst>
+                                                  <del>che dovettero essere le prime forme su cui
+                                                  circolarono quelle poesie</del>
+                                                  <add><hi rend="superscript">cioè nella forma in
+                                                  cui esse primamente circolarono,
+                                                  s’intuisce</hi></add>
+                                                  </subst> facilmente <subst>
+                                                  <del>que</del>
+                                                  <add><hi rend="superscript">che</hi></add>
+                                                  </subst> molto dovette andare perduto; nel che,
+                                                  oltre la voracità del tempo, dovettero avere non
+                                                  poca parte gli sterminj della guerra albigese <hi
+                                                  rend="superscript">durata dal</hi> (1209 al 29),
+                                                  <del><gap reason="illegible" extent="unknown"
+                                                  unit="chars"/></del> i terrori della S.
+                                                  Inquisizione fondata in <placeName ref="#provenza"
+                                                  >Provenza</placeName> nel 1232, le scomuniche
+                                                  lanciate contro la lingua stessa provenzale <subst>
+                                                  <del><gap reason="illegible" extent="unknown"
+                                                  unit="chars"/></del>
+                                                  <add><hi rend="superscript">da due papi</hi></add>
+                                                  </subst>, se è esatto quanto riferivano il
+                                                  <persName ref="#CLF">Fauriel</persName> e
+                                                  l’<persName>Oddo</persName>. <del>Non a torto
+                                                  quindi <persName ref="#FD">Fed. Diez</persName>
+                                                  cominciava il suo aureo libro intorno alla poesia
+                                                  dei <rs type="topic">trovadori</rs> con queste
+                                                  parole: I primordi della storia dei <rs
+                                                  type="topic">trovatori</rs> si nascondono sotto il
+                                                  velo che ricopre i primi tempi storici.</del>
+                                                  <del><gap reason="illegible" extent="unknown"
+                                                  unit="chars"/></del>
+                                                  <pb/></p>
+
+                                                  <div type="textpart" subtype="section" n="5">
+                                                  <head>5</head>
+                                                  <p> 4. Anche la storia dei <rs type="topic"
+                                                  >trovadori</rs> pertanto ci viene innanzi
+                                                  <del>oggi</del> a frammenti, massima pei primordj; <subst>
+                                                  <del>quantun</del>
+                                                  <add><hi rend="superscript"> ma</hi></add>
+                                                  </subst> non così che non sia dato <hi
+                                                  rend="superscript">almeno</hi> d’intravedere
+                                                  quanto di più può interessare circa la loro
+                                                  origine. Tra la fine del
+                                                  <expan><abbr>sec</abbr><am>.</am><ex>olo</ex></expan>
+                                                  XI e il principio del XII vediamo un
+                                                  <del>pro</del> centro di attività <rs type="topic"
+                                                  >trovadorica</rs> formarsi
+                                                  nell’<placeName>Aquitania</placeName> alla corte
+                                                  di quei duchi; un altro poco dopo appariva a
+                                                  <placeName ref="#narbona">Narbona</placeName>
+                                                  nella corte della <hi rend="superscript"
+                                                  >viscontessa (1143-1192)</hi>
+                                                  <persName ref="#ERM">Ermengarda</persName>, <subst>
+                                                  <del>contemporaneamente</del>
+                                                  <add><hi rend="superscript"/>nello stesso tempo
+                                                  poco dopo</add>
+                                                  </subst>
+                                                  <del>altri se ne formano presso i conti di
+                                                  <placeName ref="#provenza">Provenza</placeName>
+                                                  (1185-1245) presso quelli di <placeName
+                                                  ref="#tolosa">Tolosa</placeName> (1148-1194),
+                                                  presso i visconti di <placeName ref="#montpellier"
+                                                  >MPellier</placeName> (1172-1204), presso
+                                                  <persName ref="#BM">Barral</persName> visconte di
+                                                  <placeName ref="#marsiglia">Marsiglia</placeName>
+                                                  (circa 1180-1192), presso <persName ref="#GDO"
+                                                  >Guglielmo IV</persName>signore d’Orange
+                                                  (1182-1219), presso <persName ref="#RDA">Roberto I
+                                                  delfino d'<placeName ref="#alvernia"
+                                                  >Alvernia</placeName></persName> (1169-1234)
+                                                  presso i conti di <placeName ref="#rodez"
+                                                  >Rodez</placeName> (1274-1302), e via via altri
+                                                  centri formarsi nella <placeName ref="#spagna"
+                                                  >Spagna</placeName> in <placeName ref="#catalogna"
+                                                  >Catalogna</placeName>, in <placeName
+                                                  ref="#aragona">Aragona</placeName>, in <placeName
+                                                  ref="#castiglia">Castiglia</placeName>,
+                                                  nell’<placeName ref="#italia">Italia</placeName>
+                                                  presso il Marchese (1192-1207) di <placeName
+                                                  ref="#monferrato">Monferrato</placeName> e presso
+                                                  quelli d’Este (1196-1264).</del>
+                                                  <del>allo stesso tempo</del> e successivamente
+                                                  altri <hi rend="superscript">simili centri</hi>,
+                                                  <del>ne</del> vediamo formarsi presso i conti di
+                                                  <placeName ref="#tolosa">Tolosa</placeName>
+                                                  (1148-1194), </p>
+
+                                                  <p> " <persName ref="#RDA">Roberto I delfino
+                                                  d’<placeName ref="#alvernia"
+                                                  >Alvernia</placeName></persName> (1169-1234)</p>
+                                                  <p> " i Visconti di <placeName ref="#montpellier"
+                                                  >Montpellier</placeName> (1172-1204)</p>
+                                                  <p> " i Visconti di <placeName ref="#marsiglia"
+                                                  >Marsiglia</placeName> (1180-1192)</p>
+                                                  <p> " i Visconti d’<placeName ref="#orange">Orange
+                                                  </placeName> (1182-1219) </p>
+                                                  <p> " i Conti di <placeName ref="#provenza"
+                                                  >Provenza</placeName> (1185-1245)</p>
+
+                                                  <p>
+                                                  <del> senza dire di altri centri minori, taluno
+                                                  dei quali antichissimo, come quello di <persName
+                                                  ref="#EVN">Eble II visconte di
+                                                  Ventadorn</persName> nel <placeName
+                                                  ref="limosino#">Limosino</placeName>
+                                                  <hi rend="superscript">intorno al quale non ci
+                                                  restano che</hi> alcuni ricordi.</del>
+                                                  <pb/></p>
+
+                                                  <div type="textpart" subtype="section" n="6">
+                                                  <head>6</head>
+                                                  <p> Accanto a questi, che furono <subst>
+                                                  <del>in Provenza</del>
+                                                  <add><hi rend="superscript"><placeName>nella
+                                                  Gallia</placeName> meridionale</hi></add>
+                                                  </subst> i centri principali della <rs
+                                                  type="topic">poesia trovadorica</rs>, altri se
+                                                  n’ebbero minori, siccome quello antichissimo dei
+                                                  Visconti di Ventadorn, intorno il quale non
+                                                  restano se non alcuni ricordi. 5. Ma chi furono
+                                                  propriamente i <rs type="topic">trovadori</rs>? in
+                                                  che modo essi si distinsero dai <rs type="topic"
+                                                  >giullari</rs>? <hi rend="underline"
+                                                  >Trobaire,</hi>
+                                                  <hi rend="underline">tro</hi><del>
+                                                  <hi rend="underline">bador</hi> fu in
+                                                  <expan><abbr>prov</abbr><am>.</am><ex>enzale</ex></expan>
+                                                  un derivato di trobar, antico
+                                                  <expan><abbr>it</abbr><am>.</am><ex>aliano</ex></expan>
+                                                  trovare che significò non poetare solamente ma
+                                                  significò insieme che adoperavasi nel significato
+                                                  non solamente di “poetare <hi rend="superscript"
+                                                  >insieme</hi> a musicare”. Frequente è nelle loro
+                                                  poesia ma insieme anche d’ “inventare” o
+                                                  “invenire”, come il vento di saper comporre bella
+                                                  musica non dicevasi del nuovo latino, e inventare
+                                                  meno che bei versi </del>
+                                                  <hi rend="underline">bador</hi> fu in
+                                                  <expan><abbr>prov</abbr><am>.</am><ex>enzale</ex></expan>
+                                                  un derivato di <hi rend="underline">trobar</hi>,
+                                                  verbo che significò non <hi rend="underline"
+                                                  >poetare</hi> soltanto , come
+                                                  l'<expan><abbr>a</abbr><am>.</am><ex>ntico</ex></expan>
+                                                  <expan><abbr>it</abbr><am>.</am><ex>aliano</ex></expan>.
+                                                  <hi rend="underline">trovare</hi>, ma significò
+                                                  “poetare <del>insieme</del> e musicare” insieme.
+                                                  Fra le spiegazioni finora date dell’etimologia di
+                                                  questo verbo <hi rend="superscript">che non è
+                                                  nell'<expan><abbr>a</abbr><am>.</am><ex>ntico</ex></expan>
+                                                  latino</hi>, la più accettabile è parsa quella di
+                                                  <persName ref="#GP">G. Paris</persName>, il quale
+                                                  derivò <hi rend="underline">trobar</hi> da <hi
+                                                  rend="underline"> tropare</hi>, <hi
+                                                  rend="superscript">cioè</hi> comporre tropi, che
+                                                  erano formole di poesie liturgica destinate al
+                                                  canto. In questo senso nulla di più<pb/></p>
+
+                                                  <div type="textpart" subtype="section" n="6">
+                                                  <head>7</head>
+                                                  <p>proprio poteva <del><gap reason="illegible"
+                                                  extent="unknown" unit="chars"/></del> darsi a
+                                                  designare l’opera dei <rs type="topic"
+                                                  >trovadori</rs>. Ed essi frequentemente menavan
+                                                  vanto della duplice qualità di poeti e di
+                                                  musicisti, come per altri di loro fu nota di
+                                                  deficienza il saper comporre buoni versi senza
+                                                  saperli masticare, o saper fare buona musica senza
+                                                  unirvi buoni versi. <pb/></p>
+
+                                                  </div>
+                                                  </div>
+                                                  </div>
+                                                  </div>
+                                                  </div>
+                                                  </div>
+                                                  </div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

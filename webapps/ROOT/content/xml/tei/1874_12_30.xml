@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Edmund Stengel a Ernesto Monaci, 30 dicembre 1874</title>
+                <editor role="transcription"><persName>Maria Spadoni</persName></editor>
+                <editor role="encoding"><persName>Francesca Romana Cacciatori</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2021-04-30"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <bibl>Maria Spadoni, <title>Le lettere di Edmund Stengel a Ernesto Monaci
+                            (Lettere, cartoline e comunicazioni editoriali in italiano scritte da
+                            Edmund Stengel a Ernesto Monaci</title></bibl>
+                </listBibl>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Archivio Monaci, Società Filologica Romana, presso il
+                            Dipartimento di Studi Europei, Americani e Interculturali, Sapienza,
+                            Università di Roma.</repository>
+                        <idno>Busta n. 24, fascicolo 1258, lettera...</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary corresp="#letter">Edmund Stengel a Ernesto Monaci, 30 dicembre
+                            1874</summary>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#EMS">Edmund Stengel</persName>
+                    <placeName ref="#germania">Germania</placeName>
+                    <date when="1874-12-30"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#sconosciuto">?</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                    <opener>Carissimo mio,</opener>
+                    <p>Ti mando mille augurj pel nuovo anno e Ti prego di voler trasmettere la
+                        lettera qui giunta al Dott. <persName ref="#AS">Stimming</persName> chi sarà
+                        giunto à <placeName ref="#roma">Roma</placeName> in questi giorni ovi vi
+                        giungerà. A <placeName ref="#berlino">Berlino</placeName> ho finalmente
+                        ottenuto un piccolo fondo annuale per una biblioteca speciale pei miei
+                        scolari e per qualche piccolo stipendio per essi. Aveva domandato 400
+                            <unclear>L</unclear> ma non ho ottenuto che la metà. L’anno prossimo
+                        domanderò di nuovo. Niente altro di nuovo. Ti ringrazio pella copia del
+                        Estratto dell articolo tuo. La mia risposta all’articolo del <persName
+                            ref="#WF">Foerster</persName> è pubblicato, egli ha risposto molto più
+                        luogo, e rivelando chiaramente tutta l’ignobilità del suo carattere. Ne sono
+                        contento e non perderò più parola. </p>
+                    <closer>Addio ho molto da fare, tanti saluti <lb/>dal Tuo
+                                <lb/><expan><abbr>E</abbr><am>.</am><ex>dmund</ex></expan> Stengel </closer>
+                    <!--<postscript>
+                        <p>....</p>
+                    </postscript>-->
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

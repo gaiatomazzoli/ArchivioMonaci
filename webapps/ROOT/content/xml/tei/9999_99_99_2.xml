@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Graziadio Isaia Ascoli a Ernesto Monaci, lettera non datata</title>
+                <editor role="transcription"><persName>Stefano Boschi</persName></editor>
+                <editor role="encoding"><persName>Stefano Boschi</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2021-04-02"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Archivio Monaci, Società Filologica Romana, presso il
+                            Dipartimento di Studi Europei, Americani e Interculturali, Sapienza,
+                            Università di Roma.</repository>
+                        <idno>Busta n. 1, fascicolo 49, lettera 16.</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary corresp="#letter">Graziadio Isaia Ascoli a Ernesto Monaci, lettera
+                            non datata</summary>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#GIA">Graziadio Isaia Ascoli</persName>
+                    <placeName ref="#sconosciuto">?</placeName>
+                    <date/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#sconosciuto">?</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+
+                    <opener>Carissimo amico,</opener>
+                    <p>Non so s’<persName ref="#EM">Ella</persName> abbia ancor veduto l’ab.
+                            <persName>Ceruti</persName>, al quale mi son permesso di dare un
+                        viglietto per <persName ref="#EM">Lei</persName>. Ma non m’era possibile di
+                        ricusarmi, e ho anche pensato che potesse non spiacerle di avere un amico di
+                        più in <orgName ref="#BibAmbr">Ambrosiana</orgName>. A ogni modo, <persName
+                            ref="#EM">Ella</persName> mi scusi.</p>
+                    <p>Ora vorrei pregarla che mi dicesse, quanti fogli dell’<hi rend="underline"
+                                ><title ref="#AGI">Archivio</title></hi> Le paja dover occupare
+                            <title ref="#antper">l’“Antologia perugina”</title> e per quando Le è
+                        dato prometterci la consegna del ms. <persName ref="#EM">Ella</persName> non
+                        può facilmente imaginare quanto <persName ref="#GIA">io</persName> lo
+                        desideri; e si aggiungerebbe la convenienza, sì per gli autori e sì per
+                        l’editore, di aprir súbito tutt’e quattro i volumi che sono annunziati (III
+                        176).</p>
+                    <p>Il nostro ottimo <persName ref="#FDO">D’Ovidio</persName> mi parla di una
+                        bell’impresa a cui pensano lor due; ed è superfluo ch’io Le dica quanto
+                            <persName ref="#GIA">io</persName> me ne rallegri e per quante
+                        ragioni.</p>
+                    <p>Tolleri, La prego, il disturbo, di far ricapitare l’incluso viglietto, che
+                        non saprei come indirizzare. E mi scriva men di rado, e mi voglia sempre
+                        bene.</p>
+                    <closer><salute>Aff.mo Suo </salute><signed><persName ref="#GIA">G. I.
+                                Ascoli</persName></signed></closer>
+
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

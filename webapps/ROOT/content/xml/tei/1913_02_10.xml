@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ernesto Monaci ad Adolfo Venturi, 10 febbraio 1913</title>
+                <editor role="transcription"><persName>Gaia Tomazzoli</persName></editor>
+                <editor role="encoding"><persName>Gaia Tomazzoli</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2021-03-08"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Centro Archivistico della Scuola Normale Superiore di Pisa –
+                            CASNS, fondo Adolfo Venturi.</repository>
+                        <idno>Busta n. 24, fascicolo 1803, lettera 6</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary corresp="#letter">Lettera di Ernesto Monaci ad Adolfo Venturi del
+                            10 febbraio 1913.</summary>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#roma">Roma</placeName>
+                    <date when="1913-02-10"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#AV1">Adolfo Venturi</persName>
+                    <placeName ref="#sconosciuto">?</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                    <opener><dateline><placeName ref="#roma">Roma</placeName> <date when="1913-02-10"
+                                >10 <expan><abbr>febbr</abbr><am>.</am><ex>aio</ex></expan> 1913</date></dateline><salute>Caro <persName ref="#AV1"
+                                >Venturi</persName>,</salute></opener>
+                    <p><hi rend="underline">arzento</hi> per <hi rend="underline">argento</hi> non
+                        credo che si trovi nell'<placeName ref="#umbria">Umbria</placeName>. Almeno, dai materiali che ho sotto mano, non
+                        potrei argomentarlo. Ma, linguisticamente, il territorio umbro si estende
+                        oltre i confini della regione che si chiama <placeName ref="#umbria">Umbria</placeName> dai più; poiché tutti i
+                        parlari della zona metauro-pisaurina non si possono separare dagli umbri,
+                        mentre pur formano quasi un anello di congiunzione con i dialetti
+                        galloitalici. Ora, nel territorio metauro-pisaurino <hi rend="underline"
+                            >arzento</hi> per <hi rend="underline">argento</hi> è affatto legittimo, come anche lo è per molto altro territorio che nulla ha a che fare col veneziano.</p>
+                    <p>Se ti abbisognassero altri schiarimenti, non ti peritare. Alla <title type="letter" ref="http://127.0.0.1:9999/it/texts/1913_02_08.html">tua dell'8</title> rispondo soltanto oggi, perché la tua lettera è pervenuta a me soltanto da un'ora.</p>
+                    <closer><salute>il tuo <expan><abbr>aff</abbr><ex>ezionatissi</ex><abbr>mo</abbr></expan></salute><signed><persName ref="#EM">EMonaci</persName></signed></closer>
+                  
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Francesco Torraca a Ernesto Monaci, 23 dicembre 1882</title>
+                <editor role="transcription"><persName>Heloísa Abreu de Lima</persName></editor>
+                <editor role="encoding"><persName>Heloísa Abreu de Lima</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2021-04-24"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <!--<listBibl><bibl>Eventuali riferimenti bibliografici</bibl></listBibl>-->
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Archivio Monaci, Società Filologica Romana, presso il
+                            Dipartimento di Studi Europei, Americani e Interculturali, Sapienza,
+                            Università di Roma.</repository>
+                        <idno>Busta n. 26, fascicolo 1313, lettera 8</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary corresp="#letter">Francesco Torraca a Ernesto Monaci, 23 dicembre
+                            1882</summary>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#FT1">Francesco Torraca</persName>
+                    <placeName ref="#roma">Roma</placeName>
+                    <date when="1882-12-23"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#sconosciuto">?</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                    <opener><lb/><placeName ref="#roma">Roma</placeName> 23 dicembre 1882
+                        <lb/>Egregio e caro Amico, </opener>
+                    <p>Mi permetto presentarvi il
+                            <expan><abbr>sig</abbr><ex>nor</ex><am>.</am></expan> Salvatori, modesto
+                        ma valente scultore, il quale aspira ad ottenere la commissione del busto
+                        per <persName ref="#GGa">Garibaldi</persName>, che l’<orgName
+                            ref="#Sapienza">Università romana</orgName> innalzerà in una delle sue
+                        aule. Se, come credo, la scelta dell’artista dipende dai professori, io mi
+                        permetto pregarvi di adoperarvi a favore del Salvatori, il quale, degno
+                        d’incoraggiamento pe’ suoi talenti, merita aiuto e sostegno per la modestia
+                        e per i suoi scarsi mezzi.</p>
+                    <p>Non vi chiedo scusa, perché questo favore reso a me, è anche un’opera buona…
+                        ..</p>
+                    <closer><lb/>Con la speranza di venire presto a stringervi la mano, vi prego di
+                        credermi
+                            <lb/><expan><abbr>Aff</abbr><ex>ezionatissi</ex><abbr>mo</abbr></expan>
+                        <expan><abbr>dev</abbr><ex>otissi</ex><abbr>mo</abbr></expan>
+                        <lb/><persName ref="#FT1">F. Torraca</persName>
+                    </closer>
+                    <!--<postscript><p>....</p></postscript>-->
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

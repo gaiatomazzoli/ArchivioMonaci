@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Graziadio Isaia Ascoli a Ernesto Monaci, 4 gennaio 1877</title>
+                <editor role="transcription"><persName>Stefano Boschi</persName></editor>
+                <editor role="encoding"><persName>Stefano Boschi</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2021-03-28"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                
+                <msDesc>
+                    <msIdentifier><repository>Archivio Monaci, Società Filologica Romana, presso il Dipartimento di Studi Europei, Americani e Interculturali, Sapienza, Università di Roma.</repository> <idno>Busta n. 1, fascicolo 49, lettera 5.</idno></msIdentifier>
+                    <msContents><summary corresp="#letter">Graziadio Isaia Ascoli a Ernesto Monaci, 4 gennaio 1877</summary></msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#GIA">Graziadio Isaia Ascoli</persName>
+                    <placeName ref="#milano">Milano</placeName>
+                    <date when="1877-01-04"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#sconosciuto">?</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                    <opener><placeName ref="#milano">Milano,</placeName> <date when="1877-01-04">4 del 77</date></opener>
+                    <opener>Carissimo amico,</opener>
+                    <p>Sentii jerisera dal <persName ref="#PR">Rajna</persName>, e stamani mi è confermato da una lettera del <persName ref="#AM">Mussafia</persName>, che non lievi dissapori sien venuti a turbare l’amichevole corrispondenza di parecchi valentuomini, in seguito all’invito di cui il Ministro ha voluto onorare il <persName ref="#AM">Mussafia</persName> stesso.</p>
+                    <p>Nessuna notizia di cotesti dissapori era a me giunta per lo innanzi; altrimenti mi sarei affrettato, come ora fo, a dar qualche schietto e sicuro offrendogli <placeName ref="#roma">Roma</placeName> anziché <placeName ref="#milano">Milano</placeName>; ma nel dirmi questo, mi diceva insieme, che avrebbe subito chiamato <persName ref="#EM">Lei</persName>, per mostrarle come egli L’aveva sempre avuta a cuore.</p>
+                    <p>Che mai c’è dunque in tutto questo (e altro non ci fu, tranne, pur troppo, il continuo peggiorarsi della salute del <persName ref="#AM">Mussafia</persName>, che non potrà più insegnare, né in Italia, né in Austria), che mai c’è dunque che possa comportare biasimo o pel Ministro, o pel <persName ref="#AM">Mussafia</persName>, o pel comm. Bianchi o per <persName ref="#GIA">me</persName>?</p>
+                    <p>Si tronchi finalmente ogni equivoco e non aggraviamo di mali immaginarj la soma già ben ponderosa dei mali effettivi che vediamo intorno a noi. Ed <persName ref="#EM">Ella</persName> scusi la fretta grandissima e mi voglia sempre bene.</p>
+                    <closer><salute>L’aff.mo Suo</salute> <signed><persName ref="#GIA">G. I. Ascoli</persName></signed></closer>
+                    
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

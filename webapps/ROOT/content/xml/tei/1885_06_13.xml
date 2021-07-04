@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Francesco Torraca a Ernesto Monaci, 13 giugno 1885</title>
+                <editor role="transcription"><persName>Heloísa Abreu de Lima</persName></editor>
+                <editor role="encoding"><persName>Heloísa Abreu de Lima</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2021-05-01"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <!--<listBibl><bibl>Eventuali riferimenti bibliografici</bibl></listBibl>-->
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Archivio Monaci, Società Filologica Romana, presso il
+                            Dipartimento di Studi Europei, Americani e Interculturali, Sapienza,
+                            Università di Roma.</repository>
+                        <idno>Busta n. 26, fascicolo 1313, lettera 12</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary corresp="#letter">Francesco Torraca a Ernesto Monaci, 13 giugno
+                            1885</summary>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#FT1">Francesco Torraca</persName>
+                    <placeName ref="#roma">Roma</placeName>
+                    <date when="1885-06-13"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#sconosciuto">?</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                    <opener><lb/>Napoleone III n. 75 <lb/>13 giugno 85 <lb/>Carissimo professore, </opener>
+                    <p>Mi è mancato, e mi mancherà per qualche altro giorno, il tempo di
+                            venir<unclear>vi</unclear> a visitare, e a domandare un severo giudizio
+                        nel mio opuscolo. Intanto mi permetto comunicarle un’osservazione che mi fa
+                        fare un amico <hi rend="underline">illetterato</hi>, <hi rend="underline">a
+                            caso vergine</hi>. I due famosi versi della canzone petrarchesca non
+                        mancherebbero di una virgola? Non si dovrebbe leggerli così: <lb/>
+                        <quote>… Un che non ti vide, ancor da presso, <lb/>Se non come per fama uom
+                            s’innamora?</quote>
+                        <lb/>Intendendo: “uno che, ancor da presso, non ti vide se non come ecc”.
+                        Esempi di <hi rend="underline">ancor</hi>, per <hi rend="underline"
+                            >anche</hi>, <hi rend="underline">sinanche</hi>, ne ha parecchi il
+                            <persName ref="#petrarca">Petrarca</persName>. L’osservazione, se
+                        giusta, come inchinerei a credere, toglie parecchie difficoltà e conferma   <!--inchinerei: è la parola giusta?-->
+                        mirabilmente la mia interpretazione. Ecco perché mi permetto
+                            toglier<unclear>vi</unclear> qualche momento del <gap reason="illegible"
+                            unit="chars"/> tempo prezioso, e pregar<gap reason="illegible"
+                            unit="chars"/> di darmene un giudizio. </p>
+                    <closer><lb/>Grazie vivissime anticipate. Un’affettuosa stretta di mano
+                                <lb/>Dell’<expan><abbr>Aff</abbr><ex>ezionatissi</ex><abbr>mo</abbr></expan>
+                        <expan><abbr>Obb</abbr><ex>ligatissi</ex><abbr>mo</abbr></expan>
+                        <lb/>
+                        <persName ref="#FT1">F. Torraca</persName>
+                    </closer>
+                    <!-- <postscript><p>....</p></postscript>-->
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Edmund Stengel a Ernesto Monaci</title>
+                <editor role="transcription"><persName>Maria Spadoni</persName></editor>
+                <editor role="encoding"><persName>Francesca Romana Cacciatori</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2021-05-28"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <bibl>Maria Spadoni, <title>Le lettere di Edmund Stengel a Ernesto Monaci
+                            (Lettere, cartoline e comunicazioni editoriali in italiano scritte da
+                            Edmund Stengel a Ernesto Monaci</title></bibl>
+                </listBibl>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Archivio Monaci, Società Filologica Romana, presso il
+                            Dipartimento di Studi Europei, Americani e Interculturali, Sapienza,
+                            Università di Roma.</repository>
+                        <idno>Busta n. 24, fascicolo 1258, cartolina...</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary corresp="#letter">Edmund Stengel a Ernesto Monaci.</summary>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#EMS">Edmund Stengel</persName>
+                    <placeName ref="#germania">Germania</placeName>
+                    <!--bollo postale illeggibile-->
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#sconosciuto">?</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                    <opener>Carissimo mio,</opener>
+                    <p>Tante grazie pel plico inviatomi due giorni fa . Ho piacere che l’essatezza
+                        della mia collazione col/del <title type="manuscript"
+                            key="Codice Laurenziano">cod. della Laurenziana</title> è stata
+                        comprovata pel confronto Tuo colla copia <title type="manuscript"
+                            key="Codice Barberino">Barberina</title>. Non m’hai inviato parimente
+                        colle due opere desiderate la terza che è la descrizione dei <title
+                            type="manuscript"
+                            key="I codici petrarcheschi delle biblioteche governative del regno"
+                            >cod. Petrarcheschi</title>conservati nelle
+                                <expan><abbr>bibl</abbr><am>.</am><ex>ioteche</ex></expan>
+                        <expan><abbr>publ</abbr><am>.</am><ex>iche</ex></expan> del regno
+                        pubblicazione governativa pero se il prezzo e troppo elevato non m’importa
+                        troppo d’averlo poiche l‘ho fatto commettere anche per la nostra biblioteca
+                        universitaria. Ieri ricevetti una lettera dal <persName ref="#GG"
+                            >Gröber</persName> annunciandomi che egli pubblicherà uno nuovo
+                        periodico per la <title ref="#RFR">filol. Rom.</title> presso il <persName
+                            ref="#MN">Niemeyer</persName> , che deve rimpiazzare il <title ref="#JL"
+                            >Jahrbuch</title>. Mi chiese di sollecitare il Tuo soccorso e quello dei
+                        nostri amici poiche avesse sentito che la <title ref="#RFR">Rivista</title>
+                        finirebbe col secondo anno. Gli ho risposto che Ti scriverei e che intanto
+                        potrebbe contare su di me, poiche da lungi mi dolsi della decadenza del
+                            <title ref="#JL">Jahrbuch</title>. Probabilmente il <persName ref="#GG"
+                            >Gröber</persName> Ti scrive <unclear>***</unclear>. </p>
+                    <closer>Intanto ti saluto cordialmente. Tuo
+                                <lb/><expan><abbr>E</abbr><am>.</am><ex>dmund</ex></expan> Stengel </closer>
+                    <!--<postscript>
+                        <p/>
+                    </postscript>-->
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Edmund Stengel a Ernesto Monaci, 30 Marzo 1875</title>
+                <editor role="transcription"><persName>Maria Spadoni</persName></editor>
+                <editor role="encoding"><persName>Francesca Romana Cacciatori</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2021-05-10"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <bibl>Maria Spadoni, <title>Le lettere di Edmund Stengel a Ernesto Monaci
+                            (Lettere, cartoline e comunicazioni editoriali in italiano scritte da
+                            Edmund Stengel a Ernesto Monaci</title></bibl>
+                </listBibl>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Archivio Monaci, Società Filologica Romana, presso il
+                            Dipartimento di Studi Europei, Americani e Interculturali, Sapienza,
+                            Università di Roma.</repository>
+                        <idno>Busta n. 24, fascicolo 1258, lettera...</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary corresp="#letter">Edmund Stengel a Ernesto Monaci, 30 Marzo
+                            1875</summary>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#EMS">Edmund Stengel</persName>
+                    <placeName ref="#parigi">Parigi, 10 rue Montpensier</placeName>
+                    <date when="1975-03-30"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#sconosciuto">?</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                    <opener><expan><abbr>C</abbr><am>.</am><ex>aro</ex><abbr>A</abbr><am>.</am><ex>mico</ex></expan></opener>
+                    <p>Ieri ricevetti bozze del articolo mio e Tua notula. Disgraziatamente non ho
+                        aportato il manoscritto del articolo mio e sono cosi impedito di corregerlo.
+                        Se hai tempo fin che sono tornato a <placeName ref="#marburg"
+                            >Marburg</placeName> o probabilmente oggi quindinci, sarà
+                        bene,altrimente mandami la copia dal quale è stampato. La stampa delle bozze
+                        è cattivissima moltissime lettere non sè ponno distinguere. Come si può in
+                        questa maniera corregere bene? Bisogna dire allo stampatore che prenda più
+                        cura. Non so dove debbi dirigere bozze <persName ref="#HES"
+                            >Suchier</persName> Il meglio sarà di mandarle à <placeName
+                            ref="#zurigo">Zuricho</placeName> colla preghiera se partito per
+                            <placeName ref="#muenster">Münster Westphalen </placeName>di mandargli
+                        dietro, ma possibilmente Ti avrà scritto l’indirizzo seco intanto, poiche
+                        gli ebbi scritto Il <persName ref="#MN">Niemeyer</persName> in questi giorni
+                        mi scrisse una lettera assai irritata, poiche mantiene che le mie promesse
+                        ci legono pel vol <expan><abbr>Vol</abbr><am>.</am><ex>umi</ex></expan>
+                        secondi. Se il <persName ref="#EL">Loscher</persName> non vuol far
+                        concessione possiamo salvarci col mir ritiro della direzione, che del resto
+                        la mia partecipazione non t’è stato di gran utilità. Lo
+                            <unclear>St.</unclear> è arrivato qui da parecchi giorni e ha trovato
+                        chiuso tutte le bibliotheche di <placeName ref="#paris">Parigi</placeName>.
+                        Partirà domani sera. Io sono occupato assai anche in questi giorni, poiché
+                        il <persName ref="#GP">Paris</persName> m’ha dato in prestito le sue copie
+                        del rifaccimento della <title ref="#chanson">“Chanson de Roland”</title> che
+                        sto ricopiando per le conferenze della mia società romanza à <placeName
+                            ref="#marburg">Marburg</placeName>, che adesso ha uno carattere
+                        ufficiale col titolo di seminario di filologia romanza ed inglese. Il
+                        ministero m’ha accordato per questo viaggio 1200 <unclear>Marb.</unclear>
+                        per me e mio assistente che ho portato meco. e del quale sono discretamente
+                        contento, benche non ha ancora tutta la voglia scientifica, ma è giovane
+                        ancora e studia soltanto da un’anno. La <orgName ref="#STF">Società per
+                            Antichi testi francesi</orgName> non è ancora costituita, ma non tarderà
+                        di costituirsi ben presto. Io ho soscritto per 3 copie per me per la
+                        biblioteca pubblica e per quella del mio seminario. Il numero degli
+                        associati eccede 200. La settimana prossima la <orgName ref="#BnF"
+                                    ><expan><abbr>bibl</abbr><am>.</am><ex>ioteca</ex><expan>naz</expan><am>.</am><ex>ionale</ex></expan></orgName>
+                        si riapre e dopo aver compiuto il apparato critico pel <persName ref="#MDM"
+                            >Monaco di Montaudon</persName> e alcuni ricerche partirò per <placeName
+                            ref="#marburg">Marburg</placeName>, poiche disgraziatamente debbo
+                        cambiare d’allogio perche la famiglia colla quale sto cambia ella stessa.
+                        Altrimenti sarei restato qui fin dopo la metà d’aprile.</p>
+                    <closer>Ti saluto di cuore <lb/>Tuo
+                                <lb/><expan><abbr>E</abbr><am>.</am><ex>dmund</ex></expan> Stengel </closer>
+                    <!--<postscript>
+                        <p>....</p>
+                    </postscript>-->
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

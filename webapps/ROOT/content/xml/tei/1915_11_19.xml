@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ernesto Monaci ad Adolfo Venturi, 19 novembre 1915</title>
+                <editor role="transcription"><persName>Gaia Tomazzoli</persName></editor>
+                <editor role="encoding"><persName>Gaia Tomazzoli</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2021-03-08"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Centro Archivistico della Scuola Normale Superiore di Pisa –
+                            CASNS, fondo Adolfo Venturi.</repository>
+                        <idno>Busta n. 24, fascicolo 1803, lettera 7</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary corresp="#letter">Lettera di Ernesto Monaci ad Adolfo Venturi del
+                            19 novembre 1915.</summary>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#roma">Roma</placeName>
+                    <date when="1915-11-19"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#AV1">Adolfo Venturi</persName>
+                    <placeName ref="#sconosciuto">?</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                    <opener><dateline><placeName ref="#roma">Roma</placeName>, <address>
+                                <street>Via della Rotonda 23</street>
+                            </address><date when="1915-11-19">19
+                                        <expan><abbr>Nov</abbr><am>.</am><ex>embre</ex></expan>
+                                1915.</date></dateline><salute>Caro <persName ref="#AV1"
+                                >Venturi</persName>,</salute></opener>
+                    <p>tra i miei opuscoli di filologia parmense nulla ho trovato per la tua
+                        "Madalena". Resterebbe da vedere il <bibl><hi rend="underline"> Vocabolario
+                                Parmense</hi></bibl> che non ho e che forse si trova nella <orgName
+                            ref="#BibVE"><expan><abbr>Bibl</abbr><am>.</am><ex>ioteca</ex></expan>
+                            <expan><abbr>V</abbr><am>.</am><ex>ittorio</ex></expan>
+                            <expan><abbr>E</abbr><am>.</am><ex>manuele</ex></expan></orgName> Ma,
+                        meglio ancora del <hi rend="underline"
+                                    ><expan><abbr>Voc</abbr><am>.</am><ex>abolario</ex></expan>
+                            <expan><abbr>Parm</abbr><am>.</am><ex>ense</ex></expan></hi> credo che
+                        potrà rispondere al tuo quesito il <persName ref="#AB1">Conte Antonio
+                            Boselli</persName> già nostro scolaro ora vicebibliotecario nella
+                            <orgName ref="#BibPP">Palatina di Parma</orgName>. Egli conosce a fondo
+                        il dialetto di <placeName ref="#parma">Parma</placeName>, che ha già
+                        illustrato in diverse pubblicazioni assai buone. Se non hai relazione con
+                        lui, posso scrivergli io. Bisognerebbe però che mi mandassi l'appunto del
+                        passo dove si parla della <hi rend="underline">Madalena</hi> per meglio
+                        precisare il quisito.</p>
+                    <closer><salute>Saluti.</salute><salute>tuo
+                                    <expan><abbr>aff</abbr><ex>ezionatissi</ex><abbr>mo</abbr></expan></salute><signed><persName
+                                ref="#EM">EMonaci</persName></signed></closer>
+
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

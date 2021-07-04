@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Adolfo Venturi a Ernesto Monaci, 28 febbraio 1898</title>
+                <editor role="transcription"><persName>Gaia Tomazzoli</persName></editor>
+                <editor role="encoding"><persName>Gaia Tomazzoli</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2021-03-05"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Archivio Monaci, Società Filologica Romana, presso il
+                            Dipartimento di Studi Europei, Americani e Interculturali, Sapienza,
+                            Università di Roma.</repository>
+                        <idno>Busta n. 28, fascicolo 1355, lettera 2a</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary corresp="#letter">Lettera di Adolfo Venturi a Ernesto Monaci, 28
+                            febbraio 1898.</summary>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#AV1">Adolfo Venturi</persName>
+                    <placeName ref="#sconosciuto">?</placeName>
+                    <date when="1898-02-28"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#sconosciuto">?</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                    <opener><dateline><date when="1898-02-28">28
+                                        <expan><abbr>Febb</abbr><ex>raio</ex></expan>
+                            '98</date></dateline><salute>Caro Professore,</salute></opener>
+                    <label place="margin">Riservata</label> <!-- anche in questo caso abbiamo un label nell'angolo superiore sx, come annotarlo? -->
+                    <p><persName ref="#PK">Kristeller</persName> mi ha dichiarato che, se il <orgName ref="#MPI">Ministero</orgName> tien fermo, egli rinuncia
+                        all'incarico datogli per il primo assetto del <orgName>gabinetto delle stampe</orgName> di
+                        <placeName ref="#parma">Parma</placeName>. E quand'Ella si provasse a fare in modo che il <persName ref="#FB1">Barnabei</persName> non cedesse a
+                        raccomandazioni indebite, sarei sicuro che la cosa è fatta, secondo i voti
+                        degli amici dell'arte.</p>
+                    <closer><salute><expan><abbr>Aff</abbr><am>.</am><ex>ezionatissimo</ex></expan> suo</salute><signed><persName ref="#AV1">Adolfo Venturi</persName></signed></closer>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

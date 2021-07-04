@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Adolfo Venturi a Ernesto Monaci, 8 febbraio 1913</title>
+                <editor role="transcription"><persName>Gaia Tomazzoli</persName></editor>
+                <editor role="encoding"><persName>Gaia Tomazzoli</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2021-03-08"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Archivio Monaci, Società Filologica Romana, presso il
+                            Dipartimento di Studi Europei, Americani e Interculturali, Sapienza,
+                            Università di Roma.</repository>
+                        <idno>Busta n. 28, fascicolo 1355, lettera ?</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary corresp="#letter">Lettera di Adolfo Venturi a Ernesto Monaci dell'8
+                            febbraio 1913.</summary>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#AV1">Adolfo Venturi</persName>
+                    <placeName ref="#sconosciuto">?</placeName>
+                    <date when="1913-02-08"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#sconosciuto">?</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                    <opener><dateline><hi rend="underline"><date when="1913-02-08">8
+                                            <expan><abbr>febb</abbr><am>.</am><ex>raio</ex></expan>
+                                    '913</date></hi></dateline><address>
+                            <street>60, v. Fabio Massimo</street>
+                        </address><salute>Caro Collega,</salute></opener>
+                    <p>in un disegno, che ritengo del <persName type="author" ref="#pinturicchio">Pinturicchio</persName>, leggesi la parola <hi
+                            rend="underline">arzento</hi>. Questa ha bastato ad alcuni contraddittori
+                        per dire che il disegno è invece veneziano, non trovandosi, secondo
+                        essi,<pb/> usato nell'<placeName ref="#umbria">Umbria</placeName> <hi rend="underline">arzento</hi> per <hi
+                            rend="underline">argento</hi>. Ricorro a te, caro collega, come supremo
+                        arbitro nella questione, pregandoti, se ti riesce, a darmi una sollecita
+                        risposta.</p>
+                    <closer><salute>Con l'antico affetto</salute><salute>tuo</salute><signed><persName ref="#AV1">AVenturi</persName></signed></closer>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

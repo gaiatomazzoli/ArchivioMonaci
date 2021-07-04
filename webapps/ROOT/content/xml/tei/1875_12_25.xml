@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Edmund Stengel a Ernesto Monaci, 25 Dicembre 1875</title>
+                <editor role="transcription"><persName>Maria Spadoni</persName></editor>
+                <editor role="encoding"><persName>Francesca Romana Cacciatori</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2021-05-11"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <bibl>Maria Spadoni, <title>Le lettere di Edmund Stengel a Ernesto Monaci
+                            (Lettere, cartoline e comunicazioni editoriali in italiano scritte da
+                            Edmund Stengel a Ernesto Monaci</title></bibl>
+                </listBibl>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Archivio Monaci, Società Filologica Romana, presso il
+                            Dipartimento di Studi Europei, Americani e Interculturali, Sapienza,
+                            Università di Roma.</repository>
+                        <idno>Busta n. 24, fascicolo 1258, lettera...</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary corresp="#letter">Edmund Stengel a Ernesto Monaci, 25 Dicembre
+                            1875</summary>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#EMS">Edmund Stengel</persName>
+                    <placeName ref="#marberg">Marberg</placeName>
+                    <date when="1975-12-25"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#sconosciuto">?</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                    <opener>Caro amico mio,</opener>
+                    <p>Ti riscrivo in italiano almeno questa volta, sperando che cosi ci intendiamo
+                        meglio. Creda bene che tutti i Tuoi svantaggi mi fanno molta pena, ma
+                        bisogna calmarti un poco e non esagerare troppo le conseguenze. Sono
+                        soltanto due settimane che il Tuo volume è pubblicato ed è soltanto per
+                        questo che puoi attirare l’attenzione del Tuo governo. Cio che hai fatto per
+                        la direzione Del giornale non si vede bene e benche ne hai inserito parechj
+                        articoli molto pregevoli per i specialisti, un volume cospicuo fa più
+                        d’effetto presso il pubblico. Nessuno fra i Romanisti nemmeno (cio che sull’
+                        affare presente è il grave) il <persName ref="#AM">Mussafia</persName> ha
+                        creduto che Tu aspiri ad una professura o qualche altro impiego. Il
+                            <persName ref="#AM">Mussafia</persName> m’ha risposto alcuni giorni
+                        giorni fa, che è stato molto sorpreso da ciò che gli scrissi di Te, che ha
+                        creduto che tu sia millionario, che la tua salute sia troppo gracile per
+                        sopportare il clima di <placeName ref="#graz">Graz</placeName>, e che la Tua
+                        conoscenza del tedesco sia ancora insufficiente. Egli scrive che gli
+                        rincresce molto di non aver saputo nulla prima, che egli avea proposto il
+                            <persName ref="#UC">Canello</persName>. Così si spiega chiaramente
+                        l’affare di <placeName ref="#graz">Graz</placeName>, che del resto non è
+                        ancora punto risoluta. Io non ho nessune relazioni à <placeName ref="#graz"
+                            >Graz</placeName> per intervenire sia per te sia pel <persName
+                            ref="#UC">Canello</persName> al cui (come l’affare sta adesso) vorria
+                        bene che fose la catedra conferita.</p>
+                    <p>Sono convinto che il <persName ref="#AM">Mussafia</persName> adesso che è
+                        stato disilluso sulla Tua situazione farà tutto che può per Te quando gli si
+                        offrirà la prossima occasione. Bisogna che parli Tu col <persName ref="#ADN"
+                            >d’Ancona</persName> e <persName ref="#AB">Bartoli</persName> affinche
+                        facciano qualche cosa per te. E’ vero che adesso se vuoi una catedra
+                        italiana debbi rinunciare à <placeName ref="#roma">Roma</placeName>, ma non
+                        si può sempre avere tutto ciò che si spera. Tu sai che anch’io ho mancato la
+                        catedra della mia città nativa. Da noi cè un provverbio che chi vuol far
+                        fortuna nella carriera scientifica deve accettare ogni catedra se fosse
+                        anche in una città di <placeName ref="#siberia">Sibiria</placeName>.</p>
+                    <p>Il mio articolo sul <title ref="#canzoniere">canzoniere port.</title> è
+                        scritto e spero che non tarderà troppo dessere pubblicato nella <orgName
+                            ref="#GA">Gazetta d’Augusta</orgName>. Ho parlato specialmente sulle
+                        poesie popolari e fra questi su quei che hanno la forma metrica dei <title
+                            ref="#CAP">Canti antichi port. I – III V VI VIII</title>. L’hai</p>
+                    <p>Tu già notato? È importantissimo per riconoscere le lacune e trasposizioni
+                        del codice.</p>
+                    <p>Il canto I per essempio si divide in due parti
+                                <expan><abbr>v</abbr><am>.</am><ex>ersi</ex></expan> 1-12 formano la
+                        prima dopo questa linea tre linee sono omesse che comminciavano la seconda
+                        parte. Si lasciano ricostruire così:</p>
+                    <p><foreign>Vos me pregnn tades pol. o voss amigo</foreign>
+                        <lb/><foreign>E en ben vos digo que e’ san’e vivo</foreign>
+                        <lb/><foreign>A Deus! E hn e ?</foreign></p>
+                    <p>Ne ho indicato in numeri di tutte le poesie della stessa forma che ho trovato
+                        nel codice. Ti manderò l’articolo appena che è stampato, spero che ne sarai
+                        contento.</p>
+                    <closer>Intanto Ti mando in miei augurj pel nuovo anno <lb/>Tuo
+                                <lb/><expan><abbr>E</abbr><am>.</am><ex>dmund</ex></expan>Stengel </closer>
+                    <!--<postscript>
+                        <p>....</p>
+                    </postscript>-->
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

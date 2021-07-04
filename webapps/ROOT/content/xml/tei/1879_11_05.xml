@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Graziadio Isaia Ascoli a Ernesto Monaci, 5 novembre 1879</title>
+                <editor role="transcription"><persName>Stefano Boschi</persName></editor>
+                <editor role="encoding"><persName>Stefano Boschi</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2021-04-06"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Archivio Monaci, Società Filologica Romana, presso il
+                            Dipartimento di Studi Europei, Americani e Interculturali, Sapienza,
+                            Università di Roma.</repository>
+                        <idno>Busta n. 1, fascicolo 49, documento 22.</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary corresp="#postcard">Graziadio Isaia Ascoli a Ernesto Monaci, 5
+                            novembre 1879</summary>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#GIA">Graziadio Isaia Ascoli</persName>
+                    <placeName ref="#milano">Milano</placeName>
+                    <date when="1879-11-05"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#roma">Roma, piazza della Chiesa Nuova 33</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                    <opener><placeName ref="#milano">Milano,</placeName>
+                        <date when="1879-11-05">5 nov. 79.</date></opener>
+                    <p><expan><abbr>C</abbr><am>.</am><ex>arissimo</ex></expan>
+                        <expan><abbr>a</abbr><am>.</am><ex>mico</ex></expan>_ La ringrazio anche
+                        dell’indirizzo; e vengo a dirle, che la stampa dei noti fascicoli si potrà
+                        regolare per modo, ch’<persName ref="#EM">Ella</persName> ci guadagni almeno
+                        un mese di tempo. Poniamo, per prudenza, che si tratti di un mese giusto; e
+                        così il nostro termine sarebbe la fine dell’anno. <hi rend="underline"
+                                ><foreign>Vàla ben</foreign></hi>?_</p>
+                    <closer><salute>Tanti cordiali saluti dal Suo aff.mo </salute><signed><persName
+                                ref="#GIA">G. I. A.</persName></signed></closer>
+                    <postscript>
+                        <p>Mentre scrivo sopraggiunge il sign. <persName ref="#AAT">Antoine
+                                Thomas</persName>, “Membre de <orgName ref="#EFR">l’Ecole française
+                                de Rome</orgName>”, presentato dal <persName ref="#PM"
+                                >Meyer</persName>, che gli deve aver dato un viglietto anche per
+                                <persName ref="#EM">Lei</persName>. È un romanista, o giù di lì,
+                            molto desideroso d’imparare; e spero anch’<persName ref="#GIA"
+                                >io</persName> ch’<persName ref="#EM">Ella</persName> gli possa ben
+                            volere.</p>
+                    </postscript>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

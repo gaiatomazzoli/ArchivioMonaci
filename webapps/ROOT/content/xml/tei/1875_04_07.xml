@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Edmund Stengel a Ernesto Monaci, 7 aprile 1975</title>
+                <editor role="transcription"><persName>Maria Spadoni</persName></editor>
+                <editor role="encoding"><persName>Francesca Romana Cacciatori</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2021-05-10"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <bibl>Maria Spadoni, <title>Le lettere di Edmund Stengel a Ernesto Monaci
+                            (Lettere, cartoline e comunicazioni editoriali in italiano scritte da
+                            Edmund Stengel a Ernesto Monaci</title></bibl>
+                </listBibl>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Archivio Monaci, Società Filologica Romana, presso il
+                            Dipartimento di Studi Europei, Americani e Interculturali, Sapienza,
+                            Università di Roma.</repository>
+                        <idno>Busta n. 24, fascicolo 1258, lettera...</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary corresp="#letter">Edmund Stengel a Ernesto Monaci, 07 aprile
+                            1975</summary>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#EMS">Edmund Stengel</persName>
+                    <placeName ref="#parigi">Parigi</placeName>
+                    <date when="1975-04-07"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#sconosciuto">?</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                    <opener>Caro mio</opener>
+                    <p>Tante grazie per la tua ultima, prego anche di ringraziare
+                            <unclear>Walther</unclear> per la sua. Credo che in questa maniera tutti
+                        ciò che si può domandare da noi è fatto pel <persName ref="#MN"
+                            >Niemeyer</persName>. Gli scriverò in questi giorni e gli dirò le
+                        proposte del <unclear>Walther</unclear>. Non Ti mando ancora le bozze del
+                        articolo mio, perché è assai difficile da correggere e perche ho smarrito
+                        ieri una foglio, che temo sia andato per la finestra per la negligenza del
+                        mio servitore. Ti prego perciò di volermi mandare immediatamente a
+                            <placeName ref="#marburg">Marburg</placeName> altre bozze. Sarò di
+                        ritorno domenica sera, e spediro subito le bozze quando ricevute. Il <title
+                            ref="#PL">Bartsch Crestomathie prov.</title> è stato inviato da me,
+                        perche ebbi due copie. Ho fatto il conto col <unclear>Viehweg</unclear>, ma
+                        come egli non ebbi nessuna fattura non so se ho fatto giusto. Egli dice
+                        d’aver ricevuto 6 copie dei tuoi <title ref="#CAP">Canti</title> che m’ho
+                        fatto pagare 12 <expan><abbr>fr</abbr><am>.</am><ex>anchi</ex></expan> come
+                        egli gli ha venduti a 3
+                            <expan><abbr>fr</abbr><am>.</am><ex>anchi</ex></expan> Ha ricevuto
+                        parimente 12 copie della <title ref="#RFR">Rivista</title> e ne ha venduto
+                        10. Gli ho accordato 15/00 fa 85
+                                <expan><abbr>fr</abbr><am>.</am><ex>anchi</ex></expan> Tu ha
+                        ricevuto da lui un <unclear>Dumeril Theatre</unclear> fr. 8
+                                <expan><abbr>fr</abbr><am>.</am><ex>anchi</ex></expan> fa dunque il
+                        tutto 89 <expan><abbr>fr</abbr><am>.</am><ex>anchi</ex></expan> che adesso
+                        debbo a Te. Gli ho dato una ricevuta. Scrivimi, Ti prego cio che hai speso
+                        per me, affinche ci possiamo Regolare. </p>
+                    <closer>Con tanti saluti in grandissima fretta. Tuo
+                                <expan><abbr>E</abbr><am>.</am><ex>dmund</ex></expan>
+                        Stengel</closer>
+                    <!--<postscript>
+                        <p>....</p>
+                    </postscript>-->
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

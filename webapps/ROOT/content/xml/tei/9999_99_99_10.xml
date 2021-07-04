@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Edmund Stengel a Ernesto Monaci</title>
+                <editor role="transcription"><persName>Maria Spadoni</persName></editor>
+                <editor role="encoding"><persName>Francesca Romana Cacciatori</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2021-05-17"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <bibl>Maria Spadoni, <title>Le lettere di Edmund Stengel a Ernesto Monaci
+                            (Lettere, cartoline e comunicazioni editoriali in italiano scritte da
+                            Edmund Stengel a Ernesto Monaci</title></bibl>
+                </listBibl>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Archivio Monaci, Società Filologica Romana, presso il
+                            Dipartimento di Studi Europei, Americani e Interculturali, Sapienza,
+                            Università di Roma.</repository>
+                        <idno>Busta n. 24, fascicolo 1258, cartolina...</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary corresp="#letter">Edmund Stengel a Ernesto Monaci</summary>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#EMS">Edmund Stengel</persName>
+                    <placeName ref="#germania">Germania</placeName>
+                    <!--bollo postale illeggibile-->
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#sconosciuto">?</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                    <opener><expan><abbr>C</abbr><am>.</am><ex>aro</ex><abbr>A</abbr><am>.</am><ex>mico</ex></expan></opener>
+                    <p>Avrai ricevuto la mia ultima. Nel fra tempo ho ricevuto il <title
+                            type="manuscript" key="Codice Riccardiano 2814">codice Riccardiano
+                            2814</title> per mezzo del mio governo e ieri ho combinato con un
+                        libraio di <placeName ref="#marburg">Marburg</placeName> un contratto di una
+                        nuova edizione delle <title ref="#DG">grammatiche prov.</title> Intendo di
+                        stampare accanto i due testi e per la prima al disotto la Introduzione
+                        latina. Ti sarei ora obbligatissimo se potesti Procurarmi se non l’edizione
+                        del <persName ref="#GIG">Galvani</persName> almeno la sua risposta al
+                            <persName ref="#FRG">Guessard</persName> (<title ref="#OR">Opusc. Relig.
+                            letter. e morali Serie III a t. III Modena 1871</title>). Del pari
+                        vorrei ben sapere qualque cosa su <persName ref="#PDN">Piero di Simon del
+                            Nero</persName>, poiche era esso che ha fatto copiare e riveduto lui
+                        stesso il <title type="manuscript" key="Codice Riccardiano ">codice
+                            Riccardiano</title>. Scriva mi se puoi ciò che ne puoi trovare,
+                        indicando me ne i fonti. Sarà difficile per me di poter qui esseguire queste
+                        ricerche. Mi ricordo anche diffusamente di aver veduto alla <orgName
+                            ref="#BiblBarberina">Barberina</orgName> una copia recente delle <title
+                            ref="#DG">Grammatiche</title>.</p>
+                    <p>Dimmi se non minganno e se è vero mandami una descrizione ed il principio e
+                        la fine, perche posso ascertare il suo originale.</p>
+                    <closer>Con tanti saluti sempre il tuo
+                                <lb/><expan><abbr>E</abbr><am>.</am><ex>dmund</ex></expan> Stengel </closer>
+                    <postscript>
+                        <p>Chiamo la tua attenzione sulla seguente Vilota di Verona</p>
+                        <p>(<unclear>Schuchardtl Ritornell. u.</unclear> Terzine p.41 )</p>
+                        <p>La bona sera a foglie dalbarèla <lb/>La bona sera a un, Rosina bela
+                            <lb/>La bona sera a foglie di nogàra <lb/>La bona sera a un, Rosina
+                            cara</p>
+                        <p>Non ha la sua forma i più stretti rapporti con quella delle poesie
+                            popolari portoghesi sulla quale parlò nella <title ref="#GA">Gazzetta
+                                d’Augusta</title>? Le conseguenze da tirarne potrebbero <lb/>essere
+                            importantissime.</p>
+                    </postscript>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

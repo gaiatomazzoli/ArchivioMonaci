@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Francesco Torraca a Ernesto Monaci, 4 febbraio (anno non indicato)</title>
+                <editor role="transcription"><persName>Heloísa Abreu de Lima</persName></editor>
+                <editor role="encoding"><persName>Heloísa Abreu de Lima</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2021-05-01"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <bibl>Benedetti, Amedeo. Francesco Torraca Nelle Lettere Agli Amici Letterati,
+                        in Esperienze letterarie, 1, 39. Fabrizio Serra, 2014, pp. 44-74</bibl>
+                </listBibl>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Archivio Monaci, Società Filologica Romana, presso il
+                            Dipartimento di Studi Europei, Americani e Interculturali, Sapienza,
+                            Università di Roma.</repository>
+                        <idno>Busta n. 26, fascicolo 1313, lettera 10</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary corresp="#letter">Francesco Torraca a Ernesto Monaci, 4 febbraio
+                            (anno non indicato)</summary>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#FT1">Francesco Torraca</persName>
+                    <placeName ref="#roma">Roma</placeName>
+                    <date/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#sconosciuto">?</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                    <opener><lb/>Egregio Amico,</opener>
+                    <p>Il lavoro su <persName type="author" ref="#CRi">Cola</persName> è a buon punto. Ho
+                        procurato che fosse insieme riassunto di tutta la storia della questione ed
+                        esposizione di nuove osservazioni. Confuto uno per uno gli appunti del
+                            <persName ref="#SB1">Betti</persName> e del <persName ref="#GC"
+                            >Carducci</persName>.</p>
+                    <p>Tanto vi scrivo perché vogliate disporre che non appena vi porterò il
+                        manoscritto, possa cominciare la stampa. Ho interesse che esca presto: anche
+                        per profittare della curiosità destata dalle recenti polemiche. Volendo, si
+                        potrebbe dare alla stamperia la parte già compiuta, che son 23 o 24 pagine
+                        di carattere molto fitto. </p>
+                    <p>Attendo una riga di risposta.</p>
+                    <closer><lb/>Vogliate continuare a volermi bene. Scusatemi e credetemi,
+                                <lb/><expan><abbr>Aff</abbr><ex>ezionatissi</ex><abbr>mo</abbr></expan>
+                        <expan><abbr>Obb</abbr><ex>ligatissi</ex><abbr>m</abbr><ex>o</ex></expan>
+                        <lb/><persName ref="#FT1">F. Torraca</persName>
+                        <lb/>Via del Volturno 22, 4 febbraio </closer>
+                    <!-- <postscript><p>....</p></postscript>-->
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

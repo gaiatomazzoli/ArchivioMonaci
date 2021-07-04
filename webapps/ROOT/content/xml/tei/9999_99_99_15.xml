@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Edmund Stengel a Ernesto Monaci</title>
+                <editor role="transcription"><persName>Maria Spadoni</persName></editor>
+                <editor role="encoding"><persName>Francesca Romana Cacciatori</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2021-05-27"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <bibl>Maria Spadoni, <title>Le lettere di Edmund Stengel a Ernesto Monaci
+                            (Lettere, cartoline e comunicazioni editoriali in italiano scritte da
+                            Edmund Stengel a Ernesto Monaci</title></bibl>
+                </listBibl>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Archivio Monaci, Società Filologica Romana, presso il
+                            Dipartimento di Studi Europei, Americani e Interculturali, Sapienza,
+                            Università di Roma.</repository>
+                        <idno>Busta n. 24, fascicolo 1258, cartolina...</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary corresp="#letter">Edmund Stengel a Ernesto Monaci.</summary>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#EMS">Edmund Stengel</persName>
+                    <placeName ref="#germania">Germania</placeName>
+                    <!--bollo postale illeggibile-->
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#sconosciuto">?</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                    <opener>Caro amico.</opener>
+                    <p>La Tua lettera m’è giunta l’altro ieri ed oggi il mio libro. Grazie anche
+                        pella interezzante notizia del <persName ref="#ADB">Borgognoni</persName>.
+                        Di riprendere la <title ref="#RFR">Rivista</title> senza serie guarentigie
+                        non mi pare da consigliare. Non m’hai rimandato la lettera del <persName
+                            ref="#AT">Tobler</persName>. Gli vorrei scrivere</p>
+                    <p>ancor’una volta. La Tua offerta di volermi far collazionarele Grammatiche a
+                        Firenze mi piace assai, poiche vorrei in ogni modo la mia pubblicazione una
+                        base sicura per ogni studio ulteriore. Come però la stampa delle note ed
+                        emendazioni è già cominciata ne farà un’appendice del risultato della
+                        collazione, indicando da chi è stata esseguita. Importa il più la collazione
+                        del mio testo A cioè del <title type="manuscript" key="Codice 187">codice 187
+                            fondo Santa Maria del Fiore della Laurenziana</title>. La lezione del B
+                        è già abbastantemente assicurata dalla collazione Tua del <title
+                            type="manuscript" key="Codice Barberino">cod. Barberino</title> e il
+                        <title type="manuscript" key="Codice Chigiano">cod. C </title> l’ho fatto
+                        stampare colla massima scrupolosità. Ti manderò nei prossimi giorni una
+                        copia del testo della edizione.</p>
+                    <p>Credo che la collazione si sbrigerà assai presto. Nelle liste di verbi e nel
+                        rimario , la prima lezione indicata deve sempre essere quella del A,la
+                        seconda quella del B. Per la tradizione
+                                <expan><abbr>lat</abbr><am>.</am><ex>ina</ex></expan> È la stessa
+                        cosa a meno che sia indicato il contrario. Quanto alle copie
+                                <expan><abbr>provenz</abbr><am>.</am><ex>ali</ex></expan> desiderate
+                        dai codici della Vaticana trovo un appunto fra le mie carte, che m’indica le
+                        seguenti numeri. Cod. A f. 56d Biograf. del Tonz di l. A f. III Gui d’Uisel:
+                        Entada guisan f.91 Bern. d. V. Lonc temps a f122 Donde d T. Ab lo dons temps
+                        . f125a Amors rienviela f131 G.de S.L. Estat aurai f. 149c Tervol : Ab
+                        granjoi mou f170 J.de l’isla Longa sazon L. f. 102c G.de C. Li dons
+                        cossireL. f. 105a A. Dun. Chanso doillmot. f.7r° Tot francais f.28v. Sicum
+                        li pais f.65 En honor del p. f66 Ar nos sia f. 116 Assimes pres Il 3v° Longa
+                        sazon IL 13V (S) en fis ni dis f 59r Astrucs . Op. 24 Si comaicel p.23
+                        Leials amics</p>
+                    <p>Op.51 Sicum li peis p.69 Astrucs p.70 De totz ch. P71 Bensai – Se totz los
+                        Op72 Meravillme. Spedico oggi 18 fasc. / copie I della Riv. Non ho più. </p>
+                    <closer>Tuo <lb/><expan><abbr>E</abbr><am>.</am><ex>dmund</ex>
+                            <abbr>St</abbr><am>.</am><ex>engel</ex></expan>
+                    </closer>
+                    <!--<postscript>
+                        <p/>
+                    </postscript>-->
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

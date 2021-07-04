@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Graziadio Isaia Ascoli a Ernesto Monaci, 8 marzo 1879</title>
+                <editor role="transcription"><persName>Stefano Boschi</persName></editor>
+                <editor role="encoding"><persName>Stefano Boschi</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2021-04-02"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                
+                <msDesc>
+                    <msIdentifier><repository>Archivio Monaci, Società Filologica Romana, presso il Dipartimento di Studi Europei, Americani e Interculturali, Sapienza, Università di Roma.</repository> <idno>Busta n. 1, fascicolo 49, lettera 17.</idno></msIdentifier>
+                    <msContents><summary corresp="#letter">Graziadio Isaia Ascoli a Ernesto Monaci, 8 marzo 1879</summary></msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#GIA">Graziadio Isaia Ascoli</persName>
+                    <placeName ref="#milano">Milano</placeName>
+                    <date when="1879-03-08"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#sconosciuto">?</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                    <opener><placeName ref="#milano">Milano,</placeName> <date when="1879-03-08">8 marzo 1879</date></opener>
+                    <opener>Carissimo amico,</opener>
+                    <p>Le rendo vive grazie per la Sua buona lettera. L’ingegno e il sentimento, stretti in così bell’armonia come in <persName ref="#EM">Lei</persName> si trovano, formano uno di quei rari conforti, pei quali affatto non si disperi d’ogni cosa nostra.</p>
+                    <p>Quanto più presto la Sua <title ref="#antper">"Antologia"</title> mi arrivi, e tanto maggior consolazione <persName ref="#GIA">io</persName> naturalmente ne avrò. Ma se il differire di qualche settimana (poniamo un sei settimane, per modo che s’arrivi, ultimo termine, alla fin di maggio) Le può dar modo di frugare nella raccolta della <persName>Spithöver</persName> e di riuscir così a una scelta più abondante insieme e più rigorosa, mi parrebbe irragionevole che non si facesse. Intanto Le rinnovo i miei ringraziamenti per questo prezioso contributo, che anche mi darà la soddisfazione di mostrar propriamente alleate le nostre forze. Sarà, io spero, un’alleanza perenne e feconda.</p>
+                    <p><persName ref="#EM">Ell’</persName>ha trascurato una mia preghiera, ma temo, e a buon diritto, che la causa ne sia stata la Sua troppa cortesia. Ha cioè trascurato di mandarmi l’indirizzo del <persName ref="#EM1">Molteni</persName>, ed ecco che io sono costretto a indirizzare a <persName ref="#EM">Lei</persName>, ancora una volta, dei fogli che sono per <persName ref="#EM1">lui</persName>.</p>
+                    <p>Scusi, La prego, il quasi inevitabile disturbo, e disponga, comunque e dovunque egli possa, del</p>
+                    <closer><salute>Suo aff.mo </salute><signed><persName ref="#GIA">G. I. Ascoli.</persName></signed></closer>
+                    
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Edmund Stengel a Ernesto Monaci</title>
+                <editor role="transcription"><persName>Maria Spadoni</persName></editor>
+                <editor role="encoding"><persName>Francesca Romana Cacciatori</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2021-05-15"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <bibl>Maria Spadoni, <title>Le lettere di Edmund Stengel a Ernesto Monaci
+                            (Lettere, cartoline e comunicazioni editoriali in italiano scritte da
+                            Edmund Stengel a Ernesto Monaci</title></bibl>
+                </listBibl>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Archivio Monaci, Società Filologica Romana, presso il
+                            Dipartimento di Studi Europei, Americani e Interculturali, Sapienza,
+                            Università di Roma.</repository>
+                        <idno>Busta n. 24, fascicolo 1258, lettera...</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary corresp="#letter">Edmund Stengel a Ernesto Monaci</summary>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#EMS">Edmund Stengel</persName>
+                    <placeName ref="#sconosciuto">?</placeName>
+                    <date/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#">Ernesto Monaci</persName>
+                    <placeName ref="#sconosciuto">?</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                    <opener><expan><abbr>C</abbr><am>.</am><ex>aro</ex><abbr>A</abbr><am>.</am><ex>mico</ex></expan></opener>
+                    <p>Probabilmente ho dimenticato di risponderti nelle troppo grandi fatiche delle
+                        ultime settimane. Però mi pare che l’ultima cartolina postale è del 10 e non
+                        dal 17 <expan><abbr>febbr</abbr><am>.</am><ex>aio</ex></expan> come scrivi.
+                        La settimana passata ho terminato le mie lezioni di questo semestre e adesso
+                        respiro. Di <placeName ref="#graz">Graz</placeName> non ho sentito niente di
+                        nuovo Al <persName ref="#HES">Suchier</persName> ho mandato le bozze.
+                        Ricevuti i due <expan><abbr>fasc</abbr><am>.</am><ex>icolo</ex></expan> del
+                            <unclear>Prop.</unclear> 1875. Ti mandai il N° 2 del Bullettino degli
+                            <title ref="#anciens">Anciens Textes</title> . Pel anno venturo
+                        riceverai direttamente le pubblicazioni dal <persName ref="#FV"
+                            >Vieweg</persName> di <placeName ref="#paris">Parigi</placeName> al
+                        quale ho voltato le mie soscrizioni. Non si può voltare la mia soscrizione a
+                        Te senza che si perda il vantaggio delle 10
+                                <expan><abbr>fr</abbr><am>.</am><ex>anchi</ex></expan> d’entrata. Se
+                        preferisci però di associarti per Te stesso, avisi Il <persName ref="#FV"
+                            >Vieweg</persName> che mantenga la mia soscrizione e mandami le
+                        pubblicazioni. Quanto al Tedesco che facoltativamente si ammetterebbe nella
+                            <title ref="#RFR">Rivista</title> mi pare che essageri le inconvenienze.
+                        Come necessariamente si deve apprendere il tedesco da ognuno che si dedicato
+                        questi studj, non vedo una sconvenienza che anche il tedesco si ammetta fra
+                        le lingue nelle quali si dettano gli articoli della <title ref="#RFR"
+                            >Rivista</title>. Il <title ref="#JL">Jahrbuch</title> ha lo stesso
+                        principio. Si intende da sè che la <title ref="#RFR">Rivista</title> sarà
+                        principalmente l’organo delle vostre nuove scuole, e cosi naturalmente la
+                        più grande parte della <title ref="#RFR">Rivista</title> sarà dettata in
+                        italiano. Tutto ciò che spetta alla redazione si scrive naturalmente in
+                        italiano. Anch’io credo che sarebbe un vantaggio per la mia collaborazione
+                        alla <title ref="#RFR">Rivista</title> se fosse à <placeName ref="#graz"
+                            >Graz</placeName>. Ho ricomminciato in questi giorni i miei studj
+                                <expan><abbr>provenz</abbr><am>.</am><ex>ali</ex></expan>
+                    </p>
+                    <closer>Tuo <lb/><expan><abbr>E</abbr><am>.</am><ex>dmund</ex></expan>
+                        Stengel</closer>
+                    <postscript>
+                        <p>Tanti saluti <lb/>al <persName ref="#AM">Mussafia</persName>.</p>
+                    </postscript>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

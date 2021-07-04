@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Francesco Torraca a Ernesto Monaci, 4 aprile 1879</title>
+                <editor role="transcription"><persName>Heloísa Abreu de Lima</persName></editor>
+                <editor role="encoding"><persName>Heloísa Abreu de Lima</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2021-04-10"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <bibl>Benedetti, Amedeo. Francesco Torraca Nelle Lettere Agli Amici Letterati,
+                        in Esperienze letterarie, 1, 39. Fabrizio Serra, 2014, pp. 44-74</bibl>
+                </listBibl>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Archivio Monaci, Società Filologica Romana, presso il
+                            Dipartimento di Studi Europei, Americani e Interculturali, Sapienza,
+                            Università di Roma.</repository>
+                        <idno>Busta n. 26, fascicolo 1313, lettera 1</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary corresp="#letter">Francesco Torraca a Ernesto Monaci, 4 aprile
+                            1879</summary>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#FT1">Francesco Torraca</persName>
+                    <placeName ref="#napoli">Napoli</placeName>
+                    <date when="1879-04-04"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#sconosciuto">?</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                    <opener><lb/><placeName ref="#napoli">Napoli</placeName> 4 aprile 1879
+                                <lb/><expan><abbr>Ill</abbr><ex>ustrissi</ex><abbr>mo</abbr><am>.</am></expan>
+                        <expan><abbr>Sign</abbr><am>.</am><ex>or</ex></expan> Professore</opener>
+                    <p>Il prof. <persName ref="#FDO">Francesco D’Ovidio</persName> mi suggerisce di
+                        mandare a Lei copia d’un mio lavoretto. Ecco perché, quantunque ignoto, mi
+                        permetto pregarla di accettare l’opuscolo, che riceverà con la presente. </p>
+                    <closer><lb/>Voglia,
+                                <expan><abbr>Ill</abbr><ex>ustrissi</ex><abbr>mo</abbr><am>.</am></expan>
+                        <expan><abbr>Sign</abbr><am>.</am><ex>or</ex></expan> Professore, credermi <lb/>
+                        <expan><abbr>Dev</abbr><ex>otissi</ex><abbr>mo</abbr></expan> Suo
+                            <lb/><persName ref="#FT1">Francesco Torraca</persName>
+                        <lb/>prof. nel <orgName ref="#LVE">Liceo <hi rend="underline">V.
+                                Emanuele</hi></orgName>
+                    </closer>
+                    <!-- <postscript><p>....</p></postscript>-->
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

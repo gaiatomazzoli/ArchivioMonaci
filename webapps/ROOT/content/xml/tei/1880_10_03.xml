@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Francesco Torraca a Ernesto Monaci, 3 ottobre 1880 (1881?)</title>
+                <editor role="transcription"><persName>Heloísa Abreu de Lima</persName></editor>
+                <editor role="encoding"><persName>Heloísa Abreu de Lima</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2021-04-17"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <bibl>Benedetti, Amedeo. Francesco Torraca Nelle Lettere Agli Amici Letterati,
+                        in Esperienze letterarie, 1, 39. Fabrizio Serra, 2014, pp. 44-74</bibl>
+                </listBibl>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Archivio Monaci, Società Filologica Romana, presso il
+                            Dipartimento di Studi Europei, Americani e Interculturali, Sapienza,
+                            Università di Roma.</repository>
+                        <idno>Busta n. 26, fascicolo 1313, lettera 3</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary corresp="#letter">Francesco Torraca a Ernesto Monaci, 3 ottobre
+                            (anno non indicato)</summary>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#FT1">Francesco Torraca</persName>
+                    <placeName ref="#roma">Roma</placeName>
+                    <date notBefore="1880-10-03" notAfter="1881-10-03"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#roma">Roma</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                    <opener><lb/><placeName ref="#roma">Roma</placeName>, 3 ottobre <lb/>Egregio
+                        Signor Professore, </opener>
+                    <p>Che cosa dirà di me che, dopo averla pregata d’inserire un articolo nel <hi
+                            rend="underline"><title ref="#GFR">Giornale di Filologia</title></hi>,
+                        devo confessare di non averlo ancora pronto?</p>
+                    <p>Posso invocare delle attenuanti, e son queste.</p>
+                    <p>Alla fine di giugno venni a Roma. Pochi giorni dopo mio fratello, direttore
+                        del <hi rend="underline"><title ref="#iD">Diritto</title></hi>, lasciò
+                        questa città e, in mancanza d’altri, affidò a me l’incarico di sostituirlo.
+                        Immagini un po’, egregio professore, quante noie, quanta fatica a dovermi
+                        occupare di politica, io che me ne intendo assai poco! Inutile dire che non
+                        mi fu più possibile attendere a studi.</p>
+                    <p>Fortunatamente, tra giorni mio fratello sarà a Roma e mi farò premura di
+                        compiere lo studio su <title ref="#reliquie">Le reliquie del dramma sacro
+                            nel Napoletano</title>. Mi auguro che per colpa mia non si ritardi la
+                        pubblicazione del <hi rend="underline"><title ref="#GFR"
+                            >Giornale</title></hi>, e mi auguro più caldamente di essere perdonato
+                        da Lei. E se l’articolo si potesse rimandare ad altro numero?</p>
+                    <p>Ebbi premura d’annunziare nel <hi rend="underline"><title ref="#iD"
+                                >Diritto</title></hi> il fascicolo ultimo del <hi rend="underline"
+                                ><title ref="#GFR">Giornale</title></hi>. Vide l’annunzio?</p>
+                    <closer><lb/> Di nuovo la prego di perdonarmi e insieme di credermi
+                                <lb/><expan><abbr>Dev</abbr><ex>otissi</ex><abbr>mo</abbr><am>.</am></expan>
+                        <lb/><persName ref="#FT1">F. Torraca</persName>
+                        <lb/><expan><abbr>Ill</abbr><ex>ustrissi</ex><abbr>mo</abbr></expan>
+                        <expan><abbr>Prof</abbr><ex>essore</ex><am>.</am></expan>
+                        <persName ref="#EM">E. Monaci</persName>
+                    </closer>
+                    <!-- <postscript><p>....</p></postscript>-->
+                </div>
+                <div type="textpart" subtype="envelope">
+                    <p>
+                        <lb/>Illustrissimo <lb/>Prof. <persName ref="#EM">E. Monaci</persName>
+                        <lb/>Via della Chiesa Nova, 33 <lb/><hi rend="underline"><placeName
+                                ref="#roma">Città</placeName></hi>
+                    </p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

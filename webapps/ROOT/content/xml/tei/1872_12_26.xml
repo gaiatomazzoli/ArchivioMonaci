@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Edmund Stengel a Ernesto Monaci, 26 dicembre 1872</title>
+                <editor role="transcription"><persName>Maria Spadoni </persName></editor>
+                <editor role="encoding"><persName>Francesca Romana Cacciatori</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2021-04-03"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <bibl>Maria Spadoni, <title>Le lettere di Edmund Stengel a Ernesto Monaci
+                            (Lettere, cartoline e comunicazioni editoriali in italiano scritte da
+                            Edmund Stengel a Ernesto Monaci</title></bibl>
+                </listBibl>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Archivio Monaci, Società Filologica Romana, presso il
+                            Dipartimento di Studi Europei, Americani e Interculturali, Sapienza,
+                            Università di Roma.</repository>
+                        <idno>Busta n. 24, fascicolo 1258, lettera...</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary corresp="#letter">Edmund Stengel a Ernesto Monaci, 26 dicembre
+                            1872</summary>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#EMS">Edmund Stengel</persName>
+                    <placeName ref="#firenze">Firenze</placeName>
+                    <date when="1872-12-26"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#roma">Roma</placeName>
+                    <date when="1872-12-29"/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                    <opener>Firenze, 26 Borgo la Croce Sabbato</opener>
+                    <ab>Carissimo Monaci,</ab> 
+                    <p>Vi scrivo queste righe per pregarvi di mandarmi alcune
+                        schede, poiche mi accorgo di avere lasciato a <placeName ref="#roma"
+                            >Roma</placeName> quelle che mi avevate date. Ho veduto il <persName
+                            ref="#CEG">Guasti</persName> chi mostrava voglia di pagare. Lo esprimeva
+                        contentissimamamente del primo fasciculo. Appena che ho le schede ripasserò
+                        ed incasserò le <expan><abbr>L</abbr><am>.</am><ex>ire</ex></expan> 10. da
+                        lui. Non mi mandi niente dopo il 4
+                                <expan><abbr>Genn</abbr><am>.</am><ex>aio</ex></expan>. Ieri ho
+                        fatto la conoscenza del
+                            <expan><abbr>Prof</abbr><am>.</am><ex>essore</ex></expan>
+                        <persName ref="#ANW">Wesselowshy</persName> il quale da 3 anni insegna la
+                        filologia romanza a <placeName ref="#sanpietroburgo"
+                        >Pietroburgo</placeName>. E un bravissimo giovane ed amico del <persName
+                            ref="#ADN">d’Ancora</persName> e <persName ref="#DCM"
+                            >Comparetti</persName>. M’ha promesso la sua contribuzione. Anche lui si
+                        congratula con noi della Rivista. Verrà à <placeName ref="#roma"
+                            >Roma</placeName> più tardi per alcuni giorni. Il <persName ref="#ADN"
+                            >d’Ancora </persName>non è qui ed il <persName ref="#DCM">Comparetti
+                        </persName>è andato à <placeName ref="ginevra">Ginevra</placeName>.
+                            <persName ref="#GFG">Gamurrini</persName> vedrò domani ed anche altri.
+                        Nei miei testi ho scoperto vari sbagli, fra gli altri anche una riga
+                        trasposta. Cio che deve essere accaduto dopo l’ultima prova. Avete mandato
+                        il vostro
+                            <expan><abbr>M</abbr><ex>ano</ex><abbr>S</abbr><ex>critto</ex></expan>
+                        alla stamperià?</p> 
+                    <closer>
+                        <lb/>Vi saluto e vi auguro Ottima salute per l’anno entrando 
+                        <lb/>tuo
+                                <expan><abbr>affezionat</abbr><am>.</am><ex>issi</ex><abbr/>mo</expan>
+                        <lb/>Edmund Stengel. </closer>
+                    <!--<postscript>
+                        <p>....</p>
+                    </postscript>-->
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

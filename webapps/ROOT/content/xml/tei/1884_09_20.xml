@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Francesco Torraca a Ernesto Monaci, 20 settembre 1884</title>
+                <editor role="transcription"><persName>Heloísa Abreu de Lima</persName></editor>
+                <editor role="encoding"><persName>Heloísa Abreu de Lima</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2021-04-24"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <bibl>Benedetti, Amedeo. Francesco Torraca Nelle Lettere Agli Amici Letterati,
+                        in Esperienze letterarie, 1, 39. Fabrizio Serra, 2014, pp. 44-74</bibl>
+                </listBibl>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Archivio Monaci, Società Filologica Romana, presso il
+                            Dipartimento di Studi Europei, Americani e Interculturali, Sapienza,
+                            Università di Roma.</repository>
+                        <idno>Busta n. 26, fascicolo 1313, lettera 9</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary corresp="#letter">Francesco Torraca a Ernesto Monaci, 20 settembre
+                            1884</summary>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#FT1">Francesco Torraca</persName>
+                    <placeName ref="#vallerano">Vallerano</placeName>
+                    <date when="1884-09-20"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#sconosciuto">?</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                    <opener><lb/>Carissimo Amico, </opener>
+                    <p>Vi scrissi tempo fa per ringraziarvi del gratissimo dono del vostro ultimo
+                        scritto. Diressi la cartolina a <placeName ref="#anzio">Porto
+                            D’Anzio</placeName>; ma non so se vi sia giunta. Al tempo stesso vi
+                        pregavo d’un favore, del quale torno ora a pregarvi.</p>
+                    <p>Il <persName ref="#GCS">Sansoni</persName> mi ha incaricato di pubblicare un
+                        volumetto, nel quale son contenuti vari saggi dell’antico teatro italiano,
+                        dalle laudi umbre alle prime imitazioni classiche. Dovendo scrivere la
+                        prefazione a questo volume, vorrei accennare alle Laudi abruzzesi da voi
+                        scoperte, come accennerò a quelle contenute nel codice <persName ref="#CM"
+                            >Morbio</persName>. Mi bisognerebbe, perciò, qualche notizia o almeno il
+                        titolo di qualcuna di quelle Laudi.</p>
+                    <p>Il <persName ref="#LM1">Morandi</persName> mi accennò ad una vostra scoperta,
+                        la quale distruggerebbe ciò che sinora si è detto e creduto delle <hi
+                            rend="underline">Devozioni</hi> umbre. Anche di questo vi pregherei di
+                        darmi notizia un po’ più precisa.</p>
+                    <p>Spero che non vi rincrescerà darmi quest’altra prova di benevolenza e di
+                        amicizia.</p>
+                    <p>Mi tratterrò qui fino al 28 del corrente: intanto vorrei menar a termine la
+                        prefazioncina; ecco perché non ho aspettato il mio ritorno a <placeName
+                            ref="#roma">Roma</placeName> per farvi a voce la preghiera, che mi
+                        auguro vedere gentilmente accolta.</p>
+                    <closer><lb/>Vogliate scusare la noia e credermi, come sempre
+                                <lb/><expan><abbr>Aff</abbr><ex>ezionatissi</ex><abbr>mo</abbr></expan>
+                        <expan><abbr>dev</abbr><ex>otissi</ex><abbr>mo</abbr></expan> vostro
+                            <lb/><persName ref="#FT1">F. Torraca</persName>
+                        <lb/><placeName ref="#vallerano">Vallerano</placeName> / <placeName
+                            ref="#viterbo">Viterbo</placeName> / 20
+                                <expan><am>7</am><ex>settem</ex><abbr>bre</abbr></expan> 84 </closer>
+                    <!-- <postscript><p>....</p></postscript>-->
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

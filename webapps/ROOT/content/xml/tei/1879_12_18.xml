@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Graziadio Isaia Ascoli a Ernesto Monaci, 18 dicembre 1879</title>
+                <editor role="transcription"><persName>Stefano Boschi</persName></editor>
+                <editor role="encoding"><persName>Stefano Boschi</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2021-04-06"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Archivio Monaci, Società Filologica Romana, presso il
+                            Dipartimento di Studi Europei, Americani e Interculturali, Sapienza,
+                            Università di Roma.</repository>
+                        <idno>Busta n. 1, fascicolo 49, lettera 23.</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary corresp="#letter">Graziadio Isaia Ascoli a Ernesto Monaci, 18
+                            dicembre 1879</summary>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#GIA">Graziadio Isaia Ascoli</persName>
+                    <placeName ref="#milano">Milano</placeName>
+                    <date when="1879-12-18"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#sconosciuto">?</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                    <opener><placeName ref="#milano">Milano,</placeName>
+                        <date when="1879-12-18">18 dic. 79</date></opener>
+                    <opener>Carissimo amico,</opener>
+                    <p>La disturbo oggi per una cosa segretissima e di grande momento per me, nella
+                        persuasione che non Le debba riuscire di soverchio disturbo il prestarsi
+                        alla mia preghiera.</p>
+                    <p>Mi è dunque parlato, per una mia figliuola da marito, di un giovane triestino
+                        che dev’essere o essere stato Suo scolare, e si chiama <persName ref="#SM"
+                            >Salomone Morpurgo</persName>. Ora <persName ref="#GIA">io</persName>
+                        vorrei, sempre in gran segreto, che la molta bontà Sua mi volesse dire, con
+                        la più assoluta schiettezza (come, dal canto mio, <persName ref="#GIA"
+                            >io</persName> Le prometto la più assoluta discrezione), quel che a
+                            <persName ref="#EM">Lei</persName> paja di codesto giovane, per
+                        l’intelligenza, la serietà, il fisico, le tendenze sociali, e ogni altro
+                        rispetto, al quale per avventura l’osservazione Sua abbia potuto estendersi
+                        e il quale Le sembri interessante al caso mio.</p>
+                    <p>Mi scusi, per carità, e mi comandi; e mi voglia, La prego, qual sono con
+                        tutta l’anima,</p>
+                    <closer><salute>aff.mo Suo </salute><signed><persName ref="#GIA">G. I.
+                                Ascoli.</persName></signed></closer>
+
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

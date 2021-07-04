@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Edmund Stengel a Ernesto Monaci</title>
+                <editor role="transcription"><persName>Maria Spadoni</persName></editor>
+                <editor role="encoding"><persName>Francesca Romana Cacciatori</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2021-05-21"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <bibl>Maria Spadoni, <title>Le lettere di Edmund Stengel a Ernesto Monaci
+                            (Lettere, cartoline e comunicazioni editoriali in italiano scritte da
+                            Edmund Stengel a Ernesto Monaci</title></bibl>
+                </listBibl>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Archivio Monaci, Società Filologica Romana, presso il
+                            Dipartimento di Studi Europei, Americani e Interculturali, Sapienza,
+                            Università di Roma.</repository>
+                        <idno>Busta n. 24, fascicolo 1258, cartolina...</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary corresp="#letter">Edmund Stengel a Ernesto Monaci.</summary>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#EMS">Edmund Stengel</persName>
+                    <placeName ref="#germania">Germania</placeName>
+                    <!--bollo postale illeggibile-->
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#sconosciuto">?</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                    <opener>Grazie tanto della Tua lettera.</opener>
+                    <p>Non ho veduto ancora il programma del comitato
+                                <expan><abbr>ital</abbr><am>.</am><ex>iano</ex></expan> Mi spiace
+                        che Tu lo prendi tanto a cuore. Siamo d’accordo che il mettere in scena del
+                                <expan><abbr>com</abbr><am>.</am><ex>itato</ex> di
+                                <abbr>B</abbr><am>.</am><ex>erlino</ex></expan> non era conveniente,
+                        ma altrimente non si può negare che il <persName ref="#FD">D.</persName>
+                        essendo <expan><abbr>T</abbr><am>.</am><ex>edesco</ex></expan> la siede
+                        d’una <orgName ref="#FD">fondazione D.</orgName> è di diritto la <placeName
+                            ref="#germania">Germania</placeName>. Altra cosa è se si deve accettare
+                        senza condizioni lo statuto che il comitato di
+                                <expan><abbr>B</abbr><am>.</am><ex>erlino</ex></expan> proporrà. Su
+                        questo punto dirò prossimamente la mia opinione che è questa che il comitato
+                        di <expan><abbr>B</abbr><am>.</am><ex>erlino</ex></expan> deve pubblicare
+                        uno statuto provisorio sul quale si discute prima che diventi definitivo.
+                        Vorrei che in questa discussione tutte le opinioni si manifestassero ma non
+                        soltanto come opinioni di questo o quello ma più tosto di un numero
+                        considerevole di contributori. Credo che per vostro comitato allora sarà
+                        sempre possibile di influenzare sulle risoluzioni del
+                                <expan><abbr>com</abbr><am>.</am><ex>itato</ex></expan> berolinese.
+                        Ti ho preso dal Elwert l’una delle edizioni del <persName type="author"
+                            ref="#jacopone">Jacopone da Todi</persName>
+                        <expan><am>N°</am><ex>numero</ex></expan> 2245 per <unclear>Mle</unclear> 6
+                        (osia lire 7.50 in oro). Lo Elwert Te lo spedirà. L’essemplare è in buona
+                        condizione. L’altro essemplare <expan><am>N°</am><ex>numero</ex></expan>
+                        2244</p>
+                    <p>è stato acquistato sulla mia proposta dalla nostra bibliotheca Universitaria.
+                        Era dunque impossibile di acquistarlo per Te. Anche il
+                                <expan><am>N°</am><ex>numero</ex></expan> 2245 era domandato dal
+                            <persName ref="#GR">Romagnoli</persName> ma veniva à tempo per
+                        ritenerlo. Ti mandero con questo le bozze delle <title ref="#DG"
+                            >Grammatiche</title> e prego</p>
+                    <p>di far collazionare 1° il testo A del Donat. col <title type="manuscript"
+                            key="Codice Laurenziano">codice Laurenziano</title> fondo santa Maria
+                        del Fiore N° 187. 2° il testo B dellas Rasos col <title type="manuscript"
+                            key="Codice Laurenziano">codice Laurenziano Plat. XLI cod. 42.</title> I
+                        fogli dei codici dove si trovano quei testi sono indicate nella stampa.</p>
+                    <closer>Tanti saluti <lb/>Tuo
+                                <expan><abbr>E</abbr><am>.</am><ex>dmund</ex><abbr>St</abbr><am>.</am><ex>engel</ex></expan>
+                    </closer>
+                    <!--<postscript>
+                        <p>....</p>
+                    </postscript>-->
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

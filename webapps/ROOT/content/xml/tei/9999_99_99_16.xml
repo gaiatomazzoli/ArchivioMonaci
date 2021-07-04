@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Edmund Stengel a Ernesto Monaci</title>
+                <editor role="transcription"><persName>Maria Spadoni</persName></editor>
+                <editor role="encoding"><persName>Francesca Romana Cacciatori</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2021-05-28"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <bibl>Maria Spadoni, <title>Le lettere di Edmund Stengel a Ernesto Monaci
+                            (Lettere, cartoline e comunicazioni editoriali in italiano scritte da
+                            Edmund Stengel a Ernesto Monaci</title></bibl>
+                </listBibl>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Archivio Monaci, Società Filologica Romana, presso il
+                            Dipartimento di Studi Europei, Americani e Interculturali, Sapienza,
+                            Università di Roma.</repository>
+                        <idno>Busta n. 24, fascicolo 1258, cartolina...</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary corresp="#letter">Edmund Stengel a Ernesto Monaci.</summary>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#EMS">Edmund Stengel</persName>
+                    <placeName ref="#germania">Germania</placeName>
+                    <!--bollo postale illeggibile-->
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#sconosciuto">?</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                    <opener><expan><abbr>C</abbr><am>.</am><ex>aro</ex>
+                            <abbr>A</abbr><am>.</am><ex>mico</ex></expan></opener>
+                    <p>Anche l’<unclear>Allani </unclear>com il <persName type="author" ref="#jacopone"
+                            >Jacopone</persName> è acquistato dalla nostra biblioteca universitaria
+                        sulla mia proposta. Ma se Ti sarà necessario di consultargli Te lo mandero
+                        in prestito. Ambedui erano domandati da diverse parti. Ho fatto comprare la
+                        nostra <expan><abbr>bibl</abbr><am>.</am><ex>ioteca</ex></expan> parechj
+                        numeri del catalogo. Se mi capiterà altrove il <persName type="author" ref="#jacopone"
+                            >Jacopone</persName> in questa
+                                <expan><abbr>ediz</abbr><am>.</am><ex>ione</ex></expan> Te lo
+                        comprerò ma ne dubito poiche libri di questo genere non sono frequenti da
+                        noi. Ti prego di ringraziare davanti il Tuo scolare Molteni della sua
+                        cortesia. Oggi ricevetti il catalogo
+                            <expan><am>N°</am><ex>numero</ex></expan> 8 giugno 1877 del <persName
+                            ref="#EL">Löscher</persName> nel quale vedo indicato sotto
+                                <expan><am>N°</am><ex>numero</ex></expan>3160 il <title ref="#IP"
+                            >Propugnatore</title> Anno I-V per lire 40. Se Consentirebbe il
+                            <persName ref="#EL">Löscher</persName> di lasciarmene/si l’annata,
+                        terza, quarta, e della quinta la parte prima il resto l’ho già per 25 Lire
+                        (potrebbe egli anche ritenere il
+                                <expan><abbr>fasc</abbr><am>.</am><ex>icolo</ex></expan> 1. 2. della
+                        prima parte della quarta annata) gli comprerei molto volontieri. Vuoi Tu
+                        informartene? Mi preme assai di aver l’annata terza e quarta perche ci sono
+                        gli studj del </p>
+                    <p><persName ref="#PR">Rajna</persName> sulla <title ref="#larotta">Rotta di
+                            Roncisvalle</title>. Hai Tu veduto e essaminato il libro del Rajna sui
+                            <title ref="#ariosto">fonti del Ariosto</title>? L’articolo del
+                            <persName ref="#UC">Canello</persName> nella <title ref="#ZrP"
+                            >Zeitschrift</title> non mi pare approfondito e mi duole parimente per
+                        l’autore come pel <persName ref="#UC">Canello</persName>. Hai visto la
+                            <title ref="#ZrP">Zeitschrift</title> del <persName ref="#GG"
+                            >Gröber</persName>? Ti piace? A me pare bene comminciata e spero che
+                        anderà sempre ammigliorando.</p>
+                    <closer>Con tanti saluti <lb/>Tuo
+                                <lb/><expan><abbr>E</abbr><am>.</am><ex>dmund</ex>
+                            <abbr>St</abbr><am>.</am><ex>engel</ex></expan>
+                    </closer>
+                    <!--<postscript>
+                        <p/>
+                    </postscript>-->
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

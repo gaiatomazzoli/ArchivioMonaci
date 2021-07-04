@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Edmund Stengel a Ernesto Monaci, 27 Agosto 1876</title>
+                <editor role="transcription"><persName>Maria Spadoni</persName></editor>
+                <editor role="encoding"><persName>Francesca Romana Cacciatori</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2021-05-15"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <bibl>Maria Spadoni, <title>Le lettere di Edmund Stengel a Ernesto Monaci
+                            (Lettere, cartoline e comunicazioni editoriali in italiano scritte da
+                            Edmund Stengel a Ernesto Monaci</title></bibl>
+                </listBibl>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Archivio Monaci, Società Filologica Romana, presso il
+                            Dipartimento di Studi Europei, Americani e Interculturali, Sapienza,
+                            Università di Roma.</repository>
+                        <idno>Busta n. 24, fascicolo 1258, lettera...</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary corresp="#letter">Edmund Stengel a Ernesto Monaci, 27 Agosto
+                            1876</summary>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#EMS">Edmund Stengel</persName>
+                    <placeName ref="#marberg">Marberg</placeName>
+                    <date when="1876-08-27"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#sconosciuto">?</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                    <opener>Carissimo Amico,</opener>
+                    <p>Fra mezzo di tutte le turbolenze delle ultime settimane avrò probabilmente
+                        dimenticato di ringraziarti pel invio Tuo della collazione del <title
+                            type="manuscript" key="Codice Barberino">cod. Barberino</title>. Prego
+                        di perdonarmelo e di accettare adesso i miei sinceri ringraziamenti cosi
+                        bene della detta collazione come dei Tuoi augurj per la mia bambina. Adesso
+                        tutto va bene da noi, benche siamo obbligati di nutrire la piccola col
+                        surrogato di <unclear>Lebig</unclear>. Anch’io ho ricominciato i miei studj
+                        e sto lavorando sul glossario delle <title ref="#DG">grammatiche
+                            provenzali</title> e sulle <title ref="#LR">Rime di Petrarca</title> che
+                        intendo di spiegare nel inverno venturo. Sai – Tu dimmi se c’è fatta
+                        recentemente una buona edizione delle <title ref="#LR">Rime</title>. Ho
+                        commesso quella del <title ref="#FPR">Camerini</title> di <placeName
+                            ref="#milano">Milano</placeName> ma non l’ho ancora ricevuto. Di quella
+                        del <title ref="#FPG">Bozzo Palermo 1870</title> leggo che il suo pregio
+                        principale sia il commentario estetico roba che non mi importa molto. Cio
+                        che desiderei sono delle spiegazioni reali e filologiche. Pel testo sono
+                        assai felice poiche ho à la mia disposizione due antiche edizioni di 1501 e
+                        1510 la prima fatta come dice dopo l’autografo dell’Autore . Cio che mi
+                        manca sono i lavori del <persName ref="#EN">Narducci</persName> pubblicati
+                        pel Centenario di <persName ref="#petrarca">Petrarca</persName>: 1) <title
+                            type="manuscript"
+                            key="Codici Petrarcheschi delle biblioteche governative del regno">9
+                            codici Petrarchesci delle bibl. governative del regno</title> 2) I
+                        <title type="manuscript"
+                            key="Codici Petrarcheschi della biblioteca vaticana">Codici
+                            Petrarcheschi del Vaticano</title> etc. Potresti tu mandarmele.</p>
+                    <p>Di ciò che Tu mi scrivi delle riforme universitarie non m’intendo bene,
+                        probabilmente poiche le nostre istituzioni sono troppo diverse. Da noi gli
+                        studenti che seguono i corsi di </p>
+                    <p>lingue moderni come quelli di lingue classiche se preparanno pel servizio
+                        d’insegnamento nelle licee. Sono però obbligati soltanto di seguire uno
+                        corso per ogni semestre e ciò durante tre anni. La scelta di questo corso
+                        obbligatorio e di tutti gli altri che credono bene di seguire è interamente
+                        abbandonato ad essi. S’intende che molti professori sono pronti di darne
+                        consigli. Dopo il triennio che possono absolvere à qualunque università del
+                        regno ed anche à due tre università fra le quali possono essere delle
+                        università dell’estero ponno passare a) l’essame di dottorato presso la
+                        facoltà filosofica diqualunque università del regno b) l’essame per diploma
+                        di maestro 1) di lingue classiche 2) di lingue moderne. presso una
+                        commissione nominata annualmente dal Ministero per ciaschuna università.
+                        Questa commissione benche si componga generalmente dai professori che
+                        insegnano le varie discipline, è interamente independente
+                        dall’Università.</p>
+                    <p>I corsi che fanno i professori si scegliano da loro stessi e sono approvati
+                        dal senato (composto di tutti i professori ordinarj) S’intende che il
+                        professore sceglie di preferenza</p>
+                    <p>tali corsi che sono atti di prepare gli allievi all’impiego loro, ma non c’è
+                        un regolamento Io riprendo l’inverno prossimo la prima volta il mio corso
+                        sulla <expan><abbr>Gramm</abbr><am>.</am><ex>atica</ex>
+                            <abbr>franc</abbr><am>.</am><ex>ese</ex></expan> Pero l’articolo come
+                        l’ha formulato il <unclear>Lignana</unclear> non mi pare tanto dannoso come
+                        sembra che Tu lo credi. Tutti questi regolamenti vogliono essere bene
+                        interpretati e allora se ne può</p>
+                    <p>fare tutto. Il nostro regolamento pel diploma nullodato è cattivissimo ma la
+                        nostra pratica non ne fa gran caso. Io credo che pel progresso delle scienze
+                        importa sopra tutto di uomini loro dedicati seriosamente e assai poco delle
+                        formule di essame. Lo crederei molto dannoso se Tu vorresti cedere il Tuo
+                        posto per cosa di una cattiva formula che molto presto potrai cambiare
+                        mostrandone di poi le cattive conseguenze. Ma io parlo tanto di cose delle
+                        quali ho conoscenze troppo insufficienti. Mi perdoni dunque se ho detto
+                        parole che garbono niente. </p>
+                    <closer>Spero che ritornerai Tu e Tuo piccolo in buona salute à <placeName
+                            ref="#roma">Roma</placeName> e t’abbraccio di cuore. <lb/>Tuo
+                                <expan><abbr>E</abbr><am>.</am><ex>dmund</ex></expan> Stengel </closer>
+                    <!--<postscript>
+                        <p>....</p>
+                    </postscript>-->
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Adolfo Venturi a Ernesto Monaci, 16 settembre 1899</title>
+                <editor role="transcription"><persName>Gaia Tomazzoli</persName></editor>
+                <editor role="encoding"><persName>Gaia Tomazzoli</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2021-03-05"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Archivio Monaci, Società Filologica Romana, presso il
+                            Dipartimento di Studi Europei, Americani e Interculturali, Sapienza,
+                            Università di Roma.</repository>
+                        <idno>Busta n. 28, fascicolo 1355, lettera 1</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary corresp="#letter">Lettera di Adolfo Venturi a Ernesto Monaci del 16
+                            settembre 1899.</summary>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#AV1">Adolfo Venturi</persName>
+                    <placeName ref="#baiso">Baiso</placeName>
+                    <date when="1899-09-16"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#sconosciuto">?</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                    <opener><dateline><placeName ref="#baiso">Baiso (prov. di Reggio
+                                Emilia)</placeName><date when="1899-09-16"> 16
+                                        <expan><abbr>Sett</abbr><am>.</am><ex>emb</ex><hi
+                                        rend="subscribe"><abbr>re</abbr></hi></expan>
+                            '99</date></dateline><salute>Caro Professore e amico.</salute></opener>
+                    <p>Sono tornato da pochi giorni qui, e subito ho scritto al gabinetto del
+                        <persName ref="#GB1">Ministro</persName> per sapere se sia stato bandito il concorso per le borse
+                        d'incoraggiamento agli studi della storia dell'arte medievale e moderna
+                        presso l'<orgName ref="#UR">Università di Roma</orgName>, secondo quanto
+                        prescrive il Decreto reale di istituzione. Ho avuto in risposta che nulla è
+                        stato fatto; ond'io prego Lei a volere compiacersi di promuovere il decreto
+                        di concorso. Non so spiegarmi l'avversione agli sforzi più onesti! Ma non
+                        passiamo di ciò! A Lei mi raccomando nell'interesse degli studî.</p>
+                    <closer><salute>Con affetto suo
+                                    <expan><abbr>dev</abbr><am>.</am><ex>otissi</ex><hi
+                                    rend="subscribe"><abbr>mo</abbr></hi></expan> e
+                                    <expan><abbr>aff</abbr><am>.</am><ex>ezionatissi</ex><hi
+                                    rend="subscribe"><abbr>mo</abbr></hi></expan></salute><persName ref="#AV1"
+                            >AVenturi</persName></closer>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

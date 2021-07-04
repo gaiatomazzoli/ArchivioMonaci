@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Adolfo Venturi a Ernesto Monaci, 28 marzo 1912</title>
+                <editor role="transcription"><persName>Gaia Tomazzoli</persName></editor>
+                <editor role="encoding"><persName>Gaia Tomazzoli</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2021-03-08"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Archivio Monaci, Società Filologica Romana, presso il
+                            Dipartimento di Studi Europei, Americani e Interculturali, Sapienza,
+                            Università di Roma.</repository>
+                        <idno>Busta n. 28, fascicolo 1355, lettera ?</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary corresp="#letter">Invito dattiloscritto dell'Associazione per la
+                            cultura nazionale a Ernesto Monaci, 28 marzo 1912.</summary>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#AV1">Adolfo Venturi</persName>
+                    <placeName ref="#roma">Roma</placeName>
+                    <date when="1912-03-28"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#roma">Roma</placeName>
+                    <date when="1912-03-29"/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="circolare"> <!-- si tratta di una lettera circolare contenente l'invito/convocazione per un'assemblea; come indicarlo? -->
+                    <opener><dateline><placeName ref="#roma">Roma</placeName>, <date
+                                when="1912-03-28">28 marzo 1912.</date></dateline></opener>
+                    <p>L'Assemblea generale dei soci, nella seduta del 25 corrente, dopo aver
+                        proceduto per acclamazione alla nomina del Presidente ha deliberato di
+                        rinviare le altre elezioni a una seduta successiva.</p>
+                    <p>S'invita pertanto vivamente quanti aderiscono alle idee dell'<orgName ref="#ACAN">Associazione</orgName> a
+                        trovarsi martedì 2 aprile, a ore 18, nella sede sociale, <placeName>in via Dogana
+                        Vecchia n. 29</placeName>, per eleggere:</p>
+                    <p><lb/>a) 18 membri del Consiglio Direttivo, il Segretario generale e il Tesoriere;
+                    
+                    <lb/>b) il Presidente, il Segretario e il Tesoriere della Sezione provinciale Romana.</p>
+                    <closer><signed><hi rend="italic">Il Presidente</hi></signed><signed><persName ref="#AV1">Adolfo Venturi</persName></signed>
+                      </closer>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

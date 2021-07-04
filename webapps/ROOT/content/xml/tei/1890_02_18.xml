@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Francesco Torraca a Ernesto Monaci, 18 febbraio 1890</title>
+                <editor role="transcription"><persName>Heloísa Abreu de Lima</persName></editor>
+                <editor role="encoding"><persName>Heloísa Abreu de Lima</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2021-05-01"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <!-- <listBibl><bibl>Eventuali riferimenti bibliografici</bibl></listBibl>-->
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Archivio Monaci, Società Filologica Romana, presso il
+                            Dipartimento di Studi Europei, Americani e Interculturali, Sapienza,
+                            Università di Roma.</repository>
+                        <idno>Busta n. 26, fascicolo 1313, lettera 14</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary corresp="#letter">Breve sintesi del contenuto della
+                            lettera.</summary>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#FT1">Francesco Torraca</persName>
+                    <placeName ref="#forli">Forlì</placeName>
+                    <date when="1890-02-18"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#sconosciuto">?</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                    <opener>
+                        <lb/><placeName ref="#forli">Forlì</placeName> 18 febbraio 1890 <lb/>Egregio
+                        e carissimo professore, </opener>
+                    <p>Vi ringrazio del dono delle due memorie ultime. Credo dover anche esser grato
+                        a voi de’ volumi dell’<orgName ref="#ISI">Istituto storico</orgName>, che
+                        ricevo. Pensavo di scrivere per la <hi rend="underline"><title
+                                ref="#NuovaAnt">N. Antologia</title></hi> una rassegna storica e dar
+                        conto delle importanti pubblicazioni dell’<orgName ref="#ISI"
+                            >Istituto</orgName>: ne scrissi al <persName ref="#GPr"
+                            >Protonotari</persName>, ma, al solito, non mi ha risposto. </p>
+                    <p>Giacchè continuate a occuparvi di <persName ref="#ArT">Arrigo
+                            Testa</persName>, non vi riuscirà sgradito, spero, un documento, di cui
+                        vi accludo copia, che lo mostra podestà di <placeName ref="#ravenna"
+                            >Ravenna</placeName> prima del 1234. Disgraziatamente né il <persName
+                            ref="#AR">Rossi</persName>, né i documenti del <persName ref="#MFa"
+                            >Fantuzzi</persName> e del <persName ref="#AT3">Tarlazzi</persName>, che
+                        ho consultati, aggiungono altra notizia. </p>
+                    <p>Ho letto con piacere che la stampa dell’antico libro di storia romana è
+                        compiuta. </p>
+                    <closer><lb/>Vogliate ricordarvi qualche volta di me, e comandarmi e credermi
+                        sempre
+                            <lb/><expan><abbr>Aff</abbr><ex>ezionatissi</ex><abbr>mo</abbr></expan>
+                        <expan><abbr>V</abbr><ex>os</ex><abbr>t</abbr><ex>r</ex><abbr>o</abbr></expan>
+                        <lb/><persName ref="#FT1">Francesco Torraca</persName>
+                    </closer>
+                    <!--<postscript><p>....</p></postscript>-->
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

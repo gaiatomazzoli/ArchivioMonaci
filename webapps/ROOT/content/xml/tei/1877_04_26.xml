@@ -18,10 +18,20 @@
                 </availability>
             </publicationStmt>
             <sourceDesc>
-                <listBibl><bibl>Alessia Di Virgilio, <title>Carteggio Monaci - Rajna (1873-1877)</title>, tesi di laurea, Sapienza Università di Roma, a.a. 2018-2019</bibl></listBibl>
+                <listBibl>
+                    <bibl>Alessia Di Virgilio, <title>Carteggio Monaci - Rajna (1873-1877)</title>,
+                        tesi di laurea, Sapienza Università di Roma, a.a. 2018-2019</bibl>
+                </listBibl>
                 <msDesc>
-                    <msIdentifier><repository>Archivio Pio Rajna, Biblioteca Marucelliana, Firenze.</repository> <idno>Lettera XXXI</idno></msIdentifier>
-                    <msContents><summary corresp="#letter">Lettera di Ernesto Monaci a Pio Rajna del 26 aprile 1877</summary></msContents>
+                    <msIdentifier>
+                        <repository>Archivio Pio Rajna, Biblioteca Marucelliana,
+                            Firenze.</repository>
+                        <idno>Lettera XXXI</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary corresp="#letter">Lettera di Ernesto Monaci a Pio Rajna del 26
+                            aprile 1877</summary>
+                    </msContents>
                 </msDesc>
             </sourceDesc>
         </fileDesc>
@@ -44,27 +54,68 @@
         <body>
             <div type="transcription" xml:lang="it">
                 <div type="textpart" subtype="letter">
-                    <opener><dateline><placeName ref="#roma">Roma</placeName> <date when="1877-04-26">26 aprile 1877</date></dateline> <salute>Mio caro <persName ref="#PR">Rajna</persName></salute></opener>
-                    <p>Perdonami se torno ad annojarti con un’altra lettera sullo stesso argomento della prima: ma la perplessità in cui mi tiene il silenzio tuo e quello dell’<persName ref="#GIA">Ascoli</persName>,
-                       e le premure che ricevo trattasi dello <persName ref="#HS">Schuchardt</persName>, mi fanno sentire la necessità di una soluzione.</p> <p>L’altro giorno lo <persName ref="#HS"><expan><abbr>Sch</abbr><am>.</am><ex>uchardt</ex></expan></persName> 
-                       mi scriveva che l’<persName ref="#GIA"><expan><abbr>A</abbr><am>.</am><ex> scoli</ex></expan></persName> aveva abbandonato l’idea del Sotto-Comitato, ed io mi rallegrai tutto nella speranza che così 
-                       si sarebbe potuto formare sotto di lui un comitato indipendente, come l’hanno fatto a <placeName ref="#wien">Vienna</placeName>, come lo fanno a <placeName ref="#münchen">Monaco</placeName> ed altrove.</p> <p>Non sarebbe stato bene dare a quei signori di 
-                           <placeName ref="#berlino">Berlino</placeName> una lezioncina? – Inve<pb break="no"/>ce una nuova dello <persName ref="#HS"><expan><abbr>Schuch</abbr><am>.</am><ex>ardt</ex></expan></persName> jersera mi ha portato la notizia che 
-                           l’<persName ref="#GIA"><expan><abbr>A</abbr><am>.</am><ex>scoli</ex></expan></persName> forma il Sotto.Comitato. È dunque vero? Si fa oggi quest’atto di adesione a <placeName ref="#berlino">Berlino</placeName>?</p> <p>Amico mio, ti confesso, 
-                       che la mia speranza è che si avveri; ma in ogni caso ti prego di farmi sapere qualche cosa, e ti prego ancora, se credi che all’<persName ref="#GIA">Ascoli</persName> non possa spiacere, di non farmi apparire tra i 
-                       componenti del Sotto-Comitato.</p> <p>Come stanno le cose oggi, la mia parte del Comitato non potrebbe essere più buona da nulla. Qui in <placeName ref="#roma">Roma</placeName> si sa che io parteggiavo pel 
-                       comitato indipendente, e quando ebbi dallo <persName ref="#HS"><expan><abbr>Sch</abbr><am>.</am><ex>uchardt</ex></expan></persName> la notizia che l’<persName ref="#GIA"><expan><abbr>A</abbr><am>.</am><ex> scoli</ex></expan></persName> aveva rinunciato a 
-                           formare il Sotto-Comitato, io, sicuro di ciò, corsi ad assicurami <pb/> che l’<orgName ref="#AccLin"><expan><abbr>Accad</abbr><am>.</am><ex>emia</ex></expan> Dei Lincei</orgName> non si compromettesse verso <placeName ref="#berlino">Berlino</placeName>,
-                       ed ottenni che nulla avrebbero fatto fino a che non si fosse formato il <expan><abbr>Comit</abbr><am>.</am><ex>ato</ex></expan> Italiano, col quale l’<orgName ref="#AccLin"><expan><abbr>Accad</abbr><am>.</am><ex>emia</ex></expan></orgName> si sarebbe posta in relazione. 
-                       Se ora non è più vero ciò che lo <persName ref="#HS"><expan><abbr>Sch</abbr><am>.</am><ex>uchardt</ex></expan></persName> mi affermò, io andrò a compiere il mio debito verso l’<orgName ref="#AccLin"><expan><abbr>Accad</abbr><am>.</am><ex>emia</ex></expan></orgName>, 
-                       disdicendo quanto in buona fede dissi allora. Ma capirai che io ormai non potrei fare di più in servigio di questa causa: sarei un avvocato screditato, e farei male alla causa e a me restando nella impresa. Prego perciò che mi si lasci da un canto ed io prometto 
-                       che non m’ impaccerò più della <orgName ref="#DiezSt">Diez-Srt.</orgName> in nessun senso.</p> <p>Del resto la mia parte per la <orgName ref="#DiezSt">Diez Stiftung</orgName> l’ho fatta da un pezzo, e l’ho fatta quando quei signori di <placeName ref="#berlino">Berlino</placeName> nemmeno
-                       ci pensavano. Addio. Voglimi bene e ti sarò assai grato se mi farai sapere qualcosa.</p> 
-                       
-                    <closer><salute>Tuo</salute> <signed><persName ref="#EM">E. Monaci</persName></signed></closer>
-                    </div>
+                    <opener><dateline><placeName ref="#roma">Roma</placeName>
+                            <date when="1877-04-26">26 aprile 1877</date></dateline>
+                        <salute>Mio caro <persName ref="#PR">Rajna</persName></salute></opener>
+                    <p>Perdonami se torno ad annojarti con un’altra lettera sullo stesso argomento
+                        della prima: ma la perplessità in cui mi tiene il silenzio tuo e quello
+                            dell’<persName ref="#GIA">Ascoli</persName>, e le premure che ricevo
+                        trattasi dello <persName ref="#HS">Schuchardt</persName>, mi fanno sentire
+                        la necessità di una soluzione.</p>
+                    <p>L’altro giorno lo <persName ref="#HS"
+                                    ><expan><abbr>Sch</abbr><am>.</am><ex>uchardt</ex></expan></persName>
+                        mi scriveva che l’<persName ref="#GIA"><expan><abbr>A</abbr><am>.</am><ex>
+                                    scoli</ex></expan></persName> aveva abbandonato l’idea del
+                        Sotto-Comitato, ed io mi rallegrai tutto nella speranza che così si sarebbe
+                        potuto formare sotto di lui un comitato indipendente, come l’hanno fatto a
+                            <placeName ref="#wien">Vienna</placeName>, come lo fanno a <placeName
+                            ref="#monacodibaviera">Monaco</placeName> ed altrove.</p>
+                    <p>Non sarebbe stato bene dare a quei signori di <placeName ref="#berlino"
+                            >Berlino</placeName> una lezioncina? – Inve<pb break="no"/>ce una nuova
+                        dello <persName ref="#HS"
+                                ><expan><abbr>Schuch</abbr><am>.</am><ex>ardt</ex></expan></persName>
+                        jersera mi ha portato la notizia che l’<persName ref="#GIA"
+                                    ><expan><abbr>A</abbr><am>.</am><ex>scoli</ex></expan></persName>
+                        forma il Sotto.Comitato. È dunque vero? Si fa oggi quest’atto di adesione a
+                            <placeName ref="#berlino">Berlino</placeName>?</p>
+                    <p>Amico mio, ti confesso, che la mia speranza è che si avveri; ma in ogni caso
+                        ti prego di farmi sapere qualche cosa, e ti prego ancora, se credi che
+                            all’<persName ref="#GIA">Ascoli</persName> non possa spiacere, di non
+                        farmi apparire tra i componenti del Sotto-Comitato.</p>
+                    <p>Come stanno le cose oggi, la mia parte del Comitato non potrebbe essere più
+                        buona da nulla. Qui in <placeName ref="#roma">Roma</placeName> si sa che io
+                        parteggiavo pel comitato indipendente, e quando ebbi dallo <persName
+                            ref="#HS"
+                            ><expan><abbr>Sch</abbr><am>.</am><ex>uchardt</ex></expan></persName> la
+                        notizia che l’<persName ref="#GIA"><expan><abbr>A</abbr><am>.</am><ex>
+                                    scoli</ex></expan></persName> aveva rinunciato a formare il
+                        Sotto-Comitato, io, sicuro di ciò, corsi ad assicurami <pb/> che l’<orgName
+                            ref="#AccLin"><expan><abbr>Accad</abbr><am>.</am><ex>emia</ex></expan>
+                            Dei Lincei</orgName> non si compromettesse verso <placeName
+                            ref="#berlino">Berlino</placeName>, ed ottenni che nulla avrebbero fatto
+                        fino a che non si fosse formato il
+                                <expan><abbr>Comit</abbr><am>.</am><ex>ato</ex></expan> Italiano,
+                        col quale l’<orgName ref="#AccLin"
+                                    ><expan><abbr>Accad</abbr><am>.</am><ex>emia</ex></expan></orgName>
+                        si sarebbe posta in relazione. Se ora non è più vero ciò che lo <persName
+                            ref="#HS"
+                            ><expan><abbr>Sch</abbr><am>.</am><ex>uchardt</ex></expan></persName> mi
+                        affermò, io andrò a compiere il mio debito verso l’<orgName ref="#AccLin"
+                                    ><expan><abbr>Accad</abbr><am>.</am><ex>emia</ex></expan></orgName>,
+                        disdicendo quanto in buona fede dissi allora. Ma capirai che io ormai non
+                        potrei fare di più in servigio di questa causa: sarei un avvocato
+                        screditato, e farei male alla causa e a me restando nella impresa. Prego
+                        perciò che mi si lasci da un canto ed io prometto che non m’ impaccerò più
+                        della <orgName ref="#DiezSt">Diez-Srt.</orgName> in nessun senso.</p>
+                    <p>Del resto la mia parte per la <orgName ref="#DiezSt">Diez Stiftung</orgName>
+                        l’ho fatta da un pezzo, e l’ho fatta quando quei signori di <placeName
+                            ref="#berlino">Berlino</placeName> nemmeno ci pensavano. Addio. Voglimi
+                        bene e ti sarò assai grato se mi farai sapere qualcosa.</p>
+
+                    <closer><salute>Tuo</salute>
+                        <signed><persName ref="#EM">E. Monaci</persName></signed></closer>
+                </div>
             </div>
         </body>
     </text>
 </TEI>
-

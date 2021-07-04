@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Edmund Stengel a Ernesto Monaci</title>
+                <editor role="transcription"><persName>Maria Spadoni</persName></editor>
+                <editor role="encoding"><persName>Francesca Romana Cacciatori</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2021-04-22"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <bibl><author>Maria Spadoni</author> <title>Le lettere di Edmund Stengel a Ernesto Monaci
+                            (Lettere, cartoline e comunicazioni editoriali in italiano scritte da
+                            Edmund Stengel a Ernesto Monaci</title></bibl>
+                </listBibl>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Archivio Monaci, Società Filologica Romana, presso il
+                            Dipartimento di Studi Europei, Americani e Interculturali, Sapienza,
+                            Università di Roma.</repository>
+                        <idno>Busta n. 24, fascicolo 1258, cartolina...</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary corresp="#letter">Edmund Stengel a Ernesto Monaci.</summary>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#EMS">Edmund Stengel</persName>
+                    <placeName ref="#germania">Germania</placeName>
+                    <!--il bollo postale risulta illeggibile-->
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#sconosciuto">?</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                    <opener>Caro Amico.</opener>
+                    <p>Mi fai lungo tempo aspettare una risposta alla mia ultima. Ho nel fra mezzo
+                        avuto delle corrispondenze col <persName ref="#HS">Schuchardt</persName> e
+                        col <persName ref="#GG">Gröber </persName>sulle <orgName ref="#FD">Diez
+                            stiftung</orgName>. Il <persName ref="#GG">Gröber</persName> chi Tu lo
+                        sai fa parte del comitato di <placeName ref="#berlino">Berlino</placeName> è
+                        dell’opinione che se dovrebbero formulare dei comitati indipendenti di
+                        quello di <placeName ref="#berlino">Berlino</placeName> e che poi potrebbero
+                        efficacemente influenzare sulle risoluzioni di questo. Mi pare ciò l’ottimo
+                        per far avanzare la prosperità da tutti voluta della fondazione. Con questo
+                        ti giungerà il catalogo <unclear>Lottig</unclear>. Il librajo ti vuole
+                        pregare di indicargli indirizzi ai quali dovrebbe mandarlo direttamente. Il
+                            <persName ref="#EL">Loescher</persName> n’avrà un buon numero.
+                        Finalmente Ti prego di rimandarmi <persName ref="#MDM">Il Monge de
+                            Montaudon</persName> poiché n’avrò bisogno nel mio corso che incommincia
+                        la settimana ventura. Il primo fascicolo della <title ref="ZP">Zeitschrift
+                                    <expan><abbr>f</abbr><am>.</am><ex>ür</ex>
+                                <abbr>rom</abbr><am>.</am><ex>anische</ex>
+                                <abbr>Phil</abbr><am>.</am><ex>ologie</ex></expan></title> è uscito.
+                        Da me ci sono soltanto soltanto due piccole varietà e una rivista sulla
+                        traduzione nerlandese dei <title ref="#GL">Loherains</title>. Non ho ancora
+                        sott’occhio una copia.</p>
+                    <closer>Con tanti saluti <lb/>Tuo
+                                <lb/><expan><abbr>E</abbr><am>.</am><ex>dmund</ex></expan> Stengel </closer>
+                    <!--<postscript>
+                        <p>....</p>
+                    </postscript>-->
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

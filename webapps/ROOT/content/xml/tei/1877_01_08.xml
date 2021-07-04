@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Graziadio Isaia Ascoli a Ernesto Monaci, 8 gennaio 1877</title>
+                <editor role="transcription"><persName>Stefano Boschi</persName></editor>
+                <editor role="encoding"><persName>Stefano Boschi</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2021-04-01"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Archivio Monaci, Società Filologica Romana, presso il
+                            Dipartimento di Studi Europei, Americani e Interculturali, Sapienza,
+                            Università di Roma.</repository>
+                        <idno>Busta n. 1, fascicolo 49, lettera 6.</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary corresp="#letter">Graziadio Isaia Ascoli a Ernesto Monaci, 8
+                            gennaio 1877</summary>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#GIA">Graziadio Isaia Ascoli</persName>
+                    <placeName ref="#milano">Milano</placeName>
+                    <date when="1877-01-08"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#sconosciuto">?</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                    <opener><placeName ref="#milano">Mil.</placeName>
+                        <date when="1877-01-08">8 genn. 77</date></opener>
+                    <opener>Carissimo amico,</opener>
+                    <p>Il <persName ref="#AM">Mussafia</persName> mi scriveva, che gli erano state
+                        dirette, da più d’un collega italiano, delle lettere molto acerbe, e che
+                        antiche e care amicizie ne eran dovute andare malamente scosse. Gli amici
+                        che io qui ho potuto consultare (cautamente, che s’intende), credettero che
+                        il <persName ref="#AM">M.</persName> alludesse a <persName ref="#EM"
+                            >Lei</persName> e al <persName ref="#ADA">D’Ancona</persName>, e la loro
+                        interpretazione s’adattava molto bene al testo che io voleva chiarire.
+                        Aggiungevano di sapere, che si fosse avuto un dibattito lungo e faticoso; –
+                        e quindi io scrissi.</p>
+                    <p>Ma poiché la mia lettera <persName ref="#EM">Le</persName> è riuscita
+                        enigmatica, è segno che ci siamo male apposti, e questa è per me la migliore
+                        di tutte le soluzioni possibili.</p>
+                    <p>Mi mandi qualche lavoro per <hi rend="underline">l’<title ref="#AGI"
+                                >Archivio</title></hi>, sia anche di storia letteraria, purché
+                        c’entri comunque pure la storia del linguaggio. Di cotesti lavori ne spero
+                        anche da altri, e non mi par male che si raccolgano in casa le migliori
+                        bozze.</p>
+                    <closer><salute>Suo di tutto cuore </salute><signed><persName ref="#GIA">G. I.
+                                Ascoli</persName></signed></closer>
+
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

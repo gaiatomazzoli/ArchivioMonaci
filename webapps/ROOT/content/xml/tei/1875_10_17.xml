@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Edmund Stengel a Ernesto Monaci, 17 ottobre 1875</title>
+                <editor role="transcription"><persName>Maria Spadoni</persName></editor>
+                <editor role="encoding"><persName>Francesca Romana Cacciatori</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2021-05-01"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <bibl>Maria Spadoni, <title>Le lettere di Edmund Stengel a Ernesto Monaci
+                            (Lettere, cartoline e comunicazioni editoriali in italiano scritte da
+                            Edmund Stengel a Ernesto Monaci</title></bibl>
+                </listBibl>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Archivio Monaci, Società Filologica Romana, presso il
+                            Dipartimento di Studi Europei, Americani e Interculturali, Sapienza,
+                            Università di Roma.</repository>
+                        <idno>Busta n. 24, fascicolo 1258, lettera...</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary corresp="#letter">Edmund Stengel a Ernesto Monaci, 17 ottobre
+                            1875</summary>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#EMS">Edmund Stengel</persName>
+                    <placeName ref="#parigi">Parigi</placeName>
+                    <date when="1875-10-17"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#sconosciuto">?</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                    <opener>Caro amico,</opener>
+                    <p>ho tardato più lungamente che doveva di risponderti e di ringraziarti della
+                        Tua pubblicazione dedicata alle mie nozze. Sgraziatamente non ho ancora
+                        potuto trovare nessuna traccia del plico smarrito. Ho fatto ricercare alla
+                        posta e ricevetti ieri risposta che le ricerche sono state invane; ho
+                        domandato all albergo dove stave nella primavera di quest’anno, non si
+                        sapeva niente. ho anche fatto domandare il <persName ref="#MN"
+                            >Niemeyer</persName>, ma non aveva ancora risposta. Mi debbo accusare me
+                        stesso di non averti probabilmente scritto il mio nuovo indirizzo. Sia come
+                        sia Ti ringrazio di cuore del bello ricordo che m’hai dato la Tua amicizia.
+                        Confesso che il mio lungo silenzio era un po' cagionato dalla incertezza su
+                        quella pubblicazione. Da <placeName ref="#paris">Parigi</placeName>
+                        partiremo Mercoledi prossimo; la mia moglie felicemente ristabilita da
+                        parecchi giorni Ti manda i suoi rispettosi saluti e sinceri ringraziamenti.
+                        Sarremo già tornati se un incaglio assai grave non era nato subito ciò è che
+                        il nostro apartamento non era ancora pronto. Ha fatto il Tuo conto col
+                            <persName ref="#FV">Vieweg</persName> e Ti giungo la sua nota. E’
+                                <expan><abbr>Sig</abbr><am>.</am><ex>no</ex>ri</expan> Giorgi e
+                        Cagnoni m hannò mancato, ma dovrebbero cercarmi nella <orgName ref="#BNP"
+                            >bibliotheca nazionale</orgName>.</p>
+                    <p>Mi rallegro che la stampa del <title ref="#cantos">Canzoniere</title> sia
+                        finita e spero che ben presto anche le note saranno terminate. Il prospetto
+                        delle Tue <title ref="#canzoniere">Communicazioni</title> ho ricevuto, ma
+                        nella furia di tante occupazioni ho smenticato di scriverlo a Te. Ci penserò
+                        che posso datti per <expan><abbr>Vol</abbr><am>.</am><ex>ume</ex></expan>
+                        II. a pena tornato. Il <persName ref="#HES">Suchier</persName> era qui no fu
+                        lungo tempo e scrisse di <placeName ref="#londra">Londra</placeName> che ha
+                        ricevute le bozze. E’ un huomo che facilmente si offende. Vedremo come si
+                        può dividere il lavoro <lb/>della <title ref="#RFR">Rivista</title>. Farò
+                        volentieri lo spoglio degli periodici e qualche riviste bibliografiche. Caso
+                        mai però che Tu sia stanco di continuare una publicazione che ormai non è
+                        più così necessario che quando si comminciava, non mi oppongo punto. Anche
+                        per Te non è più necessaria, poiche colla pubblicazione del <title
+                            ref="#cantos">Canzoniere</title> e delle <title ref="#canzoniere"
+                            >Communicazioni</title> ti fai assai conoscere e Il Tuo governo dovrà
+                        finalmente pensare di darti un posto di professore. I miei lavori pella
+                        edizione dei <title ref="#HVM">Lohérains</title> hanno fatto progressi
+                        considerevoli, ma non saranno terminati prima di cinque o sei anni.
+                        Preparerò adesso un testo provvisorio col ajuto dei 4 migliori codici
+                        bisogna rivederlo sui altri codici, poiche voglio dare un apparato critico
+                        si completo che possibile. L’edizione vedrà la luce nelle pubblicazione
+                        della <orgName ref="#STF">Sociètè des anciens Textes</orgName>. Ti cederò la
+                        mia soscrizione pella <orgName ref="#STF">Société</orgName>, poiche il
+                        numero degli Associati ha già passato 300, e dovresti pagare cosi 10
+                                <expan><abbr>fr</abbr><am>.</am><ex>anchi</ex></expan> di più. Dirò
+                        al Franck che faccia questo cambio. Io sono ancora associato pella
+                        bibliotheca del Seminario e un second’essemplare si troverà nella biblioteca
+                        dell’Università. Così non è bisogno che abbia una copia anch’io.</p>
+                    <p>Non so dirti se <persName ref="#WF">Förster</persName> pepari un edizione del
+                            <title ref="#DTJ">Jaufre</title>? Ma ciò non può impedirti di far una se
+                        vuoi. Credo però d’aver letto nel Archivio di Herrig che un altro anche
+                        prepara un edizione. Tornato a <placeName ref="#marburg">Marburg</placeName>
+                        cercherò. Ho veduto il <persName ref="#AUS">Scheler</persName> qui che m’ha
+                        dato una copia del’ suo <title ref="#EFL">Exposé des lois qui régissent la
+                            transformation française des mots latins Bruxelles, Muquardt
+                            1875</title>. abbiamo già indicato nella copertina le sue edizioni
+                            <title ref="#RBP">de Berte as grans pies</title>,di <title ref="#BC"
+                            >Bueves de Commarchis </title>e di <title ref="#LEO">Enfances
+                            Ogier</title> ? Il <persName ref="#WML">Meyer</persName> mi ha detto che
+                        la sua edizione della <title ref="#croisade">Guerre contra les
+                            Albiges</title> è pronta, e che mi darà una copia anche prima che parti,
+                        il <persName ref="#LG">Gautier</persName> ha pubblicato due nuove edizioni
+                        della <title ref="#CLG">Chanson de Roland</title> l’una costa 2
+                                <expan><abbr>fr</abbr><am>.</am><ex>anchi</ex></expan> 50 l’altra 5
+                                <expan><abbr>fr</abbr><am>.</am><ex>anchi</ex></expan> L’ultima ha
+                        un glossario, grammatica e note. Ne parlerò nel mio articolo. Hai mai
+                        inserito la mia notizia sul <title ref="#studien">Canzoniere
+                                    <expan><abbr>provv</abbr><am>.</am><ex>enzali</ex></expan> di
+                            Kopenhague</title>? Non la vedo nell’ultimo fasc. e non mi ricordo di
+                        averla letta nell anteriore.</p>
+                    <closer>Addio per oggi, tanti saluti da me e mia moglie Ci rallegriamo che la
+                        Tua famiglia stia meglio. <lb/>Tuo
+                                <lb/><expan><abbr>E</abbr><am>.</am><ex>dmund</ex></expan> Stengel </closer>
+                    <!--<postscript>
+                        <p>....</p>
+                    </postscript>-->
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

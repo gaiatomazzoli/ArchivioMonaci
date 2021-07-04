@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Edmund Stengel a Ernesto Monaci, 1 settembre 1872</title>
+                <editor role="transcription"><persName>Maria Spadoni</persName></editor>
+                <editor role="encoding"><persName>Francesca Romana Cacciatori</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2021-03-30"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <bibl>Maria Spadoni, <title>Le lettere di Edmund Stengel a Ernesto Monaci
+                            (Lettere, cartoline e comunicazioni editoriali in italiano scritte da
+                            Edmund Stengel a Ernesto Monaci</title></bibl>
+                </listBibl>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Archivio Monaci, Società Filologica Romana, presso il
+                            Dipartimento di Studi Europei, Americani e Interculturali, Sapienza,
+                            Università di Roma.</repository>
+                        <idno>Busta n. 24, fascicolo 1258, lettera I</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary corresp="#letter">Edmund Stengel a Ernesto Monaci, 1 settembre
+                            1872</summary>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#EMS">Edmund Stengel</persName>
+                    <placeName ref="#sconosciuto">?</placeName>
+                    <date when="1872-09-01"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#sconosciuto">?</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                    <opener>Carissimo Monaci, </opener>
+                    <p>Soltanto oggi vi posso dare notizie delle cose nostre, avendo soltanto oggi
+                        veduto il Sig. <persName ref="#GO">Ottino</persName>, editore della
+                        Bibliografia Italiana. Lui è pronto di inserire il nostro programma Avrà
+                        bisogno di 750 copie e domanda oltro 15
+                                    <unclear><expan><abbr>fr</abbr><am>.</am><ex>anchi</ex></expan></unclear>
+                        per le spese di posta (<unclear>2 c.</unclear> l’esemplare) M’ha fatto però
+                        una seconda proposta di ristampare il nostro programma, eccetto il saggio di
+                        testo per 12 <unclear><expan><abbr>fr</abbr><am>.</am><ex>anchi</ex></expan>
+                        </unclear> in tutto. Scegla ciò che vi piace più. Dame sarà approvata
+                        qualunque risoluzione prendete, bisigno però che fin al giorno 10 il Sig.r
+                            <persName ref="#GO">Ottino</persName> abbia la risposta, per che si
+                        possa inserire alla dispensa del 15
+                                <expan><abbr>sett</abbr><am>.</am><ex>embre</ex></expan></p>
+                    <p>L’inserzione nella <title ref="#NA">Nuova Antologia</title> è impossibile,
+                        essendo venduti tutti gli annunzi di questa Rivista a qualcuno come m’ha
+                        subito detto il <persName ref="#DDC">Chilovi</persName> della biblioteca
+                        Nazionale, chi fa parte della direzione della Nuova
+                                <expan><abbr>Antol</abbr><am>.</am><ex>ogia</ex></expan> Il Chilovi
+                        m’ha però promesso di annunziare la nostra Rivista nella Bibliografia. Per
+                        la <title ref="#RIE">Rivista Europea</title> vi mando la risposta del de
+                            <persName ref="#ADG">Gubernatis</persName> ad una lettera scritta da me
+                        per la nostra facenda. Lui non </p>
+                    <p>sta a Firenze attualmente. Io l’ho risposto ora protestando contro taluni
+                        suoi opinioni riguardante la nostra Rivista specialmente in ciò che rispetta
+                        la mia parte in essa. Non lasciarci scoraggiare. Indietro non possiamo più
+                        dunque corragiosamente avanti. </p>
+                    <p>Ho ricevuto dal <persName ref="#UC">Canello</persName> le promesse Riviste
+                        del <persName ref="#RF">Fornaciari</persName> e del <persName ref="#FOD"
+                            >Demattio</persName> e vele consegnerò à Roma. Ho dato una occhiata
+                        dentro, e mi piacono assai. Un giorno dopo arrivava la lettera dè qui vi
+                        aggiungi e prego di leggerela calmamente, così che possiamo scriverlo dopo
+                        che sono tornato a Roma. </p>
+                    <p>Spero di poder avere una carta sorda del sec. XII dal direttore del Museo
+                        Etrusco di Firenze chi ne possiede l’originale. Non l’ho ancora veduto
+                        Perciò me ne sfido ancor un poco. Ho spacciato il programma fra diverse
+                        persone e nelle biblioteche. Quando passate dal Walther prego di ricordarlo
+                        che nella libreria qui non sono ancora giunti i programmi e che il Sig.
+                            <persName ref="#AW">Würtenberger</persName> (rappresentante del
+                            <persName ref="#EL">Löscher</persName>) desidera caldamente d’avergli.
+                        Io gli ho dato intanto alcuni de miei essemplari. I miei estratti della
+                        cronaca latina stanno quì appresso. Mi sembrano poco importanti e sono presi
+                        in tutta fretta. Spero che possono essere di qualche utilità al nostro
+                        amico. Alcuni schiarimenti più tardi quando sono giunto a Roma. </p>
+                    <p>Le mie ricerche vanno bene non posso però finire tutto ciò che voleva, avendo
+                        perduto molto tempo cercando la gente ed in chiachierate. E’ giunto ieri una
+                        domanda del Ministro riguardante il codice che aveva domandato ed il
+                        bibliothecario s’è lasciato dettare da me la risposta, per ciò che spetta il
+                        valore del codice pregandomi di non lasciare sapere al ministro che ne ha
+                        parlato con me. O che razza di bibliothecarii! Avendo già terminato le mie
+                        ricerche sopra quel codice e copiate quei parti che non esistono più nel
+                        originale <title type="manuscript" key="Codice Chigiano L.IV106">Chigiano
+                            L.IV106</title>, ho scritto al Ministro di domandarmi invece il codice à
+                        Speriamo che egli lo faccia. L’ho spedito anche una copia del Programma.
+                        L’articolo sopra il risveglio degli studi filologici in Italia, nel quale ho
+                        parlato anche della nostra interpresa è stato pubblicato nel numero di
+                        Martedi passato della Gazzetta d’Augusta. Speriamo che ci giova un poco.</p>
+                    <p>Io sarò di ritorno Martedì sera e vi prego di cambiare in tempo il mio
+                        indirizzo alla posta. Mi debbono mandare ora le cose mie a «74 Piazza del
+                        Oratorio di S.Marcello
+                                <expan><am>2°</am><ex>secondo</ex></expan><expan><abbr>p</abbr><am>°</am><ex>iano</ex></expan>»
+                        “(invece di Libreria Löscher” Firenze e di Via Montanara 115
+                                <expan><am>2°</am><ex>secondo</ex></expan><expan><abbr>p</abbr><am>°</am><ex>iano</ex></expan>)</p>
+                    <p>Ci rivedremo Mercoledi mattina ove verrò trovarvi à casa verso mezzo
+                        giorno.</p>
+                    <closer><lb/>Intanto mille saluti <lb/>1 Settembre 1872 <lb/>Edmund Stengel. </closer>
+                    <!--<postscript>
+                        <p>....</p>
+                    </postscript>-->
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>
