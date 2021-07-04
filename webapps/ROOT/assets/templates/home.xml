@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <kiln:root xmlns:i18n="http://apache.org/cocoon/i18n/2.1"
-           xmlns:kiln="http://www.kcl.ac.uk/artshums/depts/ddh/kiln/ns/1.0"
-           xmlns:xi="http://www.w3.org/2001/XInclude"
-           xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+  xmlns:kiln="http://www.kcl.ac.uk/artshums/depts/ddh/kiln/ns/1.0"
+  xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
   <kiln:parent>
-    <xi:include href="base.xml" />
+    <xi:include href="base.xml"/>
   </kiln:parent>
 
   <kiln:child>
@@ -17,14 +16,22 @@
       <div class="row">
         <div class="row">
           <div class="large-12 columns text-center" id="banner">
-            <h1 id="site_name"><a href="{kiln:url-for-match('local-tei-index-display', ($language), 0)}"><i18n:text i18n:key="home-title">Archivio Ernesto Monaci</i18n:text></a></h1>
-            <a href="{kiln:url-for-match('local-tei-index-display', ($language), 0)}"><img src="{$kiln:assets-path}/images/monaci.jpg" alt="image1" style="width:100%" /></a>
+            <h1 id="site_name">
+              <a href="{kiln:url-for-match('local-tei-index-display', ($language), 0)}">
+                <i18n:text i18n:key="home-title">Archivio Ernesto Monaci</i18n:text>
+              </a>
+            </h1>
+            <a href="{kiln:url-for-match('local-tei-index-display', ($language), 0)}">
+              <img src="{$kiln:assets-path}/images/monaci.jpg" alt="image1" style="width:100%"/>
+            </a>
           </div>
         </div>
-        
+
         <div class="large-12 columns text-center">
-          <p><br/></p>
-          
+          <p>
+            <br/>
+          </p>
+
         </div>
       </div>
     </kiln:block>
@@ -33,8 +40,23 @@
       <main>
         <div class="row">
           <div class="small-8 large-centered columns" style="text-align:justify">
-            <p>Il database ospita le edizioni digitali di lettere ed altri manoscritti conservati nell’Archivio Monaci, di proprietà della Società Filologica Romana e situato presso il Dipartimento di Studi Europei, Americani e Interculturali della Sapienza Università di Roma. I documenti originali appartengono alla Società Filologica Romana e sono qui riprodotti con il necessario permesso. I documenti digitali, codificati in conformità allo standard internazionale XML <a href="https://tei-c.org/">TEI</a>, sono soggetti a una licenza <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>.</p>
-            <p>Al progetto di digitalizzazione dell’Archivio Monaci, coordinato da Nadia Cannata e Arianna Punzi, hanno collaborato Elena Spadini e Irene Vagionakis, responsabili della realizzazione del sito e della supervisione della codifica dei documenti, e un gruppo di studenti e dottorandi del corso in Scienze del Testo della Sapienza Università di Roma, responsabili delle trascrizioni e della codifica dei documenti.</p>
+            <p>Il database ospita le edizioni digitali di lettere ed altri manoscritti conservati
+              nell’Archivio Monaci, di proprietà della Società Filologica Romana e situato presso il
+              Dipartimento di Studi Europei, Americani e Interculturali della Sapienza Università di
+              Roma. I documenti originali appartengono alla Società Filologica Romana e sono qui
+              riprodotti con il necessario permesso. I documenti digitali, codificati in conformità
+              allo standard internazionale XML <a href="https://tei-c.org/">TEI</a>, sono soggetti a
+              una licenza <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"
+                >CC BY-NC-SA 4.0</a>.</p>
+            <p>Al progetto di digitalizzazione dell’Archivio Monaci, coordinato da Nadia Cannata e
+              Arianna Punzi, hanno collaborato <a href="https://orcid.org/0000-0002-4522-2833">Elena
+                Spadini</a> (Université de Lausanne), <a
+                href="https://orcid.org/0000-0002-1918-7333">Irene Vagionakis</a> (Alma Mater
+              Studiorum Università di Bologna) e <a href="https://orcid.org/0000-0003-1900-4231"
+                >Martina Filosa</a> (Universität zu Köln) responsabili della realizzazione del sito
+              e della supervisione della codifica dei documenti, e un gruppo di studenti e
+              dottorandi del corso in Scienze del Testo della Sapienza Università di Roma,
+              responsabili delle trascrizioni e della codifica dei documenti.</p>
           </div>
         </div>
       </main>
