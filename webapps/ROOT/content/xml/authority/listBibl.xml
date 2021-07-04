@@ -19,678 +19,1129 @@
     <text>
         <body>
             <!-- Per ciascun elemento: xml:id, titolo, autore (ove necessario) e data di pubblicazione (ove necessario) -->
-                
+
             <listBibl>
                 <bibl xml:id="aiol">
                     <title>Aiol et Mirabel und Elie de Saint-Gille</title>
                     <author><persName>Wendelin Förster</persName></author>
                     <date from="1876" to="1882"/>
                 </bibl>
-                
+
                 <bibl xml:id="ajol">
                     <title>Ajol</title>
                     <author><persName>Pio Rajna</persName></author><!-- da completare -->
                 </bibl>
-                
+
                 <bibl xml:id="annali">
                     <title>Annali del Caffaro</title>
                     <author><persName>Caffaro di Rustico da Caschifellone</persName></author>
                     <date/>
                 </bibl>
-                
+
                 <bibl xml:id="antper">
                     <title>Antologia perugina (mai pubblicata)</title>
                     <author><persName>Ernesto Monaci</persName></author><!-- da completare -->
                 </bibl>
-                
+
                 <bibl xml:id="alexandre">
                     <title>Libre de Alexandre</title>
                     <author><persName>Sconosciuto</persName></author>
-                    <date from="1178" to="1250"/>  
+                    <date from="1178" to="1250"/>
                 </bibl>
-                
+
                 <bibl xml:id="alexis">
                     <title>Vie de Saint Alexis</title>
                     <author>Sconosciuto</author>
                 </bibl>
-                
+
                 <bibl xml:id="amadis">
                     <title>Sobre a origem portuguesa do Amadis de Gaula</title>
                     <author><persName>Teófilo Braga</persName></author>
                     <date when="1873"/>
                 </bibl>
-                
+
                 <bibl xml:id="amadis1">
-                    <title>Amadis de Gaula</title>                    
+                    <title>Amadis de Gaula</title>
                 </bibl>
-                
+
                 <bibl xml:id="anciens">
-                    <title>Recueil d’anciens textes bas-latins, provençaux et français, accompagnés de deux glossaires</title>
+                    <title>Recueil d’anciens textes bas-latins, provençaux et français, accompagnés
+                        de deux glossaires</title>
                     <author><persName>Paul Meyer</persName></author>
                     <date from="1874" to="1877"/>
                 </bibl>
-                
+
                 <bibl xml:id="apologia">
-                    <title>Apologia in risposta al libro “Dino Compagni vendicato dalla calunnia di scrittore della cronaca”</title>
+                    <title>Apologia in risposta al libro “Dino Compagni vendicato dalla calunnia di
+                        scrittore della cronaca”</title>
                     <author><persName>Pio Rajna</persName></author>
                     <date when="1876"/>
                 </bibl>
-                
+
                 <bibl xml:id="appunti">
-                    <title>Appunti storici e filologici sulla valle Tiberina superiore toscana</title>
+                    <title>Appunti storici e filologici sulla valle Tiberina superiore
+                        toscana</title>
                     <author><persName>Francesco Corazzini</persName></author>
                     <date when="1874"/>
                 </bibl>
-                
+
                 <bibl xml:id="ariosto">
                     <title>Le Fonti dell’Ariosto. Ricerche e studii di Pio Rajna</title>
                     <author><persName>Pio Rajna</persName></author>
                     <date when="1876"/>
                 </bibl>
-                
+
                 <bibl xml:id="arsdictaminis">
                     <title>Ars Dictaminis</title>
                     <author><persName>Boncompagno da Bologna</persName></author>
                 </bibl>
-                
+
                 <bibl xml:id="attila">
                     <title>Studio sull’Attila di Nicolò da Casola [mai pubblicato]</title>
                     <author><persName>Pio Rajna</persName></author>
                 </bibl>
-                
+
                 <bibl xml:id="cancioneirinho">
-                    <title>Cancioneirinho de Trovas antigas colligidas de um grande cancioneiro da Bibliotheca do Vaticano, precedido de uma noticia critica do mesmo grande cancioneiro, com a lista de todos os trovadores que comprehende, pela maior parte portuguezes e gallegos. MDCCCLXX. Compte-rendu</title>, in <title>Romania</title> I.1 (1872), 119-123
-                    <author><persName>Paul Meyer</persName></author>
+                    <title>Cancioneirinho de Trovas antigas colligidas de um grande cancioneiro da
+                        Bibliotheca do Vaticano, precedido de uma noticia critica do mesmo grande
+                        cancioneiro, com a lista de todos os trovadores que comprehende, pela maior
+                        parte portuguezes e gallegos. MDCCCLXX. Compte-rendu</title>, in
+                        <title>Romania</title> I.1 (1872), 119-123 <author><persName>Paul
+                            Meyer</persName></author>
                     <date when="1872"/>
                 </bibl>
-                
+
                 <bibl xml:id="poemacid">
                     <title>Poema del mio Cid</title>
                     <author><persName>anonimo</persName></author>
-                    <date when="1140"/>  
+                    <date when="1140"/>
                 </bibl>
-                
+
                 <bibl xml:id="portoghesi">
-                    <title>Canti antichi portoghesi, tratti dal codice Vaticano 4803</title>, con traduzione e note a cura di E. Monaci
-                    <author><persName>Ernesto Monaci</persName></author>
+                    <title>Canti antichi portoghesi, tratti dal codice Vaticano 4803</title>, con
+                    traduzione e note a cura di E. Monaci <author><persName>Ernesto
+                            Monaci</persName></author>
                     <date when="1873"/>
                 </bibl>
-                
+
                 <bibl xml:id="canto">
                     <title>Preghiera prosificata alla Vergine</title>
                 </bibl>
-                
+
                 <bibl xml:id="cantico">
                     <title>Cantico di frate Sole</title>
                     <author><persName>Francesco d'Assisi</persName></author>
                     <date from="1224" to="1225"/>
                 </bibl>
-                
+
                 <bibl xml:id="cantos">
-                    <title>Cantos de ledino tratti dal grande Canzoniere portoghese della Biblioteca vaticana</title>
+                    <title>Cantos de ledino tratti dal grande Canzoniere portoghese della Biblioteca
+                        vaticana</title>
                     <author><persName>Ernesto Monaci</persName></author>
                     <date when="1875"/>
                 </bibl>
-                
+
                 <bibl xml:id="canzoniere">
-                    <title>Communicazioni dalle biblioteche di Roma e da altre biblioteche per lo studio delle lingue e delle letterature romanze. I: Il Canzoniere portoghese della Biblioteca vaticana</title>
+                    <title>Communicazioni dalle biblioteche di Roma e da altre biblioteche per lo
+                        studio delle lingue e delle letterature romanze. I: Il Canzoniere portoghese
+                        della Biblioteca vaticana</title>
                     <author><persName>Ernesto Monaci</persName></author>
                     <date when="1875"/>
                 </bibl>
-                
+
                 <bibl xml:id="canzoniere2">
-                    <title>Communicazioni dalle biblioteche di Roma e da altre biblioteche per lo studio delle lingue e delle letterature romanze. II: Il Canzoniere portoghese Colocci-Brancuti pubblicato nelle parti che completano il Codice vaticano 4803</title>
+                    <title>Communicazioni dalle biblioteche di Roma e da altre biblioteche per lo
+                        studio delle lingue e delle letterature romanze. II: Il Canzoniere
+                        portoghese Colocci-Brancuti pubblicato nelle parti che completano il Codice
+                        vaticano 4803</title>
                     <author><persName>Ernesto Monaci</persName></author>
                     <date when="1880"/>
                 </bibl>
-                
+
                 <bibl xml:id="carduino1">
-                    <title>I Cantari di Carduino, giuntovi quello di Tristano e Lancillotto quando combattettero al petrone di Merlino</title>, in <title>Scelta di curiosità letterarie inedite o rare dal secolo XIII al XIX</title>
+                    <title>I Cantari di Carduino, giuntovi quello di Tristano e Lancillotto quando
+                        combattettero al petrone di Merlino</title>, in <title>Scelta di curiosità
+                        letterarie inedite o rare dal secolo XIII al XIX</title>
                     <author><persName>Pio Rajna</persName></author>
                     <date when="1873"/>
                 </bibl>
-                
+
                 <bibl xml:id="carduino2">
-                    <title>Scelta di curiosità letterarie inedite o rare dal secolo XIII al XIX</title>
+                    <title>Scelta di curiosità letterarie inedite o rare dal secolo XIII al
+                        XIX</title>
                     <author><persName>Pio Rajna</persName></author>
                     <date when="1873"/>
                 </bibl>
-                
+
                 <bibl xml:id="ossian">
                     <title>Canti di Ossian</title>
                     <author><persName>James Macpherson</persName></author>
                     <date when="1760"/>
                 </bibl>
-                
+
                 <bibl xml:id="alfonsoX">
-                    <title>Cantigas de amor e de maldiger di Alfonso el Sabio re di Castiglia</title>, in <title>Studj di filologia romanza</title> (1887)
-                    <author><persName>Cesare De Lollis</persName></author>
+                    <title>Cantigas de amor e de maldiger di Alfonso el Sabio re di
+                        Castiglia</title>, in <title>Studj di filologia romanza</title> (1887)
+                            <author><persName>Cesare De Lollis</persName></author>
                     <date when="1887"/>
                 </bibl>
-                
+
                 <bibl xml:id="catalogo">
                     <title>Catalogo dei Novellieri italiani in prosa</title>
                     <author><persName>Giovanni Papanti</persName></author>
                     <date when="1871"/>
                 </bibl>
-                
+
                 <bibl xml:id="letterature">
-                    <title>Le letterature neolatine nelle nostre Università</title>, in <title>Nuova Antologia</title>, XXXVII (1878)
-                    <author><persName>Pio Rajna</persName></author>
+                    <title>Le letterature neolatine nelle nostre Università</title>, in <title>Nuova
+                        Antologia</title>, XXXVII (1878) <author><persName>Pio
+                        Rajna</persName></author>
                     <date when="1871"/>
                 </bibl>
-                    
-                    <bibl xml:id="chanson">
-                        <title>Chanson de Roland</title>
-                        <author>Sconosciuto</author>
-                        </bibl>
-                    
-                    <bibl xml:id="chypre">
-                    <title>Histoire de l'ile de Chypre sous le régne des princes de la maison de Lusignan</title>
+
+                <bibl xml:id="chanson">
+                    <title>Chanson de Roland</title>
+                    <author>Sconosciuto</author>
+                </bibl>
+
+                <bibl xml:id="chypre">
+                    <title>Histoire de l'ile de Chypre sous le régne des princes de la maison de
+                        Lusignan</title>
                     <author><persName>Louis de Mas Latrie</persName></author>
                     <date from="1852" to="1861"/>
                 </bibl>
-                
+
                 <bibl xml:id="cimitero">
-                    <title>Cimitero degli antichi ebrei scoperto recentemente in Vigna Randanini illustrato per Raffaele Garrucci</title>
+                    <title>Cimitero degli antichi ebrei scoperto recentemente in Vigna Randanini
+                        illustrato per Raffaele Garrucci</title>
                     <author><persName>Raffaele Garrucci</persName></author>
                     <date when="1862"/>
                 </bibl>
-                
+
                 <bibl xml:id="collezione">
                     <title>Opere Inedite e Rare dei Primi tre secoli della Lingua</title>
                     <author><persName>Filippo Luigi Polidori</persName></author>
                     <date when="1864"/>
                 </bibl>
-                
+
                 <bibl xml:id="communicazioni">
-                    <title>Communicazioni dalle biblioteche di Roma e da altre biblioteche per lo studio delle lingue e delle letterature romanze. I: Il Canzoniere portoghese della Biblioteca vaticana. II: Il Canzoniere portoghese Colocci-Brancuti pubblicato nelle parti che completano il Codice vaticano 4803</title>
+                    <title>Communicazioni dalle biblioteche di Roma e da altre biblioteche per lo
+                        studio delle lingue e delle letterature romanze. I: Il Canzoniere portoghese
+                        della Biblioteca vaticana. II: Il Canzoniere portoghese Colocci-Brancuti
+                        pubblicato nelle parti che completano il Codice vaticano 4803</title>
                     <author><persName>Ernesto Monaci</persName></author>
                     <date from="1875" to="1880"/>
                 </bibl>
-                
+
                 <bibl xml:id="contrastare">
-                    <title>Contrastare, contastare</title>, in <title>Rivista di Filologia Romanza</title>, I.3 (1874)
-                    <author><persName>Pio Rajna</persName></author>
-                    <date when="1874"/> <!-- o 1873? -->
+                    <title>Contrastare, contastare</title>, in <title>Rivista di Filologia
+                        Romanza</title>, I.3 (1874) <author><persName>Pio Rajna</persName></author>
+                    <date when="1874"/>
+                    <!-- o 1873? -->
                 </bibl>
-                
+
                 <bibl xml:id="crestomazia">
-                    <title>Crestomazia Italiana dei Primi Secoli: Con prospetto delle flessioni grammaticali e glossario</title>
+                    <title>Crestomazia Italiana dei Primi Secoli: Con prospetto delle flessioni
+                        grammaticali e glossario</title>
                     <author><persName>Ernesto Monaci</persName></author>
                     <date when="1889"/>
                 </bibl>
-                
+
                 <bibl xml:id="croisade">
                     <title>Chanson de la croisade contre les albigeois</title>
                     <author><persName>Paul Meyer</persName></author>
                     <date from="1875" to="1879"/>
                 </bibl>
-                
+
                 <bibl xml:id="colombo">
                     <title>Cristoforo Colombo nella leggenda e nella storia</title>
                     <author><persName>Cesare De Lollis</persName></author>
                     <date when="1892"/>
                 </bibl>
-                
+
                 <bibl xml:id="Denkmӓler">
                     <title>Denkmӓler</title>
                 </bibl>
-                
+
                 <bibl xml:id="DET">
                     <title>De excidio Troiae</title>
                     <author>Darete Frigio</author>
                 </bibl>
-                
+
                 <bibl xml:id="dialoge">
                     <title>Li Dialoge Gregoire lo Pape</title>
                     <author><persName>Wendelin Förster</persName></author>
                     <date when="1876"/>
                 </bibl>
-                
+
                 <bibl xml:id="DizTop">
                     <title>Dizionario Toponomastico</title><!-- completare -->
                 </bibl>
-                
+
                 <bibl xml:id="Esopo">
                     <title>Esopo</title>
                     <author><persName>Francesco Del Tuppo</persName></author>
                 </bibl>
-                
+
                 <bibl xml:id="favole">
-                    <title>Frammenti di favole francese</title>
+                    <title>Frammenti di favole francesi</title>
                     <author><persName>Pio Rajna</persName></author>
                     <date when="1878"/>
                 </bibl>
-                
-                <bibl xml:id="fiabe"> <!-- controllare che si tratti di questa opera e non di Saggio di fiabe e novelle popolari siciliane, 1873 o Studi di poesia popolare, 1872-->
+
+                <bibl xml:id="fiabe">
+                    <!-- controllare che si tratti di questa opera e non di Saggio di fiabe e novelle popolari siciliane, 1873 o Studi di poesia popolare, 1872-->
                     <title>Fiabe, novelle e racconti popolari siciliani</title>
                     <author><persName>Giuseppe Pitrè</persName></author>
-                    <date when="1875"/>  
+                    <date when="1875"/>
                 </bibl>
-                
+
                 <bibl xml:id="fiorita">
                     <title>Fiorita</title>
                     <author><persName>Armannino da Bologna</persName></author>
                     <date when="1325"/>
                 </bibl>
-                
+
                 <bibl xml:id="folgore">
-                    <title>Le rime di Folgore da San Gemignano e di Cene da la Chitarra d’Arezzo</title>
+                    <title>Le rime di Folgore da San Gemignano e di Cene da la Chitarra
+                        d’Arezzo</title>
                     <author><persName>Giulio Navone</persName></author>
                     <date when="1880"/>
                 </bibl>
-                
+
                 <bibl xml:id="frammenti">
-                    <title>Due frammenti di Romanzi Cavallereschi</title>, in <title>Rivista di Filologia Romanza</title>, I.3 (1873)
-                    <author><persName>Pio Rajna</persName></author>
+                    <title>Due frammenti di Romanzi Cavallereschi</title>, in <title>Rivista di
+                        Filologia Romanza</title>, I.3 (1873) <author><persName>Pio
+                        Rajna</persName></author>
                     <date when="1873"/>
                 </bibl>
-                
+
                 <bibl xml:id="histoire">
                     <title>Histoire de la littérature latine</title>
                     <author><persName>René Pichon</persName></author>
                     <date when="1897"/>
                 </bibl>
-                
+
                 <bibl xml:id="HLE">
                     <title>Historia literaria de España</title>
-                    <author><persName>Pedro Rodriguez Mohedano</persName><persName>Rafael Rodriguez Mohedano</persName></author>
-                    <date when="1766"></date>
+                    <author><persName>Pedro Rodriguez Mohedano</persName><persName>Rafael Rodriguez
+                            Mohedano</persName></author>
+                    <date when="1766"/>
                 </bibl>
-                
+
                 <bibl xml:id="HLF">
                     <title>Histoire littéraire de France</title>
                     <author>Padri maurini</author>
                     <date from="1733"/>
                 </bibl>
-                
+
                 <bibl xml:id="huon">
                     <title>Huon d’Auvergne</title>
                 </bibl>
-                
+
                 <bibl xml:id="iliade">
                     <title>Iliade</title>
                     <author><persName>Omero</persName></author>
                 </bibl>
-                
+
                 <bibl xml:id="illustrazione">
                     <title>Grande Illustrazione del Lombardo Veneto. Vol. III</title>
                     <author><persName>Cesare Cantù</persName></author>
                     <date when="1858"/>
                 </bibl>
-                
+
                 <bibl xml:id="cecco">
                     <title>I lamenti di Cecco da Varlungo</title>
                     <author>Francesco Baldovino</author>
                 </bibl>
-                
+
                 <bibl xml:id="intelligenza">
                     <title>L’Intelligenza: Poema in nona rima</title><!-- distinguere poema anonimo da edizione? -->
                     <author>Dino Compagni</author>
                     <date when="1892"/>
                 </bibl>
-                
+
                 <bibl xml:id="italia">
                     <title>Italia dialettale</title>
                     <author><persName>Giulio Bertoni</persName></author>
                     <date when="1916"/>
                 </bibl>
-                
+
                 <bibl xml:id="laudapassione">
                     <title>Sengnore scribe [lauda drammatica sulla Passione]</title>
                 </bibl>
-                
+
                 <bibl xml:id="lancillotto">
-                    <title>Lancillotto in prosa</title>  
+                    <title>Lancillotto in prosa</title>
                 </bibl>
-                
+
                 <bibl xml:id="leger">
                     <title>Vie de saint Léger</title>
                     <author>sconosciuto</author>
                 </bibl>
-                
+
                 <bibl xml:id="malagigi">
                     <title>Sala di Malagigi, Cantare cavalleresco</title>
                     <author><persName>Pio Rajna</persName></author>
                     <date when="1871"/>
                 </bibl>
-                
+
                 <bibl xml:id="MiscLing">
-                    <title>Miscellanea linguistica in onore di Graziadio Ascoli</title>                    
+                    <title>Miscellanea linguistica in onore di Graziadio Ascoli</title>
                     <date when="1901"/>
                 </bibl>
-                
+
                 <bibl xml:id="nencia">
                     <title>Nencia da Barberino</title>
                     <author>Lorenzo de’ Medici</author>
                 </bibl>
-                
+
                 <bibl xml:id="NA">
                     <title>Nuova Antologia</title>
                     <author><persName>Francesco Protonari</persName></author>
                     <date when="1866"/>
                 </bibl>
-                
+
                 <bibl xml:id="novellino">
-                    <title>Le fonti del Novellino</title>, in <title>Romania</title> II (1873), 385-387
-                    <author><persName>Alessandro D’Ancona</persName></author>
+                    <title>Le fonti del Novellino</title>, in <title>Romania</title> II (1873),
+                    385-387 <author><persName>Alessandro D’Ancona</persName></author>
                     <date when="1873"/>
                 </bibl>
-                
+
                 <bibl xml:id="poema">
                     <title>La Spagna: Poema cavalleresco del secolo XIV</title>
                     <author><persName>Michele Catalano</persName></author>
-                    <date from="1939" to="1940"/>  
+                    <date from="1939" to="1940"/>
                 </bibl>
-                
+
                 <bibl xml:id="poemetti1">
                     <title>La morte di meser Tristano</title>
                 </bibl>
-                
+
                 <bibl xml:id="poemetti2">
                     <title>La vendeta che fe meser Lanzelloto</title>
                 </bibl>
-                
+
                 <bibl xml:id="laudadisciplinati">
-                    <title>Lauda dei Disciplinati</title> <!-- è una o sono più d'una? -->                 
+                    <title>Lauda dei Disciplinati</title>
+                    <!-- è una o sono più d'una? -->
                 </bibl>
-                
+
                 <bibl xml:id="manuale">
-                    <title>Letterature straniere: manuale comparativo corredato di esempi con speciale riguardo alle genti ariane</title>
-                    <author><persName>Guido Mazzoni</persName>, <persName>Paolo Emilio Pavolini</persName></author>
+                    <title>Letterature straniere: manuale comparativo corredato di esempi con
+                        speciale riguardo alle genti ariane</title>
+                    <author><persName>Guido Mazzoni</persName>, <persName>Paolo Emilio
+                            Pavolini</persName></author>
                     <date when="1920"/>
                 </bibl>
-                
+
                 <bibl xml:id="profezie">
                     <title>Profezie</title>
-                    <author><persName>Tommaso Unzio</persName></author> 
+                    <author><persName>Tommaso Unzio</persName></author>
                 </bibl>
-                
+
                 <bibl xml:id="proverbi">
-                    <title>Proverbi, tradizioni ed anneddoti (sic.) delle valli ladine orientali con versione italiana</title>
+                    <title>Proverbi, tradizioni ed anneddoti (sic.) delle valli ladine orientali con
+                        versione italiana</title>
                     <author><persName>Giovanni Battista Alton</persName></author>
                     <date when="1881"/>
                 </bibl>
-                
+
                 <bibl xml:id="reali">
-                    <title>Ricerche intorno ai Reali di Francia</title>, in <title>I Reali di Francia</title>
+                    <title>Ricerche intorno ai Reali di Francia</title>, in <title>I Reali di
+                        Francia</title>
                     <author><persName>Pio Rajna</persName></author>
                     <date when="1872"/>
                 </bibl>
-                
+
                 <bibl xml:id="relazione">
-                    <title>Relazione sull’opera e i risultati della Scuola Glottologica in Italia</title>
+                    <title>Relazione sull’opera e i risultati della Scuola Glottologica in
+                        Italia</title>
                     <author><persName>Graziadio Isaia Ascoli</persName></author>
                 </bibl>
-                
+
                 <bibl xml:id="ricordi">
-                    <title>Ricordi concernenti la Toponomastica Italiana</title>, in <title>Studj romanzi</title>, III (1905)
-                    <author><persName>Graziadio Isaia Ascoli</persName></author>
+                    <title>Ricordi concernenti la Toponomastica Italiana</title>, in <title>Studj
+                        romanzi</title>, III (1905) <author><persName>Graziadio Isaia
+                            Ascoli</persName></author>
                     <date when="1905"/>
                 </bibl>
-                
+
                 <bibl xml:id="rime">
                     <title>Rime Antiche</title><!-- da completare -->
                 </bibl>
-                
+
                 <bibl xml:id="roman_dt">
                     <title>Roman de Troie</title>
                     <author>Benoît de Sainte-Maure</author>
                 </bibl>
-                
+
                 <bibl xml:id="pastourelles">
                     <title>Romances et Pastourelles Francaise Des XIIe et XIIIe Siecles</title>
                     <author><persName>Karl Bartsch</persName></author>
                     <date when="1870"/>
                 </bibl>
-                
+
                 <bibl xml:id="rappresentazione">
                     <title>Sacra Rappresentazione</title>
                     <author><persName>Alessandro D’Ancona</persName></author>
-                    <date when="1872"/>  
+                    <date when="1872"/>
                 </bibl>
-                
+
                 <bibl xml:id="serventese">
                     <title>Tant’aggio ardire e conoscenza</title>
                     <author><persName>Ruggieri Apugliese</persName></author>
                 </bibl>
-                
+
                 <bibl xml:id="stimmen">
                     <title>Stimmen der Völker in Liedern</title>
                     <author><persName>Johann Gottfried Herder</persName></author>
                     <date when="1778"/>
                 </bibl>
-                
+
                 <bibl xml:id="storia_li">
                     <title>Storia della letteratura italiana</title>
                     <author><persName>Girolamo Tiraboschi</persName></author>
                     <date>1772-1782 (I ed. in 9 voll.), 1787-1794 (II. ed. in 16 voll.)</date>
                 </bibl>
-                
+
                 <bibl xml:id="storia_lt">
                     <title>Deutsche Literaturgeschichte</title>
                     <author><persName>Karl Storck</persName></author>
                     <date when="1903"/>
                 </bibl>
-                
+
                 <bibl xml:id="stories">
                     <title>Stories e chainties ladines: con vocabolario ladin-italian</title>
                     <author><persName>Giovanni Battista Alton</persName></author>
                     <date when="1895"/>
                 </bibl>
-                
+
                 <bibl xml:id="strambaldi">
                     <title>Chronique de Strambaldi</title>
                 </bibl>
-                
+
                 <bibl xml:id="tavola">
                     <title>La Tavola Ritonda o L’istoria di Tristano</title>
                     <author><persName>Filippo Luigi Polidori</persName></author>
                     <date from="1864" to="1865"/>
                 </bibl>
-                
+
                 <bibl xml:id="tesoro">
                     <title>Tesoro de’ Tesori</title>
                     <author><persName>Sordello da Goito</persName></author>
                     <date/>
                 </bibl>
-                
+
                 <bibl xml:id="testi">
-                    <title>Testi antichi provenzali: raccolti per un corso accademico nella R. Università di Roma: premessi alcuni appunti bibliografici sui principali fonti per la storia della letteratura provenzale nel medio evo</title>
+                    <title>Testi antichi provenzali: raccolti per un corso accademico nella R.
+                        Università di Roma: premessi alcuni appunti bibliografici sui principali
+                        fonti per la storia della letteratura provenzale nel medio evo</title>
                     <author><persName>Ernesto Monaci</persName></author>
                     <date when="1889"/>
                 </bibl>
-                
+
                 <bibl xml:id="tradizioni">
                     <title>Biblioteca delle tradizioni popolari siciliane</title>
                     <author><persName>Giuseppe Pitrè</persName></author>
-                    <date from="1871" to="1913"/>  
+                    <date from="1871" to="1913"/>
                 </bibl>
-                
+
                 <bibl xml:id="uffizi">
-                    <title>Appunti per la Storia del Teatro Italiano. I. Uffizi drammatici dei Disciplinati dell’Umbria</title>, in <title>Rivista di Filologia Romanza</title> I (1872), 235-271
-                    <author><persName>Ernesto Monaci</persName></author>
-                    <date when="1872"/>  
+                    <title>Appunti per la Storia del Teatro Italiano. I. Uffizi drammatici dei
+                        Disciplinati dell’Umbria</title>, in <title>Rivista di Filologia
+                        Romanza</title> I (1872), 235-271 <author><persName>Ernesto
+                            Monaci</persName></author>
+                    <date when="1872"/>
                 </bibl>
-                
+
                 <bibl xml:id="vestigia">
                     <title>Vestigia primitive della lingua e dei dialetti italiani</title>
                     <author><persName>Cesare Cantù</persName></author>
                     <date when="1870"/>
                 </bibl>
-                
+
                 <bibl xml:id="sordello">
                     <title>Vita e poesie di Sordello di Goito</title>
                     <author><persName>Cesare De Lollis</persName></author>
                     <date when="1896"/>
                 </bibl>
-                
+
                 <bibl xml:id="vitanuova">
-                    <title>Dante Alighieri. La Vita Nuova, illustrata da note e preceduta da un discorso su Beatrice per Alessandro D’Ancona</title>
+                    <title>Dante Alighieri. La Vita Nuova, illustrata da note e preceduta da un
+                        discorso su Beatrice per Alessandro D’Ancona</title>
                     <author><persName>Alessandro D’Ancona</persName></author>
                     <date when="1884"/>
                 </bibl>
-                
+
                 <bibl xml:id="zibaldone">
                     <title>Zibaldone di pensieri</title>
                     <author><persName>Giacomo Leopardi</persName></author>
                     <date from="1898" to="1900"/>
                 </bibl>
-                
+
                 <bibl xml:id="katharinenlegende">
                     <title>Zur Katharinenlegende</title>
                     <author><persName>Adolfo Mussafia</persName></author>
                     <date when="1874"/>
                 </bibl>
             </listBibl>
-            
+
             <listBibl type="journal">
                 <bibl xml:id="AGI">
                     <title>Archivio Glottologico Italiano</title>
                     <date from="1873"/>
                 </bibl>
-                
+
                 <bibl xml:id="ASI">
-                <title>Archivio Storico Italiano</title>
+                    <title>Archivio Storico Italiano</title>
                     <date from="1842"/>
                 </bibl>
-                
+
                 <bibl xml:id="BECh">
                     <title>Bibliothéque de l’Ecole des Chartes</title>
                     <date from="1839"/>
                 </bibl>
-                
+
                 <bibl xml:id="BollBibl">
-                    <title>Bollettino delle pubblicazioni italiane ricevute per diritto di stampa</title>
+                    <title>Bollettino delle pubblicazioni italiane ricevute per diritto di
+                        stampa</title>
                     <date from="1886" to="1957"/>
                 </bibl>
-                
+
                 <bibl xml:id="CdS">
                     <title>Corriere della Sera</title>
                 </bibl>
-                
+
                 <bibl xml:id="GD">
                     <title>Giornale dantesco</title>
                     <date from="1893" to="1943"/>
                 </bibl>
-                
+
                 <bibl xml:id="GFR">
                     <title>Giornale di filologia romanza</title>
                     <date from="1876" to="1883"/>
                 </bibl>
-                
+
                 <bibl xml:id="GSLI">
                     <title>Giornale storico della letteratura italiana</title>
                     <date from="1883"/>
                 </bibl>
-                
+
                 <bibl xml:id="GI">
                     <title>Il Giornale d’Italia</title>
                     <date from="1901" to="1976"/>
                 </bibl>
-                
+
                 <bibl xml:id="IP">
                     <title>Il Propugnatore</title>
                     <date from="1868" to="1893"/>
                 </bibl>
-                
+
                 <bibl xml:id="IS">
                     <title>Il Secolo</title>
                 </bibl>
-                
+
                 <bibl xml:id="O">
                     <title>L’Opinione</title>
-                    <date from="1846" to="1900"/> <!-- o  1848-1892? -->
+                    <date from="1846" to="1900"/>
+                    <!-- o  1848-1892? -->
                 </bibl>
-                
+
                 <bibl xml:id="MR">
                     <title>Montags Revue</title>
                     <date from="1870" to="1915"/>
                 </bibl>
-                
+
                 <bibl xml:id="NuovaAnt">
                     <title>Nuova antologia di scienze, lettere ed arti</title>
                     <date from="1866" to="1899"/>
                 </bibl>
-                
+
                 <bibl xml:id="NuovaAnt2">
                     <title>Nuova antologia di lettere, scienze e arti</title>
                     <date from="1900" to="1926"/>
                 </bibl>
-                
+
                 <bibl xml:id="popoloromano">
                     <title>Popolo Romano</title>
-                    <date from="1873" to="1922"/>  
+                    <date from="1873" to="1922"/>
                 </bibl>
-                
+
                 <bibl xml:id="rassegna">
                     <title>Rassegna bibliografica della letteratura italiana</title>
-                    <date from="1893" to="1920"/>  
+                    <date from="1893" to="1920"/>
                 </bibl>
-                
+
                 <bibl xml:id="RC">
                     <title>Revue Critique d’Histoire et de Littérature</title>
                     <date from="1865" to="1935"/>
                     <date/>
                 </bibl>
-                
+
                 <bibl xml:id="RM">
                     <title>Revue du Mois</title>
                     <date from="1906" to="1926"/>
-                </bibl>    
-                
+                </bibl>
+
                 <bibl xml:id="RivIt">
                     <title>Rivista d’Italia</title>
                     <date from="1898" to="1928"/>
-                </bibl>     
-                
+                </bibl>
+
                 <bibl xml:id="RFR">
                     <title>Rivista di Filologia Romanza</title>
                     <date from="1872" to="1876"/>
-                </bibl>       
-                
+                </bibl>
+
                 <bibl xml:id="RE">
                     <title>Rivista Europea</title>
                     <date from="1838"/>
                 </bibl>
-                
+
                 <bibl xml:id="RGI">
                     <title>Rivista geografica italiana</title>
                     <date from="1894"/>
-                </bibl>     
-                
+                </bibl>
+
                 <bibl xml:id="RI">
                     <title>Rivista italiana di scienze, lettere ed arti</title>
                     <date from="1874" to="1875"/>
-                </bibl>          
-                
+                </bibl>
+
                 <bibl xml:id="ROM">
-                    <title>Romania. Revue trimestrielle consacrée à l’étude des langues et des littératures romanes</title>
+                    <title>Romania. Revue trimestrielle consacrée à l’étude des langues et des
+                        littératures romanes</title>
                     <date from="1872"/>
                 </bibl>
-                
+
                 <bibl xml:id="SFR">
                     <title>Studj di filologia romanza</title>
                     <date from="1885" to="1903"/>
                 </bibl>
-                
+
                 <bibl xml:id="SR">
                     <title>Studj romanzi</title>
                     <date from="1903"/>
                 </bibl>
-                
+
                 <bibl xml:id="VI">
                     <title>Vita Internazionale</title>
                     <date from="1898" to="1935"/>
                 </bibl>
-                
+
                 <bibl xml:id="ZrP">
                     <title>Zeitschrift für romanische Philologie</title>
                     <date from="1877"/>
                 </bibl>
+
+                <!--AList aggiornata ad Aprile 2021 da MF-->
+
+                <!--  Tomazzoli -->
+
+                <bibl xml:id="VV">
+                    <title>Le vite dei piu eccellenti pittori, scultori e architettori / scritte da
+                        Giorgio Vasari. Edizione critica con note, documenti e 96 riproduzioni a
+                        cura di Adolfo Venturi</title>
+                    <editor><persName>Adolfo Venturi</persName></editor>
+                    <date from="1896"/>
+                </bibl>
+
+                <bibl xml:id="Madonna">
+                    <title>La Madonna. Svolgimento artistico delle rappresentazioni della
+                        Vergine</title>
+                    <author><persName>Adolfo Venturi</persName></author>
+                    <date from="1899"/>
+                </bibl>
+
+                <bibl xml:id="arte_ital">
+                    <title>Storia dell'arte italiana</title>
+                    <author><persName>Adolfo Venturi</persName></author>
+                    <date from="1901"/>
+                </bibl>
+
+                <bibl xml:id="voc_parm">
+                    <title>Storia dell'arte italiana</title>
+                    <author><persName>Adolfo Venturi</persName></author>
+                    <date from="1901"/>
+                </bibl>
+
+                <!--Cacciatori-->
+
+                <bibl xml:id="RIE">
+                    <title>Rivista Europea</title>
+                    <date from="1869"/>
+                </bibl>
+
+                <bibl xml:id="CD">
+                    <title>Codice Estense</title>
+                    <date from="1771"/>
+                </bibl>
+
+                <bibl xml:id="CP">
+                    <title>Canzoniere Provenzale della Riccardiana n°2909</title>
+                    <date from="1200" to="1300"/>
+                </bibl>
+
+                <bibl xml:id="CA">
+                    <title>Codice Ambrosiano R 71 sup </title>
+                    <date from="1200" to="1300"/>
+                </bibl>
+
+                <bibl xml:id="Attila">
+                    <title>Attila “Flagellum Dei”, poemetto in ottava rima riprodotto sulle antiche
+                        stampe </title>
+                    <author><persName>Alessandro D'Ancona</persName></author>
+                    <date from="1864"/>
+                </bibl>
+
+                <bibl xml:id="Manuale">
+                    <title> Manuale. (Ima ed.) Verbi. Voci provenzali.</title>
+                    <author><persName>Vincenzio Nannucci</persName></author>
+                    <!-- <date from=""/>-->
+                </bibl>
+
+                <bibl xml:id="RDR">
+                    <title>Roman de Renart</title>
+                    <date from="1100" to="1200"/>
+                </bibl>
+
+                <bibl xml:id="JH">
+                    <title>Jahrb</title>
+                    <!--<date from="" to=""/>-->
+                </bibl>
+
+                <bibl xml:id="PR">
+                    <title>Prop.Rom</title>
+                    <!--<date from="" to=""/>-->
+                </bibl>
+
+                <bibl xml:id="DPP">
+                    <title>De Petroni sermone plebeio</title>
+                    <author><persName>Ernst Ludwig</persName></author>
+                    <date from="1869"/>
+                </bibl>
+
+                <bibl xml:id="SC">
+                    <title>Schmiliusby</title>
+                    <!--<author><persName></persName></author>-->
+                    <!--<date from=""/>-->
+                </bibl>
+
+                <bibl xml:id="BDM">
+                    <title>Brun de la Montaigne</title>
+                    <author><persName>Paul Meyer</persName></author>
+                    <date from="1875"/>
+                </bibl>
+
+                <bibl xml:id="RLR">
+                    <title>Revue des langues Romanes</title>
+                    <date from="1870" to="1948"/>
+                    <date/>
+                </bibl>
+
+                <bibl xml:id="AC">
+                    <title>Li romans dels Auzels Cassadors, </title>
+                    <author><persName>Deude de Pradas, Ernesto Monaci</persName></author>
+                    <date from="1889"/>
+                </bibl>
+
+                <bibl xml:id="ZP">
+                    <title>La Zeitschrift für romanische Philologie</title>
+                    <author><persName>Gustav Gröber</persName></author>
+                    <date from="1877"/>
+                </bibl>
+
+                <bibl xml:id="GL">
+                    <title>Geste de Loherains</title>
+                    <!--sconosciuto-->
+                    <date from="1100"/>
+                </bibl>
+
+                <bibl xml:id="JL">
+                    <title>Jahrbuch für Romanische und Englische Literatur</title>
+                    <author><persName>Adolf Ebert e Ferdinand Wolf</persName></author>
+                    <date from="1859"/>
+                </bibl>
+
+                <bibl xml:id="ROL">
+                    <title>Das altfranzosische Rolandslied</title>
+                    <author><persName>E. Stengel e Heilbronn Gebr. Henninger</persName></author>
+                    <date from="1878"/>
+                </bibl>
+
+                <bibl xml:id="KB">
+                    <title>Chrestomathie provençale: von E. Stengel, in Jenear Literaturzeung im
+                        Auftrag der Universität Jena herausgegeben von Anton Klette, N° 4</title>
+                    <author><persName>K. Bartsch</persName></author>
+                    <date from="1875"/>
+                </bibl>
+
+                <bibl xml:id="RB">
+                    <title>Romvart. Beiträge zur Kunde mittelalterlicher Dichtung aus italiaenischen
+                        Bibliotheken</title>
+                    <author><persName>Adelbert Keller</persName></author>
+                    <date from="1844"/>
+                </bibl>
+
+                <bibl xml:id="VME">
+                    <title>Virgilio nel Medio evo</title>
+                    <author><persName>Domenico Comparetti</persName></author>
+                    <date from="1872"/>
+                </bibl>
+
+                <bibl xml:id="HVM">
+                    <title>Hervis von Metz: Vorgedicht der lothringer Geste nach allen
+                        Handschriften. (Garin le Loherain).</title>
+                    <author><persName>Edmund Stengel</persName></author>
+                    <date from="1100"/>
+                </bibl>
+
+                <bibl xml:id="DTJ">
+                    <title>Der Troubadour Jaufré Rudel. Sein Leben und seine Werke</title>
+                    <author><persName>A. Stimming, August Hettler</persName></author>
+                    <date from="1873"/>
+                </bibl>
+
+                <bibl xml:id="EFL">
+                    <title>Exposé des lois qui régissent la transformation française des mots
+                        latins</title>
+                    <author><persName>M.A. Scheler</persName></author>
+                    <date from="1875"/>
+                </bibl>
+
+                <bibl xml:id="RBP">
+                    <title>Li Roumans de Berte aus grans piés</title>
+                    <author><persName>M.A. Scheler</persName></author>
+                    <date from="1874"/>
+                </bibl>
+
+                <bibl xml:id="BC">
+                    <title>Bueves de Commarchis</title>
+                    <author><persName>M.A. Scheler</persName></author>
+                    <date from="1874"/>
+                </bibl>
+
+                <bibl xml:id="LEO">
+                    <title>Les Enfances Ogier</title>
+                    <author><persName>M.A. Scheler</persName></author>
+                    <date from="1874"/>
+                </bibl>
+
+                <bibl xml:id="CLG">
+                    <title>La Chanson de Roland, texte critique traduction et commentaire par Léon
+                        Gautier</title>
+                    <author><persName>Léon Gautier</persName></author>
+                    <date from="1875"/>
+                </bibl>
+
+                <bibl xml:id="studien">
+                    <title>Studien über provenzalischen Liederhss. I. Die kopenhagner Sammlung
+                        provenzalischer Lieder, ZrPh, I, pp.387-96</title>
+                    <author><persName>Edmund Stengel</persName></author>
+                    <date from="1877"/>
+                </bibl>
+
+                <bibl xml:id="PL">
+                    <title>Provenzalisches Liederbuch</title>
+                    <author><persName>BARTSCH, Karl Friedrich Adolf Konrad</persName></author>
+                    <date from="1855"/>
+                </bibl>
+
+                <bibl xml:id="GA">
+                    <title>Gazzetta d'Augusta</title>
+                    <!--<author><persName></persName></author>-->
+                    <!--<date from=""/>-->
+                </bibl>
+
+                <bibl xml:id="CAP">
+                    <title>Canti Antichi Portoghesi tratti dal codice Vaticano 4803, con traduzione
+                        e note</title>
+                    <author><persName>Ernesto Monaci</persName></author>
+                    <date from="1873"/>
+                </bibl>
+
+                <bibl xml:id="DG">
+                    <title>Die beiden ältesten provenzalischen Grammatiken</title>
+                    <author><persName>Edmund Stengel</persName></author>
+                    <date from="1878"/>
+                </bibl>
+
+                <bibl xml:id="LR">
+                    <title>Le rime</title>
+                    <author><persName>Francesco Petrarca</persName></author>
+                    <date from="1739"/>
+                </bibl>
+
+                <bibl xml:id="FPR">
+                    <title>Francesco Petrarca Rime coi commenti di Giacomo Leopardi</title>
+                    <author><persName>Eugenio Camerini ed altri</persName></author>
+                    <date from="1853"/>
+                </bibl>
+
+                <bibl xml:id="FPG">
+                    <title>Le rime di Francesco Petrarca; col comento di Giuseppe Bozzo</title>
+                    <author><persName>Giuseppe Bozzo</persName></author>
+                    <date from="1870"/>
+                </bibl>
+
+                <bibl xml:id="GRF">
+                    <title>Le gloses de Rosihenne</title>
+                    <author><persName>Kolzuann, Meyer Reckeil</persName></author>
+                    <date/>
+                </bibl>
+
+                <bibl xml:id="rivZRP">
+                    <title>Zeitschrift für romanische Philologie</title>
+                    <author><persName>Gustav Gröber</persName></author>
+                    <date from="1877"/>
+                </bibl>
+
+                <bibl xml:id="giornaleAZ">
+                    <title>Allgemeine Zeitung </title>
+                    <!--<author><persName></persName></author>-->
+                    <date from="1850"/>
+                </bibl>
+
+                <bibl xml:id="OR">
+                    <title>Opuscoli Religiosi, Letterarj e Morali. Ser. III. Tomi III. e IV</title>
+                    <!--<author><persName></persName></author>-->
+                    <!--<date/>-->
+                </bibl>
+
+                <bibl xml:id="Vida">
+                    <title>Vida de Sant Honorat da Raimon Ferraut</title>
+                    <author><persName>Paul Meyer</persName></author>
+                    <date from="1879"/>
+                </bibl>
+
+                <bibl xml:id="complementi">
+                    <title>I Complementi Della Chanson d'Huon De Bordeaux. Testi Francesi Inediti
+                        Tratta Da Un Codice Della Biblioteca Nazionale Di Torino e Pubblicati Da A.
+                        Graf</title>
+                    <author><persName>Arturo Graf</persName></author>
+                    <date from="1878"/>
+                </bibl>
+
+                <bibl xml:id="larotta">
+                    <title>La rotta di Roncisvalle nella letteratura cavalleresca italiana</title>
+                    <author><persName>Pio Rajna</persName></author>
+                    <date from="1870"/>
+                </bibl>
+
+                <bibl xml:id="DVM">
+                    <title>Der Mönch von Montaudon</title>
+                    <author><persName>Pèire De Vic</persName></author>
+                    <date from="1873"/>
+                </bibl>
+
+                <bibl xml:id="parnasso">
+                    <title>Il Parnasso italiano continuato: l’Ornando Innamorato di Matteo Maria
+                        Boiardo; le Rime di Michelangelo Buonarroti; la Secchia Rapita di Alessandro
+                        Tassoni; il Decamerone di Giovanni Boccaccio</title>
+                    <author><persName/></author>
+                    <date from="1833"/>
+                </bibl>
+
+                <!-- Boschi -->
+
+                <bibl xml:id="VocFr">
+                    <title>Vocabolario friulano</title>
+                    <author><persName>Jacopo Pirona</persName></author>
+                    <date from="1845" to="1871"/>
+                </bibl>
+
+                <bibl xml:id="Cimitero">
+                    <title>Cimitero degli antichi Ebrei scoperto recentemente in vigna
+                        Randanini</title>
+                    <author><persName>Raffaele Garrucci</persName></author>
+                    <date when="1862"/>
+                </bibl>
+
+                <bibl xml:id="DisArch">
+                    <title>Dissertazioni archeologiche di vario argomento</title>
+                    <author><persName>Raffaele Garrucci</persName></author>
+                    <date from="1864" to="1865"/>
+                </bibl>
+
+                <bibl xml:id="Fierabraccia">
+                    <title>El cantare di Fierabraccia e Uliuieri</title>
+                    <editor>Edmund Stengel</editor>
+                    <date/>
+                </bibl>
+
+                <bibl xml:id="SaintAlexis">
+                    <title>La Cancün de Saint Alexis</title>
+                    <editor>Edmund Stengel</editor>
+                    <date when="1882" type="edited"/>
+                </bibl>
                 
-                </listBibl>
+                <bibl xml:id="SantaAgnese">
+                    <title>Il mistero provenzale di S. Agnese. Facsimile in eliotipa dell'unico manoscritto Chigiano con prefazione di Ernesto Monaci</title>
+                    <editor>Ernesto Monaci</editor>
+                    <date when="1880" type="edited"/>
+                </bibl>
+
+                <!-- Abreu de Lima -->
+
+                <bibl xml:id="reliquie">
+                    <title>Reliquie viventi del dramma sacro nel napoletano</title>, in
+                        <title>Giornale di Filologia Romanza</title>
+                    <author><persName>Francesco Torraca</persName></author>
+                    <date when="1881"/>
+                </bibl>
+
+                <bibl xml:id="VNF">
+                    <title>La Vita nuova e la Fiammetta: studio critico</title>
+                    <author><persName>Rodolfo Renier</persName></author>
+                    <date when="1879"/>
+                </bibl>
+
+                <bibl xml:id="LB">
+                    <title>Studj sulle opere latine del Boccaccio con paticolare riguardo alla
+                        storia della erudizione nel medio evo e alle letterature straniere</title>
+                    <author><persName>Attilio Hortis</persName></author>
+                    <date when="1879"/>
+                </bibl>
+
+                <bibl xml:id="Fil">
+                    <title>Filostrato</title>
+                    <author><persName>Giovanni Boccaccio</persName></author>
+                    <date/>
+                </bibl>
+
+                <bibl xml:id="LT">
+                    <title>Légende de Trajan</title>
+                    <date/>
+                </bibl>
+
+                <bibl xml:id="iD">
+                    <title>Il Diritto</title>
+                    <date/>
+                </bibl>
+
+                <bibl xml:id="SL">
+                    <title>Storia della letteratura in Italia ne' secoli barbari</title>
+                    <author><persName>Emanuele Celesia</persName></author>
+                    <date when="1882"/>
+                </bibl>
+                
+                <!-- Casacchia -->
+                
+                <bibl xml:id="alessandreide">
+                    <title>Alexandreis</title>
+                    <author><persName>Gualtiero di Châtillon</persName></author>
+                </bibl>  
+                
+                <bibl xml:id="eneide">
+                    <title>Eneide</title>
+                    <author>
+                        <persName>Publio Virgilio Marone</persName>
+                    </author>
+                    <date from="0029" to="0019"/>
+                </bibl>
+
+            </listBibl>
         </body>
     </text>
 </TEI>
