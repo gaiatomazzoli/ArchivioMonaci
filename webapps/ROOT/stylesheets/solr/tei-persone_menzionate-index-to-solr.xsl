@@ -28,7 +28,7 @@
                 <xsl:choose>
                   <xsl:when test="$person-id">
                     <xsl:if test="$person-id/tei:surname"><xsl:value-of select="$person-id/tei:surname" /></xsl:if>
-                    <xsl:if test="$person-id/tei:forename and $person-id/tei:surname"><xsl:text> </xsl:text></xsl:if>
+                    <xsl:if test="$person-id/tei:forename and $person-id/tei:surname"><xsl:text>, </xsl:text></xsl:if>
                     <xsl:if test="$person-id/tei:forename"><xsl:value-of select="$person-id/tei:forename" /></xsl:if>
                     <xsl:if test="$person-id[not(descendant::tei:forename)]"><xsl:value-of select="$person-id" /></xsl:if>
                   </xsl:when>
