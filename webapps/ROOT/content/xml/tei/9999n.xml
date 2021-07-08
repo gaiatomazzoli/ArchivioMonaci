@@ -12,7 +12,7 @@
             </titleStmt>
             <publicationStmt>
                 <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
-                <date when="2021-05-26"/>
+                <date when="2021-05-27"/>
                 <availability>
                     <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
                 </availability>
@@ -20,15 +20,15 @@
             <sourceDesc>
                 <listBibl>
                     <bibl>Maria Spadoni, <title>Le lettere di Edmund Stengel a Ernesto Monaci
-                            (Lettere, cartoline e comunicazioni editoriali in italiano scritte da
-                            Edmund Stengel a Ernesto Monaci</title></bibl>
+                        (Lettere, cartoline e comunicazioni editoriali in italiano scritte da
+                        Edmund Stengel a Ernesto Monaci)</title></bibl>
                 </listBibl>
                 <msDesc>
                     <msIdentifier>
                         <repository>Archivio Monaci, Società Filologica Romana, presso il
                             Dipartimento di Studi Europei, Americani e Interculturali, Sapienza,
                             Università di Roma.</repository>
-                        <idno>Busta n. 24, fascicolo 1258, cartolina...</idno>
+                        <idno>Busta n. 24, fascicolo 1258, cartolina 38</idno>
                     </msIdentifier>
                     <msContents>
                         <summary corresp="#letter">Edmund Stengel a Ernesto Monaci</summary>
@@ -55,32 +55,31 @@
         <body>
             <div type="transcription" xml:lang="it">
                 <div type="textpart" subtype="letter">
-                    <opener>Caro amico.</opener>
-                    <p>Avrai già la notizia del <persName ref="#HES">Suchier</persName> che egli ha
-                        ritrovati i suoi estratti del <unclear>N</unclear></p>
-                    <p>Avea smenticato di avergli richiesti da un pezzo. Colla salute della mia
-                        bambina sta meglio. Non ho fin ora ricevuta la <title ref="#RFR"
-                            >Rivista</title>. L’edizione dell’originale del <persName
-                            ref="#petrarca">Petrarca</persName> della quale m’hai mandata la Tua
-                        copia, è la ristampa della quale Ti scrissi, poiche l’edizione princeps è
-                        del MDCXLII è in folio mentre la Tua è in
-                            <expan><am>8°</am><ex>ottavo</ex></expan> e del MDCCL</p>
-                    <p>Di più nella prefazione la Tua si da come ristampa dell’altra. Una copia
-                        della ristampa del MDCCL indica il <persName ref="#EL">Löscher</persName>
-                        nel suo catalogo <expan><am>N°</am><ex>numero</ex></expan> 2 Setembre 1876
-                        p.34 col numero 739 pel prezzo di 7 Lire. È questa che vorrei avere da Te.
-                        Fra alcune settimane Ti manderò un ricchissimo catalogo di stampe italiane,
-                        le quali il nostro libraio offrirà a prezzi, credo, assai modesti. Hai tu
-                        ricevuto le pubblicazioni della <orgName ref="#SDT">Societé d’anciens
-                            Textes</orgName>. Nè io nè la nostra
-                                <expan><abbr>bibl</abbr><am>.</am><ex>ioteca</ex></expan> le ha
-                        ricevuti. Ho già scritto al <persName ref="#FV">Vieweg</persName> il quale
-                        dovea mandarti anche la copia Tua, ma non ho ricevuto nessuna risposta. Hai
-                        già visto il libro della <persName ref="#CMV">Carolina Michaelis de
-                            Vasconcellos</persName>?</p>
-                    <p>È importantissimo. </p>
-                    <closer>Con una stretta di mano. <lb/>Tuo
-                                <lb/><expan><abbr>E</abbr><am>.</am><ex>dmund</ex></expan> Stengel </closer>
+                    <opener><expan><abbr>C</abbr><am>.</am><ex>aro</ex>
+                            <abbr>A</abbr><am>.</am><ex>mico</ex></expan></opener>
+                    <p>Ti spedisco oggi le bozze del mio articolo. La traduzione aveva di fatto reso
+                        intellegibile parecchi luoghi del mio testo. Ti prego di ritoccare le mie
+                        correzioni. Della <placeName ref="#spagna">Spagna</placeName> non c’è, in
+                        quanto m’è noto, una edizione eseguita sopra i codici dei quali parla il
+                            <persName ref="#PR">Rajna</persName> nel <title ref="#IP">Propugnatore
+                            IV II</title> e per cio mi servirà qualsivoglia popolare. Avrai ricevuto
+                        la dissertazione del <unclear>Freund</unclear> e il saggio della mia
+                        edizione del <title ref="#ROL">Roland</title>. Ti prego d’indicarmi qualche
+                        miglioramento nell’impianto; finora non m’è giunto il manoscritto. Mi sono
+                        messo in corrispondenza col <persName ref="#EM1">Molteni</persName>. Della
+                        biblioteca del <orgName ref="#bl">Lottich</orgName> il cui catalogo hai
+                        ricevuto l’anno passato ci sono ancora rimasti molti numeri. Il libraio vuol
+                        rabbattere</p>
+                    <p>il prezzo per liberarsene. Se Tu ove la vostra biblioteca dell’Università
+                        desideri l’uno o l’altro, mandimi pure i numeri ed il prezzo pel quale
+                        prenderai i libri. La nostra biblioteca ha comprato una quantità
+                        considerevole, ma il fondo non basta per prendere di piu’.</p>
+                    <p>Ho ricevuto l’<title ref="#complementi">Auberon</title> del <persName
+                            ref="#ARG">Graf</persName>, ma non l’ho ancora essaminato bene. </p>
+                    <closer>Credimi sempre il tuo <lb/><expan><abbr>E</abbr><am>.</am><ex>dmund</ex>
+                            <abbr>St</abbr><am>.</am><ex>engel</ex>
+                        </expan>
+                    </closer>
                     <!--<postscript>
                         <p>....</p>
                     </postscript>-->

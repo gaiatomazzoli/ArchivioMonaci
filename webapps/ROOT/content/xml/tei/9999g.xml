@@ -21,14 +21,14 @@
                 <listBibl>
                     <bibl>Maria Spadoni, <title>Le lettere di Edmund Stengel a Ernesto Monaci
                             (Lettere, cartoline e comunicazioni editoriali in italiano scritte da
-                            Edmund Stengel a Ernesto Monaci</title></bibl>
+                            Edmund Stengel a Ernesto Monaci)</title></bibl>
                 </listBibl>
                 <msDesc>
                     <msIdentifier>
                         <repository>Archivio Monaci, Società Filologica Romana, presso il
                             Dipartimento di Studi Europei, Americani e Interculturali, Sapienza,
                             Università di Roma.</repository>
-                        <idno>Busta n. 24, fascicolo 1258, cartolina...</idno>
+                        <idno>Busta n. 24, fascicolo 1258, cartolina 22</idno>
                     </msIdentifier>
                     <msContents>
                         <summary corresp="#letter">Edmund Stengel a Ernesto Monaci</summary>
@@ -55,8 +55,8 @@
         <body>
             <div type="transcription" xml:lang="it">
                 <div type="textpart" subtype="letter">
-                    <opener>Ti riscrivo ben brevemente ,</opener>
-                    <p>ma non ho piu tempo.Non m’indichi il titolo del Tuo corso di 4 anni. Sospetto
+                    <opener>Ti riscrivo ben brevemente,</opener>
+                    <p>ma non ho piu tempo. Non m’indichi il titolo del Tuo corso di 4 anni. Sospetto
                         che sia “Grammatica delle lingue romanze” ove Historia di esse. In
                         quest’ultimo io prendo le mosse dall latino antichissimo dimostrando al
                         principio gli </p>
@@ -64,7 +64,7 @@
                                 <expan><abbr>lat</abbr><am>.</am><ex>ino</ex></expan> Classico ma
                         soltanto in quanto si sono continuati nelle lingue romanza, poi studio le
                         innovazioni dell’antichissimo basso-latino come si riflette nel
-                            <unclear>Plantus</unclear> ( c’è una dissertazione dello <title
+                            <unclear>Plantus</unclear> (c’è una dissertazione dello <title
                             ref="#SC">Schmiliusby</title> che giova molto per cio) ma anche qui
                         lascio da parte tutto che non importa per le lingue romanze e così via. Lo
                             <persName ref="#HS">Schuchardt</persName>, <unclear>Corsenn</unclear> sono di

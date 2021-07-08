@@ -7,7 +7,8 @@
         <fileDesc>
             <titleStmt>
                 <title>Cesare De Lollis a Ernesto Monaci</title>
-                <editor role="transcription"><persName>Giulia Lucchesi</persName>, <persName>Debora Matteo</persName>, <persName>Irene Vagionakis</persName></editor>
+                <editor role="transcription"><persName>Giulia Lucchesi</persName>, <persName>Debora
+                        Matteo</persName>, <persName>Irene Vagionakis</persName></editor>
                 <editor role="encoding"><persName>Giulia Lucchesi</persName></editor>
             </titleStmt>
             <publicationStmt>
@@ -18,10 +19,21 @@
                 </availability>
             </publicationStmt>
             <sourceDesc>
-                <listBibl><bibl>Debora Matteo, <title>Itinerario di un carteggio</title>, tesi di laurea, Sapienza Università di Roma, a.a. 2017-2018</bibl></listBibl>
+                <listBibl>
+                    <bibl>Debora Matteo, <title>Itinerario di un carteggio</title>, tesi di laurea,
+                        Sapienza Università di Roma, a.a. 2017-2018</bibl>
+                </listBibl>
                 <msDesc>
-                    <msIdentifier><repository>Archivio Monaci, Società Filologica Romana, presso il Dipartimento di Studi Europei, Americani e Interculturali, Sapienza, Università di Roma.</repository> <idno>Busta n. 8, fascicolo 394.</idno></msIdentifier>
-                    <msContents><summary corresp="#postcard">Cartolina di Cesare De Lollis a Ernesto Monaci</summary></msContents>
+                    <msIdentifier>
+                        <repository>Archivio Monaci, Società Filologica Romana, presso il
+                            Dipartimento di Studi Europei, Americani e Interculturali, Sapienza,
+                            Università di Roma.</repository>
+                        <idno>Busta n. 8, fascicolo 394.</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary corresp="#postcard">Cartolina di Cesare De Lollis a Ernesto
+                            Monaci</summary>
+                    </msContents>
                 </msDesc>
             </sourceDesc>
         </fileDesc>
@@ -44,14 +56,14 @@
         <body>
             <div type="transcription" xml:lang="it">
                 <div type="textpart" subtype="letter">
-                    
-                    <p>Gli esami di licenza ginnasiale (prova scritta) incominciano il 9 ottobre, ore 8 ant., quando avrà luogo la prova d’italiano.</p>
+
+                    <p>Gli esami di licenza ginnasiale (prova scritta) incominciano il 9 ottobre,
+                        ore 8 ant., quando avrà luogo la prova d’italiano.</p>
                     <closer><salute>Cordiali auguri dal Suo</salute>
                         <signed><persName ref="#CDL">De Lollis</persName></signed>
-                    <dateline><date>29.</date></dateline></closer>
+                        <dateline><date>29.</date></dateline></closer>
                 </div>
             </div>
         </body>
     </text>
 </TEI>
-

@@ -20,15 +20,15 @@
             <sourceDesc>
                 <listBibl>
                     <bibl>Maria Spadoni, <title>Le lettere di Edmund Stengel a Ernesto Monaci
-                            (Lettere, cartoline e comunicazioni editoriali in italiano scritte da
-                            Edmund Stengel a Ernesto Monaci</title></bibl>
+                        (Lettere, cartoline e comunicazioni editoriali in italiano scritte da
+                        Edmund Stengel a Ernesto Monaci)</title></bibl>
                 </listBibl>
                 <msDesc>
                     <msIdentifier>
                         <repository>Archivio Monaci, Società Filologica Romana, presso il
                             Dipartimento di Studi Europei, Americani e Interculturali, Sapienza,
                             Università di Roma.</repository>
-                        <idno>Busta n. 24, fascicolo 1258, cartolina...</idno>
+                        <idno>Busta n. 24, fascicolo 1258, cartolina 42</idno>
                     </msIdentifier>
                     <msContents>
                         <summary corresp="#letter">Edmund Stengel a Ernesto Monaci.</summary>
@@ -57,7 +57,7 @@
                 <div type="textpart" subtype="letter">
                     <opener><expan><abbr>C</abbr><am>.</am><ex>aro</ex>
                             <abbr>A</abbr><am>.</am><ex>mico</ex></expan></opener>
-                    <p>Anche l’<unclear>Allani </unclear>com il <persName type="author" ref="#jacopone"
+                    <p>Anche l’<unclear>Allani </unclear>con il <persName type="author" ref="#jacopone"
                             >Jacopone</persName> è acquistato dalla nostra biblioteca universitaria
                         sulla mia proposta. Ma se Ti sarà necessario di consultargli Te lo mandero
                         in prestito. Ambedui erano domandati da diverse parti. Ho fatto comprare la

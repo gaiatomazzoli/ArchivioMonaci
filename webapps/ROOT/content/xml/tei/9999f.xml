@@ -12,7 +12,7 @@
             </titleStmt>
             <publicationStmt>
                 <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
-                <date when="2021-04-15"/>
+                <date when="2021-04-24"/>
                 <availability>
                     <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
                 </availability>
@@ -21,17 +21,17 @@
                 <listBibl>
                     <bibl>Maria Spadoni <title>Le lettere di Edmund Stengel a Ernesto Monaci
                             (Lettere, cartoline e comunicazioni editoriali in italiano scritte da
-                            Edmund Stengel a Ernesto Monaci</title></bibl>
+                            Edmund Stengel a Ernesto Monaci)</title></bibl>
                 </listBibl>
                 <msDesc>
                     <msIdentifier>
                         <repository>Archivio Monaci, Società Filologica Romana, presso il
                             Dipartimento di Studi Europei, Americani e Interculturali, Sapienza,
                             Università di Roma.</repository>
-                        <idno>Busta n. 24, fascicolo 1258, cartolina...</idno>
+                        <idno>Busta n. 24, fascicolo 1258, cartolina 4</idno>
                     </msIdentifier>
                     <msContents>
-                        <summary corresp="#letter">Edmund Stengel a Ernesto Monaci.</summary>
+                        <summary corresp="#letter">Edmund Stengel a Ernesto Monaci</summary>
                     </msContents>
                 </msDesc>
             </sourceDesc>
@@ -41,7 +41,7 @@
                 <correspAction type="sent">
                     <persName ref="#EMS">Edmund Stengel</persName>
                     <placeName ref="#germania">Germania</placeName>
-                    <!--bollo postale illeggibile-->
+                    <!--il bollo postale risulta illeggibile-->
                 </correspAction>
                 <correspAction type="received">
                     <persName ref="#EM">Ernesto Monaci</persName>
@@ -56,32 +56,26 @@
             <div type="transcription" xml:lang="it">
                 <div type="textpart" subtype="letter">
                     <opener><expan><abbr>C</abbr><am>.</am><ex>aro</ex><abbr>A</abbr><am>.</am><ex>mico</ex></expan></opener>
-                    <p>Ho tardato di risponderti perché voleva ritrovare il catalogo nel quale
-                        rincontrai il libro desiderato da te: <persName ref="#JAS"
-                            >Schmeller</persName>, <title type="manuscript" key="Carmina Burana"
-                            >Carmina Burana</title>. Ieri l’ho ritrovato e l’ho commesso subito. Ho
-                        domandatoche si mandi direttamente da <placeName ref="#berlino"
-                            >Berlino</placeName> à Te. Speriamo che non sia ancora venduto. Costa
-                        soltanto 8 <unclear>Mle.</unclear> Dal <persName ref="#AVK"
-                            >Keller</persName> non potrei averlo a meno che il <persName ref="#MN"
-                            >Niemeyer</persName>. Ti mando con questo le mie copie del <title
-                            ref="#SC">Schmiliusby</title> e <persName ref="#ELW">Ludwig</persName>
-                        <title ref="#DPP">de Petroni Sermone Plebeio</title>, Ti prego però
-                        volermegli rimandare più tardi. Cercherò di trovarti esemplari Mi congratulo
-                        del effetto che hai avuto. Pensi le espressioni italiane mi sfuggono di più
-                        in più e temo che me dia presto tanta noja di scrivere italiano, che se
-                        debbo continuare teco l’Annuario ne nascerà un grave incaglio. Vorrei per
-                        ciò che Tu concedessi à me ed altri di poter scrivere nell’ annuario in
-                        tedesco. Il <persName ref="#HES">Suchier</persName> non era chiamato a
-                            <placeName ref="#graz">Graz</placeName>. tentò alcune settimane fa, che
-                        la mia candidatura è ufficialmente proposta al Ministero, ma non so se sono
-                        nominato il primo. Finora non ho ancora nessuna notizia del Ministero. Il
-                            <persName ref="#HES">Suchier</persName> sarà probabilmente proposto
-                        anch’egli. Egli aspetta nuove bozze della continuazione del suo articolo. </p>
-                    <closer>Addio per oggi tuo
-                            <lb/><expan><abbr>E</abbr><am>.</am><ex>dmund</ex></expan>
-                        <expan><abbr>St</abbr><am>.</am><ex>engel</ex></expan>
-                    </closer>
+                    <p>Mi duolo molto tutto t’è accaduto e spero anche pel <unclear>M.</unclear> che
+                        l’imbroglio si sciolgerà in una guisa che à voi ambedue pare conveniente.
+                        Voglio ancor credere che da parte dell’ <unclear>M.</unclear> c’è stato un
+                        malinteso qualunque, poiche mi par presso che impossibile che egli
+                        coscientemente T’abbia fatto questo tiro. Mi rallegro però che tu habbi
+                        trovato un appoggio così confortante se non effettivo nella Facoltà e
+                        aspetto ansiosamente le notizie Tue sul esito dell’affare. Accetto molto
+                        volentieri la tua proposta riguardante il <persName ref="#petrarca"
+                            >Petrarcha</persName> (Torino 1750) e Ti ringrazio di aver preso il
+                        libro. La Rivista ho ricevuto. La proposta del </p>
+                    <p><persName ref="#EB">Boehmer</persName> mi pare inutile, poiché a me non
+                        importa di far l’editore, in oltra ho promesso al <persName ref="#GG"
+                            >Groeber</persName> di appogiar quanto posso la <title ref="#ZP"
+                            >Zeitschrift</title> . Ho titubato se devessi io scrivere al
+                            <unclear>M.</unclear> e mi è parso di no , poiche troppo lontano da voi
+                        ambedue e non sufficientemente famigliare col <unclear>M.</unclear> Se però
+                        tu credi che l’intercessione mia porrebbe smuovere malintesi un cenno da Te
+                        basterà. La mia bambina sta bene</p>
+                    <closer>Con tanti saluti. Tuo
+                                <expan><abbr>E</abbr><am>.</am><ex>dmund</ex><abbr>St</abbr><am>.</am><ex>engel</ex></expan></closer>
                     <!--<postscript>
                         <p>....</p>
                     </postscript>-->

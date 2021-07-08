@@ -12,7 +12,7 @@
             </titleStmt>
             <publicationStmt>
                 <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
-                <date when="2021-05-28"/>
+                <date when="2021-05-27"/>
                 <availability>
                     <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
                 </availability>
@@ -20,18 +20,18 @@
             <sourceDesc>
                 <listBibl>
                     <bibl>Maria Spadoni, <title>Le lettere di Edmund Stengel a Ernesto Monaci
-                            (Lettere, cartoline e comunicazioni editoriali in italiano scritte da
-                            Edmund Stengel a Ernesto Monaci</title></bibl>
+                        (Lettere, cartoline e comunicazioni editoriali in italiano scritte da
+                        Edmund Stengel a Ernesto Monaci)</title></bibl>
                 </listBibl>
                 <msDesc>
                     <msIdentifier>
                         <repository>Archivio Monaci, Società Filologica Romana, presso il
                             Dipartimento di Studi Europei, Americani e Interculturali, Sapienza,
                             Università di Roma.</repository>
-                        <idno>Busta n. 24, fascicolo 1258, cartolina...</idno>
+                        <idno>Busta n. 24, fascicolo 1258, cartolina 37</idno>
                     </msIdentifier>
                     <msContents>
-                        <summary corresp="#letter">Edmund Stengel a Ernesto Monaci.</summary>
+                        <summary corresp="#letter">Edmund Stengel a Ernesto Monaci</summary>
                     </msContents>
                 </msDesc>
             </sourceDesc>
@@ -55,22 +55,34 @@
         <body>
             <div type="transcription" xml:lang="it">
                 <div type="textpart" subtype="letter">
-                    <opener>Caro Amico.</opener>
-                    <p>Ho ricevuto la tua lettera e il plico, tante grazie, parto oggi per far un
-                        piccolo viaggio a piede insieme col mio fratello. Mi rincresce che quanto al
-                        Tuo desiderio per copie di canzoni
-                                <expan><abbr>prov</abbr><am>.</am><ex>enzali</ex></expan> contenute
-                        nei indici parigini, non potro apagarlo poiche non ne ho preso estratti che
-                        delle canzoni del <persName ref="#bernart">Bernart</persName> e del
-                            <persName ref="#MDM">Monge de Montaudon</persName>. Pero se sepreferisci
-                        di prendere per base delle esercitazioni le canzoni de del <persName
-                            ref="#MDM">Monge de Montaudon</persName> Ti manderò tutte le mie copie.
-                        E’ assai istruttivo di confrontare con esse il testo dato dal
-                            <unclear>Philippon</unclear>. Se vuoi quelle copie scrivamelo.</p>
-                    <closer>Intanto addio, in fretta <lb/>Tuo
-                                <lb/><expan><abbr>E</abbr><am>.</am><ex>dmund</ex></expan> Stengel </closer>
+                    <opener><expan><abbr>C</abbr><am>.</am><ex>aro</ex>
+                            <abbr>A</abbr><am>.</am><ex>mico</ex></expan></opener>
+                    <p>Ti ringrazio molto dei Tuoi appunti. Non Ti dar più del <title
+                            type="manuscript" key="Codice Barberino">Codice Barberino</title>,
+                        poiche ciò che mi dici basta per ascertare che il testo della grammatica non
+                        è altro che una copia del <title type="manuscript" key="Codice Laurenziano"
+                            >cod. Laurenziano</title> e per ciò non vale niente, del resto ho
+                        ritrovato adesso una mia appunto nel quale ho già detto questo. Per i lavori
+                        del <persName ref="#GIG">Galvani</persName> m’importa specialmente la
+                        risposta al <persName ref="#FRG">Guessard</persName> , ma come è troppo
+                        lunga vale molto di più di comprare il volume intero il quale essendo
+                        pubblicato nel 70 non può già esser essaminato Se non puoi trovar lo
+                        scriverò al <persName ref="#AT">Tobler</persName> il quale l’ha
+                        probabilmente e lo pregerò che prestarmelo.</p>
+                    <p>Per la villota veronese non sono interamente della Tua opinione, ma è vero
+                        che se non si trovano altri essempi di simile ritmica può esser spiegato
+                        come coincidenza naturale, ma potrebbe esser anche una forma ritmica assai
+                        antica della poesia popolare dei popoli romanzi. Va bene colle Tue
+                        disposizioni dei materiali, benche avrei preferito di veder stampato gli
+                        estratti del <persName ref="#HES">Suchier</persName> nella <title ref="#RFR"
+                            >Rivista</title> stessa.</p>
+                    <closer>Addio tanti saluti <lb/> tuo
+                                <expan><abbr>E</abbr><am>.</am><ex>dmund</ex>
+                            <abbr>St</abbr><am>.</am><ex>engel</ex>
+                        </expan>
+                    </closer>
                     <!--<postscript>
-                        <p/>
+                        <p>....</p>
                     </postscript>-->
                 </div>
             </div>
