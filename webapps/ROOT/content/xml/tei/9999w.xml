@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Marcelino Menéndez y Pelayo a Ernesto Monaci</title>
+                <editor role="transcription"><persName>Giulia Lucchesi</persName></editor>
+                <editor role="encoding"><persName>Giulia Lucchesi</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2020-02-26"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier><repository>Archivio Monaci, Società Filologica Romana, presso il Dipartimento di Studi Europei, Americani e Interculturali, Sapienza, Università di Roma.</repository> <idno>Busta n. 18, fascicolo 862, lettera ....9</idno></msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#MMP">Marcelino Menéndez y Pelayo</persName>
+                    <placeName ref="#sconosciuto">?</placeName>
+                    <date/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#sconosciuto">?</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="es">
+                <div type="textpart" subtype="envelope">
+                    <p> <address><addrLine><placeName ref="#italia">Italia</placeName></addrLine> 
+                        <addrLine> <expan><abbr>Il</abbr><ex>ustrísi</ex><abbr>mo</abbr><am>.</am></expan> <expan><abbr>S</abbr><ex>ignor</ex><abbr>r</abbr><am>.</am></expan> <persName ref="#EM">Ernesto Monaci</persName>,</addrLine> 
+                        <addrLine>  Professore nell’<orgName ref="#Sapienza">Università di ROMA</orgName></addrLine> 
+                        <addrLine> <expan><abbr>P</abbr><ex>azz</ex><am>.</am><abbr>a</abbr></expan> Chiesa Nuova n°33</addrLine></address> </p>
+                    
+                <div type="textpart" subtype="letter">
+                    <opener><expan><abbr>Il</abbr><ex>ustrísi</ex><abbr>mo</abbr><am>.</am></expan> <expan><abbr>S</abbr><ex>eño</ex><abbr>r</abbr><am>.</am></expan> <expan><abbr>D</abbr><am>.</am><ex>on</ex></expan> <persName ref="#EM">Ernesto Monaci</persName>
+                        <salute>Mi estimado amigo:</salute></opener>
+                    
+                    <p>Ya el fotógrafo escribirá <expan><abbr>U</abbr><ex>ste</ex><abbr>d</abbr><am>.</am></expan> enviándole la nota de los gastos ocasionales por la 
+                        reproduccion de las hojas del <title ref="#poemacid"><hi rend="underline">Poema del Cid</hi></title>.</p>
+                    <p>Es casi imposible reproducir fotograficamente los últimos versos del <title ref="#poemacid">Poema</title>. 
+                        Cuatro de ellos son poco menos <expan><abbr>q</abbr><am>.</am><ex>u</ex><abbr>e</abbr></expan> ilegibles, y la interpretacion <expan><abbr>q</abbr><am>.</am><ex>u</ex><abbr>e</abbr></expan> 
+                        generalmente se les da no es más <expan><abbr>q</abbr><am>.</am><ex>u</ex><abbr>e</abbr></expan> aproximada.
+                        
+                        
+                    </p>
+                    <closer><salute>Sabe <expan><abbr>U</abbr><ex>ste</ex><abbr>d</abbr><am>.</am></expan> <expan><abbr>q</abbr><am>.</am><ex>u</ex><abbr>e</abbr></expan> es siempre suyo 
+                        <expan><abbr>af</abbr><ex>ectísi</ex><abbr>mo</abbr><am>.</am></expan> y verdadero amigo <expan><abbr>q</abbr><am>.</am><ex>u</ex><abbr>e</abbr></expan> <expan><abbr>s</abbr><am>.</am><ex>u</ex> <abbr>m</abbr><am>.</am><ex>ano</ex> <abbr>b</abbr><am>.</am><ex>esa</ex></expan></salute>
+                        
+                        <signed><persName ref="#MMP"><expan><abbr>M</abbr><am>.</am><ex>arcelino</ex></expan> Menéndez y Pelayo</persName></signed></closer>
+                </div>
+            </div>
+            </div>
+        </body>
+    </text>
+</TEI>
