@@ -84,7 +84,7 @@
           </kiln:block>
           <kiln:block name="footer">
             <footer>
-              <p><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0; padding-bottom:0.35em; padding-right:0.35em" src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png" /></a> Archivio Ernesto Monaci (2020). SEAI Sapienza Università di Roma. Powered by <a href="http://kcl-ddh.github.io/kiln/">Kiln</a>. Theme by <a href="http://foundation.zurb.com/">Foundation</a>.</p>
+              <p><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0; padding-bottom:0.35em; padding-right:0.35em" src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png" /></a> Archivio Ernesto Monaci (2021). SEAI Sapienza Università di Roma. Powered by <a href="http://kcl-ddh.github.io/kiln/">Kiln</a>. Theme by <a href="http://foundation.zurb.com/">Foundation</a>.</p>
             </footer>
           </kiln:block>
           <kiln:block name="end-js">
