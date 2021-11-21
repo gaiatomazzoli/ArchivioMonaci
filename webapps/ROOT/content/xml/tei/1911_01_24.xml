@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ramón Menéndez Pidal a Ernesto Monaci, 24 gennaio 1911</title>
+                <editor role="transcription"><persName>Giulia Lucchesi</persName></editor>
+                <editor role="encoding"><persName>Giulia Lucchesi</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2021-05-26"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier><repository>Archivio Monaci, Società Filologica Romana, presso il Dipartimento di Studi Europei, Americani e Interculturali, Sapienza, Università di Roma.</repository> <idno>Busta n. 18, fascicolo 861, lettera 1</idno></msIdentifier>
+                    <msContents><summary corresp="#letter">Lettera di Ramón Menéndez Pidal a Ernesto Monaci del 24 gennaio 1911.</summary></msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#RMP">Ramón Menéndez Pidal</persName>
+                    <placeName ref="#roma">Roma</placeName>
+                    <date when="1911-01-11"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#sconosciuto">?</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="es">
+                <div type="textpart" subtype="letter">
+                    <opener><dateline><date when="1911-01-24">24 <expan><abbr>Genn</abbr><am>.</am><ex>aio</ex></expan> 1911</date></dateline>
+                        Mi señor y amigo:</opener>
+                    <p>le ruego no disponga para esta semana la reunión convenida, pues tengo quehaceres.</p>
+                        <p>Le iré a ver una tarde proxima
+                    </p>
+                    <closer><salute>De <expan><abbr>V</abbr><am>.</am><ex>uestro</ex></expan> atento 
+                        <expan><abbr>s</abbr><am>.</am><ex>eñor</ex></expan>
+                        <expan><abbr>s</abbr><ex>uo</ex></expan>,<!--scioglimento incerto: vuestro atento? E la doppia s?--></salute>
+                        <signed><expan><abbr>R</abbr><am>.</am><ex>amón</ex></expan> Menéndez Pidal</signed>
+                    </closer>
+                </div>
+                        <div type="textpart" subtype="envelope">
+                        <p><expan><abbr>Ch</abbr><ex>iarissi</ex><abbr>mo</abbr></expan> <expan><abbr>S</abbr><ex>i</ex><abbr>g</abbr><ex>nor</ex><abbr>e</abbr></expan> <expan><abbr>Prof</abbr><am>.</am><ex>essor</ex></expan> <persName ref="#EM">Ernesto Monaci</persName>
+                            <address><addrLine>Via Condotti 75</addrLine></address>
+                            (città)
+                        </p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

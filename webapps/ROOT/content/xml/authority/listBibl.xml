@@ -735,7 +735,7 @@
                     <date from="1877"/>
                 </bibl>
 
-                <!--AList aggiornata ad Aprile 2021 da MF-->
+                <!--AList aggiornata a Novembre 2021 da MF-->
 
                 <!--  Tomazzoli -->
 
@@ -798,7 +798,6 @@
                 <bibl xml:id="Manuale">
                     <title> Manuale. (Ima ed.) Verbi. Voci provenzali.</title>
                     <author><persName>Vincenzio Nannucci</persName></author>
-                    <!-- <date from=""/>-->
                 </bibl>
 
                 <bibl xml:id="RDR">
@@ -808,12 +807,10 @@
 
                 <bibl xml:id="JH">
                     <title>Jahrb</title>
-                    <!--<date from="" to=""/>-->
                 </bibl>
 
                 <bibl xml:id="PR">
                     <title>Prop.Rom</title>
-                    <!--<date from="" to=""/>-->
                 </bibl>
 
                 <bibl xml:id="DPP">
@@ -824,8 +821,6 @@
 
                 <bibl xml:id="SC">
                     <title>Schmiliusby</title>
-                    <!--<author><persName></persName></author>-->
-                    <!--<date from=""/>-->
                 </bibl>
 
                 <bibl xml:id="BDM">
@@ -854,7 +849,6 @@
 
                 <bibl xml:id="GL">
                     <title>Geste de Loherains</title>
-                    <!--sconosciuto-->
                     <date from="1100"/>
                 </bibl>
 
@@ -950,8 +944,6 @@
 
                 <bibl xml:id="GA">
                     <title>Gazzetta d'Augusta</title>
-                    <!--<author><persName></persName></author>-->
-                    <!--<date from=""/>-->
                 </bibl>
 
                 <bibl xml:id="CAP">
@@ -999,14 +991,11 @@
 
                 <bibl xml:id="giornaleAZ">
                     <title>Allgemeine Zeitung </title>
-                    <!--<author><persName></persName></author>-->
                     <date from="1850"/>
                 </bibl>
 
                 <bibl xml:id="OR">
                     <title>Opuscoli Religiosi, Letterarj e Morali. Ser. III. Tomi III. e IV</title>
-                    <!--<author><persName></persName></author>-->
-                    <!--<date/>-->
                 </bibl>
 
                 <bibl xml:id="Vida">
@@ -1139,6 +1128,25 @@
                         <persName>Publio Virgilio Marone</persName>
                     </author>
                     <date from="0029" to="0019"/>
+                </bibl>
+                
+                <!-- Lucchesi  -->
+                
+                <bibl xml:id="crestomatia">
+                    <title>Crestomatía del español medieval</title>
+                    <author><persName>R. Menéndez Pidal</persName></author>
+                    <date when="1965"/>
+                </bibl>
+                
+                <bibl xml:id="facsimili">
+                    <title>Facsimili di Documenti per la storia delle lingue e delle letterature romanze</title>
+                    <author><persName>E. Monaci</persName></author>
+                    <date when="1910"/>
+                </bibl>
+                
+                <bibl xml:id="Revista">
+                    <title>Revista de Filología Española</title>
+                    <date from="1914"/>
                 </bibl>
 
             </listBibl>

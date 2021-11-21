@@ -894,6 +894,21 @@
                     <country>Francia</country>
                     <idno type="GeoNames">2998268</idno>
                 </place>
+                
+                
+                <!-- Lucchesi  -->
+                
+                <place xml:id="buenosaires">
+                    <placeName>Buenos Aires</placeName>
+                    <country>Argentina</country>
+                    <idno type="GeoNames">3435910</idno>
+                </place>
+                
+                <place xml:id="santander">
+                    <placeName>Santander</placeName>
+                    <country>Spagna</country>
+                    <idno type="GeoNames">3109718</idno>
+                </place>
 
             </listPlace>
         </body>

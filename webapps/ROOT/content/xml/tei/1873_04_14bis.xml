@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Edmund Stengel a Ernesto Monaci, 14 Aprile 1873</title>
+                <editor role="transcription"><persName>Maria Spadoni</persName></editor>
+                <editor role="encoding"><persName>Francesca Romana Cacciatori</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2020-02-26"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <bibl>Maria Spadoni, <title>Le lettere di Edmund Stengel a Ernesto Monaci
+                        (Lettere, cartoline e comunicazioni editoriali in italiano scritte da
+                        Edmund Stengel a Ernesto Monaci)</title></bibl>
+                </listBibl>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Archivio Monaci, Società Filologica Romana, presso il
+                            Dipartimento di Studi Europei, Americani e Interculturali, Sapienza,
+                            Università di Roma.</repository>
+                        <idno>Busta n. 24, fascicolo 1258, lettera 2</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary corresp="#letter">Edmund Stengel a Ernesto Monaci, 14 Aprile
+                            1873</summary>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#EMS">Edmund Stengel</persName>
+                    <placeName ref="#modena">Modena</placeName>
+                    <date when="1873-04-14"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <!-- <placeName ref="#roma">Roma</placeName>dal carteggio possiamo dedurre che il luogo di ricezione della lettera sia Roma-->
+                    <!--<date/>-->
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="letter">
+                    <opener>Caro amico,</opener>
+                    <p>Poche righe in fretta. Sono qui a <placeName ref="#modena">Modena
+                        </placeName>da Venerdi mattina e sto studiando alla Biblioteca Estense,
+                        benche ci sono vacanze. Ieri ed oggi è vero mi sono dovuto contentare col
+                        orario del Vaticano, ma domani avrò sei ore. Non posso però finire domani e
+                        partirò probabilmente Mercoledi forse anche soltanto Giovedi. Mi completo
+                        tutta la descrizione del <persName ref="#AM">Mussafia</persName>,
+                        aggiungendo la prima rima di tutte le strofe. Non è stato inutile, poiche
+                        oggi ho scoperto una poesia <hi rend="underline">saltata</hi> dal nostro
+                        accuratissimo amico <persName ref="#AM">Mussafia</persName>. Sono certo che
+                        l’opinione emessa da lui con dubbio sia la vera cioè che il codice <title
+                            ref="#CD">D. </title>sia il più vecchio di tutti preservatici e che sia
+                        scritto da mane italiana. Ho estratto finora una trentina di poesie del
+                                <expan><abbr>B</abbr><am>.</am><ex>ernard
+                                de</ex><abbr>V</abbr><am>.</am><ex>entadorn</ex></expan> maspero di
+                        poter copiare anche le poesie inedite. Una scoperta curiosa: Il N° 779 del
+                            <title ref="#CD">D.</title> come anche <title ref="#CA">G.</title>
+                        contiene i versi 189 ss. della novella del <persName ref="#Papi"
+                            >Papi</persName>
+                        <expan><abbr>pubbl</abbr><am>.</am><ex>icati</ex></expan> da noi. Ho già
+                        collazionato i versi.Questa volta ho propriamente conghietturato con gran
+                        felicità, sospettando questi versi aggiunti posteriormente. A <placeName
+                            ref="#firenze">Firenze</placeName> ho terminato lo scheletto del <title
+                            ref="#CP">Q.</title> ed ho veduto <persName ref="#GFG"
+                            >Gamurrini</persName> e <persName ref="#ADN">d’Ancona</persName>.
+                            <persName ref="#ADN">d’A.</persName> diceva di volerci mandar
+                        l’associazione, benche io lo dissi come noi vorremmo mandargli il giornale
+                        senza patto espresso. Sono persuaso che lui non ci avesse mandato troppo
+                        tosto un lavoro, poiche è in ritardo pel <unclear><title ref="#PR">Prop.
+                                Rom.</title></unclear> e <unclear> <!--non è chiaro di quale rivista si stia parlando, per ora non è indicizzata-->
+                                    <title>Jahrb.</title></unclear> Caso mai che avrà qualche cosa che vorrebbe
+                        pubblicare egli m’ha promesso di mandartelo. Credo meglio per noi di
+                        aspettare, lui verrà ben tosto. Egli m’ha dato l’estratto del
+                            <unclear>afr.</unclear>
+                        <title ref="#Attila">Attila</title>
+                        <unclear><expan><abbr>p</abbr><am>.</am><ex>reso</ex></expan>
+                        </unclear>dal <persName ref="#FDO">d’Ovidio</persName> per le sue nozze. Mi
+                        sono comprato molti libri: <persName ref="#VN">Nannucci</persName>: <title
+                            ref="#Manuale">Manuale. ( Ima ed.) Verbi. Voci provenzali.</title>
+                        <persName ref="#ADN">Ancona</persName>: <title ref="#Attila"
+                            >Attilla</title>. ed un drama e varie altri.Qui cerco di comprare le
+                        cose del <persName ref="#GIG">Galvani</persName>, <persName ref="#CVC"
+                            >Cavedoni</persName>. Quella edizione delle novelle antiche fatta dal
+                            <persName ref="#MAP">Parenti</persName> vale qualche cosa? A <placeName
+                            ref="#roma">Roma</placeName> ho dimenticato di passare dal Bocca pel
+                            <title ref="#RDR"><hi rend="underline">Roman de Renart</hi></title>. Se
+                        tu passerai in questi giorni, domandi se lui l’ha ancora ed allora me lo
+                        prenda. Non è però necessario di mandarmelo subito Meglio di aspettare
+                        finche sono più volumi. Il <persName ref="#EL">Löscher</persName> m’aveva
+                        detto che era annunziato un inchiuso per me che doveva venire questa
+                        settimana. Se è giunto prego dimmi che contiene. Doveva venire parimente una
+                        lettera ufficiale dal mio governo.</p>
+                    <p>Fin oggi non ho ricevuto nessune bozze e nessuna lettera da te. Quando parto
+                        per <placeName ref="#milano">Milano</placeName> ti manderò un foglio. con
+                        una noticina al interno della copertina. Aspetto di sentire qualche cosa da
+                        te quando sono a <placeName ref="#milano">Milano</placeName>. Da <placeName
+                            ref="#milano">Milano</placeName> partirò al più presto possibile <lb/>e
+                        direttamente per <placeName ref="#halle">Halle</placeName>. Il <persName
+                            ref="#UC">Canello</persName> non vedrò poiche perderei troppo di tempo.
+                        Stia bene, si tenga in buon salute con cordiale stretta di mano</p>
+                    <closer>tuo <lb/>Edmund Stengel</closer>
+                    <!--<postscript>
+                        <p>....</p>
+                    </postscript>-->
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ramón Menéndez Pidal a Ernesto Monaci, 18 ottobre 1912</title>
+                <editor role="transcription"><persName>Giulia Lucchesi</persName></editor>
+                <editor role="encoding"><persName>Giulia Lucchesi</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2021-05-27"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier><repository>Archivio Monaci, Società Filologica Romana, presso il Dipartimento di Studi Europei, Americani e Interculturali, Sapienza, Università di Roma.</repository> <idno>Busta n. 18, fascicolo 861, lettera 2</idno></msIdentifier>
+                    <msContents><summary corresp="#letter">Lettera di Ramón Menéndez Pidal a Ernesto Monaci del 18 ottobre 1912.</summary></msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#RMP">Ramón Menéndez Pidal</persName>
+                    <placeName ref="#madrid">Madrid</placeName>
+                    <date when="1912-10-18"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#sconosciuto">?</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="es">
+                <div type="textpart" subtype="letter">
+                    <opener><expan><abbr>S</abbr><ex>eño</ex><abbr>r</abbr></expan> <expan><abbr>Prof</abbr><am>.</am><ex>essor</ex></expan> <persName ref="#EM">Ernesto Monaci</persName></opener>
+                    <p>Mi señor y amigo: 
+                        de vuelta de mi viaje de vacanciones me encuentro aqui el 3er fasciculo 
+                        de su <title ref="#crestomazia">Crestomatia</title>. ¡Dichoso <expan><abbr>V</abbr><am>.</am><ex>osotros</ex></expan> que ha terminado 
+                        tan importante instrumento de trabajo! 
+                        (Cuando veré yo mi <title ref="#crestomatia">Crestomatia</title> pubblicada! Imprimo ahora 
+                        una colección de documentos lingüísticos). 
+                        El Prospetto Grammaticale no puede ser mas breve ni mas <unclear>rintrido</unclear>.
+                    </p>
+                    <closer>Le agradece infinito el envío, y le envia afectuosos recuerdos, 
+                        <salute>su atento <expan><abbr>s</abbr><am>.</am><ex>eñor</ex></expan> <expan><abbr>s</abbr><am>.</am><ex>uo</ex></expan></salute>
+                        <signed><expan><abbr>R</abbr><am>.</am><ex>amón</ex></expan> Menéndez Pidal</signed>
+                        <placeName ref="#madrid">Madrid</placeName> <date when="1912-10-18">18 <expan><abbr>oct</abbr><am>.</am><ex>ubre</ex></expan> 1912</date></closer>
+                    <postscript><p>¿Se han publicado ya los facsímiles de los <title ref="#facsimili">Reyes Magos</title> y <title ref="#facsimili">la disputa del alma y cuerpo</title>?</p></postscript>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

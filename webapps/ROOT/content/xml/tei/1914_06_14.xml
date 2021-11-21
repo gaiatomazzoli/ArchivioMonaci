@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ramón Menéndez Pidal a Ernesto Monaci, 14 giugno 1914</title>
+                <editor role="transcription"><persName>Giulia Lucchesi</persName></editor>
+                <editor role="encoding"><persName>Giulia Lucchesi</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2021-05-29"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier><repository>Archivio Monaci, Società Filologica Romana, presso il Dipartimento di Studi Europei, Americani e Interculturali, Sapienza, Università di Roma.</repository> <idno>Busta n. 18, fascicolo 861, lettera 1</idno></msIdentifier>
+                    <msContents><summary corresp="#letter">Lettera di Ramón Menéndez Pidal a Ernesto Monaci del 14 giugno 1914.</summary></msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#RMP">Ramón Menéndez Pidal</persName>
+                    <placeName ref="#madrid">Madrid</placeName>
+                    <date when="1914-06-14"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#sconosciuto">?</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="es">
+                <div type="textpart" subtype="letter">
+                    <opener><dateline><date when="1914-06-14">14 junio 1914</date></dateline> <placeName ref="#madrid">Madrid</placeName>
+                        <expan><abbr>S</abbr><ex>eño</ex><abbr>r</abbr></expan> <expan><abbr>Prof</abbr><am>.</am><ex>essor</ex></expan> <persName ref="#EM">Ernesto Monaci</persName></opener>
+                    <p>Mi señor y colega: recibiría <expan><abbr>V</abbr><am>.</am><ex>osotros</ex></expan> 
+                        la <hi rend="underline"><title ref="#Revista">Revista de Filología</title></hi> 
+                        que empezamos a publicar aquí.
+                        Mucho deseo la colaboración extrangera para ella, y 
+                        <expan><abbr>D</abbr><ex>oñ</ex><abbr>a</abbr></expan> <persName ref="#CMV">Carolina Michaelis</persName> me 
+                        ofreció un estudio sobre las <title>Cantigas de Alfonso X</title>, 
+                        si le proposcionaba por medio de <unclear>Solalinde</unclear> fotografías 
+                        de esas <title>cantigas</title> del 
+                        <title type="manuscript" key="Cancionero Vaticano"><expan><abbr>Canc</abbr><am>.</am><ex>ionero</ex></expan> Vaticano</title> y del  <title type="manuscript" key="Colocci Brancuti">Colocci Brancuti</title>.
+                        </p>
+                    <p>Recordando yo la bondadosa amabilidad con que 
+                       <expan><abbr>V</abbr><am>.</am><ex>osotros</ex></expan> me permitió ver su 
+                        precioso <title>manuscrito</title>, acudo de nuevo a <expan><abbr>V</abbr><am>.</am><ex>osotros</ex></expan> 
+                        suplicandole me conceda ese favor, de dejar a <unclear>Solalinde</unclear> obtener <pb/>
+                        esas fotocopias deseadas. En nombre de mi naciente <hi rend="underline"><title ref="#Revista">Revista</title></hi>
+                        me atrevo a rogárselo.</p>
+                    <p>Y si <expan><abbr>V</abbr><am>.</am><ex>osotros</ex></expan> hallase tiempo 
+                        entre sus muchas ocupaciones para escribir cualquier cosa, 
+                        aunque fuese breve, sobre materia hispánica, cuanto honraría el nombre de 
+                        <expan><abbr>V</abbr><am>.</am><ex>osotros</ex></expan> a la <title ref="#Revista">Revista</title>!
+                    </p>
+                    
+                    <closer>Deseándole salud, <salute>le envía recuerdo afectuoso su amigo y colega</salute>
+                        <signed><expan><abbr>R</abbr><am>.</am><ex>amón</ex></expan> Menéndez Pidal</signed>
+                    </closer>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>
+

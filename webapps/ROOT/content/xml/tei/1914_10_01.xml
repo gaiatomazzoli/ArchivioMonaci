@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ramón Menéndez Pidal a Ernesto Monaci, 1 ottobre 1914</title>
+                <editor role="transcription"><persName>Giulia Lucchesi</persName></editor>
+                <editor role="encoding"><persName>Giulia Lucchesi</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2021-06-10"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier><repository>Archivio Monaci, Società Filologica Romana, presso il Dipartimento di Studi Europei, Americani e Interculturali, Sapienza, Università di Roma.</repository> <idno>Busta n. 18, fascicolo 861, lettera 1</idno></msIdentifier>
+                    <msContents><summary corresp="#letter">Lettera di Ramón Menéndez Pidal a Ernesto Monaci del 1 ottobre 1914.</summary></msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#RMP">Ramón Menéndez Pidal</persName>
+                    <placeName ref="#buenos aires">Buenos Aires</placeName>
+                    <date when="1914-10-01"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#sconosciuto">?</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="es">
+                <div type="textpart" subtype="letter">
+                    <opener><dateline><date when="1914-10-01">1 <expan><abbr>oct</abbr><am>.</am><ex>ubre</ex></expan> de 1914</date></dateline> <placeName ref="#buenosaires">Buenos Aires</placeName>
+                        <expan><abbr>S</abbr><ex>eño</ex><abbr>r</abbr></expan> <expan><abbr>D</abbr><am>.</am><ex>on</ex></expan> <persName ref="#EM">Ernesto Monaci</persName>
+                        <salute>Mi señor y amigo:</salute></opener>
+                    <p> de <placeName ref="#madrid">Madrid</placeName> me escriben que 
+                        han llegado allí una amable tarjeta de 
+                        <expan><abbr>V</abbr><am>.</am><ex>osotros</ex></expan> con 
+                        “congratulazioni al nuovo accademico Linceo”. 
+                        Sin duda será <expan><abbr>V</abbr><am>.</am><ex>osotros</ex></expan> 
+                        el autor de este nombramiento, 
+                        y por él le doy muy cordiales gracias. A este propósito, 
+                        le ruego que, si tiene ocasión para ello, manifeste a la 
+                        <orgName ref="#Lincei">Academia</orgName> cuan honrado me siento por la alta distinción 
+                        de que me ha hecho objeto.</p>
+                    <p>Me encuentro desde julio en esta ciudad autártica, 
+                        dando alguien conferencias, y estudiando algo las caractéres y desarrollo 
+                        del español en esta tierra. Regresaré a <placeName ref="#spagna">España</placeName> para fines de Noviembre.</p>
+                    <p></p>
+                    
+                    <closer>Mándeme acá o allá lo que guste 
+                        <salute>y reciba el saludo y los más afectuosos recuerdos de su colega y amigo</salute>
+                        <signed><expan><abbr>R</abbr><am>.</am><ex>amón</ex></expan> Menéndez Pidal</signed>
+                    </closer>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>
+
+
