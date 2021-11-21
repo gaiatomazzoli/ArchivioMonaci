@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Marcelino Menéndez y Pelayo a Ernesto Monaci, febbraio 1882</title>
+                <editor role="transcription"><persName>Giulia Lucchesi</persName></editor>
+                <editor role="encoding"><persName>Giulia Lucchesi</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2021-10-07"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier><repository>Archivio Monaci, Società Filologica Romana, presso il Dipartimento di Studi Europei, Americani e Interculturali, Sapienza, Università di Roma.</repository> <idno>Busta n. 18, fascicolo 862, lettera 4</idno></msIdentifier>
+                    <msContents><summary corresp="#letter">Lettera di Marcelino Menéndez y Pelayo a Ernesto Monaci del febbraio 1882</summary></msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#MMP">Marcelino Menéndez y Pelayo</persName>
+                    <placeName ref="#madrid">Madrid</placeName>
+                    <date when="1882-02"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#sconosciuto">?</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="es">
+                <div type="textpart" subtype="letter">
+                    <opener><expan><abbr>S</abbr><ex>eño</ex><abbr>r</abbr><am>.</am></expan> <expan><abbr>D</abbr><am>.</am><ex>on</ex></expan> <persName ref="#EM">Ernesto Monaci</persName>.
+                        <placeName ref="#madrid">Madrid</placeName>, <date when="1882-02">Febrero de 1882</date>.
+                        <salute>Mi muy  estimado amigo:</salute></opener>
+                    
+                    <p>¿Permite <expan><abbr>U</abbr><ex>ste</ex><abbr>d</abbr><am>.</am></expan>
+                        en la idea de hacer copia las últimas hojas del <title ref="#poemacid"><hi rend="underline">Poema del Cid</hi></title>? 
+                        Si así fuere, ¿puede <expan><abbr>U</abbr><ex>ste</ex><abbr>d</abbr><am>.</am></expan>
+                        decirmelo en seguida, para <expan><abbr>q</abbr><am>.</am><ex>u</ex><abbr>e</abbr></expan> yo avise al 
+                        fotógrafo, y comencémos el trabajo? </p>
+                    <p>Recibí el primer cuaderno de los <hi rend="underline">fac
+                        
+                        <pb/>
+                        
+                        símiles</hi>, <expan><abbr>q</abbr><am>.</am><ex>u</ex><abbr>e</abbr></expan>
+                        me parecieron admirables. <gap reason="illegible" unit="chars"/>. <expan><abbr>q</abbr><am>.</am><ex>u</ex><abbr>e</abbr></expan> 
+                        pueda llegarse a mayor perfeccion y <gap reason="illegible" unit="chars"/>. .
+                        El <persName ref="#RMP">marqués de Pidál</persName> se ha prestado muy gustoso a consentir en la reproduccion de un códice del <title ref="#poemacid"><hi rend="underline">Poema</hi></title>.</p>
+                        
+                    <p>Déme <expan><abbr>U</abbr><ex>ste</ex><abbr>d</abbr><am>.</am></expan>
+                        sus instrucciones para <expan><abbr>q</abbr><am>.</am><ex>u</ex><abbr>e</abbr></expan>
+                        yo proceda en todo con arreglo a ellas. 
+                    </p>
+                    <closer><salute>De <expan><abbr>U</abbr><ex>ste</ex><abbr>d</abbr><am>.</am></expan>
+                        siempre verdadero <expan><abbr>am</abbr><am>.</am><ex>ig</ex><abbr>o</abbr></expan>  y <expan><abbr>af</abbr><ex>ectísi</ex><abbr>mo</abbr><am>.</am></expan>
+                        <expan><abbr>comp</abbr><am>.</am><ex>añer</ex><abbr>o</abbr></expan>
+                        <expan><abbr>q</abbr><am>.</am><ex>u</ex><abbr>e</abbr></expan> 
+                        <expan><abbr>s</abbr><am>.</am><ex>u</ex> <abbr>m</abbr><am>.</am><ex>ano</ex> <abbr>b</abbr><ex>es</ex><abbr>a</abbr><am>.</am></expan></salute>
+                        <signed><persName ref="#MMP"><expan><abbr>M</abbr><am>.</am><ex>arcelino</ex></expan> Menéndez y Pelayo</persName></signed></closer>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Marcelino Menéndez y Pelayo a Ernesto Monaci, 27 ottobre 1881</title>
+                <editor role="transcription"><persName>Giulia Lucchesi</persName></editor>
+                <editor role="encoding"><persName>Giulia Lucchesi</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2021-10-07"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier><repository>Archivio Monaci, Società Filologica Romana, presso il Dipartimento di Studi Europei, Americani e Interculturali, Sapienza, Università di Roma.</repository> <idno>Busta n. 18, fascicolo 862, lettera 3</idno></msIdentifier>
+                    <msContents><summary corresp="#letter">Lettera di Marcelino Menéndez y Pelayo a Ernesto Monaci del 27 ottobre 1881</summary></msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#MMP">Marcelino Menéndez y Pelayo</persName>
+                    <placeName ref="#madrid">Madrid</placeName>
+                    <date when="1881-10-27"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                <placeName ref="#sconosciuto">?</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="es">
+                <div type="textpart" subtype="letter">
+                    <opener><expan><abbr>S</abbr><ex>eño</ex><abbr>r</abbr><am>.</am></expan> <expan><abbr>D</abbr><am>.</am><ex>on</ex></expan> <persName ref="#EM">Ernesto Monaci</persName>.
+                        <placeName ref="#madrid">Madrid</placeName>, <date when="1881-10-27">27 de Octubre de 1881</date>.
+                        
+                        <salute>Mi muy querido amigo y compañero:</salute></opener>
+                    
+                    <p> me parece muy bien la coleccion de facsímiles de textos de lenguas romances 
+                        <expan><abbr>q</abbr><am>.</am><ex>u</ex><abbr>e</abbr></expan> 
+                        <expan><abbr>U</abbr><ex>ste</ex><abbr>d</abbr><am>.</am></expan> prepara. 
+                        Adjunta envío una nuestra de las <title><hi rend="underline">Cantigas del Rey Sábio</hi></title>, 
+                        <expan><abbr>q</abbr><am>.</am><ex>u</ex><abbr>e</abbr></expan> publicará en breve nuestra <orgName ref="#RAE">Academia</orgName>.</p>
+                        <p>Para hacer aquí 
+                        <pb/>
+                        
+                        las reproducciones fotográficas puede <expan><abbr>U</abbr><ex>ste</ex><abbr>d</abbr><am>.</am></expan> 
+                        dirigirse a <expan><abbr>D</abbr><ex>on</ex><am>.</am></expan> <persName ref="#JSR">José Sancho Rayon</persName>. 
+                        Yo le entregaré la carta <expan><abbr>q</abbr><am>.</am><ex>u</ex><abbr>e</abbr></expan> 
+                            <expan><abbr>U</abbr><ex>ste</ex><abbr>d</abbr><am>.</am></expan> me remita para él.</p>
+                    <p>El códice del <title ref="#poemacid"><hi rend="underline">Poema del Cid</hi></title> está en poder de mi amigo el <persName ref="#RMP">marqués de Pidál</persName>. 
+                        Uno de los códices de <persName ref="#berceo">Berceo</persName> está en la <orgName ref="#RAH">Real Academia de la Historia</orgName>, 
+                        cuyo bibliotecario es <expan><abbr>D</abbr><ex>on</ex><am>.</am></expan> <persName>Cayetano Bosell</persName>. El códice principal 
+                        <pb/>
+                        
+                        del <persName ref="#GdB">Archipréste de Hita</persName> le conserva en la <orgName ref="RAE">Real Academia Española</orgName>, 
+                        cuyo bibliotecario es <expan><abbr>D</abbr><ex>on</ex><am>.</am></expan> <persName ref="#AFG">Aureliano Fernández Guerra</persName>. Todos ellos 
+                        son amigos míos, y puede <expan><abbr>U</abbr><ex>ste</ex><abbr>d</abbr><am>.</am></expan> escribirlos. Yo les hablaré además.</p>
+                    <p>El <hi rend="underline">Alejandro</hi> <gap reason="illegible" unit="chars"/> en la biblioteca del Duque de Osuna. 
+                        Para otros códices (verá <expan><abbr>U</abbr><ex>ste</ex><abbr>d</abbr><am>.</am></expan> indicados los principales en <persName ref="#JADLR">Amador de los Ríos</persName>)
+                        <pb/>
+                        
+                        puede <expan><abbr>U</abbr><ex>ste</ex><abbr>d</abbr><am>.</am></expan> acudir a <expan><abbr>D</abbr><ex>on</ex><am>.</am></expan> 
+                        <persName ref="#JOT">José <expan><abbr>M</abbr><ex>arí</ex><am>.</am><abbr>a</abbr></expan> Octavio de Toledo</persName>, 
+                        oficial de la sala de manuscritos de la <orgName ref="#BibEs">Biblioteca Nacional</orgName>.
+                    </p>
+                    <closer><salute>De <expan><abbr>U</abbr><ex>ste</ex><abbr>d</abbr><am>.</am></expan> siempre <expan><abbr>af</abbr><ex>ectísi</ex><abbr>mo</abbr><am>.</am></expan> <expan><abbr>ami</abbr><am>.</am><ex>g</ex><abbr>o</abbr></expan> y compañero</salute>
+                        
+                        <signed><persName ref="#MMP"><expan><abbr>M</abbr><am>.</am><ex>arcelino</ex></expan> Menéndez y Pelayo</persName></signed></closer>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

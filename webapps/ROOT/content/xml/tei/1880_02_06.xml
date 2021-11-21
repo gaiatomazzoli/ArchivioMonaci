@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Marcelino Menéndez y Pelayo a Ernesto Monaci, 6 febbraio 1880</title>
+                <editor role="transcription"><persName>Giulia Lucchesi</persName></editor>
+                <editor role="encoding"><persName>Giulia Lucchesi</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2021-10-02"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl><bibl>Eventuali riferimenti bibliografici</bibl></listBibl>
+                <msDesc>
+                    <msIdentifier><repository>Archivio Monaci, Società Filologica Romana, presso il Dipartimento di Studi Europei, Americani e Interculturali, Sapienza, Università di Roma.</repository> <idno>Busta n. 18, fascicolo 862, lettera 2</idno></msIdentifier>
+                    <msContents><summary corresp="#letter">Lettera di Marcelino Menéndez y Pelayo a Ernesto Monaci del 6 febbraio 1880</summary></msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#MMP">Marcelino Menéndez y Pelayo</persName>
+                    <placeName ref="#madrid">Madrid</placeName>
+                    <date when="1880-02-06"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#sconosciuto">?</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="es">
+                <div type="textpart" subtype="letter">
+                    <opener><expan><abbr>S</abbr><ex>eño</ex><abbr>r</abbr><am>.</am></expan> <expan><abbr>D</abbr><am>.</am><ex>on</ex></expan> <persName ref="#EM">Ernesto Monaci</persName>.
+                        <placeName ref="#madrid">Madrid</placeName>, <date when="1880-02-06">6 de Febrero de 1880</date>.
+                        
+                        <salute>Mi distinguido amigo:</salute></opener>
+                    <p>
+                        Su bondad de <expan><abbr>U</abbr><ex>ste</ex><abbr>d</abbr><am>.</am></expan> conmigo, 
+                        y el buen recuerdo que conservo de nuestras conversaciones de <placeName ref="#roma">Roma</placeName>, 
+                        me mueven a molestarle hoy con una pregunta, <expan><abbr>q</abbr><am>.</am><ex>u</ex><abbr>e</abbr></expan> 
+                        <expan><abbr>U</abbr><ex>ste</ex><abbr>d</abbr><am>.</am></expan> puede contestar como nadie.</p>
+                        
+                    <p>En la <orgName ref="#BiblBarberina">Biblioteca Barberina</orgName> hay una cópia ms. de la <title ref="iriense"><hi rend="underline">Historia Iriense</hi></title> (en gallego) 
+                        de mano de <persName ref="#TTV">Tamayo de Várgas</persName>. 
+                        Agradecería a <expan><abbr>U</abbr><ex>ste</ex><abbr>d</abbr><am>.</am></expan> mucho que me copiase una nota de este, 
+                        <expan><abbr>q</abbr><am>.</am><ex>u</ex><abbr>e</abbr></expan> hay
+                        
+                        <pb/>
+                        
+                        al fin o al principio del ms. Lo desea un amigo mío, y se alegraría de salir de sus dudas cuánto ántes.
+                    </p>
+                    <closer><salute>De <expan><abbr>U</abbr><ex>ste</ex><abbr>d</abbr><am>.</am></expan> siempre bueno y agradecido 
+                        <expan><abbr>am</abbr><am>.</am><ex>ig</ex><abbr>o</abbr></expan> y servidor <expan><abbr>q</abbr><am>.</am><ex>u</ex><abbr>e</abbr></expan> 
+                        <expan><abbr>s</abbr><am>.</am><ex>u</ex> <abbr>m</abbr><am>.</am><ex>ano</ex> <abbr>b</abbr><am>.</am><ex>esa</ex></expan></salute>
+                        <signed><persName ref="#MMP"><expan><abbr>M</abbr><am>.</am><ex>arcelino</ex></expan> Menéndez y Pelayo</persName></signed></closer>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

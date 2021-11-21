@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Marcelino Menéndez y Pelayo a Ernesto Monaci, 12 dicembre 1882</title>
+                <editor role="transcription"><persName>Giulia Lucchesi</persName></editor>
+                <editor role="encoding"><persName>Giulia Lucchesi</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2021-10-13"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier><repository>Archivio Monaci, Società Filologica Romana, presso il Dipartimento di Studi Europei, Americani e Interculturali, Sapienza, Università di Roma.</repository> <idno>Busta n. 18, fascicolo 862, lettera 7</idno></msIdentifier>
+                    <msContents><summary corresp="#letter">Lettera di Marcelino Menéndez y Pelayo a Ernesto Monaci del 29 dicembre 1882</summary></msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#MMP">Marcelino Menéndez y Pelayo</persName>
+                    <placeName ref="#santander">Santander</placeName>
+                    <date when="1882-12-29"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#sconosciuto">?</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="es">
+                <div type="textpart" subtype="letter">
+                    <opener><expan><abbr>Il</abbr><ex>ustrísi</ex><abbr>mo</abbr><am>.</am></expan> <expan><abbr>S</abbr><ex>eño</ex><abbr>r</abbr><am>.</am></expan> <expan><abbr>D</abbr><am>.</am><ex>on</ex></expan> <persName ref="#EM">Ernesto Monaci</persName>.
+                        <placeName ref="#santander">Santander</placeName>, <date when="1882-12-29">29 de Diciembre de 1882</date>.
+                        
+                        <salute>Mi muy estimado <expan><abbr>am</abbr><am>.</am><ex>ig</ex><abbr>o</abbr></expan>:</salute></opener>
+                    <p> Supongo <expan><abbr>q</abbr><am>.</am><ex>u</ex><abbr>e</abbr></expan> el fotógrafo <persName ref="#JSR">Sancho Rayón</persName> habrá contestado ya a la carta de <expan><abbr>U</abbr><ex>ste</ex><abbr>d</abbr><am>.</am></expan>
+                        Yo, por mi parte, le daré prisa para <expan><abbr>q</abbr><am>.</am><ex>u</ex><abbr>e</abbr></expan> ejecute la reproduccion, 
+                        así <expan><abbr>q</abbr><am>.</am><ex>u</ex><abbr>e</abbr></expan> yo vuelva a <placeName ref="#madrid">Madrid</placeName>, <expan><abbr>q</abbr><am>.</am><ex>u</ex><abbr>e</abbr></expan> será de fijo en los primeros días del mes próximo.
+                    </p>
+                    <p> La <gap reason="illegible" unit="chars"/> ha consistido en la ausencia del dueño del códice, 
+                            pero ahora <expan><abbr>q</abbr><am>.</am><ex>u</ex><abbr>e</abbr></expan> <pb/> está otra vez en <placeName ref="#madrid">Madrid</placeName>, 
+                            no se dilaterá muchos días el trabajo <expan><abbr>q</abbr><am>.</am><ex>u</ex><abbr>e</abbr></expan> <expan><abbr>U</abbr><ex>ste</ex><abbr>d</abbr><am>.</am></expan> desea.</p>
+                    <p> Suplico a <expan><abbr>U</abbr><ex>ste</ex><abbr>d</abbr><am>.</am></expan> <expan><abbr>q</abbr><am>.</am><ex>u</ex><abbr>e</abbr></expan> dispénse tantas dilaciones, 
+                                en mí de todo punto involuntarias.</p>
+                    <p>  Recibí el apetecido <title ref="#levita">Cancionero</title> de nuestro toledano <persName ref="#JL">Jehudá-Levi</persName>. 
+                        Espero <expan><abbr>q</abbr><am>.</am><ex>u</ex><abbr>e</abbr></expan> <expan><abbr>U</abbr><ex>ste</ex><abbr>d</abbr><am>.</am></expan> me indique el precio del libro, para abonarselo enseguida. 
+                        No sé como expresar a <expan><abbr>U</abbr><ex>ste</ex><abbr>d</abbr><am>.</am></expan> mi gratitud por la <gap reason="illegible" unit="chars"/> con <expan><abbr>q</abbr><am>.</am><ex>u</ex><abbr>e</abbr></expan> <pb/> ha cumplido éste encargo mío.
+                        
+                    </p>
+                    <closer><salute>Sabe <expan><abbr>U</abbr><ex>ste</ex><abbr>d</abbr><am>.</am></expan> <expan><abbr>q</abbr><am>.</am><ex>u</ex><abbr>e</abbr></expan>
+                        de todas veras le estima y desea complacerle su <expan><abbr>af</abbr><ex>ectísi</ex><abbr>mo</abbr><am>.</am></expan> <expan><abbr>am</abbr><am>.</am><ex>ig</ex><abbr>o</abbr></expan> <expan><abbr>comp</abbr><am>.</am><ex>añer</ex><abbr>o</abbr></expan></salute>
+                        
+                        <signed><persName ref="#MMP"><expan><abbr>M</abbr><am>.</am><ex>arcelino</ex></expan> Menéndez y Pelayo</persName></signed></closer>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

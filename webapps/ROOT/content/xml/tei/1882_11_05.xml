@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Marcelino Menéndez y Pelayo a Ernesto Monaci, 5 novembre 1882</title>
+                <editor role="transcription"><persName>Giulia Lucchesi</persName></editor>
+                <editor role="encoding"><persName>Giulia Lucchesi</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2021-10-07"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier><repository>Archivio Monaci, Società Filologica Romana, presso il Dipartimento di Studi Europei, Americani e Interculturali, Sapienza, Università di Roma.</repository> <idno>Busta n. 18, fascicolo 862, lettera 6</idno></msIdentifier>
+                    <msContents><summary corresp="#letter">Lettera di Marcelino Menéndez y Pelayo a Ernesto Monaci del 5 novembre 1882</summary></msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#MMP">Marcelino Menéndez y Pelayo</persName>
+                    <placeName ref="#madrid">Madrid</placeName>
+                    <date when="1882-11-05"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#sconosciuto">?</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="es">
+                <div type="textpart" subtype="letter">
+                    <opener><expan><abbr>S</abbr><ex>eño</ex><abbr>r</abbr><am>.</am></expan> <expan><abbr>D</abbr><am>.</am><ex>on</ex></expan> <persName ref="#EM">Ernesto Monaci</persName>
+                        <placeName ref="#madrid">Madrid</placeName>, <date when="1882-11-05">5 de Noviembre de 1882</date>.
+                        <salute>Mi muy estimado y distinguido amigo:</salute></opener>
+                    <p>no he contestado hasta hoy a su carta del <date when="1882-10-24">24 de Octubre</date>, 
+                        esperando <expan><abbr>q</abbr><am>.</am><ex>u</ex><abbr>e</abbr></expan> volviese a 
+                        <placeName ref="#madrid">Madrid</placeName> el <persName ref="#RMP">marqués de Pidál</persName>, 
+                        dueño del códice <expan><abbr>q</abbr><am>.</am><ex>u</ex><abbr>e</abbr></expan> se hallaba ausente. 
+                        Ahora <expan><abbr>q</abbr><am>.</am><ex>u</ex><abbr>e</abbr></expan> 
+                           ya está aquí, y tambien el fotógrafo, podemos ocuparnos en la reproduccion
+                        
+                        <pb/>
+                            
+                        <expan><abbr>q</abbr><am>.</am><ex>u</ex><abbr>e</abbr></expan> 
+                        <expan><abbr>U</abbr><ex>ste</ex><abbr>d</abbr><am>.</am></expan> desea. 
+                        Yo cuideré de <expan><abbr>q</abbr><am>.</am><ex>u</ex><abbr>e</abbr></expan> todo se haga como conviene, 
+                        pero no esterá de más <expan><abbr>q</abbr><am>.</am><ex>u</ex><abbr>e</abbr></expan>
+                        <expan><abbr>U</abbr><ex>ste</ex><abbr>d</abbr><am>.</am></expan> escriba directamente al fotógrafo, cuyas señas pon:
+                        
+                        <expan><abbr>S</abbr><ex>eño</ex><abbr>r</abbr><am>.</am></expan> <expan><abbr>D</abbr><am>.</am><ex>octor</ex></expan> <persName ref="#JSR">José Sancho Rayón</persName>
+                        <address><addrLine><orgName ref="#BibFom">Biblioteca del Ministerio De Fomento</orgName></addrLine>
+                        <addrLine><placeName ref="#madrid">Madrid</placeName>.</addrLine></address>
+                        
+                        Si no recuerdo mal, las cuatro <del>paginas</del>
+                        tablas <expan><abbr>q</abbr><am>.</am><ex>u</ex><abbr>e</abbr></expan>
+                        <expan><abbr>U</abbr><ex>ste</ex><abbr>d</abbr><am>.</am></expan> desea son las ocho últimas xpáginasx
+                        del códice. Si en ésto hay algun error mío, ruego a <expan><abbr>U</abbr><ex>ste</ex><abbr>d</abbr><am>.</am></expan> 
+                        <expan><abbr>q</abbr><am>.</am><ex>u</ex><abbr>e</abbr></expan> lo <gap reason="illegible" unit="chars"/> 
+                        escribiéndome a mí <pb/> o al fotógrafo.</p>
+                       
+                        <p>Ruego a <expan><abbr>U</abbr><ex>ste</ex><abbr>d</abbr><am>.</am></expan> <expan><abbr>q</abbr><am>.</am><ex>u</ex><abbr>e</abbr></expan> me dispense antes dilaciones, 
+                        <expan><abbr>q</abbr><am>.</am><ex>u</ex><abbr>e</abbr></expan> son deperdido de ausencias del poseedor del 
+                        códice o del fotógrafo o mías.
+                        Y ahora ¿me atreveré a hacer a <expan><abbr>U</abbr><ex>ste</ex><abbr>d</abbr><am>.</am></expan> un <gap reason="illegible" unit="chars"/>? Deseo 
+                        adquirir a todo trance un ejemplar del <hi rend="underline"><title ref="#levita">Canzoniere (Diván) de Yehudá-Levi</title></hi>, 
+                        (poeta hebreo-hispano del siglo XII), <expan><abbr>q</abbr><am>.</am><ex>u</ex><abbr>e</abbr></expan> 
+                        se ha traducido <hi rend="underline">al italiano</hi>
+                        (por algun judio de <placeName ref="#livorno">Liorna</placeName> o de <placeName ref="#pisa">Pisa</placeName>) e impreso hace 
+                            algunos años. Vi ... <pb/> da ésta traduccion en un catálogo alemán, pero,cuando yo la pedí, ya estaba vendida. 
+                        He acudido a mucho libreros de <placeName ref="#italia">Italia</placeName>, ninguno me da razon. <expan><abbr>U</abbr><ex>ste</ex><abbr>d</abbr><am>.</am></expan>
+                        sin duda será más afortunado. 
+                        Yo tengo dos traducciones alemanas distintas, y deseo mucho adquirir la italiana, 
+                        <expan><abbr>q</abbr><am>.</am><ex>u</ex><abbr>e</abbr></expan> debe contener 
+                        (si no recuerdo mal el anuncio) algunas poesías nuevas.
+                        
+                    </p>
+                    <closer><salute>De <expan><abbr>U</abbr><ex>ste</ex><abbr>d</abbr><am>.</am></expan>
+                        siempre verdadero <expan><abbr>am</abbr><am>.</am><ex>ig</ex><abbr>o</abbr></expan> y <expan><abbr>comp</abbr><am>.</am><ex>añer</ex><abbr>o</abbr></expan>
+                        y <expan><abbr>s</abbr><am>.</am><ex>eguro</ex><abbr>s</abbr><am>.</am><ex>ervidor</ex></expan> <expan><abbr>q</abbr><am>.</am><ex>u</ex><abbr>e</abbr></expan> <expan><abbr>s</abbr><am>.</am><ex>u</ex> <abbr>m</abbr><am>.</am><ex>ano</ex> <abbr>b</abbr><am>.</am><ex>esa</ex></expan></salute>
+                        
+                        <signed><persName ref="#MMP"><expan><abbr>M</abbr><am>.</am><ex>arcelino</ex></expan> Menéndez y Pelayo</persName></signed></closer>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

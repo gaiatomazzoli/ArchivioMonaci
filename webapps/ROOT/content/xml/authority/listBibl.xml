@@ -1148,6 +1148,18 @@
                     <title>Revista de Filología Española</title>
                     <date from="1914"/>
                 </bibl>
+                
+                <bibl xml:id="iriense">
+                    <title>Historia Iriense</title>
+                    <author><persName>Tomás Tamayo de Várgas</persName></author>
+                </bibl>
+                
+                <bibl xml:id="levita">
+                    <title>Canzoniere Sacro Di Giuda Levita</title>
+                    <author><persName>Giuda Levita</persName></author>
+                    <author><persName>Salvatore de Benedetti</persName></author>
+                    <date when="1871"/>
+                </bibl>
 
             </listBibl>
         </body>

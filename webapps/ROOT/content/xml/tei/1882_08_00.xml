@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Marcelino Menéndez y Pelayo a Ernesto Monaci, agosto 1882</title>
+                <editor role="transcription"><persName>Giulia Lucchesi</persName></editor>
+                <editor role="encoding"><persName>Giulia Lucchesi</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2021-10-07"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl><bibl>Eventuali riferimenti bibliografici</bibl></listBibl>
+                <msDesc>
+                    <msIdentifier><repository>Archivio Monaci, Società Filologica Romana, presso il Dipartimento di Studi Europei, Americani e Interculturali, Sapienza, Università di Roma.</repository> <idno>Busta n. 18, fascicolo 862, lettera 5</idno></msIdentifier>
+                    <msContents><summary corresp="#letter">Lettera di Marcelino Menéndez y Pelayo a Ernesto Monaci dell'agosto 1882</summary></msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#MMP">Marcelino Menéndez y Pelayo</persName>
+                    <placeName ref="#santander">Santander</placeName>
+                    <date when="1882-08"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#EM">Ernesto Monaci</persName>
+                    <placeName ref="#sconosciuto">?</placeName>
+                    <date/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="es">
+                <div type="textpart" subtype="letter">
+                    <opener><expan><abbr>S</abbr><ex>eño</ex><abbr>r</abbr><am>.</am></expan> <expan><abbr>D</abbr><am>.</am><ex>on</ex></expan> <persName ref="#EM">Ernesto Monaci</persName>.
+                        <placeName ref="#santander">Santander</placeName>, <date when="1882-08">Agosto de 1882</date>
+                        
+                        <salute>Amigo mío muy distinguido:</salute></opener>
+                    <p> como escribí a <expan><abbr>U</abbr><ex>ste</ex><abbr>d</abbr><am>.</am></expan>,
+                        hablé con el fotógrafo, vió el códice del <title ref="#poemacid"><hi rend="underline">Poema del Cid</hi></title>, 
+                        y convino en presentarme sus condiciones antes de empezar el trabajo. 
+                        Pero al poco tiempo salió de <placeName ref="#madrid">Madrid</placeName> y hasta ahora nada me 
+                        ha dicho mi escrito sobre el particular. Como yo 
+                        
+                        <pb/>
+                        
+                        hasta mitad de Septiembre,  no volveré a  <placeName ref="#madrid">Madrid</placeName>, 
+                        y tampoco está allí el poseedor del <title ref="#poemacid">códice</title>, va a 
+                        ser necesario dilatar hasta entonces la reproduccion 
+                        de aquellas hojas.
+                        
+                    </p>
+                    <closer><salute>Dispénseme <expan><abbr>U</abbr><ex>ste</ex><abbr>d</abbr><am>.</am></expan> 
+                        esta <gap reason="illegible" unit="chars"/>, que no depende de mi voluntad, mande a su <expan><abbr>af</abbr><ex>ectísi</ex><abbr>mo</abbr><am>.</am></expan> 
+                        y seguro servidor y amigo <expan><abbr>q</abbr><am>.</am><ex>u</ex><abbr>e</abbr></expan> 
+                        <expan><abbr>s</abbr><am>.</am><ex>u</ex> <abbr>m</abbr><am>.</am><ex>ano</ex> <abbr>b</abbr><am>.</am><ex>esa</ex></expan></salute>
+                        
+                        <signed><persName ref="#MMP"><expan><abbr>M</abbr><am>.</am><ex>arcelino</ex></expan> Menéndez y Pelayo</persName></signed></closer>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

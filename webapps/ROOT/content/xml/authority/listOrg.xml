@@ -278,6 +278,24 @@
                 <org xml:id="BibFl">
                     <orgName>Biblioteca dell’Abbazia di Fleury</orgName>
                 </org>
+                
+                <!-- Lucchesi -->
+                
+                <org xml:id="RAE">
+                    <orgName>Real Academia Española</orgName>
+                </org>
+                
+                <org xml:id="RAH">
+                    <orgName>Real Academia de la Historia</orgName>
+                </org>
+                
+                <org xml:id="BibEs">
+                    <orgName>Biblioteca Nacional de España</orgName>
+                </org>
+                
+                <org xml:id="BibFom">
+                    <orgName>Biblioteca del Ministerio De Fomento</orgName>
+                </org>
 
             </listOrg>
         </body>

@@ -3910,7 +3910,68 @@
                     <idno type="VIAF">64018425</idno>
                     <idno type="Treccani">https://www.treccani.it/enciclopedia/menendez-y-pelayo-marcelino/</idno>
                 </person>
+                
+                <person xml:id="TTV">
+                    <persName>
+                        <forename>Tomás</forename>
+                        <surname>Tamayo de Vargas</surname>
+                    </persName>
+                    <birth when="1588"/>
+                    <death when="1642"/>
+                    <idno type="VIAF">27415711</idno>
+                    <idno type="Treccani">https://www.treccani.it/enciclopedia/tamayo-de-vargas-tomas/</idno>
+                </person>
+                
+                <person xml:id="JSR">
+                    <persName>
+                        <forename>José León</forename>
+                        <surname>Sancho Rayón</surname>
+                    </persName>
+                    <birth when="1830"/>
+                    <death when="1900"/>
+                    <idno type="VIAF">100182467</idno>
+                </person>
+                
+                <person xml:id="RMP">
+                    <persName>
+                        <forename>Ramón</forename>
+                        <surname>Menéndez Pidal</surname>
+                    </persName>
+                    <birth when="1869"/>
+                    <death when="1968"/>
+                    <idno type="VIAF">54151405</idno>
+                    <idno type="Treccani">https://www.treccani.it/enciclopedia/ramon-menendez-pidal(Enciclopedia)/</idno>
+                </person>
+                
+                <person xml:id="AFG">
+                    <persName>
+                        <forename>Aureliano</forename>
+                        <surname>Fernández Guerra</surname>
+                    </persName>
+                    <birth when="1816"/>
+                    <death when="1894"/>
+                    <idno type="VIAF">47015321</idno>
+                    <idno type="Treccani">https://www.treccani.it/enciclopedia/fernandez-guerra-y-orbe-aureliano/</idno>
+                </person>
 
+                <person xml:id="JOT">
+                    <persName>
+                        <forename>José María</forename>
+                        <surname>Octavio de Toledo y Navascués</surname>
+                    </persName>
+                    <birth when="1830"/>
+                    <death when="1890"/>
+                    <idno type="VIAF">75170736 </idno>
+                </person>
+                
+                <person xml:id="JL">
+                    <persName>
+                        <forename>Jehudá</forename>
+                        <surname>Levi</surname>
+                    </persName>
+                    <birth when="1075"/>
+                    <death when="1141"/>
+                </person>
 
             </listPerson>
         </body>
