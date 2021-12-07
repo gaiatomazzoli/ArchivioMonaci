@@ -914,6 +914,68 @@
                     <country>Italia</country>
                     <idno type="GeoNames">3174659</idno>
                 </place>
+                
+                <!-- Autorino  -->
+                
+                <place xml:id="greifswald">
+                    <placeName>Greifswald</placeName>
+                    <country>Germania</country>
+                    <idno type="GeoNames">9117788</idno>
+                </place>
+                
+                <place xml:id="glückstadt">
+                    <placeName>Glückstadt</placeName>
+                    <country>Germania</country>
+                    <idno type="GeoNames">2919763</idno>
+                </place>
+                
+                <place xml:id="oleśnica">
+                    <placeName>Oleśnica</placeName>
+                    <country>Polonia</country>
+                    <idno type="GeoNames">3090170</idno>
+                </place>
+                
+                <place xml:id="pompei">
+                    <placeName>Pompei</placeName>
+                    <country>Italia</country>
+                    <idno type="GeoNames">3170336</idno>
+                </place>
+                
+                <place xml:id="erlangen">
+                    <placeName>Erlangen</placeName>
+                    <country>Germania</country>
+                    <idno type="GeoNames">2929567</idno>
+                </place>
+                
+                <place xml:id="spira">
+                    <placeName>Spira</placeName>
+                    <country>Germania</country>
+                    <idno type="GeoNames">2830582</idno>
+                </place>
+                
+                <place xml:id="basilea">
+                    <placeName>Basilea</placeName>
+                    <country>Svizzera</country>
+                    <idno type="GeoNames">2661604</idno>
+                </place>
+                
+                <place xml:id="copenaghen">
+                    <placeName>Copenaghen</placeName>
+                    <country>Danimarca</country>
+                    <idno type="GeoNames">2618425</idno>
+                </place>
+                
+                <place xml:id="mentana">
+                    <placeName>Mentana</placeName>
+                    <country>Italia</country>
+                    <idno type="GeoNames">3173582</idno>
+                </place>
+                
+                <place xml:id="minturno">
+                    <placeName>Minturno</placeName>
+                    <country>Italia</country>
+                    <idno type="GeoNames">3173391 </idno>
+                </place>
 
             </listPlace>
         </body>
