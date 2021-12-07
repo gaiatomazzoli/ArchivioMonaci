@@ -1,0 +1,696 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Dialettologia della provincia di Roma 1887-1888</title>
+                <editor role="transcription"><persName>Elena Di Lauro</persName></editor>
+                <editor role="encoding"><persName>Elena Di Lauro</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Laboratorio Monaci. Sapienza Università di Roma</publisher>
+                <date when="2020-12-10"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <bibl>Ernesto Monaci, gli albori della filologia romanza in Italia e l'idea di
+                        Roma, a.a. 2019/2020, Elena Di Lauro</bibl>
+                </listBibl>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Archivio Monaci, Società Filologica Romana, presso il
+                            Dipartimento di Studi Europei, Americani e Interculturali, Sapienza,
+                            Università di Roma.</repository>
+                        <idno>Busta n. 33, fascicolo 1501</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary corresp="#notes">Nella prima parte del corso si delineano gli
+                            aspetti fondamentali degli studi di Monaci nell’ambito della filologia
+                            romanza, con particolare riferimento allo studio dei dialetti e delle
+                            letterature popolari diffusasi a Roma e nella più ampia area dell'Italia
+                            centrale. Gli appunti del corso procedono con un elenco, in forma di
+                            brevi cenni, delle opere o degli autori che più sono stati
+                            rappresentativi dell’intensa attività letteraria di queste aree.
+                            L’ultima parte è dedicata ad appunti più specificatamente linguistici di
+                            fonetica e morfologia, seguiti poi, da una serie di bozze di
+                            stampa.</summary>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription" xml:lang="it">
+                <div type="textpart" subtype="section" n="1">
+                    <head>Roma, Le lettere volgari durante il medioevo</head>
+                    <head rend="center">Sommario delle mie conferenze nei mesi di Novembre -
+                        Dicembre ‘87</head>
+                    <p>La filologia neolatina o romanza e la storia comparata delle lingue e delle
+                        letterature neolatine. Definizione della filologia neolatina dedotta: 1°.
+                        dalla definizione della filologia classica data da <persName ref="#FAW"
+                            >Friedrich August Wolf</persName>; 2°. dalla sua storia.</p>
+                    <p>Recenti lavori sulla storia della filologia neolatina. Questa storia può
+                        essere anche divisa in due soli periodi. I criterj di questa divisione si
+                        deducono dalla differenza dei metodi che prevalsero nei detti periodi.
+                            <persName ref="#FD">Federigo Diez</persName>considerato come il punto
+                        storico che divide il secondo dal primo periodo. Cenni intorno al primo
+                        periodo. Caratteristica di esso determinata dal metodo filosofico che vi
+                        prevalse. Principali/nomi che vi figurano classificati per secoli e per
+                        nazioni. Obbjetti diversi dell’attività filologica nel 1°. periodo: 1°.
+                        ricerche sulle origini delle singole lingue romanze; 2°. Questioni intorno
+                        agl’idiomi letterarj; 3°. dottrine sulla versificazione; 4°. Opere
+                        grammaticali a scopo di diffondere e di consolidare la cultura delle lingue
+                        nazionali; 5°. Costituzione delle Accademie per lo studio della lingua; 6°.
+                        I lessici degl’idiomi nazionali; 7°. I glossarj sulle voci antiquate; 8°. I
+                        vocabolarj dei dialetti; 9°. primi tentativi di grammatica storica; 10°
+                        Primi saggi di storia letteraria. Le Biblioteche, gli Scrittori e le altre
+                        forme di storia letteraria nei sec. XVII-XVIII. Scienze sussidiarie: la
+                        cronologia e l’Art de verifier les dates; la paleografia, la diplomatica e
+                        il <title ref="#nouveautraité">Nouveau Traité de diplomatique dei
+                            Maurini.</title>. L’Histoire litteraire de la France e le opere del
+                            <persName ref="#GT1">Tiraboschi</persName>, del <persName ref="#FSQ"
+                            >Quadrio</persName>, dell’<persName ref="#andrès">Andrès</persName> e
+                        del <persName ref="#JCLSS">Sismondi</persName>. Altre opere di erudizione
+                        che dimostrano il sentimento della storia farsi sempre più vivo ed intenso.
+                        Edizioni di antichi testi, commentarj ed altri lavori esegetici. Ultimi
+                        prodotti della filologia in questo periodo: l’antologia storico-letteraria
+                        siccome lo <title ref="#choix">Choix des poésies originales des troubadours
+                            del Raynouard</title>; il romanzo storico quale <title ref="#ivanhoe"
+                            >l’Ivanoe di Walter Scott</title>; la storia pittoresca siccome i <title
+                            ref="#racconti">Racconti delle età merovingia di Thierry</title>.</p>
+                    <p>Progressi dello spirito scientifico. Nuovi studj sulle lingue condotti col
+                        metodo storico-comparativo. Differenza della comparazione adoperata come
+                        strumento d’indagine dai vecchi e dai nuovi filologi. Classificazione delle
+                        lingue e loro aggruppamenti per famiglia in corrispondenza delle
+                        delimitazioni etnografiche dei popoli. Federico Diez e la <title
+                            ref="#GRS">grammatica comparata delle lingue romanze</title>.
+                        Principali dottrine e applicazioni metodologiche per le quali egli è
+                        meritamente riconosciuto siccome il fondatore della glottologia romanza.</p>
+                    <p>Altri studj del Diez nella lessigrafia scientifica; nella storia letteraria e
+                        del costume, nella critica e nella interpretazione dei testi. La scuola del
+                        Diez; incrementi che essa ha recati nei varj rami della filologia neolatina.
+                        Principali pubblicazioni che rappresentano il movimento scientifico
+                        contemporaneo.</p>
+                    <p>Precisa tendenza di questo a specializzarsi sempre più. Ma in mezzo a tante
+                        ricerche speciali che portarono la luce sui varj momenti della vita
+                        neolatina percorrendole dovunque nel tempo e nello spazio, Roma fu lasciata
+                        da parte. L’opera del Diez aveva dimostrato che tutte le lingue e tutti i
+                        dialetti dei popoli neolatini non erano che altrettante trasformazioni
+                        diverse della antica favella di <placeName ref="#roma">Roma</placeName>.
+                        Altri studi e segnatamente quelli del <persName ref="#AG">Graf</persName>
+                        dimostrano che l’ideale di Roma, durante il medioevo, esercitò il massimo
+                        influsso nelle letterature tutte d’Occidente. Ma importa ancora di conoscere
+                        quali furono le vicende della parola latina nella stessa sua patria; e di
+                        appurare se Roma non solo passivamente ma anche attivamente partecipò, in
+                        quel movimento letterario di cui essa era il centro. Intanto alcune ricerche
+                        fatte bastano a dimostrare che essa non fu del tutto inerte durante la età
+                        media, i documenti raccolti rappresentando una serie che dai primi del sec.
+                        XIII si continua infino alla età del rinascimento. Questi sono parte in
+                        verso, parte in prosa, e dànno saggio di quasi tutti i generi della
+                        letteratura medioevale.</p>
+                    <p>1° <persName ref="#abate">L’Abate di Tivoli</persName>. Sue poesie.
+                        manoscritte. Determinazione della età in cui visse dedotta dalle relazioni
+                        di lui col <persName ref="#GdL">Notajo da Lentino</persName> e da un
+                        documento del regesto di un romanzo IV. Contenuto della sua tenzone con il
+                        notajo. Il sigillo dell’Abate e la leggenda della Mentorella. Vero nome di
+                        lui.</p>
+                    <p>2° <persName ref="#odo">Odo della Colonna o delle Colonne</persName>. Essa va
+                        probabilmente identificato con quell’Odo, figlio di Giordano da Zagarolo,
+                        che fu senatore di Roma nel 1238 e che è nominato da <persName
+                            ref="#bonifacio">Bonifazio VIII</persName> nella sua bolla di scomunica
+                        contro i Colonnesi. Ivi esso è accusato d’essere stato partigiano di
+                        Federico II. Le sue canzoni hanno la struttura e lo stile delle altre
+                        canzoni del tempo di Federico II, le quali organicamente si differenziano da
+                        quelle del periodo successivo. L’appellativo “da Messina” da fogli dal
+                        Codice Vaticano 3793 non è attendibile; altri simili errori di quel
+                        canzoniere.</p>
+                    <p>3. <persName ref="#colonne">Guido della Colonna</persName>. Fu giudice di
+                        Messina, ma probabilmente nacque in Roma, donde provenne il ramo messinese
+                        dei Colonnesi. I primi atti notarili di Guido datati da Messina coincidono
+                        nell’anno (1255) in cui assieme all’arcivescovo Giovanni altri colonnesi
+                        andarono da Roma a stabilirsi in Sicilia. Probabilmente esso fu figlio di
+                        Federico il quale ebbe a fratello e Odo il senatore di Roma nel 1238. Poesie
+                        di Guido – relazioni di lui con un contemporaneo di <persName
+                            ref="#guittone">Guittone d’Arezzo</persName>.</p>
+                    <p>4. <persName ref="#arrigo">Arrigo di Castiglia</persName> – tempo della sua
+                        dimora in Italia – sua canzone composta in Roma nel 1267. Soggetto di essa –
+                        Sua forma ritmica.</p>
+                    <p>5. Bonifazio VIII. Poesia attribuitagli – Forse del testo – Soggetto della
+                        poesia identico con quello dello Stabat Mater. Coincidenze di espressioni.
+                        Suo schema ritmico. Quando fu composta? La lingua può credersi genuina?</p>
+                    <p>Messer Catenaccio e la sua parafrasi volgare dei <title ref="#disticha"
+                            >Disticha Catonis</title> del <persName ref="#catone"
+                            >pseudo-Catone</persName>. Edizione del <persName ref="#AM1"
+                            >Miola</persName> che attribuisce al dialetto della parafrasi qualità
+                        calabresi. Il testo non era né unico né inedito. Ms. Trivulziano; edizione
+                        quattrocentina conservata nella biblioteca di <placeName ref="#napoli"
+                            >Napoli</placeName>. Personalità dell’Autore – Documenti dai quali
+                        risulta che esso fu da <placeName ref="#anagni">Anagni</placeName>, parente
+                        di Bonifazio VIII e visse dalla seconda metà del sec. XIII fin oltre al
+                        1311, anno in cui lo si trova podestà di <placeName ref="#foligno"
+                            >Foligno</placeName> per <persName ref="#RdAngiò">re Roberto di
+                            Napoli</persName>. Documenti relativi il fratello (cugino) Guarnazone
+                        cui fu dedicata la parafrasi. Popolarità dei Distica nel medio evo;
+                        traduzioni, parafrasi, imitazioni rifacimenti che se ne citano nelle varie
+                        letterature occidentali. Posto che ha fra di esse la parafrasi del
+                        Catenacci; forma poetica e dialetto del testo.</p>
+                    <p><title ref="#liber">Il Liber historiarum romanorum</title>. Codice d’Amburgo
+                        – Codice Laurenziano Gaddiano – Codice Colombiniano – contenuto del Libretto
+                        e sue fonti. Testo latino dell’opera ritrovato in un Codice Laurenziano
+                        Strozziano – Relazioni di questo codice con i codici del Volgarizzamento. –
+                        Indagini sulla età della compilazione latina. Confronto di essa con la
+                        Cronaca di Martino Polono. Differenza nel sistema di composizione, nelle
+                        fonti adoperate, nello spirito che anima le due opere. Probabilmente il
+                        Libretto nella sua forma latina risale ai tempo di Arnaldo di Brescia, e
+                        l’autore tore sembra essere stato un magister. Tradizioni scolastiche in
+                        Roma durante il medioevo. Risveglio delle tradizioni antiche in Roma verso
+                        la metà del sec. XII. Opportunità in quei momenti di un libro come quello
+                        delle Historiae Romanae – Ricerche sulla età del volgarizzamento –
+                        Paleografia dei tre mss. loro rapporti genealogici – <title ref="#conti">Le
+                            Storie e i Conti di antichi cavalieri</title>. Questi contengono parte
+                        delle Storie e debbono averla attinta non dal testo altino ma dal
+                        volgarizzamento - Prove. Antichità dei Conti – Le miniature del Codice
+                        d’Amburgo. Tra di esse si distaccano dal sistema di tutte le altre fatte per
+                        illustrare il testo. Loro carattere allegorico. Spirito diverso della loro
+                        composizione. Due di esse rappresentano i due lati delle monete di <persName
+                            ref="#brancaleone">Brancaleone degli Andalò</persName>, Senatore di Roma
+                        dal 1252 al 1257, e sembra che siano state lì messe in onore di lui. L’altra
+                        che sta in fine del codice, in una pagina rimasta bianca dopo l’explicit
+                        delle Storie, simboleggia il trionfo del papato sull’impero. Lo stile di
+                        questa sembra diverso e più recente; il concetto ci riporta ai tempi di
+                        <persName ref="#gregorioIX">Gregorio IX</persName> o di Bonifazio VIII.
+                        Forse fu una aggiunta d’occasione fatta per render gradito ad un partigiano
+                        del papa un libro destinato già prima ad un difensore della indipendenza del
+                        comune di Roma. Altre due.</p>
+                    <p>8.<title ref="#miracole">Le Miracole de Roma</title>. Il ms. Laurenziano -
+                        Gaddiano – Il testo latino dei Mirabilia Urbis Romae, sua formazione, sue
+                        redazioni diverse. Derivazione delle Miracole provenienti dal Curiosum urbis
+                        e dal De regionibus. Tutto induce a credere che anche questo testo sia di
+                        poco posteriore alla metà del sec. XIII. Miniature evidentemente copiate da
+                        due affreschi dell’oratorio di Santi Quattro Coronati, ci riportano
+                        ugualmente ai tempi di Brancaleone, ai quali sono riferiti quegli affreschi,
+                        che decoravano l’oratorio del castello abitato di Brancaleone medesimo.
+                        Relazioni di altre miniature del codice d’Amburgo con monumenti romani.
+                        Tracce della diffusione del Liber historiarum romanorum fuori di Roma; 9
+                        Posto che ad esso spetta nella storia della letteratura italiana, e nella
+                        storia dell’arte.9 Possibili reminiscenze di essa nella vita di <persName
+                            ref="#CRi">Cola di Rienzo</persName>.</p>
+
+                    <p>Bonifazio VIII n. nel 1217, m. nel 1303.-Fu educato a Todi e n’era canonico
+                        mentre Pietro suo zio, dopo il 1252, n’era vescovo – Gregorius V, 600,
+                        n.1.</p>
+                    <p>Napoleone Orsini, cardinale fin dal 1288, m. nel 1342. Ivi V, 683.</p>
+                    <p>Egidio Colonna, n. nel 1247. Ivi V, 707.</p>
+
+                    <p>9- La Mascalcia di <persName ref="#rusio">Lorenzo Ronzino</persName>. Fonti
+                        del testo, ms. della <orgName ref="#BiblAng">Biblioteca Angelica</orgName>,
+                        ms. della <orgName ref="#intronati">Comunale di Siena</orgName>. Essendo
+                        questo libro dedicato al <persName ref="#NapOrsini">Cardinale Napoleone
+                            Orsini</persName>, la sua origine si circoscrive fra il 1288 e il 1342.
+                        Il dialetto secondo i due mss.</p>
+                    <p>10.<persName ref="#ER1">Egidio Colonna</persName> e il suo commentario alla
+                        Canzone di <persName ref="#cavalcanti">Guido Cavalcanti</persName>
+                        sull’Amore. Edizione del Cittadini – Fonte ms. – Età della composizione. –
+                        Dubbi sulla lingua in cui è scritta.</p>
+                    <p>11. La compagnia dei Battuti del Gonfalone e il loro mistero della passione
+                        rappresentato al Colosseo. Antichità di quest’uso; edizione del sec. XV
+                        contenente un testo rifatto da Giuliano Dati e Compagni. – Ms. conservato
+                        nell’archivio della compagnia. Frammenti della primitiva redazione
+                        probabilmente rimasti in quel ms. Mezzi per riconoscere e distinguere le
+                        parti più antiche del rifacimento.</p>
+                    <p>12. Jacopo Colonna; suo sonetto al <persName ref="#petrarca"
+                            >Petrarca</persName> per la incoronazione del medesimo in Campidoglio. –
+                        Copia ms. conservataci dall’autografo del Petrarca, ora codice Vaticano
+                        3195.</p>
+                    <p>Edizioni della vita di Cola – dubbj sollevati da Jacopo Grimaldi – vaghezza
+                        di essi. – Li confuta il Fontanini – ma non basta – molti hanno seguitato a
+                        dubitare.Testo dei Fragmenta dato dal Muratori – Si vede di lì che l’opera
+                        era assai maggiore della vita e il suo carattere è quello di opera della
+                        maggiore autenticità. – Saggi di essi. Chi l’Autore? – il Fortifiocca? – Il
+                        filos. Romano? Ciò che l’autore dice di se stesso – Ulteriori ricerche a
+                        fare.</p>
+
+                    <p>Coltura dell’Autore</p>
+                    <p>Egli cita</p>
+                    <p>251 A: Isidoro ne lo libro de la Etimologia</p>
+                    <p>- C: <persName ref="#TL">Tito Livio</persName>, <persName ref="#lucano"
+                            >Lucano</persName>, <persName ref="#sallustio">Sallustio</persName></p>
+                    <p>- E: Salomone</p>
+                    <p>281 E = <persName ref="#aristotele">Aristotele</persName> – e 435 E</p>
+                    <p>295 D = Livio</p>
+                    <p>305 D = Valerio Massimo - e 435 B</p>
+                    <p>347 C = Simil. Di Dionigi Siracusano</p>
+                    <p>349 A = id. di Aristotele</p>
+                    <p>433 D = Santo Virgorio ne lo Dialogo</p>
+                    <p>435 A = Frate Martino ne la Cronica</p>
+
+                    <p>13. Frate Monosella; ricordo delle sue poesie nella vita di Cola di Rienzo.
+                        Altri poeti ricordati in quella vita, in occasione delle feste date dal
+                        Tribuno.</p>
+                    <p>14. Versi di Cola di Rienzo e sue rappresentazioni figurate.</p>
+                    <p>15. Virginio Lauriente da Cori e il suo poema su Faramondo. Frammento
+                        pubblicato dal Perticari giusta una comunicazione di Luigi Biondi. Edizione
+                        quattrocentina per Eucherio Silber perduta. Testimonianza della Cronaca di
+                        frate Santo da Cori. Dubbj su la lingua del frammento. Somiglianze con il
+                        Dittamondo di Fazio degli Uberti.</p>
+                    <p>16. Il Codice Vaticano 6001: miscellanea ivi contenuta di cose in parte
+                        probabilmente anteriori a Bonifazio VIII, in parte posteriori forse alla
+                        seconda metà del sec. XIV. Probabilmente è un testo crociano che aspetta di
+                        essere meglio esaminato.</p>
+                    <p>17. La Vita di Cola di Rienzo pubblicata a Bracciano dal Fei e i Fragmenta
+                        Historiae Romanae Edite nella Antiquitates Italicae Medii Aevi dal Muratori.
+                        Insussistenza dei vecchi dubbj sulla autenticità. Nuovi dubbj sulla
+                        autenticità. Nuovi dubbj da risolvere. Congettura intorno al Filosofo
+                        romano, cui è attribuito da un Codice Chigiano un brano dei Fragmenta.</p>
+                    <p>18. Storia del pseudo tribuno Matileno delli Portacasa attribuita al 1372;
+                        dubbj sulla sincerità della scrittura sollevati già dal Bicci nella sua
+                        Notizia della Famiglia Boccapaduli. Il testo ha sempre importanza letteraria
+                        come saggio di Novella romanesca. Ricerche ulteriori da farsi sui mss.</p>
+                    <p>19. Annali del Monaldeschi. Goffaggini e falsità storiche ivi contenute.
+                        Ragioni del Labrazzi per impugnarne l’autenticità. Altre investigazioni da
+                        fare su questo testo.</p>
+                    <p>20. Statuto del Castello di Nemo. Indizi della sua autenticità. Necessità di
+                        una classificazione generale degli statuti italiani per meglio chiarire a
+                        qual tempo possa appartenere.</p>
+                    <p>21. Giusto de’ Conti da Valmontone e il suo canzoniere fu la bella mano
+                        composto sui primi del sec. XV.</p>
+                    <p>22. Frammento di un diario romanesco di Gentile Delfini, dal 1370 al 1410,
+                        edito dal Muratori secondo una copia vaticana di un antico ms. dell’Archivio
+                        Colonna.</p>
+                    <p>23. Paolo di Liello Petrone, il suo Lamento in versi e la sua Misticanza.
+                        Dubbj sulla lingua di questa prosa.</p>
+                    <p>24. Paolo di Benedetto di Cola dello Maestro, notajo del rione di Ponte, e il
+                        suo Diario dal 1422 al 1484. Edizione, divergenze dei mss. in quanto alla
+                        lingua.</p>
+                    <p>25. Antonio Lottieri e il suo <title ref="#nepesino">Diario di Nepi</title>
+                        dal 1449 al 1468. Importanza di questo scritto come testo dialettale.</p>
+                    <p>26. <title ref="#viterbesi">Le Cronache Viterbesi</title> raccolte da Ignazio
+                        Ciampi. Dubbj sulla genuinità della lingua in cui le vediamo scritte.</p>
+                    <p>27. Prete Janni Mattiotti di Trastevere e i suoi <title ref="#tractati"
+                            >opuscoli su la vita di S. Francesca romana</title>, scritti prima del
+                        1460.</p>
+                    <p>28. Laudi di S. Francesca composte circa la stessa epoca.</p>
+                    <p>Altri frammenti di letteratura romana del m. evo restano probabilmente
+                        tuttora sepolti o travestiti da altri dialetti. Ma prima di volgersi a nuove
+                        ricerche importa, sui documenti già conosciuti, stabilire i caratteri del
+                        dialetto di Roma in quell’epoca.</p>
+
+                    <p rend="center">Scuola di magistero</p>
+                    <p>Generalità</p>
+                    <p>orario</p>
+                    <p>Temi</p>
+                    <p>Epigrafi latine dal m.e. di</p>
+                    <p>Epigrafi volgari R.</p>
+
+                    <p>Monumenti/Fonti primitivi delle letterature italiane</p>
+                    <p>Tradizioni e analisi dei facsimili</p>
+
+                    <p>I. Bonifazio VIII e la poesia attribuitagli. Fonti dal testo – Forma della
+                        poesia – relazioni di essa con lo Stabat Mater? Quando fu composto – La
+                        lingua può credersi genuina?</p>
+                    <p>II. Mascalcia di Lorenzo Ronzino. Fonti del testo – Sua . età – Essendo
+                        dedicata al Cardinale Napoleone Orsini siamo fra il 1288 e il 1342. – La
+                        lingua può credersi genuina? Confronto dei due mss.</p>
+                    <p>III. Il Catone di Messer Catenaccio. Edizione Del Miola – questi non
+                        riconosce l’autore e attribuisce al dialetto qualità calabresi. – Ma il
+                        testo non era inedito; ed quattrocentina; e il ms. Napoletano Non era unico:
+                        ms. Trivulziano già citato nei Trad. Ital. (trovatori italiani) […] e nel
+                        Vannucci. Mss. e stampa antica concordano nel/nome dell’autore e nel dirlo
+                        miles e de Campania. Ora, parlandosi di Campania, come venir fuori oggi con
+                        un Catone Napoletano e con un Catone Abruzzese, come fa il Percopo? Messere
+                        Catenaccio fu di Anagni; visse a tempi di Bonifazio VIII e in Anagni
+                        troviamo anche il suo frate Guarnaçone, cui dedicò il suo lavoro sui
+                        Disticha. Popolarità di quest’opera nel m. E. Traduzioni, parafrasi,
+                        imitazioni, rifacimenti – Questo di Catenaccio è una parafrasi. Sua forma
+                        poetica sua lingua.</p>
+                    <p>Rappresentazioni e versi di Cola di Rienzo – v. Vita, cap. 2°, 4°,</p>
+                    <p>poeti in Roma nel 1345 circa: ivi, cap. 10.</p>
+                    <p>Ritratti: di Martino di Porto, p. 37; papa Clemente 343 B-C; Guglielmo Di
+                        Assisi 347 C; Morbasciano 371 B;</p>
+                    <p>Descrizioni = andata di Cola al Laterano p. 41; Cavalleria di […] 447;</p>
+                    <p>Costumi = 307 E;317 A; 339 D; 359 C; 365 B; 369 C;</p>
+                    <p>Motti = di Stefano Colonna 259C; dell’autore 263 D; 279 B;</p>
+                    <p>Allusioni dell’Autore a se medesimo= 251 – 3; nel 1327 era fanciullo 259 E;
+                        nel 1338 era in Bologna 297 A; vide i reduci della rotta di Parabiago
+                        (Parabianco)303 E;</p>
+                    <p>interroga un testimone Oculare sulla battaglia del Rio Salado 327 D*</p>
+                    <p>Aneddoti. Fra Venturino 273, Frate Monosella 277; Corradino 282; Bruzzo
+                        Visconti 307; il filosofo che sputa 309; il Monaco di Città di Castello
+                        445;</p>
+                    <p>Onadri 263 D</p>
+                    <p>*Vedi pure 333 E, 335 E,nel 1356 era a Tivoli 337 A; poco prima era stato
+                        allo studio in Bologna ad apprendere fisica 341 E;</p>
+
+                    <p>Oltre frate Mononsella E Jacopo Colonna altri non dovettero mancare nella
+                        prima metà…La vita parla dei sonettatori….</p>
+                    <p>Cola stesso di Rienzo ha diritto qui ad una menzione;</p>
+                    <p>Abbiamo pure frate Santo da Cori;</p>
+                    <p>Finalmente i compilatori del Codice Vaticano 6081</p>
+
+                    <p>altri documenti in prosa:</p>
+                    <p>letterarj: Mattiodi, Altieri</p>
+                    <p>non letterarj: Diarj, Carte</p>
+
+                    <p>Doc. in poesia dialettale:</p>
+                    <p>Lamento di Paolo di Liello Petrone non dialettale o quasi: Abate Di Tivoli,
+                        Odo Colonna, Don Arrigo, Mistero del Colosseo, ritmo di Bonifazio VIII,
+                        Jacopo Colonna, Giusto de’ Conti.</p>
+
+                    <p>Documenti della provincia</p>
+                    <p>Al Nord: Nepi, Lottieri</p>
+                    <p>Al Sud: Catenaccio, Sante Lauricate?</p>
+
+                    <p rend="center">Polistoria di Giovanni Cavallini de’ Cerroni</p>
+                    <p>Tuttora inedita.</p>
+                    <p>Due mss. se ne conoscono:</p>
+                    <p>n°. XXIV della <orgName ref="#BiblNov">Biblioteca Capitolare di
+                            Novara</orgName>,</p>
+                    <p>n°. XLVII Gudiano della <orgName ref="#BiblG">Biblioteca
+                            Guelferbitana</orgName>.</p>
+
+                    <p>Ne parlarono:</p>
+                    <p>Graf, Roma, I, 72 a 77.</p>
+                    <p>Andres, Lettura sopra alcuni codici delle Biblioteche Capitolari di Novara e
+                            <orgName ref="#BiblVer">di Vercelli</orgName>, Parma, 1862.</p>
+
+                    <p>L’autore fioriva circa la metà del s. XIV.</p>
+                    <p>Diede estratti l’Urlichs</p>
+                </div>
+                <div type="textpart" subtype="section" n="2">
+                    <head>Provincia di Roma, appunti bibliografici sulle fonti storiche</head>
+
+                    <p><placeName ref="#aqui">Acqui</placeName> – Moriondos, Mon. Aquenzia
+                            <lb/><placeName ref="#torino">Torino</placeName>, 1289 – 9 (doc.
+                        dall’891) <lb/><placeName ref="#alatri">Alatri</placeName> –
+                            <orgName>Archivio Capitolare</orgName>(933)</p>
+
+                    <p><placeName ref="#alessandria">Alessandria</placeName> – <title>Liber
+                            Crucis</title></p>
+                    <p>Anagni - DeMagistris, <title>Istoria … d’Anagni</title></p>
+
+                    <p rend="#center"><placeName ref="#fumone">Fumone</placeName></p>
+                    <p>Versione del <title ref="#diesirae">Diesirae</title> in <persName ref="#FE1"
+                            >Filippo Ermini</persName>, <hi rend="underline">Il Diesirae e
+                            l’innologia ascetica nel sec. XIII</hi>.</p>
+                    <p>Roma, 1903, p. 139 –’46.</p>
+
+                    <p rend="#center"><placeName>Banco</placeName></p>
+                    <p>Versione del Diesirae.</p>
+                    <p>ivi p. 139 – ’40 . In nota.</p>
+
+                    <p rend="#center"><placeName ref="#acquapendente">Acquapendente</placeName></p>
+                    <p>Documenti mss. in <orgName>Archivio municipale.</orgName> del sec. XII.</p>
+
+                    <p rend="#center">Alatri</p>
+                    <p>Documenti mss.</p>
+                    <p>Nell’<orgName>Archivio Capitolare</orgName>, del 933;</p>
+                    <p>nell’<orgName>Archivio Municipale</orgName>, del 1241</p>
+                    <p>cf. <orgName ref="#ARIGG">Archivio der Gesellschaft</orgName> XII, 486</p>
+
+                    <p rend="#center">>Anagni</p>
+                    <p>Documenti mss.</p>
+                    <p>Nell’<orgName>Archivio Capitolare</orgName>, del sec. XII;</p>
+                    <p>Nell’<orgName>Archivio Municipale</orgName>, del sec. XII.</p>
+                    <p>Stampati</p>
+                    <p>In <title ref="#istoriaanagni">DeMagistris, Istoria della città e S. Basilica
+                            cattedrale d’Anagni</title> Roma, 1749.</p>
+
+                    <p rend="#center"><placeName ref="#civitavecchia">Civitavecchia</placeName></p>
+                    <p>Documenti ms.</p>
+                    <p>Nell’<orgName>Archivio civico</orgName>, cf. Archivio der Gesellschaft XII,
+                        566.</p>
+
+                    <p rend="#center"><placeName ref="#corneto">Corneto</placeName></p>
+                    <p>Documenti mss.</p>
+                    <p>Varj, con un copiario (Margarita Cornetana) contenente documenti dal 1201 al
+                        1436, nell’<orgName>Archivio Comunale.</orgName> cf. Archivio der
+                        Gesellschaft XII 474, edizione Da Orioli, <title>Giornale Arcadico</title>
+                        1852.</p>
+                    <p>Stampati</p>
+                    <p><title>Wüstenfeld, Regesten der Wichtheren Urkunden zur Geschichte von
+                            Corneto</title>, 95 Regesten von 990 – 1314 in Pflugk – Harttung, Iter
+                        italicum 529.</p>
+
+                    <p rend="#center"><placeName ref="#fara">Fara</placeName></p>
+                    <p>Mss.</p>
+                    <p><title>Documenta S. Mariae de Fara</title>, in Roma nell’<orgName
+                            ref="#BibVat">Archivio del capitolo di S. Pietro</orgName>; dall’anno
+                        1020. Cf. Archivio der Gesellsch. XII, 408.</p>
+
+                    <p rend="#center"><placeName ref="#farfa">Farfa</placeName></p>
+                    <p>Mss.</p>
+                    <p><title ref="#largitorius">Largitorius Farfensis</title> e <title
+                            ref="#floriger">Floriger Farfensis</title> dal 1132 in Farfa. Cf.
+                        Archivio der Gesellschaft XII, 489.</p>
+                    <p><title ref="#regestofarfa">Registrum Farfense</title>; Biblioteca Vaticana
+                        7854 – 7866;</p>
+                    <p>edizione Blazani e Giorgi. Testi dal 705 con appendice dal 633.</p>
+
+                    <p rend="#center"><placeName ref="#ferentino">Ferentino</placeName></p>
+                    <p>Mss.</p>
+                    <p>Vedi nell’Archivio Der Gesellschaft XII, 483.</p>
+
+                    <p rend="#center"><placeName ref="#frascati">Frascati</placeName></p>
+                    <p>Mss. nell’<orgName ref="#BiblFrascati">Archivio Comunale</orgName>, dal sec.
+                        XV. Cf. Archivio Der Gesellschaft XII, 480.</p>
+
+                    <p rend="#center"><placeName ref="#genzano">Genzano</placeName></p>
+                    <p>Stampati, in</p>
+                    <p><title ref="#storiagenzano">Ratti, Storia di Genzano</title>, Roma, 1797.</p>
+
+                    <p rend="#center"><placeName ref="#grottaferrata">Grottaferrata</placeName></p>
+                    <p>Mss. nell’<orgName>Archivio Berberiniano.</orgName></p>
+
+                    <p rend="#center"><placeName ref="#rieti">Rieti</placeName></p>
+                    <p>Mss. <title ref="#instauratio">G. Nandè, Instauratio tabularii majoris templi
+                            Reatini 1640</title>, con documenti dal 772. Cf. Archivio Der
+                        Gesellschaft XII, 488.</p>
+                    <p>Stampe. <title ref="#chieserieti">Galletti, Memorie di tre antiche chiese di
+                            Rieti.</title> Roma, 1765.</p>
+
+                    <p rend="#center"><placeName ref="#sezze">Sezze</placeName></p>
+                    <p>Mss. nell’Archivio della Città.</p>
+                    <p>Stampato In <title ref="#historiasetiae">D. Georgius, Historia diplomatica
+                            cathedrae episcopalis civitatis Setiae in Latio cum appendice
+                            monumentorum</title>. Romae, 1757-</p>
+
+                    <p rend="#center"><placeName ref="#subiaco">Subiaco</placeName></p>
+                    <p>Mss. Carte e <title ref="#regsublacense">Regesto sublacense</title>, in
+                            <orgName ref="#BiblScol">Archivio di S. Scolastica</orgName>. Cf.
+                        Archivio der Gesellschaft XII, 486.</p>
+
+                    <p rend="#center"><placeName ref="#terni">Terni</placeName></p>
+                    <p>Mss. Carte nell’<orgName>Archivio capitolare</orgName> e in quello comunale
+                        in quest’ultimo anche il <title>Liber Reformationum</title>(reforfazionum
+                        sic.) del sec. XIV. Cf. Archivio der Gesellschaft XII, 552.</p>
+                    <p>Stampato In Manassei, Alcuni documenti per la storia di Terni e Spoleto, 18
+                        documenti dall’ 856 al 1267. Cf. <orgName ref="#ArchIt"> Archivio Storico
+                            italiano</orgName> serie III, v. XXII, p.367.</p>
+
+                    <p rend="#center"><placeName ref="#terracina">Terracina</placeName></p>
+                    <p>Carte mss. nell’<orgName>Archivio Vescovile</orgName>, nel Capitolare nel
+                        Municipale. Cf. Archivio der Gesellschaft XII, 482.</p>
+                    <p>Carte stampate In <title ref="#terracinensi">D. A. Contador, De Historia
+                            Terracinensi</title>. Romae, 1742.</p>
+
+                    <p rend="#center"><placeName ref="#tivoli">Tivoli</placeName></p>
+                    <p>Carte mss. e un Copiario dal 1520 nell’Archivio della città. Cf. Archivio der
+                        Gesellschaft XII, 484.</p>
+                    <p>Stampato <title>Bruzza, Cartularium Tiburtinum in Studi del Palazzo
+                            Spada</title>.</p>
+
+                    <p rend="#center"><placeName ref="#tuscania">Toscanella</placeName></p>
+                    <p>Stampato In <title ref="#memorietuscania">Turicozzi, memorie storiche della
+                            città Tuscania</title>. Roma, 1778.</p>
+                    <p><title ref="#tuscaniamonumenti">Campanari S. Tuscania e i suoi
+                            monumenti</title>. <placeName ref="#montefiascone"
+                            >Montefiascone</placeName>, 1856.</p>
+
+                    <p rend="#center"><placeName ref="#tuscolo">Tuscolo</placeName></p>
+                    <p>Mss. <title>Historia dei Conti di Tuscolo</title>, in Biblioteca Vaticana
+                        codice 8043.</p>
+
+                    <p>(Spogli)</p>
+                    <p>Pergamene di S. Spirito;</p>
+                    <p>˶ di Sancta Sanctor;</p>
+                    <p>˶ di S. Silvestro in Capite (Archivio di St.)</p>
+                    <p>˶ di S. Cosimato (Archivio di St.</p>
+                    <p>˶ di S. Maria Maggiore</p>
+                    <p>˶ del Capitolare Lateranense</p>
+                    <p>˶ del Capitolare Vaticano</p>
+                    <p>˶ della Collegiata di S. Maria in via Cata</p>
+                    <p>˶ dell’<orgName ref="#ArchRusp">Archivio Ruspoli</orgName></p>
+                    <p>˶ dell’<orgName ref="#ArchSC">Archivio Cesarini</orgName></p>
+                    <p>˶ dell’<orgName ref="#ArchOrsini">Archivio Orsini</orgName></p>
+                    <p>˶ dell’<orgName ref="#ArchCaetani">Archivio Caetani</orgName></p>
+                    <p>˶ dell’<orgName>Archivio dei Conti Cardelli Collicola</orgName></p>
+                    <p>˶ Velletrane</p>
+                    <p>˶ Tiburtine</p>
+                    <p>˶ Alatrine</p>
+                    <p>˶ Anagnine (un regesto dei sc. XIII - XV nell’Archivio di Stato, in
+                        Copia.)</p>
+                    <p>Terracina</p>
+                    <p>Perg. Di Piperno (Catedrale)</p>
+                    <p>˶ ˶ <placeName ref="#sezze">Sezze</placeName> (comun. e Catedrale)</p>
+                    <p>˶ ˶ <placeName ref="#veroli">Veroli</placeName> (collegiata)</p>
+                    <p>˶ ˶ <placeName>Aspra in Sabina</placeName></p>
+                    <p>˶ ˶ Rieti ( Catal. a stampa)</p>
+                    <p>˶ ˶ <placeName ref="#orvieto">Orvieto</placeName> (Cod. Dipl. Fumi)</p>
+                    <p>˶ ˶ <placeName ref="#viterbo">Viterbo</placeName> (Comune, Catedrale e
+                        Archivio dei Domenicani)</p>
+                    <p>˶ ˶ <placeName ref="#vetralla">Vetralla</placeName> (archivio comunale)</p>
+                    <p>˶ ˶ <placeName ref="#bagnorea">Bagnorea</placeName> (idm)</p>
+                    <p>˶ ˶ <placeName ref="#sutri">Sutri</placeName> (idm e Catedrale)</p>
+                    <p>˶ ˶ Subiaco</p>
+                    <p>Corneto (Margarita Cornetana)</p>
+                    <p>Cominciare dallo spoglio dei Bollarj a stampa, dei Regesti, delle storie
+                        municipali, ecclesiastiche e di famiglia.</p>
+
+                    <p>Bianchi Giuseppe Indice dei documenti per la storia del Friuli dal 1200 al
+                        1400, pubblicato per cura del Municipio Di Udine. Udine, 1877.</p>
+                    <p>1125, Novembre 10 Medolico – A, 127.</p>
+
+                    <p>Civitavecchia - Statuto in Annovazzi Storia di C. (Civitavecchia)</p>
+                    <p>Viterbo – carta volgare – Statuti del sec. XIII latini – Cronache dal Della
+                        Tuccia e di altri in</p>
+                    <p><hi rend="underline">Documenti di Storia italiana</hi> t. V.</p>
+
+                    <p><placeName ref="#nepi">Nepi</placeName> Carte in Hartmann</p>
+                    <p>Lande in <hi rend="underline">Rendiconti dei <orgName ref="#AccLin"
+                                >Lincei</orgName></hi> 1892</p>
+                    <p>Diario di Cent. Lottieri dal 1459 al 1468 in Archivio vol. VIII</p>
+                    <p>Vetralla - Lettera del sec. XV in Docum. cit. t. V.</p>
+
+                    <p>Lazio</p>
+                    <p rend="#center"><placeName ref="#velletri">Velletri</placeName></p>
+                    <p>I. Carte del sec. XV inedite nell’Archivio comunale.</p>
+                    <p>II Rime del Jachini.</p>
+
+                    <p>Lazio</p>
+                    <p rend="#center"><placeName ref="#marino">Marino</placeName></p>
+                    <p>I. Anonimo dei <title>Fragmenta Historiae Romanae</title> e della <title
+                            ref="#cronica">Vita di Cola di Rienzo</title></p>
+                    <p>II. Osservazioni e spogli sul dialetto marinese in Torquati, Origini della
+                        lingua italiana, Roma, 1886.</p>
+
+                    <p>Lazio</p>
+                    <p rend="#center"><placeName ref="#cori">Cori</placeName></p>
+                    <p>I. Poema su Faramondo di <persName ref="#VL">Virginio Lauriente</persName>.
+                        Frammento riportato dal <persName ref="#GP1">Perticari</persName> nel suo
+                        libro <title ref="#amorpatrio"><hi rend="underline">Dell’amor patrio di
+                                Dante</hi></title>, inserito nella <hi rend="underline"
+                            >Proposta</hi> del <persName ref="#VM">Monti</persName>, vol. II, pr.
+                        II, p. 249.</p>
+
+                    <p rend="#center">Cori</p>
+                    <p>Nel 1820 il Perticari, pubblicando nella <hi rend="underline">Proposta</hi>
+                        del Monti (vol. II. par. II) il suo libro <hi rend="underline">Dell’amor
+                            patrio di Dante</hi>, a p. 248, dava per primo la notizia di un aulico
+                        poeta di Cori, nato nel 1274 «o in quel torno» per nome Virginio Lauriente ,
+                        il quale «cantò il re Ferramondo di Francia in un poema che fu poi
+                        pubblicato per le stampe d’<persName ref="#ES">Eucario Silber</persName> nel
+                        1483». Soggiungeva il Perticari che la fortuna si mostrò avversa a quello
+                        libro, con che sembra vedesse significare che la edizione andò perduta.
+                        Certo è che il Perticari dice averne avuta la notizia da <persName
+                            ref="#LB2">Luigi Biondi Romano</persName>, il quale ne avrebbe trovato
+                        una testimonianza «nella inedita storia Corana di frate Santo da Cori al
+                        capitolo 55» e da quella avrebbe estratto un saggio del poema consistente in
+                        sette terzine, che formavano il principio del canto VIII e che il Perticari
+                        pubblicò nell’opera su citata a p. 249. Il <persName ref="#JCB"
+                            >Brunet</persName>, il <persName ref="#ThG">Graesse</persName>, hanno
+                        registrato nei loro repertori bibliografici il poema su Ferramondo stampato
+                        dal Silber, e così anche la Chevalier nel suo <hi rend="underline"
+                            >Repert</hi>. Dei fondi storici del medio evo. Ma tutti rimandano al
+                        Perticari e il Perticari rimanda al Biondi. Così dice anche lo Zambr.
+                        Bastava questa autorità per far ritenere accertata la cosa? Lo Zambr non
+                        dissimulò qualche esitazione pur senza motivarla. Ma se avesse saputo e
+                        pensato che le bibliografie quattrocentine di Roma non fanno alcuna menzione
+                        di questo libro, mentre pur ne registrano parecchi altri stampati dal
+                        Silber, forse si sarebbe spinto anche più avanti nel dubbio. Certo è per
+                        altro che il Perticari non è stato il solo a parlarne. Nel 1834 parlò
+                        Marocco, 1838 ne parlò il <persName ref="#GBM">Melzi</persName>. Anche
+                        questi si riferiscono al Perticari, ma aggiungono ognuno cose che nel
+                        Perticari e che non si possono credere di immaginate. È poi da notare che la
+                        cronaca di frate Sante tuttor esiste…</p>
+
+                    <p rend="#center">Alatri</p>
+                    <p>I. Capitali della fraterna de Sancto Sisto (1417 – 31;) editi secondo il ms.
+                        orig. Dal De Persiis nel suo libro <hi rend="underline">Del Pontificato di
+                            S. Sisto I</hi>, Alatri, 1884) <lb/>II. <title ref="#dialettoalatrino"
+                            >Avòli, Saggi di studj etimologici sopra alcune voci del dialetto
+                            Alatrino</title>; Roma, 1881. <lb/>III. <title ref="#vocalismoalatri"
+                            >Ceci, Il vocalismo del dialetto d’Alatri</title>, nell’<title
+                            ref="#AGI">Archivio glottologico</title> t. X.</p>
+
+                    <p rend="#center">Sezze</p>
+                    <p>I. Capituli et pacti fra lo magnanimo conte Antonio da Pisa da una parte e
+                        dall’altra la magnifica comunità de Seczia. Stipul. Nel 1434; editi in
+                        Marocco, Monum.ti dello stato pontificio, VI, 35.</p>
+
+                    <p>Lazio</p>
+                    <p rend="#center">Terracina</p>
+                    <p>I . Capituli di tregua fra Terracina e Sezze e altre terre vicine, stipulati
+                        nel 1439. Editi in Marocco, op. cit. vol. VI, P. 37 – 41.</p>
+
+                    <p rend="#center">Anagni</p>
+                    <p>I. Ritmo volgare di Bonifazio VIII. <lb/>II. Parafrasi verzeggiata dei
+                        distici del pseudo Catone per mess. Catenacci. <lb/>III. Codice Vaticano
+                        6401.</p>
+
+                    <p rend="#center"><placeName ref="#carpineto">Carpineto</placeName></p>
+                    <p>Iscrizioni (due) pubbl. dal Marocco, op. cit. V, 42,45. Quesiti intorno alle
+                        medesime</p>
+
+                    <p>Terra di lavoro</p>
+                    <p rend="#center"><placeName ref="#sgermano">Montecassino S.
+                        Germano</placeName></p>
+                    <p>I. <title ref="#ritmocassinese">il ritmo cassinese</title>; forse del sec.
+                        XII; nella <title ref="#crestomazia">Crestomazia italiana dei primi
+                            scoli</title> n°. 14. <lb/>II. Notabilia temporum di Cengelo de
+                        Tummolillis.</p>
+
+                    <p rend="#center">Civitavecchia</p>
+                    <p>Non conosco che lo Statuto antico di C.V. volgarizzato l’a. 1451 e pubblicato
+                        secondo ms. originale esistente nell’Archivio di quel comune, Annovazzi
+                        nella sua storia di Civitavecchia, Roma, Ferretti, 1853.</p>
+
+                    <p rend="#center">Nepi</p>
+                    <p>I. Diario Nepesino di Antonio Lottieri dal 1459 al ’68 (nell’Arch. della
+                            <orgName ref="#SocRom">Società Romana di Storia patria</orgName>, VII,
+                        115 – 82).</p>
+
+                    <p rend="#center">Viterbo</p>
+                    <p>I. Le cronache e gli statuti della città di Viterbo del 1251 pubblicato da I.
+                        Ciampi. Firenze, Cellini, 1872 Documenti di storia Italiana volume <lb/>II.
+                        Estratti dagli studi delle arti: dei macellari (1384); de’ maestri di pietra
+                        e d’architettura (1461); del legname (1465); de’ lanaroli (1511); de’
+                        vignaroli (1522); dell’ortulari (1481); de’ calzolari e vaccinari (1544?);
+                        (nell’Archivio della Società Romana di Storia patria, VII, 7 – 114).
+                        <lb/>III. <title ref="#cronacafrate">Cronaca di fra Francesco di Andrea di
+                            Viterbo</title> (finisce al 1451; ed. nell’<title ref="#ArchMU">Archivio
+                            storico Per le Marche e l’Umbria</title>, IV (1888), 269 – 338. <lb/>IV.
+                        Orioli, Il dialetto viterbese Nel trecento (Album di Roma, XXI, 332
+                        ss.).</p>
+
+                    <p>Archivio storico Per le Marche IV, 261.</p>
+                    <p>Scarcare (demolire) Viterbo III. 271.</p>
+                </div>
+                <!--<div type="textpart" subtype="section" n="3">
+                    <head>Appunti di fonetica e morfologia</head>
+                    <p>...</p>
+                </div>-->
+                <!--<div type="textpart" subtype="section" n="4">
+                    <head>Bozze di stampa</head>
+                    <p>...</p>
+                </div>-->
+            </div>
+        </body>
+    </text>
+</TEI>
