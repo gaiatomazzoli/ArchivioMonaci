@@ -199,7 +199,7 @@
                     <orgName>Università di Vienna</orgName>
                 </org>
 
-                <!--AList aggiornata a Giugno 2021 da MF-->
+                <!--AList aggiornata a Dicembre 2021 da MF-->
 
                 <!--  Tomazzoli -->
 
@@ -314,6 +314,41 @@
                 <org xml:id="SGL">
                     <orgName>Sociedade de Geografia de Lisboa</orgName>
                 </org>
+                
+                <!-- Di Lauro -->
+                
+                <org xml:id="ARIGG">
+                    <orgName>Archiv des Römischen Instituts der Görres-Gesellschaft</orgName>
+                </org>
+                
+                <org xml:id="BiblFrascati">
+                    <orgName>Biblioteca Archivio Storico Comunale di Frascati</orgName>
+                </org>
+                
+                <org xml:id="BiblScol">
+                    <orgName>Biblioteca Santa Scolastica</orgName>
+                </org>
+                
+                <org xml:id="ArchRusp">
+                    <orgName>Archivio Ruspoli-Marescotti</orgName>
+                </org>
+                
+                <org xml:id="ArchSC">
+                    <orgName>Archivio Sforza Cesarini</orgName>
+                </org>
+                
+                <org xml:id="ArchOrsini">
+                    <orgName>Archivio Storico Capitolino degli Orsini</orgName>
+                </org>
+                
+                <org xml:id="ArchCaetani">
+                    <orgName>Archivio gentilizio Caetani di Sermoneta</orgName>
+                </org>
+                
+                <org xml:id="SocRom">
+                    <orgName>Società Romana di Storia Patria</orgName>
+                </org>
+                
 
             </listOrg>
         </body>
