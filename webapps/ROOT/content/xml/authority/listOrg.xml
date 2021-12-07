@@ -296,6 +296,24 @@
                 <org xml:id="BibFom">
                     <orgName>Biblioteca del Ministerio De Fomento</orgName>
                 </org>
+                
+                <!-- Autorino -->
+                
+                <org xml:id="SATF">
+                    <orgName>Société des anciens textes français</orgName>
+                </org>
+                
+                <org xml:id="LPS">
+                    <orgName>London Philological Society</orgName>
+                </org>
+                
+                <org xml:id="SIPS">
+                    <orgName>Società Italiana per il Progresso delle Scienze</orgName>
+                </org>
+                
+                <org xml:id="SGL">
+                    <orgName>Sociedade de Geografia de Lisboa</orgName>
+                </org>
 
             </listOrg>
         </body>
