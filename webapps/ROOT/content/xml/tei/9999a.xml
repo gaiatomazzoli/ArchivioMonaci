@@ -6,7 +6,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Graziadio Isaia Ascoli a Ernesto Monaci, lettera non datata</title>
+                <title>Graziadio Isaia Ascoli a Ernesto Monaci (senza data)</title>
                 <editor role="transcription"><persName>Stefano Boschi</persName></editor>
                 <editor role="encoding"><persName>Stefano Boschi</persName></editor>
             </titleStmt>
@@ -38,7 +38,7 @@
                 <correspAction type="sent">
                     <persName ref="#GIA">Graziadio Isaia Ascoli</persName>
                     <placeName ref="#sconosciuto">?</placeName>
-                    <date>?</date>
+                    <date/>
                 </correspAction>
                 <correspAction type="received">
                     <persName ref="#EM">Ernesto Monaci</persName>
