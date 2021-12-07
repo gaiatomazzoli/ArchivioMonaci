@@ -179,6 +179,7 @@
       <xsl:choose>
         <xsl:when test="@xml:lang='it'">Italiano</xsl:when>
         <xsl:when test="@xml:lang='fr'">Francese</xsl:when>
+        <xsl:when test="@xml:lang='es'">Spagnolo</xsl:when> <!--added 2021-12-07 MF-->
         <xsl:otherwise><xsl:value-of select="@xml:lang"/></xsl:otherwise>
       </xsl:choose>
     </field>
