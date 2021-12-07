@@ -21,8 +21,6 @@
       </section>
     </div>
   </xsl:template>
-
-  
   
   <xsl:template match="tei:correspDesc">
       <p><strong>Mittente:</strong><xsl:text> </xsl:text><xsl:apply-templates select="tei:correspAction[@type='sent']/tei:persName" />
@@ -43,10 +41,7 @@
       <xsl:otherwise><xsl:text>?</xsl:text></xsl:otherwise>
     </xsl:choose>
   </xsl:template>
-  
-  
-  
-  
+
   <xsl:template match="tei:bibl">
     <xsl:apply-templates /><xsl:text>. </xsl:text>
   </xsl:template>
