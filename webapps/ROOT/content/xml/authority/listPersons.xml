@@ -2288,8 +2288,6 @@
                 </person>
             </listPerson>
 
-
-
             <listPerson type="author">
                 <person xml:id="dante">
                     <persName>
@@ -2881,7 +2879,7 @@
                         >http://www.treccani.it/enciclopedia/giovan-battista-felice-zappi</idno>
                 </person>
 
-                <!--AList aggiornata a Giugno 2021 da MF-->
+                <!--AList aggiornata a Dicembre 2021 da MF-->
 
                 <!--  Tomazzoli -->
 
@@ -3971,6 +3969,628 @@
                     </persName>
                     <birth when="1075"/>
                     <death when="1141"/>
+                </person>
+                
+                <!-- Autorino -->
+                
+                <person xml:id="JNW">
+                    <persName>
+                        <forename>Joseph-Noël</forename>
+                        <surname>de Wailly</surname>
+                    </persName>
+                    <birth when="1805"></birth>
+                    <death when="1886"></death>
+                    <idno type="VIAF">32045701</idno>
+                    <idno type="Treccani">https://www.treccani.it/enciclopedia/wailly-joseph-noel-detto-natalis-de_%28Enciclopedia-Italiana%29/</idno>
+                </person>
+                
+                <person xml:id="RR1">
+                    <persName>
+                        <forename>Rudolf von</forename>
+                        <surname>Raumer</surname>
+                    </persName>
+                    <birth when="1815"></birth>
+                    <death when="1876"></death>
+                    <idno type="VIAF">50021430</idno>                    
+                </person>
+                
+                <person xml:id="WRW">
+                    <persName>
+                        <forename>Wilhelm Richard</forename>
+                        <surname>Wagner</surname>
+                    </persName>
+                    <birth when="1813"></birth>
+                    <death when="1883"></death>
+                    <idno type="VIAF">29732107</idno>
+                    <idno type="Treccani">https://www.treccani.it/enciclopedia/wilhelm-richard-wagner</idno>
+                </person>
+                
+                <person xml:id="GdA">
+                    <persName>
+                        <forename>Gabriele</forename>
+                        <surname>d'Annunzio</surname>
+                    </persName>
+                    <birth when="1863"></birth>
+                    <death when="1938"></death>
+                    <idno type="VIAF">49220129</idno>
+                    <idno type="Treccani">https://www.treccani.it/enciclopedia/gabriele-d-annunzio_%28Enciclopedia-dell%27Italiano%29/</idno>
+                </person>
+                
+                <person xml:id="AA2">
+                    <persName>
+                        <forename>Aleardo</forename>
+                        <surname>Aleardi</surname>
+                    </persName>
+                    <birth when="1812"></birth>
+                    <death when="1878"></death>
+                    <idno type="VIAF">54941761</idno>
+                    <idno type="Treccani">https://www.treccani.it/enciclopedia/aleardo-aleardi_(Dizionario-Biografico)</idno>
+                </person>
+                
+                <person xml:id="GP2">
+                    <persName>
+                        <forename>Georges</forename>
+                        <surname>Perrot</surname>
+                    </persName>
+                    <birth when="1832"></birth>
+                    <death when="1914"></death>
+                    <idno type="VIAF">49288717</idno>
+                    <idno type="Treccani">https://www.treccani.it/enciclopedia/georges-perrot</idno>
+                </person>
+                
+                <person xml:id="GG4">
+                    <persName>
+                        <forename>Girolamo</forename>
+                        <surname>Ghilini</surname>
+                    </persName>
+                    <birth when="1589"></birth>
+                    <death when="1668"></death>
+                    <idno type="VIAF">4834147967360984200003</idno>
+                    <idno type="Treccani">https://www.treccani.it/enciclopedia/girolamo-ghilini_%28Dizionario-Biografico%29/</idno>
+                </person>
+                
+                <person xml:id="LC5">
+                    <persName>
+                        <forename>Lorenzo</forename>
+                        <surname>Crasso</surname>
+                    </persName>
+                    <birth when="1623"></birth>
+                    <death when="1691"></death>
+                    <idno type="VIAF">85741982</idno>
+                </person>
+                
+                <person xml:id="GF3">
+                    <persName>
+                        <forename>Giusto</forename>
+                        <surname>Fontanini</surname>
+                    </persName>
+                    <birth when="1666"></birth>
+                    <death when="1736"></death>
+                    <idno type="VIAF">44309027</idno>
+                    <idno type="Treccani">https://www.treccani.it/enciclopedia/giusto-fontanini_(Dizionario-Biografico)</idno>
+                </person>
+                
+                <person xml:id="AZ1">
+                    <persName>
+                        <forename>Apostolo</forename>
+                        <surname>Zeno</surname>
+                    </persName>
+                    <birth when="1668"></birth>
+                    <death when="1750"></death>
+                    <idno type="VIAF">14779941</idno>
+                    <idno type="Treccani">https://www.treccani.it/enciclopedia/apostolo-zeno_(Dizionario-Biografico)</idno>
+                </person>
+                
+                <person xml:id="FSQ">
+                    <persName>
+                        <forename>Francesco Saverio</forename>
+                        <surname>Quadrio</surname>
+                    </persName>
+                    <birth when="1695"></birth>
+                    <birth when="1756"></birth>
+                    <idno type="VIAF">59073351</idno>
+                    <idno type="Treccani">https://www.treccani.it/enciclopedia/francesco-saverio-quadrio_(Dizionario-Biografico)</idno>
+                </person>
+                
+                <person xml:id="PNS">
+                    <persName>
+                        <forename>Pietro</forename>
+                        <surname>Napoli Signorelli</surname>
+                    </persName>
+                    <birth when="1731"></birth>
+                    <death when="1815"></death>
+                    <idno type="VIAF">27073184</idno>
+                    <idno type="Treccani">https://www.treccani.it/enciclopedia/pietro-napoli-signorelli_(Dizionario-Biografico)</idno>
+                </person>
+                
+                <person xml:id="PM3">
+                    <persName>
+                        <forename>Pietro</forename>
+                        <surname>Mazzucchelli</surname>
+                    </persName>
+                    <birth when="1762"></birth>
+                    <death when="1829"></death>
+                    <idno type="VIAF">44646337</idno>
+                    <idno type="Treccani">https://www.treccani.it/enciclopedia/pietro-mazzucchelli_(Dizionario-Biografico)</idno>
+                </person>
+                
+                <person xml:id="AF1">
+                    <persName>
+                        <forename>Angelo</forename>
+                        <surname>Fabroni</surname>
+                    </persName>
+                    <birth when="1732"></birth>
+                    <death when="1803"></death>
+                    <idno type="VIAF">71380343</idno>
+                    <idno type="Treccani">https://www.treccani.it/enciclopedia/angelo-fabroni</idno>
+                </person>
+                
+                <person xml:id="FA">
+                    <persName>
+                        <forename>Filippo</forename>
+                        <surname>Argelati</surname>
+                    </persName>
+                    <birth when="1685"></birth>
+                    <death when="1755"></death>
+                    <idno type="VIAF">52439415</idno>
+                    <idno type="Treccani">https://www.treccani.it/enciclopedia/filippo-argelati</idno>
+                </person>
+                
+                <person xml:id="SM1">
+                    <persName>
+                        <forename>Scipione</forename>
+                        <surname>Maffei</surname>
+                    </persName>
+                    <birth when="1675"></birth>
+                    <death when="1755"></death>
+                    <idno type="VIAF">61555466</idno>
+                    <idno type="Treccani">https://www.treccani.it/enciclopedia/scipione-maffei</idno>
+                </person>
+                
+                <person xml:id="BT">
+                    <persName>
+                        <forename>Bernardino</forename>
+                        <surname>Tafuri</surname>
+                    </persName>
+                    <birth when="1695"></birth>
+                    <death when="1760"></death>
+                    <idno type="VIAF">2597876</idno>
+                    <idno type="Treccani">https://www.treccani.it/enciclopedia/bernardino-tafuri</idno>
+                </person>
+                
+                <person xml:id="IA">
+                    <persName>
+                        <forename>Ireneo</forename>
+                        <surname>Affò</surname>
+                    </persName>
+                    <birth when="1741"></birth>
+                    <death when="1797"></death>
+                    <idno type="VIAF">41894199</idno>
+                    <idno type="Treccani">https://www.treccani.it/enciclopedia/ireneo-affo</idno>
+                </person>
+                
+                <person xml:id="EDA">
+                    <persName>
+                        <forename>Eustachio</forename>
+                        <surname>D'Afflitto</surname>
+                    </persName>
+                    <birth when="1742"></birth>
+                    <death when="1787"></death>
+                    <idno type="VIAF">88707838</idno>
+                    <idno type="Treccani">https://www.treccani.it/enciclopedia/eustachio-d-afflitto_(Dizionario-Biografico)</idno>
+                </person>
+                
+                <person xml:id="CP">
+                    <persName>
+                        <forename>Cristoforo</forename>
+                        <surname>Poggiali</surname>
+                    </persName>
+                    <birth when="1721"></birth>
+                    <death when="1811"></death>
+                    <idno type="VIAF">68919162</idno>
+                    <idno type="Treccani">https://www.treccani.it/enciclopedia/cristoforo-poggiali</idno>
+                </person>
+                
+                <person xml:id="GBC">
+                    <persName>
+                        <forename>Giambattista</forename>
+                        <surname>Corniani</surname>
+                    </persName>
+                    <birth when="1742"></birth>
+                    <death when="1813"></death>
+                    <idno type="VIAF">61890547</idno>
+                    <idno type="Treccani">https://www.treccani.it/enciclopedia/giambattista-corniani_(Dizionario-Biografico)</idno>
+                </person>
+                
+                <person xml:id="PLG">
+                    <persName>
+                        <forename>Pierre-Louis</forename>
+                        <surname>Ginguené</surname>
+                    </persName>
+                    <birth when="1748"></birth>
+                    <death when="1816"></death>
+                    <idno type="VIAF">2470889</idno>
+                    <idno type="Treccani">https://www.treccani.it/enciclopedia/pierre-louis-ginguene</idno>
+                </person>
+                
+                <person xml:id="JCLSS">
+                    <persName>
+                        <forename>Jean-Charles-Léonard Simonde de</forename>
+                        <surname>Sismondi</surname>
+                    </persName>
+                    <birth when="1773"></birth>
+                    <death when="1842"></death>
+                    <idno type="VIAF">95159682</idno>
+                    <idno type="Treccani">https://www.treccani.it/enciclopedia/jean-charles-leonard-simonde-de-sismondi</idno>
+                </person>
+                
+                <person xml:id="GM2">
+                    <persName>
+                        <forename>Giuseppe</forename>
+                        <surname>Maffei</surname>
+                    </persName>
+                    <birth when="1775"></birth>
+                    <death when="1858"></death>
+                    <idno type="VIAF">42764475</idno>
+                    <idno type="Treccani">https://www.treccani.it/enciclopedia/giuseppe-maffei_(Dizionario-Biografico)</idno>
+                </person>
+                
+                <person xml:id="CU">
+                    <persName>
+                        <forename>Camillo</forename>
+                        <surname>Ugoni</surname>
+                    </persName>
+                    <birth when="1784"></birth>
+                    <death when="1855"></death>
+                    <idno type="VIAF">44288355</idno>
+                    <idno type="Treccani">https://www.treccani.it/enciclopedia/camillo-ugoni</idno>
+                </person>
+                
+                <person xml:id="GVG">
+                    <persName>
+                        <forename>Gian Vincenzo</forename>
+                        <surname>Gravina</surname>
+                    </persName>
+                    <birth when="1664"></birth>
+                    <death when="1718"></death>
+                    <idno type="VIAF">64050287</idno>
+                    <idno type="Treccani">https://www.treccani.it/enciclopedia/gian-vincenzo-gravina_(Dizionario-Biografico)</idno>
+                </person>
+                
+                <person xml:id="GG5">
+                    <persName>
+                        <forename>Gaspare</forename>
+                        <surname>Gozzi</surname>
+                    </persName>
+                    <birth when="1713"></birth>
+                    <death when="1786"></death>
+                    <idno type="VIAF">4966844</idno>
+                    <idno type="Treccani">https://www.treccani.it/enciclopedia/gasparo-gozzi_%28Enciclopedia-Dantesca%29/</idno>
+                </person>
+                
+                <person xml:id="GB4">
+                    <persName>
+                        <forename>Giuseppe</forename>
+                        <surname>Baretti</surname>
+                    </persName>
+                    <birth when="1719"></birth>
+                    <death when="1789"></death>
+                    <idno type="VIAF">41876672</idno>
+                    <idno type="Treccani">https://www.treccani.it/enciclopedia/giuseppe-baretti_(Dizionario-Biografico)</idno>
+                </person>
+                
+                <person xml:id="VA">
+                    <persName>
+                        <forename>Vittorio</forename>
+                        <surname>Alfieri</surname>
+                    </persName>
+                    <birth when="1749"></birth>
+                    <death when="1803"></death>
+                    <idno type="VIAF">39389587</idno>
+                    <idno type="Treccani">https://www.treccani.it/enciclopedia/vittorio-alfieri_(Dizionario-Biografico)</idno>
+                </person>
+                
+                <person xml:id="ABDG">
+                    <persName>
+                        <forename>Aurelio</forename>
+                        <surname>Bertola De Giorgi</surname>
+                    </persName>
+                    <birth when="1753"></birth>
+                    <death when="1798"></death>
+                    <idno type="VIAF">22154331</idno>
+                    <idno type="Treccani">https://www.treccani.it/enciclopedia/bertola-de-giorgi-aurelio_(Dizionario-Biografico)</idno>
+                </person>
+                
+                <person xml:id="CD">
+                    <persName>
+                        <forename>Carlo</forename>
+                        <surname>Denina</surname>
+                    </persName>
+                    <birth when="1731"></birth>
+                    <death when="1813"></death>
+                    <idno type="VIAF">54182789</idno>
+                    <idno type="Treccani">https://www.treccani.it/enciclopedia/carlo-denina</idno>
+                </person>
+                
+                <person xml:id="MC1">
+                    <persName>
+                        <forename>Melchiorre</forename>
+                        <surname>Cesarotti</surname>
+                    </persName>
+                    <birth when="1730"></birth>
+                    <death when="1808"></death>
+                    <idno type="VIAF">14833816</idno>
+                    <idno type="Treccani">https://www.treccani.it/enciclopedia/melchiorre-cesarotti</idno>
+                </person>
+                
+                <person xml:id="foscolo">
+                    <persName>
+                        <forename>Ugo</forename>
+                        <surname>Foscolo</surname>
+                    </persName>
+                    <birth when="1778"></birth>
+                    <death when="1827"></death>
+                    <idno type="VIAF">36929008</idno>
+                    <idno type="Treccani">https://www.treccani.it/enciclopedia/ugo-foscolo/</idno>
+                </person>
+                
+                <person xml:id="LAM">
+                    <persName>
+                        <forename>Ludovico Antonio</forename>
+                        <surname>Muratori</surname>
+                    </persName>
+                    <birth when="1672"></birth>
+                    <death when="1750"></death>
+                    <idno type="VIAF">68933348</idno>
+                    <idno type="Treccani">https://www.treccani.it/enciclopedia/ludovico-antonio-muratori</idno>
+                </person>
+                
+                <person xml:id="LPDJ">
+                    <persName>
+                        <forename>Louis</forename>
+                        <surname>Petit de Joulleville</surname>
+                    </persName>
+                    <birth when="1841"></birth>
+                    <death when="1900"></death>
+                    <idno type="VIAF">27073648</idno>
+                    <idno type="Treccani">https://www.treccani.it/enciclopedia/petit-de-julleville-louis</idno>
+                </person>
+                
+                <person xml:id="RM">
+                    <persName>Rabano Mauro</persName>
+                    <idno type="VIAF">95147534</idno>
+                    <idno type="Treccani">https://www.treccani.it/enciclopedia/rabano-mauro</idno>
+                </person>
+                
+                <person xml:id="GD1">
+                    <persName>Giovanni Diacono</persName>
+                    <idno type="VIAF">11893421</idno>
+                    <idno type="Treccani">https://www.treccani.it/enciclopedia/giovanni-diacono_res-02e6d283-87ee-11dc-8e9d-0016357eee51_(Dizionario-Biografico)</idno>
+                </person>
+                
+                <person xml:id="gregorioI">
+                    <persName>Gregorio I</persName>
+                    <idno type="VIAF">100184667</idno>
+                    <idno type="Treccani">https://www.treccani.it/enciclopedia/gregorio-i-papa-detto-magno-santo</idno>
+                </person>
+                
+                <person xml:id="BC">
+                    <persName>Benedetto Canonico di San Pietro</persName>
+                    <idno type="VIAF">212148996037859752669</idno>
+                    <idno type="Treccani">https://www.treccani.it/enciclopedia/benedetto-canonico-di-san-pietro_%28Enciclopedia-Italiana%29/</idno>
+                </person>
+                
+                <person xml:id="KN">
+                    <persName>
+                        <forename>Kristoffer</forename>
+                        <surname>Nyrop</surname>
+                    </persName>
+                    <birth when="1858"></birth>
+                    <death when="1930"></death>
+                    <idno type="VIAF">7509367</idno>
+                    <idno type="Treccani">https://www.treccani.it/enciclopedia/kristoffer-nyrop_%28Enciclopedia-Italiana%29/</idno>
+                </person>
+                
+                <person xml:id="VC2">
+                    <persName>
+                        <forename>Vincenzo</forename>
+                        <surname>Crescini</surname>
+                    </persName>
+                    <birth when="1857"></birth>
+                    <death when="1932"></death>
+                    <idno type="VIAF">73985456</idno>
+                    <idno type="Treccani">https://www.treccani.it/enciclopedia/vincenzo-crescini_(Dizionario-Biografico)</idno>
+                </person>
+                
+                <person xml:id="FVB">
+                    <persName>
+                        <forename>Ferdinand-Vincent de Paul-Marie</forename>
+                        <surname>Brunetière</surname>
+                    </persName>
+                    <birth when="1849"></birth>
+                    <death when="1906"></death>
+                    <idno type="VIAF">29605167</idno>
+                    <idno type="Treccani">https://www.treccani.it/enciclopedia/ferdinand-vincent-de-paul-marie-brunetiere</idno>
+                </person>
+                
+                <person xml:id="EG">
+                    <persName>
+                        <forename>Emanuele</forename>
+                        <surname>Gianturco</surname>
+                    </persName>
+                    <birth when="1857"></birth>
+                    <death when="1907"></death>
+                    <idno type="VIAF">27159690</idno>
+                    <idno type="Treccani">https://www.treccani.it/enciclopedia/emanuele-gianturco</idno>
+                </person>
+                
+                <person xml:id="PdV">
+                    <persName>Pietro della Vigna</persName>
+                    <idno type="VIAF">122196429</idno>
+                    <idno type="Treccani">https://www.treccani.it/enciclopedia/pietro-della-vigna</idno>
+                </person>
+                
+                <person xml:id="GdL">
+                    <persName>Giacomo da Lentini</persName>
+                    <idno type="VIAF">79398607</idno>
+                    <idno type="Treccani">https://www.treccani.it/enciclopedia/giacomo-da-lentini</idno>                    
+                </person>
+                
+                <person xml:id="JM1">
+                    <persName>Jacopo Mostacci</persName>
+                    <idno type="VIAF">263691025</idno>
+                    <idno type="Treccani">https://www.treccani.it/enciclopedia/jacopo-mostacci_(Dizionario-Biografico)</idno>
+                </person>
+                
+                <person xml:id="plinio">
+                    <persName>Plinio il Vecchio</persName>
+                    <idno type="VIAF">100219162</idno>
+                    <idno type="Treccani">https://www.treccani.it/enciclopedia/plinio-il-vecchio/</idno>
+                </person>
+                
+                <person xml:id="KU">
+                    <persName>
+                        <forename>Karl</forename>
+                        <surname>Ullmann</surname>
+                    </persName>
+                    <birth when="1824"></birth>
+                    <death when="1901"></death>
+                    <idno type="VIAF">49998988</idno>
+                </person>
+                
+                <person xml:id="JKO">
+                    <persName>
+                        <forename>Johannes Kaspar von</forename>
+                        <surname>Orelli</surname>
+                    </persName>
+                    <birth when="1787"></birth>
+                    <death when="1849"></death>
+                    <idno type="VIAF">62344858</idno>
+                    <idno type="Treccani">https://www.treccani.it/enciclopedia/johannes-kaspar-von-orelli</idno>
+                </person>
+                
+                <person xml:id="servio">
+                    <persName>Servio Mario Onorato</persName>
+                    <idno type="VIAF">10970700</idno>
+                    <idno type="Treccani">https://www.treccani.it/enciclopedia/servio</idno>
+                </person>
+                
+                <person xml:id="WH">
+                    <persName>
+                        <forename>Wilhelm</forename>
+                        <surname>Heraeus</surname>
+                    </persName>
+                    <birth when="1862"></birth>
+                    <death when="1938"></death>
+                    <idno type="VIAF">93792114</idno>
+                </person>
+                
+                <person xml:id="GF4">
+                    <persName>
+                        <forename>Gennaro</forename>
+                        <surname>Finamore</surname>
+                    </persName>
+                    <birth when="1836"></birth>
+                    <death when="1923"></death>
+                    <idno type="VIAF">15130136</idno>
+                    <idno type="Treccani">https://www.treccani.it/enciclopedia/gennaro-finamore</idno>
+                </person>
+                
+                <person xml:id="guicciardini">
+                    <persName>
+                        <forename>Francesco</forename>
+                        <surname>Guicciardini</surname>
+                    </persName>
+                    <birth when="1483"></birth>
+                    <death when="1540"></death>
+                    <idno type="VIAF"> 89549325</idno>
+                    <idno type="Treccani">https://www.treccani.it/enciclopedia/francesco-guicciardini_(Dizionario-Biografico)</idno>
+                </person>
+                
+                <person xml:id="KLU">
+                    <persName>
+                        <forename>Karl Ludwig von</forename>
+                        <surname>Ulrichs</surname>
+                    </persName>
+                    <birth when="1813"></birth>
+                    <death when="1889"></death>
+                    <idno type="VIAF">25403353</idno>
+                </person>
+                
+                <person xml:id="ambrogio">
+                    <persName>Sant'Ambrogio</persName>
+                    <idno type="VIAF">100227669</idno>
+                    <idno type="Treccani">https://www.treccani.it/enciclopedia/santo-ambrogio_%28Enciclopedia-Italiana%29/</idno>
+                </person>
+                
+                <person xml:id="AA3">
+                    <persName>
+                        <forename>Auguste</forename>
+                        <surname>Audollent</surname>
+                    </persName>
+                    <birth when="1864"></birth>
+                    <death when="1943"></death>
+                    <idno type="VIAF">121549712</idno>
+                    <idno type="Treccani">https://www.treccani.it/enciclopedia/auguste-audollent_%28Enciclopedia-Italiana%29/</idno>
+                </person>
+                
+                <person xml:id="PP">
+                    <persName>
+                        <forename>Paulin</forename>
+                        <surname>Paris</surname>
+                    </persName>
+                    <birth when="1800"></birth>
+                    <death when="1881"></death>
+                    <idno type="VIAF">4934721</idno>
+                    <idno type="Treccani">https://www.treccani.it/enciclopedia/paulin-paris</idno>
+                </person>
+                
+                <person xml:id="FRC">
+                    <persName>
+                        <forename>François Romain</forename>
+                        <surname>Camboliu</surname>
+                    </persName>
+                    <birth when="1820"></birth>
+                    <death when="1869"></death>
+                    <idno type="VIAF">99705940</idno>
+                </person>
+                
+                <person xml:id="UR">
+                    <persName>
+                        <forename>Ulysse</forename>
+                        <surname>Robert</surname>
+                    </persName>
+                    <birth when="1846"></birth>
+                    <death when="1903"></death>
+                    <idno type="VIAF">17323923</idno>
+                </person>
+                
+                <person xml:id="AB2">
+                    <persName>
+                        <forename>Auguste</forename>
+                        <surname>Brachet</surname>
+                    </persName>
+                    <birth when="1845"></birth>
+                    <death when="1898"></death>
+                    <idno type="VIAF">29640480</idno>
+                </person>
+                
+                <person xml:id="LHF">
+                    <persName>
+                        <forename>Ludwig Heinrich</forename>
+                        <surname>Friedländer</surname>
+                    </persName>
+                    <birth when="1824"></birth>
+                    <death when="1909"></death>
+                    <idno type="VIAF">217780625</idno>                   
+                </person>
+                
+                <person xml:id="AG2">
+                    <persName>
+                        <forename>Arminius von</forename>
+                        <surname>Guericke</surname>
+                    </persName>
+                    <idno type="VIAF">209025996</idno>
                 </person>
 
             </listPerson>
