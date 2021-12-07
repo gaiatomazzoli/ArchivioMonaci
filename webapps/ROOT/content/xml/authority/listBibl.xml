@@ -735,7 +735,204 @@
                     <date from="1877"/>
                 </bibl>
 
-                <!--AList aggiornata a Novembre 2021 da MF-->
+                <bibl xml:id="UDM">
+                    <title>Über die Minnehöfe</title>
+                    <author><persName>Friedrich Cristian Diez</persName></author>
+                    <date when="1825"/>
+                </bibl>
+
+                <bibl xml:id="CPOT">
+                    <title>Choix des poésies originales des troubadours</title>
+                    <author><persName>François-Juste-Marie Raynouard</persName></author>
+                    <date when="1816"/>
+                </bibl>
+
+                <bibl xml:id="ECA">
+                    <title>Essai sur le cour d'Amour</title>
+                    <author><persName>Friedrich Christian Diez</persName></author>
+                    <date when="1842"/>
+                </bibl>
+
+                <bibl xml:id="GRS">
+                    <title>Grammatik der romanischen Sprachen</title>
+                    <author><persName>Friedrich Christian Diez</persName></author>
+                    <date from="1836" to="1843"/>
+                </bibl>
+
+                <bibl xml:id="DELR">
+                    <title>Etymologisches Wörterbuch der romanischen Sprachen (Dizionario
+                        etimologico delle lingue romanze)</title>
+                    <author><persName>Friedrich Christian Diez</persName></author>
+                    <date when="1853"/>
+                </bibl>
+
+                <bibl xml:id="UPKH">
+                    <title>Über die erste portugiesische Kunst und Hofpoesie</title>
+                    <author><persName>Friedrich Christian Diez</persName></author>
+                    <date when="1863"/>
+                </bibl>
+
+                <bibl xml:id="AG">
+                    <title>Altromanische Glossare, berichtigt und erklärt</title>
+                    <author><persName>Friedrich Christian Diez</persName></author>
+                    <date when="1865"/>
+                </bibl>
+
+                <bibl xml:id="SCL">
+                    <title>Saggi di critica letteraria</title>
+                    <author><persName>Ugo Angelo Chianello</persName></author>
+                    <date when="1877"/>
+                </bibl>
+
+                <bibl xml:id="SWI">
+                    <title>Sprache und Welsheit der Inder</title>
+                    <author><persName>Friedrich Schlegel</persName></author>
+                    <date when="1808"/>
+                </bibl>
+
+                <bibl xml:id="DLLV">
+                    <title>De latina lingua vulgari</title>
+                    <author><persName>Olov Strandberg</persName></author>
+                    <date when="1816"/>
+                </bibl>
+
+                <bibl xml:id="DLV">
+                    <title>Die lateinische Vulgar-sprache</title>
+                    <author><persName>Pius Böhmer</persName></author>
+                    <!-- Data? -->
+                </bibl>
+
+                <bibl xml:id="RW">
+                    <title>Romanische Wortschöpfung</title>
+                    <author><persName>Friedrich Christian Diez</persName></author>
+                    <date when="1874"/>
+                </bibl>
+
+                <bibl xml:id="furioso">
+                    <title>Orlando Furioso</title>
+                    <author><persName>Ludovico Ariosto</persName></author>
+                    <date when="1532"/>
+                </bibl>
+
+                <bibl xml:id="lara">
+                    <title>Lara, a tale</title>
+                    <author><persName>George Gordon Byron</persName></author>
+                    <date when="1814"/>
+                </bibl>
+
+                <bibl xml:id="corsaro">
+                    <title>Il corsaro (The Corsair)</title>
+                    <author><persName>George Gordon Byron</persName></author>
+                    <date when="1814"/>
+                </bibl>
+
+                <bibl xml:id="RVF">
+                    <title>Rerum vulgarium Fragmenta</title>
+                    <author><persName>Francesco Petrarca</persName></author>
+                </bibl>
+
+                <bibl xml:id="DPT">
+                    <title>Die Poesie der Troubadours</title>
+                    <author><persName>Friedrich Christian Diez</persName></author>
+                    <date when="1826"/>
+                </bibl>
+
+                <bibl xml:id="LWT">
+                    <title>Leben und Werke der Troubadours</title>
+                    <author><persName>Friedrich Christian Diez</persName></author>
+                    <date when="1829"/>
+                </bibl>
+
+                <bibl xml:id="VDV">
+                    <title>Der Vokalismus des Vulgärlatein</title>
+                    <author><persName>Hugo Schuchardt</persName></author>
+                    <date when="1866"/>
+                </bibl>
+
+                <bibl xml:id="IUV">
+                    <title>Itala und Vulgata</title>
+                    <author><persName>Hermann Rönsch</persName></author>
+                    <date when="1869"/>
+                </bibl>
+
+                <bibl xml:id="KS">
+                    <title>Kreolische Studien</title>
+                    <author><persName>Hugo Schuchardt, 9 voll.</persName></author>
+                    <date from="1882" to="1891"/>
+                </bibl>
+
+                <bibl xml:id="ULSL">
+                    <title>Über Die Lais, Sequenzen Und Leiche</title>
+                    <author><persName>Friedrich Wolf</persName></author>
+                    <date when="1841"/>
+                </bibl>
+
+                <bibl xml:id="ALL">
+                    <title>Altfranzösische Lieder und Leiche</title>
+                    <author><persName>Wilhelm Wackernagel</persName></author>
+                    <date when="1846"/>
+                </bibl>
+
+                <bibl xml:id="VFV">
+                    <title>Vom französischen Versbau</title>
+                    <author><persName>Adolf Tobler</persName></author>
+                </bibl>
+
+                <bibl xml:id="FV">
+                    <title>Französische Verslehre</title>
+                    <author><persName>Oskar Ernst Lubarsch</persName></author>
+                    <date when="1879"/>
+                </bibl>
+
+                <bibl xml:id="TGVF">
+                    <title>Traité general de la versification française</title>
+                    <author><persName>Louis de Becq Fouquières</persName></author>
+                    <date when="1879"/>
+                </bibl>
+
+                <bibl xml:id="PTVF">
+                    <title>Petit traité de la versification française</title>
+                    <author><persName>Louis Quicherat</persName></author>
+                </bibl>
+
+                <bibl xml:id="RUT">
+                    <title>Ritornell und Terzine</title>
+                    <author><persName>Hugo Schuchardt</persName></author>
+                    <date when="1875"/>
+                </bibl>
+
+                <bibl xml:id="LSM">
+                    <title>Die lateinischen Sequenzen des Mittelalters in musikalischer und
+                        rhytmischer Beziehung</title>
+                    <author><persName>Karl Bartsch</persName></author>
+                    <date when="1868"/>
+                </bibl>
+
+                <bibl xml:id="LALR">
+                    <title>Der Ludus de Antichristo und über die lateinischen Rhythmen</title>
+                    <author><persName>Wilhelm Meyer</persName></author>
+                    <date when="1882"/>
+                </bibl>
+
+                <bibl xml:id="ASSL">
+                    <title>Archiv für das Studium der neueren Sprachen und Literaturen</title>
+                    <date from="1846"/>
+                </bibl>
+
+                <bibl xml:id="FC">
+                    <title>Fragmentos de hum Cancioneiro inedito, que se acha na livraria do Real
+                        Collegio dos Nobres de Lisboa</title>
+                    <author><persName>Charles Stuart, Barone Stuart de Rothesay</persName></author>
+                    <date when="1836"/>
+                </bibl>
+
+                <bibl xml:id="DLRR">
+                    <title>De lingua romana rustica quaestionum grammaticarum particula I</title>
+                    <author><persName>Wilhelm Berbliger</persName></author>
+                    <date when="1865"/>
+                </bibl>
+
+                <!--AList aggiornata a Dicembre 2021 da MF-->
 
                 <!--  Tomazzoli -->
 
@@ -807,10 +1004,6 @@
 
                 <bibl xml:id="JH">
                     <title>Jahrb</title>
-                </bibl>
-
-                <bibl xml:id="PR">
-                    <title>Prop.Rom</title>
                 </bibl>
 
                 <bibl xml:id="DPP">
@@ -1064,9 +1257,10 @@
                     <editor>Edmund Stengel</editor>
                     <date when="1882" type="edited"/>
                 </bibl>
-                
+
                 <bibl xml:id="SantaAgnese">
-                    <title>Il mistero provenzale di S. Agnese. Facsimile in eliotipa dell'unico manoscritto Chigiano con prefazione di Ernesto Monaci</title>
+                    <title>Il mistero provenzale di S. Agnese. Facsimile in eliotipa dell'unico
+                        manoscritto Chigiano con prefazione di Ernesto Monaci</title>
                     <editor>Ernesto Monaci</editor>
                     <date when="1880" type="edited"/>
                 </bibl>
@@ -1114,14 +1308,14 @@
                     <author><persName>Emanuele Celesia</persName></author>
                     <date when="1882"/>
                 </bibl>
-                
+
                 <!-- Casacchia -->
-                
+
                 <bibl xml:id="alessandreide">
                     <title>Alexandreis</title>
                     <author><persName>Gualtiero di Châtillon</persName></author>
-                </bibl>  
-                
+                </bibl>
+
                 <bibl xml:id="eneide">
                     <title>Eneide</title>
                     <author>
@@ -1129,36 +1323,141 @@
                     </author>
                     <date from="0029" to="0019"/>
                 </bibl>
-                
+
                 <!-- Lucchesi  -->
-                
+
                 <bibl xml:id="crestomatia">
                     <title>Crestomatía del español medieval</title>
                     <author><persName>R. Menéndez Pidal</persName></author>
                     <date when="1965"/>
                 </bibl>
-                
+
                 <bibl xml:id="facsimili">
-                    <title>Facsimili di Documenti per la storia delle lingue e delle letterature romanze</title>
+                    <title>Facsimili di Documenti per la storia delle lingue e delle letterature
+                        romanze</title>
                     <author><persName>E. Monaci</persName></author>
                     <date when="1910"/>
                 </bibl>
-                
+
                 <bibl xml:id="Revista">
                     <title>Revista de Filología Española</title>
                     <date from="1914"/>
                 </bibl>
-                
+
                 <bibl xml:id="iriense">
                     <title>Historia Iriense</title>
                     <author><persName>Tomás Tamayo de Várgas</persName></author>
                 </bibl>
-                
+
                 <bibl xml:id="levita">
                     <title>Canzoniere Sacro Di Giuda Levita</title>
                     <author><persName>Giuda Levita</persName></author>
                     <author><persName>Salvatore de Benedetti</persName></author>
                     <date when="1871"/>
+                </bibl>
+
+                <!-- Autorino -->
+
+                <bibl xml:id="AB">
+                    <title>Altfranzösische Bibliothek</title>
+                    <date from="1879"/>
+                </bibl>
+
+                <bibl xml:id="RQH">
+                    <title>Revue des questions historiques</title>
+                    <date from="1866"/>
+                    <date to="1939"/>
+                </bibl>
+
+                <bibl xml:id="HAES">
+                    <title>L’Histoire de l’art dans l’enseignement secondaire</title>
+                    <author><persName>Georges Perrot</persName></author>
+                    <date when="1900"/>
+                </bibl>
+
+                <bibl xml:id="SN">
+                    <title>Scienza nuova</title>
+                    <author><persName>Giambattista Vico</persName></author>
+                    <date when="1725"/>
+                </bibl>
+
+                <bibl xml:id="IGLR">
+                    <title>Introduction à la grammaire des langues romanes</title>
+                    <author><persName>Gaston Paris</persName></author>
+                    <date when="1863"/>
+                </bibl>
+
+                <bibl xml:id="RTF">
+                    <title>Recueil de textes français publiés pour les cours universitaires</title>
+                    <author><persName>Kristoffer Nyrop</persName></author>
+                    <date when="1895"/>
+                </bibl>
+
+                <bibl xml:id="FRNS">
+                    <title>Il prof. Federigo Diez e la filologia romanza nel nostro secolo</title>
+                    <author><persName>Ugo Angelo Canello</persName></author>
+                    <date when="1872"/>
+                </bibl>
+
+                <bibl xml:id="FD100">
+                    <title>Friedrich Diez, Festrede gehalten zur Feier des 100sten
+                        Geburtstages</title>
+                    <author><persName>Wendelin Foerster</persName></author>
+                    <date when="1894"/>
+                </bibl>
+
+                <bibl xml:id="EPL">
+                    <title>L'évolution de la poésie lyrique en France au XIXe siècle</title>
+                    <author><persName>Ferdinand-Vincent de Paul-Marie Brunetière</persName></author>
+                    <date when="1894"/>
+                </bibl>
+
+                <bibl xml:id="HPC">
+                    <title>Histoire poétique de Charlemagne</title>
+                    <author><persName>Gaston Paris</persName></author>
+                    <date when="1865"/>
+                </bibl>
+
+                <bibl xml:id="études">
+                    <title>Études sur quelques points d'archéologie et d'histoire littéraire</title>
+                    <author><persName>Édélestand Pontas Du Méril</persName></author>
+                    <date when="1862"/>
+                </bibl>
+
+                <bibl xml:id="commentarii">
+                    <title>Commentarii in Vergilii Aeneidos libros, Commentarii in Vergilii
+                        Bucolica, Commentarii in Vergilii Georgica</title>
+                    <author><persName>Servio Mario Onorato</persName></author>
+                </bibl>
+
+                <bibl xml:id="GSLDI">
+                    <title>Grammatica storica della lingua e dei dialetti italiani</title>
+                    <author><persName>Francesco D'Ovidio</persName></author>
+                    <author><persName>Wilhelm Meyer-Lübke</persName></author>
+                    <date when="1906"/>
+                </bibl>
+
+                <bibl xml:id="ILSA">
+                    <title>Inscriptionum latinarum selectarum amplissima collectio</title>
+                    <author><persName>Johann Caspar von Orelli</persName></author>
+                    <date when="1828"/>
+                </bibl>
+
+                <bibl xml:id="CURT">
+                    <title>Codex Urbis Romae tipographicus</title>
+                    <author><persName>Karl Ludwig Ulrichs</persName></author>
+                    <date when="1871"/>
+                </bibl>
+
+                <bibl xml:id="SM">
+                    <title>Menippearum saturarum libri CL</title>
+                    <author><persName>Marco Terenzio Varrone</persName></author>
+                </bibl>
+
+                <bibl xml:id="indoportoghese">
+                    <title>Indoportoghese</title> in <title>Il Propugnatore, Vol. V</title>
+                    <author><persName>Emilio Teza</persName></author>
+                    <date when="1872"/>
                 </bibl>
 
             </listBibl>
