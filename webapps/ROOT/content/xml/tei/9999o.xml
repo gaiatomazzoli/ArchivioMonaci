@@ -6,7 +6,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Edmund Stengel a Ernesto Monaci</title>
+                <title>Edmund Stengel a Ernesto Monaci (senza data)</title>
                 <editor role="transcription"><persName>Maria Spadoni</persName></editor>
                 <editor role="encoding"><persName>Francesca Romana Cacciatori</persName></editor>
             </titleStmt>
@@ -41,6 +41,7 @@
                 <correspAction type="sent">
                     <persName ref="#EMS">Edmund Stengel</persName>
                     <placeName ref="#germania">Germania</placeName>
+                    <date/>
                     <!--bollo postale illeggibile-->
                 </correspAction>
                 <correspAction type="received">
