@@ -976,7 +976,206 @@
                     <country>Italia</country>
                     <idno type="GeoNames">3173391</idno>
                 </place>
-
+                
+                <!-- Di Lauro  -->
+                
+                <place xml:id="aqui">
+                    <placeName>Aqui Terme</placeName>
+                    <country>Italia</country>
+                </place>
+                
+                <place xml:id="alatri">
+                    <placeName>Alatri</placeName>
+                    <country>Italia</country>
+                    <idno type="GeoNames">3183365</idno>
+                </place>
+                
+                <place xml:id="alessandria">
+                    <placeName>Alessandria</placeName>
+                    <country>Italia</country>
+                    <idno type="GeoNames">3183299</idno>
+                </place>	
+                
+                <place xml:id="anagni">
+                    <placeName>Anagni</placeName>
+                    <country>Italia</country>
+                    <idno type="GeoNames">3183098</idno>
+                </place>
+                
+                <place xml:id="fumone">
+                    <placeName>Fumone</placeName>
+                    <country>Italia</country>
+                    <idno type="GeoNames">3176486</idno>
+                </place>
+                
+                <place xml:id="acquapendente">
+                    <placeName>Acquapendente</placeName>
+                    <country>Italia</country>
+                    <idno type="GeoNames">3183516</idno>
+                </place>
+                
+                <place xml:id="civitavecchia">
+                    <placeName>Civitavecchia</placeName>
+                    <country>Italia</country>
+                    <idno type="GeoNames">3178587</idno>
+                </place>
+                
+                <place xml:id="fara">
+                    <placeName>Fara in Sabina</placeName>
+                    <country>Italia</country>
+                    <idno type="GeoNames">3177207</idno>
+                </place>
+                
+                <place xml:id="farfa">
+                    <placeName>Castelnuovo di Farfa</placeName>
+                    <country>Italia</country>
+                    <idno type="GeoNames">3179524</idno>
+                </place>
+                
+                <place xml:id="ferentino">
+                    <placeName>Ferentino</placeName>
+                    <country>Italia</country>
+                    <idno type="GeoNames">3177102</idno>
+                </place>
+                
+                <place xml:id="genzano">
+                    <placeName>Genzano</placeName>
+                    <country>Italia</country>
+                    <idno type="GeoNames">3176203</idno>
+                </place>
+                
+                <place xml:id="grottaferrata">
+                    <placeName>Grottaferrata</placeName>
+                    <country>Italia</country>
+                    <idno type="GeoNames">3175775</idno>
+                </place>
+                
+                <place xml:id="rieti">
+                    <placeName>Rieti</placeName>
+                    <country>Italia</country>
+                    <idno type="GeoNames">3169412</idno>
+                </place>
+                
+                <place xml:id="sezze">
+                    <placeName>Sezze</placeName>
+                    <country>Italia</country>
+                    <idno type="GeoNames">3166571</idno>
+                </place>
+                
+                <place xml:id="subiaco">
+                    <placeName>Subiaco</placeName>
+                    <country>Italia</country>
+                    <idno type="GeoNames">3166052</idno>
+                </place>
+                
+                <place xml:id="terni">
+                    <placeName>Terni</placeName>
+                    <country>Italia</country>
+                    <idno type="GeoNames">3165771</idno>
+                </place>
+                
+                <place xml:id="terracina">
+                    <placeName>Terracina</placeName>
+                    <country>Italia</country>
+                    <idno type="GeoNames">3165762</idno>
+                </place>
+                
+                <place xml:id="tivoli">
+                    <placeName>Tivoli</placeName>
+                    <country>Italia</country>
+                    <idno type="GeoNames">3165624</idno>
+                </place>
+                
+                <place xml:id="tuscania">
+                    <placeName>Tuscania</placeName>
+                    <country>Italia</country>
+                    <idno type="GeoNames">3165083</idno>
+                </place>
+                
+                <place xml:id="montefiascone">
+                    <placeName>Montefiascone</placeName>
+                    <country>Italia</country>
+                    <idno type="GeoNames">3172931</idno>
+                </place>
+                
+                <place xml:id="tuscolo">
+                    <placeName>Tuscolo</placeName>
+                    <country>Italia</country>
+                    <idno type="GeoNames">10376742</idno>
+                </place>
+                
+                <place xml:id="veroli">
+                    <placeName>Veroli</placeName>
+                    <country>Italia</country>
+                    <idno type="GeoNames">3164528</idno>
+                </place>
+                
+                <place xml:id="orvieto">
+                    <placeName>Orvieto</placeName>
+                    <country>Italia</country>
+                    <idno type="GeoNames">3171874</idno>
+                </place>
+                 
+                <place xml:id="vetralla">
+                    <placeName>Vetralla</placeName>
+                    <country>Italia</country>
+                    <idno type="GeoNames">3164472</idno>
+                </place>
+                
+                <place xml:id="bagnorea">
+                    <placeName>Valle di Bagnorea</placeName>
+                    <country>Italia</country>
+                    <idno type="GeoNames">3182495</idno>
+                </place>
+                
+                <place xml:id="sutri">
+                    <placeName>Sutri</placeName>
+                    <country>Italia</country>
+                    <idno type="GeoNames">3166010</idno>
+                </place>
+                
+                <place xml:id="nepi">
+                    <placeName>Nepi</placeName>
+                    <country>Italia</country>
+                    <idno type="GeoNames">3172322</idno>
+                </place>
+                
+                <place xml:id="velletri">
+                    <placeName>Velletri</placeName>
+                    <country>Italia</country>
+                    <idno type="GeoNames">3164630</idno>
+                </place>
+                
+                <place xml:id="marino">
+                    <placeName>Marino</placeName>
+                    <country>Italia</country>
+                    <idno type="GeoNames">3173914</idno>
+                </place>
+                
+                <place xml:id="cori">
+                    <placeName>Cori</placeName>
+                    <country>Italia</country>
+                    <idno type="GeoNames">3178099</idno>
+                </place>
+                
+                <place xml:id="carpineto">
+                    <placeName>Carpineto Romano</placeName>
+                    <country>Italia</country>
+                    <idno type="GeoNames">3180431</idno>
+                </place>
+                
+                <place xml:id="sgermano">
+                    <placeName>Piedimonte San Germano</placeName>
+                    <country>Italia</country>
+                    <idno type="GeoNames">3170842</idno>
+                </place>
+                
+                <place xml:id="corneto">
+                    <placeName>Tarquinia</placeName>
+                    <country>Italia</country>
+                    <idno type="GeoNames">3165919</idno>
+                </place>
+                
             </listPlace>
         </body>
     </text>
