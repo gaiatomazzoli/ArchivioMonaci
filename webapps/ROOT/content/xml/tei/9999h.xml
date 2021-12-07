@@ -44,7 +44,7 @@
                     <date/>
                 </correspAction>
                 <correspAction type="received">
-                    <persName ref="#">Ernesto Monaci</persName>
+                    <persName ref="#EM">Ernesto Monaci</persName>
                     <placeName ref="#sconosciuto">?</placeName>
                     <date/>
                 </correspAction>
