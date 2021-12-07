@@ -1459,6 +1459,185 @@
                     <author><persName>Emilio Teza</persName></author>
                     <date when="1872"/>
                 </bibl>
+                
+                <!-- Di Lauro -->
+                
+                <bibl xml:id="nouveautraité">
+                    <title>Nouveau traité de diplomatique</title>
+                    <author><persName>René-Prosper Tassin, Charles-François Toustain</persName></author>
+                    <date from="1750" to="1765"/>  
+                </bibl>
+                
+                <bibl xml:id="choix">
+                    <title>Choix de poésies originales des troubadours</title>
+                    <author><persName>François-Just-Marie Raynouard</persName></author>
+                    <date from="1816" to="1821"/>
+                </bibl>
+                
+                <bibl xml:id="ivanhoe">
+                    <title>Ivanhoe</title>
+                    <author><persName>Walter Scott</persName></author>
+                    <date when="1819"/>
+                </bibl>
+                
+                <bibl xml:id="racconti">
+                    <title> Racconti delle età merovingia </title>
+                    <author><persName> Jacques-Nicolas-Augustin Thierry</persName></author>
+                    <date when="1840"/>
+                </bibl>
+                
+                <bibl xml:id="disticha">
+                    <title>Disticha Catonis </title>
+                    <author><persName>Dionisio Catone</persName></author>
+                </bibl>
+                
+                <bibl xml:id="liber">
+                    <title>Liber Ystoriarum Romanorum </title>
+                    <date from="1252" to="1258"/>
+                </bibl>
+                
+                <bibl xml:id="conti">
+                    <title> Conti di antichi cavalieri</title>
+                </bibl>
+                
+                <bibl xml:id="miracole">
+                    <title> Miracole de Roma</title>
+                </bibl>
+                
+                <bibl xml:id="nepesino">
+                    <title>Diario Nepesino</title>
+                    <author><persName>Antonio Lottieri</persName></author>
+                    <date from="1459" to="1468"/>
+                </bibl>
+                
+                <bibl xml:id="viterbesi">
+                    <title>Cronache e statuti della città di Viterbo</title>
+                    <author><persName>Ignazio Ciampi</persName></author>
+                    <date when="1872"/>
+                </bibl>
+                
+                <bibl xml:id="tractati">
+                    <title>Tractati della vita e delli visioni di Santa Francesca Romana</title>
+                    <author><persName>Giovanni Mattiotti</persName></author>
+                    <date when="1140" precision="low"/> 
+                </bibl>
+                
+                <bibl xml:id="diesirae">
+                    <title>Il "Dies irae" e l'innologia ascetica nel sec. III</title>
+                    <author><persName>Filippo Ermini</persName></author>
+                    <date when="1928"/>
+                </bibl>
+                
+                <bibl xml:id="istoriaanagni">
+                    <title>Istoria della città e S. basilica cattedrale d’Anagni</title>
+                    <author><persName>Alessandro De Magistris</persName></author>
+                    <date when="1749"/>
+                </bibl>
+                
+                <bibl xml:id="regestofarfa">
+                    <title>Il Regesto di Farfa</title>
+                    <author><persName>Gregorio da Catino</persName></author>
+                    <date from="1879" to="1914"/>
+                </bibl>
+                
+                <bibl xml:id="largitorius">
+                    <title>Liber largitorius, vel notarius monasterii Pharphensis</title>
+                    <author><persName>Gregorio da Catino</persName></author>
+                    <date when="1107"/>
+                </bibl>
+                
+                <bibl xml:id="floriger">
+                    <title>Il Liber floriger di Gregorio di Catino</title>
+                    <author><persName>Gregorio da Catino</persName></author>
+                    <date when="1130"/>
+                </bibl>
+                
+                <bibl xml:id="storiagenzano">
+                    <title>Storia di Genzano: con note e documenti</title>
+                    <author><persName>Nicola Ratti</persName></author>
+                    <date when="1797"/>
+                </bibl>
+                
+                <bibl xml:id="instauratio">
+                    <title>Instauratio Tabularii Majoris Templi Reatini</title>
+                    <author><persName>Gabriel Naudè</persName></author>
+                    <date when="1640"/>
+                </bibl>
+                
+                <bibl xml:id="chieserieti">
+                    <title>Memorie di tre antiche chiese di Rieti denominate S. Michele Arcangelo al Ponte, Sant'Agata alla Rocca, e San Giacomo</title>
+                    <author><persName>Pierluigi Galletti</persName></author>
+                    <date when="1765"/>
+                </bibl>
+                
+                <bibl xml:id="historiasetiae">
+                    <title>Historia diplomatica cathedrae episcopalis civitatis Setiae in Latio cum appendice monumentorum</title>
+                    <author><persName>Dominicus Georgius</persName></author>
+                    <date when="1757"/>
+                </bibl>
+                
+                <bibl xml:id="regsublacense">
+                    <title>Regesto Sublacense</title>
+                    <author><persName>L. Allodi, G. Levi</persName></author>
+                    <date when="1885"/>
+                </bibl>
+                
+                <bibl xml:id="terracinensi">
+                    <title>De Historia Terracinensi</title>
+                    <author><persName>Domenico Antonio Contatore</persName></author>
+                    <date when="1742"/>
+                </bibl>
+                
+                <bibl xml:id="memorietuscania">
+                    <title>Memorie storiche della città di Tuscania</title>
+                    <author><persName>Francesco Antonio Turriozzi</persName></author>
+                    <date when="1778"/>
+                </bibl>
+                
+                <bibl xml:id="tuscaniamonumenti">
+                    <title>Tuscania e i suoi monumenti</title>
+                    <author><persName>Secondiano Campanari</persName></author>
+                    <date when="1856"/>
+                </bibl>
+                
+                <bibl xml:id="cronica">
+                    <title>Cronica di Anonimo romano</title>
+                    <date from="1357" to="1360"/>
+                </bibl>
+                
+                <bibl xml:id="amorpatrio">
+                    <title>Dell'amor patrio di Dante e del suo libro intorno al volgare eloquio</title>
+                    <author><persName>Giulio Perticari</persName></author>
+                    <date when="1820"/>
+                </bibl>
+                
+                <bibl xml:id="dialettoalatrino">
+                    <title>Saggio di studi etimologici comparati sopra alcune voci del dialetto alatrino</title>
+                    <author><persName>Alessandro Avoli</persName></author>
+                    <date when="1881"/>
+                </bibl>
+                
+                <bibl xml:id="vocalismoalatri">
+                    <title>Il vocalismo nel dialetto di Alatri</title>
+                    <author><persName>Luigi Ceci</persName></author>
+                    <date when="1886"/>
+                </bibl>
+                
+                <bibl xml:id="ritmocassinese">
+                    <title>Ritmo Cassinese</title>
+                    <date notBefore="1100" notAfter="1199"/>
+                </bibl>
+                
+                <bibl xml:id="cronacafrate">
+                    <title>Cronaca inedita di Frate Francesco di Andrea da Viterbo</title>
+                    <author><persName>Frate Francesco di Andrea</persName></author>
+                    <date when="1888"/>
+                </bibl>
+                
+                <bibl xml:id="ArchMU">
+                    <title>Archivio storico per le Marche e per l'Umbria</title>
+                    <date when="1888"/>
+                </bibl>
 
             </listBibl>
         </body>
